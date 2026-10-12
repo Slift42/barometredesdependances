@@ -43,6 +43,15 @@ Les fiches se modifient dans `site\data\produits.json` (format décrit dans le R
    Suivi : github.com → dépôt → onglet **Actions**. Coche verte = réussi. Le robot repasse ensuite chaque matin vers 9 h.
 4. Double-cliquer sur **`publier.bat`** pour récupérer sur le PC les données enregistrées par le robot.
 
+## 3 bis. Résumés automatiques des actus (facultatif)
+
+Le robot de veille lit chaque matin des flux de presse et d'instituts et garde les articles qui touchent un des 100 produits. Ils apparaissent dans « Actus » avec la mention **à vérifier**.
+Pour qu'il ajoute une phrase de résumé (comme sur Angor), donner une clé d'API Anthropic :
+```
+gh secret set ANTHROPIC_API_KEY
+```
+Au plus 12 résumés par jour. Sans clé, la veille fonctionne quand même, sans résumé.
+
 ## 4. Travailler au quotidien
 
 Claude modifie les fichiers sur ton PC → tu vérifies dans le navigateur (Go Live) → double-clic sur **`publier.bat`**.

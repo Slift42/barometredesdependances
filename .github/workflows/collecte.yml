@@ -2,28 +2,53 @@ name: Collecte des données
 
 on:
   schedule:
-    - cron: "17 7 * * *"   # tous les jours vers 9 h (Paris), après publication AGSI+
+    - cron: "17 7 * * *"    # chaque matin vers 9 h (Paris) : gaz, électricité, veille
+    - cron: "41 5 * * 1"    # chaque lundi : vérification des liens de la bibliothèque
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
+concurrency:
+  group: collecte
+  cancel-in-progress: false
+
 jobs:
   collecte:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Stocks de gaz (AGSI+)
         env:
           AGSI_API_KEY: ${{ secrets.AGSI_API_KEY }}
-        run: python3 collectors/agsi_gaz.py
+        run: python3 collectors/agsi_gaz.py || echo "::warning::collecte AGSI+ en échec"
+
+      - name: Échanges d'électricité (RTE éCO2mix)
+        run: python3 collectors/rte_electricite.py || echo "::warning::collecte RTE en échec"
+
+      - name: Veille des actualités
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          VEILLE_MAX_IA: "12"
+        run: python3 collectors/veille_actus.py || echo "::warning::veille en échec"
+
+      - name: Vérification des liens (le lundi ou à la demande)
+        if: github.event.schedule == '41 5 * * 1' || github.event_name == 'workflow_dispatch'
+        run: python3 tools/verifier_sources.py || echo "::warning::vérification des liens en échec"
+
+      - name: Contrôle de cohérence des données
+        run: python3 tools/verifier_donnees.py
+
       - name: Enregistrer les nouvelles données
         run: |
           git config user.name "barometre-bot"
           git config user.email "bot@barometredesdependances.com"
           git add site/data/live
           git diff --cached --quiet || git commit -m "Données : collecte du $(date -u +%F)"
+          git pull --rebase --autostash
           git push

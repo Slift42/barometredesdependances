@@ -1,0 +1,49 @@
+{
+ "titre": "Zoom sur nos armées",
+ "intro": "La mission parlementaire d'avril 2026 a dressé la liste de ce qui manque à nos forces. Ce ne sont pas des produits qu'on achète au supermarché, mais ce sont des robinets.",
+ "refs": [
+  "an-armees-2026"
+ ],
+ "items": [
+  {
+   "quoi": "Munitions de petit calibre",
+   "constat": "Dernier fabricant français fermé en 1999 ; cartouches de 5,56 mm achetées en grande partie à Israël.",
+   "lv": 5
+  },
+  {
+   "quoi": "Fusil d'assaut",
+   "constat": "L'usine du FAMAS a fermé en 2001 ; il est remplacé par le HK416 allemand.",
+   "lv": 4
+  },
+  {
+   "quoi": "Drone de moyenne altitude",
+   "constat": "Un seul modèle en service : le Reaper américain.",
+   "lv": 5
+  },
+  {
+   "quoi": "Catapultes du porte-avions",
+   "constat": "Américaines sur le Charles-de-Gaulle, et encore sur le futur porte-avions de 2038.",
+   "lv": 5
+  },
+  {
+   "quoi": "Satellites d'alerte et de renseignement",
+   "constat": "Dépendance partielle ou totale aux satellites américains ; OneWeb compte environ 650 satellites contre 10 000 pour Starlink.",
+   "lv": 4
+  },
+  {
+   "quoi": "Informatique du ministère",
+   "constat": "85 % des achats de matériel auprès de dix fournisseurs étrangers ; accord-cadre Microsoft depuis 2008.",
+   "lv": 5
+  },
+  {
+   "quoi": "Lance-roquettes unitaires",
+   "constat": "Fin de vie en 2027, aucun successeur français ; un système indien est à l'étude.",
+   "lv": 4
+  },
+  {
+   "quoi": "Renseignement intérieur",
+   "constat": "Contrat de la DGSI avec l'américain Palantir.",
+   "lv": 4
+  }
+ ]
+}

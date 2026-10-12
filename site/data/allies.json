@@ -14,7 +14,7 @@
   "domaine": "Avions de combat",
   "sens": "contre-exemple",
   "comportement": "L'Espagne renonce au F-35 en août 2025 et mise sur l'Eurofighter et le SCAF, au nom de l'autonomie stratégique.",
-  "cout": "Prouve qu'un choix européen est possible pour un pays de l'OTAN.",
+  "cout": "Membre de l'OTAN, et libre d'acheter européen : c'est donc possible.",
   "refs": [
    "unav-2025"
   ]
@@ -23,7 +23,7 @@
   "domaine": "Défense antiaérienne",
   "sens": "dependance",
   "comportement": "Le bouclier antimissile lancé par l'Allemagne (17 pays au départ) achète le Patriot américain et l'Arrow 3 israélo-américain, et écarte le SAMP/T franco-italien.",
-  "cout": "Les budgets de réarmement européens financent l'industrie américaine.",
+  "cout": "On réarme l'Europe avec l'argent des Européens, et ce sont les usines américaines qui tournent.",
   "refs": [
    "osw-2023"
   ]
@@ -41,7 +41,7 @@
   "domaine": "Armement en général",
   "sens": "dependance",
   "comportement": "78 % des équipements achetés par les États membres depuis 2022 viennent de l'extérieur de l'UE, majoritairement des États-Unis.",
-  "cout": "L'effort de réarmement européen consolide l'industrie américaine plutôt que l'européenne.",
+  "cout": "L'Europe paie son réarmement ; l'Amérique encaisse les commandes.",
   "refs": [
    "iris-2023"
   ]
@@ -50,7 +50,7 @@
   "domaine": "Nucléaire civil",
   "sens": "dependance",
   "comportement": "La Tchéquie signe en 2025 avec le coréen KHNP pour deux réacteurs à Dukovany (18 Md$), malgré les recours d'EDF.",
-  "cout": "La filière nucléaire européenne perd un marché majeur sur son propre continent.",
+  "cout": "La filière nucléaire européenne perd, chez elle, un marché de 18 milliards de dollars.",
   "refs": [
    "p-dukovany-2025"
   ]
@@ -69,7 +69,7 @@
   "domaine": "Énergie",
   "sens": "dependance",
   "comportement": "Les pays européens ont remplacé le gaz russe par le GNL américain (57 % des importations de GNL en 2025) et l'UE s'est engagée à 750 Md$ d'achats d'énergie américaine.",
-  "cout": "Une dépendance remplacée par une autre, à un prix plus élevé.",
+  "cout": "On a changé de robinet, pas de dépendance. Et on le paie plus cher.",
   "refs": [
    "ieefa-2026",
    "gmf-2025"
@@ -89,7 +89,7 @@
   "domaine": "Numérique",
   "sens": "contre-exemple",
   "comportement": "Visée par des sanctions américaines, la Cour pénale internationale quitte Microsoft pour la suite européenne openDesk.",
-  "cout": "Montre que la sortie est techniquement possible quand le risque devient concret.",
+  "cout": "La preuve qu'on peut sortir de Microsoft. Il a suffi que le risque devienne réel.",
   "refs": [
    "p-cpi-2025"
   ]

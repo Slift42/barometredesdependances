@@ -1,0 +1,243 @@
+[
+ {
+  "d": "2026-10-09",
+  "titre": "Terres rares : Pékin promet un « canal vert », mais garde la main",
+  "texte": "Après deux jours de négociation à Pékin, la Chine promet d'accélérer les licences d'exportation de terres rares et d'aimants pour les Européens, et de diviser par deux ses exportations de voitures hybrides. Chaque licence reste soumise à son accord. Les contrôles d'octobre 2025 restent suspendus jusqu'au 10 novembre.",
+  "produits": [
+   "aimants",
+   "tr-lourdes",
+   "tr-legeres"
+  ],
+  "effet": "surveille",
+  "refs": [
+   "p-ue-chine-2026"
+  ]
+ },
+ {
+  "d": "2026-10-09",
+  "titre": "Bruxelles retient 46 nouveaux projets de matières critiques",
+  "texte": "Quarante-six projets dans seize pays, pour quinze des dix-sept matières stratégiques. On en compte 106 depuis 2025. C'est utile, mais une mine met dix à quinze ans à ouvrir en Europe.",
+  "produits": [
+   "lithium",
+   "cobalt",
+   "nickel",
+   "tr-legeres",
+   "magnesium",
+   "tungstene"
+  ],
+  "effet": "ameliore",
+  "refs": [
+   "ce-projets-2026",
+   "cce-crm-2026"
+  ]
+ },
+ {
+  "d": "2026-10-08",
+  "titre": "Gaz : les stocks français remplis à 86 %",
+  "texte": "À l'entrée de l'hiver, les stockages français contiennent 106,6 TWh. De quoi tenir une centaine de jours au rythme moyen, deux fois moins par grand froid.",
+  "produits": [
+   "gaz"
+  ],
+  "effet": "surveille",
+  "refs": [
+   "agsi"
+  ]
+ },
+ {
+  "d": "2026-09-30",
+  "titre": "La Commission prépare un paquet contre les dépendances",
+  "texte": "Bruxelles ouvre une consultation de quatre semaines sur ce qui empêche les entreprises de diversifier leurs fournisseurs, avant un paquet de mesures pour les secteurs critiques.",
+  "produits": [],
+  "effet": "ameliore",
+  "refs": [
+   "p-consultation-2026"
+  ]
+ },
+ {
+  "d": "2026-09-28",
+  "titre": "Médicaments : 181 en difficulté, 46 en rupture",
+  "texte": "Le registre de l'ANSM compte 181 médicaments en difficulté d'approvisionnement fin septembre, contre 190 fin août. La décrue est lente.",
+  "produits": [
+   "paracetamol",
+   "amoxicilline",
+   "corticoides",
+   "ceftriaxone",
+   "anticancereux"
+  ],
+  "effet": "surveille",
+  "refs": [
+   "p-ansm-sept-2026",
+   "ansm-2025"
+  ]
+ },
+ {
+  "d": "2026-08-15",
+  "titre": "Cloud : SecNumCloud devient obligatoire pour les données sensibles de l'État",
+  "texte": "Un arrêté du 12 août impose aux administrations de confier leurs données les plus sensibles à des clouds qualifiés par l'ANSSI. Les projets en cours ont dix-huit mois pour se mettre en règle.",
+  "produits": [
+   "cloud",
+   "bureautique"
+  ],
+  "effet": "ameliore",
+  "refs": [
+   "p-secnumcloud-2026"
+  ]
+ },
+ {
+  "d": "2026-08-10",
+  "titre": "Munitions : la France va refaire des cartouches, en 2029",
+  "texte": "La DGA retient FN Browning pour une usine dans la Drôme, 75 millions de cartouches par an. Trente ans après la fermeture du dernier fabricant français.",
+  "produits": [
+   "petit-calibre"
+  ],
+  "effet": "ameliore",
+  "refs": [
+   "p-fn-2026",
+   "an-armees-2026"
+  ]
+ },
+ {
+  "d": "2026-07-24",
+  "titre": "Le levier européen sur la Chine fond chaque année",
+  "texte": "Le MERICS compte 110 catégories de produits pour lesquelles la Chine dépend encore de l'Europe, contre 225 en 2000. Il appelle à s'en servir tant qu'il en est temps.",
+  "produits": [],
+  "effet": "surveille",
+  "refs": [
+   "merics-levier-2026"
+  ]
+ },
+ {
+  "d": "2026-07-16",
+  "titre": "AIE : la Chine raffine encore 85 % des terres rares",
+  "texte": "Le rapport annuel de l'Agence internationale de l'énergie note un léger recul, de plus de 90 % à 85 %. Les projets hors de Chine ne couvriront qu'un tiers des besoins en aimants en 2035.",
+  "produits": [
+   "tr-lourdes",
+   "tr-legeres",
+   "aimants"
+  ],
+  "effet": "surveille",
+  "refs": [
+   "aie-gcmo-2026"
+  ]
+ },
+ {
+  "d": "2026-07-15",
+  "titre": "Numérique : l'Assemblée publie son rapport sur nos vulnérabilités",
+  "texte": "Pour le directeur de l'ANSSI, six mois sans technologies ni mises à jour américaines seraient une situation « intenable ».",
+  "produits": [
+   "cloud",
+   "bureautique",
+   "os-postes"
+  ],
+  "effet": "aggrave",
+  "refs": [
+   "an-chatelain-2026"
+  ]
+ },
+ {
+  "d": "2026-07-08",
+  "titre": "ANSM : 3 887 signalements de ruptures en 2025",
+  "texte": "Le rapport d'activité de l'agence du médicament confirme un niveau très élevé de ruptures et de risques de rupture.",
+  "produits": [
+   "paracetamol",
+   "amoxicilline",
+   "heparine"
+  ],
+  "effet": "surveille",
+  "refs": [
+   "ansm-2025"
+  ]
+ },
+ {
+  "d": "2026-06-01",
+  "titre": "Carburants : plus de la moitié du gazole est importé",
+  "texte": "Le bilan annuel de la filière confirme la dépendance aux importations de gazole et de kérosène depuis les fermetures de raffineries.",
+  "produits": [
+   "gazole",
+   "kerosene"
+  ],
+  "effet": "surveille",
+  "refs": [
+   "em-2026"
+  ]
+ },
+ {
+  "d": "2026-05-27",
+  "titre": "Extraterritorialité : près de 14 Md$ d'amendes pour les entreprises françaises",
+  "texte": "Un rapport de l'Assemblée chiffre ce que la justice américaine a pris aux entreprises françaises depuis 2010, et demande d'étendre le règlement européen de blocage au Cloud Act.",
+  "produits": [
+   "cloud"
+  ],
+  "effet": "aggrave",
+  "refs": [
+   "an-tache-2026"
+  ]
+ },
+ {
+  "d": "2026-04-01",
+  "titre": "Armées : la liste de nos dépendances",
+  "texte": "La mission parlementaire sur les dépendances militaires recense les angles morts : cartouches, drones, catapultes du porte-avions, informatique.",
+  "produits": [
+   "petit-calibre",
+   "drones",
+   "electronique-def",
+   "os-postes"
+  ],
+  "effet": "aggrave",
+  "refs": [
+   "an-armees-2026"
+  ]
+ },
+ {
+  "d": "2026-02-02",
+  "titre": "Matières critiques : la Cour des comptes européenne tire la sonnette d'alarme",
+  "texte": "Dépendance totale pour dix matières, transformation des terres rares à 100 % hors d'Europe, objectifs de 2030 hors d'atteinte.",
+  "produits": [
+   "tr-lourdes",
+   "magnesium",
+   "gallium",
+   "lithium"
+  ],
+  "effet": "aggrave",
+  "refs": [
+   "cce-crm-2026"
+  ]
+ },
+ {
+  "d": "2026-01-26",
+  "titre": "Le gaz russe sera interdit dans l'UE d'ici fin 2027",
+  "texte": "Le Conseil adopte le règlement de sortie progressive : gazoduc début 2027, GNL à l'automne 2027.",
+  "produits": [
+   "gaz"
+  ],
+  "effet": "ameliore",
+  "refs": [
+   "p-gaz-ue-2026"
+  ]
+ },
+ {
+  "d": "2026-01-19",
+  "titre": "GNL : l'Europe a changé de fournisseur, pas de dépendance",
+  "texte": "Selon l'IEEFA, les États-Unis ont fourni 57 % du GNL européen en 2025, et pourraient atteindre 80 % en 2030.",
+  "produits": [
+   "gaz"
+  ],
+  "effet": "aggrave",
+  "refs": [
+   "ieefa-2026"
+  ]
+ },
+ {
+  "d": "2025-12-17",
+  "titre": "Sénat : « la relation entre l'Union européenne et la Chine s'est inversée »",
+  "texte": "Le rapport sénatorial sur le commerce international constate que l'Europe dépend désormais de la Chine plus que l'inverse, et que les droits américains ont fait chuter d'un quart les ventes françaises d'acier.",
+  "produits": [
+   "acier",
+   "pv"
+  ],
+  "effet": "aggrave",
+  "refs": [
+   "senat-commerce-2025"
+  ]
+ }
+]

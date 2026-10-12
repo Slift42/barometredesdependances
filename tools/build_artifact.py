@@ -11,7 +11,9 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
-FILES = ["meta", "produits", "matrice", "vigie", "atouts", "sources", "propositions", "bibliographie", "kii", "europe", "allies", "strategies"]
+FILES = ["meta", "produits", "matrice", "atouts", "sources", "propositions", "bibliographie", "kii", "europe", "allies", "strategies",
+         "chaines", "actus", "echeances", "zoom_armees"]
+LIVE = ["gaz", "electricite", "actus_auto", "veille_etat", "sources_etat"]
 
 
 def between(text, start, end):
@@ -30,9 +32,10 @@ def main():
 
     data = {f: json.loads((SITE / "data" / f"{f}.json").read_text(encoding="utf-8")) for f in FILES}
     data["live"] = {}
-    gaz = SITE / "data" / "live" / "gaz.json"
-    if gaz.exists():
-        data["live"]["gaz"] = json.loads(gaz.read_text(encoding="utf-8"))
+    for f in LIVE:  # données collectées par les robots, si elles existent déjà
+        chemin = SITE / "data" / "live" / f"{f}.json"
+        if chemin.exists():
+            data["live"][f] = json.loads(chemin.read_text(encoding="utf-8"))
     payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
 
     page = "\n".join([

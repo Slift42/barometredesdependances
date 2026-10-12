@@ -1,0 +1,46 @@
+[
+ {
+  "d": "2026-11-10",
+  "titre": "Fin de la suspension des contrôles chinois sur les terres rares",
+  "detail": "Prolongation, rétablissement partiel ou total ?",
+  "refs": [
+   "p-mining-2026",
+   "p-ue-chine-2026"
+  ]
+ },
+ {
+  "d": "2027-01-15",
+  "titre": "Rendez-vous commercial UE-Chine en visioconférence",
+  "detail": "Annoncé pour janvier 2027 ; date exacte non publiée.",
+  "refs": [
+   "p-ue-chine-2026"
+  ],
+  "approx": true
+ },
+ {
+  "d": "2027-02-15",
+  "titre": "Fin de la dérogation SecNumCloud pour les projets en cours",
+  "detail": "Dix-huit mois après l'arrêté du 12 août 2026 (calcul).",
+  "refs": [
+   "p-secnumcloud-2026"
+  ]
+ },
+ {
+  "d": "2027-10-01",
+  "titre": "Interdiction du GNL russe dans l'UE",
+  "detail": "Automne 2027 selon le règlement adopté en janvier 2026.",
+  "refs": [
+   "p-gaz-ue-2026"
+  ],
+  "approx": true
+ },
+ {
+  "d": "2029-01-01",
+  "titre": "Première production française de cartouches depuis 1999",
+  "detail": "Usine FN Browning de Clérieux (Drôme).",
+  "refs": [
+   "p-fn-2026"
+  ],
+  "approx": true
+ }
+]

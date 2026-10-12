@@ -40,7 +40,8 @@
    "senat-penuries-2023",
    "pwc-leem-2021",
    "ansm-2025"
-  ]
+  ],
+  "gens": "La boîte de Doliprane de la pharmacie du coin dépend d'une usine en Asie."
  },
  {
   "id": "amoxicilline",
@@ -80,7 +81,8 @@
    "decret-2021-349",
    "senat-penuries-2023",
    "ansm-2025"
-  ]
+  ],
+  "gens": "L'hiver, c'est l'antibiotique des otites d'enfants. En 2022, des parents ont fait cinq pharmacies pour en trouver."
  },
  {
   "id": "heparine",
@@ -112,7 +114,8 @@
   "refs": [
    "decret-2021-349",
    "senat-penuries-2023"
-  ]
+  ],
+  "gens": "Chaque patient opéré ou alité en reçoit pour éviter la phlébite."
  },
  {
   "id": "insuline",
@@ -141,63 +144,328 @@
   "pourquoi": "La production sur le sol français (Chartres, Sanofi) assure une tenue longue, estimée au-delà d'un an. La dépendance porte sur le capital : les décisions d'investissement et de répartition en crise se prennent hors de France.",
   "refs": [
    "note-kii"
-  ]
+  ],
+  "gens": "Des centaines de milliers de diabétiques en dépendent chaque jour."
  },
  {
   "id": "corticoides",
   "n": "Corticoïdes",
-  "f": "sante"
+  "f": "sante",
+  "d": 60,
+  "k": "src",
+  "h": [
+   "CN",
+   "IN"
+  ],
+  "l": 0,
+  "m": "test",
+  "dep": "Principes actifs largement fabriqués en Asie.",
+  "conc": "60 à 80 % des principes actifs pharmaceutiques viennent de Chine et d'Inde (PwC pour le LEEM).",
+  "src": "Décret n° 2021-349 (stock de sécurité de 2 mois)",
+  "pourquoi": "Médicament d'intérêt thérapeutique majeur : la loi impose deux mois de stock, pas plus. La molécule vient d'Asie, comme la plupart des génériques anciens.",
+  "refs": [
+   "decret-2021-349",
+   "pwc-leem-2021",
+   "senat-penuries-2023"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Italie",
+     "Espagne"
+    ],
+    "txt": "Réserver des capacités de principes actifs chez nos voisins, qui ont gardé une chimie pharmaceutique."
+   }
+  ],
+  "gens": "La cortisone de l'asthmatique ou du malade de polyarthrite ne peut pas attendre."
  },
  {
   "id": "ceftriaxone",
   "n": "Ceftriaxone injectable",
-  "f": "sante"
+  "f": "sante",
+  "d": 60,
+  "k": "src",
+  "h": [
+   "CN",
+   "IN"
+  ],
+  "l": 0,
+  "m": "test",
+  "dep": "Antibiotique injectable de l'hôpital, principe actif importé.",
+  "conc": "Chaîne des antibiotiques concentrée en Asie, à l'exception de rares sites européens.",
+  "src": "Décret n° 2021-349",
+  "pourquoi": "Plancher légal de deux mois. Les antibiotiques forment l'une des classes les plus touchées par les ruptures, selon la commission d'enquête du Sénat.",
+  "refs": [
+   "decret-2021-349",
+   "senat-penuries-2023",
+   "ansm-2025"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Autriche",
+     "Italie",
+     "Espagne"
+    ],
+    "txt": "Un achat européen groupé pour faire vivre les derniers sites d'antibiotiques du continent."
+   }
+  ],
+  "gens": "L'antibiotique des urgences pour les infections graves."
  },
  {
   "id": "anticancereux",
   "n": "Anticancéreux génériques",
-  "f": "sante"
+  "f": "sante",
+  "d": 60,
+  "k": "src",
+  "h": [
+   "IN",
+   "CN"
+  ],
+  "l": 0,
+  "m": "test",
+  "dep": "Vieux anticancéreux génériques, peu rentables, fabriqués loin.",
+  "conc": "Production concentrée chez quelques fabricants de génériques en Asie.",
+  "src": "Décret n° 2021-349",
+  "pourquoi": "Le Sénat a montré que ce sont les médicaments anciens et bon marché qui manquent le plus : personne ne gagne d'argent à les fabriquer en Europe. Deux mois de stock légal.",
+  "refs": [
+   "decret-2021-349",
+   "senat-penuries-2023"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Italie",
+     "Espagne",
+     "Portugal"
+    ],
+    "txt": "Contrats publics de long terme, à prix garanti, pour qu'au moins deux sites européens produisent chaque molécule."
+   }
+  ],
+  "gens": "Une chimiothérapie qu'on décale faute de produit, c'est une chance de guérir qui recule."
  },
  {
   "id": "morphine",
   "n": "Morphine et opioïdes",
-  "f": "sante"
+  "f": "sante",
+  "d": 60,
+  "k": "src",
+  "h": [
+   "DIV"
+  ],
+  "l": 0,
+  "m": "test",
+  "dep": "Antalgiques majeurs issus du pavot, chaîne d'approvisionnement à documenter.",
+  "conc": "À chiffrer.",
+  "src": "Décret n° 2021-349",
+  "pourquoi": "Plancher légal de deux mois. L'origine des matières premières reste à instruire avant d'aller plus loin.",
+  "refs": [
+   "decret-2021-349"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Espagne",
+     "Australie"
+    ],
+    "txt": "Diversifier les sources de matière première pharmaceutique, sous contrôle public."
+   }
+  ],
+  "gens": "Ce qui soulage les malades en fin de vie et les grands blessés."
  },
  {
   "id": "anesthesiques",
   "n": "Anesthésiques",
-  "f": "sante"
+  "f": "sante",
+  "d": 60,
+  "k": "src",
+  "h": [
+   "DIV"
+  ],
+  "l": 0,
+  "m": "test",
+  "dep": "Anesthésiques et curares de bloc opératoire, fournisseurs peu nombreux.",
+  "conc": "Quelques fabricants mondiaux.",
+  "src": "Décret n° 2021-349",
+  "pourquoi": "Plancher légal de deux mois. Sans eux, les blocs opératoires s'arrêtent : une rupture se voit tout de suite dans les programmes chirurgicaux.",
+  "refs": [
+   "decret-2021-349",
+   "ansm-2025"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Allemagne",
+     "Italie"
+    ],
+    "txt": "Mutualiser des stocks européens de crise pour les produits de bloc."
+   }
+  ],
+  "gens": "Sans eux, pas d'opération programmée."
  },
  {
   "id": "vaccins",
   "n": "Vaccins",
-  "f": "sante"
+  "f": "sante",
+  "d": 180,
+  "k": "est",
+  "h": [
+   "FR",
+   "US"
+  ],
+  "l": 1,
+  "m": "lpi",
+  "dep": "Vaccins classiques produits en France ; dépendance aux technologies ARN messager étrangères.",
+  "conc": "Quelques groupes mondiaux.",
+  "src": "Estimation de travail",
+  "note": "Pendant le Covid, les doses ont d'abord servi les pays producteurs : l'annexe KII parle de « réquisition » américaine.",
+  "pourquoi": "Les vaccins classiques sortent d'usines françaises, d'où une tenue estimée à six mois. Mais pour l'ARN messager, la France a laissé filer la technologie. Prise structurelle.",
+  "refs": [
+   "note-kii"
+  ],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Allemagne",
+     "Belgique"
+    ],
+    "txt": "Une filière européenne de l'ARN messager, avec réservation de capacités en cas de pandémie."
+   }
+  ],
+  "gens": "La prochaine pandémie se jouera sur qui produit les doses."
  },
  {
   "id": "solutes",
   "n": "Solutés de perfusion",
-  "f": "sante"
+  "f": "sante",
+  "d": 60,
+  "k": "est",
+  "h": [
+   "EU",
+   "US"
+  ],
+  "l": 0,
+  "m": "test",
+  "dep": "Poches de perfusion fabriquées par quelques industriels en Europe.",
+  "conc": "Trois ou quatre fabricants pour toute l'Europe.",
+  "src": "Estimation de travail ; EMA",
+  "pourquoi": "L'Agence européenne du médicament a signalé une pénurie européenne de solutés en 2025. Les fabricants sont peu nombreux : un incident d'usine suffit. Estimation de 60 jours.",
+  "refs": [
+   "ema-perfusion-2025"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Belgique",
+     "Allemagne",
+     "Espagne"
+    ],
+    "txt": "Au moins trois sites européens qualifiés par produit, et un stock de crise partagé."
+   }
+  ],
+  "gens": "La poche de perfusion accrochée au-dessus de chaque lit d'hôpital."
  },
  {
   "id": "ffp2",
   "n": "Masques FFP2",
-  "f": "sante"
+  "f": "sante",
+  "d": 90,
+  "k": "est",
+  "h": [
+   "CN"
+  ],
+  "l": 1,
+  "m": "lpi",
+  "dep": "Production nationale relancée en 2020, mais l'essentiel reste importé de Chine.",
+  "conc": "La Chine domine la production mondiale.",
+  "src": "Estimation de travail",
+  "note": "En 2020, la France a découvert qu'elle ne savait plus fabriquer un masque en quantité.",
+  "pourquoi": "Un stock d'État existe mais sa profondeur n'est pas publique. Au printemps 2020, les pays producteurs ont gardé leurs masques : prise structurelle, estimation de 90 jours.",
+  "refs": [
+   "note-kii"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "France",
+     "Espagne",
+     "Italie"
+    ],
+    "txt": "Commande publique pluriannuelle aux usines européennes pour qu'elles ne ferment pas entre deux crises."
+   }
+  ],
+  "gens": "Au printemps 2020, les soignants les fabriquaient eux-mêmes."
  },
  {
   "id": "seringues",
   "n": "Seringues et cathéters",
-  "f": "sante"
+  "f": "sante",
+  "d": 120,
+  "k": "est",
+  "h": [
+   "US",
+   "EU"
+  ],
+  "l": 0,
+  "m": "test",
+  "dep": "Dispositifs médicaux de base, fabricants européens et américains.",
+  "conc": "Quelques groupes mondiaux.",
+  "src": "Estimation de travail",
+  "pourquoi": "Des usines existent en Europe, ce qui laisse quelques mois. La dépendance porte surtout sur le capital : les centres de décision sont américains.",
+  "refs": [],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Allemagne",
+     "Irlande"
+    ],
+    "txt": "Garder plusieurs sites européens qualifiés par la commande hospitalière."
+   }
+  ],
+  "gens": "Une seringue manquante, c'est un vaccin ou un soin qui attend."
  },
  {
   "id": "reactifs",
   "n": "Réactifs de diagnostic",
-  "f": "sante"
+  "f": "sante",
+  "d": 90,
+  "k": "est",
+  "h": [
+   "US",
+   "FR"
+  ],
+  "l": 0,
+  "m": "atout",
+  "dep": "Réactifs et automates de laboratoire, en partie français (bioMérieux).",
+  "conc": "Quelques groupes mondiaux, dont un français.",
+  "src": "Estimation de travail",
+  "pourquoi": "La France a un champion du diagnostic, mais les tests du Covid ont montré qu'on manque vite de réactifs quand tout le monde en veut. Estimation de 90 jours.",
+  "refs": [],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Allemagne",
+     "Suisse"
+    ],
+    "txt": "Réserver des capacités européennes de réactifs pour les crises sanitaires."
+   }
+  ],
+  "gens": "Ce qui permet au labo de rendre vos résultats d'analyse."
  },
  {
   "id": "ble",
   "n": "Blé tendre",
   "f": "alim",
-  "d": "auto",
   "k": "src",
   "h": [
    "FR"
@@ -222,47 +490,254 @@
   "pourquoi": "Avec un taux d'auto-approvisionnement de 193 %, la France produit près du double de sa consommation de blé tendre : c'est un atout. La fragilité est en amont, dans les engrais importés qui conditionnent la récolte suivante.",
   "refs": [
    "franceagrimer-2025"
-  ]
+  ],
+  "cov": 193,
+  "gens": "Le pain se fait ici. Mais il dépend des engrais d'ailleurs."
  },
  {
   "id": "mais",
   "n": "Maïs",
-  "f": "alim"
+  "f": "alim",
+  "cov": 149,
+  "k": "src",
+  "h": [
+   "FR"
+  ],
+  "l": 0,
+  "m": "atout",
+  "dep": "Production nationale excédentaire.",
+  "conc": "La France est l'un des premiers producteurs européens.",
+  "src": "FranceAgriMer (taux d'auto-approvisionnement 2021-2023)",
+  "pourquoi": "Couverture de 149 % selon FranceAgriMer : la France produit une fois et demie ce qu'elle consomme.",
+  "refs": [
+   "franceagrimer-2025"
+  ],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Espagne",
+     "Pays-Bas"
+    ],
+    "txt": "Nos excédents nourrissent leurs élevages : un levier dans toute négociation agricole européenne."
+   }
+  ],
+  "gens": "Il nourrit les élevages, et une partie de ceux de nos voisins."
  },
  {
   "id": "sucre",
   "n": "Sucre",
-  "f": "alim"
+  "f": "alim",
+  "cov": 150,
+  "k": "src",
+  "h": [
+   "FR"
+  ],
+  "l": 0,
+  "m": "atout",
+  "dep": "Production nationale excédentaire (betterave).",
+  "conc": "Premier producteur européen de sucre de betterave.",
+  "src": "FranceAgriMer",
+  "pourquoi": "Couverture de 150 %. La filière betteravière reste exposée aux accords commerciaux qui ouvrent le marché au sucre de canne.",
+  "refs": [
+   "franceagrimer-2025"
+  ],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Maroc",
+     "Algérie"
+    ],
+    "txt": "Sucre et céréales contre intrants agricoles, dans des contrats de long terme."
+   }
+  ],
+  "gens": "La betterave du Nord et de Picardie nourrit le pays."
  },
  {
   "id": "lait",
   "n": "Lait",
-  "f": "alim"
+  "f": "alim",
+  "cov": 110,
+  "k": "src",
+  "h": [
+   "FR"
+  ],
+  "l": 0,
+  "m": "atout",
+  "dep": "Production nationale excédentaire pour les fromages, yaourts et crème.",
+  "conc": "Couverture de 110 à 115 % selon les produits.",
+  "src": "FranceAgriMer",
+  "note": "Exception : la matière grasse laitière n'est couverte qu'à 75 %.",
+  "pourquoi": "FranceAgriMer mesure 115 % pour le fromage, 112 % pour la crème, 110 % pour les yaourts. Le point faible est le beurre et les matières grasses, couverts à 75 %.",
+  "refs": [
+   "franceagrimer-2025"
+  ],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Allemagne",
+     "Belgique"
+    ],
+    "txt": "Échanges laitiers européens équilibrés plutôt que mise en concurrence avec la Nouvelle-Zélande."
+   }
+  ],
+  "gens": "Le fromage, le yaourt, la crème : on produit plus qu'on ne consomme."
  },
  {
   "id": "porc",
   "n": "Viande porcine",
-  "f": "alim"
+  "f": "alim",
+  "cov": 102,
+  "k": "src",
+  "h": [
+   "FR"
+  ],
+  "l": 0,
+  "m": "lpi",
+  "dep": "Production nationale à l'équilibre, mais nourrie au soja importé.",
+  "conc": "Couverture de 102 %.",
+  "src": "FranceAgriMer",
+  "pourquoi": "La France produit tout juste son porc (102 %). La vraie dépendance est en amont : sans tourteaux de soja importés, l'élevage recule.",
+  "refs": [
+   "franceagrimer-2025"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Roumanie",
+     "Ukraine"
+    ],
+    "txt": "Protéines végétales européennes pour nourrir les élevages sans dépendre des Amériques."
+   }
+  ],
+  "gens": "Le jambon est français. Le soja qui a nourri le cochon vient souvent du Brésil."
  },
  {
   "id": "volaille",
   "n": "Volaille",
-  "f": "alim"
+  "f": "alim",
+  "cov": 75,
+  "k": "src",
+  "h": [
+   "DIV"
+  ],
+  "l": 0,
+  "m": "lpi",
+  "dep": "Un quart du poulet consommé en France est importé.",
+  "conc": "Importations venues d'Europe et du Brésil.",
+  "src": "FranceAgriMer",
+  "note": "Les importations nourrissent surtout la restauration collective et les plats préparés.",
+  "pourquoi": "Couverture de 75 % selon FranceAgriMer : niveau Résilient. On ne manquerait pas de poulet, mais un sur quatre vient d'ailleurs, souvent produit selon des normes qu'on interdit ici.",
+  "refs": [
+   "franceagrimer-2025"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "France"
+    ],
+    "txt": "Clause miroir dans les accords commerciaux et commande publique locale pour la restauration collective."
+   }
+  ],
+  "gens": "Un poulet sur quatre servi en France vient d'ailleurs, surtout à la cantine."
  },
  {
   "id": "ovins",
   "n": "Viande ovine",
-  "f": "alim"
+  "f": "alim",
+  "cov": 51,
+  "k": "src",
+  "h": [
+   "GB",
+   "DIV"
+  ],
+  "l": 0,
+  "m": "lpi",
+  "dep": "La moitié de l'agneau consommé est importé.",
+  "conc": "Royaume-Uni, Irlande, Nouvelle-Zélande.",
+  "src": "FranceAgriMer",
+  "pourquoi": "Couverture de 51 % : tout juste Résilient. La filière ovine française recule depuis des années face aux importations.",
+  "refs": [
+   "franceagrimer-2025"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Irlande",
+     "Espagne"
+    ],
+    "txt": "Préférer des fournisseurs européens aux mêmes normes, et soutenir les éleveurs d'ici."
+   }
+  ],
+  "gens": "Un gigot sur deux est importé."
  },
  {
   "id": "fruits",
-  "n": "Fruits frais",
-  "f": "alim"
+  "n": "Fruits tempérés",
+  "f": "alim",
+  "cov": 80,
+  "k": "src",
+  "h": [
+   "ES",
+   "DIV"
+  ],
+  "l": 0,
+  "m": "lpi",
+  "dep": "80 % des fruits tempérés consommés sont produits en France ; seulement 16 % des fruits tropicaux.",
+  "conc": "Espagne, Italie, Maroc pour le complément.",
+  "src": "FranceAgriMer",
+  "pourquoi": "Couverture de 80 % pour les fruits de nos climats, d'où le niveau Indépendant. Pour les fruits tropicaux, 16 % : une dépendance assumée, qui se négocie par des prix justes.",
+  "refs": [
+   "franceagrimer-2025"
+  ],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Côte d'Ivoire",
+     "Sénégal",
+     "Maroc"
+    ],
+    "txt": "Prix fixes et justes pour les fruits non relocalisables, comme le propose la note de doctrine."
+   }
+  ],
+  "gens": "Pommes et poires sont d'ici. Bananes et ananas, presque jamais."
  },
  {
   "id": "legumes",
   "n": "Légumes frais",
-  "f": "alim"
+  "f": "alim",
+  "cov": 86,
+  "k": "src",
+  "h": [
+   "ES",
+   "MA"
+  ],
+  "l": 0,
+  "m": "lpi",
+  "dep": "86 % des légumes frais consommés sont produits en France.",
+  "conc": "Espagne et Maroc pour le complément, surtout l'hiver.",
+  "src": "FranceAgriMer",
+  "pourquoi": "Couverture de 86 % : niveau Indépendant. Le complément d'hiver vient d'Espagne et du Maroc.",
+  "refs": [
+   "franceagrimer-2025"
+  ],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Maroc",
+     "Espagne"
+    ],
+    "txt": "Échanges de saison contre accords sur l'eau et les normes sociales."
+   }
+  ],
+  "gens": "L'hiver, la tomate vient d'Espagne ou du Maroc."
  },
  {
   "id": "soja",
@@ -294,7 +769,8 @@
   "pourquoi": "FranceAgriMer mesure un taux d'auto-approvisionnement de 54 % pour le soja, et bien moins pour les tourteaux qui nourrissent l'élevage. Sans flux, la production de viande et de lait recule en quelques semaines : d'où une estimation de 45 jours.",
   "refs": [
    "franceagrimer-2025"
-  ]
+  ],
+  "gens": "Sans soja importé, les éleveurs réduisent les troupeaux en quelques semaines."
  },
  {
   "id": "azote",
@@ -333,7 +809,8 @@
   "refs": [
    "unifa-2025",
    "franceagrimer-2025"
-  ]
+  ],
+  "gens": "Sans engrais, la récolte suivante baisse : c'est le prix du pain qui monte."
  },
  {
   "id": "potasse",
@@ -366,7 +843,8 @@
   "pourquoi": "La France n'extrait plus de potasse depuis la fermeture des Mines de potasse d'Alsace. Trois pays dominent la production mondiale, dont la Russie et la Biélorussie : prise structurelle. Les stocks d'engrais tiennent une saison, estimée à 120 jours.",
   "refs": [
    "usgs-2026"
-  ]
+  ],
+  "gens": "L'Alsace en produisait. Les mines ont fermé."
  },
  {
   "id": "phosphates",
@@ -404,12 +882,40 @@
   "pourquoi": "Les phosphates sont importés à 100 %. Le Maroc concentre l'essentiel des réserves mondiales selon l'USGS, mais aucun usage coercitif n'est documenté : la dépendance est forte, la relation reste négociable.",
   "refs": [
    "usgs-2026"
-  ]
+  ],
+  "gens": "Ils viennent du Maroc, voisin et partenaire."
  },
  {
   "id": "semences",
-  "n": "Semences potagères",
-  "f": "alim"
+  "n": "Semences agricoles",
+  "f": "alim",
+  "d": "auto",
+  "k": "src",
+  "h": [
+   "FR"
+  ],
+  "l": 0,
+  "m": "atout",
+  "dep": "La France est le premier exportateur mondial de semences de grandes cultures.",
+  "conc": "Excédent commercial de 1,26 Md€ en 2024-2025.",
+  "src": "SEMAE, via Réussir",
+  "note": "Alerte : les surfaces de multiplication de semences potagères ont reculé de 15 % en un an.",
+  "pourquoi": "Un vrai atout : 2,56 Md€ d'exportations et un excédent de 1,26 Md€. À protéger de tout rachat, et à surveiller pour les semences potagères, en recul.",
+  "refs": [
+   "semae-2025"
+  ],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Maroc",
+     "Égypte",
+     "Sénégal"
+    ],
+    "txt": "Semences et savoir-faire contre partenariats agricoles de long terme."
+   }
+  ],
+  "gens": "Les champs du monde entier sont semés avec des graines françaises."
  },
  {
   "id": "petrole",
@@ -441,17 +947,70 @@
   "pourquoi": "C'est la seule dépendance pour laquelle le droit impose déjà un seuil : 90 jours d'importations nettes en stocks stratégiques. La note mesure donc une obligation légale respectée. Elle sert d'étalon pour tous les autres produits.",
   "refs": [
    "directive-2009-119"
-  ]
+  ],
+  "gens": "Le seul produit où la loi impose déjà un stock de sécurité."
  },
  {
   "id": "gazole",
   "n": "Gazole",
-  "f": "ener"
+  "f": "ener",
+  "d": 90,
+  "k": "src",
+  "h": [
+   "DIV"
+  ],
+  "l": 0,
+  "m": "test",
+  "dep": "Plus de la moitié du gazole consommé en France est importé.",
+  "conc": "Origines diversifiées depuis l'embargo sur le gazole russe.",
+  "src": "Énergies et Mobilités, 2026 ; stocks stratégiques",
+  "pourquoi": "Les stocks stratégiques couvrent environ trois mois, comme le veut la loi. Mais la France importe plus de la moitié de son gazole depuis la fermeture de raffineries : un camion sur deux roule à l'importé.",
+  "refs": [
+   "em-2026",
+   "directive-2009-119"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Norvège",
+     "Inde",
+     "Arabie saoudite"
+    ],
+    "txt": "Plusieurs origines, aucune au-dessus d'un quart, et le maintien des raffineries françaises restantes."
+   }
+  ],
+  "gens": "Un camion sur deux roule au gazole importé."
  },
  {
   "id": "kerosene",
   "n": "Kérosène",
-  "f": "ener"
+  "f": "ener",
+  "d": 90,
+  "k": "src",
+  "h": [
+   "DIV"
+  ],
+  "l": 0,
+  "m": "test",
+  "dep": "7,8 millions de m³ de kérosène importés pour 8,8 consommés en 2025.",
+  "conc": "Près de neuf litres sur dix importés.",
+  "src": "Énergies et Mobilités, 2026",
+  "pourquoi": "Les avions français volent presque entièrement au kérosène importé. Seuls les stocks stratégiques, trois mois environ, protègent.",
+  "refs": [
+   "em-2026"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Norvège",
+     "Pays-Bas"
+    ],
+    "txt": "Raffinage européen et stocks partagés pour l'aviation civile et militaire."
+   }
+  ],
+  "gens": "Presque chaque avion qui décolle de France vole au kérosène importé."
  },
  {
   "id": "gaz",
@@ -492,7 +1051,8 @@
    "agsi",
    "ieefa-2026",
    "gmf-2025"
-  ]
+  ],
+  "gens": "Le chauffage d'un foyer sur trois et une partie de l'industrie."
  },
  {
   "id": "uranium-naturel",
@@ -533,7 +1093,8 @@
   "refs": [
    "p-niger-2025",
    "bruegel-uranium-2025"
-  ]
+  ],
+  "gens": "Sept ampoules sur dix s'allument grâce à l'uranium importé."
  },
  {
   "id": "uranium-enrichi",
@@ -576,12 +1137,39 @@
   "refs": [
    "bruegel-uranium-2025",
    "note-kii"
-  ]
+  ],
+  "gens": "Une partie du combustible de nos centrales passe encore par la Russie."
  },
  {
   "id": "ure",
   "n": "Uranium de retraitement",
-  "f": "ener"
+  "f": "ener",
+  "d": 365,
+  "k": "est",
+  "h": [
+   "RU"
+  ],
+  "l": 1,
+  "m": "lpi",
+  "dep": "L'uranium de retraitement français ne peut être réenrichi qu'en Sibérie, chez Rosatom.",
+  "conc": "Un seul site au monde.",
+  "src": "Annexe KII ; Bruegel",
+  "note": "Le combustible issu du retraitement peut être remplacé par de l'uranium naturel enrichi : la dépendance est totale sur ce maillon, mais substituable.",
+  "pourquoi": "Dépendance totale sur ce maillon, mais les réacteurs peuvent tourner avec de l'uranium naturel enrichi à la place : niveau Résilient. Le symbole reste lourd : le recyclage français passe par la Russie.",
+  "refs": [
+   "note-kii",
+   "bruegel-uranium-2025"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "France"
+    ],
+    "txt": "Construire en France la capacité de réenrichir l'uranium de retraitement, projet étudié par la filière."
+   }
+  ],
+  "gens": "Le recyclage du combustible nucléaire français passe par la Sibérie."
  },
  {
   "id": "electricite",
@@ -614,12 +1202,38 @@
   "pourquoi": "La France exporte plus d'électricité qu'elle n'en importe : solde record de 89 TWh en 2024 puis 92 TWh en 2025. Note Souverain, sous réserve de la dépendance amont à l'uranium.",
   "refs": [
    "rte-2024"
-  ]
+  ],
+  "gens": "On en produit plus qu'on n'en consomme, et on en vend aux voisins."
  },
  {
   "id": "coke",
   "n": "Charbon à coke",
-  "f": "ener"
+  "f": "ener",
+  "d": 60,
+  "k": "est",
+  "h": [
+   "AU",
+   "US"
+  ],
+  "l": 0,
+  "m": "lpi",
+  "dep": "100 % importé : la France n'extrait plus de charbon depuis 2004.",
+  "conc": "Australie et États-Unis dominent le charbon métallurgique.",
+  "src": "Estimation de travail",
+  "pourquoi": "Les hauts-fourneaux de Dunkerque et de Fos dépendent entièrement du charbon à coke importé. Estimation de 60 jours de stocks.",
+  "refs": [],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Australie",
+     "Canada",
+     "Pologne"
+    ],
+    "txt": "Diversifier les origines en attendant l'acier bas carbone, qui se passe de coke."
+   }
+  ],
+  "gens": "Pas de coke, pas d'acier à Dunkerque ni à Fos."
  },
  {
   "id": "tr-lourdes",
@@ -665,12 +1279,41 @@
    "jonesday-2025",
    "p-mining-2026",
    "merics-rearm-2025"
-  ]
+  ],
+  "gens": "Dans chaque voiture électrique, chaque éolienne, chaque missile."
  },
  {
   "id": "tr-legeres",
   "n": "Terres rares légères (Nd, Pr)",
-  "f": "metal"
+  "f": "metal",
+  "d": 60,
+  "k": "est",
+  "h": [
+   "CN"
+  ],
+  "l": 1,
+  "m": "partner",
+  "dep": "Néodyme et praséodyme, base des aimants : aucune séparation en Europe à grande échelle.",
+  "conc": "La Chine extrait environ 69 % et raffine 85 % des terres rares mondiales.",
+  "src": "AIE ; Mining Technology",
+  "pourquoi": "Les licences d'avril 2025 visent d'abord les terres rares moyennes et lourdes, mais les aimants qui contiennent du néodyme y sont soumis. Prise structurelle, estimation de 60 jours.",
+  "refs": [
+   "aie-gcmo-2026",
+   "p-mining-2026",
+   "merics-rearm-2025"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Australie",
+     "Japon",
+     "Brésil"
+    ],
+    "txt": "Séparation hors de Chine en Australie, et usine de Lacq soutenue par le Japon."
+   }
+  ],
+  "gens": "Le néodyme des aimants de votre trottinette et des éoliennes."
  },
  {
   "id": "aimants",
@@ -703,7 +1346,8 @@
    "merics-rearm-2025",
    "jonesday-2025",
    "aie-gcmo-2026"
-  ]
+  ],
+  "gens": "Ils font tourner les moteurs électriques, des vélos aux sous-marins."
  },
  {
   "id": "lithium",
@@ -742,7 +1386,8 @@
   "refs": [
    "cce-crm-2026",
    "cce-batteries-2023"
-  ]
+  ],
+  "gens": "Le cœur de la batterie de votre téléphone et de votre voiture."
  },
  {
   "id": "cobalt",
@@ -782,12 +1427,41 @@
   "refs": [
    "cce-batteries-2023",
    "note-kii"
-  ]
+  ],
+  "gens": "Extrait au Congo, raffiné en Chine, dans votre batterie."
  },
  {
   "id": "nickel",
   "n": "Nickel raffiné",
-  "f": "metal"
+  "f": "metal",
+  "d": 90,
+  "k": "est",
+  "h": [
+   "ID",
+   "CN"
+  ],
+  "l": 1,
+  "m": "partner",
+  "dep": "Importé ; l'Indonésie extrait, la Chine raffine.",
+  "conc": "L'Indonésie domine désormais l'offre mondiale, avec des capitaux chinois.",
+  "src": "Annexe KII ; AIE",
+  "note": "L'Indonésie a interdit l'export de minerai brut en 2020 pour forcer le raffinage sur place.",
+  "pourquoi": "Selon l'AIE, presque toute la croissance du nickel raffiné vient du fournisseur dominant. L'Indonésie a déjà utilisé l'interdiction d'export. Estimation de 90 jours.",
+  "refs": [
+   "aie-gcmo-2026",
+   "note-kii"
+  ],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Nouvelle-Calédonie",
+     "Indonésie"
+    ],
+    "txt": "Le nickel calédonien et un raffinage partagé avec l'Indonésie, à parts égales."
+   }
+  ],
+  "gens": "La Nouvelle-Calédonie en a, mais le raffinage se fait en Asie."
  },
  {
   "id": "graphite",
@@ -827,7 +1501,8 @@
   "refs": [
    "cce-batteries-2023",
    "jonesday-2025"
-  ]
+  ],
+  "gens": "L'autre moitié de chaque batterie."
  },
  {
   "id": "gallium",
@@ -859,7 +1534,8 @@
   "refs": [
    "cce-crm-2026",
    "usgs-2026"
-  ]
+  ],
+  "gens": "Dans les radars, les LED et les chargeurs rapides."
  },
  {
   "id": "germanium",
@@ -891,7 +1567,8 @@
   "refs": [
    "cce-crm-2026",
    "usgs-2026"
-  ]
+  ],
+  "gens": "Dans les fibres optiques et les caméras thermiques."
  },
  {
   "id": "antimoine",
@@ -923,12 +1600,41 @@
   "refs": [
    "usgs-2026",
    "ocde-export-2026"
-  ]
+  ],
+  "gens": "Pas d'antimoine, pas d'amorce : pas de munitions."
  },
  {
   "id": "tungstene",
   "n": "Tungstène",
-  "f": "metal"
+  "f": "metal",
+  "d": 60,
+  "k": "est",
+  "h": [
+   "CN"
+  ],
+  "l": 2,
+  "m": "lpi",
+  "dep": "Importé.",
+  "conc": "La Chine domine l'extraction mondiale (USGS).",
+  "src": "USGS ; OCDE",
+  "note": "Outils de coupe, blindages, munitions perforantes.",
+  "pourquoi": "La Chine a ajouté le tungstène à ses contrôles d'exportation en février 2025. Levier activé, estimation de 60 jours : niveau Totalement dépendant.",
+  "refs": [
+   "usgs-2026",
+   "ocde-export-2026"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Portugal",
+     "Espagne",
+     "Corée du Sud"
+    ],
+    "txt": "Relancer les mines européennes (Panasqueira au Portugal) et le recyclage des outils."
+   }
+  ],
+  "gens": "Les outils de coupe de l'usine et les obus perforants."
  },
  {
   "id": "titane",
@@ -967,7 +1673,8 @@
   "pourquoi": "Avant 2022, Airbus dépendait à environ moitié du titane russe. La reconversion vers le Japon et le Kazakhstan est en cours mais coûteuse. Le titane russe n'a pas été coupé : prise structurelle.",
   "refs": [
    "note-kii"
-  ]
+  ],
+  "gens": "Un Airbus en contient des tonnes."
  },
  {
   "id": "magnesium",
@@ -998,22 +1705,100 @@
   "refs": [
    "cce-crm-2026",
    "ce-dependances-2021"
-  ]
+  ],
+  "gens": "Sans lui, pas d'alliage d'aluminium pour les voitures et les canettes."
  },
  {
   "id": "silicium",
   "n": "Silicium métal",
-  "f": "metal"
+  "f": "metal",
+  "d": 90,
+  "k": "est",
+  "h": [
+   "CN",
+   "NO"
+  ],
+  "l": 0,
+  "m": "lpi",
+  "dep": "Production européenne existante mais minoritaire.",
+  "conc": "La Chine domine la production mondiale ; l'UE ne recycle pas le silicium métal.",
+  "src": "Cour des comptes européenne",
+  "pourquoi": "La Cour des comptes européenne range le silicium métal parmi les matières non recyclées dans l'UE. Des fours existent en Europe : estimation de 90 jours.",
+  "refs": [
+   "cce-crm-2026"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Norvège",
+     "Espagne"
+    ],
+    "txt": "Soutenir les fours européens par des contrats d'électricité à prix stable."
+   }
+  ],
+  "gens": "La base des panneaux solaires et des puces."
  },
  {
   "id": "cuivre",
   "n": "Cuivre",
-  "f": "metal"
+  "f": "metal",
+  "d": 120,
+  "k": "est",
+  "h": [
+   "CL",
+   "DIV"
+  ],
+  "l": 0,
+  "m": "partner",
+  "dep": "Importé, mais largement recyclé en Europe.",
+  "conc": "Chili et Pérou dominent l'extraction ; raffinage chinois croissant.",
+  "src": "Estimation de travail",
+  "pourquoi": "Le cuivre circule beaucoup et se recycle bien : la dépendance est réelle mais moins brutale. Estimation de 120 jours.",
+  "refs": [
+   "aie-gcmo-2026"
+  ],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Chili",
+     "Zambie"
+    ],
+    "txt": "Raffinage sur place contre contrats de long terme, au lieu d'exporter du minerai brut vers la Chine."
+   }
+  ],
+  "gens": "Dans chaque câble électrique de la maison."
  },
  {
   "id": "platinoides",
   "n": "Platinoïdes",
-  "f": "metal"
+  "f": "metal",
+  "d": 90,
+  "k": "est",
+  "h": [
+   "ZA",
+   "RU"
+  ],
+  "l": 1,
+  "m": "partner",
+  "dep": "Importés.",
+  "conc": "Afrique du Sud pour le platine, Russie pour une large part du palladium.",
+  "src": "Estimation de travail",
+  "pourquoi": "Deux pays tiennent l'essentiel, dont la Russie. Prise structurelle, estimation de 90 jours.",
+  "refs": [
+   "usgs-2026"
+  ],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Afrique du Sud"
+    ],
+    "txt": "Partenariat paritaire avec l'Afrique du Sud, et recyclage des pots catalytiques en Europe."
+   }
+  ],
+  "gens": "Dans le pot catalytique de votre voiture."
  },
  {
   "id": "puces-matures",
@@ -1044,7 +1829,8 @@
   "refs": [
    "p-nexperia-2025",
    "cce-puces-2025"
-  ]
+  ],
+  "gens": "En 2025, des chaînes automobiles ont failli s'arrêter pour des puces à quelques centimes."
  },
  {
   "id": "puces-avancees",
@@ -1082,7 +1868,8 @@
   "pourquoi": "Aucune production européenne sous 7 nm. La Cour des comptes européenne juge l'objectif de 20 % de production mondiale en 2030 hors d'atteinte (11,7 % prévus). Prise structurelle, liée au détroit de Taïwan.",
   "refs": [
    "cce-puces-2025"
-  ]
+  ],
+  "gens": "Les puces des ordinateurs et de l'IA viennent de Taïwan."
  },
  {
   "id": "gpu-ia",
@@ -1121,37 +1908,190 @@
   "refs": [
    "gmf-2025",
    "cce-puces-2025"
-  ]
+  ],
+  "gens": "L'intelligence artificielle tourne sur des puces américaines."
  },
  {
   "id": "memoires",
   "n": "Mémoires (DRAM, NAND)",
-  "f": "elec"
+  "f": "elec",
+  "d": 60,
+  "k": "est",
+  "h": [
+   "KR",
+   "US",
+   "CN"
+  ],
+  "l": 1,
+  "m": "lpi",
+  "dep": "Aucune production européenne de mémoires.",
+  "conc": "Deux fabricants coréens et un américain dominent ; la Chine monte.",
+  "src": "Estimation de travail",
+  "pourquoi": "Pas une puce mémoire fabriquée en Europe. Les prix ont flambé avec l'IA. Estimation de 60 jours.",
+  "refs": [
+   "cce-puces-2025"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Corée du Sud",
+     "Japon"
+    ],
+    "txt": "Attirer une usine de mémoires en Europe, comme le Japon l'a fait avec les fondeurs taïwanais."
+   }
+  ],
+  "gens": "La mémoire de chaque ordinateur et téléphone vient d'Asie."
  },
  {
   "id": "mlcc",
   "n": "Condensateurs céramiques",
-  "f": "elec"
+  "f": "elec",
+  "d": 60,
+  "k": "est",
+  "h": [
+   "JP",
+   "KR",
+   "CN"
+  ],
+  "l": 0,
+  "m": "lpi",
+  "dep": "Condensateurs présents dans chaque appareil électronique, fabriqués en Asie.",
+  "conc": "Japon, Corée et Chine.",
+  "src": "Estimation de travail",
+  "pourquoi": "Des milliards de pièces minuscules, toutes asiatiques. Les fournisseurs principaux sont japonais : un allié, pas un adversaire. Estimation de 60 jours.",
+  "refs": [],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Japon"
+    ],
+    "txt": "Accord de sécurité d'approvisionnement avec le Japon, qui a les mêmes craintes que nous."
+   }
+  ],
+  "gens": "Des centaines de minuscules condensateurs dans chaque appareil."
  },
  {
   "id": "pcb",
   "n": "Circuits imprimés",
-  "f": "elec"
+  "f": "elec",
+  "d": 45,
+  "k": "est",
+  "h": [
+   "CN",
+   "TW"
+  ],
+  "l": 1,
+  "m": "lpi",
+  "dep": "Circuits imprimés massivement fabriqués en Chine.",
+  "conc": "Chine et Taïwan dominent.",
+  "src": "Estimation de travail",
+  "pourquoi": "La quasi-totalité des cartes électroniques passe par la Chine. Estimation de 45 jours.",
+  "refs": [],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Allemagne",
+     "Viêt Nam"
+    ],
+    "txt": "Relancer des lignes européennes pour la défense et l'automobile, diversifier le reste."
+   }
+  ],
+  "gens": "La carte verte au fond de chaque appareil électronique."
  },
  {
   "id": "terminaux",
   "n": "Smartphones et terminaux",
-  "f": "elec"
+  "f": "elec",
+  "d": 90,
+  "k": "est",
+  "h": [
+   "US",
+   "CN",
+   "KR"
+  ],
+  "l": 1,
+  "m": "rever",
+  "dep": "Aucun smartphone conçu et fabriqué en Europe.",
+  "conc": "Marques américaines, coréennes, chinoises ; assemblage asiatique.",
+  "src": "Estimation de travail",
+  "pourquoi": "Le téléphone dans votre poche est conçu aux États-Unis, en Corée ou en Chine, et assemblé en Asie. Estimation de 90 jours de stocks commerciaux.",
+  "refs": [],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Inde",
+     "Viêt Nam"
+    ],
+    "txt": "Diversifier l'assemblage et imposer la réparabilité pour faire durer les appareils."
+   }
+  ],
+  "gens": "Votre téléphone : conçu ailleurs, assemblé ailleurs."
  },
  {
   "id": "reseau",
   "n": "Équipements réseau",
-  "f": "elec"
+  "f": "elec",
+  "d": 180,
+  "k": "est",
+  "h": [
+   "EU",
+   "CN"
+  ],
+  "l": 1,
+  "m": "atout",
+  "dep": "Équipementiers européens solides (Nokia, Ericsson).",
+  "conc": "La Commission juge Huawei et ZTE à « risques nettement plus élevés ».",
+  "src": "Commission européenne, via Light Reading",
+  "pourquoi": "L'Europe a ses propres équipementiers : un atout rare. La France retire progressivement Huawei de ses antennes. Niveau Résilient.",
+  "refs": [
+   "5g-ue-2023"
+  ],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Finlande",
+     "Suède"
+    ],
+    "txt": "Commande publique européenne réservée à Nokia et Ericsson pour les réseaux critiques."
+   }
+  ],
+  "gens": "Les antennes qui portent vos appels sont souvent européennes. Un atout."
  },
  {
   "id": "fibres",
   "n": "Fibres optiques et lasers",
-  "f": "elec"
+  "f": "elec",
+  "d": 365,
+  "k": "est",
+  "h": [
+   "FR",
+   "EU"
+  ],
+  "l": 0,
+  "m": "atout",
+  "dep": "Câbles et fibres : l'État a repris Alcatel Submarine Networks en 2024.",
+  "conc": "ASN a posé plus de 750 000 km de câbles sous-marins.",
+  "src": "Nokia",
+  "pourquoi": "Le rachat d'ASN par l'État montre qu'on peut reprendre la main. Niveau Indépendant à confirmer pour les lasers.",
+  "refs": [
+   "nokia-asn-2025"
+  ],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Italie",
+     "Pays-Bas"
+    ],
+    "txt": "Fibres et câbles européens pour les liaisons critiques."
+   }
+  ],
+  "gens": "La fibre qui arrive chez vous, et les câbles qui traversent l'océan."
  },
  {
   "id": "acier",
@@ -1182,42 +2122,220 @@
   "pourquoi": "La France produit encore une part significative de son acier, d'où une tenue estimée à six mois. La menace vient des surcapacités chinoises, qui fragilisent les sites européens, et des droits de douane américains.",
   "refs": [
    "ocde-acier-2025"
-  ]
+  ],
+  "gens": "Les rails, les ponts, les voitures. Dunkerque et Fos tiennent encore."
  },
  {
   "id": "aluminium",
   "n": "Aluminium primaire",
-  "f": "indus"
+  "f": "indus",
+  "d": 120,
+  "k": "est",
+  "h": [
+   "DIV"
+  ],
+  "l": 0,
+  "m": "lpi",
+  "dep": "Production française et européenne en recul depuis 2005.",
+  "conc": "La Chine produit environ 60 % de l'aluminium mondial (Ifri).",
+  "src": "Ifri, 2024",
+  "pourquoi": "L'Europe a laissé fermer ses alumineries depuis vingt ans. Aluminium Dunkerque tient encore. Estimation de 120 jours.",
+  "refs": [
+   "ifri-alu-2024"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Norvège",
+     "Islande"
+    ],
+    "txt": "Électricité bon marché et décarbonée contre aluminium européen garanti."
+   }
+  ],
+  "gens": "Les canettes, les avions, les câbles électriques."
  },
  {
   "id": "polymeres",
   "n": "Polymères de base",
-  "f": "indus"
+  "f": "indus",
+  "d": 90,
+  "k": "est",
+  "h": [
+   "DIV",
+   "CN",
+   "US"
+  ],
+  "l": 0,
+  "m": "lpi",
+  "dep": "La chimie européenne ferme ses usines.",
+  "conc": "37 Mt de capacités chimiques fermées en Europe depuis 2022 (Cefic).",
+  "src": "Cefic et Roland Berger",
+  "pourquoi": "Pour une tonne investie, cinq fermées : le Cefic compte 37 Mt fermées pour 7 Mt investies depuis 2022, dont 3,9 Mt fermées en France. La dépendance se creuse chaque mois.",
+  "refs": [
+   "cefic-2026"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Allemagne",
+     "Belgique",
+     "Pays-Bas"
+    ],
+    "txt": "Plan européen pour les plateformes chimiques, avec énergie à prix stable."
+   }
+  ],
+  "gens": "Les plastiques du quotidien, du flacon au tableau de bord."
  },
  {
   "id": "chlore",
   "n": "Chlore et soude",
-  "f": "indus"
+  "f": "indus",
+  "d": 180,
+  "k": "est",
+  "h": [
+   "FR",
+   "EU"
+  ],
+  "l": 0,
+  "m": "lpi",
+  "dep": "Production nationale, mais plateformes chimiques sous pression.",
+  "conc": "Production européenne en recul.",
+  "src": "Cefic",
+  "pourquoi": "Le chlore sert à traiter l'eau potable : il se produit encore en France. Les fermetures en chaîne de la chimie européenne menacent les sites. Estimation de 180 jours.",
+  "refs": [
+   "cefic-2026"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Allemagne",
+     "Belgique"
+    ],
+    "txt": "Stocks de crise pour le traitement de l'eau, partagés entre voisins."
+   }
+  ],
+  "gens": "Ce qui rend l'eau du robinet potable."
  },
  {
   "id": "ciment",
   "n": "Ciment et clinker",
-  "f": "indus"
+  "f": "indus",
+  "d": 400,
+  "k": "est",
+  "h": [
+   "FR"
+  ],
+  "l": 0,
+  "m": "atout",
+  "dep": "Production nationale majoritaire.",
+  "conc": "À chiffrer avec les données de la filière.",
+  "src": "Estimation de travail",
+  "pourquoi": "Le ciment voyage mal : il se fabrique près de là où on construit. Les cimenteries françaises couvrent l'essentiel. Niveau Indépendant, à confirmer.",
+  "refs": [],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Espagne",
+     "Belgique"
+    ],
+    "txt": "Complément frontalier en cas de crise."
+   }
+  ],
+  "gens": "Les maisons, les écoles, les hôpitaux qu'on construit."
  },
  {
   "id": "machines-outils",
   "n": "Machines-outils",
-  "f": "indus"
+  "f": "indus",
+  "d": 180,
+  "k": "est",
+  "h": [
+   "DE",
+   "IT",
+   "JP"
+  ],
+  "l": 0,
+  "m": "lpi",
+  "dep": "La France importe l'essentiel de ses machines-outils.",
+  "conc": "Allemagne, Italie, Japon.",
+  "src": "Estimation de travail",
+  "pourquoi": "La France a perdu l'essentiel de son industrie de la machine-outil, mais ses fournisseurs sont européens ou japonais. Estimation de 180 jours.",
+  "refs": [],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Allemagne",
+     "Italie"
+    ],
+    "txt": "Programme européen de la machine-outil pour la défense et la relocalisation."
+   }
+  ],
+  "gens": "Les machines qui fabriquent les autres machines."
  },
  {
   "id": "roulements",
   "n": "Roulements à billes",
-  "f": "indus"
+  "f": "indus",
+  "d": 180,
+  "k": "est",
+  "h": [
+   "EU"
+  ],
+  "l": 0,
+  "m": "lpi",
+  "dep": "Grands fabricants européens (suédois, allemand), site français à Annecy.",
+  "conc": "Marché dominé par l'Europe et le Japon.",
+  "src": "Estimation de travail",
+  "pourquoi": "Le roulement à billes est européen : la dépendance est surtout intra-européenne. Estimation de 180 jours.",
+  "refs": [],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Suède",
+     "Allemagne"
+    ],
+    "txt": "Stocks stratégiques pour la défense et l'énergie."
+   }
+  ],
+  "gens": "Dans chaque moteur, chaque roue, chaque éolienne."
  },
  {
   "id": "pieces-auto",
   "n": "Pièces automobiles",
-  "f": "indus"
+  "f": "indus",
+  "d": 30,
+  "k": "est",
+  "h": [
+   "CN",
+   "DIV"
+  ],
+  "l": 1,
+  "m": "lpi",
+  "dep": "Flux tendus, composants venus du monde entier.",
+  "conc": "Chine dominante pour l'électronique et les batteries.",
+  "src": "Estimation de travail",
+  "pourquoi": "Les usines automobiles tournent à flux tendu : l'affaire Nexperia a montré qu'une pièce manquante arrête une ligne en quelques semaines. Estimation de 30 jours.",
+  "refs": [
+   "p-nexperia-2025"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Espagne",
+     "Maroc",
+     "Roumanie"
+    ],
+    "txt": "Rapprocher les fournisseurs : sous-traitance européenne et méditerranéenne."
+   }
+  ],
+  "gens": "Une pièce manquante, et l'usine renvoie les ouvriers chez eux."
  },
  {
   "id": "pv",
@@ -1249,7 +2367,8 @@
   "refs": [
    "aie-pv-2022",
    "ce-dependances-2021"
-  ]
+  ],
+  "gens": "Le panneau sur le toit du voisin vient presque toujours de Chine."
  },
  {
   "id": "batteries",
@@ -1280,27 +2399,130 @@
   "pourquoi": "La Cour des comptes européenne mesure 76 % de la capacité mondiale en Chine. Les usines des Hauts-de-France montent en charge mais restent dépendantes des matériaux chinois. Estimation de 30 jours avant arrêt des lignes.",
   "refs": [
    "cce-batteries-2023"
-  ]
+  ],
+  "gens": "La batterie de la voiture électrique, le plus cher de la voiture."
  },
  {
   "id": "eoliennes",
   "n": "Éoliennes (nacelles)",
-  "f": "indus"
+  "f": "indus",
+  "d": 180,
+  "k": "est",
+  "h": [
+   "EU",
+   "CN"
+  ],
+  "l": 1,
+  "m": "lpi",
+  "dep": "Turbiniers européens, mais aimants et navires d'installation chinois.",
+  "conc": "Fabricants chinois : moins de 1 % des éoliennes installées en Europe, plus de la moitié de la capacité mondiale.",
+  "src": "Carbon Brief",
+  "pourquoi": "Les nacelles sont encore européennes, avec une usine à Saint-Nazaire. Le talon d'Achille, ce sont les aimants chinois. Niveau Résilient.",
+  "refs": [
+   "carbonbrief-2026",
+   "merics-rearm-2025"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Danemark",
+     "Allemagne",
+     "Espagne"
+    ],
+    "txt": "Préférence européenne dans les appels d'offres, aimants hors de Chine."
+   }
+  ],
+  "gens": "Les éoliennes de la côte : européennes, avec des aimants chinois."
  },
  {
   "id": "pac",
   "n": "Pompes à chaleur",
-  "f": "indus"
+  "f": "indus",
+  "d": 120,
+  "k": "est",
+  "h": [
+   "CN",
+   "JP"
+  ],
+  "l": 0,
+  "m": "lpi",
+  "dep": "Assemblage en France, compresseurs souvent asiatiques.",
+  "conc": "Compresseurs chinois et japonais.",
+  "src": "Estimation de travail",
+  "pourquoi": "Les pompes à chaleur sont souvent assemblées en France, mais le cœur, le compresseur, vient d'Asie. Estimation de 120 jours.",
+  "refs": [],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Japon",
+     "Italie"
+    ],
+    "txt": "Implanter une usine de compresseurs en Europe."
+   }
+  ],
+  "gens": "La pompe à chaleur subventionnée : assemblée ici, cœur asiatique."
  },
  {
   "id": "electrolyseurs",
   "n": "Électrolyseurs",
-  "f": "indus"
+  "f": "indus",
+  "d": 60,
+  "k": "est",
+  "h": [
+   "CN"
+  ],
+  "l": 0,
+  "m": "lpi",
+  "dep": "Le premier fabricant français, McPhy, a été liquidé.",
+  "conc": "Les fabricants chinois cassent les prix.",
+  "src": "Presse (AFP)",
+  "pourquoi": "On a financé l'hydrogène, puis laissé tomber le fabricant français. Estimation de 60 jours, en attendant une filière européenne.",
+  "refs": [
+   "p-mcphy-2025"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Belgique",
+     "Allemagne"
+    ],
+    "txt": "Commande publique européenne réservée aux électrolyseurs européens."
+   }
+  ],
+  "gens": "L'hydrogène vert promis a besoin de machines qu'on ne fabrique plus."
  },
  {
   "id": "transformateurs",
   "n": "Transformateurs électriques",
-  "f": "indus"
+  "f": "indus",
+  "d": 180,
+  "k": "est",
+  "h": [
+   "EU",
+   "DIV"
+  ],
+  "l": 0,
+  "m": "lpi",
+  "dep": "Délais de livraison de plusieurs années pour les gros transformateurs.",
+  "conc": "Quelques fabricants mondiaux saturés.",
+  "src": "Estimation de travail",
+  "pourquoi": "Le réseau tourne, mais remplacer un gros transformateur prend des années. C'est une dépendance par les délais. Niveau Résilient.",
+  "refs": [],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Allemagne",
+     "Suède",
+     "Italie"
+    ],
+    "txt": "Stock européen de transformateurs de secours et commandes groupées."
+   }
+  ],
+  "gens": "Le poste électrique du quartier : des années pour le remplacer."
  },
  {
   "id": "obus-155",
@@ -1339,7 +2561,8 @@
   "pourquoi": "Production nationale relancée, mais la consommation en haute intensité dépasse de loin la cadence. Des parlementaires ont évoqué des difficultés « au bout de 15 jours » de combat. Estimation de travail à instruire avec des sources ouvertes de la DGA.",
   "refs": [
    "p-munitions-2022"
-  ]
+  ],
+  "gens": "Ce qu'on envoie à l'Ukraine, et ce qu'il faudrait à nos armées."
  },
  {
   "id": "petit-calibre",
@@ -1352,8 +2575,8 @@
    "DIV"
   ],
   "l": 0,
-  "dep": "Plus de production nationale.",
-  "conc": "Achats auprès de fournisseurs étrangers.",
+  "dep": "Plus de production nationale depuis la fermeture du dernier fabricant en 1999.",
+  "conc": "Cartouches de 5,56 mm achetées en grande partie à Israël, selon la mission parlementaire de 2026.",
   "note": "En août 2026, la DGA a retenu FN Browning pour une usine à Clérieux (Drôme), production prévue en 2029.",
   "src": "The Defense Post, 10 août 2026",
   "m": "lpi",
@@ -1368,10 +2591,12 @@
     "txt": "Fournisseurs européens en attendant l'usine de la Drôme, avec des stocks contractuels."
    }
   ],
-  "pourquoi": "La France ne produit plus de munitions de petit calibre. La relance n'est prévue qu'en 2029 avec une usine de FN Browning dans la Drôme. Jusque-là, la tenue dépend de stocks et de fournisseurs étrangers.",
+  "pourquoi": "La France ne fabrique plus une seule cartouche de fusil depuis 1999. La mission parlementaire de 2026 pointe la dépendance à Israël. Relance prévue en 2029 : d'ici là, estimation de 30 jours.",
   "refs": [
+   "an-armees-2026",
    "p-fn-2026"
-  ]
+  ],
+  "gens": "Les soldats français tirent des cartouches achetées à l'étranger."
  },
  {
   "id": "poudres",
@@ -1401,22 +2626,103 @@
   "pourquoi": "La production de poudre a été relancée à Bergerac en 2025, mais les matières premières sont importées. Estimation de 60 jours, origine des intrants à instruire.",
   "refs": [
    "note-kii"
-  ]
+  ],
+  "gens": "Sans poudre, l'obus reste un bout de métal."
  },
  {
   "id": "sol-air",
   "n": "Missiles sol-air",
-  "f": "def"
+  "f": "def",
+  "d": 45,
+  "k": "est",
+  "h": [
+   "FR",
+   "EU"
+  ],
+  "l": 0,
+  "m": "lpi",
+  "dep": "Missiles européens (Aster), mais cadence de production limitée.",
+  "conc": "Industrie européenne, stocks peu profonds.",
+  "src": "Estimation de travail",
+  "pourquoi": "Les missiles sont français et italiens : un atout. Mais les stocks sont maigres et la cadence lente. Estimation de 45 jours en conflit.",
+  "refs": [
+   "an-armees-2026"
+  ],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Italie",
+     "Danemark"
+    ],
+    "txt": "Le Danemark achète le SAMP/T : mutualiser la production et les stocks de missiles avec nos clients européens."
+   }
+  ],
+  "gens": "Ce qui protège une ville d'un missile."
  },
  {
   "id": "drones",
   "n": "Drones",
-  "f": "def"
+  "f": "def",
+  "d": 30,
+  "k": "est",
+  "h": [
+   "US",
+   "TR",
+   "CN"
+  ],
+  "l": 1,
+  "m": "lpi",
+  "dep": "Le seul drone de moyenne altitude des armées est américain (Reaper).",
+  "conc": "Marché dominé par les drones turcs, chinois et ukrainiens.",
+  "src": "Assemblée nationale, mission dépendances militaires, 2026",
+  "pourquoi": "La mission parlementaire de 2026 constate que les drones tactiques français existent, mais ne savent pas produire en masse. Estimation de 30 jours.",
+  "refs": [
+   "an-armees-2026"
+  ],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Ukraine"
+    ],
+    "txt": "Retour d'expérience et production de masse ukrainiens contre financement et technologies françaises."
+   }
+  ],
+  "gens": "La guerre d'Ukraine se gagne avec des drones par milliers."
  },
  {
   "id": "electronique-def",
   "n": "Électronique de défense",
-  "f": "def"
+  "f": "def",
+  "d": 120,
+  "k": "est",
+  "h": [
+   "FR",
+   "US"
+  ],
+  "l": 2,
+  "m": "blocage",
+  "dep": "Électronique de défense française, mais composants soumis au contrôle américain.",
+  "conc": "Composants américains et asiatiques.",
+  "src": "Defense News ; Assemblée nationale",
+  "pourquoi": "Thales et ses voisins savent faire, mais un seul composant américain suffit à Washington pour bloquer une vente : c'est arrivé avec le missile SCALP en 2018. Levier activé, d'où un niveau Dépendant.",
+  "refs": [
+   "p-itar-2018",
+   "an-armees-2026"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Allemagne",
+     "Italie",
+     "Suède"
+    ],
+    "txt": "Programme européen « sans ITAR » pour les composants critiques."
+   }
+  ],
+  "gens": "Un composant américain, et Washington peut bloquer une vente française."
  },
  {
   "id": "lanceurs",
@@ -1431,7 +2737,7 @@
   "dep": "Accès autonome à l'espace.",
   "conc": "Ariane 6 en service depuis 2024.",
   "note": "",
-  "src": "Arianespace",
+  "src": "CNES, vol inaugural d'Ariane 6 (9 juillet 2024)",
   "m": "atout",
   "al": [
    {
@@ -1444,7 +2750,10 @@
    }
   ],
   "pourquoi": "Ariane 6 rend à l'Europe un accès autonome à l'espace depuis 2024. Note Souverain.",
-  "refs": []
+  "refs": [
+   "cnes-ariane6-2024"
+  ],
+  "gens": "Ariane 6 : l'Europe envoie seule ses satellites dans l'espace."
  },
  {
   "id": "galileo",
@@ -1471,12 +2780,41 @@
    }
   ],
   "pourquoi": "Galileo est opérationnel et indépendant du GPS américain. Note Souverain.",
-  "refs": []
+  "refs": [
+   "euspa-galileo"
+  ],
+  "gens": "Votre téléphone sait où vous êtes grâce à des satellites européens."
  },
  {
   "id": "pieces-avions",
   "n": "Pièces d'avions de combat",
-  "f": "def"
+  "f": "def",
+  "d": 180,
+  "k": "est",
+  "h": [
+   "FR"
+  ],
+  "l": 0,
+  "m": "atout",
+  "dep": "Rafale conçu et produit en France (Dassault, Safran, Thales).",
+  "conc": "Chaîne nationale.",
+  "src": "Estimation de travail",
+  "pourquoi": "Le Rafale est un avion français de bout en bout : c'est le contre-exemple du F-35. Les stocks de pièces restent à documenter. Niveau Résilient.",
+  "refs": [
+   "gao-2024"
+  ],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Grèce",
+     "Croatie",
+     "Inde"
+    ],
+    "txt": "Les pays qui volent sur Rafale forment un club d'utilisateurs : maintenance et pièces partagées."
+   }
+  ],
+  "gens": "Le Rafale vole sans demander la permission à personne."
  },
  {
   "id": "cloud",
@@ -1519,7 +2857,8 @@
    "an-tache-2026",
    "an-chatelain-2026",
    "clubjuristes-2025"
-  ]
+  ],
+  "gens": "Les fichiers de votre mairie, de votre hôpital, souvent chez Amazon ou Microsoft."
  },
  {
   "id": "bureautique",
@@ -1551,17 +2890,67 @@
    "an-tache-2026",
    "p-cpi-2025",
    "p-hdh-2026"
-  ]
+  ],
+  "gens": "Le traitement de texte de l'administration est américain."
  },
  {
   "id": "os-postes",
   "n": "Systèmes d'exploitation",
-  "f": "num"
+  "f": "num",
+  "d": 0,
+  "k": "est",
+  "h": [
+   "US"
+  ],
+  "l": 1,
+  "m": "rever",
+  "dep": "Les postes de l'État et des entreprises tournent sous Windows.",
+  "conc": "Un éditeur américain écrase le marché.",
+  "src": "Assemblée nationale, mission dépendances militaires, 2026",
+  "note": "La Gendarmerie nationale a basculé ses postes sous Linux : la sortie est possible.",
+  "pourquoi": "Le ministère des Armées vit encore sous un accord-cadre Microsoft de 2008, selon la mission parlementaire de 2026. Sans mises à jour, les postes deviennent des passoires : niveau Totalement dépendant.",
+  "refs": [
+   "an-armees-2026"
+  ],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Allemagne",
+     "Danemark"
+    ],
+    "txt": "Mutualiser une distribution Linux d'État européenne, sur le modèle de la Gendarmerie."
+   }
+  ],
+  "gens": "L'ordinateur de l'école et du ministère tourne sous Windows."
  },
  {
   "id": "os-mobiles",
   "n": "Systèmes mobiles",
-  "f": "num"
+  "f": "num",
+  "d": 0,
+  "k": "est",
+  "h": [
+   "US"
+  ],
+  "l": 1,
+  "m": "rever",
+  "dep": "Deux systèmes, Android et iOS, tous deux américains.",
+  "conc": "100 % américain.",
+  "src": "Estimation de travail",
+  "pourquoi": "Chaque téléphone en France tourne sous un système américain. Une coupure des services ou des mises à jour serait immédiate. Niveau Totalement dépendant.",
+  "refs": [],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Allemagne",
+     "Finlande"
+    ],
+    "txt": "Systèmes libres européens pour les téléphones de l'État et des opérateurs vitaux."
+   }
+  ],
+  "gens": "Chaque téléphone en France tourne sous un système américain."
  },
  {
   "id": "ia",
@@ -1600,32 +2989,164 @@
   "refs": [
    "draghi-2024",
    "asteres-2025"
-  ]
+  ],
+  "gens": "Les assistants qu'on utilise au travail sont presque tous américains."
  },
  {
   "id": "cyber",
   "n": "Cybersécurité",
-  "f": "num"
+  "f": "num",
+  "d": 90,
+  "k": "est",
+  "h": [
+   "US",
+   "IL",
+   "FR"
+  ],
+  "l": 1,
+  "m": "lpi",
+  "dep": "Outils de détection souvent américains ; éditeurs français existants.",
+  "conc": "Marché dominé par les États-Unis et Israël.",
+  "src": "Estimation de travail",
+  "pourquoi": "La France a des éditeurs de confiance, qualifiés par l'ANSSI, mais les grands outils de détection sont américains. Estimation de 90 jours.",
+  "refs": [
+   "an-chatelain-2026"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "France",
+     "Allemagne"
+    ],
+    "txt": "Commande publique réservée aux produits qualifiés par l'ANSSI pour les opérateurs vitaux."
+   }
+  ],
+  "gens": "Ce qui protège les hôpitaux des attaques informatiques."
  },
  {
   "id": "paie",
   "n": "Logiciels de paie et RH",
-  "f": "num"
+  "f": "num",
+  "d": 180,
+  "k": "est",
+  "h": [
+   "DIV"
+  ],
+  "l": 0,
+  "m": "atout",
+  "dep": "Logiciels français, mais rachetés par des fonds étrangers.",
+  "conc": "Exemple : Silae, racheté par un fonds.",
+  "src": "Annexe KII",
+  "pourquoi": "La paie des Français tourne sur des logiciels conçus ici, mais leur capital part à l'étranger. Niveau Résilient, vecteur « capital ».",
+  "refs": [
+   "note-kii"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "France"
+    ],
+    "txt": "Audit d'indépendance avant toute cession d'un éditeur de logiciel critique."
+   }
+  ],
+  "gens": "Votre fiche de paie passe par un logiciel dont le capital part à l'étranger."
  },
  {
   "id": "logiciels-sante",
   "n": "Logiciels hospitaliers",
-  "f": "num"
+  "f": "num",
+  "d": 180,
+  "k": "est",
+  "h": [
+   "EU",
+   "FR"
+  ],
+  "l": 0,
+  "m": "lpi",
+  "dep": "Éditeurs surtout européens, hôpitaux visés par les rançongiciels.",
+  "conc": "Marché européen éclaté.",
+  "src": "Estimation de travail",
+  "pourquoi": "Les logiciels hospitaliers sont plutôt européens. La menace vient des cyberattaques plus que d'un fournisseur unique. Niveau Résilient.",
+  "refs": [],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Italie",
+     "Allemagne"
+    ],
+    "txt": "Socle commun européen pour le dossier patient, hébergé en cloud qualifié."
+   }
+  ],
+  "gens": "Votre dossier à l'hôpital, et les rançongiciels qui le visent."
  },
  {
   "id": "paiement",
   "n": "Paiement par carte",
-  "f": "num"
+  "f": "num",
+  "d": 180,
+  "k": "est",
+  "h": [
+   "US",
+   "FR"
+  ],
+  "l": 1,
+  "m": "rever",
+  "dep": "Le réseau CB est français, mais Visa et Mastercard sont partout.",
+  "conc": "61 % des paiements par carte de la zone euro passent par des réseaux internationaux (BCE).",
+  "src": "Banque centrale européenne",
+  "pourquoi": "La France garde son réseau CB, ce que treize pays de la zone euro n'ont plus. Mais le paiement en ligne et à l'étranger reste américain. Niveau Résilient.",
+  "refs": [
+   "bce-cartes-2025"
+  ],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Allemagne",
+     "Belgique",
+     "Pays-Bas"
+    ],
+    "txt": "Wero et l'euro numérique : un réseau de paiement européen commun."
+   }
+  ],
+  "gens": "Votre carte bancaire : souvent CB, souvent aussi Visa ou Mastercard."
  },
  {
   "id": "cables",
   "n": "Câbles sous-marins",
-  "f": "num"
+  "f": "num",
+  "d": 365,
+  "k": "est",
+  "h": [
+   "US",
+   "FR"
+  ],
+  "l": 1,
+  "m": "atout",
+  "dep": "Câbles posés par ASN (français), mais de plus en plus possédés par les géants américains.",
+  "conc": "ASN : plus de 750 000 km posés.",
+  "src": "Nokia ; annexe KII",
+  "note": "Des câbles et gazoducs ont été sabotés en mer Baltique.",
+  "pourquoi": "La France sait poser et réparer les câbles, grâce à ASN redevenue publique. Les sabotages en Baltique montrent le risque. Niveau Résilient.",
+  "refs": [
+   "nokia-asn-2025",
+   "note-kii"
+  ],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Italie",
+     "Grèce",
+     "Portugal"
+    ],
+    "txt": "Flotte européenne de navires câbliers et surveillance partagée des fonds marins."
+   }
+  ],
+  "gens": "99 % de vos messages passent sous la mer."
  },
  {
   "id": "cao",
@@ -1653,26 +3174,125 @@
    }
   ],
   "pourquoi": "Dassault Systèmes est un leader mondial : c'est un atout à protéger de tout rachat.",
-  "refs": []
+  "refs": [],
+  "gens": "Les avions et les voitures du monde entier sont dessinés sur un logiciel français."
  },
  {
   "id": "reseaux-sociaux",
   "n": "Réseaux sociaux",
-  "f": "num"
+  "f": "num",
+  "d": 0,
+  "k": "est",
+  "h": [
+   "US",
+   "CN"
+  ],
+  "l": 1,
+  "m": "rever",
+  "dep": "Plateformes américaines et chinoises, aucune alternative européenne de masse.",
+  "conc": "100 % étranger.",
+  "src": "Estimation de travail",
+  "pourquoi": "Le débat public français passe par des algorithmes écrits ailleurs. Viginum y documente les opérations russes. Niveau Totalement dépendant.",
+  "refs": [
+   "viginum-storm-2025"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Allemagne",
+     "Pays-Bas"
+    ],
+    "txt": "Réseaux décentralisés et obligations d'interopérabilité imposées aux plateformes."
+   }
+  ],
+  "gens": "Le débat public passe par des algorithmes écrits à l'étranger."
  },
  {
   "id": "cartographie",
   "n": "Cartographie et navigation",
-  "f": "num"
+  "f": "num",
+  "d": 180,
+  "k": "est",
+  "h": [
+   "US",
+   "FR"
+  ],
+  "l": 0,
+  "m": "atout",
+  "dep": "Cartes en ligne surtout américaines ; IGN et Galileo comme atouts.",
+  "conc": "Un acteur américain dominant.",
+  "src": "Estimation de travail",
+  "pourquoi": "Le positionnement est européen grâce à Galileo, et l'IGN produit des cartes publiques. L'usage courant passe par un service américain. Niveau Résilient.",
+  "refs": [],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Europe"
+    ],
+    "txt": "Données cartographiques publiques ouvertes, sur le modèle de l'IGN, à l'échelle européenne."
+   }
+  ],
+  "gens": "Le GPS de votre voiture s'appuie sur Galileo, la carte souvent sur Google."
  },
  {
   "id": "recherche",
   "n": "Moteurs de recherche",
-  "f": "num"
+  "f": "num",
+  "d": 0,
+  "k": "est",
+  "h": [
+   "US"
+  ],
+  "l": 1,
+  "m": "rever",
+  "dep": "Un moteur américain concentre l'immense majorité des recherches en France.",
+  "conc": "Position quasi exclusive.",
+  "src": "StatCounter",
+  "pourquoi": "Quand on cherche une information en France, on passe presque toujours par un moteur américain. Niveau Totalement dépendant.",
+  "refs": [
+   "statcounter"
+  ],
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Allemagne"
+    ],
+    "txt": "Index de recherche européen commun, partagé entre moteurs européens."
+   }
+  ],
+  "gens": "Chercher une information, c'est presque toujours passer par Google."
  },
  {
   "id": "dns",
   "n": "Noms de domaine (DNS)",
-  "f": "num"
+  "f": "num",
+  "d": 365,
+  "k": "est",
+  "h": [
+   "US",
+   "FR"
+  ],
+  "l": 0,
+  "m": "atout",
+  "dep": "Le .fr est géré en France ; la racine d'internet reste coordonnée depuis les États-Unis.",
+  "conc": "Gouvernance mondiale sous influence américaine.",
+  "src": "Annexe KII",
+  "pourquoi": "Le .fr est français, et c'est un atout. Mais la racine d'internet relève d'une organisation de droit américain. Niveau Résilient.",
+  "refs": [
+   "note-kii"
+  ],
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Europe"
+    ],
+    "txt": "Résolveurs DNS publics européens et défense d'une gouvernance multilatérale d'internet."
+   }
+  ],
+  "gens": "Le .fr est géré en France. La racine d'internet, non."
  }
 ]

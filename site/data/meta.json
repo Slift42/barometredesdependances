@@ -1,70 +1,114 @@
 {
-  "version": "0.2.0",
-  "maj": "2026-10-12",
-  "seuil_jours": 90,
-  "familles": {
-    "sante": "Santé",
-    "alim": "Alimentation",
-    "ener": "Énergie",
-    "metal": "Métaux critiques",
-    "elec": "Électronique",
-    "indus": "Industrie & transition",
-    "def": "Défense",
-    "num": "Numérique"
+ "version": "0.5.0",
+ "maj": "2026-10-13",
+ "seuil_jours": 90,
+ "familles": {
+  "sante": "Santé",
+  "alim": "Alimentation",
+  "ener": "Énergie",
+  "metal": "Métaux critiques",
+  "elec": "Électronique",
+  "indus": "Industrie & transition",
+  "def": "Défense",
+  "num": "Numérique"
+ },
+ "niveaux": {
+  "1": {
+   "nom": "Souverain",
+   "desc": "production excédentaire (couverture d'au moins 100 %)"
   },
-  "niveaux": {
-    "1": {"nom": "Souverain", "desc": "production nationale ou européenne excédentaire et maîtrisée"},
-    "2": {"nom": "Indépendant", "desc": "plus d'un an de tenue"},
-    "3": {"nom": "Résilient", "desc": "de 91 à 365 jours : le temps de réagir"},
-    "4": {"nom": "Dépendant", "desc": "de 31 à 90 jours : sous le seuil légal proposé"},
-    "5": {"nom": "Totalement dépendant", "desc": "30 jours ou moins : l'arrêt du flux paralyse en un mois"}
+  "2": {
+   "nom": "Indépendant",
+   "desc": "plus d'un an de tenue, ou 80 à 99 % des besoins couverts en France"
   },
-  "detenteurs": {
-    "CN": "Chine", "US": "États-Unis", "RU": "Russie", "TW": "Taïwan", "IN": "Inde", "NO": "Norvège",
-    "KZ": "Kazakhstan", "MA": "Maroc", "BR": "Brésil", "CA": "Canada", "CD": "RD Congo", "BE": "Belgique",
-    "EU": "Union européenne", "FR": "France", "DIV": "Diversifié", "NE": "Niger", "JP": "Japon",
-    "KR": "Corée du Sud", "DE": "Allemagne", "DK": "Danemark"
+  "3": {
+   "nom": "Résilient",
+   "desc": "91 à 365 jours, ou 50 à 79 % des besoins couverts : le temps de réagir"
   },
-  "natures": {
-    "src": "Donnée publiée",
-    "calc": "Calcul sur données publiques",
-    "est": "Estimation de travail"
+  "4": {
+   "nom": "Dépendant",
+   "desc": "31 à 90 jours : sous le seuil légal proposé"
   },
-  "leviers": {
-    "0": "Pas d'usage coercitif documenté",
-    "1": "Prise structurelle ou menace",
-    "2": "Levier déjà activé"
-  },
-  "types_alliance": {
-    "redondance": "Redondance : plusieurs fournisseurs pour qu'aucun ne tienne seul le robinet",
-    "codependance": "Co-dépendance : un échange où chacun a besoin de l'autre"
-  },
-  "mesures": {
-    "test": "Test des 100 jours : publication annuelle et plan de reconstitution obligatoire sous le seuil.",
-    "rever": "Clause de réversibilité : aucun contrat stratégique sans sortie possible en moins de 18 mois.",
-    "blocage": "Loi de blocage contre l'extraterritorialité, adossée à un fonds d'indemnisation des entreprises qui résistent.",
-    "partner": "Partenariats paritaires : extraction et raffinage contre transfert de compétences et prix fixes.",
-    "lpi": "Loi de programmation de l'indépendance : trajectoire chiffrée, produit par produit, votée au Parlement.",
-    "atout": "Atout à protéger : audit d'indépendance obligatoire avant toute cession ou tout accord."
-  },
-  "sources_a_mobiliser": {
-    "sante": "ANSM (disponibilité des médicaments), stocks de sécurité déclarés, LEEM",
-    "alim": "FranceAgriMer, Agreste (bilans d'approvisionnement), Douanes",
-    "ener": "SDES, CPSSP, AGSI+, RTE",
-    "metal": "BRGM / OFVM, USGS, AIE, Douanes (nomenclature NC8)",
-    "elec": "Douanes, Eurostat Comext, enquêtes filière",
-    "indus": "Douanes, Eurostat, fédérations professionnelles",
-    "def": "DGA, rapports parlementaires, sources ouvertes",
-    "num": "Observatoire de la souveraineté numérique (HCSP), Cigref, ANSSI"
-  },
-  "pistes_alliance": {
-    "sante": "Règlement européen sur les médicaments critiques : réserver des capacités de principes actifs en Italie, en Espagne et au Portugal ; coproductions avec le Maroc et la Tunisie.",
-    "alim": "Échanges de blé contre intrants avec le Maghreb ; plan protéines européen avec le bassin du Danube.",
-    "ener": "Contrats longs avec la Norvège et l'Algérie ; interconnexions électriques européennes.",
-    "metal": "Raffinage partagé avec le Japon et l'Australie ; accords paritaires d'extraction avec le Sénégal, le Maroc, la Namibie, Madagascar, l'Indonésie et le Brésil.",
-    "elec": "Capacités européennes (Allemagne, Italie, Pays-Bas) et partenariats avec le Japon et la Corée du Sud.",
-    "indus": "Achats groupés et capacités partagées entre États membres ; acier bas carbone avec la Suède.",
-    "def": "Programmes européens de munitions avec l'Allemagne, la Pologne et les pays nordiques ; coproduction avec l'Ukraine.",
-    "num": "Suite numérique commune avec l'Allemagne et les Pays-Bas ; clouds européens (OVHcloud, Scaleway, Outscale)."
+  "5": {
+   "nom": "Totalement dépendant",
+   "desc": "30 jours ou moins : en un mois, tout s'arrête"
   }
+ },
+ "detenteurs": {
+  "CN": "Chine",
+  "US": "États-Unis",
+  "RU": "Russie",
+  "TW": "Taïwan",
+  "IN": "Inde",
+  "NO": "Norvège",
+  "KZ": "Kazakhstan",
+  "MA": "Maroc",
+  "BR": "Brésil",
+  "CA": "Canada",
+  "CD": "RD Congo",
+  "BE": "Belgique",
+  "EU": "Union européenne",
+  "FR": "France",
+  "DIV": "Diversifié",
+  "NE": "Niger",
+  "JP": "Japon",
+  "KR": "Corée du Sud",
+  "DE": "Allemagne",
+  "DK": "Danemark",
+  "ID": "Indonésie",
+  "CL": "Chili",
+  "ZA": "Afrique du Sud",
+  "IL": "Israël",
+  "TR": "Turquie",
+  "AU": "Australie",
+  "IT": "Italie",
+  "SE": "Suède",
+  "GB": "Royaume-Uni",
+  "CH": "Suisse",
+  "NL": "Pays-Bas",
+  "VN": "Viêt Nam",
+  "ES": "Espagne"
+ },
+ "natures": {
+  "src": "Donnée publiée",
+  "calc": "Calcul sur données publiques",
+  "est": "Estimation de travail"
+ },
+ "leviers": {
+  "0": "Pas d'usage coercitif documenté",
+  "1": "Prise structurelle ou menace",
+  "2": "Levier déjà activé"
+ },
+ "types_alliance": {
+  "redondance": "Redondance : plusieurs fournisseurs pour qu'aucun ne tienne seul le robinet",
+  "codependance": "Co-dépendance : un échange où chacun a besoin de l'autre"
+ },
+ "mesures": {
+  "test": "Test des 100 jours : publication annuelle et plan de reconstitution obligatoire sous le seuil.",
+  "rever": "Clause de réversibilité : aucun contrat stratégique sans sortie possible en moins de 18 mois.",
+  "blocage": "Loi de blocage contre l'extraterritorialité, adossée à un fonds d'indemnisation des entreprises qui résistent.",
+  "partner": "Partenariats paritaires : extraction et raffinage contre transfert de compétences et prix fixes.",
+  "lpi": "Loi de programmation de l'indépendance : trajectoire chiffrée, produit par produit, votée au Parlement.",
+  "atout": "Atout à protéger : audit d'indépendance obligatoire avant toute cession ou tout accord."
+ },
+ "sources_a_mobiliser": {
+  "sante": "ANSM (disponibilité des médicaments), stocks de sécurité déclarés, LEEM",
+  "alim": "FranceAgriMer, Agreste (bilans d'approvisionnement), Douanes",
+  "ener": "SDES, CPSSP, AGSI+, RTE",
+  "metal": "BRGM / OFVM, USGS, AIE, Douanes (nomenclature NC8)",
+  "elec": "Douanes, Eurostat Comext, enquêtes filière",
+  "indus": "Douanes, Eurostat, fédérations professionnelles",
+  "def": "DGA, rapports parlementaires, sources ouvertes",
+  "num": "Observatoire de la souveraineté numérique (HCSP), Cigref, ANSSI"
+ },
+ "pistes_alliance": {
+  "sante": "Règlement européen sur les médicaments critiques : réserver des capacités de principes actifs en Italie, en Espagne et au Portugal ; coproductions avec le Maroc et la Tunisie.",
+  "alim": "Échanges de blé contre intrants avec le Maghreb ; plan protéines européen avec le bassin du Danube.",
+  "ener": "Contrats longs avec la Norvège et l'Algérie ; interconnexions électriques européennes.",
+  "metal": "Raffinage partagé avec le Japon et l'Australie ; accords paritaires d'extraction avec le Sénégal, le Maroc, la Namibie, Madagascar, l'Indonésie et le Brésil.",
+  "elec": "Capacités européennes (Allemagne, Italie, Pays-Bas) et partenariats avec le Japon et la Corée du Sud.",
+  "indus": "Achats groupés et capacités partagées entre États membres ; acier bas carbone avec la Suède.",
+  "def": "Programmes européens de munitions avec l'Allemagne, la Pologne et les pays nordiques ; coproduction avec l'Ukraine.",
+  "num": "Suite numérique commune avec l'Allemagne et les Pays-Bas ; clouds européens (OVHcloud, Scaleway, Outscale)."
+ }
 }

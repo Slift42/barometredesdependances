@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Baromètre des dépendances</title>
-<meta name="description" content="De qui la France dépend-elle, sur quoi, et pour combien de jours ? Le test des 100 jours, produit par produit.">
+<meta name="description" content="Si le robinet se ferme demain, combien de jours la France tient-elle ? Cent produits vitaux, qui tient le robinet, et avec qui faire autrement.">
 <meta name="theme-color" content="#13263D">
 <!-- Phase de travail : le site ne doit pas être indexé. Retirer cette ligne le jour du lancement. -->
 <meta name="robots" content="noindex, nofollow">
@@ -24,31 +24,42 @@
 </head>
 <body>
 <!--BODY-START-->
-<div class="proto"><div class="wrap"><span>VERSION DE TRAVAIL · comité RI · <span id="majDate"></span></span><span>Valeurs précédées de « ≈ » : estimations à instruire. Ne pas diffuser en l'état.</span></div></div>
+<div class="progress" id="progress" aria-hidden="true"></div>
+<div class="proto"><div class="wrap"><span>VERSION DE TRAVAIL · comité RI · mise à jour du <span id="majDate"></span></span><span>Les chiffres précédés de « ≈ » sont des estimations à instruire. Ne pas diffuser en l'état.</span></div></div>
 
 <header class="top"><div class="wrap">
-  <a class="brand" href="#haut">Baromètre des dépendances <small>France · test des 100 jours</small></a>
-  <nav class="sections" aria-label="Sections">
-    <a href="#test">Test des 100 jours</a><a href="#robinet">Robinet</a><a href="#strategies">Leur stratégie</a><a href="#leviers">Leviers assumés</a><a href="#europe">Europe</a><a href="#allies">Alliés</a><a href="#vigie">Vigie</a><a href="#methode">Méthode</a><a href="#sources">Sources</a><a href="#propositions">Propositions</a>
+  <a class="brand" href="#haut">Baromètre des dépendances <small>France</small></a>
+  <nav class="sections" id="nav" aria-label="Chapitres">
+    <a href="#test">100 jours</a>
+    <a href="#detail">En détail</a>
+    <a href="#strategies">Qui nous tient</a>
+    <a href="#europe">Europe et alliés</a>
+    <a href="#actus">Actus</a>
+    <a href="#methode">Méthode</a>
+    <a href="#sources">Sources</a>
+    <a href="#propositions">Propositions</a>
   </nav>
+  <button class="icon-btn" id="searchBtn" type="button" aria-label="Chercher un produit" title="Chercher un produit (touche /)">⌕</button>
   <button class="theme-btn" id="themeBtn" type="button">Thème</button>
 </div></header>
 
 <main id="haut">
 <div class="wrap">
+
+  <!-- ===================== OUVERTURE ===================== -->
   <section class="hero">
     <div class="hero-grid">
-      <div>
+      <div class="hero-text">
         <div class="eyebrow">Baromètre des prises étrangères sur la France</div>
         <h1>Si le robinet se ferme demain, combien de jours la France tient-elle&nbsp;?</h1>
-        <p class="lead">Pour le pétrole, la loi impose <strong>90 jours</strong> de stocks stratégiques. Pour les médicaments essentiels, <strong>deux mois</strong>. Pour les terres rares, les puces, les engrais ou le cloud de l'État&nbsp;: <strong>aucun seuil</strong>.</p>
-        <p class="lead">Le baromètre mesure, produit par produit, de qui nous dépendons, sur quoi, pour combien de temps, et avec qui nous pourrions bâtir d'autres alliances.</p>
-        <blockquote>« C'est de l'intérieur que l'État est colonisé par les intérêts privés, par les intérêts étrangers. »<cite>François Ruffin, Le Grand Continent, 25 février 2026</cite></blockquote>
+        <p class="lead">Pour le pétrole, la loi impose <strong>90 jours</strong> de stocks. Pour les médicaments essentiels, <strong>deux mois</strong>. Pour les terres rares, les puces, les engrais ou le cloud de l'État&nbsp;: <strong>rien</strong>. Pas de seuil, pas de plan, pas de débat au Parlement.</p>
+        <p class="lead">On nous avait promis que le commerce ferait la paix. Il a surtout créé des prises. Ici, on les compte une par une&nbsp;: qui tient le robinet, sur quoi, pour combien de jours. Et avec qui on pourrait faire autrement.</p>
+        <blockquote class="quote">« C'est de l'intérieur que l'État est colonisé par les intérêts privés, par les intérêts étrangers. »<cite>François Ruffin, Le Grand Continent, 25 février 2026</cite></blockquote>
       </div>
       <div class="dial-card" aria-label="État général du baromètre">
         <svg id="dial" viewBox="-40 0 440 196" role="img" aria-labelledby="dialTitle"><title id="dialTitle">Cadran du baromètre</title></svg>
         <div class="dial-state">
-          <div><div class="lbl">État général</div><div class="val" id="dialVal">—</div></div>
+          <div><div class="lbl">Aujourd'hui, la France est</div><div class="val" id="dialVal">…</div></div>
           <p id="dialNote">Chargement des données…</p>
         </div>
       </div>
@@ -56,137 +67,202 @@
     <div class="kpis" id="kpis"></div>
   </section>
 
-  <section class="block" id="test">
+  <!-- ===================== CHAPITRE 1 ===================== -->
+  <section class="block reveal" id="test">
+    <div class="chapter">Chapitre 1</div>
     <div class="sec-head">
-      <div><div class="eyebrow">Mesure phare</div><h2>Le test des 100 jours</h2></div>
-      <p>Cent produits vitaux. Pour chacun, un seul chiffre&nbsp;: le nombre de jours que le pays tient si le flux extérieur s'arrête. Sous le seuil fixé par la loi, l'État doit présenter un plan de reconstitution. Cliquez un produit pour ouvrir sa fiche et voir avec qui bâtir des alliances.</p>
+      <div><div class="eyebrow">La mesure phare</div><h2>Le test des 100 jours</h2></div>
+      <p>Cent produits sans lesquels le pays s'arrête. Pour chacun, la question qu'on se pose dans un ménage en fin de mois&nbsp;: si plus rien ne rentre, combien de temps on tient&nbsp;? Sous 90 jours, l'État devra présenter un plan. Cliquez sur une case pour savoir qui tient le robinet, pourquoi cette note, et avec qui s'en passer.</p>
     </div>
     <div class="toolbar">
-      <div class="chips" id="famChips" role="group" aria-label="Filtrer par famille"></div>
+      <label class="search" for="q"><span aria-hidden="true">⌕</span><input id="q" type="search" placeholder="Chercher un produit : gallium, insuline, cloud…" autocomplete="off"></label>
       <div class="seg" role="group" aria-label="Vue">
-        <button type="button" id="vWall" aria-pressed="true">Le mur des 100</button>
-        <button type="button" id="vLine" aria-pressed="false">Ligne de flottaison</button>
+        <button type="button" id="vWall" aria-pressed="true">Le mur</button>
+        <button type="button" id="vLine" aria-pressed="false">La ligne de flottaison</button>
       </div>
     </div>
+    <div class="chips" id="famChips" role="group" aria-label="Filtrer par famille"></div>
     <div id="wallView"><div class="wall" id="wall"><p class="loading">Chargement…</p></div></div>
     <div id="lineView" hidden><div class="float"><div class="axis" id="axis"></div><div id="rows"></div></div></div>
     <div class="legend" id="legend"></div>
   </section>
 
-  <section class="block" id="robinet">
+  <!-- ===================== CHAPITRE 2 ===================== -->
+  <section class="block reveal" id="detail">
+    <div class="chapter">Chapitre 2</div>
     <div class="sec-head">
-      <div><div class="eyebrow">Six vecteurs, trois puissances</div><h2>Qui tient le robinet&nbsp;?</h2></div>
-      <p>La prédation n'est plus militaire. Elle passe par la matière, le code, le droit, le capital, les récits et les relais. Chaque case indique si le levier a déjà été actionné contre la France ou l'Europe.</p>
+      <div><div class="eyebrow">Au-delà des 100</div><h2>Le baromètre en détail</h2></div>
+      <p>Derrière chaque produit, il y a une chaîne. L'aimant d'une éolienne passe par une mine, une raffinerie, une usine. Il suffit qu'un maillon soit tenu de l'étranger pour que tout s'arrête. Ici, on regarde famille par famille, puissance par puissance, maillon par maillon.</p>
     </div>
-    <div class="matrix-scroll"><table class="matrix" id="matrix"></table></div>
-    <div class="legend">
-      <span><i class="st act" style="margin:0">Activé</i> déjà utilisé contre la France ou l'UE</span>
-      <span><i class="st str" style="margin:0">Structurel</i> prise installée, pas encore actionnée</span>
-      <span><i class="st lat" style="margin:0">Latent</i> exposition faible ou indirecte</span>
+
+    <div class="detail-grid">
+      <article class="panel">
+        <h3>Famille par famille</h3>
+        <p class="hint">Cliquez sur une famille pour la retrouver dans le mur.</p>
+        <div id="famBars"></div>
+      </article>
+      <article class="panel">
+        <h3>Qui tient nos robinets</h3>
+        <p class="hint">Sur les 100, le nombre de produits où ce pays compte parmi les fournisseurs dominants. Cliquez pour les voir dans le mur.</p>
+        <div id="holderBars"></div>
+      </article>
+    </div>
+
+    <article class="panel chains">
+      <h3>Maillon par maillon</h3>
+      <div class="chain-tabs" id="chainTabs" role="group" aria-label="Choisir une chaîne"></div>
+      <div id="chainBody"></div>
+    </article>
+
+    <div class="detail-grid">
+      <article class="panel" id="armees">
+        <h3 id="zoomTitle">Zoom sur nos armées</h3>
+        <p class="hint" id="zoomIntro"></p>
+        <ul class="zoom" id="zoomList"></ul>
+        <div id="zoomRefs"></div>
+      </article>
+      <article class="panel" id="atouts">
+        <h3>Ce que nous tenons</h3>
+        <p class="hint">Les dépendances jouent dans les deux sens. Voici nos cartes.</p>
+        <div class="assets" id="assets"></div>
+      </article>
     </div>
   </section>
 
-  <section class="block" id="strategies">
+  <!-- ===================== CHAPITRE 3 ===================== -->
+  <section class="block reveal" id="strategies">
+    <div class="chapter">Chapitre 3 · Qui nous tient</div>
     <div class="sec-head">
-      <div><div class="eyebrow">Dans leurs propres textes</div><h2>Leur stratégie</h2></div>
+      <div><div class="eyebrow">Dans leurs propres textes</div><h2>Ils l'ont écrit</h2></div>
       <p id="stratIntro"></p>
     </div>
     <div class="kii-tabs" id="stratTabs" role="group" aria-label="Choisir une puissance"></div>
     <div id="stratBody"></div>
   </section>
 
-  <section class="block" id="leviers">
+  <section class="block reveal" id="leviers">
     <div class="sec-head">
-      <div><div class="eyebrow">Key Imperialism Indicators</div><h2>Les leviers assumés</h2></div>
+      <div><div class="eyebrow">Key Imperialism Indicators</div><h2>Les leviers qu'ils assument</h2></div>
       <p id="kiiIntro"></p>
     </div>
     <div class="kii-tabs" id="kiiTabs" role="group" aria-label="Choisir une puissance"></div>
     <div id="kiiBody"></div>
   </section>
 
-  <section class="block" id="europe">
+  <section class="block reveal" id="robinet">
     <div class="sec-head">
-      <div><div class="eyebrow">Au-delà de la France</div><h2>Comment cela pèse sur l'Europe</h2></div>
-      <p>Les mêmes prises s'exercent sur toute l'Union. Les chiffres viennent de la Commission, de la Cour des comptes européenne et de centres de recherche indépendants.</p>
+      <div><div class="eyebrow">Six portes d'entrée</div><h2>Qui tient le robinet&nbsp;?</h2></div>
+      <p>La prédation ne passe plus par les chars. Elle passe par la matière, le code, le droit, le capital, les récits et les relais. Chaque case dit si la porte a déjà été forcée.</p>
     </div>
+    <blockquote class="quote wide">« La servitude européenne est en vérité volontaire. »<cite>François Ruffin, Le Grand Continent, 25 février 2026</cite></blockquote>
+    <div class="matrix-scroll"><table class="matrix" id="matrix"></table></div>
+    <div class="legend">
+      <span><i class="st act">Activé</i> déjà utilisé contre la France ou l'UE</span>
+      <span><i class="st str">Structurel</i> la prise est installée</span>
+      <span><i class="st lat">Latent</i> exposition faible</span>
+    </div>
+  </section>
+
+  <!-- ===================== CHAPITRE 4 ===================== -->
+  <section class="block reveal" id="europe">
+    <div class="chapter">Chapitre 4 · Europe et alliés</div>
+    <div class="sec-head">
+      <div><div class="eyebrow">Toute l'Union dans la même tenaille</div><h2>Ce que ça coûte à l'Europe</h2></div>
+      <p>La France n'est pas seule à plier. Les chiffres viennent de la Commission, de la Cour des comptes européenne et de chercheurs indépendants.</p>
+    </div>
+    <blockquote class="quote wide">« Hormis ces résidus, et quelques autres ailleurs en Europe, comme ASML, l'Union est une colonie numérique. »<cite>François Ruffin, Le Grand Continent, 25 février 2026</cite></blockquote>
     <div class="eu-grid" id="euGrid"></div>
   </section>
 
-  <section class="block" id="allies">
+  <section class="block reveal" id="allies">
     <div class="sec-head">
-      <div><div class="eyebrow">Ce que font nos alliés</div><h2>La dépendance devient un réflexe d'achat</h2></div>
-      <p>La dépendance ne se lit pas seulement dans les stocks. Elle se voit dans les choix d'achat de nos voisins, et dans les quelques pays qui choisissent autrement.</p>
+      <div><div class="eyebrow">Ce que font nos voisins</div><h2>La dépendance devient un réflexe d'achat</h2></div>
+      <p>On les appelle nos alliés. Ils achètent américain pour être protégés, chinois pour payer moins cher, coréen pour leurs centrales. Quelques-uns font autrement, et montrent que c'est possible.</p>
     </div>
     <div class="ally-list" id="allyList"></div>
   </section>
 
-  <section class="block" id="vigie">
-    <div class="two">
+  <!-- ===================== CHAPITRE 5 ===================== -->
+  <section class="block reveal" id="actus">
+    <div class="chapter">Chapitre 5</div>
+    <div class="sec-head">
+      <div><div class="eyebrow">Ce qui bouge</div><h2>Actus</h2></div>
+      <p>Les dépendances bougent chaque semaine&nbsp;: une licence refusée à Pékin, un arrêté à Paris, une rupture en pharmacie. Chaque nouvelle dit ce qu'elle change, et d'où elle vient.</p>
+    </div>
+    <div class="actus-grid">
       <div>
-        <div class="eyebrow">Mise à jour continue</div>
-        <h2 style="margin-bottom:16px">La vigie</h2>
-        <ul class="feed" id="feed"></ul>
+        <div class="chips" id="actuChips" role="group" aria-label="Filtrer les actualités"></div>
+        <ol class="feed" id="feed"></ol>
+        <button type="button" class="more" id="feedMore" hidden>Voir plus</button>
       </div>
-      <div id="atouts">
-        <div class="eyebrow">Ce que nous tenons</div>
-        <h2 style="margin-bottom:16px">Nos atouts</h2>
-        <div class="assets" id="assets"></div>
-        <p class="lever-note">Les dépendances jouent dans les deux sens. La Chine doit écouler sa production en Europe. Les États-Unis ont besoin de notre marché intérieur et de nos moteurs d'avion. Ces faiblesses sont autant de leviers.</p>
-      </div>
+      <aside class="panel" id="echeances">
+        <h3>Les prochaines échéances</h3>
+        <ul class="deadlines" id="deadlines"></ul>
+      </aside>
     </div>
   </section>
 
-  <section class="block" id="methode">
+  <!-- ===================== CHAPITRE 6 ===================== -->
+  <section class="block reveal" id="methode">
+    <div class="chapter">Chapitre 6</div>
     <div class="sec-head">
-      <div><div class="eyebrow">Transparence</div><h2>Méthode et sources</h2></div>
-      <p>Chaque chiffre affiche sa source et sa nature&nbsp;: donnée publiée, calcul sur données publiques, ou estimation de travail. La méthode est publique pour pouvoir être contestée.</p>
+      <div><div class="eyebrow">Transparence</div><h2>Comment on note</h2></div>
+      <p>Un chiffre sans source, c'est une opinion. Ici, chaque chiffre dit d'où il vient et s'il est mesuré ou estimé. La méthode est publique pour qu'on puisse la contester.</p>
     </div>
     <div class="method">
       <div class="mcard">
-        <h3>Jours de tenue</h3>
+        <h3>Les jours de tenue</h3>
         <div class="formula">tenue (jours) =<br>(stocks publics + stocks privés<br>&nbsp;+ production nationale mobilisable)<br>÷ consommation vitale par jour</div>
-        <p style="margin-top:10px">Mesurée à l'origine ultime&nbsp;: un aimant importé d'Allemagne mais fabriqué avec des terres rares chinoises compte comme dépendance chinoise.</p>
+        <p>On compte à l'origine ultime&nbsp;: un aimant acheté en Allemagne mais fabriqué avec des terres rares chinoises est une dépendance chinoise.</p>
+      </div>
+      <div class="mcard">
+        <h3>Ou la part couverte</h3>
+        <div class="formula">couverture (%) =<br>production nationale<br>÷ consommation nationale</div>
+        <p>Pour ce qu'on produit en partie ici, comme le poulet ou les légumes, on mesure la part des besoins couverts. Source principale&nbsp;: FranceAgriMer.</p>
       </div>
       <div class="mcard">
         <h3>Cinq niveaux</h3>
         <div class="scale" id="scale"></div>
-        <p style="margin-top:10px">Un levier déjà activé par le fournisseur aggrave le niveau d'un cran. Seuil légal proposé&nbsp;: 90 jours, comme pour le pétrole.</p>
-      </div>
-      <div class="mcard">
-        <h3>Indice de prise (0-100)</h3>
-        <div class="formula">40 % tenue<br>25 % concentration mondiale (HHI)<br>15 % taux d'importation<br>20 % historique de coercition</div>
-        <p style="margin-top:10px">Pondérations à valider par le comité. Calcul mensuel, publié avec ses données brutes.</p>
+        <p>Un levier déjà actionné par le fournisseur fait perdre un niveau.</p>
       </div>
     </div>
+    <div class="health" id="health"></div>
     <div class="pipe-scroll"><table class="pipe" id="pipe"></table></div>
   </section>
 
-  <section class="block" id="sources">
+  <section class="block reveal" id="sources">
     <div class="sec-head">
       <div><div class="eyebrow">Bibliothèque</div><h2>Toutes les sources</h2></div>
-      <p>Rapports d'institutions, travaux parlementaires et études d'experts d'abord. La presse n'est citée que pour dater un fait qu'aucune source experte ne documente encore.</p>
+      <p>D'abord la Cour des comptes européenne, le Sénat, l'Assemblée, l'Agence internationale de l'énergie, les chercheurs du MERICS, de l'Ifri, de l'IRIS. Ensuite les textes officiels des puissances elles-mêmes. La presse ne sert qu'à dater ce que personne n'a encore étudié.</p>
     </div>
-    <div class="chips" id="bibChips" role="group" aria-label="Filtrer les sources" style="margin-bottom:14px"></div>
+    <div class="toolbar">
+      <div class="chips" id="bibChips" role="group" aria-label="Filtrer les sources"></div>
+      <label class="search small" for="bq"><span aria-hidden="true">⌕</span><input id="bq" type="search" placeholder="Chercher une source" autocomplete="off"></label>
+    </div>
     <ol class="bib" id="bibList"></ol>
   </section>
 
-  <section class="block" id="propositions">
+  <!-- ===================== CHAPITRE 7 ===================== -->
+  <section class="block reveal" id="propositions">
+    <div class="chapter">Chapitre 7</div>
     <div class="sec-head">
-      <div><div class="eyebrow">Ce que nous proposons</div><h2>Du constat à l'obligation d'agir</h2></div>
-      <p>Quand un médicament manque en pharmacie, on saura de quel pays dépend la molécule et en combien de mois on peut la refaire ici. Quand une usine ferme après un rachat, on saura qui a signé.</p>
+      <div><div class="eyebrow">Ce que nous ferons</div><h2>Du constat à l'obligation d'agir</h2></div>
+      <p>Quand une usine fermera parce qu'un fonds étranger l'a rachetée puis découpée, on saura qui a signé l'autorisation, et il devra s'en expliquer devant le Parlement. Quand un médicament manquera en pharmacie, on saura de quel pays dépend la molécule, et en combien de mois on peut la refaire ici.</p>
     </div>
+    <blockquote class="quote wide">« Plutôt que de chercher à attirer les capitaux américains, nous devons nous en protéger. »<cite>François Ruffin, Le Grand Continent, 25 février 2026</cite></blockquote>
     <div class="props" id="props"></div>
   </section>
 </div>
 </main>
 
 <footer><div class="wrap">
-  <span>barometredesdependances.com · version de travail du comité Relations internationales. Contenus issus des notes du comité, complétés de sources publiques.</span>
-  <span>Les valeurs « ≈ » sont des ordres de grandeur de travail, pas des résultats. Chaque fiche doit être instruite et sourcée avant publication.</span>
+  <span>barometredesdependances.com · version de travail du comité Relations internationales.</span>
+  <span>Les chiffres « ≈ » sont des ordres de grandeur, pas des résultats. Chaque fiche doit être instruite et sourcée avant publication.</span>
 </div></footer>
 
-<div class="scrim" id="scrim" hidden></div>
-<aside class="sheet" id="sheet" hidden aria-modal="true" role="dialog" aria-labelledby="shTitle"></aside>
+<button type="button" class="totop" id="toTop" aria-label="Revenir en haut">↑</button>
+<div class="scrim" id="scrim"></div>
+<aside class="sheet" id="sheet" aria-modal="true" role="dialog" aria-labelledby="shTitle" aria-hidden="true"></aside>
 <!--BODY-END-->
 <script src="assets/app.js" defer></script>
 </body>

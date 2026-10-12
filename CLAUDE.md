@@ -15,12 +15,15 @@ Il mesure, produit par produit, de qui la France dépend, pour combien de jours,
 ## Règles de contenu
 - Chaque chiffre porte sa nature : `src` (donnée publiée), `calc` (calcul sur données publiques), `est` (estimation, affichée « ≈ »). Ne jamais présenter une estimation comme une donnée.
 - Toute donnée `src` ou `calc` cite une source vérifiable dans le champ `src`.
-- Niveaux calculés, jamais saisis : Souverain (excédent) · Indépendant (> 365 j) · Résilient (91-365 j) · Dépendant (31-90 j) · Totalement dépendant (≤ 30 j). Un levier déjà activé (`l: 2`) aggrave d'un niveau.
+- Niveaux calculés, jamais saisis : Souverain (excédent) · Indépendant (> 365 j) · Résilient (91-365 j) · Dépendant (31-90 j) · Totalement dépendant (≤ 30 j). Avec `cov` (part couverte) : ≥ 100 % Souverain, ≥ 80 % Indépendant, ≥ 50 % Résilient. Un levier déjà activé (`l: 2`) aggrave d'un niveau.
+- Toute justification cite ses sources par identifiant (`refs`) de `bibliographie.json`. Préférer institutions, Parlement, instituts de recherche ; la presse seulement pour dater un fait.
+- Actus : `actus.json` = vérifiées par le comité ; `live/actus_auto.json` = robot, toujours affichées « à vérifier ». Ne jamais promouvoir un article automatique sans l'avoir lu.
+- Citations de François Ruffin : uniquement des phrases publiées, avec la référence. Ne jamais en inventer ni en reformuler entre guillemets.
 - Alliances (`al`) : `redondance` (plusieurs fournisseurs) ou `codependance` (échange réciproque).
-- Langue : français, phrases courtes, ton factuel. Pas de métaphore météo.
+- Langue : français, phrases courtes, mots concrets (le robinet, la pharmacie du coin, l'usine), ton factuel. Pas de jargon ni de formules creuses. Pas de métaphore météo.
 
 ## Vérifications avant chaque commit
-- `python3 -m json.tool` sur chaque fichier de `site/data/` modifié.
+- `python3 tools/verifier_donnees.py` (0 erreur exigée).
 - `node --check site/assets/app.js` si le JS a changé.
 - Ouvrir le site en local (Live Server, port 5600) et vérifier le mur des 100 et une fiche.
 

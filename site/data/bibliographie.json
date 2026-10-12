@@ -700,5 +700,212 @@
   "date": "2024-11",
   "url": "",
   "apport": "Propose un « accord de Mar-a-Lago » : les partenaires soutiennent le dollar et achètent des bons du Trésor en échange de droits allégés et de garanties de sécurité via l'OTAN."
+ },
+ {
+  "id": "ruffin-gc-2026",
+  "type": "programme",
+  "auteur": "François Ruffin, Le Grand Continent",
+  "titre": "Pour une déclaration d'indépendance : la doctrine Ruffin sur l'Europe",
+  "date": "2026-02-25",
+  "url": "https://legrandcontinent.eu/fr/2026/02/25/pour-une-declaration-dindependance-la-doctrine-ruffin-sur-leurope/",
+  "apport": "« Hormis ces résidus, et quelques autres ailleurs en Europe, comme ASML, l'Union est une colonie numérique. » « Plutôt que de chercher à attirer les capitaux américains, nous devons nous en protéger. »"
+ },
+ {
+  "id": "an-armees-2026",
+  "type": "parlement",
+  "auteur": "Assemblée nationale, mission sur les dépendances militaires (F. Cormier-Bouligeon, A. Saintoul), rapporté par LCP",
+  "titre": "Munitions, drones, porte-avions : ces dépendances qui affaiblissent l'armée française",
+  "date": "2026-04-01",
+  "url": "https://lcp.fr/actualites/munitions-drones-porte-avions-ces-dependances-qui-affaiblissent-l-armee-francaise-434563",
+  "apport": "Dernier fabricant français de munitions de petit calibre fermé en 1999 ; drone MALE américain (Reaper) ; catapultes du porte-avions américaines ; 85 % des achats informatiques du ministère auprès de dix fournisseurs étrangers ; accord-cadre Microsoft de 2008 ; contrat Palantir à la DGSI."
+ },
+ {
+  "id": "em-2026",
+  "type": "expertise",
+  "auteur": "Énergies et Mobilités (ex-UFIP)",
+  "titre": "Approvisionnement de la France en énergies liquides, édition 2026",
+  "date": "2026-06",
+  "url": "https://www.energiesetmobilites.fr/uploads/pdf/PRES_2026_Appro_de_la_France_en_énergies_liquides_DEF.pdf",
+  "apport": "Plus de la moitié du gazole consommé en France est importé ; 7,8 Mm³ de kérosène importés pour 8,8 Mm³ consommés en 2025 ; stocks stratégiques d'environ trois mois."
+ },
+ {
+  "id": "gouv-medicaments-2023",
+  "type": "institution",
+  "auteur": "Gouvernement",
+  "titre": "Relocaliser en France la production des médicaments essentiels",
+  "date": "2023-06-14",
+  "url": "https://www.info.gouv.fr/actualite/relocaliser-en-france-la-production-des-medicaments-essentiels",
+  "apport": "Liste de près de 450 médicaments essentiels ; une cinquantaine identifiés comme les plus dépendants des importations extra-européennes, dont la moitié à relocaliser en cinq ans."
+ },
+ {
+  "id": "ema-perfusion-2025",
+  "type": "institution",
+  "auteur": "Agence européenne des médicaments",
+  "titre": "Perfusion solutions: supply shortage",
+  "date": "2025-06-12",
+  "url": "https://www.ema.europa.eu/en/medicines/human/shortages/perfusion-solutions",
+  "apport": "Pénurie européenne de solutés de perfusion signalée en juin 2025, déclarée résolue en avril 2026."
+ },
+ {
+  "id": "bce-cartes-2025",
+  "type": "institution",
+  "auteur": "Banque centrale européenne (relayée par la Banque de France)",
+  "titre": "Most EU countries rely on international card schemes for card payments",
+  "date": "2025-02-28",
+  "url": "https://banque-france.fr/en/press-release/most-eu-countries-rely-international-card-schemes-card-payments-ecb-report-shows",
+  "apport": "61 % des paiements par carte de la zone euro passent par des réseaux internationaux ; 13 pays en dépendent entièrement. « Questions sur l'autonomie stratégique de l'UE dans les paiements. »"
+ },
+ {
+  "id": "nokia-asn-2025",
+  "type": "donnees",
+  "auteur": "Nokia",
+  "titre": "Nokia completes its sale of ASN (Alcatel Submarine Networks) to the French State",
+  "date": "2025-01-03",
+  "url": "https://nokia.com/about-us/news/releases/2025/01/03/nokia-completes-its-sale-of-leading-submarine-networks-business-asn-alcatel-submarine-networks-to-the-french-state",
+  "apport": "L'État reprend Alcatel Submarine Networks : plus de 750 000 km de câbles sous-marins posés dans le monde."
+ },
+ {
+  "id": "5g-ue-2023",
+  "type": "presse",
+  "auteur": "Light Reading",
+  "titre": "EU ratchets up pressure to ban Huawei, ZTE",
+  "date": "2023-06-16",
+  "url": "https://www.lightreading.com/security/eu-ratchets-up-pressure-to-ban-huawei-zte",
+  "apport": "La Commission juge que Huawei et ZTE présentent des « risques nettement plus élevés » ; dix États membres les ont restreints."
+ },
+ {
+  "id": "cefic-2026",
+  "type": "expertise",
+  "auteur": "Cefic et Roland Berger",
+  "titre": "European Chemical Closures and Investments Radar 2022-2025",
+  "date": "2026-01",
+  "url": "https://cefic.org//app/uploads/2026/01/European-Chemical-Closures-and-Investments-Radar-2022-2025.pdf",
+  "apport": "37 Mt de capacités chimiques fermées en Europe depuis 2022 (9 % du total), contre 7 Mt d'investissements confirmés ; en France, 3,9 Mt fermées pour 0,4 Mt investies."
+ },
+ {
+  "id": "ifri-alu-2024",
+  "type": "expertise",
+  "auteur": "Ifri, Centre énergie et climat (Thibault Michel)",
+  "titre": "The aluminium value chain in Europe",
+  "date": "2024-07",
+  "url": "https://ifri.org/sites/default/files/2024-08/ifri_michel_aluminium_value_chain_europe_2024.pdf",
+  "apport": "La production européenne d'aluminium primaire recule depuis 2005 ; la Chine produit environ 60 % de l'alumine et de l'aluminium mondiaux ; Aluminium Dunkerque est le premier producteur français."
+ },
+ {
+  "id": "semae-2025",
+  "type": "presse",
+  "auteur": "Réussir (données SEMAE)",
+  "titre": "Semences : la France garde son statut de premier exportateur mondial en grandes cultures",
+  "date": "2025-12-10",
+  "url": "https://www.reussir.fr/grandes-cultures/semences-la-france-garde-son-statut-de-premier-exportateur-mondial-en-grandes-cultures-et-premier",
+  "apport": "2,56 Md€ d'exportations de semences en 2024-2025, excédent de 1,26 Md€ ; surfaces de multiplication de semences potagères et florales en baisse de 15 %."
+ },
+ {
+  "id": "carbonbrief-2026",
+  "type": "expertise",
+  "auteur": "Carbon Brief",
+  "titre": "Experts: will Chinese wind power help or hinder Europe's climate goals?",
+  "date": "2026-01-30",
+  "url": "https://www.carbonbrief.org/experts-will-chinese-wind-power-help-or-hinder-europes-climate-goals/",
+  "apport": "Les fabricants chinois pèsent moins de 1 % des éoliennes installées en Europe, mais plus de la moitié de la capacité mondiale, et dominent les aimants."
+ },
+ {
+  "id": "p-mcphy-2025",
+  "type": "presse",
+  "auteur": "L'Info durable (AFP)",
+  "titre": "Hydrogène : le premier fabricant français d'électrolyseurs acculé à la liquidation",
+  "date": "2025",
+  "url": "https://www.linfodurable.fr/hydrogene-le-premier-fabricant-francais-delectrolyseurs-accule-la-liquidation-50792",
+  "apport": "McPhy, premier fabricant français d'électrolyseurs, placé en liquidation."
+ },
+ {
+  "id": "senat-commerce-2025",
+  "type": "parlement",
+  "auteur": "Sénat (F. Bonneau, H. Conway-Mouret, Y. Jadot, D. Marie, É. Renaud-Garabedian, J.-L. Ruelle)",
+  "titre": "La nouvelle donne du commerce international (rapport n° 235)",
+  "date": "2025-12-17",
+  "url": "https://www.senat.fr/rap/r25-235/r25-235_mono.html",
+  "apport": "« La relation entre l'Union européenne et la Chine s'est inversée. » Les droits américains de 50 % ont fait chuter de plus d'un quart les ventes françaises d'acier aux États-Unis ; l'instrument anti-coercition n'a jamais servi."
+ },
+ {
+  "id": "statcounter",
+  "type": "donnees",
+  "auteur": "StatCounter",
+  "titre": "Search engine market share, France",
+  "date": "2025",
+  "url": "https://gs.statcounter.com/search-engine-market-share/desktop/france",
+  "apport": "Part de marché des moteurs de recherche en France, mise à jour mensuelle."
+ },
+ {
+  "id": "p-ue-chine-2026",
+  "type": "presse",
+  "auteur": "Clubic",
+  "titre": "Pourquoi la Chine et l'Europe négocient sur les voitures hybrides et les terres rares",
+  "date": "2026-10-11",
+  "url": "https://www.clubic.com/actualite-633622-pourquoi-la-chine-et-l-europe-negocient-sur-les-voitures-hybrides-et-les-terres-rares.html",
+  "apport": "Compromis du 9 octobre 2026 : exportations chinoises d'hybrides divisées par deux, « canal vert » pour les licences de terres rares et d'aimants ; Pékin garde la main sur chaque licence."
+ },
+ {
+  "id": "ce-projets-2026",
+  "type": "institution",
+  "auteur": "Commission européenne (représentation en Belgique)",
+  "titre": "46 nouveaux projets stratégiques pour l'approvisionnement de l'UE en matières premières critiques",
+  "date": "2026-10-09",
+  "url": "https://belgium.representation.ec.europa.eu/actualites-et-evenements/actualites/trois-projets-belges-consideres-comme-des-projets-strategiques-pour-lapprovisionnement-de-lue-en-2026-10-09_fr?prefLang=en",
+  "apport": "46 projets dans 16 États membres, pour 15 des 17 matières stratégiques ; 106 projets stratégiques au total depuis 2025."
+ },
+ {
+  "id": "p-consultation-2026",
+  "type": "presse",
+  "auteur": "El Estrecho Digital",
+  "titre": "The European Commission opens a consultation to reduce dependencies in supply chains",
+  "date": "2026-09-30",
+  "url": "https://www.elestrechodigital.com/en/2026/09/30/the-european-commission-opens-a-consultation-to-reduce-dependencies-in-supply-chains",
+  "apport": "Consultation de quatre semaines avant un paquet de mesures pour réduire les dépendances dans les secteurs critiques."
+ },
+ {
+  "id": "p-ansm-sept-2026",
+  "type": "presse",
+  "auteur": "Actu Alt Plus (registre ANSM)",
+  "titre": "Pénurie de médicaments : 181 en difficulté fin septembre",
+  "date": "2026-09-28",
+  "url": "https://www.actu-alt-plus.com/idees-solutions/medicaments-184-difficultes-ansm-recul-porte-par-les-tensions/36670/",
+  "apport": "181 médicaments en difficulté d'approvisionnement, dont 46 en rupture et 135 en tension, contre 190 fin août."
+ },
+ {
+  "id": "p-secnumcloud-2026",
+  "type": "presse",
+  "auteur": "Refrance",
+  "titre": "Cloud souverain : l'État rend obligatoire la qualification SecNumCloud pour ses données sensibles",
+  "date": "2026-08-27",
+  "url": "https://refrance.fr/cloud-souverain-letat-rend-obligatoire-la-qualification-secnumcloud-pour-ses-donnees-sensibles/",
+  "apport": "Arrêté du 12 août 2026 : les données les plus sensibles de l'État ne peuvent plus être confiées qu'à des clouds qualifiés SecNumCloud, avec 18 mois de dérogation pour les projets en cours."
+ },
+ {
+  "id": "p-acier-numerique-2025",
+  "type": "presse",
+  "auteur": "Ideal Investisseur",
+  "titre": "Washington négocie les droits de douane sur l'acier contre la dérégulation du numérique européen",
+  "date": "2025-11-27",
+  "url": "https://www.ideal-investisseur.fr/eco-politique/washington-resserre-l-etau-sur-bruxelles-en-echange-de-concessions-numeriques-32548.html",
+  "apport": "Les ministres américains lient une baisse des droits sur l'acier européen à un assouplissement du DMA et du DSA."
+ },
+ {
+  "id": "cnes-ariane6-2024",
+  "type": "institution",
+  "auteur": "CNES, Centre spatial guyanais",
+  "date": "2024-07-09",
+  "titre": "Europe's new Ariane 6 launcher takes flight",
+  "url": "https://centrespatialguyanais.cnes.fr/en/vol-inaugural-ariane-6",
+  "apport": "Premier vol d'Ariane 6 depuis Kourou le 9 juillet 2024 : l'Europe retrouve un lanceur lourd à elle."
+ },
+ {
+  "id": "euspa-galileo",
+  "type": "institution",
+  "auteur": "Agence de l'UE pour le programme spatial (EUSPA)",
+  "date": "2026",
+  "titre": "Galileo",
+  "url": "https://www.euspa.europa.eu/eu-space-programme/galileo",
+  "apport": "Galileo, système de positionnement civil européen, conçu pour garantir « l'indépendance et la souveraineté » de l'Europe dans ce domaine."
  }
 ]

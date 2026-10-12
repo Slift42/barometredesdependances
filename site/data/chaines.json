@@ -1,0 +1,329 @@
+[
+ {
+  "id": "aimants",
+  "titre": "L'aimant d'une éolienne",
+  "produit": "aimants",
+  "intro": "Un aimant permanent passe par quatre étapes. La Chine tient les trois premières.",
+  "etapes": [
+   {
+    "nom": "Mine",
+    "qui": "Chine",
+    "part": "≈ 69 % de l'extraction mondiale (2025)",
+    "lv": 4,
+    "refs": [
+     "p-mining-2026"
+    ]
+   },
+   {
+    "nom": "Séparation et raffinage",
+    "qui": "Chine",
+    "part": "85 % chez le premier fournisseur (2025)",
+    "lv": 5,
+    "refs": [
+     "aie-gcmo-2026"
+    ]
+   },
+   {
+    "nom": "Fabrication des aimants",
+    "qui": "Chine",
+    "part": "98 % des aimants importés par l'UE",
+    "lv": 5,
+    "refs": [
+     "merics-rearm-2025"
+    ]
+   },
+   {
+    "nom": "Moteurs, éoliennes, missiles",
+    "qui": "Europe",
+    "part": "Assemblage européen, dont une partie en France",
+    "lv": 2,
+    "refs": []
+   }
+  ]
+ },
+ {
+  "id": "pv",
+  "titre": "Le panneau solaire du toit",
+  "produit": "pv",
+  "intro": "À chaque étape, plus de 80 % de la production mondiale est chinoise.",
+  "etapes": [
+   {
+    "nom": "Polysilicium",
+    "qui": "Chine",
+    "part": "Plus de 80 % ; le Xinjiang seul pèse 40 % du mondial",
+    "lv": 5,
+    "refs": [
+     "aie-pv-2022"
+    ]
+   },
+   {
+    "nom": "Lingots et plaquettes",
+    "qui": "Chine",
+    "part": "Près de 95 % (projection AIE pour 2025)",
+    "lv": 5,
+    "refs": [
+     "aie-pv-2022"
+    ]
+   },
+   {
+    "nom": "Cellules",
+    "qui": "Chine",
+    "part": "Plus de 80 %",
+    "lv": 5,
+    "refs": [
+     "aie-pv-2022"
+    ]
+   },
+   {
+    "nom": "Modules",
+    "qui": "Chine",
+    "part": "Plus de 80 %",
+    "lv": 5,
+    "refs": [
+     "aie-pv-2022"
+    ]
+   },
+   {
+    "nom": "Pose sur le toit",
+    "qui": "France",
+    "part": "Installateurs français",
+    "lv": 1,
+    "refs": []
+   }
+  ]
+ },
+ {
+  "id": "batteries",
+  "titre": "La batterie de la voiture électrique",
+  "produit": "batteries",
+  "intro": "La matière vient d'Amérique du Sud ou d'Afrique, la transformation et les cellules de Chine.",
+  "etapes": [
+   {
+    "nom": "Lithium extrait",
+    "qui": "Chili",
+    "part": "79 % du lithium importé par l'UE",
+    "lv": 3,
+    "refs": [
+     "cce-crm-2026"
+    ]
+   },
+   {
+    "nom": "Graphite",
+    "qui": "Chine",
+    "part": "L'UE importe 99 % de son graphite naturel",
+    "lv": 5,
+    "refs": [
+     "cce-batteries-2023"
+    ]
+   },
+   {
+    "nom": "Cobalt",
+    "qui": "RD Congo puis Chine",
+    "part": "81 % importé par l'UE, dont 68 % de RD Congo",
+    "lv": 4,
+    "refs": [
+     "cce-batteries-2023"
+    ]
+   },
+   {
+    "nom": "Cellules",
+    "qui": "Chine",
+    "part": "76 % de la capacité mondiale ; UE : 7 %",
+    "lv": 5,
+    "refs": [
+     "cce-batteries-2023"
+    ]
+   },
+   {
+    "nom": "Assemblage du véhicule",
+    "qui": "Europe",
+    "part": "Usines européennes, dont les Hauts-de-France",
+    "lv": 2,
+    "refs": []
+   }
+  ]
+ },
+ {
+  "id": "puces",
+  "titre": "La puce de la voiture",
+  "produit": "puces-matures",
+  "intro": "L'Europe ne fabrique qu'une puce sur dix vendues dans le monde.",
+  "etapes": [
+   {
+    "nom": "Conception",
+    "qui": "États-Unis",
+    "part": "Logiciels et brevets américains dominants",
+    "lv": 4,
+    "refs": []
+   },
+   {
+    "nom": "Fabrication (fonderie)",
+    "qui": "Taïwan, Corée, Chine",
+    "part": "UE : 9,8 % de la production mondiale (2022)",
+    "lv": 4,
+    "refs": [
+     "cce-puces-2025"
+    ]
+   },
+   {
+    "nom": "Assemblage et test",
+    "qui": "Chine, Asie",
+    "part": "Blocage Nexperia en octobre 2025",
+    "lv": 5,
+    "refs": [
+     "p-nexperia-2025"
+    ]
+   },
+   {
+    "nom": "Montage dans la voiture",
+    "qui": "Europe",
+    "part": "Équipementiers européens",
+    "lv": 2,
+    "refs": []
+   }
+  ]
+ },
+ {
+  "id": "medicaments",
+  "titre": "La boîte de médicaments",
+  "produit": "paracetamol",
+  "intro": "La molécule vient d'Asie, la boîte est souvent remplie en Europe.",
+  "etapes": [
+   {
+    "nom": "Principe actif",
+    "qui": "Chine, Inde",
+    "part": "60 à 80 % des principes actifs",
+    "lv": 5,
+    "refs": [
+     "pwc-leem-2021"
+    ]
+   },
+   {
+    "nom": "Mise en forme (comprimé, sirop)",
+    "qui": "Europe, en partie la France",
+    "part": "À chiffrer par molécule",
+    "lv": 3,
+    "refs": []
+   },
+   {
+    "nom": "Stock de sécurité",
+    "qui": "France",
+    "part": "2 mois imposés par la loi",
+    "lv": 4,
+    "refs": [
+     "decret-2021-349"
+    ]
+   },
+   {
+    "nom": "Pharmacie",
+    "qui": "France",
+    "part": "181 médicaments en difficulté fin septembre 2026",
+    "lv": 3,
+    "refs": [
+     "p-ansm-sept-2026"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "gaz",
+  "titre": "Le gaz du chauffage",
+  "produit": "gaz",
+  "intro": "Le gaz russe sort, le gaz américain entre.",
+  "etapes": [
+   {
+    "nom": "Production",
+    "qui": "Norvège, États-Unis",
+    "part": "Gaz russe interdit dans l'UE d'ici fin 2027",
+    "lv": 3,
+    "refs": [
+     "p-gaz-ue-2026"
+    ]
+   },
+   {
+    "nom": "Liquéfaction et transport",
+    "qui": "États-Unis",
+    "part": "57 % du GNL importé par l'UE en 2025",
+    "lv": 4,
+    "refs": [
+     "ieefa-2026"
+    ]
+   },
+   {
+    "nom": "Terminaux méthaniers",
+    "qui": "France",
+    "part": "Infrastructures françaises",
+    "lv": 1,
+    "refs": []
+   },
+   {
+    "nom": "Stockage",
+    "qui": "France",
+    "part": "Stocks suivis chaque jour (AGSI+)",
+    "lv": 3,
+    "refs": [
+     "agsi"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "nucleaire",
+  "titre": "Le combustible de la centrale",
+  "produit": "uranium-enrichi",
+  "intro": "La France maîtrise le cœur du cycle, mais pas ses deux bouts.",
+  "etapes": [
+   {
+    "nom": "Mine d'uranium",
+    "qui": "Kazakhstan, Ouzbékistan, Australie, Niger",
+    "part": "Russie : 23 % de l'uranium naturel de l'UE (2023)",
+    "lv": 3,
+    "refs": [
+     "bruegel-uranium-2025",
+     "p-niger-2025"
+    ]
+   },
+   {
+    "nom": "Conversion",
+    "qui": "France, Russie",
+    "part": "Russie : 27 % de la conversion de l'UE",
+    "lv": 3,
+    "refs": [
+     "bruegel-uranium-2025"
+    ]
+   },
+   {
+    "nom": "Enrichissement",
+    "qui": "France (Tricastin), Russie",
+    "part": "Russie : 38 % de l'enrichissement de l'UE",
+    "lv": 3,
+    "refs": [
+     "bruegel-uranium-2025"
+    ]
+   },
+   {
+    "nom": "Fabrication du combustible",
+    "qui": "France",
+    "part": "Filière nationale",
+    "lv": 1,
+    "refs": []
+   },
+   {
+    "nom": "Retraitement",
+    "qui": "France (La Hague)",
+    "part": "Atout national",
+    "lv": 1,
+    "refs": []
+   },
+   {
+    "nom": "Réenrichissement de l'uranium de retraitement",
+    "qui": "Russie",
+    "part": "Un seul site au monde, en Sibérie",
+    "lv": 5,
+    "refs": [
+     "note-kii"
+    ]
+   }
+  ]
+ }
+]
