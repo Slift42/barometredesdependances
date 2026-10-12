@@ -235,3 +235,58 @@ dl.facts dd{margin:0;font-size:14px}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
 @media (prefers-reduced-motion:reduce){.live-dot{animation:none}}
 .loading{color:var(--ink-2);font-size:14px;padding:20px 0}
+
+/* pourquoi ce niveau (fiche) */
+.why{margin-top:18px;border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;background:var(--paper)}
+.why h4,.alli h4{font-family:var(--f-mono);font-weight:500;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);margin:0 0 6px}
+.why p{margin:0 0 8px;font-size:14px;line-height:1.5}
+.why .rule{font-size:13.5px}
+.refs{display:block;font-size:12.5px;color:var(--ink-2);line-height:1.5;margin-top:6px}
+.refs a{color:var(--ink)}
+
+/* leviers assumés */
+.kii-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.kii-tabs button{border:1px solid var(--line);background:var(--surface);border-radius:var(--r);padding:10px 16px;cursor:pointer;font-family:var(--f-display);font-weight:800;font-stretch:85%;font-size:18px;display:flex;flex-direction:column;align-items:flex-start;gap:2px;min-width:9rem}
+.kii-tabs button span{font-family:var(--f-mono);font-weight:400;font-size:11px;color:var(--ink-2);letter-spacing:.04em}
+.kii-tabs button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.kii-tabs button[aria-pressed="true"] span{color:color-mix(in srgb,var(--paper) 75%,var(--ink))}
+.kii-resume{font-size:16px;max-width:70ch;margin:0 0 16px}
+.kii-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:10px}
+.lev{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px}
+.lev-top{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:6px}
+.lev .vec{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--brass)}
+.lev .ass{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:3px}
+.lev .ass.yes{background:var(--l5);color:var(--on-l5)}
+.lev .ass.no{border:1px solid var(--todo);color:var(--ink-2)}
+.lev .dt{font-family:var(--f-mono);font-size:11px;color:var(--ink-2);margin-left:auto}
+.lev h4{font-family:var(--f-display);font-weight:800;font-stretch:85%;font-size:19px;margin:0 0 8px;line-height:1.15}
+.lev p{margin:0 0 6px;font-size:13.5px;line-height:1.5}
+
+/* Europe */
+.eu-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:10px}
+.eu{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px}
+.eu .big{font-family:var(--f-display);font-weight:900;font-stretch:72%;font-size:44px;line-height:1;font-variant-numeric:tabular-nums}
+.eu h4{font-family:var(--f-display);font-weight:700;font-stretch:90%;font-size:17px;margin:4px 0 8px}
+.eu p{margin:0;font-size:13.5px;line-height:1.5;color:var(--ink)}
+
+/* alliés */
+.ally-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,360px),1fr));gap:10px}
+.ally{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--l4);border-radius:var(--r);padding:12px 16px}
+.ally.counter{border-left-color:var(--l1)}
+.ally-h{display:flex;justify-content:space-between;gap:10px;align-items:baseline;margin-bottom:6px}
+.ally-h b{font-size:15px}
+.ally .sens{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--l4)}
+.ally.counter .sens{color:var(--l1)}
+.ally p{margin:0 0 6px;font-size:13.5px;line-height:1.5}
+.ally .cout{color:var(--ink-2)}
+
+/* bibliothèque */
+ol.bib{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.bib li{display:grid;grid-template-columns:7rem minmax(0,1fr);gap:14px;padding:12px 0;border-bottom:1px solid var(--line)}
+.bib .bt{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:3px;border:1px solid var(--line);align-self:start;justify-self:start;color:var(--ink-2)}
+.bib .bt.institution,.bib .bt.parlement{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.bib .bt.expertise{background:var(--brass-soft);color:var(--ink);border-color:var(--brass)}
+.bib .ba{display:block;font-size:12.5px;color:var(--ink-2)}
+.bib .bti{display:block;font-weight:600;font-size:14.5px;margin:2px 0 4px}
+.bib p{margin:0;font-size:13.5px;line-height:1.5}
+@media (max-width:560px){.bib li{grid-template-columns:1fr;gap:6px}}

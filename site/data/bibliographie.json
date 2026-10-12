@@ -1,0 +1,506 @@
+[
+ {
+  "id": "usgs-2026",
+  "type": "donnees",
+  "auteur": "USGS (Institut d'études géologiques des États-Unis)",
+  "titre": "Mineral Commodity Summaries 2026",
+  "date": "2026",
+  "url": "https://pubs.usgs.gov/publication/mcs2026",
+  "apport": "Production et réserves mondiales par pays pour 90 minerais : référence pour les parts chinoises (gallium, terres rares, antimoine) et marocaines (phosphates)."
+ },
+ {
+  "id": "aie-gcmo-2026",
+  "type": "institution",
+  "auteur": "Agence internationale de l'énergie",
+  "titre": "Global Critical Minerals Outlook 2026",
+  "date": "2026-07-16",
+  "url": "https://iea.org/news/supply-concentration-export-restrictions-and-declining-investment-put-critical-mineral-security-at-risk",
+  "apport": "Raffinage des terres rares : 85 % chez le premier fournisseur en 2025 (plus de 90 % en 2023). 6 500 Md$ de production hors de Chine exposés aux contrôles d'octobre 2025."
+ },
+ {
+  "id": "aie-pv-2022",
+  "type": "institution",
+  "auteur": "Agence internationale de l'énergie",
+  "titre": "Solar PV Global Supply Chains (rapport spécial)",
+  "date": "2022-07",
+  "url": "https://iea.org/reports/solar-pv-global-supply-chains/executive-summary",
+  "apport": "La Chine dépasse 80 % de chaque étape de fabrication du photovoltaïque ; près de 95 % pour le polysilicium, les lingots et les plaquettes. Le Xinjiang pèse 40 % du polysilicium mondial."
+ },
+ {
+  "id": "cce-crm-2026",
+  "type": "institution",
+  "auteur": "Cour des comptes européenne",
+  "titre": "Rapport spécial 04/2026 : Matières premières critiques pour la transition énergétique, une politique d'une solidité relative",
+  "date": "2026-02",
+  "url": "https://www.eca.europa.eu/ECAPublications/SR-2026-04/SR-2026-04_FR.pdf",
+  "apport": "Dépendance totale de l'UE pour 10 matières critiques ; Chine : 97 % du magnésium, 71 % du gallium, 45 % du germanium importés ; 100 % de la transformation des terres rares hors UE ; 19 licences d'export chinoises accordées sur 141 demandes."
+ },
+ {
+  "id": "cce-batteries-2023",
+  "type": "institution",
+  "auteur": "Cour des comptes européenne",
+  "titre": "Rapport spécial 15/2023 : la politique industrielle de l'UE en matière de batteries",
+  "date": "2023-06-19",
+  "url": "https://www.eca.europa.eu/ECAPublications/SR-2023-15/SR-2023-15_FR.pdf",
+  "apport": "Chine : 76 % de la capacité mondiale de cellules, UE : 7 %. Dépendance aux importations : 99 % du graphite naturel, 81 % du cobalt et du lithium."
+ },
+ {
+  "id": "cce-puces-2025",
+  "type": "institution",
+  "auteur": "Cour des comptes européenne",
+  "titre": "Rapport spécial 12/2025 : Microchips, EU off the pace in a global race",
+  "date": "2025-04",
+  "url": "https://www.eca.europa.eu/ECAHTMLNews/NEWS-SR-2025-12/en/body.html",
+  "apport": "Part de l'UE dans la production mondiale de puces : 9,8 % en 2022, 11,7 % prévus en 2030, loin de l'objectif de 20 %. Les grands fondeurs mondiaux ont investi 405 Md€ en 2020-2023."
+ },
+ {
+  "id": "ce-dependances-2021",
+  "type": "institution",
+  "auteur": "Commission européenne",
+  "titre": "Revue approfondie des dépendances stratégiques de l'Europe (2021, mise à jour 2022)",
+  "date": "2022-02-23",
+  "url": "https://single-market-economy.ec.europa.eu/news/commission-presents-updated-depth-review-europes-strategic-dependencies-2022-02-23_en",
+  "apport": "Sur plus de 5 000 produits importés, 137 produits très dépendants dans les écosystèmes sensibles. Terres rares, magnésium et panneaux solaires : concentration de la production mondiale en Chine."
+ },
+ {
+  "id": "draghi-2024",
+  "type": "institution",
+  "auteur": "Mario Draghi pour la Commission européenne",
+  "titre": "The future of European competitiveness",
+  "date": "2024-09",
+  "url": "https://commission.europa.eu/topics/eu-competitiveness/draghi-report_en",
+  "apport": "Seules 4 des 50 premières entreprises technologiques mondiales sont européennes ; la part des fournisseurs européens dans le cloud est tombée à 16 % (2021)."
+ },
+ {
+  "id": "tresor-2020",
+  "type": "institution",
+  "auteur": "DG Trésor",
+  "titre": "Vulnérabilité des approvisionnements français et européens (Trésor-Éco)",
+  "date": "2020-12-17",
+  "url": "https://www.tresor.economie.gouv.fr/Articles/2020/12/17/vulnerabilite-des-approvisionnements-francais-et-europeens",
+  "apport": "Sur 5 000 catégories de produits importés hors UE, 121 sont concentrées et 12 vulnérables pour la France ; la Chine est le premier fournisseur d'un quart d'entre elles."
+ },
+ {
+  "id": "senat-penuries-2023",
+  "type": "parlement",
+  "auteur": "Sénat, commission d'enquête (rapporteure Laurence Cohen)",
+  "titre": "Pénurie de médicaments : redonner la priorité à la santé publique",
+  "date": "2023-07-04",
+  "url": "https://www.senat.fr/rap/r22-828-1/r22-828-1-syn.pdf",
+  "apport": "Signalements de ruptures en hausse de plus de 50 % entre 2020 et 2022 ; principes actifs surtout produits en Asie ; 36 recommandations dont un pilotage public."
+ },
+ {
+  "id": "ansm-2025",
+  "type": "institution",
+  "auteur": "ANSM",
+  "titre": "Rapport d'activité 2025",
+  "date": "2026-07-08",
+  "url": "https://ansm.sante.fr/qui-sommes-nous/rapport-dactivite-2025/rapport-dactivite-2025/p/les-temps-forts-et-chiffres-cles",
+  "apport": "3 887 signalements de ruptures et risques de rupture de médicaments traités en 2025."
+ },
+ {
+  "id": "decret-2021-349",
+  "type": "institution",
+  "auteur": "Gouvernement (Journal officiel)",
+  "titre": "Décret n° 2021-349 du 30 mars 2021 relatif au stock de sécurité destiné au marché national",
+  "date": "2021-03-30",
+  "url": "",
+  "apport": "Stock de sécurité minimal de 2 mois pour les médicaments d'intérêt thérapeutique majeur, porté jusqu'à 4 mois en cas de ruptures répétées."
+ },
+ {
+  "id": "pwc-leem-2021",
+  "type": "expertise",
+  "auteur": "PwC pour le LEEM",
+  "titre": "Étude sur la localisation de la production des principes actifs",
+  "date": "2021",
+  "url": "",
+  "apport": "60 à 80 % des principes actifs pharmaceutiques produits en Chine et en Inde (chiffre repris par l'annexe KII du comité)."
+ },
+ {
+  "id": "franceagrimer-2025",
+  "type": "institution",
+  "auteur": "FranceAgriMer",
+  "titre": "Souveraineté alimentaire : mise à jour 2021-2023",
+  "date": "2025-02",
+  "url": "https://www.franceagrimer.fr/sites/default/files/2025-06/DIA-MUL-Souverainte_alimentaire-MAJ_2021-2023.pdf",
+  "apport": "Taux d'auto-approvisionnement : blé tendre 193 %, maïs 149 %, sucre 150 %, porc 102 %, poulet 75 %, ovins 51 %, soja 54 %, fruits tempérés 80 %, fruits tropicaux 16 %."
+ },
+ {
+  "id": "unifa-2025",
+  "type": "expertise",
+  "auteur": "UNIFA (Union des industries de la fertilisation), citée par Pleinchamp",
+  "titre": "L'Unifa s'alarme de notre dépendance aux engrais russes",
+  "date": "2025-02-06",
+  "url": "https://www.pleinchamp.com/actualite/l-unifa-s-alarme-de-notre-dependance-aux-engrais-russes",
+  "apport": "Plus de 750 000 t d'engrais russes importées en 2023 contre 402 000 t en 2021 ; la Russie couvre environ un septième des besoins en éléments fertilisants."
+ },
+ {
+  "id": "directive-2009-119",
+  "type": "institution",
+  "auteur": "Union européenne",
+  "titre": "Directive 2009/119/CE sur les stocks stratégiques de pétrole",
+  "date": "2009-09-14",
+  "url": "https://eur-lex.europa.eu/eli/dir/2009/119/oj",
+  "apport": "Obligation de stocks équivalents à 90 jours d'importations nettes : le seul seuil de tenue déjà inscrit dans le droit."
+ },
+ {
+  "id": "agsi",
+  "type": "donnees",
+  "auteur": "Gas Infrastructure Europe",
+  "titre": "AGSI+ : transparence des stockages de gaz",
+  "date": "quotidien",
+  "url": "https://agsi.gie.eu/",
+  "apport": "Niveau quotidien des stocks de gaz par pays : 106,6 TWh en France au 7 octobre 2026 (86 %)."
+ },
+ {
+  "id": "ieefa-2026",
+  "type": "expertise",
+  "auteur": "IEEFA (A. M. Jaller-Makarewicz), cité par LNG Industry",
+  "titre": "EU risks new energy dependence as US could supply 80% of its LNG imports by 2030",
+  "date": "2026-01-19",
+  "url": "https://www.lngindustry.com/special-reports/19012026/ieefa-eu-risks-new-energy-dependence-as-us-could-supply-80-of-its-lng-imports-by-2030/",
+  "apport": "Les États-Unis fournissent 57 % du GNL importé par l'UE en 2025 (21 Gm³ en 2021, 81 Gm³ en 2025) ; jusqu'à 75-80 % en 2030 si les contrats annoncés se concrétisent."
+ },
+ {
+  "id": "gmf-2025",
+  "type": "expertise",
+  "auteur": "German Marshall Fund (E. Drumm, G. Wright, P. Naas, A. Wunnerlich)",
+  "titre": "Trade Explainer: The August 2025 US-EU Joint Statement on Trade",
+  "date": "2025-08-29",
+  "url": "https://www.gmfus.org/news/trade-explainer-august-2025-us-eu-joint-statement-trade",
+  "apport": "Droit de douane de 15 % sur les exportations européennes ; 750 Md$ d'achats d'énergie américaine d'ici 2028 ; 40 Md$ de puces d'IA ; 600 Md$ d'investissements européens aux États-Unis ; plus d'équipements militaires américains."
+ },
+ {
+  "id": "bruegel-uranium-2025",
+  "type": "expertise",
+  "auteur": "Bruegel et DiXi Group (O. Lapenko, B. McWilliams, R. Nitsovych, G. Zachmann)",
+  "titre": "Ending European Union imports of Russian uranium",
+  "date": "2025-04-14",
+  "url": "https://www.bruegel.org/analysis/ending-european-union-imports-russian-uranium",
+  "apport": "En 2023, la Russie a fourni à l'UE 23 % de l'uranium naturel, 27 % de la conversion et 38 % de l'enrichissement ; 19 réacteurs VVER dépendent de Rosatom pour leur combustible."
+ },
+ {
+  "id": "rte-2024",
+  "type": "institution",
+  "auteur": "RTE",
+  "titre": "Bilan électrique 2024 (et tendances 2025)",
+  "date": "2025-09",
+  "url": "https://assets.rte-france.com/prod/public/2025-09/04092025-Bilan-electrique-2024-rapport-complet.pdf",
+  "apport": "Solde exportateur record de 89 TWh en 2024, puis 92 TWh en 2025 selon les tendances publiées en janvier 2026."
+ },
+ {
+  "id": "asteres-2025",
+  "type": "expertise",
+  "auteur": "Asterès (S. Bersinger) pour le Cigref",
+  "titre": "La dépendance technologique aux services de cloud et logiciels américains",
+  "date": "2025-04",
+  "url": "https://asteres.fr/site/wp-content/uploads/2025/05/Etude-Asteres-La-dependance-technologique-aux-services-de-cloud-et-logiciels-americains-avril-2025.pdf",
+  "apport": "264 Md€ par an d'achats européens de cloud et logiciels américains (1,5 % du PIB de l'UE) ; 83 % du marché européen tenu par des firmes américaines ; 54 Md€ pour la France."
+ },
+ {
+  "id": "an-tache-2026",
+  "type": "parlement",
+  "auteur": "Assemblée nationale, commission des affaires étrangères (rapporteur Aurélien Taché)",
+  "titre": "Rapport n° 2844 sur la protection de l'UE contre les lois extraterritoriales",
+  "date": "2026-05-27",
+  "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2844.html",
+  "apport": "Au moins 9 entreprises françaises sanctionnées de plus de 100 M$ depuis 2010, près de 14 Md$ au total (plus de 20 Md$ en Europe, selon la DG Trésor) ; fournisseurs américains : plus de 70 % du cloud européen ; sanction du juge français Nicolas Guillou."
+ },
+ {
+  "id": "gauvain-2019",
+  "type": "parlement",
+  "auteur": "Raphaël Gauvain, député, rapport au Premier ministre",
+  "titre": "Rétablir la souveraineté de la France et de l'Europe et protéger nos entreprises des lois et mesures à portée extraterritoriale",
+  "date": "2019-06",
+  "url": "https://www.vie-publique.fr/files/rapport/pdf/194000532.pdf",
+  "apport": "Analyse fondatrice de l'extraterritorialité américaine (FCPA, OFAC, Cloud Act) et de l'inefficacité de la loi de blocage de 1968."
+ },
+ {
+  "id": "an-chatelain-2026",
+  "type": "parlement",
+  "auteur": "Assemblée nationale, commission d'enquête (rapporteure Cyrielle Chatelain)",
+  "titre": "Vulnérabilités systémiques du secteur numérique et risques pour l'indépendance de la France",
+  "date": "2026-07-15",
+  "url": "https://lcp.fr/actualites/numerique-le-rapport-de-la-commission-d-enquete-sur-les-vulnerabilites-de-la-france-a",
+  "apport": "Le directeur général de l'ANSSI juge « intenable » une privation de six mois des technologies et mises à jour américaines."
+ },
+ {
+  "id": "iris-2023",
+  "type": "expertise",
+  "auteur": "IRIS (Jean-Pierre Maulny)",
+  "titre": "The impact of the war in Ukraine on the European defence market",
+  "date": "2023-09",
+  "url": "https://www.iris-france.org/wp-content/uploads/2023/09/19_ProgEuropeIndusDef_JPMaulny.pdf",
+  "apport": "78 % des équipements achetés par les États membres de l'UE depuis février 2022 l'ont été hors de l'UE, majoritairement aux États-Unis."
+ },
+ {
+  "id": "osw-2023",
+  "type": "expertise",
+  "auteur": "OSW, Centre d'études orientales (J. Gotkowska, Ł. Maślanka)",
+  "titre": "France against Germany's European Sky Shield Initiative",
+  "date": "2023-06-22",
+  "url": "https://www.osw.waw.pl/en/publikacje/analyses/2023-06-22/france-against-germanys-european-sky-shield-initiative",
+  "apport": "L'initiative allemande, rejointe par 17 pays, achète IRIS-T, Patriot (américain) et Arrow 3 (israélo-américain), et écarte le SAMP/T franco-italien."
+ },
+ {
+  "id": "gao-2024",
+  "type": "institution",
+  "auteur": "GAO (Cour des comptes des États-Unis)",
+  "titre": "F-35 Sustainment: Costs Continue to Rise While Planned Use and Availability Have Decreased (GAO-24-106703)",
+  "date": "2024-04-15",
+  "url": "https://www.gao.gov/products/GAO-24-106703",
+  "apport": "Coût de soutien du F-35 estimé à 1 580 Md$, en hausse de 44 % depuis 2018 ; plus de 2 000 Md$ au total pour le programme."
+ },
+ {
+  "id": "viginum-storm-2025",
+  "type": "institution",
+  "auteur": "SGDSN / Viginum",
+  "titre": "Analyse du mode opératoire informationnel russe Storm-1516",
+  "date": "2025-06-17",
+  "url": "https://www.defense.gouv.fr/desinformation/aller-plus-loin/analyses-sgdsn/sgdsn-viginum-analyse-du-mode-operatoire-informationnel-russe-storm",
+  "apport": "77 opérations informationnelles attribuées, visant notamment le public français ; « menace importante pour le débat public numérique français et européen »."
+ },
+ {
+  "id": "anssi-apt28-2025",
+  "type": "institution",
+  "auteur": "ANSSI / CERT-FR et ministère de l'Europe et des Affaires étrangères",
+  "titre": "Rapport CERTFR-2025-CTI-007 sur le mode opératoire APT28",
+  "date": "2025-04-29",
+  "url": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-007/",
+  "apport": "La France attribue officiellement au renseignement militaire russe (GRU) une douzaine d'attaques contre des ministères, collectivités, industriels de défense et centres de recherche depuis 2021."
+ },
+ {
+  "id": "rns-2025",
+  "type": "institution",
+  "auteur": "SGDSN, Présidence de la République",
+  "titre": "Revue nationale stratégique 2025",
+  "date": "2025-07-14",
+  "url": "https://www.info.gouv.fr/actualite/revue-nationale-strategique-preparer-la-france-a-leventualite-dune-conflit-majeur-en-europe",
+  "apport": "« La Russie, en particulier, menace le plus directement aujourd'hui et pour les années à venir les intérêts de la France. » La Chine « facilite directement l'effort de guerre russe »."
+ },
+ {
+  "id": "ifri-rns-2025",
+  "type": "expertise",
+  "auteur": "Ifri (Thomas Gomart)",
+  "titre": "Que retenir de la Revue nationale stratégique ?",
+  "date": "2025-09-04",
+  "url": "https://www.ifri.org/fr/presse-contenus-repris-sur-le-site/que-retenir-de-la-revue-nationale-strategique",
+  "apport": "Lecture critique de la RNS : la menace russe longtemps sous-estimée, l'inquiétude européenne face à l'administration Trump."
+ },
+ {
+  "id": "jonesday-2025",
+  "type": "expertise",
+  "auteur": "Jones Day (cabinet d'avocats)",
+  "titre": "China Imposes Extraterritorial Export Control Measures Over Rare Earth Items",
+  "date": "2025-10",
+  "url": "https://www.jonesday.com/en/insights/2025/10/china-imposes-extraterritorial-export-control-measures-over-rare-earth-items",
+  "apport": "Annonces MOFCOM n° 61 et 62 du 9 octobre 2025 : règle de minimis de 0,1 %, règle du produit direct étranger, présomption de refus pour les utilisateurs militaires étrangers."
+ },
+ {
+  "id": "ocde-export-2026",
+  "type": "institution",
+  "auteur": "OCDE",
+  "titre": "Inventory of Export Restrictions on Critical Raw Materials 2026",
+  "date": "2026",
+  "url": "https://www.oecd.org/en/publications/oecd-inventory-of-export-restrictions-on-critical-raw-materials-2026_d5ca8f62-en/full-report/component-2.html",
+  "apport": "Recensement des restrictions à l'exportation de matières premières critiques par pays."
+ },
+ {
+  "id": "ocde-acier-2025",
+  "type": "institution",
+  "auteur": "OCDE",
+  "titre": "Steel Outlook 2025",
+  "date": "2025-05",
+  "url": "https://www.oecd.org/en/publications/oecd-steel-outlook-2025_28b61a5e-en/full-report/executive-summary_3618ca77.html",
+  "apport": "La surcapacité mondiale d'acier pourrait atteindre 721 Mt en 2027, tirée par la Chine."
+ },
+ {
+  "id": "clubjuristes-2025",
+  "type": "expertise",
+  "auteur": "Le Club des juristes (Daniel Mainguy, Paris I)",
+  "titre": "La guerre américaine contre le juge Nicolas Guillou",
+  "date": "2025-12-12",
+  "url": "https://www.leclubdesjuristes.com/international/la-guerre-americaine-contre-le-juge-nicolas-guillou-13337/",
+  "apport": "Sanction du juge français de la CPI le 20 août 2025 (décret présidentiel 14203) : avoirs gelés, comptes et moyens de paiement américains coupés."
+ },
+ {
+  "id": "unav-2025",
+  "type": "expertise",
+  "auteur": "Université de Navarre, Global Affairs (J. A. Hip)",
+  "titre": "Spain rules out buying the F-35: what are the alternatives?",
+  "date": "2025-11-26",
+  "url": "https://www.unav.edu/web/global-affairs/spain-rules-out-buying-f-35-what-are-the-alternatives",
+  "apport": "Le 7 août 2025, l'Espagne renonce au F-35 et mise sur l'Eurofighter et le SCAF au nom de l'autonomie stratégique."
+ },
+ {
+  "id": "note-kii",
+  "type": "comite",
+  "auteur": "Comité RI",
+  "titre": "Annexe « Key Imperialism Indicators » et note « Quelle relation avec les impérialismes ? »",
+  "date": "2026",
+  "url": "",
+  "apport": "Grille des leviers par puissance ; chiffres repris dans les fiches quand aucune source primaire plus solide n'a été trouvée."
+ },
+ {
+  "id": "p-mining-2026",
+  "type": "presse",
+  "auteur": "Mining Technology",
+  "titre": "China rare earth export pause nears expiry amid persistent supply concentration",
+  "date": "2026-04-27",
+  "url": "https://www.mining-technology.com/news/china-rare-earth-export-pause-nears-expiry-amid-persistent-supply-concentration/",
+  "apport": "Les contrôles chinois d'octobre 2025 sont suspendus jusqu'au 10 novembre 2026 ; ceux d'avril 2025 restent en vigueur."
+ },
+ {
+  "id": "p-nexperia-2025",
+  "type": "presse",
+  "auteur": "Euronews",
+  "titre": "European carmakers warn of supply shocks as Nexperia halts chip exports",
+  "date": "2025-10-31",
+  "url": "https://euronews.com/business/2025/10/31/european-carmakers-warn-of-supply-shocks-as-nexperia-halts-chip-exports-to-china",
+  "apport": "Blocage des exportations de puces Nexperia depuis la Chine ; alertes des constructeurs européens sur des arrêts de production."
+ },
+ {
+  "id": "p-cognac-2025",
+  "type": "presse",
+  "auteur": "Global Travel Retail Magazine",
+  "titre": "China imposes duties on European brandy, spares cognac houses with pricing agreements",
+  "date": "2025-07",
+  "url": "https://www.gtrmag.com/blog/china-imposes-permanent-duties-on-european-brandy-imports-but-spares-leading-cognac-houses-with-pricing-agreements",
+  "apport": "Droits antidumping de 27,7 à 34,9 % pour cinq ans à partir du 5 juillet 2025 ; exemption contre des prix minimaux ; mesure liée par Bruxelles aux droits européens sur les voitures électriques chinoises."
+ },
+ {
+  "id": "p-gazprom-2022",
+  "type": "presse",
+  "auteur": "Enerdata",
+  "titre": "Russia's Gazprom fully suspends gas deliveries to French utility Engie",
+  "date": "2022-08-30",
+  "url": "https://www.enerdata.net/publications/daily-energy-news/russias-gazprom-fully-suspends-gas-deliveries-french-utility-engie.html",
+  "apport": "Gazprom coupe totalement les livraisons à Engie à partir du 1er septembre 2022."
+ },
+ {
+  "id": "p-niger-2025",
+  "type": "presse",
+  "auteur": "Al Jazeera",
+  "titre": "Niger nationalises uranium mine as spat with French nuclear giant worsens",
+  "date": "2025-06-20",
+  "url": "https://www.aljazeera.com/news/2025/6/20/niger-nationalises-uranium-mine-as-spat-with-french-nuclear-giant-worsens",
+  "apport": "Le Niger nationalise la Somaïr, filiale d'Orano ; la Russie annonce vouloir exploiter l'uranium nigérien."
+ },
+ {
+  "id": "p-itar-2018",
+  "type": "presse",
+  "auteur": "Defense News",
+  "titre": "A jet sale to Egypt is being blocked by a US regulation, and France is over it",
+  "date": "2018-08-01",
+  "url": "https://defensenews.com/global/europe/2018/08/01/a-jet-sale-to-egypt-is-being-blocked-by-a-us-regulation-and-france-is-over-it",
+  "apport": "Washington bloque l'export du missile SCALP (composant ITAR) et donc une vente de Rafale à l'Égypte ; Florence Parly : « à la merci des Américains »."
+ },
+ {
+  "id": "p-dst-2025",
+  "type": "presse",
+  "auteur": "Euronews",
+  "titre": "Trump threatens tariffs on nations imposing digital taxes on US tech",
+  "date": "2025-08-26",
+  "url": "https://www.euronews.com/next/2025/08/26/trump-threatens-tariffs-on-nations-imposing-digital-taxes-on-us-tech",
+  "apport": "Menace de droits de douane « substantiels » et de restrictions sur les puces contre les pays taxant ou régulant les géants américains, dont la France."
+ },
+ {
+  "id": "p-breton-2025",
+  "type": "presse",
+  "auteur": "Next",
+  "titre": "Cinq Européens, dont Thierry Breton, interdits d'entrée aux États-Unis",
+  "date": "2025-12-24",
+  "url": "https://next.ink/216144/cinq-europeens-dont-thierry-breton-interdits-dentree-aux-etats-unis/",
+  "apport": "Interdiction de visa visant l'ancien commissaire français à l'origine du règlement sur les services numériques."
+ },
+ {
+  "id": "p-nss-2025",
+  "type": "presse",
+  "auteur": "Christian Science Monitor (citant la Stratégie de sécurité nationale des États-Unis)",
+  "titre": "Trump's new national security strategy treats longtime allies as threats",
+  "date": "2025-12-08",
+  "url": "https://www.csmonitor.com/layout/set/amphtml/World/Europe/2025/1208/Trump-national-security-strategy-Europe",
+  "apport": "La stratégie américaine du 5 décembre 2025 évoque un « effacement civilisationnel » de l'Europe et promet de « cultiver la résistance » des « partis patriotes européens »."
+ },
+ {
+  "id": "p-suisse-2025",
+  "type": "presse",
+  "auteur": "Breaking Defense",
+  "titre": "Switzerland weighs cuts to F-35 order amid cost dispute, tariff pressure",
+  "date": "2025-08-15",
+  "url": "https://breakingdefense.com/2025/08/switzerland-weighs-cuts-to-f-35-order-amid-cost-dispute-tariff-pressure/",
+  "apport": "Prix « fixe » de 6 Md CHF pour 36 F-35 contesté par Washington : surcoût de 650 M à 1,3 Md CHF."
+ },
+ {
+  "id": "p-danemark-2025",
+  "type": "presse",
+  "auteur": "Breaking Defense",
+  "titre": "Denmark picks Europe's SAMP/T for long-range air defense, shuns Patriot",
+  "date": "2025-09",
+  "url": "https://breakingdefense.com/2025/09/denmark-picks-europes-samp-t-for-long-range-air-defense-shuns-patriot/",
+  "apport": "Le Danemark choisit le SAMP/T NG franco-italien plutôt que le Patriot (programme d'environ 58 Md DKK), notamment pour les délais."
+ },
+ {
+  "id": "p-dukovany-2025",
+  "type": "presse",
+  "auteur": "NucNet",
+  "titre": "Czechs sign Dukovany nuclear deal with KHNP after court gives go-ahead",
+  "date": "2025-06-04",
+  "url": "https://www.nucnet.org/news/czechs-sign-dukovany-nuclear-deal-with-khnp-after-court-gives-go-ahead-6-3-2025",
+  "apport": "La Tchéquie signe avec le coréen KHNP (18 Md$, deux réacteurs) malgré les recours d'EDF."
+ },
+ {
+  "id": "p-voitures-2026",
+  "type": "donnees",
+  "auteur": "Dataforce, cité par ChinaEVHome",
+  "titre": "Chinese automakers' Europe sales top 100,000 in December 2025",
+  "date": "2026-01-20",
+  "url": "https://chinaevhome.com/2026/01/20/chinese-automakers-europe-sales-top-100000-in-dec-2025-as-market-share-nears-10/",
+  "apport": "Marques chinoises : 811 000 voitures vendues en Europe en 2025 (+99 %), 6,1 % du marché, 9,5 % en décembre."
+ },
+ {
+  "id": "p-hdh-2026",
+  "type": "presse",
+  "auteur": "Next",
+  "titre": "Health Data Hub : le gouvernement promet une bascule sur SecNumCloud d'ici fin 2026",
+  "date": "2026-02-06",
+  "url": "https://next.ink/223140/health-data-hub-le-gouvernement-promet-une-bascule-sur-secnumcloud-dici-fin-2026/",
+  "apport": "Les données de santé nationales restent hébergées chez Microsoft depuis 2019-2020 ; migration vers un cloud qualifié promise pour fin 2026."
+ },
+ {
+  "id": "p-fn-2026",
+  "type": "presse",
+  "auteur": "The Defense Post",
+  "titre": "France selects FN Browning to restore small-calibre ammunition production",
+  "date": "2026-08-10",
+  "url": "https://thedefensepost.com/2026/08/10/france-fn-small-caliber-ammo/",
+  "apport": "Usine de Clérieux (Drôme), 75 millions de cartouches par an, production prévue en 2029."
+ },
+ {
+  "id": "p-munitions-2022",
+  "type": "presse",
+  "auteur": "Public Sénat",
+  "titre": "Guerre de haute intensité : la France a-t-elle suffisamment de munitions ?",
+  "date": "2022",
+  "url": "https://www.publicsenat.fr/actualites/politique/guerre-de-haute-intensite-la-france-a-t-elle-suffisamment-de-munitions-199063",
+  "apport": "Rapport Thiériot sur la haute intensité ; Christian Cambon : « au bout de 15 jours, on commencerait à avoir de vraies difficultés »."
+ },
+ {
+  "id": "p-gaz-ue-2026",
+  "type": "presse",
+  "auteur": "Ukranews",
+  "titre": "EU Council adopts law on gradual abandonment of Russian gas by end of 2027",
+  "date": "2026-01-26",
+  "url": "https://ukranews.com/en/news/1130785-eu-council-adopts-law-on-gradual-abandonment-of-russian-gas-by-end-of-2027",
+  "apport": "Règlement européen d'interdiction progressive du gaz russe : gazoduc début 2027, GNL à l'automne 2027."
+ },
+ {
+  "id": "p-cpi-2025",
+  "type": "presse",
+  "auteur": "Next",
+  "titre": "La Cour pénale internationale va abandonner Office au profit d'openDesk",
+  "date": "2025-10",
+  "url": "https://next.ink/206945/la-cour-penale-internationale-va-abandonner-office-au-profit-dopendesk/",
+  "apport": "Visée par des sanctions américaines, la CPI quitte la suite Microsoft pour la suite européenne openDesk."
+ }
+]

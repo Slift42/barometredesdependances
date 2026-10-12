@@ -1,0 +1,246 @@
+{
+ "intro": "Un levier est dit « assumé » quand la puissance l'a annoncé elle-même : loi, décret, communiqué officiel, doctrine publiée. Les autres sont « documentés » : attribués par l'État français ou par des travaux d'experts, sans être reconnus par leur auteur.",
+ "puissances": [
+  {
+   "code": "CN",
+   "nom": "Chine",
+   "resume": "La Chine assume ouvertement le contrôle des matières critiques comme arme commerciale, par des textes de loi et des annonces du ministère du Commerce (MOFCOM).",
+   "leviers": [
+    {
+     "titre": "Licences d'exportation sur les terres rares et les aimants",
+     "vecteur": "La matière",
+     "assume": true,
+     "date": "2025-04 / 2025-10",
+     "preuve": "Annonces du MOFCOM d'avril 2025 (7 terres rares) puis n° 61 et 62 du 9 octobre 2025 : contrôle des aimants fabriqués hors de Chine dès 0,1 % de contenu chinois.",
+     "effet": "Seules 19 licences sur 141 demandes accordées aux entreprises européennes. Les mesures d'octobre sont suspendues jusqu'au 10 novembre 2026.",
+     "refs": [
+      "jonesday-2025",
+      "cce-crm-2026",
+      "p-mining-2026"
+     ]
+    },
+    {
+     "titre": "Gallium, germanium, graphite, antimoine",
+     "vecteur": "La matière",
+     "assume": true,
+     "date": "2023-08 → 2024-12",
+     "preuve": "Licences d'exportation (gallium et germanium en août 2023, graphite en décembre 2023, antimoine en septembre 2024), puis interdiction d'export vers les États-Unis en décembre 2024.",
+     "effet": "La Chine fournit 71 % du gallium importé par l'UE ; l'antimoine conditionne les amorces de munitions.",
+     "refs": [
+      "cce-crm-2026",
+      "usgs-2026",
+      "ocde-export-2026"
+     ]
+    },
+    {
+     "titre": "Blocage des puces Nexperia",
+     "vecteur": "Le code",
+     "assume": true,
+     "date": "2025-10",
+     "preuve": "Interdiction d'exporter les puces assemblées en Chine par Nexperia, en riposte à la mise sous tutelle de l'entreprise par les Pays-Bas.",
+     "effet": "Les équipementiers automobiles européens annoncent des arrêts de production en quelques semaines.",
+     "refs": [
+      "p-nexperia-2025"
+     ]
+    },
+    {
+     "titre": "Droits sur le cognac",
+     "vecteur": "Le capital",
+     "assume": true,
+     "date": "2025-07-04",
+     "preuve": "Décision du MOFCOM : droits antidumping de 27,7 à 34,9 % sur le brandy européen pour cinq ans, levés contre des engagements de prix minimaux.",
+     "effet": "La filière charentaise paie la riposte aux droits européens sur les voitures électriques chinoises.",
+     "refs": [
+      "p-cognac-2025"
+     ]
+    },
+    {
+     "titre": "Arsenal juridique de rétorsion",
+     "vecteur": "Le droit",
+     "assume": true,
+     "date": "2020 → 2024",
+     "preuve": "Loi sur le contrôle des exportations (2020), loi contre les sanctions étrangères (2021), liste des entités non fiables, règlement sur les biens à double usage (2024) qui fonde l'extraterritorialité chinoise.",
+     "effet": "La Chine dispose désormais des mêmes outils extraterritoriaux que les États-Unis.",
+     "refs": [
+      "jonesday-2025"
+     ]
+    },
+    {
+     "titre": "Soutien à l'effort de guerre russe",
+     "vecteur": "Les récits",
+     "assume": false,
+     "date": "2025-07",
+     "preuve": "La Revue nationale stratégique française écrit que la Chine « facilite directement l'effort de guerre russe en Ukraine ».",
+     "effet": "La Chine passe du statut de partenaire commercial à celui d'appui d'une menace directe.",
+     "refs": [
+      "rns-2025"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "RU",
+   "nom": "Russie",
+   "resume": "La Russie est désignée par l'État français comme la menace la plus directe. Elle assume l'arme énergétique et sa présence en Afrique ; elle nie les opérations informationnelles et cyber que la France lui attribue officiellement.",
+   "leviers": [
+    {
+     "titre": "Coupure du gaz à Engie",
+     "vecteur": "La matière",
+     "assume": true,
+     "date": "2022-08-30",
+     "preuve": "Gazprom annonce la suspension totale des livraisons à Engie à partir du 1er septembre 2022.",
+     "effet": "Fin de l'approvisionnement russe direct de la France ; envolée des prix ; bascule vers le GNL américain.",
+     "refs": [
+      "p-gazprom-2022",
+      "ieefa-2026"
+     ]
+    },
+    {
+     "titre": "Uranium enrichi hors sanctions",
+     "vecteur": "La matière",
+     "assume": false,
+     "date": "2023 → 2026",
+     "preuve": "Rosatom fournit 38 % de l'enrichissement consommé dans l'UE en 2023 et reste le seul à réenrichir l'uranium de retraitement français.",
+     "effet": "Le nucléaire russe est resté hors des paquets de sanctions européens.",
+     "refs": [
+      "bruegel-uranium-2025",
+      "note-kii"
+     ]
+    },
+    {
+     "titre": "Éviction de la France au Sahel et uranium nigérien",
+     "vecteur": "Le capital",
+     "assume": true,
+     "date": "2025-06",
+     "preuve": "Le Niger nationalise la mine Somaïr d'Orano ; le ministre russe de l'Énergie annonce vouloir exploiter l'uranium du Niger.",
+     "effet": "Perte d'une source historique d'uranium pour la filière française.",
+     "refs": [
+      "p-niger-2025"
+     ]
+    },
+    {
+     "titre": "Opérations informationnelles",
+     "vecteur": "Les récits",
+     "assume": false,
+     "date": "2023 → 2025",
+     "preuve": "Viginum attribue 77 opérations au mode opératoire russe Storm-1516, dont beaucoup visent le public français.",
+     "effet": "« Menace importante pour le débat public numérique français et européen » (Viginum).",
+     "refs": [
+      "viginum-storm-2025"
+     ]
+    },
+    {
+     "titre": "Cyberattaques du renseignement militaire",
+     "vecteur": "Le code",
+     "assume": false,
+     "date": "2025-04-29",
+     "preuve": "La France attribue officiellement au GRU (APT28) des attaques contre une douzaine de ministères, collectivités, industriels de défense et centres de recherche depuis 2021.",
+     "effet": "Première attribution publique de ce niveau par le Quai d'Orsay.",
+     "refs": [
+      "anssi-apt28-2025"
+     ]
+    },
+    {
+     "titre": "Financement politique",
+     "vecteur": "Les relais",
+     "assume": false,
+     "date": "2014",
+     "preuve": "Prêt de 9 M€ au Front national par une banque tchéco-russe, documenté par le Sénat.",
+     "effet": "Exemple documenté de relais politique financé de l'étranger.",
+     "refs": [
+      "note-kii"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "US",
+   "nom": "États-Unis",
+   "resume": "Les États-Unis assument leurs leviers sur l'Europe dans des textes officiels : lois extraterritoriales, sanctions nominatives, accords commerciaux imposés et, depuis décembre 2025, une doctrine qui promet de soutenir des partis européens.",
+   "leviers": [
+    {
+     "titre": "Amendes extraterritoriales",
+     "vecteur": "Le droit",
+     "assume": true,
+     "date": "2010 → 2022",
+     "preuve": "Procédures du département de la Justice et de l'OFAC (FCPA, sanctions) : BNP Paribas 8,9 Md$, Société Générale 1,34 Md$, Alstom 772 M$, Lafarge 778 M$.",
+     "effet": "Au moins 9 entreprises françaises sanctionnées de plus de 100 M$, près de 14 Md$ au total depuis 2010 (Assemblée nationale, 2026).",
+     "refs": [
+      "an-tache-2026",
+      "gauvain-2019"
+     ]
+    },
+    {
+     "titre": "Sanction d'un juge français",
+     "vecteur": "Le droit",
+     "assume": true,
+     "date": "2025-08-20",
+     "preuve": "Décret présidentiel 14203 contre la Cour pénale internationale : le juge Nicolas Guillou est sanctionné.",
+     "effet": "Avoirs gelés, comptes, cartes et services numériques américains coupés pour un magistrat français.",
+     "refs": [
+      "clubjuristes-2025",
+      "an-tache-2026"
+     ]
+    },
+    {
+     "titre": "Cloud Act",
+     "vecteur": "Le code",
+     "assume": true,
+     "date": "2018",
+     "preuve": "Loi américaine permettant aux autorités d'accéder aux données détenues par des entreprises américaines, y compris hébergées en Europe.",
+     "effet": "Les firmes américaines tiennent 83 % du marché européen du cloud et des logiciels.",
+     "refs": [
+      "gauvain-2019",
+      "asteres-2025",
+      "an-tache-2026"
+     ]
+    },
+    {
+     "titre": "Menace contre la régulation numérique",
+     "vecteur": "Le code",
+     "assume": true,
+     "date": "2025-08 / 2025-12",
+     "preuve": "Le président américain menace de droits de douane et de restrictions sur les puces les pays qui taxent ou régulent les géants américains ; en décembre, Washington interdit de visa Thierry Breton, ancien commissaire français.",
+     "effet": "La taxe numérique française et le règlement européen sur les services numériques deviennent des cibles.",
+     "refs": [
+      "p-dst-2025",
+      "p-breton-2025"
+     ]
+    },
+    {
+     "titre": "Accord commercial d'août 2025",
+     "vecteur": "Le capital",
+     "assume": true,
+     "date": "2025-08-21",
+     "preuve": "Déclaration conjointe : 15 % de droits sur les exportations européennes, 750 Md$ d'achats d'énergie américaine d'ici 2028, 40 Md$ de puces d'IA, plus d'armement américain.",
+     "effet": "La dépendance au GNL et aux puces américaines devient un engagement contractuel.",
+     "refs": [
+      "gmf-2025"
+     ]
+    },
+    {
+     "titre": "Contrôle des exportations d'armes (ITAR)",
+     "vecteur": "La matière",
+     "assume": true,
+     "date": "2018",
+     "preuve": "Washington refuse l'autorisation pour un composant américain du missile SCALP, bloquant une vente de Rafale à l'Égypte.",
+     "effet": "« Nous sommes à la merci des Américains » (Florence Parly, ministre des Armées).",
+     "refs": [
+      "p-itar-2018"
+     ]
+    },
+    {
+     "titre": "Soutien affiché à des partis européens",
+     "vecteur": "Les relais",
+     "assume": true,
+     "date": "2025-12-05",
+     "preuve": "La Stratégie de sécurité nationale américaine évoque un « effacement civilisationnel » de l'Europe et promet de « cultiver la résistance » des « partis patriotes européens ».",
+     "effet": "L'ingérence politique devient une doctrine publique.",
+     "refs": [
+      "p-nss-2025"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -3,7 +3,7 @@
 (function () {
 "use strict";
 const INF = Infinity;
-const FILES = ["meta", "produits", "matrice", "vigie", "atouts", "sources", "propositions"];
+const FILES = ["meta", "produits", "matrice", "vigie", "atouts", "sources", "propositions", "bibliographie", "kii", "europe", "allies"];
 const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const $ = id => document.getElementById(id);
 const store = {
@@ -27,6 +27,15 @@ async function loadData() {
 function init(D) {
   const META = D.meta, P = D.produits;
   const LVL = n => META.niveaux[n].nom;
+  const BIB = {}; (D.bibliographie || []).forEach(b => { BIB[b.id] = b; });
+  const TYPES = { institution: "Institution", parlement: "Parlement", expertise: "Expertise", donnees: "Données", presse: "Presse", comite: "Comité" };
+  const year = d => String(d || "").slice(0, 4);
+  function refLabel(id) {
+    const b = BIB[id]; if (!b) return "";
+    const lab = `${esc(b.auteur.split(" (")[0].split(",")[0])} (${esc(year(b.date))})`;
+    return b.url ? `<a href="${esc(b.url)}" target="_blank" rel="noopener" title="${esc(b.titre)}">${lab}</a>` : `<span title="${esc(b.titre)}">${lab}</span>`;
+  }
+  const refList = ids => (ids && ids.length) ? `<span class="refs">Sources : ${ids.map(refLabel).filter(Boolean).join(" · ")}</span>` : "";
   const fmtD = s => new Date(s + "T12:00:00").toLocaleDateString("fr-FR", { day: "numeric", month: "short", year: "numeric" });
   $("majDate").textContent = fmtD(META.maj);
 
@@ -54,6 +63,15 @@ function init(D) {
     let b = p.d === INF ? 1 : p.d > 365 ? 2 : p.d > 90 ? 3 : p.d > 30 ? 4 : 5;
     if (p.l === 2 && p.d !== INF && b < 5) b++;
     return b;
+  }
+  function explain(p) {
+    if (p.d === undefined) return "";
+    if (p.d === INF) return `Production nationale ou européenne excédentaire : niveau <b>${LVL(1)}</b>.`;
+    const base = p.d > 365 ? 2 : p.d > 90 ? 3 : p.d > 30 ? 4 : 5;
+    let t = `${p.k === "est" ? "Environ " : ""}${p.d} jour${p.d > 1 ? "s" : ""} de tenue : niveau <b>${LVL(base)}</b> (${esc(META.niveaux[base].desc)}).`;
+    if (p.l === 2 && base < 5) t += ` Le fournisseur a déjà activé ce levier : un niveau de plus, <b>${LVL(base + 1)}</b>.`;
+    else if (p.l === 2) t += " Le fournisseur a déjà activé ce levier.";
+    return t;
   }
   function daysTxt(p) {
     if (p.d === undefined) return "à instruire";
@@ -193,8 +211,9 @@ function init(D) {
           ${p.conc ? `<div><dt>Concentration mondiale</dt><dd>${esc(p.conc)}</dd></div>` : ""}
           <div><dt>Levier</dt><dd>${esc(META.leviers[p.l])}</dd></div>
           ${p.note ? `<div><dt>À retenir</dt><dd>${esc(p.note)}</dd></div>` : ""}
-          <div><dt>Source</dt><dd>${esc(p.src)}</dd></div>
-        </dl>` + alliances(p) +
+          <div><dt>Source du chiffre</dt><dd>${esc(p.src)}</dd></div>
+        </dl>
+        <div class="why"><h4>Pourquoi ce niveau</h4><p class="rule">${explain(p)}</p>${p.pourquoi ? `<p>${esc(p.pourquoi)}</p>` : ""}${refList(p.refs)}</div>` + alliances(p) +
         `<div class="mesure"><b>Ce que nous proposons</b>${esc(META.mesures[p.m])}</div>`;
     }
     sheet.innerHTML = `<button type="button" class="close" id="shClose" aria-label="Fermer la fiche">×</button>
@@ -236,6 +255,51 @@ function init(D) {
   $("pipe").innerHTML = `<thead><tr><th>Source</th><th>Ce qu'on en tire</th><th>Cadence</th><th>Automatisable</th></tr></thead><tbody>` +
     D.sources.map(r => `<tr><td><b>${esc(r[0])}</b></td><td>${esc(r[1])}</td><td class="cad">${esc(r[2])}</td><td>${esc(r[3])}</td></tr>`).join("") + `</tbody>`;
   $("props").innerHTML = D.propositions.map(([w, b, s, f]) => `<div class="prop${f ? " flag" : ""}"><span class="when">${esc(w)}</span><b>${esc(b)}</b><span>${esc(s)}</span></div>`).join("");
+
+  /* ---------- leviers assumés (KII) ---------- */
+  const K = D.kii;
+  if (K) {
+    $("kiiIntro").textContent = K.intro;
+    let pw = store.get("bd-kii") || K.puissances[0].code;
+    if (!K.puissances.some(x => x.code === pw)) pw = K.puissances[0].code;
+    const tabs = $("kiiTabs");
+    const renderKii = () => {
+      tabs.innerHTML = K.puissances.map(x => `<button type="button" data-p="${x.code}" aria-pressed="${x.code === pw}">${esc(x.nom)} <span>${x.leviers.filter(l => l.assume).length}/${x.leviers.length} assumés</span></button>`).join("");
+      const P0 = K.puissances.find(x => x.code === pw);
+      $("kiiBody").innerHTML = `<p class="kii-resume">${esc(P0.resume)}</p><div class="kii-list">` + P0.leviers.map(l => `
+        <article class="lev">
+          <div class="lev-top"><span class="vec">${esc(l.vecteur)}</span><span class="ass ${l.assume ? "yes" : "no"}">${l.assume ? "Assumé" : "Documenté"}</span><span class="dt">${esc(l.date)}</span></div>
+          <h4>${esc(l.titre)}</h4>
+          <p><b>Preuve.</b> ${esc(l.preuve)}</p>
+          <p><b>Effet.</b> ${esc(l.effet)}</p>
+          ${refList(l.refs)}
+        </article>`).join("") + `</div>`;
+    };
+    tabs.addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; pw = b.dataset.p; store.set("bd-kii", pw); renderKii(); });
+    renderKii();
+  }
+
+  /* ---------- Europe ---------- */
+  if (D.europe) $("euGrid").innerHTML = D.europe.map(c => `<article class="eu"><span class="big">${esc(c.chiffre)}</span><h4>${esc(c.titre)}</h4><p>${esc(c.texte)}</p>${refList(c.refs)}</article>`).join("");
+
+  /* ---------- alliés ---------- */
+  if (D.allies) $("allyList").innerHTML = D.allies.map(a => `<article class="ally ${a.sens === "contre-exemple" ? "counter" : ""}">
+      <div class="ally-h"><b>${esc(a.domaine)}</b><span class="sens">${a.sens === "contre-exemple" ? "Contre-exemple" : "Dépendance"}</span></div>
+      <p>${esc(a.comportement)}</p><p class="cout">${esc(a.cout)}</p>${refList(a.refs)}</article>`).join("");
+
+  /* ---------- bibliothèque des sources ---------- */
+  if (D.bibliographie) {
+    let bt = "all";
+    const counts = {}; D.bibliographie.forEach(b => { counts[b.type] = (counts[b.type] || 0) + 1; });
+    const order = ["institution", "parlement", "expertise", "donnees", "comite", "presse"].filter(t => counts[t]);
+    const renderBib = () => {
+      $("bibChips").innerHTML = [["all", `Toutes ${D.bibliographie.length}`], ...order.map(t => [t, `${TYPES[t]} ${counts[t]}`])].map(([k, v]) => `<button type="button" class="chip" data-t="${k}" aria-pressed="${k === bt}">${esc(v)}</button>`).join("");
+      const list = D.bibliographie.filter(b => bt === "all" || b.type === bt).slice().sort((a, b) => order.indexOf(a.type) - order.indexOf(b.type) || String(b.date).localeCompare(String(a.date)));
+      $("bibList").innerHTML = list.map(b => `<li id="ref-${esc(b.id)}"><span class="bt ${b.type}">${TYPES[b.type] || b.type}</span><div><span class="ba">${esc(b.auteur)} · ${esc(year(b.date))}</span>${b.url ? `<a class="bti" href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.titre)}</a>` : `<span class="bti">${esc(b.titre)}</span>`}<p>${esc(b.apport)}</p></div></li>`).join("");
+    };
+    $("bibChips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; bt = b.dataset.t; renderBib(); });
+    renderBib();
+  }
 
   renderChips(); renderWall(); renderLine();
   setView(store.get("bd-view") === "line" ? "line" : "wall");

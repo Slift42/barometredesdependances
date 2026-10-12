@@ -1,0 +1,78 @@
+[
+ {
+  "chiffre": "137",
+  "titre": "produits très dépendants",
+  "texte": "La Commission européenne a passé au crible plus de 5 000 produits importés : 137 sont très dépendants dans les écosystèmes sensibles. Terres rares, magnésium et panneaux solaires reposent sur une production concentrée en Chine.",
+  "refs": [
+   "ce-dependances-2021"
+  ]
+ },
+ {
+  "chiffre": "10",
+  "titre": "matières critiques à 100 % importées",
+  "texte": "La Cour des comptes européenne constate une dépendance totale pour dix matières critiques et une transformation des terres rares réalisée à 100 % hors de l'UE. Les objectifs 2030 (10 % extraits, 40 % transformés, 25 % recyclés en Europe) ne seront pas atteints.",
+  "refs": [
+   "cce-crm-2026"
+  ]
+ },
+ {
+  "chiffre": "57 %",
+  "titre": "du GNL européen vient des États-Unis",
+  "texte": "L'Europe a remplacé le gaz russe par le GNL américain : 57 % de ses importations de GNL en 2025, jusqu'à 80 % en 2030 si les contrats annoncés se concrétisent. Le gaz russe sera interdit d'ici fin 2027.",
+  "refs": [
+   "ieefa-2026",
+   "p-gaz-ue-2026",
+   "gmf-2025"
+  ]
+ },
+ {
+  "chiffre": "264 Md€",
+  "titre": "par an pour le cloud et les logiciels américains",
+  "texte": "1,5 % du PIB européen part chaque année vers des fournisseurs américains, qui tiennent 83 % du marché. Seules 4 des 50 premières entreprises technologiques mondiales sont européennes.",
+  "refs": [
+   "asteres-2025",
+   "draghi-2024"
+  ]
+ },
+ {
+  "chiffre": "11,7 %",
+  "titre": "de la production mondiale de puces en 2030",
+  "texte": "La Cour des comptes européenne prévoit 11,7 % de part mondiale en 2030, loin de l'objectif de 20 % du Chips Act. Les grands fondeurs mondiaux ont investi 405 Md€ en quatre ans.",
+  "refs": [
+   "cce-puces-2025"
+  ]
+ },
+ {
+  "chiffre": "76 %",
+  "titre": "des cellules de batteries sont chinoises",
+  "texte": "La Chine détient 76 % de la capacité mondiale de cellules, l'UE 7 %. L'Europe importe 99 % de son graphite naturel.",
+  "refs": [
+   "cce-batteries-2023"
+  ]
+ },
+ {
+  "chiffre": "78 %",
+  "titre": "des achats d'armement hors de l'UE",
+  "texte": "Depuis février 2022, 78 % des équipements achetés par les États membres l'ont été hors de l'UE, majoritairement aux États-Unis. Le bouclier antimissile allemand retient Patriot et Arrow 3, pas le SAMP/T européen.",
+  "refs": [
+   "iris-2023",
+   "osw-2023"
+  ]
+ },
+ {
+  "chiffre": "38 %",
+  "titre": "de l'enrichissement d'uranium venait de Russie",
+  "texte": "En 2023, Rosatom fournissait 38 % de l'enrichissement et 27 % de la conversion consommés dans l'UE. 19 réacteurs d'Europe centrale et orientale dépendent entièrement de son combustible.",
+  "refs": [
+   "bruegel-uranium-2025"
+  ]
+ },
+ {
+  "chiffre": "0",
+  "titre": "activation de l'instrument anti-coercition",
+  "texte": "L'UE s'est dotée en 2023 d'un instrument contre la coercition économique. Il n'a jamais été activé, ni contre la Chine ni contre les États-Unis. Le règlement de blocage de 1996 ne couvre toujours ni le Cloud Act ni les sanctions contre la CPI.",
+  "refs": [
+   "an-tache-2026"
+  ]
+ }
+]

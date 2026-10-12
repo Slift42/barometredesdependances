@@ -1,0 +1,97 @@
+[
+ {
+  "domaine": "Avions de combat",
+  "sens": "dependance",
+  "comportement": "Treize pays européens ont choisi le F-35 américain : Royaume-Uni, Italie, Pays-Bas, Norvège, Danemark, Belgique, Pologne, Finlande, Allemagne, Suisse, Tchéquie, Roumanie, Grèce. En Europe, seuls la Grèce, la Croatie et la Serbie ont acheté le Rafale.",
+  "cout": "Le coût de soutien du F-35 a augmenté de 44 % depuis 2018 (GAO). La Suisse voit son « prix fixe » contesté : 650 M à 1,3 Md CHF de surcoût. Maintenance et mises à jour restent contrôlées par Washington.",
+  "refs": [
+   "gao-2024",
+   "p-suisse-2025",
+   "note-kii"
+  ]
+ },
+ {
+  "domaine": "Avions de combat",
+  "sens": "contre-exemple",
+  "comportement": "L'Espagne renonce au F-35 en août 2025 et mise sur l'Eurofighter et le SCAF, au nom de l'autonomie stratégique.",
+  "cout": "Prouve qu'un choix européen est possible pour un pays de l'OTAN.",
+  "refs": [
+   "unav-2025"
+  ]
+ },
+ {
+  "domaine": "Défense antiaérienne",
+  "sens": "dependance",
+  "comportement": "Le bouclier antimissile lancé par l'Allemagne (17 pays au départ) achète le Patriot américain et l'Arrow 3 israélo-américain, et écarte le SAMP/T franco-italien.",
+  "cout": "Les budgets de réarmement européens financent l'industrie américaine.",
+  "refs": [
+   "osw-2023"
+  ]
+ },
+ {
+  "domaine": "Défense antiaérienne",
+  "sens": "contre-exemple",
+  "comportement": "Le Danemark choisit en 2025 le SAMP/T NG plutôt que le Patriot, notamment pour des délais de livraison plus courts.",
+  "cout": "Premier grand choix européen face au Patriot dans un pays aligné sur l'OTAN.",
+  "refs": [
+   "p-danemark-2025"
+  ]
+ },
+ {
+  "domaine": "Armement en général",
+  "sens": "dependance",
+  "comportement": "78 % des équipements achetés par les États membres depuis 2022 viennent de l'extérieur de l'UE, majoritairement des États-Unis.",
+  "cout": "L'effort de réarmement européen consolide l'industrie américaine plutôt que l'européenne.",
+  "refs": [
+   "iris-2023"
+  ]
+ },
+ {
+  "domaine": "Nucléaire civil",
+  "sens": "dependance",
+  "comportement": "La Tchéquie signe en 2025 avec le coréen KHNP pour deux réacteurs à Dukovany (18 Md$), malgré les recours d'EDF.",
+  "cout": "La filière nucléaire européenne perd un marché majeur sur son propre continent.",
+  "refs": [
+   "p-dukovany-2025"
+  ]
+ },
+ {
+  "domaine": "Automobile",
+  "sens": "dependance",
+  "comportement": "Les marques chinoises ont vendu 811 000 voitures en Europe en 2025, deux fois plus qu'en 2024 : 6,1 % du marché sur l'année, 9,5 % en décembre.",
+  "cout": "Les constructeurs européens, dont français, perdent des parts sur leur marché intérieur au moment de la bascule électrique.",
+  "refs": [
+   "p-voitures-2026",
+   "cce-batteries-2023"
+  ]
+ },
+ {
+  "domaine": "Énergie",
+  "sens": "dependance",
+  "comportement": "Les pays européens ont remplacé le gaz russe par le GNL américain (57 % des importations de GNL en 2025) et l'UE s'est engagée à 750 Md$ d'achats d'énergie américaine.",
+  "cout": "Une dépendance remplacée par une autre, à un prix plus élevé.",
+  "refs": [
+   "ieefa-2026",
+   "gmf-2025"
+  ]
+ },
+ {
+  "domaine": "Numérique",
+  "sens": "dependance",
+  "comportement": "Administrations et entreprises européennes confient 83 % de leurs dépenses de cloud et de logiciels à des firmes américaines. En France même, les données de santé nationales restent hébergées chez Microsoft.",
+  "cout": "264 Md€ par an et une exposition au Cloud Act.",
+  "refs": [
+   "asteres-2025",
+   "p-hdh-2026"
+  ]
+ },
+ {
+  "domaine": "Numérique",
+  "sens": "contre-exemple",
+  "comportement": "Visée par des sanctions américaines, la Cour pénale internationale quitte Microsoft pour la suite européenne openDesk.",
+  "cout": "Montre que la sortie est techniquement possible quand le risque devient concret.",
+  "refs": [
+   "p-cpi-2025"
+  ]
+ }
+]

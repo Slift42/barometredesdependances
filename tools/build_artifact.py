@@ -11,7 +11,7 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
-FILES = ["meta", "produits", "matrice", "vigie", "atouts", "sources", "propositions"]
+FILES = ["meta", "produits", "matrice", "vigie", "atouts", "sources", "propositions", "bibliographie", "kii", "europe", "allies"]
 
 
 def between(text, start, end):

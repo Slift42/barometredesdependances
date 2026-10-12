@@ -1,360 +1,1677 @@
 [
-{"id":"paracetamol","n":"Paracétamol","f":"sante","d":60,"k":"src","h":["CN","IN"],"l":0,
- "dep":"Principe actif majoritairement importé.",
- "conc":"60 à 80 % des principes actifs pharmaceutiques sont produits en Chine et en Inde (PwC pour le LEEM, 2021).",
- "note":"Le chiffre retenu est le stock de sécurité minimal imposé pour les médicaments d'intérêt thérapeutique majeur, pas le stock réel.",
- "src":"Décret n° 2021-349 (stock de sécurité de 2 mois)","m":"test",
- "al":[
-  {"type":"redondance","pays":["Italie","Espagne","Portugal"],"txt":"Réserver par contrat des capacités de principe actif chez nos voisins, qui gardent une chimie fine pharmaceutique, en plus de la relocalisation en France."},
-  {"type":"codependance","pays":["Maroc","Tunisie"],"txt":"Transfert de technologie et marché hospitalier garanti contre une réserve de production mobilisable en crise."}]},
-{"id":"amoxicilline","n":"Amoxicilline","f":"sante","d":60,"k":"src","h":["CN","IN"],"l":0,
- "dep":"Principe actif majoritairement importé.",
- "conc":"Chaîne des antibiotiques concentrée en Asie.",
- "note":"Pénuries hivernales en 2022-2023. Stock retenu : minimum réglementaire.",
- "src":"Décret n° 2021-349","m":"test",
- "al":[
-  {"type":"redondance","pays":["Autriche","Espagne"],"txt":"L'Autriche conserve à Kundl la dernière chaîne intégrée de pénicillines d'Europe : la sécuriser par un accord d'achat européen."},
-  {"type":"codependance","pays":["Maroc"],"txt":"Coproduction de génériques contre accès au marché européen."}]},
-{"id":"heparine","n":"Héparine","f":"sante","d":60,"k":"src","h":["CN"],"l":0,
- "dep":"Matière première d'origine porcine, filière dominée par la Chine.",
- "conc":"À chiffrer.",
- "note":"Stock retenu : minimum réglementaire pour un médicament d'intérêt thérapeutique majeur.",
- "src":"Décret n° 2021-349","m":"test",
- "al":[
-  {"type":"redondance","pays":["Espagne","Danemark","Allemagne"],"txt":"Les grands pays producteurs de porc d'Europe, avec la France, ont la matière première : organiser une collecte et une extraction européennes."}]},
-{"id":"insuline","n":"Insuline","f":"sante","d":400,"k":"est","h":["EU"],"l":0,
- "dep":"Production importante sur le sol français (Chartres, Sanofi).",
- "conc":"Trois groupes mondiaux dominent le marché.",
- "note":"Produite en France, mais par des groupes dont les centres de décision sont à l'étranger : un cas pour le vecteur « capital ».",
- "src":"Estimation de travail","m":"atout",
- "al":[
-  {"type":"codependance","pays":["Danemark"],"txt":"La France accueille la production, le Danemark le centre de décision : un accord d'État à État garantit la priorité d'approvisionnement en crise."}]},
-{"id":"corticoides","n":"Corticoïdes","f":"sante"},
-{"id":"ceftriaxone","n":"Ceftriaxone injectable","f":"sante"},
-{"id":"anticancereux","n":"Anticancéreux génériques","f":"sante"},
-{"id":"morphine","n":"Morphine et opioïdes","f":"sante"},
-{"id":"anesthesiques","n":"Anesthésiques","f":"sante"},
-{"id":"vaccins","n":"Vaccins","f":"sante"},
-{"id":"solutes","n":"Solutés de perfusion","f":"sante"},
-{"id":"ffp2","n":"Masques FFP2","f":"sante"},
-{"id":"seringues","n":"Seringues et cathéters","f":"sante"},
-{"id":"reactifs","n":"Réactifs de diagnostic","f":"sante"},
-
-{"id":"ble","n":"Blé tendre","f":"alim","d":"auto","k":"src","h":["FR"],"l":0,
- "dep":"Production nationale largement excédentaire.",
- "conc":"La France est le premier producteur de l'UE.",
- "note":"Atout majeur, mais dépendant des engrais importés : la tenue réelle se joue sur la campagne suivante.",
- "src":"FranceAgriMer, souveraineté alimentaire (MAJ 2021-2023)","m":"atout",
- "al":[
-  {"type":"codependance","pays":["Maroc","Algérie","Égypte"],"txt":"Ils importent du blé, nous importons des phosphates et du gaz : des contrats croisés de long terme protègent les deux côtés."}]},
-{"id":"mais","n":"Maïs","f":"alim"},
-{"id":"sucre","n":"Sucre","f":"alim"},
-{"id":"lait","n":"Lait","f":"alim"},
-{"id":"porc","n":"Viande porcine","f":"alim"},
-{"id":"volaille","n":"Volaille","f":"alim"},
-{"id":"ovins","n":"Viande ovine","f":"alim"},
-{"id":"fruits","n":"Fruits frais","f":"alim"},
-{"id":"legumes","n":"Légumes frais","f":"alim"},
-{"id":"soja","n":"Tourteaux de soja","f":"alim","d":45,"k":"est","h":["BR"],"l":0,
- "dep":"Très majoritairement importés (Brésil, États-Unis, Argentine).",
- "conc":"Trois pays fournissent l'essentiel du marché mondial.",
- "note":"Clé de l'élevage français : sans eux, la production de viande et de lait recule en quelques semaines.",
- "src":"Estimation de travail","m":"lpi",
- "al":[
-  {"type":"redondance","pays":["Roumanie","Serbie","Autriche","Ukraine"],"txt":"Développer le soja du bassin du Danube, sans OGM, et les légumineuses françaises, pour sortir du face-à-face avec les Amériques."}]},
-{"id":"azote","n":"Engrais azotés","f":"alim","d":90,"k":"est","h":["DIV"],"l":1,
- "dep":"Majoritairement importés, à chiffrer avec les Douanes et Agreste.",
- "conc":"Production liée au prix du gaz.",
- "note":"L'UE applique depuis juillet 2025 des droits de douane progressifs aux engrais russes.",
- "src":"Estimation de travail","m":"lpi",
- "al":[
-  {"type":"redondance","pays":["Norvège","Égypte","Trinité-et-Tobago"],"txt":"Répartir les achats d'ammoniac et d'engrais entre plusieurs producteurs hors de Russie."},
-  {"type":"codependance","pays":["Algérie"],"txt":"Gaz et ammoniac contre partenariat industriel et avancées sur le travail mémoriel, comme le propose la note de doctrine."}]},
-{"id":"potasse","n":"Potasse","f":"alim","d":120,"k":"est","h":["CA","DE","RU"],"l":1,
- "dep":"100 % importée depuis la fermeture des Mines de potasse d'Alsace.",
- "conc":"Canada, Russie et Biélorussie dominent la production mondiale.",
- "note":"",
- "src":"Estimation de travail","m":"partner",
- "al":[
-  {"type":"redondance","pays":["Canada","Allemagne","Espagne"],"txt":"Le premier producteur mondial et deux producteurs européens suffisent à se passer de la Russie et de la Biélorussie."}]},
-{"id":"phosphates","n":"Phosphates","f":"alim","d":120,"k":"est","h":["MA"],"l":0,
- "dep":"100 % importés.",
- "conc":"Le Maroc détient près de 70 % des réserves mondiales (USGS).",
- "note":"Dépendance à un partenaire proche : candidat à un accord paritaire.",
- "src":"Estimation de travail","m":"partner",
- "al":[
-  {"type":"codependance","pays":["Maroc"],"txt":"Phosphates contre blé, ingénierie de l'eau et de l'énergie : un partenariat que ni Pékin ni Washington ne peuvent concurrencer facilement."},
-  {"type":"redondance","pays":["Tunisie","Sénégal","Jordanie"],"txt":"D'autres producteurs pour ne pas dépendre d'un seul pays."}]},
-{"id":"semences","n":"Semences potagères","f":"alim"},
-
-{"id":"petrole","n":"Pétrole brut","f":"ener","d":90,"k":"src","h":["DIV"],"l":0,
- "dep":"Quasi totalement importé.",
- "conc":"Fournisseurs diversifiés.",
- "note":"Le seul produit pour lequel la loi impose déjà un seuil de tenue. C'est le modèle à étendre.",
- "src":"Directive 2009/119/CE, code de l'énergie (90 jours d'importations nettes)","m":"test",
- "al":[
-  {"type":"redondance","pays":["Norvège","Kazakhstan","Nigéria","Brésil"],"txt":"Déjà diversifié : garder au moins quatre origines et aucune au-dessus d'un quart des volumes."}]},
-{"id":"gazole","n":"Gazole","f":"ener"},
-{"id":"kerosene","n":"Kérosène","f":"ener"},
-{"id":"gaz","n":"Gaz naturel","f":"ener","d":100,"k":"calc","h":["NO","US"],"l":1,"live":"gaz",
- "dep":"Quasi totalement importé (Norvège par gazoduc, GNL américain).",
- "conc":"Les États-Unis fournissent 60 % du GNL importé par l'UE (T3 2025).",
- "note":"Stocks rapportés à une consommation moyenne d'environ 1 TWh par jour. En plein hiver, la tenue est environ deux fois plus courte.",
- "src":"GIE AGSI+ ; note KII","m":"rever",
- "al":[
-  {"type":"redondance","pays":["Norvège","Algérie"],"txt":"Contrats longs par gazoduc pour réduire la part du GNL américain, devenu le nouveau robinet."},
-  {"type":"codependance","pays":["Algérie"],"txt":"Gaz contre partenariat industriel et avancées sur le travail mémoriel (note de doctrine)."}]},
-{"id":"uranium-naturel","n":"Uranium naturel","f":"ener","d":730,"k":"est","h":["KZ","NE"],"l":1,
- "dep":"100 % importé (Kazakhstan, Ouzbékistan, Australie, Niger).",
- "conc":"Production mondiale concentrée sur quelques pays.",
- "note":"Ordre de grandeur de deux ans de stocks communiqué par la filière, à confirmer. Au Niger, la junte a pris le contrôle de la mine Somaïr d'Orano (2024-2025).",
- "src":"Estimation de travail","m":"partner",
- "al":[
-  {"type":"codependance","pays":["Kazakhstan","Ouzbékistan","Mongolie"],"txt":"Filière nucléaire civile locale et transfert de compétences contre uranium à prix fixe, sur le modèle de la note de doctrine."},
-  {"type":"redondance","pays":["Canada","Australie"],"txt":"Deux producteurs stables pour couvrir un éventuel arrêt en Asie centrale ou au Sahel."}]},
-{"id":"uranium-enrichi","n":"Uranium enrichi","f":"ener","d":365,"k":"est","h":["RU"],"l":1,
- "dep":"20 % des importations françaises d'uranium enrichi venaient de Russie (avril 2024 à mars 2025).",
- "conc":"Rosatom détient 43 % de la capacité mondiale d'enrichissement.",
- "note":"Orano enrichit l'essentiel en France (Tricastin). L'uranium de retraitement, lui, ne peut être réenrichi qu'en Sibérie.",
- "src":"Note KII (Reporterre, World Nuclear Report)","m":"lpi",
- "al":[
-  {"type":"redondance","pays":["Royaume-Uni","Pays-Bas","Allemagne"],"txt":"Urenco enrichit dans ces trois pays : un second fournisseur européen pour remplacer la part russe."},
-  {"type":"codependance","pays":["Finlande","Slovaquie","Tchéquie","Bulgarie","Hongrie"],"txt":"Leurs réacteurs de conception russe dépendent de Rosatom : leur offrir combustible et services français les arrime à notre filière."}]},
-{"id":"ure","n":"Uranium de retraitement","f":"ener"},
-{"id":"electricite","n":"Électricité","f":"ener","d":"auto","k":"src","h":["FR"],"l":0,
- "dep":"Production nationale excédentaire.",
- "conc":"Parc nucléaire et hydraulique national.",
- "note":"Solde exportateur record de 92 TWh en 2025.",
- "src":"RTE, tendances 2025 (janv. 2026)","m":"atout",
- "al":[
-  {"type":"codependance","pays":["Allemagne","Italie","Belgique","Suisse","Espagne"],"txt":"Nous leur vendons une électricité décarbonée toute l'année ; ils nous secourent lors des pointes d'hiver. Le réseau européen est déjà une co-dépendance."}]},
-{"id":"coke","n":"Charbon à coke","f":"ener"},
-
-{"id":"tr-lourdes","n":"Terres rares lourdes (Dy, Tb)","f":"metal","d":45,"k":"est","h":["CN"],"l":2,
- "dep":"Aucune production ni séparation nationale à ce jour.",
- "conc":"La Chine assure jusqu'à 90 % du raffinage mondial.",
- "note":"Licences d'exportation obligatoires depuis avril 2025 pour 7 terres rares. Les contrôles d'octobre 2025 sont suspendus jusqu'au 10 novembre 2026.",
- "src":"Mining Technology, 27 avril 2026 ; note KII","m":"partner",
- "al":[
-  {"type":"codependance","pays":["Sénégal","Maroc","Namibie","Madagascar","Indonésie","Brésil"],"txt":"Extraction aux standards élevés et raffinage français (Eramet, Carester) contre infrastructures énergétiques locales et accords à taux fixes (note de doctrine)."},
-  {"type":"redondance","pays":["Japon","Australie"],"txt":"Le Japon a réduit sa dépendance après l'embargo chinois de 2010 et co-investit déjà dans l'usine Caremag de Lacq ; l'Australie raffine hors de Chine."}]},
-{"id":"tr-legeres","n":"Terres rares légères (Nd, Pr)","f":"metal"},
-{"id":"aimants","n":"Aimants permanents","f":"metal","d":30,"k":"est","h":["CN"],"l":2,
- "dep":"Importés, directement ou via des sous-ensembles européens.",
- "conc":"La Chine produit 98 % des aimants permanents (note KII).",
- "note":"Moteurs électriques, éoliennes, missiles. En 2025, des constructeurs européens ont signalé des arrêts de ligne.",
- "src":"Note KII (CNRS, Sénat)","m":"partner",
- "al":[
-  {"type":"redondance","pays":["Japon","Estonie","Allemagne"],"txt":"Fabricants d'aimants hors de Chine : japonais, l'usine de Narva en Estonie, l'allemand VAC. Achats garantis pour les faire grandir."}]},
-{"id":"lithium","n":"Lithium raffiné","f":"metal","d":60,"k":"est","h":["CN"],"l":1,
- "dep":"Importé.",
- "conc":"La Chine traite environ 80 % du lithium mondial (note KII).",
- "note":"Le projet Imerys Émili (Allier) est un atout en devenir.",
- "src":"Note KII (AIE, BRGM)","m":"lpi",
- "al":[
-  {"type":"codependance","pays":["Chili","Argentine"],"txt":"Raffinage sur place et transfert de compétences contre contrats de long terme, au lieu d'exporter du minerai brut vers la Chine."},
-  {"type":"redondance","pays":["Australie","Allemagne"],"txt":"Deuxième source d'hydroxyde de lithium, plus la production française de l'Allier."}]},
-{"id":"cobalt","n":"Cobalt","f":"metal","d":60,"k":"est","h":["CN","CD"],"l":1,
- "dep":"Importé.",
- "conc":"La Chine raffine environ 60 % du cobalt mondial, extrait surtout en RD Congo.",
- "note":"La RD Congo a suspendu puis contingenté ses exportations en 2025.",
- "src":"Note KII","m":"partner",
- "al":[
-  {"type":"codependance","pays":["RD Congo","Zambie"],"txt":"Raffinage sur place financé et équipé par l'Europe, contre accès prioritaire à une part des volumes."},
-  {"type":"redondance","pays":["Finlande","Australie"],"txt":"Raffinerie européenne de Kokkola et production australienne."}]},
-{"id":"nickel","n":"Nickel raffiné","f":"metal"},
-{"id":"graphite","n":"Graphite","f":"metal","d":60,"k":"est","h":["CN"],"l":2,
- "dep":"Importé.",
- "conc":"La Chine produit plus de 90 % du graphite pour anodes de batteries.",
- "note":"Licences d'exportation chinoises depuis décembre 2023.",
- "src":"Estimation de travail","m":"lpi",
- "al":[
-  {"type":"redondance","pays":["Mozambique","Suède","Canada"],"txt":"Mines hors de Chine et première transformation en Suède."},
-  {"type":"codependance","pays":["Mozambique","Madagascar"],"txt":"Transformation locale contre contrats d'achat européens."}]},
-{"id":"gallium","n":"Gallium","f":"metal","d":60,"k":"est","h":["CN"],"l":2,
- "dep":"Importé.",
- "conc":"La Chine assure environ 98 % de la production primaire.",
- "note":"Licences depuis août 2023, interdiction d'export vers les États-Unis en décembre 2024.",
- "src":"Estimation de travail","m":"lpi",
- "al":[
-  {"type":"redondance","pays":["Grèce","Kazakhstan","Japon"],"txt":"Le gallium est un sous-produit de l'alumine : relancer l'extraction en Europe (projet grec) et le recyclage japonais."}]},
-{"id":"germanium","n":"Germanium","f":"metal","d":90,"k":"est","h":["CN"],"l":2,
- "dep":"Importé.",
- "conc":"Majorité de la production mondiale en Chine.",
- "note":"Même régime de licences que le gallium.",
- "src":"Estimation de travail","m":"lpi",
- "al":[
-  {"type":"redondance","pays":["Belgique","Canada","RD Congo"],"txt":"Raffinage belge à Olen, production canadienne et résidus miniers congolais."}]},
-{"id":"antimoine","n":"Antimoine","f":"metal","d":60,"k":"est","h":["CN"],"l":2,
- "dep":"Importé.",
- "conc":"Chine dominante à l'extraction et au traitement.",
- "note":"Indispensable aux amorces de munitions. Contrôles chinois depuis septembre 2024.",
- "src":"Estimation de travail","m":"lpi",
- "al":[
-  {"type":"redondance","pays":["Australie","Bolivie","Turquie"],"txt":"Producteurs hors de Chine, à sécuriser en priorité pour la défense."}]},
-{"id":"tungstene","n":"Tungstène","f":"metal"},
-{"id":"titane","n":"Titane (éponge)","f":"metal","d":120,"k":"est","h":["RU","KZ","JP"],"l":1,
- "dep":"Importé.",
- "conc":"VSMPO-Avisma (Russie) reste un acteur mondial majeur.",
- "note":"Airbus dépendait à environ 50 % du titane russe avant 2022. Reconversion vers le Japon et le Kazakhstan, coûteuse.",
- "src":"Note KII (Reuters, Airbus)","m":"rever",
- "al":[
-  {"type":"codependance","pays":["Kazakhstan"],"txt":"Commandes aéronautiques et coopération industrielle contre éponge de titane garantie."},
-  {"type":"redondance","pays":["Japon","États-Unis"],"txt":"Deux autres sources pour qu'aucune ne dépasse un tiers des besoins d'Airbus et de Safran."}]},
-{"id":"magnesium","n":"Magnésium","f":"metal","d":45,"k":"est","h":["CN"],"l":1,
- "dep":"Importé.",
- "conc":"La Chine produit la très grande majorité du magnésium primaire.",
- "note":"À l'automne 2021, la baisse de production chinoise a menacé l'aluminium européen d'arrêt en quelques semaines.",
- "src":"Estimation de travail","m":"lpi",
- "al":[
-  {"type":"redondance","pays":["Turquie","Kazakhstan"],"txt":"Producteurs hors de Chine, complétés par le recyclage des alliages en France."}]},
-{"id":"silicium","n":"Silicium métal","f":"metal"},
-{"id":"cuivre","n":"Cuivre","f":"metal"},
-{"id":"platinoides","n":"Platinoïdes","f":"metal"},
-
-{"id":"puces-matures","n":"Puces matures (automobile)","f":"elec","d":21,"k":"est","h":["CN"],"l":2,
- "dep":"Importées.",
- "conc":"Assemblage et test concentrés en Asie.",
- "note":"Octobre 2025 : Pékin bloque les exportations des puces Nexperia, les équipementiers européens annoncent des arrêts en quelques semaines.",
- "src":"Euronews, 31 oct. 2025","m":"lpi",
- "al":[
-  {"type":"redondance","pays":["Allemagne","Italie"],"txt":"STMicroelectronics (Crolles, Catane), Infineon et Bosch (Dresde) : commandes publiques et automobiles groupées pour leurs lignes matures."}]},
-{"id":"puces-avancees","n":"Puces avancées (< 7 nm)","f":"elec","d":60,"k":"est","h":["TW"],"l":1,
- "dep":"Aucune production européenne.",
- "conc":"Taïwan (TSMC) produit l'essentiel des puces les plus avancées.",
- "note":"",
- "src":"Estimation de travail","m":"lpi",
- "al":[
-  {"type":"redondance","pays":["Japon","Corée du Sud"],"txt":"Deux autres fondeurs avancés pour ne pas tout miser sur le détroit de Taïwan."},
-  {"type":"codependance","pays":["Pays-Bas","Taïwan"],"txt":"Aucune puce avancée ne se fabrique sans les machines d'ASML : c'est la carte européenne dans toute négociation."}]},
-{"id":"gpu-ia","n":"Processeurs pour l'IA","f":"elec","d":90,"k":"est","h":["US"],"l":1,
- "dep":"Importés.",
- "conc":"Un fournisseur américain domine le marché.",
- "note":"Washington encadre l'export des puces d'IA depuis 2023.",
- "src":"Estimation de travail","m":"rever",
- "al":[
-  {"type":"codependance","pays":["Pays-Bas"],"txt":"Les fondeurs des puces américaines dépendent des machines néerlandaises : un levier à faire valoir collectivement."},
-  {"type":"redondance","pays":["Allemagne","Italie","Espagne"],"txt":"Processeurs européens de calcul intensif (projet SiPearl) et commandes groupées des supercalculateurs publics."}]},
-{"id":"memoires","n":"Mémoires (DRAM, NAND)","f":"elec"},
-{"id":"mlcc","n":"Condensateurs céramiques","f":"elec"},
-{"id":"pcb","n":"Circuits imprimés","f":"elec"},
-{"id":"terminaux","n":"Smartphones et terminaux","f":"elec"},
-{"id":"reseau","n":"Équipements réseau","f":"elec"},
-{"id":"fibres","n":"Fibres optiques et lasers","f":"elec"},
-
-{"id":"acier","n":"Acier","f":"indus","d":180,"k":"est","h":["DIV"],"l":0,
- "dep":"Production nationale significative mais menacée.",
- "conc":"Surcapacités chinoises redirigées vers l'Europe.",
- "note":"Les décisions d'investissement sur les hauts-fourneaux français se prennent hors de France.",
- "src":"Estimation de travail","m":"atout",
- "al":[
-  {"type":"redondance","pays":["Suède","Espagne","Allemagne"],"txt":"Acier bas carbone suédois et capacités européennes, protégées ensemble contre le dumping."}]},
-{"id":"aluminium","n":"Aluminium primaire","f":"indus"},
-{"id":"polymeres","n":"Polymères de base","f":"indus"},
-{"id":"chlore","n":"Chlore et soude","f":"indus"},
-{"id":"ciment","n":"Ciment et clinker","f":"indus"},
-{"id":"machines-outils","n":"Machines-outils","f":"indus"},
-{"id":"roulements","n":"Roulements à billes","f":"indus"},
-{"id":"pieces-auto","n":"Pièces automobiles","f":"indus"},
-{"id":"pv","n":"Panneaux photovoltaïques","f":"indus","d":120,"k":"est","h":["CN"],"l":1,
- "dep":"Quasi totalement importés.",
- "conc":"La Chine détient 80 % du marché mondial et 82 % du polysilicium (note KII).",
- "note":"Sans panneaux chinois, les objectifs solaires 2030 ne sont pas tenables.",
- "src":"Note KII (IRIS, Vie publique)","m":"lpi",
- "al":[
-  {"type":"redondance","pays":["Inde","Italie","Turquie"],"txt":"Deuxième producteur mondial, usine européenne de Catane, et production turque, en plus des projets français."}]},
-{"id":"batteries","n":"Cellules de batteries","f":"indus","d":30,"k":"est","h":["CN","KR"],"l":1,
- "dep":"Majoritairement importées.",
- "conc":"CATL détient environ 35 % du marché mondial (note KII).",
- "note":"",
- "src":"Note KII (AIE)","m":"lpi",
- "al":[
-  {"type":"redondance","pays":["Corée du Sud","Japon"],"txt":"Fabricants non chinois, en plus des usines des Hauts-de-France (ACC, Verkor)."}]},
-{"id":"eoliennes","n":"Éoliennes (nacelles)","f":"indus"},
-{"id":"pac","n":"Pompes à chaleur","f":"indus"},
-{"id":"electrolyseurs","n":"Électrolyseurs","f":"indus"},
-{"id":"transformateurs","n":"Transformateurs électriques","f":"indus"},
-
-{"id":"obus-155","n":"Obus de 155 mm","f":"def","d":15,"k":"est","h":["FR"],"l":0,
- "dep":"Production nationale relancée et accélérée depuis 2023.",
- "conc":"Intrants (poudres, antimoine) partiellement importés.",
- "note":"Tenue en haute intensité à instruire avec la DGA à partir de sources ouvertes.",
- "src":"Estimation de travail","m":"lpi",
- "al":[
-  {"type":"redondance","pays":["Allemagne","Pologne","Norvège","Finlande"],"txt":"Stocks et capacités mutualisés à l'échelle européenne, avec des standards communs."},
-  {"type":"codependance","pays":["Ukraine"],"txt":"Retour d'expérience au combat et coproduction contre capacités industrielles et financement."}]},
-{"id":"petit-calibre","n":"Munitions de petit calibre","f":"def","d":30,"k":"est","h":["BE","DIV"],"l":0,
- "dep":"Plus de production nationale.",
- "conc":"Achats auprès de fournisseurs étrangers.",
- "note":"En août 2026, la DGA a retenu FN Browning pour une usine à Clérieux (Drôme), production prévue en 2029.",
- "src":"The Defense Post, 10 août 2026","m":"lpi",
- "al":[
-  {"type":"redondance","pays":["Belgique","Norvège","Finlande"],"txt":"Fournisseurs européens en attendant l'usine de la Drôme, avec des stocks contractuels."}]},
-{"id":"poudres","n":"Poudres et nitrocellulose","f":"def","d":60,"k":"est","h":["DIV"],"l":1,
- "dep":"Production relancée à Bergerac en 2025.",
- "conc":"Matières premières cellulosiques importées, origine à instruire.",
- "note":"",
- "src":"Estimation de travail","m":"lpi",
- "al":[
-  {"type":"redondance","pays":["Allemagne","Pologne"],"txt":"Producteurs européens de nitrocellulose et de poudres, à lier par des accords de capacité."}]},
-{"id":"sol-air","n":"Missiles sol-air","f":"def"},
-{"id":"drones","n":"Drones","f":"def"},
-{"id":"electronique-def","n":"Électronique de défense","f":"def"},
-{"id":"lanceurs","n":"Lancement spatial","f":"def","d":"auto","k":"src","h":["EU"],"l":0,
- "dep":"Accès autonome à l'espace.",
- "conc":"Ariane 6 en service depuis 2024.",
- "note":"",
- "src":"Arianespace","m":"atout",
- "al":[
-  {"type":"codependance","pays":["Allemagne","Italie"],"txt":"Programme européen partagé ; offrir des lancements aux pays du Sud qui veulent leurs propres satellites."}]},
-{"id":"galileo","n":"Positionnement satellite","f":"def","d":"auto","k":"src","h":["EU"],"l":0,
- "dep":"Galileo, constellation européenne opérationnelle.",
- "conc":"Alternative au GPS américain.",
- "note":"",
- "src":"Agence de l'UE pour le programme spatial","m":"atout",
- "al":[
-  {"type":"codependance","pays":["Pays africains"],"txt":"Étendre les services de précision européens à l'Afrique : un usage partagé qui fait de Galileo un standard."}]},
-{"id":"pieces-avions","n":"Pièces d'avions de combat","f":"def"},
-
-{"id":"cloud","n":"Cloud public","f":"num","d":0,"k":"est","h":["US"],"l":2,
- "dep":"54 Md€ versés chaque année par la France aux fournisseurs américains de cloud et de logiciels (Asterès / Cigref).",
- "conc":"AWS, Azure et Google détiennent environ 65 % du marché européen (note KII).",
- "note":"Une coupure à distance est immédiate. Sans mises à jour, le directeur de l'ANSSI juge la situation « intenable » à six mois (audition AN, 2026). Le Cloud Act s'applique aux données hébergées en Europe.",
- "src":"Asterès / Cigref ; LCP, juillet 2026","m":"rever",
- "al":[
-  {"type":"redondance","pays":["France","Allemagne","Pays-Bas","Italie"],"txt":"Commande publique réservée aux clouds européens (OVHcloud, Scaleway, Outscale et leurs équivalents) pour les données de l'État et des opérateurs vitaux."},
-  {"type":"codependance","pays":["Allemagne","Danemark"],"txt":"Ils migrent déjà hors des logiciels américains (Schleswig-Holstein, ministère danois du numérique) : mutualiser les migrations et les équipes."}]},
-{"id":"bureautique","n":"Bureautique et messagerie","f":"num","d":0,"k":"est","h":["US"],"l":2,
- "dep":"Administrations et entreprises massivement équipées en solutions américaines.",
- "conc":"Deux éditeurs dominent.",
- "note":"Visée par des sanctions américaines, la Cour pénale internationale a annoncé en octobre 2025 quitter Microsoft Office pour la suite européenne openDesk.",
- "src":"Next, octobre 2025","m":"rever",
- "al":[
-  {"type":"codependance","pays":["Allemagne","Pays-Bas"],"txt":"La Suite numérique française et openDesk allemand sont déjà développés en commun : en faire le standard des administrations européennes."}]},
-{"id":"os-postes","n":"Systèmes d'exploitation","f":"num"},
-{"id":"os-mobiles","n":"Systèmes mobiles","f":"num"},
-{"id":"ia","n":"Modèles d'IA","f":"num","d":0,"k":"est","h":["US"],"l":1,
- "dep":"Usage dominant de modèles américains.",
- "conc":"Quelques laboratoires américains dominent.",
- "note":"Mistral AI constitue une alternative française.",
- "src":"Estimation de travail","m":"rever",
- "al":[
-  {"type":"redondance","pays":["France","Allemagne"],"txt":"Modèles européens pour les usages publics et critiques, avec une obligation de portabilité."},
-  {"type":"codependance","pays":["Inde","Brésil"],"txt":"Modèles ouverts développés en commun : données et calcul partagés plutôt que loués à un seul pays."}]},
-{"id":"cyber","n":"Cybersécurité","f":"num"},
-{"id":"paie","n":"Logiciels de paie et RH","f":"num"},
-{"id":"logiciels-sante","n":"Logiciels hospitaliers","f":"num"},
-{"id":"paiement","n":"Paiement par carte","f":"num"},
-{"id":"cables","n":"Câbles sous-marins","f":"num"},
-{"id":"cao","n":"Logiciels industriels (CAO)","f":"num","d":"auto","k":"est","h":["FR"],"l":0,
- "dep":"Dassault Systèmes est un leader mondial de la conception assistée.",
- "conc":"",
- "note":"Atout à protéger de tout rachat.",
- "src":"Estimation de travail","m":"atout",
- "al":[
-  {"type":"codependance","pays":["Allemagne","Italie"],"txt":"Nos industriels conçoivent avec des outils français : en faire le socle des grands programmes européens."}]},
-{"id":"reseaux-sociaux","n":"Réseaux sociaux","f":"num"},
-{"id":"cartographie","n":"Cartographie et navigation","f":"num"},
-{"id":"recherche","n":"Moteurs de recherche","f":"num"},
-{"id":"dns","n":"Noms de domaine (DNS)","f":"num"}
+ {
+  "id": "paracetamol",
+  "n": "Paracétamol",
+  "f": "sante",
+  "d": 60,
+  "k": "src",
+  "h": [
+   "CN",
+   "IN"
+  ],
+  "l": 0,
+  "dep": "Principe actif majoritairement importé.",
+  "conc": "60 à 80 % des principes actifs pharmaceutiques sont produits en Chine et en Inde (PwC pour le LEEM, 2021).",
+  "note": "Le chiffre retenu est le stock de sécurité minimal imposé pour les médicaments d'intérêt thérapeutique majeur, pas le stock réel.",
+  "src": "Décret n° 2021-349 (stock de sécurité de 2 mois)",
+  "m": "test",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Italie",
+     "Espagne",
+     "Portugal"
+    ],
+    "txt": "Réserver par contrat des capacités de principe actif chez nos voisins, qui gardent une chimie fine pharmaceutique, en plus de la relocalisation en France."
+   },
+   {
+    "type": "codependance",
+    "pays": [
+     "Maroc",
+     "Tunisie"
+    ],
+    "txt": "Transfert de technologie et marché hospitalier garanti contre une réserve de production mobilisable en crise."
+   }
+  ],
+  "pourquoi": "Le chiffre de 60 jours est le plancher légal, pas un stock mesuré : c'est la meilleure donnée publique disponible. La molécule de base vient très majoritairement d'Asie, et la commission d'enquête du Sénat a montré que les ruptures ont augmenté de plus de moitié entre 2020 et 2022. Aucun levier n'a encore été actionné contre la France sur ce produit.",
+  "refs": [
+   "decret-2021-349",
+   "senat-penuries-2023",
+   "pwc-leem-2021",
+   "ansm-2025"
+  ]
+ },
+ {
+  "id": "amoxicilline",
+  "n": "Amoxicilline",
+  "f": "sante",
+  "d": 60,
+  "k": "src",
+  "h": [
+   "CN",
+   "IN"
+  ],
+  "l": 0,
+  "dep": "Principe actif majoritairement importé.",
+  "conc": "Chaîne des antibiotiques concentrée en Asie.",
+  "note": "Pénuries hivernales en 2022-2023. Stock retenu : minimum réglementaire.",
+  "src": "Décret n° 2021-349",
+  "m": "test",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Autriche",
+     "Espagne"
+    ],
+    "txt": "L'Autriche conserve à Kundl la dernière chaîne intégrée de pénicillines d'Europe : la sécuriser par un accord d'achat européen."
+   },
+   {
+    "type": "codependance",
+    "pays": [
+     "Maroc"
+    ],
+    "txt": "Coproduction de génériques contre accès au marché européen."
+   }
+  ],
+  "pourquoi": "Même plancher réglementaire de deux mois. L'amoxicilline a connu des ruptures hivernales en 2022-2023, documentées par le Sénat et l'ANSM. La chaîne des antibiotiques reste concentrée en Asie, à l'exception de l'usine autrichienne de Kundl.",
+  "refs": [
+   "decret-2021-349",
+   "senat-penuries-2023",
+   "ansm-2025"
+  ]
+ },
+ {
+  "id": "heparine",
+  "n": "Héparine",
+  "f": "sante",
+  "d": 60,
+  "k": "src",
+  "h": [
+   "CN"
+  ],
+  "l": 0,
+  "dep": "Matière première d'origine porcine, filière dominée par la Chine.",
+  "conc": "À chiffrer.",
+  "note": "Stock retenu : minimum réglementaire pour un médicament d'intérêt thérapeutique majeur.",
+  "src": "Décret n° 2021-349",
+  "m": "test",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Espagne",
+     "Danemark",
+     "Allemagne"
+    ],
+    "txt": "Les grands pays producteurs de porc d'Europe, avec la France, ont la matière première : organiser une collecte et une extraction européennes."
+   }
+  ],
+  "pourquoi": "Plancher réglementaire de deux mois. La matière première est d'origine porcine et sa transformation se concentre en Chine : la part exacte reste à documenter par une source publique.",
+  "refs": [
+   "decret-2021-349",
+   "senat-penuries-2023"
+  ]
+ },
+ {
+  "id": "insuline",
+  "n": "Insuline",
+  "f": "sante",
+  "d": 400,
+  "k": "est",
+  "h": [
+   "EU"
+  ],
+  "l": 0,
+  "dep": "Production importante sur le sol français (Chartres, Sanofi).",
+  "conc": "Trois groupes mondiaux dominent le marché.",
+  "note": "Produite en France, mais par des groupes dont les centres de décision sont à l'étranger : un cas pour le vecteur « capital ».",
+  "src": "Estimation de travail",
+  "m": "atout",
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Danemark"
+    ],
+    "txt": "La France accueille la production, le Danemark le centre de décision : un accord d'État à État garantit la priorité d'approvisionnement en crise."
+   }
+  ],
+  "pourquoi": "La production sur le sol français (Chartres, Sanofi) assure une tenue longue, estimée au-delà d'un an. La dépendance porte sur le capital : les décisions d'investissement et de répartition en crise se prennent hors de France.",
+  "refs": [
+   "note-kii"
+  ]
+ },
+ {
+  "id": "corticoides",
+  "n": "Corticoïdes",
+  "f": "sante"
+ },
+ {
+  "id": "ceftriaxone",
+  "n": "Ceftriaxone injectable",
+  "f": "sante"
+ },
+ {
+  "id": "anticancereux",
+  "n": "Anticancéreux génériques",
+  "f": "sante"
+ },
+ {
+  "id": "morphine",
+  "n": "Morphine et opioïdes",
+  "f": "sante"
+ },
+ {
+  "id": "anesthesiques",
+  "n": "Anesthésiques",
+  "f": "sante"
+ },
+ {
+  "id": "vaccins",
+  "n": "Vaccins",
+  "f": "sante"
+ },
+ {
+  "id": "solutes",
+  "n": "Solutés de perfusion",
+  "f": "sante"
+ },
+ {
+  "id": "ffp2",
+  "n": "Masques FFP2",
+  "f": "sante"
+ },
+ {
+  "id": "seringues",
+  "n": "Seringues et cathéters",
+  "f": "sante"
+ },
+ {
+  "id": "reactifs",
+  "n": "Réactifs de diagnostic",
+  "f": "sante"
+ },
+ {
+  "id": "ble",
+  "n": "Blé tendre",
+  "f": "alim",
+  "d": "auto",
+  "k": "src",
+  "h": [
+   "FR"
+  ],
+  "l": 0,
+  "dep": "Production nationale largement excédentaire.",
+  "conc": "La France est le premier producteur de l'UE.",
+  "note": "Atout majeur, mais dépendant des engrais importés : la tenue réelle se joue sur la campagne suivante.",
+  "src": "FranceAgriMer, souveraineté alimentaire (MAJ 2021-2023)",
+  "m": "atout",
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Maroc",
+     "Algérie",
+     "Égypte"
+    ],
+    "txt": "Ils importent du blé, nous importons des phosphates et du gaz : des contrats croisés de long terme protègent les deux côtés."
+   }
+  ],
+  "pourquoi": "Avec un taux d'auto-approvisionnement de 193 %, la France produit près du double de sa consommation de blé tendre : c'est un atout. La fragilité est en amont, dans les engrais importés qui conditionnent la récolte suivante.",
+  "refs": [
+   "franceagrimer-2025"
+  ]
+ },
+ {
+  "id": "mais",
+  "n": "Maïs",
+  "f": "alim"
+ },
+ {
+  "id": "sucre",
+  "n": "Sucre",
+  "f": "alim"
+ },
+ {
+  "id": "lait",
+  "n": "Lait",
+  "f": "alim"
+ },
+ {
+  "id": "porc",
+  "n": "Viande porcine",
+  "f": "alim"
+ },
+ {
+  "id": "volaille",
+  "n": "Volaille",
+  "f": "alim"
+ },
+ {
+  "id": "ovins",
+  "n": "Viande ovine",
+  "f": "alim"
+ },
+ {
+  "id": "fruits",
+  "n": "Fruits frais",
+  "f": "alim"
+ },
+ {
+  "id": "legumes",
+  "n": "Légumes frais",
+  "f": "alim"
+ },
+ {
+  "id": "soja",
+  "n": "Tourteaux de soja",
+  "f": "alim",
+  "d": 45,
+  "k": "est",
+  "h": [
+   "BR"
+  ],
+  "l": 0,
+  "dep": "Très majoritairement importés (Brésil, États-Unis, Argentine).",
+  "conc": "Le taux d'auto-approvisionnement en graines de soja n'est que de 54 % (FranceAgriMer) ; les tourteaux pour l'élevage sont importés en masse.",
+  "note": "Clé de l'élevage français : sans eux, la production de viande et de lait recule en quelques semaines.",
+  "src": "Estimation de travail",
+  "m": "lpi",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Roumanie",
+     "Serbie",
+     "Autriche",
+     "Ukraine"
+    ],
+    "txt": "Développer le soja du bassin du Danube, sans OGM, et les légumineuses françaises, pour sortir du face-à-face avec les Amériques."
+   }
+  ],
+  "pourquoi": "FranceAgriMer mesure un taux d'auto-approvisionnement de 54 % pour le soja, et bien moins pour les tourteaux qui nourrissent l'élevage. Sans flux, la production de viande et de lait recule en quelques semaines : d'où une estimation de 45 jours.",
+  "refs": [
+   "franceagrimer-2025"
+  ]
+ },
+ {
+  "id": "azote",
+  "n": "Engrais azotés",
+  "f": "alim",
+  "d": 90,
+  "k": "est",
+  "h": [
+   "DIV"
+  ],
+  "l": 1,
+  "dep": "Majoritairement importés, à chiffrer avec les Douanes et Agreste.",
+  "conc": "Plus de 750 000 t d'engrais russes importées en 2023, contre 402 000 t en 2021 (UNIFA) ; production européenne liée au prix du gaz.",
+  "note": "L'UE applique depuis juillet 2025 des droits de douane progressifs aux engrais russes.",
+  "src": "Estimation de travail",
+  "m": "lpi",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Norvège",
+     "Égypte",
+     "Trinité-et-Tobago"
+    ],
+    "txt": "Répartir les achats d'ammoniac et d'engrais entre plusieurs producteurs hors de Russie."
+   },
+   {
+    "type": "codependance",
+    "pays": [
+     "Algérie"
+    ],
+    "txt": "Gaz et ammoniac contre partenariat industriel et avancées sur le travail mémoriel, comme le propose la note de doctrine."
+   }
+  ],
+  "pourquoi": "La France a presque doublé ses achats d'engrais russes entre 2021 et 2023 selon l'UNIFA. Les stocks couvrent une campagne de printemps, d'où l'estimation de 90 jours. Le levier est structurel : l'UE taxe désormais ces engrais, ce qui renchérit la dépendance sans la supprimer.",
+  "refs": [
+   "unifa-2025",
+   "franceagrimer-2025"
+  ]
+ },
+ {
+  "id": "potasse",
+  "n": "Potasse",
+  "f": "alim",
+  "d": 120,
+  "k": "est",
+  "h": [
+   "CA",
+   "DE",
+   "RU"
+  ],
+  "l": 1,
+  "dep": "100 % importée depuis la fermeture des Mines de potasse d'Alsace.",
+  "conc": "Canada, Russie et Biélorussie dominent la production mondiale.",
+  "note": "",
+  "src": "Estimation de travail",
+  "m": "partner",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Canada",
+     "Allemagne",
+     "Espagne"
+    ],
+    "txt": "Le premier producteur mondial et deux producteurs européens suffisent à se passer de la Russie et de la Biélorussie."
+   }
+  ],
+  "pourquoi": "La France n'extrait plus de potasse depuis la fermeture des Mines de potasse d'Alsace. Trois pays dominent la production mondiale, dont la Russie et la Biélorussie : prise structurelle. Les stocks d'engrais tiennent une saison, estimée à 120 jours.",
+  "refs": [
+   "usgs-2026"
+  ]
+ },
+ {
+  "id": "phosphates",
+  "n": "Phosphates",
+  "f": "alim",
+  "d": 120,
+  "k": "est",
+  "h": [
+   "MA"
+  ],
+  "l": 0,
+  "dep": "100 % importés.",
+  "conc": "Le Maroc détient près de 70 % des réserves mondiales (USGS).",
+  "note": "Dépendance à un partenaire proche : candidat à un accord paritaire.",
+  "src": "Estimation de travail",
+  "m": "partner",
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Maroc"
+    ],
+    "txt": "Phosphates contre blé, ingénierie de l'eau et de l'énergie : un partenariat que ni Pékin ni Washington ne peuvent concurrencer facilement."
+   },
+   {
+    "type": "redondance",
+    "pays": [
+     "Tunisie",
+     "Sénégal",
+     "Jordanie"
+    ],
+    "txt": "D'autres producteurs pour ne pas dépendre d'un seul pays."
+   }
+  ],
+  "pourquoi": "Les phosphates sont importés à 100 %. Le Maroc concentre l'essentiel des réserves mondiales selon l'USGS, mais aucun usage coercitif n'est documenté : la dépendance est forte, la relation reste négociable.",
+  "refs": [
+   "usgs-2026"
+  ]
+ },
+ {
+  "id": "semences",
+  "n": "Semences potagères",
+  "f": "alim"
+ },
+ {
+  "id": "petrole",
+  "n": "Pétrole brut",
+  "f": "ener",
+  "d": 90,
+  "k": "src",
+  "h": [
+   "DIV"
+  ],
+  "l": 0,
+  "dep": "Quasi totalement importé.",
+  "conc": "Fournisseurs diversifiés.",
+  "note": "Le seul produit pour lequel la loi impose déjà un seuil de tenue. C'est le modèle à étendre.",
+  "src": "Directive 2009/119/CE, code de l'énergie (90 jours d'importations nettes)",
+  "m": "test",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Norvège",
+     "Kazakhstan",
+     "Nigéria",
+     "Brésil"
+    ],
+    "txt": "Déjà diversifié : garder au moins quatre origines et aucune au-dessus d'un quart des volumes."
+   }
+  ],
+  "pourquoi": "C'est la seule dépendance pour laquelle le droit impose déjà un seuil : 90 jours d'importations nettes en stocks stratégiques. La note mesure donc une obligation légale respectée. Elle sert d'étalon pour tous les autres produits.",
+  "refs": [
+   "directive-2009-119"
+  ]
+ },
+ {
+  "id": "gazole",
+  "n": "Gazole",
+  "f": "ener"
+ },
+ {
+  "id": "kerosene",
+  "n": "Kérosène",
+  "f": "ener"
+ },
+ {
+  "id": "gaz",
+  "n": "Gaz naturel",
+  "f": "ener",
+  "d": 100,
+  "k": "calc",
+  "h": [
+   "NO",
+   "US"
+  ],
+  "l": 1,
+  "live": "gaz",
+  "dep": "Quasi totalement importé (Norvège par gazoduc, GNL américain).",
+  "conc": "Les États-Unis fournissent 57 % du GNL importé par l'UE en 2025, contre une part marginale en 2021 (IEEFA).",
+  "note": "Stocks rapportés à une consommation moyenne d'environ 1 TWh par jour. En plein hiver, la tenue est environ deux fois plus courte.",
+  "src": "GIE AGSI+ ; note KII",
+  "m": "rever",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Norvège",
+     "Algérie"
+    ],
+    "txt": "Contrats longs par gazoduc pour réduire la part du GNL américain, devenu le nouveau robinet."
+   },
+   {
+    "type": "codependance",
+    "pays": [
+     "Algérie"
+    ],
+    "txt": "Gaz contre partenariat industriel et avancées sur le travail mémoriel (note de doctrine)."
+   }
+  ],
+  "pourquoi": "La tenue est calculée chaque jour à partir des stocks réels publiés par AGSI+. La prise est structurelle : l'Europe a remplacé le gaz russe par du GNL américain, et s'est engagée en août 2025 à acheter 750 Md$ d'énergie américaine d'ici 2028.",
+  "refs": [
+   "agsi",
+   "ieefa-2026",
+   "gmf-2025"
+  ]
+ },
+ {
+  "id": "uranium-naturel",
+  "n": "Uranium naturel",
+  "f": "ener",
+  "d": 730,
+  "k": "est",
+  "h": [
+   "KZ",
+   "NE"
+  ],
+  "l": 1,
+  "dep": "100 % importé (Kazakhstan, Ouzbékistan, Australie, Niger).",
+  "conc": "Production mondiale concentrée sur quelques pays.",
+  "note": "Ordre de grandeur de deux ans de stocks communiqué par la filière, à confirmer. Au Niger, la junte a pris le contrôle de la mine Somaïr d'Orano (2024-2025).",
+  "src": "Estimation de travail",
+  "m": "partner",
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Kazakhstan",
+     "Ouzbékistan",
+     "Mongolie"
+    ],
+    "txt": "Filière nucléaire civile locale et transfert de compétences contre uranium à prix fixe, sur le modèle de la note de doctrine."
+   },
+   {
+    "type": "redondance",
+    "pays": [
+     "Canada",
+     "Australie"
+    ],
+    "txt": "Deux producteurs stables pour couvrir un éventuel arrêt en Asie centrale ou au Sahel."
+   }
+  ],
+  "pourquoi": "Les stocks français couvrent environ deux ans selon la filière (ordre de grandeur à confirmer par une source publique). Le levier est structurel : au Niger, la junte a nationalisé la mine d'Orano en 2025 et la Russie y propose ses services.",
+  "refs": [
+   "p-niger-2025",
+   "bruegel-uranium-2025"
+  ]
+ },
+ {
+  "id": "uranium-enrichi",
+  "n": "Uranium enrichi",
+  "f": "ener",
+  "d": 365,
+  "k": "est",
+  "h": [
+   "RU"
+  ],
+  "l": 1,
+  "dep": "20 % des importations françaises d'uranium enrichi venaient de Russie (avril 2024 à mars 2025).",
+  "conc": "En 2023, la Russie a fourni 38 % de l'enrichissement consommé dans l'UE (Bruegel) ; 20 % des importations françaises d'uranium enrichi venaient de Russie (avril 2024 à mars 2025, annexe KII).",
+  "note": "Orano enrichit l'essentiel en France (Tricastin). L'uranium de retraitement, lui, ne peut être réenrichi qu'en Sibérie.",
+  "src": "Note KII (Reporterre, World Nuclear Report)",
+  "m": "lpi",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Royaume-Uni",
+     "Pays-Bas",
+     "Allemagne"
+    ],
+    "txt": "Urenco enrichit dans ces trois pays : un second fournisseur européen pour remplacer la part russe."
+   },
+   {
+    "type": "codependance",
+    "pays": [
+     "Finlande",
+     "Slovaquie",
+     "Tchéquie",
+     "Bulgarie",
+     "Hongrie"
+    ],
+    "txt": "Leurs réacteurs de conception russe dépendent de Rosatom : leur offrir combustible et services français les arrime à notre filière."
+   }
+  ],
+  "pourquoi": "Orano enrichit l'essentiel en France, d'où une tenue estimée à un an. Mais Rosatom fournit encore une part importante de l'enrichissement européen et reste le seul à pouvoir réenrichir l'uranium de retraitement français. Le nucléaire russe a été tenu hors des sanctions.",
+  "refs": [
+   "bruegel-uranium-2025",
+   "note-kii"
+  ]
+ },
+ {
+  "id": "ure",
+  "n": "Uranium de retraitement",
+  "f": "ener"
+ },
+ {
+  "id": "electricite",
+  "n": "Électricité",
+  "f": "ener",
+  "d": "auto",
+  "k": "src",
+  "h": [
+   "FR"
+  ],
+  "l": 0,
+  "dep": "Production nationale excédentaire.",
+  "conc": "Parc nucléaire et hydraulique national.",
+  "note": "Solde exportateur record de 92 TWh en 2025.",
+  "src": "RTE, tendances 2025 (janv. 2026)",
+  "m": "atout",
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Allemagne",
+     "Italie",
+     "Belgique",
+     "Suisse",
+     "Espagne"
+    ],
+    "txt": "Nous leur vendons une électricité décarbonée toute l'année ; ils nous secourent lors des pointes d'hiver. Le réseau européen est déjà une co-dépendance."
+   }
+  ],
+  "pourquoi": "La France exporte plus d'électricité qu'elle n'en importe : solde record de 89 TWh en 2024 puis 92 TWh en 2025. Note Souverain, sous réserve de la dépendance amont à l'uranium.",
+  "refs": [
+   "rte-2024"
+  ]
+ },
+ {
+  "id": "coke",
+  "n": "Charbon à coke",
+  "f": "ener"
+ },
+ {
+  "id": "tr-lourdes",
+  "n": "Terres rares lourdes (Dy, Tb)",
+  "f": "metal",
+  "d": 45,
+  "k": "est",
+  "h": [
+   "CN"
+  ],
+  "l": 2,
+  "dep": "Aucune production ni séparation nationale à ce jour.",
+  "conc": "Raffinage des terres rares : 85 % chez le premier fournisseur, la Chine, en 2025 (AIE) ; 100 % de leur transformation se fait hors de l'UE (Cour des comptes européenne).",
+  "note": "Licences d'exportation obligatoires depuis avril 2025 pour 7 terres rares. Les contrôles d'octobre 2025 sont suspendus jusqu'au 10 novembre 2026.",
+  "src": "Mining Technology, 27 avril 2026 ; note KII",
+  "m": "partner",
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Sénégal",
+     "Maroc",
+     "Namibie",
+     "Madagascar",
+     "Indonésie",
+     "Brésil"
+    ],
+    "txt": "Extraction aux standards élevés et raffinage français (Eramet, Carester) contre infrastructures énergétiques locales et accords à taux fixes (note de doctrine)."
+   },
+   {
+    "type": "redondance",
+    "pays": [
+     "Japon",
+     "Australie"
+    ],
+    "txt": "Le Japon a réduit sa dépendance après l'embargo chinois de 2010 et co-investit déjà dans l'usine Caremag de Lacq ; l'Australie raffine hors de Chine."
+   }
+  ],
+  "pourquoi": "Aucune séparation de terres rares lourdes en Europe aujourd'hui : la Cour des comptes européenne constate que 100 % de leur transformation se fait hors de l'UE. La Chine a activé le levier en avril 2025 (licences) et en octobre 2025 (règles extraterritoriales, suspendues jusqu'au 10 novembre 2026). Seules 19 licences sur 141 demandes ont été accordées : le niveau est aggravé d'un cran.",
+  "refs": [
+   "aie-gcmo-2026",
+   "cce-crm-2026",
+   "jonesday-2025",
+   "p-mining-2026"
+  ]
+ },
+ {
+  "id": "tr-legeres",
+  "n": "Terres rares légères (Nd, Pr)",
+  "f": "metal"
+ },
+ {
+  "id": "aimants",
+  "n": "Aimants permanents",
+  "f": "metal",
+  "d": 30,
+  "k": "est",
+  "h": [
+   "CN"
+  ],
+  "l": 2,
+  "dep": "Importés, directement ou via des sous-ensembles européens.",
+  "conc": "La Chine domine la fabrication mondiale d'aimants permanents (98 % selon l'annexe KII, à recouper avec l'AIE).",
+  "note": "Moteurs électriques, éoliennes, missiles. En 2025, des constructeurs européens ont signalé des arrêts de ligne.",
+  "src": "Note KII (CNRS, Sénat)",
+  "m": "partner",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Japon",
+     "Estonie",
+     "Allemagne"
+    ],
+    "txt": "Fabricants d'aimants hors de Chine : japonais, l'usine de Narva en Estonie, l'allemand VAC. Achats garantis pour les faire grandir."
+   }
+  ],
+  "pourquoi": "Les industriels ne gardent que quelques semaines d'aimants en stock, d'où l'estimation de 30 jours. Les annonces chinoises d'octobre 2025 visent explicitement les aimants fabriqués hors de Chine dès 0,1 % de contenu chinois : levier activé, niveau maximal.",
+  "refs": [
+   "jonesday-2025",
+   "aie-gcmo-2026",
+   "note-kii"
+  ]
+ },
+ {
+  "id": "lithium",
+  "n": "Lithium raffiné",
+  "f": "metal",
+  "d": 60,
+  "k": "est",
+  "h": [
+   "CN"
+  ],
+  "l": 1,
+  "dep": "Importé.",
+  "conc": "Le Chili fournit 79 % du lithium importé par l'UE (Cour des comptes européenne) ; la Chine raffine l'essentiel du lithium mondial.",
+  "note": "Le projet Imerys Émili (Allier) est un atout en devenir.",
+  "src": "Note KII (AIE, BRGM)",
+  "m": "lpi",
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Chili",
+     "Argentine"
+    ],
+    "txt": "Raffinage sur place et transfert de compétences contre contrats de long terme, au lieu d'exporter du minerai brut vers la Chine."
+   },
+   {
+    "type": "redondance",
+    "pays": [
+     "Australie",
+     "Allemagne"
+    ],
+    "txt": "Deuxième source d'hydroxyde de lithium, plus la production française de l'Allier."
+   }
+  ],
+  "pourquoi": "La matière brute vient surtout du Chili, mais le raffinage est chinois. L'UE ne recycle pas le lithium (Cour des comptes européenne). Prise structurelle, pas encore d'embargo : estimation de 60 jours.",
+  "refs": [
+   "cce-crm-2026",
+   "cce-batteries-2023"
+  ]
+ },
+ {
+  "id": "cobalt",
+  "n": "Cobalt",
+  "f": "metal",
+  "d": 60,
+  "k": "est",
+  "h": [
+   "CN",
+   "CD"
+  ],
+  "l": 1,
+  "dep": "Importé.",
+  "conc": "L'UE importe 81 % de son cobalt, dont 68 % depuis la RD Congo (Cour des comptes européenne, 2023) ; le raffinage est majoritairement chinois.",
+  "note": "La RD Congo a suspendu puis contingenté ses exportations en 2025.",
+  "src": "Note KII",
+  "m": "partner",
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "RD Congo",
+     "Zambie"
+    ],
+    "txt": "Raffinage sur place financé et équipé par l'Europe, contre accès prioritaire à une part des volumes."
+   },
+   {
+    "type": "redondance",
+    "pays": [
+     "Finlande",
+     "Australie"
+    ],
+    "txt": "Raffinerie européenne de Kokkola et production australienne."
+   }
+  ],
+  "pourquoi": "Double dépendance : extraction congolaise, raffinage chinois. La RD Congo a suspendu puis contingenté ses exportations en 2025. Estimation de 60 jours.",
+  "refs": [
+   "cce-batteries-2023",
+   "note-kii"
+  ]
+ },
+ {
+  "id": "nickel",
+  "n": "Nickel raffiné",
+  "f": "metal"
+ },
+ {
+  "id": "graphite",
+  "n": "Graphite",
+  "f": "metal",
+  "d": 60,
+  "k": "est",
+  "h": [
+   "CN"
+  ],
+  "l": 2,
+  "dep": "Importé.",
+  "conc": "L'UE importe 99 % de son graphite naturel (Cour des comptes européenne) ; la Chine produit l'essentiel du graphite pour anodes.",
+  "note": "Licences d'exportation chinoises depuis décembre 2023.",
+  "src": "Estimation de travail",
+  "m": "lpi",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Mozambique",
+     "Suède",
+     "Canada"
+    ],
+    "txt": "Mines hors de Chine et première transformation en Suède."
+   },
+   {
+    "type": "codependance",
+    "pays": [
+     "Mozambique",
+     "Madagascar"
+    ],
+    "txt": "Transformation locale contre contrats d'achat européens."
+   }
+  ],
+  "pourquoi": "Dépendance quasi totale constatée par la Cour des comptes européenne. La Chine soumet le graphite à licence d'exportation depuis décembre 2023, et l'a ajouté aux contrôles d'octobre 2025 : levier activé.",
+  "refs": [
+   "cce-batteries-2023",
+   "jonesday-2025"
+  ]
+ },
+ {
+  "id": "gallium",
+  "n": "Gallium",
+  "f": "metal",
+  "d": 60,
+  "k": "est",
+  "h": [
+   "CN"
+  ],
+  "l": 2,
+  "dep": "Importé.",
+  "conc": "La Chine fournit 71 % du gallium importé par l'UE (Cour des comptes européenne) et l'essentiel de la production primaire mondiale (USGS).",
+  "note": "Licences depuis août 2023, interdiction d'export vers les États-Unis en décembre 2024.",
+  "src": "Estimation de travail",
+  "m": "lpi",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Grèce",
+     "Kazakhstan",
+     "Japon"
+    ],
+    "txt": "Le gallium est un sous-produit de l'alumine : relancer l'extraction en Europe (projet grec) et le recyclage japonais."
+   }
+  ],
+  "pourquoi": "Le gallium n'est pas recyclé dans l'UE. La Chine le soumet à licence depuis août 2023 et en a interdit l'export vers les États-Unis en décembre 2024 : levier activé, niveau aggravé.",
+  "refs": [
+   "cce-crm-2026",
+   "usgs-2026"
+  ]
+ },
+ {
+  "id": "germanium",
+  "n": "Germanium",
+  "f": "metal",
+  "d": 90,
+  "k": "est",
+  "h": [
+   "CN"
+  ],
+  "l": 2,
+  "dep": "Importé.",
+  "conc": "La Chine fournit 45 % du germanium importé par l'UE (Cour des comptes européenne).",
+  "note": "Même régime de licences que le gallium.",
+  "src": "Estimation de travail",
+  "m": "lpi",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Belgique",
+     "Canada",
+     "RD Congo"
+    ],
+    "txt": "Raffinage belge à Olen, production canadienne et résidus miniers congolais."
+   }
+  ],
+  "pourquoi": "Dépendance moins concentrée que pour le gallium grâce au raffinage belge, mais même régime de licences chinoises depuis 2023 : levier activé.",
+  "refs": [
+   "cce-crm-2026",
+   "usgs-2026"
+  ]
+ },
+ {
+  "id": "antimoine",
+  "n": "Antimoine",
+  "f": "metal",
+  "d": 60,
+  "k": "est",
+  "h": [
+   "CN"
+  ],
+  "l": 2,
+  "dep": "Importé.",
+  "conc": "Chine dominante à l'extraction et au traitement.",
+  "note": "Indispensable aux amorces de munitions. Contrôles chinois depuis septembre 2024.",
+  "src": "Estimation de travail",
+  "m": "lpi",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Australie",
+     "Bolivie",
+     "Turquie"
+    ],
+    "txt": "Producteurs hors de Chine, à sécuriser en priorité pour la défense."
+   }
+  ],
+  "pourquoi": "Indispensable aux amorces de munitions. La Chine contrôle ses exportations depuis septembre 2024 et en a interdit l'export vers les États-Unis en décembre 2024 : levier activé, ce qui place la défense française en première ligne.",
+  "refs": [
+   "usgs-2026",
+   "ocde-export-2026"
+  ]
+ },
+ {
+  "id": "tungstene",
+  "n": "Tungstène",
+  "f": "metal"
+ },
+ {
+  "id": "titane",
+  "n": "Titane (éponge)",
+  "f": "metal",
+  "d": 120,
+  "k": "est",
+  "h": [
+   "RU",
+   "KZ",
+   "JP"
+  ],
+  "l": 1,
+  "dep": "Importé.",
+  "conc": "VSMPO-Avisma (Russie) reste un acteur mondial majeur.",
+  "note": "Airbus dépendait à environ 50 % du titane russe avant 2022. Reconversion vers le Japon et le Kazakhstan, coûteuse.",
+  "src": "Note KII (Reuters, Airbus)",
+  "m": "rever",
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Kazakhstan"
+    ],
+    "txt": "Commandes aéronautiques et coopération industrielle contre éponge de titane garantie."
+   },
+   {
+    "type": "redondance",
+    "pays": [
+     "Japon",
+     "États-Unis"
+    ],
+    "txt": "Deux autres sources pour qu'aucune ne dépasse un tiers des besoins d'Airbus et de Safran."
+   }
+  ],
+  "pourquoi": "Avant 2022, Airbus dépendait à environ moitié du titane russe. La reconversion vers le Japon et le Kazakhstan est en cours mais coûteuse. Le titane russe n'a pas été coupé : prise structurelle.",
+  "refs": [
+   "note-kii"
+  ]
+ },
+ {
+  "id": "magnesium",
+  "n": "Magnésium",
+  "f": "metal",
+  "d": 45,
+  "k": "est",
+  "h": [
+   "CN"
+  ],
+  "l": 1,
+  "dep": "Importé.",
+  "conc": "La Chine fournit 97 % du magnésium importé par l'UE (Cour des comptes européenne).",
+  "note": "À l'automne 2021, la baisse de production chinoise a menacé l'aluminium européen d'arrêt en quelques semaines.",
+  "src": "Estimation de travail",
+  "m": "lpi",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Turquie",
+     "Kazakhstan"
+    ],
+    "txt": "Producteurs hors de Chine, complétés par le recyclage des alliages en France."
+   }
+  ],
+  "pourquoi": "Un seul pays fournit 97 % du magnésium européen. En 2021, une baisse de production chinoise a menacé l'aluminium européen d'arrêt en quelques semaines. Prise structurelle, estimation de 45 jours.",
+  "refs": [
+   "cce-crm-2026",
+   "ce-dependances-2021"
+  ]
+ },
+ {
+  "id": "silicium",
+  "n": "Silicium métal",
+  "f": "metal"
+ },
+ {
+  "id": "cuivre",
+  "n": "Cuivre",
+  "f": "metal"
+ },
+ {
+  "id": "platinoides",
+  "n": "Platinoïdes",
+  "f": "metal"
+ },
+ {
+  "id": "puces-matures",
+  "n": "Puces matures (automobile)",
+  "f": "elec",
+  "d": 21,
+  "k": "est",
+  "h": [
+   "CN"
+  ],
+  "l": 2,
+  "dep": "Importées.",
+  "conc": "Assemblage et test concentrés en Asie.",
+  "note": "Octobre 2025 : Pékin bloque les exportations des puces Nexperia, les équipementiers européens annoncent des arrêts en quelques semaines.",
+  "src": "Euronews, 31 oct. 2025",
+  "m": "lpi",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Allemagne",
+     "Italie"
+    ],
+    "txt": "STMicroelectronics (Crolles, Catane), Infineon et Bosch (Dresde) : commandes publiques et automobiles groupées pour leurs lignes matures."
+   }
+  ],
+  "pourquoi": "L'affaire Nexperia (octobre 2025) a montré qu'un blocage chinois arrête les lignes automobiles européennes en quelques semaines. La part européenne de la production mondiale de puces plafonne à 10 % (Cour des comptes européenne).",
+  "refs": [
+   "p-nexperia-2025",
+   "cce-puces-2025"
+  ]
+ },
+ {
+  "id": "puces-avancees",
+  "n": "Puces avancées (< 7 nm)",
+  "f": "elec",
+  "d": 60,
+  "k": "est",
+  "h": [
+   "TW"
+  ],
+  "l": 1,
+  "dep": "Aucune production européenne.",
+  "conc": "Taïwan (TSMC) produit l'essentiel des puces les plus avancées.",
+  "note": "",
+  "src": "Estimation de travail",
+  "m": "lpi",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Japon",
+     "Corée du Sud"
+    ],
+    "txt": "Deux autres fondeurs avancés pour ne pas tout miser sur le détroit de Taïwan."
+   },
+   {
+    "type": "codependance",
+    "pays": [
+     "Pays-Bas",
+     "Taïwan"
+    ],
+    "txt": "Aucune puce avancée ne se fabrique sans les machines d'ASML : c'est la carte européenne dans toute négociation."
+   }
+  ],
+  "pourquoi": "Aucune production européenne sous 7 nm. La Cour des comptes européenne juge l'objectif de 20 % de production mondiale en 2030 hors d'atteinte (11,7 % prévus). Prise structurelle, liée au détroit de Taïwan.",
+  "refs": [
+   "cce-puces-2025"
+  ]
+ },
+ {
+  "id": "gpu-ia",
+  "n": "Processeurs pour l'IA",
+  "f": "elec",
+  "d": 90,
+  "k": "est",
+  "h": [
+   "US"
+  ],
+  "l": 1,
+  "dep": "Importés.",
+  "conc": "Un fournisseur américain domine le marché.",
+  "note": "Washington encadre l'export des puces d'IA depuis 2023.",
+  "src": "Estimation de travail",
+  "m": "rever",
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Pays-Bas"
+    ],
+    "txt": "Les fondeurs des puces américaines dépendent des machines néerlandaises : un levier à faire valoir collectivement."
+   },
+   {
+    "type": "redondance",
+    "pays": [
+     "Allemagne",
+     "Italie",
+     "Espagne"
+    ],
+    "txt": "Processeurs européens de calcul intensif (projet SiPearl) et commandes groupées des supercalculateurs publics."
+   }
+  ],
+  "pourquoi": "Un fournisseur américain domine. L'UE s'est engagée en août 2025 à acheter au moins 40 Md$ de puces d'IA américaines, ce qui renforce la dépendance au lieu de la réduire.",
+  "refs": [
+   "gmf-2025",
+   "cce-puces-2025"
+  ]
+ },
+ {
+  "id": "memoires",
+  "n": "Mémoires (DRAM, NAND)",
+  "f": "elec"
+ },
+ {
+  "id": "mlcc",
+  "n": "Condensateurs céramiques",
+  "f": "elec"
+ },
+ {
+  "id": "pcb",
+  "n": "Circuits imprimés",
+  "f": "elec"
+ },
+ {
+  "id": "terminaux",
+  "n": "Smartphones et terminaux",
+  "f": "elec"
+ },
+ {
+  "id": "reseau",
+  "n": "Équipements réseau",
+  "f": "elec"
+ },
+ {
+  "id": "fibres",
+  "n": "Fibres optiques et lasers",
+  "f": "elec"
+ },
+ {
+  "id": "acier",
+  "n": "Acier",
+  "f": "indus",
+  "d": 180,
+  "k": "est",
+  "h": [
+   "DIV"
+  ],
+  "l": 0,
+  "dep": "Production nationale significative mais menacée.",
+  "conc": "La surcapacité mondiale d'acier pourrait atteindre 721 Mt en 2027, tirée par la Chine (OCDE).",
+  "note": "Les décisions d'investissement sur les hauts-fourneaux français se prennent hors de France.",
+  "src": "Estimation de travail",
+  "m": "atout",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Suède",
+     "Espagne",
+     "Allemagne"
+    ],
+    "txt": "Acier bas carbone suédois et capacités européennes, protégées ensemble contre le dumping."
+   }
+  ],
+  "pourquoi": "La France produit encore une part significative de son acier, d'où une tenue estimée à six mois. La menace vient des surcapacités chinoises, qui fragilisent les sites européens, et des droits de douane américains.",
+  "refs": [
+   "ocde-acier-2025"
+  ]
+ },
+ {
+  "id": "aluminium",
+  "n": "Aluminium primaire",
+  "f": "indus"
+ },
+ {
+  "id": "polymeres",
+  "n": "Polymères de base",
+  "f": "indus"
+ },
+ {
+  "id": "chlore",
+  "n": "Chlore et soude",
+  "f": "indus"
+ },
+ {
+  "id": "ciment",
+  "n": "Ciment et clinker",
+  "f": "indus"
+ },
+ {
+  "id": "machines-outils",
+  "n": "Machines-outils",
+  "f": "indus"
+ },
+ {
+  "id": "roulements",
+  "n": "Roulements à billes",
+  "f": "indus"
+ },
+ {
+  "id": "pieces-auto",
+  "n": "Pièces automobiles",
+  "f": "indus"
+ },
+ {
+  "id": "pv",
+  "n": "Panneaux photovoltaïques",
+  "f": "indus",
+  "d": 120,
+  "k": "est",
+  "h": [
+   "CN"
+  ],
+  "l": 1,
+  "dep": "Quasi totalement importés.",
+  "conc": "La Chine dépasse 80 % de chaque étape de fabrication des panneaux solaires, près de 95 % pour les plaquettes (AIE).",
+  "note": "Sans panneaux chinois, les objectifs solaires 2030 ne sont pas tenables.",
+  "src": "Note KII (IRIS, Vie publique)",
+  "m": "lpi",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Inde",
+     "Italie",
+     "Turquie"
+    ],
+    "txt": "Deuxième producteur mondial, usine européenne de Catane, et production turque, en plus des projets français."
+   }
+  ],
+  "pourquoi": "L'AIE établit que la Chine contrôle plus de 80 % de chaque étape de la chaîne. Les stocks des distributeurs couvrent quelques mois de chantiers. Prise structurelle.",
+  "refs": [
+   "aie-pv-2022",
+   "ce-dependances-2021"
+  ]
+ },
+ {
+  "id": "batteries",
+  "n": "Cellules de batteries",
+  "f": "indus",
+  "d": 30,
+  "k": "est",
+  "h": [
+   "CN",
+   "KR"
+  ],
+  "l": 1,
+  "dep": "Majoritairement importées.",
+  "conc": "La Chine détient 76 % de la capacité mondiale de cellules, l'UE 7 % (Cour des comptes européenne, 2023).",
+  "note": "",
+  "src": "Note KII (AIE)",
+  "m": "lpi",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Corée du Sud",
+     "Japon"
+    ],
+    "txt": "Fabricants non chinois, en plus des usines des Hauts-de-France (ACC, Verkor)."
+   }
+  ],
+  "pourquoi": "La Cour des comptes européenne mesure 76 % de la capacité mondiale en Chine. Les usines des Hauts-de-France montent en charge mais restent dépendantes des matériaux chinois. Estimation de 30 jours avant arrêt des lignes.",
+  "refs": [
+   "cce-batteries-2023"
+  ]
+ },
+ {
+  "id": "eoliennes",
+  "n": "Éoliennes (nacelles)",
+  "f": "indus"
+ },
+ {
+  "id": "pac",
+  "n": "Pompes à chaleur",
+  "f": "indus"
+ },
+ {
+  "id": "electrolyseurs",
+  "n": "Électrolyseurs",
+  "f": "indus"
+ },
+ {
+  "id": "transformateurs",
+  "n": "Transformateurs électriques",
+  "f": "indus"
+ },
+ {
+  "id": "obus-155",
+  "n": "Obus de 155 mm",
+  "f": "def",
+  "d": 15,
+  "k": "est",
+  "h": [
+   "FR"
+  ],
+  "l": 0,
+  "dep": "Production nationale relancée et accélérée depuis 2023.",
+  "conc": "Intrants (poudres, antimoine) partiellement importés.",
+  "note": "Tenue en haute intensité à instruire avec la DGA à partir de sources ouvertes.",
+  "src": "Estimation de travail",
+  "m": "lpi",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Allemagne",
+     "Pologne",
+     "Norvège",
+     "Finlande"
+    ],
+    "txt": "Stocks et capacités mutualisés à l'échelle européenne, avec des standards communs."
+   },
+   {
+    "type": "codependance",
+    "pays": [
+     "Ukraine"
+    ],
+    "txt": "Retour d'expérience au combat et coproduction contre capacités industrielles et financement."
+   }
+  ],
+  "pourquoi": "Production nationale relancée, mais la consommation en haute intensité dépasse de loin la cadence. Des parlementaires ont évoqué des difficultés « au bout de 15 jours » de combat. Estimation de travail à instruire avec des sources ouvertes de la DGA.",
+  "refs": [
+   "p-munitions-2022"
+  ]
+ },
+ {
+  "id": "petit-calibre",
+  "n": "Munitions de petit calibre",
+  "f": "def",
+  "d": 30,
+  "k": "est",
+  "h": [
+   "BE",
+   "DIV"
+  ],
+  "l": 0,
+  "dep": "Plus de production nationale.",
+  "conc": "Achats auprès de fournisseurs étrangers.",
+  "note": "En août 2026, la DGA a retenu FN Browning pour une usine à Clérieux (Drôme), production prévue en 2029.",
+  "src": "The Defense Post, 10 août 2026",
+  "m": "lpi",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Belgique",
+     "Norvège",
+     "Finlande"
+    ],
+    "txt": "Fournisseurs européens en attendant l'usine de la Drôme, avec des stocks contractuels."
+   }
+  ],
+  "pourquoi": "La France ne produit plus de munitions de petit calibre. La relance n'est prévue qu'en 2029 avec une usine de FN Browning dans la Drôme. Jusque-là, la tenue dépend de stocks et de fournisseurs étrangers.",
+  "refs": [
+   "p-fn-2026"
+  ]
+ },
+ {
+  "id": "poudres",
+  "n": "Poudres et nitrocellulose",
+  "f": "def",
+  "d": 60,
+  "k": "est",
+  "h": [
+   "DIV"
+  ],
+  "l": 1,
+  "dep": "Production relancée à Bergerac en 2025.",
+  "conc": "Matières premières cellulosiques importées, origine à instruire.",
+  "note": "",
+  "src": "Estimation de travail",
+  "m": "lpi",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "Allemagne",
+     "Pologne"
+    ],
+    "txt": "Producteurs européens de nitrocellulose et de poudres, à lier par des accords de capacité."
+   }
+  ],
+  "pourquoi": "La production de poudre a été relancée à Bergerac en 2025, mais les matières premières sont importées. Estimation de 60 jours, origine des intrants à instruire.",
+  "refs": [
+   "note-kii"
+  ]
+ },
+ {
+  "id": "sol-air",
+  "n": "Missiles sol-air",
+  "f": "def"
+ },
+ {
+  "id": "drones",
+  "n": "Drones",
+  "f": "def"
+ },
+ {
+  "id": "electronique-def",
+  "n": "Électronique de défense",
+  "f": "def"
+ },
+ {
+  "id": "lanceurs",
+  "n": "Lancement spatial",
+  "f": "def",
+  "d": "auto",
+  "k": "src",
+  "h": [
+   "EU"
+  ],
+  "l": 0,
+  "dep": "Accès autonome à l'espace.",
+  "conc": "Ariane 6 en service depuis 2024.",
+  "note": "",
+  "src": "Arianespace",
+  "m": "atout",
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Allemagne",
+     "Italie"
+    ],
+    "txt": "Programme européen partagé ; offrir des lancements aux pays du Sud qui veulent leurs propres satellites."
+   }
+  ],
+  "pourquoi": "Ariane 6 rend à l'Europe un accès autonome à l'espace depuis 2024. Note Souverain.",
+  "refs": []
+ },
+ {
+  "id": "galileo",
+  "n": "Positionnement satellite",
+  "f": "def",
+  "d": "auto",
+  "k": "src",
+  "h": [
+   "EU"
+  ],
+  "l": 0,
+  "dep": "Galileo, constellation européenne opérationnelle.",
+  "conc": "Alternative au GPS américain.",
+  "note": "",
+  "src": "Agence de l'UE pour le programme spatial",
+  "m": "atout",
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Pays africains"
+    ],
+    "txt": "Étendre les services de précision européens à l'Afrique : un usage partagé qui fait de Galileo un standard."
+   }
+  ],
+  "pourquoi": "Galileo est opérationnel et indépendant du GPS américain. Note Souverain.",
+  "refs": []
+ },
+ {
+  "id": "pieces-avions",
+  "n": "Pièces d'avions de combat",
+  "f": "def"
+ },
+ {
+  "id": "cloud",
+  "n": "Cloud public",
+  "f": "num",
+  "d": 0,
+  "k": "est",
+  "h": [
+   "US"
+  ],
+  "l": 2,
+  "dep": "54 Md€ versés chaque année par la France aux fournisseurs américains de cloud et de logiciels (Asterès / Cigref).",
+  "conc": "Les firmes américaines tiennent 83 % du marché européen du cloud et des logiciels (Asterès), plus de 70 % du cloud selon l'Assemblée nationale.",
+  "note": "Une coupure à distance est immédiate. Sans mises à jour, le directeur de l'ANSSI juge la situation « intenable » à six mois (audition AN, 2026). Le Cloud Act s'applique aux données hébergées en Europe.",
+  "src": "Asterès / Cigref ; LCP, juillet 2026",
+  "m": "rever",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "France",
+     "Allemagne",
+     "Pays-Bas",
+     "Italie"
+    ],
+    "txt": "Commande publique réservée aux clouds européens (OVHcloud, Scaleway, Outscale et leurs équivalents) pour les données de l'État et des opérateurs vitaux."
+   },
+   {
+    "type": "codependance",
+    "pays": [
+     "Allemagne",
+     "Danemark"
+    ],
+    "txt": "Ils migrent déjà hors des logiciels américains (Schleswig-Holstein, ministère danois du numérique) : mutualiser les migrations et les équipes."
+   }
+  ],
+  "pourquoi": "Une coupure à distance est immédiate, d'où 0 jour. Le levier est assumé : le Cloud Act s'applique aux données hébergées en Europe, et les sanctions américaines ont coupé les services d'un juge français de la CPI en 2025. Le directeur de l'ANSSI juge une privation de six mois « intenable ».",
+  "refs": [
+   "asteres-2025",
+   "an-tache-2026",
+   "an-chatelain-2026",
+   "clubjuristes-2025"
+  ]
+ },
+ {
+  "id": "bureautique",
+  "n": "Bureautique et messagerie",
+  "f": "num",
+  "d": 0,
+  "k": "est",
+  "h": [
+   "US"
+  ],
+  "l": 2,
+  "dep": "Administrations et entreprises massivement équipées en solutions américaines.",
+  "conc": "Deux éditeurs dominent.",
+  "note": "Visée par des sanctions américaines, la Cour pénale internationale a annoncé en octobre 2025 quitter Microsoft Office pour la suite européenne openDesk.",
+  "src": "Next, octobre 2025",
+  "m": "rever",
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Allemagne",
+     "Pays-Bas"
+    ],
+    "txt": "La Suite numérique française et openDesk allemand sont déjà développés en commun : en faire le standard des administrations européennes."
+   }
+  ],
+  "pourquoi": "Les administrations utilisent massivement des suites américaines. La Cour pénale internationale a dû quitter Microsoft après des sanctions américaines : la preuve que le levier s'active. Même les données de santé nationales restent hébergées chez Microsoft.",
+  "refs": [
+   "an-tache-2026",
+   "p-cpi-2025",
+   "p-hdh-2026"
+  ]
+ },
+ {
+  "id": "os-postes",
+  "n": "Systèmes d'exploitation",
+  "f": "num"
+ },
+ {
+  "id": "os-mobiles",
+  "n": "Systèmes mobiles",
+  "f": "num"
+ },
+ {
+  "id": "ia",
+  "n": "Modèles d'IA",
+  "f": "num",
+  "d": 0,
+  "k": "est",
+  "h": [
+   "US"
+  ],
+  "l": 1,
+  "dep": "Usage dominant de modèles américains.",
+  "conc": "Quelques laboratoires américains dominent.",
+  "note": "Mistral AI constitue une alternative française.",
+  "src": "Estimation de travail",
+  "m": "rever",
+  "al": [
+   {
+    "type": "redondance",
+    "pays": [
+     "France",
+     "Allemagne"
+    ],
+    "txt": "Modèles européens pour les usages publics et critiques, avec une obligation de portabilité."
+   },
+   {
+    "type": "codependance",
+    "pays": [
+     "Inde",
+     "Brésil"
+    ],
+    "txt": "Modèles ouverts développés en commun : données et calcul partagés plutôt que loués à un seul pays."
+   }
+  ],
+  "pourquoi": "Usage dominant de modèles américains, soumis au droit américain. Le rapport Draghi constate que seules 4 des 50 premières entreprises technologiques mondiales sont européennes. Prise structurelle.",
+  "refs": [
+   "draghi-2024",
+   "asteres-2025"
+  ]
+ },
+ {
+  "id": "cyber",
+  "n": "Cybersécurité",
+  "f": "num"
+ },
+ {
+  "id": "paie",
+  "n": "Logiciels de paie et RH",
+  "f": "num"
+ },
+ {
+  "id": "logiciels-sante",
+  "n": "Logiciels hospitaliers",
+  "f": "num"
+ },
+ {
+  "id": "paiement",
+  "n": "Paiement par carte",
+  "f": "num"
+ },
+ {
+  "id": "cables",
+  "n": "Câbles sous-marins",
+  "f": "num"
+ },
+ {
+  "id": "cao",
+  "n": "Logiciels industriels (CAO)",
+  "f": "num",
+  "d": "auto",
+  "k": "est",
+  "h": [
+   "FR"
+  ],
+  "l": 0,
+  "dep": "Dassault Systèmes est un leader mondial de la conception assistée.",
+  "conc": "",
+  "note": "Atout à protéger de tout rachat.",
+  "src": "Estimation de travail",
+  "m": "atout",
+  "al": [
+   {
+    "type": "codependance",
+    "pays": [
+     "Allemagne",
+     "Italie"
+    ],
+    "txt": "Nos industriels conçoivent avec des outils français : en faire le socle des grands programmes européens."
+   }
+  ],
+  "pourquoi": "Dassault Systèmes est un leader mondial : c'est un atout à protéger de tout rachat.",
+  "refs": []
+ },
+ {
+  "id": "reseaux-sociaux",
+  "n": "Réseaux sociaux",
+  "f": "num"
+ },
+ {
+  "id": "cartographie",
+  "n": "Cartographie et navigation",
+  "f": "num"
+ },
+ {
+  "id": "recherche",
+  "n": "Moteurs de recherche",
+  "f": "num"
+ },
+ {
+  "id": "dns",
+  "n": "Noms de domaine (DNS)",
+  "f": "num"
+ }
 ]

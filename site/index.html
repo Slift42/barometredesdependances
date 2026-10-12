@@ -29,7 +29,7 @@
 <header class="top"><div class="wrap">
   <a class="brand" href="#haut">Baromètre des dépendances <small>France · test des 100 jours</small></a>
   <nav class="sections" aria-label="Sections">
-    <a href="#test">Test des 100 jours</a><a href="#robinet">Qui tient le robinet</a><a href="#vigie">Vigie</a><a href="#atouts">Atouts</a><a href="#methode">Méthode</a><a href="#propositions">Propositions</a>
+    <a href="#test">Test des 100 jours</a><a href="#robinet">Robinet</a><a href="#leviers">Leviers assumés</a><a href="#europe">Europe</a><a href="#allies">Alliés</a><a href="#vigie">Vigie</a><a href="#methode">Méthode</a><a href="#sources">Sources</a><a href="#propositions">Propositions</a>
   </nav>
   <button class="theme-btn" id="themeBtn" type="button">Thème</button>
 </div></header>
@@ -86,6 +86,31 @@
     </div>
   </section>
 
+  <section class="block" id="leviers">
+    <div class="sec-head">
+      <div><div class="eyebrow">Key Imperialism Indicators</div><h2>Les leviers assumés</h2></div>
+      <p id="kiiIntro"></p>
+    </div>
+    <div class="kii-tabs" id="kiiTabs" role="group" aria-label="Choisir une puissance"></div>
+    <div id="kiiBody"></div>
+  </section>
+
+  <section class="block" id="europe">
+    <div class="sec-head">
+      <div><div class="eyebrow">Au-delà de la France</div><h2>Comment cela pèse sur l'Europe</h2></div>
+      <p>Les mêmes prises s'exercent sur toute l'Union. Les chiffres viennent de la Commission, de la Cour des comptes européenne et de centres de recherche indépendants.</p>
+    </div>
+    <div class="eu-grid" id="euGrid"></div>
+  </section>
+
+  <section class="block" id="allies">
+    <div class="sec-head">
+      <div><div class="eyebrow">Ce que font nos alliés</div><h2>La dépendance devient un réflexe d'achat</h2></div>
+      <p>La dépendance ne se lit pas seulement dans les stocks. Elle se voit dans les choix d'achat de nos voisins, et dans les quelques pays qui choisissent autrement.</p>
+    </div>
+    <div class="ally-list" id="allyList"></div>
+  </section>
+
   <section class="block" id="vigie">
     <div class="two">
       <div>
@@ -125,6 +150,15 @@
       </div>
     </div>
     <div class="pipe-scroll"><table class="pipe" id="pipe"></table></div>
+  </section>
+
+  <section class="block" id="sources">
+    <div class="sec-head">
+      <div><div class="eyebrow">Bibliothèque</div><h2>Toutes les sources</h2></div>
+      <p>Rapports d'institutions, travaux parlementaires et études d'experts d'abord. La presse n'est citée que pour dater un fait qu'aucune source experte ne documente encore.</p>
+    </div>
+    <div class="chips" id="bibChips" role="group" aria-label="Filtrer les sources" style="margin-bottom:14px"></div>
+    <ol class="bib" id="bibList"></ol>
   </section>
 
   <section class="block" id="propositions">
