@@ -655,7 +655,7 @@
      "Japon",
      "Australie"
     ],
-    "txt": "Le Japon a réduit sa dépendance après l'embargo chinois de 2010 et co-investit déjà dans l'usine Caremag de Lacq ; l'Australie raffine hors de Chine."
+    "txt": "Le Japon a réduit sa dépendance après l'embargo chinois de 2010 et co-investit dans l'usine Caremag de Lacq, qui vise 15 % de la demande mondiale de dysprosium et de terbium ; l'Australie raffine hors de Chine."
    }
   ],
   "pourquoi": "Aucune séparation de terres rares lourdes en Europe aujourd'hui : la Cour des comptes européenne constate que 100 % de leur transformation se fait hors de l'UE. La Chine a activé le levier en avril 2025 (licences) et en octobre 2025 (règles extraterritoriales, suspendues jusqu'au 10 novembre 2026). Seules 19 licences sur 141 demandes ont été accordées : le niveau est aggravé d'un cran.",
@@ -663,7 +663,8 @@
    "aie-gcmo-2026",
    "cce-crm-2026",
    "jonesday-2025",
-   "p-mining-2026"
+   "p-mining-2026",
+   "merics-rearm-2025"
   ]
  },
  {
@@ -682,7 +683,7 @@
   ],
   "l": 2,
   "dep": "Importés, directement ou via des sous-ensembles européens.",
-  "conc": "La Chine domine la fabrication mondiale d'aimants permanents (98 % selon l'annexe KII, à recouper avec l'AIE).",
+  "conc": "L'UE importe 98 % de ses aimants de terres rares de Chine (MERICS, 2025).",
   "note": "Moteurs électriques, éoliennes, missiles. En 2025, des constructeurs européens ont signalé des arrêts de ligne.",
   "src": "Note KII (CNRS, Sénat)",
   "m": "partner",
@@ -697,11 +698,11 @@
     "txt": "Fabricants d'aimants hors de Chine : japonais, l'usine de Narva en Estonie, l'allemand VAC. Achats garantis pour les faire grandir."
    }
   ],
-  "pourquoi": "Les industriels ne gardent que quelques semaines d'aimants en stock, d'où l'estimation de 30 jours. Les annonces chinoises d'octobre 2025 visent explicitement les aimants fabriqués hors de Chine dès 0,1 % de contenu chinois : levier activé, niveau maximal.",
+  "pourquoi": "Les industriels ne gardent que quelques semaines d'aimants en stock, d'où l'estimation de 30 jours. L'UE importe 98 % de ses aimants de Chine, y compris pour ses missiles. Les annonces chinoises d'octobre 2025 visent explicitement les aimants fabriqués hors de Chine dès 0,1 % de contenu chinois : levier activé, niveau maximal.",
   "refs": [
+   "merics-rearm-2025",
    "jonesday-2025",
-   "aie-gcmo-2026",
-   "note-kii"
+   "aie-gcmo-2026"
   ]
  },
  {

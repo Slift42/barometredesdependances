@@ -1,0 +1,217 @@
+{
+ "intro": "Les leviers ne tombent pas du ciel. Chaque puissance a écrit sa stratégie : discours, lois, doctrines. Les lire permet de comprendre ce qui va arriver, et où se trouvent leurs propres points faibles.",
+ "puissances": [
+  {
+   "code": "CN",
+   "nom": "Chine",
+   "these": "Rendre le monde dépendant de la Chine, et la Chine indépendante du monde.",
+   "textes": [
+    {
+     "titre": "Discours de Xi Jinping devant la Commission centrale des affaires financières et économiques",
+     "date": "2020-04-10",
+     "citation": "« Resserrer la dépendance des chaînes de production internationales à l'égard de la Chine, et former une puissante capacité de contre-mesures et de dissuasion. »",
+     "lecture": "La dépendance des autres n'est pas un effet du commerce : c'est un objectif, pensé comme une arme de dissuasion. En miroir, Xi exige des chaînes chinoises « autonomes et contrôlables ».",
+     "refs": [
+      "xi-2020"
+     ]
+    },
+    {
+     "titre": "Loi sur les relations extérieures, article 33",
+     "date": "2023-06-28",
+     "citation": "Droit de prendre des « contre-mesures » contre ce qui porte atteinte à la « souveraineté, la sécurité ou les intérêts de développement » de la Chine.",
+     "lecture": "La rétorsion devient une compétence légale permanente, sous l'autorité du Parti.",
+     "refs": [
+      "soas-2023"
+     ]
+    },
+    {
+     "titre": "Règlement sur la gestion des terres rares",
+     "date": "2024-10-01",
+     "citation": "« Les ressources en terres rares appartiennent à l'État. »",
+     "lecture": "Quotas, entreprises désignées, traçabilité de chaque lot : l'État chinois sait où va chaque gramme, et peut fermer le robinet à volonté.",
+     "refs": [
+      "aie-tr-2024"
+     ]
+    },
+    {
+     "titre": "4e plénum et 15e plan quinquennal",
+     "date": "2025-10-23",
+     "citation": "Accélérer « l'autosuffisance technologique de haut niveau ».",
+     "lecture": "Pendant que l'Europe dépend davantage de la Chine, la Chine réduit méthodiquement sa dépendance à l'Europe.",
+     "refs": [
+      "policycn-2025"
+     ]
+    }
+   ],
+   "experts": [
+    {
+     "idee": "Pékin est passé de contrôles ciblés au nom de la sécurité nationale à des contrôles de filières entières pour des raisons géopolitiques.",
+     "refs": [
+      "merics-series-2025"
+     ]
+    },
+    {
+     "idee": "Les contrôles frappent le réarmement européen : l'UE importe 98 % de ses aimants de Chine, et ses missiles en contiennent.",
+     "refs": [
+      "merics-rearm-2025"
+     ]
+    },
+    {
+     "idee": "Les licences donnent à Pékin une vue sur les chaînes industrielles et de défense européennes ; la trêve de Busan s'est négociée entre Washington et Pékin, sans l'Europe.",
+     "refs": [
+      "chinaobs-2026"
+     ]
+    },
+    {
+     "idee": "Contrepoint : l'arme des matières premières est une forme faible de puissance, car elle pousse les clients à diversifier.",
+     "refs": [
+      "ifri-seaman-2024"
+     ]
+    }
+   ],
+   "explique": "Licences sur les terres rares, le gallium et l'antimoine ; blocage de Nexperia ; droits sur le cognac.",
+   "faille": "La Chine dépend encore de l'UE pour 110 catégories de produits et 15 produits stratégiques (vaccins, zirconium, turbines à gaz, avions), deux fois plus que des États-Unis. Ce levier fond chaque année : il faut s'en servir maintenant.",
+   "faille_refs": [
+    "merics-levier-2026"
+   ]
+  },
+  {
+   "code": "RU",
+   "nom": "Russie",
+   "these": "Séparer l'Europe des États-Unis, l'affaiblir de l'intérieur, et prendre la place de la France là où elle était.",
+   "textes": [
+    {
+     "titre": "Stratégie de sécurité nationale",
+     "date": "2021-07-02",
+     "citation": "L'hégémonie de l'Occident « est en train de disparaître » ; les valeurs russes sont menacées par « l'occidentalisation ».",
+     "lecture": "La confrontation avec l'Occident devient durable. Le texte officialise des « forces et moyens de la confrontation informationnelle » : la guerre des récits est une doctrine d'État.",
+     "refs": [
+      "carnegie-trenin-2021",
+      "montaigne-duclos-2021"
+     ]
+    },
+    {
+     "titre": "Concept de politique étrangère",
+     "date": "2023-03-31",
+     "citation": "Éliminer les « vestiges de la domination » américaine ; classer les États selon que leur politique est « constructive, neutre ou inamicale ».",
+     "lecture": "Le texte affirme que l'indépendance de l'Europe vis-à-vis des États-Unis servirait sa sécurité : la stratégie russe mise sur la division transatlantique. Il fait aussi de l'Afrique un « centre influent » à soutenir.",
+     "refs": [
+      "fpc-2023"
+     ]
+    },
+    {
+     "titre": "Stratégie énergétique jusqu'en 2050",
+     "date": "2025-04-16",
+     "citation": "Exporter 142 Gm³ de GNL en 2030 et 241 Gm³ en 2050.",
+     "lecture": "L'énergie reste l'outil central de la puissance russe, même après la perte du marché européen.",
+     "refs": [
+      "energie-ru-2025"
+     ]
+    }
+   ],
+   "experts": [
+    {
+     "idee": "Au Sahel, Africa Corps protège les régimes militaires, sécurise les ressources et vise d'abord l'influence française.",
+     "refs": [
+      "timbuktu-2025"
+     ]
+    },
+    {
+     "idee": "Rosatom vend un paquet complet (réacteur, financement, combustible, maintenance) qui enferme ses clients pour des décennies, jusqu'au sein de l'UE.",
+     "refs": [
+      "boell-2026"
+     ]
+    },
+    {
+     "idee": "L'État français désigne la Russie comme la menace la plus directe, et Viginum documente des dizaines d'opérations contre le débat public français.",
+     "refs": [
+      "rns-2025",
+      "viginum-storm-2025"
+     ]
+    }
+   ],
+   "explique": "Coupure du gaz en 2022 ; uranium enrichi hors sanctions ; éviction au Sahel ; opérations Storm-1516 ; cyberattaques du GRU.",
+   "faille": "L'économie russe dépend de ses exportations d'énergie. En 2024, l'UE achetait encore 22 Md€ d'énergie russe, dont plus de 700 M€ de produits d'uranium : fermer ces derniers robinets prive Moscou de ressources sans nous priver d'alternatives.",
+   "faille_refs": [
+    "bruegel-uranium-2025",
+    "p-gaz-ue-2026"
+   ]
+  },
+  {
+   "code": "US",
+   "nom": "États-Unis",
+   "these": "Transformer la protection en contrat : la sécurité contre des achats, et l'Europe réduite à un marché.",
+   "textes": [
+    {
+     "titre": "Stratégie de sécurité nationale",
+     "date": "2025-12-05",
+     "citation": "L'Europe ferait face à un « effacement civilisationnel » ; les alliés « reportent le coût de leur défense sur le peuple américain ».",
+     "lecture": "Le document assume de soutenir les « partis patriotes européens » et traite l'Union européenne comme un obstacle. L'alliance demeure, mais sous condition idéologique et commerciale.",
+     "refs": [
+      "nss-us-2025",
+      "p-nss-2025",
+      "ifri-nardon-2025"
+     ]
+    },
+    {
+     "titre": "Mémorandum contre « l'extorsion étrangère »",
+     "date": "2025-02-21",
+     "citation": "« Cette administration envisagera des mesures de riposte comme des droits de douane. »",
+     "lecture": "Les taxes numériques, dont la française, et les règlements européens DMA et DSA sont désignés comme des cibles commerciales.",
+     "refs": [
+      "wh-dst-2025",
+      "iris-thibout-2025"
+     ]
+    },
+    {
+     "titre": "Décret sur l'export de la « pile technologique américaine d'IA »",
+     "date": "2025-07-23",
+     "citation": "Faire adopter par les alliés le matériel, le cloud, les modèles et les normes d'IA américains.",
+     "lecture": "La dépendance numérique devient une politique d'État financée par des prêts et garanties publics.",
+     "refs": [
+      "wh-ia-2025"
+     ]
+    },
+    {
+     "titre": "Conseil national de la domination énergétique",
+     "date": "2025-02-14",
+     "citation": "Dès 2017, Donald Trump demandait à l'Europe de s'appuyer sur le gaz américain plutôt que russe.",
+     "lecture": "Le GNL est pensé comme un instrument de puissance ; l'accord d'août 2025 l'a transformé en engagement d'achat de 750 Md$.",
+     "refs": [
+      "wh-energie-2025",
+      "gmf-2025"
+     ]
+    },
+    {
+     "titre": "L'« accord de Mar-a-Lago » de Stephen Miran",
+     "date": "2024-11",
+     "citation": "Les partenaires soutiennent le dollar et achètent des bons du Trésor, en échange de droits allégés et de garanties de sécurité via l'OTAN.",
+     "lecture": "Écrit par celui qui est devenu le principal conseiller économique de la Maison-Blanche : la sécurité se paie en concessions commerciales et monétaires.",
+     "refs": [
+      "miran-2024"
+     ]
+    }
+   ],
+   "experts": [
+    {
+     "idee": "La stratégie américaine rompt avec l'ordre de 1945 et assume un monde de sphères d'influence ; la Russie n'y est pas désignée comme menace.",
+     "refs": [
+      "ifri-nardon-2025"
+     ]
+    },
+    {
+     "idee": "La dépendance européenne au numérique américain est telle que de grandes entreprises européennes, y compris françaises, ont défendu les firmes américaines contre la régulation.",
+     "refs": [
+      "iris-thibout-2025"
+     ]
+    }
+   ],
+   "explique": "Amendes extraterritoriales ; sanction d'un juge français ; menaces contre la taxe numérique ; interdiction de visa de Thierry Breton ; accord commercial d'août 2025.",
+   "faille": "Les achats européens de cloud et de logiciels font vivre 1,9 million d'emplois aux États-Unis. L'Europe est un marché dont Washington a besoin, et ce levier n'a jamais été utilisé collectivement.",
+   "faille_refs": [
+    "asteres-2025",
+    "an-tache-2026"
+   ]
+  }
+ ]
+}

@@ -3,7 +3,7 @@
 (function () {
 "use strict";
 const INF = Infinity;
-const FILES = ["meta", "produits", "matrice", "vigie", "atouts", "sources", "propositions", "bibliographie", "kii", "europe", "allies"];
+const FILES = ["meta", "produits", "matrice", "vigie", "atouts", "sources", "propositions", "bibliographie", "kii", "europe", "allies", "strategies"];
 const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const $ = id => document.getElementById(id);
 const store = {
@@ -28,7 +28,7 @@ function init(D) {
   const META = D.meta, P = D.produits;
   const LVL = n => META.niveaux[n].nom;
   const BIB = {}; (D.bibliographie || []).forEach(b => { BIB[b.id] = b; });
-  const TYPES = { institution: "Institution", parlement: "Parlement", expertise: "Expertise", donnees: "Données", presse: "Presse", comite: "Comité" };
+  const TYPES = { institution: "Institution", parlement: "Parlement", doctrine: "Texte officiel étranger", expertise: "Expertise", donnees: "Données", presse: "Presse", comite: "Comité" };
   const year = d => String(d || "").slice(0, 4);
   function refLabel(id) {
     const b = BIB[id]; if (!b) return "";
@@ -256,14 +256,35 @@ function init(D) {
     D.sources.map(r => `<tr><td><b>${esc(r[0])}</b></td><td>${esc(r[1])}</td><td class="cad">${esc(r[2])}</td><td>${esc(r[3])}</td></tr>`).join("") + `</tbody>`;
   $("props").innerHTML = D.propositions.map(([w, b, s, f]) => `<div class="prop${f ? " flag" : ""}"><span class="when">${esc(w)}</span><b>${esc(b)}</b><span>${esc(s)}</span></div>`).join("");
 
-  /* ---------- leviers assumés (KII) ---------- */
-  const K = D.kii;
+  /* ---------- stratégies + leviers assumés (KII), puissance partagée ---------- */
+  const K = D.kii, S = D.strategies;
+  let pw = store.get("bd-kii") || (K ? K.puissances[0].code : "CN");
+  if (K && !K.puissances.some(x => x.code === pw)) pw = K.puissances[0].code;
+  let renderKii = () => {};
+  const renderStrat = () => {
+    if (!S) return;
+    $("stratTabs").innerHTML = S.puissances.map(x => `<button type="button" data-p="${x.code}" aria-pressed="${x.code === pw}">${esc(x.nom)} <span>${x.textes.length} textes de référence</span></button>`).join("");
+    const X = S.puissances.find(x => x.code === pw) || S.puissances[0];
+    $("stratBody").innerHTML = `<p class="these">« ${esc(X.these)} »</p>
+      <div class="strat-grid"><div class="docs">${X.textes.map(t => `
+        <article class="doc"><span class="dt">${esc(t.date)}</span><h4>${esc(t.titre)}</h4><blockquote>${esc(t.citation)}</blockquote><p>${esc(t.lecture)}</p>${refList(t.refs)}</article>`).join("")}</div>
+        <aside class="strat-side">
+          <h4>Ce qu'en disent les experts</h4>
+          <ul>${X.experts.map(e => `<li>${esc(e.idee)} ${refList(e.refs)}</li>`).join("")}</ul>
+          <h4>Ce que cela explique</h4><p>${esc(X.explique)} <a href="#leviers">Voir les leviers</a></p>
+          <div class="faille"><h4>Leur point faible, notre levier</h4><p>${esc(X.faille)}</p>${refList(X.faille_refs)}</div>
+        </aside></div>`;
+  };
+  const setPw = c => { pw = c; store.set("bd-kii", pw); renderStrat(); renderKii(); };
+  if (S) {
+    $("stratIntro").textContent = S.intro;
+    $("stratTabs").addEventListener("click", e => { const b = e.target.closest("button"); if (b) setPw(b.dataset.p); });
+    renderStrat();
+  }
   if (K) {
     $("kiiIntro").textContent = K.intro;
-    let pw = store.get("bd-kii") || K.puissances[0].code;
-    if (!K.puissances.some(x => x.code === pw)) pw = K.puissances[0].code;
     const tabs = $("kiiTabs");
-    const renderKii = () => {
+    renderKii = () => {
       tabs.innerHTML = K.puissances.map(x => `<button type="button" data-p="${x.code}" aria-pressed="${x.code === pw}">${esc(x.nom)} <span>${x.leviers.filter(l => l.assume).length}/${x.leviers.length} assumés</span></button>`).join("");
       const P0 = K.puissances.find(x => x.code === pw);
       $("kiiBody").innerHTML = `<p class="kii-resume">${esc(P0.resume)}</p><div class="kii-list">` + P0.leviers.map(l => `
@@ -275,7 +296,7 @@ function init(D) {
           ${refList(l.refs)}
         </article>`).join("") + `</div>`;
     };
-    tabs.addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; pw = b.dataset.p; store.set("bd-kii", pw); renderKii(); });
+    tabs.addEventListener("click", e => { const b = e.target.closest("button"); if (b) setPw(b.dataset.p); });
     renderKii();
   }
 
@@ -291,7 +312,7 @@ function init(D) {
   if (D.bibliographie) {
     let bt = "all";
     const counts = {}; D.bibliographie.forEach(b => { counts[b.type] = (counts[b.type] || 0) + 1; });
-    const order = ["institution", "parlement", "expertise", "donnees", "comite", "presse"].filter(t => counts[t]);
+    const order = ["institution", "parlement", "doctrine", "expertise", "donnees", "comite", "presse"].filter(t => counts[t]);
     const renderBib = () => {
       $("bibChips").innerHTML = [["all", `Toutes ${D.bibliographie.length}`], ...order.map(t => [t, `${TYPES[t]} ${counts[t]}`])].map(([k, v]) => `<button type="button" class="chip" data-t="${k}" aria-pressed="${k === bt}">${esc(v)}</button>`).join("");
       const list = D.bibliographie.filter(b => bt === "all" || b.type === bt).slice().sort((a, b) => order.indexOf(a.type) - order.indexOf(b.type) || String(b.date).localeCompare(String(a.date)));
