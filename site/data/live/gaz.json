@@ -1,10 +1,10 @@
 {
- "source": "GIE AGSI+ (via Selectra)",
+ "source": "GIE AGSI+",
  "pays": "FR",
- "jour_gazier": "2026-10-07",
- "stock_twh": 106.6,
- "remplissage_pct": 86.1,
+ "jour_gazier": "2026-10-11",
+ "stock_twh": 108.0,
+ "remplissage_pct": 87.2,
  "conso_moyenne_twh_j": 1.0,
- "collecte": "manuelle (amorçage)",
+ "collecte": "2026-10-12T21:36:33+00:00",
  "url": "https://agsi.gie.eu/"
 }
