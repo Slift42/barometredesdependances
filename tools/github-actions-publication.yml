@@ -1,0 +1,39 @@
+name: Publication du site
+
+on:
+  push:
+    branches: [main]
+    paths: ["site/**"]
+  workflow_run:
+    workflows: ["Collecte des données"]
+    types: [completed]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    # Ne publie rien tant que la variable de dépôt PUBLICATION ne vaut pas « oui »
+    # (Settings > Secrets and variables > Actions > Variables).
+    if: vars.PUBLICATION == 'oui'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Vérifier que les données JSON sont valides
+        run: for f in site/data/*.json site/data/live/*.json; do python3 -m json.tool "$f" > /dev/null || exit 1; done
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /
+# Phase de travail. Au lancement, remplacer par :
+# User-agent: *
+# Allow: /
+# Sitemap: https://barometredesdependances.com/sitemap.xml

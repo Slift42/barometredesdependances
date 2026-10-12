@@ -1,0 +1,29 @@
+name: Collecte des données
+
+on:
+  schedule:
+    - cron: "17 7 * * *"   # tous les jours vers 9 h (Paris), après publication AGSI+
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Stocks de gaz (AGSI+)
+        env:
+          AGSI_API_KEY: ${{ secrets.AGSI_API_KEY }}
+        run: python3 collectors/agsi_gaz.py
+      - name: Enregistrer les nouvelles données
+        run: |
+          git config user.name "barometre-bot"
+          git config user.email "bot@barometredesdependances.com"
+          git add site/data/live
+          git diff --cached --quiet || git commit -m "Données : collecte du $(date -u +%F)"
+          git push

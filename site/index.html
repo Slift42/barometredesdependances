@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Baromètre des dépendances</title>
+<meta name="description" content="De qui la France dépend-elle, sur quoi, et pour combien de jours ? Le test des 100 jours, produit par produit.">
+<meta name="theme-color" content="#13263D">
+<!-- Phase de travail : le site ne doit pas être indexé. Retirer cette ligne le jour du lancement. -->
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:title" content="Baromètre des dépendances">
+<meta property="og:description" content="Si le robinet se ferme demain, combien de jours la France tient-elle ?">
+<meta property="og:url" content="https://barometredesdependances.com/">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://barometredesdependances.com/">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<!--HEAD-START-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;500&family=Public+Sans:wght@400;500;600;700&display=swap">
+<!--HEAD-END-->
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<!--BODY-START-->
+<div class="proto"><div class="wrap"><span>VERSION DE TRAVAIL · comité RI · <span id="majDate"></span></span><span>Valeurs précédées de « ≈ » : estimations à instruire. Ne pas diffuser en l'état.</span></div></div>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="#haut">Baromètre des dépendances <small>France · test des 100 jours</small></a>
+  <nav class="sections" aria-label="Sections">
+    <a href="#test">Test des 100 jours</a><a href="#robinet">Qui tient le robinet</a><a href="#vigie">Vigie</a><a href="#atouts">Atouts</a><a href="#methode">Méthode</a><a href="#propositions">Propositions</a>
+  </nav>
+  <button class="theme-btn" id="themeBtn" type="button">Thème</button>
+</div></header>
+
+<main id="haut">
+<div class="wrap">
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow">Baromètre des prises étrangères sur la France</div>
+        <h1>Si le robinet se ferme demain, combien de jours la France tient-elle&nbsp;?</h1>
+        <p class="lead">Pour le pétrole, la loi impose <strong>90 jours</strong> de stocks stratégiques. Pour les médicaments essentiels, <strong>deux mois</strong>. Pour les terres rares, les puces, les engrais ou le cloud de l'État&nbsp;: <strong>aucun seuil</strong>.</p>
+        <p class="lead">Le baromètre mesure, produit par produit, de qui nous dépendons, sur quoi, pour combien de temps, et avec qui nous pourrions bâtir d'autres alliances.</p>
+        <blockquote>« C'est de l'intérieur que l'État est colonisé par les intérêts privés, par les intérêts étrangers. »<cite>François Ruffin, Le Grand Continent, 25 février 2026</cite></blockquote>
+      </div>
+      <div class="dial-card" aria-label="État général du baromètre">
+        <svg id="dial" viewBox="-40 0 440 196" role="img" aria-labelledby="dialTitle"><title id="dialTitle">Cadran du baromètre</title></svg>
+        <div class="dial-state">
+          <div><div class="lbl">État général</div><div class="val" id="dialVal">—</div></div>
+          <p id="dialNote">Chargement des données…</p>
+        </div>
+      </div>
+    </div>
+    <div class="kpis" id="kpis"></div>
+  </section>
+
+  <section class="block" id="test">
+    <div class="sec-head">
+      <div><div class="eyebrow">Mesure phare</div><h2>Le test des 100 jours</h2></div>
+      <p>Cent produits vitaux. Pour chacun, un seul chiffre&nbsp;: le nombre de jours que le pays tient si le flux extérieur s'arrête. Sous le seuil fixé par la loi, l'État doit présenter un plan de reconstitution. Cliquez un produit pour ouvrir sa fiche et voir avec qui bâtir des alliances.</p>
+    </div>
+    <div class="toolbar">
+      <div class="chips" id="famChips" role="group" aria-label="Filtrer par famille"></div>
+      <div class="seg" role="group" aria-label="Vue">
+        <button type="button" id="vWall" aria-pressed="true">Le mur des 100</button>
+        <button type="button" id="vLine" aria-pressed="false">Ligne de flottaison</button>
+      </div>
+    </div>
+    <div id="wallView"><div class="wall" id="wall"><p class="loading">Chargement…</p></div></div>
+    <div id="lineView" hidden><div class="float"><div class="axis" id="axis"></div><div id="rows"></div></div></div>
+    <div class="legend" id="legend"></div>
+  </section>
+
+  <section class="block" id="robinet">
+    <div class="sec-head">
+      <div><div class="eyebrow">Six vecteurs, trois puissances</div><h2>Qui tient le robinet&nbsp;?</h2></div>
+      <p>La prédation n'est plus militaire. Elle passe par la matière, le code, le droit, le capital, les récits et les relais. Chaque case indique si le levier a déjà été actionné contre la France ou l'Europe.</p>
+    </div>
+    <div class="matrix-scroll"><table class="matrix" id="matrix"></table></div>
+    <div class="legend">
+      <span><i class="st act" style="margin:0">Activé</i> déjà utilisé contre la France ou l'UE</span>
+      <span><i class="st str" style="margin:0">Structurel</i> prise installée, pas encore actionnée</span>
+      <span><i class="st lat" style="margin:0">Latent</i> exposition faible ou indirecte</span>
+    </div>
+  </section>
+
+  <section class="block" id="vigie">
+    <div class="two">
+      <div>
+        <div class="eyebrow">Mise à jour continue</div>
+        <h2 style="margin-bottom:16px">La vigie</h2>
+        <ul class="feed" id="feed"></ul>
+      </div>
+      <div id="atouts">
+        <div class="eyebrow">Ce que nous tenons</div>
+        <h2 style="margin-bottom:16px">Nos atouts</h2>
+        <div class="assets" id="assets"></div>
+        <p class="lever-note">Les dépendances jouent dans les deux sens. La Chine doit écouler sa production en Europe. Les États-Unis ont besoin de notre marché intérieur et de nos moteurs d'avion. Ces faiblesses sont autant de leviers.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="methode">
+    <div class="sec-head">
+      <div><div class="eyebrow">Transparence</div><h2>Méthode et sources</h2></div>
+      <p>Chaque chiffre affiche sa source et sa nature&nbsp;: donnée publiée, calcul sur données publiques, ou estimation de travail. La méthode est publique pour pouvoir être contestée.</p>
+    </div>
+    <div class="method">
+      <div class="mcard">
+        <h3>Jours de tenue</h3>
+        <div class="formula">tenue (jours) =<br>(stocks publics + stocks privés<br>&nbsp;+ production nationale mobilisable)<br>÷ consommation vitale par jour</div>
+        <p style="margin-top:10px">Mesurée à l'origine ultime&nbsp;: un aimant importé d'Allemagne mais fabriqué avec des terres rares chinoises compte comme dépendance chinoise.</p>
+      </div>
+      <div class="mcard">
+        <h3>Cinq niveaux</h3>
+        <div class="scale" id="scale"></div>
+        <p style="margin-top:10px">Un levier déjà activé par le fournisseur aggrave le niveau d'un cran. Seuil légal proposé&nbsp;: 90 jours, comme pour le pétrole.</p>
+      </div>
+      <div class="mcard">
+        <h3>Indice de prise (0-100)</h3>
+        <div class="formula">40 % tenue<br>25 % concentration mondiale (HHI)<br>15 % taux d'importation<br>20 % historique de coercition</div>
+        <p style="margin-top:10px">Pondérations à valider par le comité. Calcul mensuel, publié avec ses données brutes.</p>
+      </div>
+    </div>
+    <div class="pipe-scroll"><table class="pipe" id="pipe"></table></div>
+  </section>
+
+  <section class="block" id="propositions">
+    <div class="sec-head">
+      <div><div class="eyebrow">Ce que nous proposons</div><h2>Du constat à l'obligation d'agir</h2></div>
+      <p>Quand un médicament manque en pharmacie, on saura de quel pays dépend la molécule et en combien de mois on peut la refaire ici. Quand une usine ferme après un rachat, on saura qui a signé.</p>
+    </div>
+    <div class="props" id="props"></div>
+  </section>
+</div>
+</main>
+
+<footer><div class="wrap">
+  <span>barometredesdependances.com · version de travail du comité Relations internationales. Contenus issus des notes du comité, complétés de sources publiques.</span>
+  <span>Les valeurs « ≈ » sont des ordres de grandeur de travail, pas des résultats. Chaque fiche doit être instruite et sourcée avant publication.</span>
+</div></footer>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="sheet" id="sheet" hidden aria-modal="true" role="dialog" aria-labelledby="shTitle"></aside>
+<!--BODY-END-->
+<script src="assets/app.js" defer></script>
+</body>
+</html>

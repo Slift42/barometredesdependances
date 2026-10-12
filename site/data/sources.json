@@ -1,0 +1,74 @@
+[
+ [
+  "GIE AGSI+",
+  "Niveau des stocks de gaz",
+  "Quotidien",
+  "Oui : collecteur en place (clé d'API gratuite)"
+ ],
+ [
+  "RTE éCO2mix",
+  "Solde des échanges d'électricité",
+  "Quotidien",
+  "Oui (API)"
+ ],
+ [
+  "ANSM, disponibilité des produits de santé",
+  "Ruptures et tensions par médicament",
+  "Quotidien",
+  "Oui (collecte de page)"
+ ],
+ [
+  "Global Trade Alert, MOFCOM, Journal officiel de l'UE",
+  "Restrictions d'export, sanctions, licences",
+  "Quotidien",
+  "Oui (flux + tri par IA, vérifié)"
+ ],
+ [
+  "Viginum, CERT-FR, ANSSI",
+  "Campagnes d'ingérence, cyberattaques",
+  "Hebdomadaire",
+  "Oui (CERT-FR déjà collecté par Angor)"
+ ],
+ [
+  "Douanes françaises, Eurostat Comext",
+  "Importations par produit (NC8) et pays d'origine",
+  "Mensuel",
+  "Oui (open data)"
+ ],
+ [
+  "SDES, CPSSP",
+  "Stocks stratégiques pétroliers",
+  "Mensuel",
+  "Oui"
+ ],
+ [
+  "USGS, AIE, JRC (RMIS), BRGM / OFVM",
+  "Concentration mondiale, raffinage, criticité",
+  "Annuel",
+  "Semi-automatique"
+ ],
+ [
+  "OCDE, inventaire des restrictions à l'export",
+  "Historique de coercition par matière",
+  "Annuel",
+  "Semi-automatique"
+ ],
+ [
+  "FranceAgriMer, Agreste",
+  "Taux d'auto-approvisionnement",
+  "Annuel",
+  "Semi-automatique"
+ ],
+ [
+  "DG Trésor, contrôle des investissements étrangers",
+  "Rachats d'entreprises stratégiques",
+  "Annuel",
+  "Manuel"
+ ],
+ [
+  "Comité d'experts",
+  "Validation de chaque fiche, badge « vérifié »",
+  "Continu",
+  "Manuel"
+ ]
+]

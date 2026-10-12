@@ -1,0 +1,11 @@
+{
+  "name": "Baromètre des dépendances",
+  "short_name": "Baromètre",
+  "description": "De qui la France dépend-elle, sur quoi, et pour combien de jours ?",
+  "lang": "fr",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#EEF1F4",
+  "theme_color": "#13263D",
+  "icons": [{ "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

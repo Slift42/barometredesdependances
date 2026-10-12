@@ -1,0 +1,50 @@
+[
+ [
+  "Mesure phare",
+  "Le test des 100 jours",
+  "Chaque année, l'État publie combien de jours la France tient pour cent produits vitaux. Sous le seuil, il a l'obligation d'agir.",
+  true
+ ],
+ [
+  "0-18 mois",
+  "Un état annuel des prises étrangères",
+  "Publié et débattu au Parlement comme on débat du budget, sur six vecteurs.",
+  false
+ ],
+ [
+  "0-18 mois",
+  "L'audit d'indépendance obligatoire",
+  "Aucun accord commercial, aucune vente d'entreprise stratégique, aucun grand marché public sans avis public sur la prise qu'il crée.",
+  false
+ ],
+ [
+  "0-18 mois",
+  "Le registre des relais",
+  "Conseils, avocats et banques d'affaires déclarent leurs mandats étrangers des cinq dernières années.",
+  false
+ ],
+ [
+  "18 mois-5 ans",
+  "Une loi de programmation de l'indépendance",
+  "Sur le modèle de la loi de programmation militaire : trajectoire chiffrée, produit par produit.",
+  false
+ ],
+ [
+  "18 mois-5 ans",
+  "La clause de réversibilité",
+  "Si l'on ne peut pas sortir en moins de dix-huit mois sans effondrement, on ne signe pas.",
+  false
+ ],
+ [
+  "18 mois-5 ans",
+  "Une loi de blocage",
+  "Rendre la soumission à une injonction étrangère plus coûteuse que le refus, avec un fonds d'indemnisation des entreprises qui résistent.",
+  false
+ ],
+ [
+  "Alliances",
+  "Un réseau de co-dépendances choisies",
+  "Pour chaque dépendance, plusieurs partenaires et des échanges réciproques : donner pour recevoir, à hauteur équivalente.",
+  false
+ ]
+]

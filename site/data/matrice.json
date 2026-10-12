@@ -1,0 +1,118 @@
+{
+ "vecteurs": [
+  [
+   "La matière",
+   "énergie, métaux, alimentation, santé"
+  ],
+  [
+   "Le code",
+   "cloud, logiciels, composants"
+  ],
+  [
+   "Le droit",
+   "extraterritorialité, sanctions"
+  ],
+  [
+   "Le capital",
+   "rachats, brevets, fonds"
+  ],
+  [
+   "Les récits",
+   "désinformation, influence"
+  ],
+  [
+   "Les relais",
+   "consentement des élites"
+  ]
+ ],
+ "puissances": {
+  "CN": "Chine",
+  "US": "États-Unis",
+  "RU": "Russie"
+ },
+ "statuts": {
+  "act": "Activé",
+  "str": "Structurel",
+  "lat": "Latent"
+ },
+ "cases": {
+  "CN": [
+   [
+    "act",
+    "Terres rares, aimants, gallium, germanium, graphite, antimoine : licences d'exportation depuis 2023. Principes actifs pharmaceutiques."
+   ],
+   [
+    "act",
+    "Octobre 2025 : blocage des puces Nexperia. TikTok soumis à la loi chinoise sur le renseignement."
+   ],
+   [
+    "str",
+    "Contrôles à l'export à portée extraterritoriale annoncés en octobre 2025, suspendus jusqu'au 10 novembre 2026."
+   ],
+   [
+    "str",
+    "Routes de la soie : le port du Pirée détenu à 67 % par COSCO, porte d'entrée du commerce sino-européen."
+   ],
+   [
+    "str",
+    "Instituts Confucius, chaires financées. Affaires d'espionnage académique instruites par la DGSI."
+   ],
+   [
+    "lat",
+    "Formation des élites, partenariats universitaires."
+   ]
+  ],
+  "US": [
+   [
+    "str",
+    "GNL : 60 % des importations de l'UE au T3 2025. Engagement de 750 Md$ d'achats d'énergie d'ici 2028."
+   ],
+   [
+    "str",
+    "54 Md€ par an versés par la France. Cloud Act. Maintenance et mises à jour des F-35 contrôlées par Washington."
+   ],
+   [
+    "act",
+    "BNP Paribas 8,9 Md$ (2014), Société Générale 1,34 Md$ (2018). Affaire Alstom : FCPA puis vente à General Electric."
+   ],
+   [
+    "act",
+    "Zenly, Kolor, Silae : rachats de pépites françaises, brevets et talents aspirés."
+   ],
+   [
+    "str",
+    "Plateformes et algorithmes de recommandation sous contrôle américain."
+   ],
+   [
+    "str",
+    "Cabinets de conseil et banques d'affaires aux mandats croisés sur les opérations stratégiques."
+   ]
+  ],
+  "RU": [
+   [
+    "act",
+    "Gaz coupé en 2022. 20 % de l'uranium enrichi importé par la France. Titane, engrais, terres rares (28 % des importations UE)."
+   ],
+   [
+    "act",
+    "Piratage de TV5 Monde (2015), sabotages de câbles et gazoducs en Baltique."
+   ],
+   [
+    "lat",
+    "Exposition faible en France."
+   ],
+   [
+    "lat",
+    "Exposition faible en France depuis 2022."
+   ],
+   [
+    "act",
+    "Réseaux de faux sites et campagnes documentés par Viginum. Ingérence électorale relevée par le SGDSN."
+   ],
+   [
+    "act",
+    "Prêt de 9 M€ au Front national via une banque tchéco-russe (2014)."
+   ]
+  ]
+ }
+}

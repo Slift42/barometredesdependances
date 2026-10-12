@@ -1,0 +1,8 @@
+{
+  "liveServer.settings.root": "/site",
+  "liveServer.settings.port": 5600,
+  "files.eol": "\n",
+  "editor.formatOnSave": false,
+  "json.format.keepLines": true,
+  "files.associations": { "*.webmanifest": "json" }
+}
