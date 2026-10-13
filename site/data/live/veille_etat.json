@@ -1,0 +1,82 @@
+{
+ "gn-terres-rares": {
+  "nom": "Google Actualités : terres rares",
+  "erreurs": 0,
+  "statut": "ok",
+  "items": 100,
+  "derniere": "2026-10-13"
+ },
+ "gn-metaux": {
+  "nom": "Google Actualités : métaux critiques",
+  "erreurs": 0,
+  "statut": "ok",
+  "items": 53,
+  "derniere": "2026-10-13"
+ },
+ "gn-medicaments": {
+  "nom": "Google Actualités : pénuries de médicaments",
+  "erreurs": 0,
+  "statut": "ok",
+  "items": 100,
+  "derniere": "2026-10-13"
+ },
+ "gn-energie": {
+  "nom": "Google Actualités : gaz, GNL, uranium",
+  "erreurs": 0,
+  "statut": "ok",
+  "items": 49,
+  "derniere": "2026-10-13"
+ },
+ "gn-puces": {
+  "nom": "Google Actualités : semi-conducteurs",
+  "erreurs": 0,
+  "statut": "ok",
+  "items": 100,
+  "derniere": "2026-10-13"
+ },
+ "gn-numerique": {
+  "nom": "Google Actualités : cloud et souveraineté numérique",
+  "erreurs": 0,
+  "statut": "ok",
+  "items": 100,
+  "derniere": "2026-10-13"
+ },
+ "gn-commerce": {
+  "nom": "Google Actualités : droits de douane UE",
+  "erreurs": 0,
+  "statut": "ok",
+  "items": 100,
+  "derniere": "2026-10-13"
+ },
+ "gn-defense": {
+  "nom": "Google Actualités : munitions et industrie de défense",
+  "erreurs": 0,
+  "statut": "ok",
+  "items": 73,
+  "derniere": "2026-10-13"
+ },
+ "gn-agri": {
+  "nom": "Google Actualités : engrais et souveraineté alimentaire",
+  "erreurs": 0,
+  "statut": "ok",
+  "items": 100,
+  "derniere": "2026-10-13"
+ },
+ "iris": {
+  "nom": "IRIS",
+  "erreurs": 1,
+  "statut": "erreur : HTTP 403"
+ },
+ "bruegel": {
+  "nom": "Bruegel",
+  "erreurs": 1,
+  "statut": "erreur : HTTP 403"
+ },
+ "cert-fr": {
+  "nom": "CERT-FR (menaces)",
+  "erreurs": 0,
+  "statut": "ok",
+  "items": 40,
+  "derniere": "2026-10-13"
+ }
+}
