@@ -2,22 +2,54 @@
  {
   "domaine": "Avions de combat",
   "sens": "dependance",
-  "comportement": "Treize pays européens ont choisi le F-35 américain : Royaume-Uni, Italie, Pays-Bas, Norvège, Danemark, Belgique, Pologne, Finlande, Allemagne, Suisse, Tchéquie, Roumanie, Grèce. En Europe, seuls la Grèce, la Croatie et la Serbie ont acheté le Rafale.",
+  "comportement": "Treize pays européens ont choisi le F-35 américain, du Royaume-Uni à la Pologne en passant par l'Allemagne et la Suisse. En Europe, seuls la Grèce, la Croatie et la Serbie ont acheté le Rafale.",
   "cout": "Le coût de soutien du F-35 a augmenté de 44 % depuis 2018 (GAO). La Suisse voit son « prix fixe » contesté : 650 M à 1,3 Md CHF de surcoût. Maintenance et mises à jour restent contrôlées par Washington.",
   "refs": [
    "gao-2024",
    "p-suisse-2025",
-   "note-kii"
+   "f35-lockheed",
+   "dassault-ra-2025"
+  ],
+  "acheteurs": [
+   "GB",
+   "IT",
+   "NL",
+   "NO",
+   "DK",
+   "BE",
+   "PL",
+   "FI",
+   "CH",
+   "DE",
+   "CZ",
+   "GR",
+   "RO"
+  ],
+  "fournisseurs": [
+   "US"
+  ],
+  "choix": "F-35 américain",
+  "contre": [
+   "GR",
+   "HR",
+   "RS"
   ]
  },
  {
   "domaine": "Avions de combat",
   "sens": "contre-exemple",
   "comportement": "L'Espagne renonce au F-35 en août 2025 et mise sur l'Eurofighter et le SCAF, au nom de l'autonomie stratégique.",
-  "cout": "Membre de l'OTAN, et libre d'acheter européen : c'est donc possible.",
+  "cout": "L'Espagne est membre de l'OTAN et reste libre d'acheter européen : c'est donc possible.",
   "refs": [
    "unav-2025"
-  ]
+  ],
+  "acheteurs": [
+   "ES"
+  ],
+  "fournisseurs": [
+   "EU"
+  ],
+  "choix": "Eurofighter et SCAF européens"
  },
  {
   "domaine": "Défense antiaérienne",
@@ -26,16 +58,33 @@
   "cout": "On réarme l'Europe avec l'argent des Européens, et ce sont les usines américaines qui tournent.",
   "refs": [
    "osw-2023"
-  ]
+  ],
+  "acheteurs": [
+   "DE"
+  ],
+  "fournisseurs": [
+   "US",
+   "IL"
+  ],
+  "choix": "Patriot et Arrow 3",
+  "n": 17
  },
  {
   "domaine": "Défense antiaérienne",
   "sens": "contre-exemple",
   "comportement": "Le Danemark choisit en 2025 le SAMP/T NG plutôt que le Patriot, notamment pour des délais de livraison plus courts.",
-  "cout": "Premier grand choix européen face au Patriot dans un pays aligné sur l'OTAN.",
+  "cout": "C'est le premier grand choix européen contre le Patriot dans un pays membre de l'OTAN.",
   "refs": [
    "p-danemark-2025"
-  ]
+  ],
+  "acheteurs": [
+   "DK"
+  ],
+  "fournisseurs": [
+   "FR",
+   "IT"
+  ],
+  "choix": "SAMP/T NG franco-italien"
  },
  {
   "domaine": "Armement en général",
@@ -44,7 +93,15 @@
   "cout": "L'Europe paie son réarmement ; l'Amérique encaisse les commandes.",
   "refs": [
    "iris-2023"
-  ]
+  ],
+  "acheteurs": [
+   "EU"
+  ],
+  "fournisseurs": [
+   "US"
+  ],
+  "choix": "Équipements achetés hors de l'UE",
+  "part": 78
  },
  {
   "domaine": "Nucléaire civil",
@@ -53,7 +110,14 @@
   "cout": "La filière nucléaire européenne perd, chez elle, un marché de 18 milliards de dollars.",
   "refs": [
    "p-dukovany-2025"
-  ]
+  ],
+  "acheteurs": [
+   "CZ"
+  ],
+  "fournisseurs": [
+   "KR"
+  ],
+  "choix": "Deux réacteurs coréens KHNP"
  },
  {
   "domaine": "Automobile",
@@ -63,35 +127,67 @@
   "refs": [
    "p-voitures-2026",
    "cce-batteries-2023"
-  ]
+  ],
+  "acheteurs": [
+   "EU"
+  ],
+  "fournisseurs": [
+   "CN"
+  ],
+  "choix": "Voitures de marques chinoises",
+  "part": 6.1
  },
  {
   "domaine": "Énergie",
   "sens": "dependance",
   "comportement": "Les pays européens ont remplacé le gaz russe par le GNL américain (57 % des importations de GNL en 2025) et l'UE s'est engagée à 750 Md$ d'achats d'énergie américaine.",
-  "cout": "On a changé de robinet, pas de dépendance. Et on le paie plus cher.",
+  "cout": "Nous avons changé de fournisseur sans sortir de la dépendance, et nous payons plus cher.",
   "refs": [
    "ieefa-2026",
    "gmf-2025"
-  ]
+  ],
+  "acheteurs": [
+   "EU"
+  ],
+  "fournisseurs": [
+   "US"
+  ],
+  "choix": "GNL américain",
+  "part": 57
  },
  {
   "domaine": "Numérique",
   "sens": "dependance",
   "comportement": "Administrations et entreprises européennes confient 83 % de leurs dépenses de cloud et de logiciels à des firmes américaines. En France même, les données de santé nationales restent hébergées chez Microsoft.",
-  "cout": "264 Md€ par an et une exposition au Cloud Act.",
+  "cout": "Ces dépenses atteignent 264 Md€ par an et exposent nos données au Cloud Act.",
   "refs": [
    "asteres-2025",
    "p-hdh-2026"
-  ]
+  ],
+  "acheteurs": [
+   "EU",
+   "FR"
+  ],
+  "fournisseurs": [
+   "US"
+  ],
+  "choix": "Clouds et logiciels américains",
+  "part": 83
  },
  {
   "domaine": "Numérique",
   "sens": "contre-exemple",
   "comportement": "Visée par des sanctions américaines, la Cour pénale internationale quitte Microsoft pour la suite européenne openDesk.",
-  "cout": "La preuve qu'on peut sortir de Microsoft. Il a suffi que le risque devienne réel.",
+  "cout": "La Cour prouve qu'on peut sortir de Microsoft : il a suffi que le risque devienne réel.",
   "refs": [
    "p-cpi-2025"
-  ]
+  ],
+  "acheteurs": [
+   "CPI"
+  ],
+  "fournisseurs": [
+   "DE"
+  ],
+  "choix": "Suite européenne openDesk"
  }
 ]

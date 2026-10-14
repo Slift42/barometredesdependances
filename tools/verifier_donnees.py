@@ -48,9 +48,21 @@ for p in produits:
     for h in p.get("h", []):
         if h not in meta.get("detenteurs", {}):
             erreurs.append(f"{pid} : code pays « {h} » inconnu")
-    for r in p.get("refs", []):
-        if r not in ids_biblio:
-            erreurs.append(f"{pid} : référence « {r} » absente de la bibliothèque")
+    if p.get("k") == "est" and "estim" not in p:
+        avertissements.append(f"{pid} : estimation sans méthode décrite (champ « estim »)")
+    if p.get("l", 0) >= 1 and "lev" not in p:
+        avertissements.append(f"{pid} : levier sans détail (champ « lev »)")
+    if p.get("estim") and p["estim"].get("m") not in meta.get("methodes_estimation", {}):
+        erreurs.append(f"{pid} : méthode d'estimation inconnue")
+    if p.get("seuil") and p["seuil"] not in meta.get("seuils", {}):
+        erreurs.append(f"{pid} : seuil légal inconnu")
+    for c in p.get("cout", []):
+        if c.get("r") not in meta.get("remedes", {}):
+            erreurs.append(f"{pid} : remède inconnu dans le chiffrage")
+        if not (0 <= c.get("lo", -1) <= c.get("hi", -1)):
+            erreurs.append(f"{pid} : fourchette de coût invalide")
+    if not p.get("cout"):
+        avertissements.append(f"{pid} : pas de chiffrage")
 
 
 def refs_de(obj):
@@ -64,6 +76,28 @@ def refs_de(obj):
         for x in obj:
             yield from refs_de(x)
 
+
+for p in produits:
+    for i, pr in enumerate(p.get("preuves", [])):
+        if pr.get("ref") not in ids_biblio:
+            erreurs.append(f"{p.get('id')} : preuve n° {i + 1}, source « {pr.get('ref')} » absente de la bibliothèque")
+        if not pr.get("cit"):
+            erreurs.append(f"{p.get('id')} : preuve n° {i + 1} sans citation ni extrait")
+    if p.get("src_i") is not None and not (0 <= p["src_i"] < len(p.get("preuves", []))):
+        erreurs.append(f"{p.get('id')} : « src_i » ne désigne aucune preuve")
+    if not p.get("preuves"):
+        avertissements.append(f"{p.get('id')} : aucune preuve citée")
+    for r in list(refs_de(p)) + p.get("note_refs", []):
+        if r not in ids_biblio:
+            erreurs.append(f"{p.get('id')} : référence « {r} » absente de la bibliothèque")
+for r in refs_de({k: meta.get(k) for k in ("seuils", "couts")}):
+    if r not in ids_biblio:
+        erreurs.append(f"meta.json : référence « {r} » absente de la bibliothèque")
+for s_ in meta.get("seuils", {}).values():
+    for pt in s_.get("points", []):
+        for r in pt[2]:
+            if r not in ids_biblio:
+                erreurs.append(f"meta.json (seuils) : référence « {r} » absente")
 
 for nom in ("kii.json", "europe.json", "allies.json", "strategies.json", "chaines.json", "actus.json", "echeances.json", "zoom_armees.json"):
     d = charger(nom)

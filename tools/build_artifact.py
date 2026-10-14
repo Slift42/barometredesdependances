@@ -12,7 +12,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
 FILES = ["meta", "produits", "matrice", "atouts", "sources", "propositions", "bibliographie", "kii", "europe", "allies", "strategies",
-         "chaines", "actus", "echeances", "zoom_armees"]
+         "chaines", "actus", "echeances", "zoom_armees", "carte"]
 LIVE = ["gaz", "electricite", "actus_auto", "veille_etat", "sources_etat"]
 
 
@@ -29,6 +29,7 @@ def main():
     body = between(html, "<!--BODY-START-->", "<!--BODY-END-->").strip()
     css = (SITE / "assets" / "style.css").read_text(encoding="utf-8")
     js = (SITE / "assets" / "app.js").read_text(encoding="utf-8")
+    flags = (SITE / "assets" / "flags.js").read_text(encoding="utf-8").replace("</", "<\\/")
 
     data = {f: json.loads((SITE / "data" / f"{f}.json").read_text(encoding="utf-8")) for f in FILES}
     data["live"] = {}
@@ -41,6 +42,7 @@ def main():
     page = "\n".join([
         title, head, f"<style>\n{css}</style>", body,
         f"<script>window.BD_DATA = {payload};</script>",
+        f"<script>\n{flags}</script>",
         f"<script>\n{js}</script>",
     ])
     out.parent.mkdir(parents=True, exist_ok=True)

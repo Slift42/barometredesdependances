@@ -194,9 +194,7 @@
     "qui": "Chine, Inde",
     "part": "60 à 80 % des principes actifs",
     "lv": 5,
-    "refs": [
-     "pwc-leem-2021"
-    ]
+    "refs": []
    },
    {
     "nom": "Mise en forme (comprimé, sirop)",
@@ -318,10 +316,10 @@
    {
     "nom": "Réenrichissement de l'uranium de retraitement",
     "qui": "Russie",
-    "part": "Un seul site au monde, en Sibérie",
+    "part": "Un seul site au monde, à Seversk, en Sibérie",
     "lv": 5,
     "refs": [
-     "note-kii"
+     "p-ure-russie-2025"
     ]
    }
   ]

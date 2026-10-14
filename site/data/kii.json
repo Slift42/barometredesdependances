@@ -8,11 +8,11 @@
    "leviers": [
     {
      "titre": "Licences d'exportation sur les terres rares et les aimants",
-     "vecteur": "La matière",
+     "vecteur": "Matières premières et énergie",
      "assume": true,
      "date": "2025-04 / 2025-10",
-     "preuve": "Annonces du MOFCOM d'avril 2025 (7 terres rares) puis n° 61 et 62 du 9 octobre 2025 : contrôle des aimants fabriqués hors de Chine dès 0,1 % de contenu chinois.",
-     "effet": "Seules 19 licences sur 141 demandes accordées aux entreprises européennes. Les mesures d'octobre sont suspendues jusqu'au 10 novembre 2026.",
+     "preuve": "Le ministère chinois du Commerce (MOFCOM) a soumis sept terres rares à licence en avril 2025. Ses annonces n° 61 et 62 du 9 octobre 2025 visent même les aimants fabriqués hors de Chine qui contiennent 0,1 % de matière chinoise.",
+     "effet": "Pékin n'a accordé que 19 licences sur 141 demandes déposées par des entreprises européennes. Les mesures d'octobre sont suspendues jusqu'au 10 novembre 2026.",
      "refs": [
       "jonesday-2025",
       "cce-crm-2026",
@@ -21,11 +21,11 @@
     },
     {
      "titre": "Gallium, germanium, graphite, antimoine",
-     "vecteur": "La matière",
+     "vecteur": "Matières premières et énergie",
      "assume": true,
      "date": "2023-08 → 2024-12",
-     "preuve": "Licences d'exportation (gallium et germanium en août 2023, graphite en décembre 2023, antimoine en septembre 2024), puis interdiction d'export vers les États-Unis en décembre 2024.",
-     "effet": "La Chine fournit 71 % du gallium importé par l'UE ; l'antimoine conditionne les amorces de munitions.",
+     "preuve": "Pékin a imposé des licences d'exportation pour le gallium et le germanium en août 2023, le graphite en décembre 2023 et l'antimoine en septembre 2024. En décembre 2024, il en a interdit l'export vers les États-Unis.",
+     "effet": "La Chine fournit 71 % du gallium importé par l'UE, et l'antimoine entre dans les amorces de munitions.",
      "refs": [
       "cce-crm-2026",
       "usgs-2026",
@@ -34,21 +34,21 @@
     },
     {
      "titre": "Blocage des puces Nexperia",
-     "vecteur": "Le code",
+     "vecteur": "Numérique et technologies",
      "assume": true,
      "date": "2025-10",
-     "preuve": "Interdiction d'exporter les puces assemblées en Chine par Nexperia, en riposte à la mise sous tutelle de l'entreprise par les Pays-Bas.",
-     "effet": "Les équipementiers automobiles européens annoncent des arrêts de production en quelques semaines.",
+     "preuve": "Pékin a interdit d'exporter les puces assemblées en Chine par Nexperia, en riposte à la mise sous tutelle de l'entreprise par les Pays-Bas.",
+     "effet": "Les équipementiers automobiles européens ont annoncé des arrêts de production en quelques semaines.",
      "refs": [
       "p-nexperia-2025"
      ]
     },
     {
      "titre": "Droits sur le cognac",
-     "vecteur": "Le capital",
+     "vecteur": "Capital et rachats",
      "assume": true,
      "date": "2025-07-04",
-     "preuve": "Décision du MOFCOM : droits antidumping de 27,7 à 34,9 % sur le brandy européen pour cinq ans, levés contre des engagements de prix minimaux.",
+     "preuve": "Le MOFCOM a imposé pour cinq ans des droits antidumping de 27,7 à 34,9 % sur le brandy européen, levés contre des engagements de prix minimaux.",
      "effet": "La filière charentaise paie la riposte aux droits européens sur les voitures électriques chinoises.",
      "refs": [
       "p-cognac-2025"
@@ -56,10 +56,10 @@
     },
     {
      "titre": "Arsenal juridique de rétorsion",
-     "vecteur": "Le droit",
+     "vecteur": "Droit et sanctions",
      "assume": true,
      "date": "2020 → 2024",
-     "preuve": "Loi sur le contrôle des exportations (2020), loi contre les sanctions étrangères (2021), liste des entités non fiables, règlement sur les biens à double usage (2024) qui fonde l'extraterritorialité chinoise.",
+     "preuve": "Pékin a adopté une loi sur le contrôle des exportations (2020), une loi contre les sanctions étrangères (2021), une liste des entités non fiables et un règlement sur les biens à double usage (2024) qui fonde son extraterritorialité.",
      "effet": "La Chine dispose désormais des mêmes outils extraterritoriaux que les États-Unis.",
      "refs": [
       "jonesday-2025"
@@ -67,11 +67,11 @@
     },
     {
      "titre": "Soutien à l'effort de guerre russe",
-     "vecteur": "Les récits",
+     "vecteur": "Information et influence",
      "assume": false,
      "date": "2025-07",
      "preuve": "La Revue nationale stratégique française écrit que la Chine « facilite directement l'effort de guerre russe en Ukraine ».",
-     "effet": "La Chine passe du statut de partenaire commercial à celui d'appui d'une menace directe.",
+     "effet": "La Chine n'est plus seulement un partenaire commercial : elle appuie une menace directe contre l'Europe.",
      "refs": [
       "rns-2025"
      ]
@@ -85,11 +85,11 @@
    "leviers": [
     {
      "titre": "Coupure du gaz à Engie",
-     "vecteur": "La matière",
+     "vecteur": "Matières premières et énergie",
      "assume": true,
      "date": "2022-08-30",
-     "preuve": "Gazprom annonce la suspension totale des livraisons à Engie à partir du 1er septembre 2022.",
-     "effet": "Fin de l'approvisionnement russe direct de la France ; envolée des prix ; bascule vers le GNL américain.",
+     "preuve": "Gazprom a annoncé la suspension totale de ses livraisons à Engie à partir du 1er septembre 2022.",
+     "effet": "La France ne reçoit plus de gaz russe en direct. Les prix se sont envolés, et l'Europe s'est tournée vers le GNL américain.",
      "refs": [
       "p-gazprom-2022",
       "ieefa-2026"
@@ -97,58 +97,59 @@
     },
     {
      "titre": "Uranium enrichi hors sanctions",
-     "vecteur": "La matière",
+     "vecteur": "Matières premières et énergie",
      "assume": false,
      "date": "2023 → 2026",
-     "preuve": "Rosatom fournit 38 % de l'enrichissement consommé dans l'UE en 2023 et reste le seul à réenrichir l'uranium de retraitement français.",
+     "preuve": "Rosatom fournissait 38 % de l'uranium enrichi des centrales de l'UE en 2023, et encore 24 % de l'uranium enrichi importé par la France en 2024. Son site de Seversk est le seul au monde à réenrichir l'uranium de retraitement.",
      "effet": "Le nucléaire russe est resté hors des paquets de sanctions européens.",
      "refs": [
       "bruegel-uranium-2025",
-      "note-kii"
+      "greenpeace-u-2025",
+      "p-ure-russie-2025"
      ]
     },
     {
      "titre": "Éviction de la France au Sahel et uranium nigérien",
-     "vecteur": "Le capital",
+     "vecteur": "Capital et rachats",
      "assume": true,
      "date": "2025-06",
-     "preuve": "Le Niger nationalise la mine Somaïr d'Orano ; le ministre russe de l'Énergie annonce vouloir exploiter l'uranium du Niger.",
-     "effet": "Perte d'une source historique d'uranium pour la filière française.",
+     "preuve": "Le Niger a nationalisé la mine Somaïr d'Orano, et le ministre russe de l'Énergie a annoncé vouloir exploiter l'uranium du Niger.",
+     "effet": "La filière française a perdu une source historique d'uranium.",
      "refs": [
       "p-niger-2025"
      ]
     },
     {
      "titre": "Opérations informationnelles",
-     "vecteur": "Les récits",
+     "vecteur": "Information et influence",
      "assume": false,
      "date": "2023 → 2025",
      "preuve": "Viginum attribue 77 opérations au mode opératoire russe Storm-1516, dont beaucoup visent le public français.",
-     "effet": "« Menace importante pour le débat public numérique français et européen » (Viginum).",
+     "effet": "Viginum y voit une « menace importante pour le débat public numérique français et européen ».",
      "refs": [
       "viginum-storm-2025"
      ]
     },
     {
      "titre": "Cyberattaques du renseignement militaire",
-     "vecteur": "Le code",
+     "vecteur": "Numérique et technologies",
      "assume": false,
      "date": "2025-04-29",
      "preuve": "La France attribue officiellement au GRU (APT28) des attaques contre une douzaine de ministères, collectivités, industriels de défense et centres de recherche depuis 2021.",
-     "effet": "Première attribution publique de ce niveau par le Quai d'Orsay.",
+     "effet": "Le Quai d'Orsay n'avait jamais attribué publiquement des attaques à ce niveau.",
      "refs": [
       "anssi-apt28-2025"
      ]
     },
     {
      "titre": "Financement politique",
-     "vecteur": "Les relais",
+     "vecteur": "Relais politiques et économiques",
      "assume": false,
      "date": "2014",
-     "preuve": "Prêt de 9 M€ au Front national par une banque tchéco-russe, documenté par le Sénat.",
-     "effet": "Exemple documenté de relais politique financé de l'étranger.",
+     "preuve": "Une banque tchéco-russe a prêté 9,4 millions d'euros au Front national en 2014. La commission d'enquête de l'Assemblée sur les ingérences étrangères s'y est intéressée en 2023.",
+     "effet": "C'est un exemple documenté de relais politique financé depuis l'étranger.",
      "refs": [
-      "note-kii"
+      "lcp-pret-2023"
      ]
     }
    ]
@@ -160,11 +161,11 @@
    "leviers": [
     {
      "titre": "Amendes extraterritoriales",
-     "vecteur": "Le droit",
+     "vecteur": "Droit et sanctions",
      "assume": true,
      "date": "2010 → 2022",
-     "preuve": "Procédures du département de la Justice et de l'OFAC (FCPA, sanctions) : BNP Paribas 8,9 Md$, Société Générale 1,34 Md$, Alstom 772 M$, Lafarge 778 M$.",
-     "effet": "Au moins 9 entreprises françaises sanctionnées de plus de 100 M$, près de 14 Md$ au total depuis 2010 (Assemblée nationale, 2026).",
+     "preuve": "Le département de la Justice et l'OFAC ont sanctionné BNP Paribas (8,9 Md$), la Société Générale (1,34 Md$), Alstom (772 M$) et Lafarge (778 M$), au titre du FCPA ou des sanctions américaines.",
+     "effet": "Depuis 2010, au moins neuf entreprises françaises ont payé plus de 100 M$ chacune, soit près de 14 Md$ au total (Assemblée nationale, 2026).",
      "refs": [
       "an-tache-2026",
       "gauvain-2019"
@@ -172,11 +173,11 @@
     },
     {
      "titre": "Sanction d'un juge français",
-     "vecteur": "Le droit",
+     "vecteur": "Droit et sanctions",
      "assume": true,
      "date": "2025-08-20",
-     "preuve": "Décret présidentiel 14203 contre la Cour pénale internationale : le juge Nicolas Guillou est sanctionné.",
-     "effet": "Avoirs gelés, comptes, cartes et services numériques américains coupés pour un magistrat français.",
+     "preuve": "Le décret présidentiel 14203, dirigé contre la Cour pénale internationale, sanctionne le juge français Nicolas Guillou.",
+     "effet": "Ce magistrat français a vu ses avoirs gelés, et ses comptes, ses cartes et ses services numériques américains ont été coupés.",
      "refs": [
       "clubjuristes-2025",
       "an-tache-2026"
@@ -184,10 +185,10 @@
     },
     {
      "titre": "Cloud Act",
-     "vecteur": "Le code",
+     "vecteur": "Numérique et technologies",
      "assume": true,
      "date": "2018",
-     "preuve": "Loi américaine permettant aux autorités d'accéder aux données détenues par des entreprises américaines, y compris hébergées en Europe.",
+     "preuve": "Cette loi américaine permet aux autorités d'accéder aux données détenues par des entreprises américaines, même quand elles sont hébergées en Europe.",
      "effet": "Les firmes américaines tiennent 83 % du marché européen du cloud et des logiciels.",
      "refs": [
       "gauvain-2019",
@@ -197,10 +198,10 @@
     },
     {
      "titre": "Menace contre la régulation numérique",
-     "vecteur": "Le code",
+     "vecteur": "Numérique et technologies",
      "assume": true,
      "date": "2025-08 / 2025-12",
-     "preuve": "Le président américain menace de droits de douane et de restrictions sur les puces les pays qui taxent ou régulent les géants américains ; en décembre, Washington interdit de visa Thierry Breton, ancien commissaire français.",
+     "preuve": "Le président américain menace de droits de douane et de restrictions sur les puces les pays qui taxent ou régulent les géants américains. En décembre, Washington a interdit de visa Thierry Breton, ancien commissaire européen.",
      "effet": "La taxe numérique française et le règlement européen sur les services numériques deviennent des cibles.",
      "refs": [
       "p-dst-2025",
@@ -209,10 +210,10 @@
     },
     {
      "titre": "Accord commercial d'août 2025",
-     "vecteur": "Le capital",
+     "vecteur": "Capital et rachats",
      "assume": true,
      "date": "2025-08-21",
-     "preuve": "Déclaration conjointe : 15 % de droits sur les exportations européennes, 750 Md$ d'achats d'énergie américaine d'ici 2028, 40 Md$ de puces d'IA, plus d'armement américain.",
+     "preuve": "La déclaration conjointe impose 15 % de droits sur les exportations européennes. L'Europe y promet 750 Md$ d'achats d'énergie américaine d'ici 2028, 40 Md$ de puces d'IA et davantage d'armement américain.",
      "effet": "La dépendance au GNL et aux puces américaines devient un engagement contractuel.",
      "refs": [
       "gmf-2025"
@@ -220,18 +221,18 @@
     },
     {
      "titre": "Contrôle des exportations d'armes (ITAR)",
-     "vecteur": "La matière",
+     "vecteur": "Matières premières et énergie",
      "assume": true,
      "date": "2018",
-     "preuve": "Washington refuse l'autorisation pour un composant américain du missile SCALP, bloquant une vente de Rafale à l'Égypte.",
-     "effet": "« Nous sommes à la merci des Américains » (Florence Parly, ministre des Armées).",
+     "preuve": "Washington a refusé d'autoriser un composant américain du missile SCALP, ce qui a bloqué une vente de Rafale à l'Égypte.",
+     "effet": "La ministre des Armées, Florence Parly, a reconnu : « Nous sommes à la merci des Américains ».",
      "refs": [
       "p-itar-2018"
      ]
     },
     {
      "titre": "Soutien affiché à des partis européens",
-     "vecteur": "Les relais",
+     "vecteur": "Relais politiques et économiques",
      "assume": true,
      "date": "2025-12-05",
      "preuve": "La Stratégie de sécurité nationale américaine évoque un « effacement civilisationnel » de l'Europe et promet de « cultiver la résistance » des « partis patriotes européens ».",

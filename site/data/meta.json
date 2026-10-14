@@ -1,6 +1,6 @@
 {
- "version": "0.5.0",
- "maj": "2026-10-13",
+ "version": "0.8.0",
+ "maj": "2026-10-14",
  "seuil_jours": 90,
  "familles": {
   "sante": "Santé",
@@ -80,19 +80,19 @@
   "2": "Levier déjà activé"
  },
  "types_alliance": {
-  "redondance": "Redondance : plusieurs fournisseurs pour qu'aucun ne tienne seul le robinet",
+  "redondance": "Redondance : plusieurs fournisseurs, pour qu'aucun ne puisse nous priver seul",
   "codependance": "Co-dépendance : un échange où chacun a besoin de l'autre"
  },
  "mesures": {
-  "test": "Test des 100 jours : publication annuelle et plan de reconstitution obligatoire sous le seuil.",
-  "rever": "Clause de réversibilité : aucun contrat stratégique sans sortie possible en moins de 18 mois.",
-  "blocage": "Loi de blocage contre l'extraterritorialité, adossée à un fonds d'indemnisation des entreprises qui résistent.",
-  "partner": "Partenariats paritaires : extraction et raffinage contre transfert de compétences et prix fixes.",
-  "lpi": "Loi de programmation de l'indépendance : trajectoire chiffrée, produit par produit, votée au Parlement.",
-  "atout": "Atout à protéger : audit d'indépendance obligatoire avant toute cession ou tout accord."
+  "test": "Le test des 100 jours sera publié chaque année, et l'État devra présenter un plan dès qu'un produit passe sous le seuil.",
+  "rever": "Avec la clause de réversibilité, l'État ne signera aucun contrat stratégique dont on ne peut pas sortir en moins de 18 mois.",
+  "blocage": "Une loi de blocage protégera nos entreprises contre les lois étrangères, avec un fonds pour indemniser celles qui résistent.",
+  "partner": "Des partenariats à parts égales échangeront extraction et raffinage contre des transferts de compétences et des prix fixes.",
+  "lpi": "Une loi de programmation de l'indépendance fixera, produit par produit, une trajectoire chiffrée votée par le Parlement.",
+  "atout": "Cet atout sera protégé : un audit d'indépendance précédera toute cession ou tout accord."
  },
  "sources_a_mobiliser": {
-  "sante": "ANSM (disponibilité des médicaments), stocks de sécurité déclarés, LEEM",
+  "sante": "ANSM (disponibilité des médicaments), stocks de sécurité déclarés",
   "alim": "FranceAgriMer, Agreste (bilans d'approvisionnement), Douanes",
   "ener": "SDES, CPSSP, AGSI+, RTE",
   "metal": "BRGM / OFVM, USGS, AIE, Douanes (nomenclature NC8)",
@@ -102,13 +102,208 @@
   "num": "Observatoire de la souveraineté numérique (HCSP), Cigref, ANSSI"
  },
  "pistes_alliance": {
-  "sante": "Règlement européen sur les médicaments critiques : réserver des capacités de principes actifs en Italie, en Espagne et au Portugal ; coproductions avec le Maroc et la Tunisie.",
-  "alim": "Échanges de blé contre intrants avec le Maghreb ; plan protéines européen avec le bassin du Danube.",
-  "ener": "Contrats longs avec la Norvège et l'Algérie ; interconnexions électriques européennes.",
-  "metal": "Raffinage partagé avec le Japon et l'Australie ; accords paritaires d'extraction avec le Sénégal, le Maroc, la Namibie, Madagascar, l'Indonésie et le Brésil.",
-  "elec": "Capacités européennes (Allemagne, Italie, Pays-Bas) et partenariats avec le Japon et la Corée du Sud.",
-  "indus": "Achats groupés et capacités partagées entre États membres ; acier bas carbone avec la Suède.",
-  "def": "Programmes européens de munitions avec l'Allemagne, la Pologne et les pays nordiques ; coproduction avec l'Ukraine.",
-  "num": "Suite numérique commune avec l'Allemagne et les Pays-Bas ; clouds européens (OVHcloud, Scaleway, Outscale)."
+  "sante": "Le règlement européen sur les médicaments critiques permet de réserver des capacités de principes actifs en Italie, en Espagne et au Portugal, et de coproduire avec le Maroc et la Tunisie.",
+  "alim": "La France peut échanger son blé contre des intrants avec le Maghreb, et bâtir un plan protéines européen avec le bassin du Danube.",
+  "ener": "La France peut signer des contrats longs avec la Norvège et l'Algérie, et renforcer les interconnexions électriques européennes.",
+  "metal": "La France peut partager le raffinage avec le Japon et l'Australie, et signer des accords d'extraction à parts égales avec le Sénégal, le Maroc, la Namibie, Madagascar, l'Indonésie et le Brésil.",
+  "elec": "L'Europe dispose de capacités en Allemagne, en Italie et aux Pays-Bas, et peut s'associer au Japon et à la Corée du Sud.",
+  "indus": "Les États membres peuvent grouper leurs achats et partager leurs capacités, et la France peut produire de l'acier bas carbone avec la Suède.",
+  "def": "La France peut bâtir des programmes de munitions avec l'Allemagne, la Pologne et les pays nordiques, et coproduire avec l'Ukraine.",
+  "num": "La France peut développer une suite numérique commune avec l'Allemagne et les Pays-Bas, et s'appuyer sur des clouds européens (OVHcloud, Scaleway, Outscale)."
+ },
+ "methodes_estimation": {
+  "crise": {
+   "nom": "Crise observée",
+   "conf": "moyenne",
+   "desc": "Nous mesurons le temps écoulé entre l'arrêt réel d'un flux et les premiers arrêts de production : les masques en 2020, le magnésium en 2021, les aimants et les puces Nexperia en 2025. Quand aucun stock n'est publié, c'est la mesure la plus solide."
+  },
+  "filiere": {
+   "nom": "Ce que dit la filière",
+   "conf": "moyenne",
+   "desc": "Nous reprenons l'ordre de grandeur des stocks annoncé publiquement par les industriels, l'opérateur ou une fédération professionnelle. Il est fiable sur l'ordre de grandeur, pas sur le chiffre exact."
+  },
+  "production": {
+   "nom": "Production française partielle",
+   "conf": "moyenne",
+   "desc": "Quand la France produit une partie de ses besoins, nous regardons ce qui manquerait si les importations s'arrêtaient, et combien de temps tiennent les intrants importés de cette production."
+  },
+  "usage": {
+   "nom": "Stocks des entreprises utilisatrices",
+   "conf": "faible",
+   "desc": "Sans stock public, tout repose sur ce que gardent les entreprises qui utilisent le produit. La gestion en flux tendu limite ces stocks à quelques semaines ou quelques mois. C'est notre hypothèse, à vérifier auprès des fédérations professionnelles."
+  },
+  "analogie": {
+   "nom": "Produit voisin",
+   "conf": "faible",
+   "desc": "Quand deux produits partagent le même fournisseur, le même régime d'exportation et le même usage, nous reprenons la tenue du produit le mieux documenté, et nous le disons."
+  },
+  "numerique": {
+   "nom": "Service coupable à distance",
+   "conf": "moyenne",
+   "desc": "Pour un service numérique, la question n'est pas le stock mais l'interrupteur. Si le fournisseur peut couper le service ou les mises à jour à distance, sans solution de repli prête, la tenue est de 0 jour. Sinon, on retient le délai de bascule vers une solution de rechange."
+  },
+  "hypothese": {
+   "nom": "Hypothèse de travail",
+   "conf": "faible",
+   "desc": "Nous ne disposons ni d'un stock publié, ni d'une crise récente comparable. Nous retenons donc un ordre de grandeur, signalé comme tel, en attendant une source. Ce sont les premiers chiffres à remplacer."
+  },
+  "defense": {
+   "nom": "Consommation en guerre de haute intensité",
+   "conf": "faible",
+   "desc": "Nous rapportons les stocks à ce qu'on consommerait dans un conflit de haute intensité, d'après les travaux parlementaires et l'expérience ukrainienne. Les stocks réels sont secrets : le chiffre reste un ordre de grandeur."
+  }
+ },
+ "seuils": {
+  "mitm": {
+   "jours": 60,
+   "court": "2 mois (décret n° 2021-349)",
+   "titre": "Pourquoi seulement 60 jours ?",
+   "points": [
+    [
+     "La loi permettait d'aller plus loin.",
+     "La loi de financement de la Sécurité sociale pour 2020 autorisait jusqu'à quatre mois de stock. Le décret du 30 mars 2021 a fixé le plancher à deux mois pour les médicaments d'intérêt thérapeutique majeur, et à une semaine pour les autres.",
+     [
+      "fas-2021",
+      "decret-2021-349",
+      "senat-qe-cohen-2020"
+     ]
+    ],
+    [
+     "Le gouvernement a invoqué Bruxelles.",
+     "En novembre 2020, la ministre Brigitte Bourguignon explique au Sénat que la Commission européenne exige qu'une mesure française ne prive pas les autres pays de l'Union de médicaments. D'où deux mois. Le Sénat avait voté quatre mois, avec une compensation du coût pour les industriels. Le décret est resté à deux mois.",
+     [
+      "publicsenat-stocks-2020"
+     ]
+    ],
+    [
+     "Deux mois, c'est moins qu'une rupture moyenne.",
+     "Une rupture de médicament essentiel dure en moyenne 14 semaines, près de 100 jours, selon une mission du Sénat de 2018. Le stock légal s'épuise donc avant la fin d'une rupture ordinaire.",
+     [
+      "fas-2021"
+     ]
+    ],
+    [
+     "L'ANSM peut monter à quatre mois, au cas par cas.",
+     "L'ANSM peut imposer quatre mois aux médicaments qui manquent souvent. Elle l'a fait pour 422 médicaments en 2022, sur environ 6 000.",
+     [
+      "p-ansm-4mois-2022"
+     ]
+    ],
+    [
+     "D'autres pays font plus.",
+     "La Finlande impose jusqu'à dix mois de stock depuis 2018.",
+     [
+      "fas-2021"
+     ]
+    ]
+   ],
+   "conclusion": "Ce que nous proposons : quatre mois pour tous les médicaments d'intérêt thérapeutique majeur, et un stock public pour les plus critiques, contrôlé chaque année dans le test des 100 jours."
+  },
+  "petrole": {
+   "jours": 90,
+   "court": "90 jours d'importations nettes (directive 2009/119/CE)",
+   "titre": "Pourquoi 90 jours, et pas plus ?",
+   "points": [
+    [
+     "La règle est née du choc pétrolier de 1973.",
+     "Après l'embargo pétrolier, les pays de l'OCDE créent en 1974 l'Agence internationale de l'énergie et s'engagent à garder au moins 90 jours d'importations nettes. Ces stocks ont servi six fois, la dernière le 11 mars 2026.",
+     [
+      "aie-petrole"
+     ]
+    ],
+    [
+     "L'Europe l'a reprise.",
+     "La directive de 2009 impose 90 jours d'importations nettes, ou 61 jours de consommation si c'est plus. C'est le seuil retenu ici.",
+     [
+      "directive-2009-119"
+     ]
+    ],
+    [
+     "La France va un peu au-delà.",
+     "Chaque distributeur doit stocker 29,5 % de ce qu'il a vendu l'année précédente, soit environ trois mois et demi de consommation, avec au moins 10 jours d'essence et 15 jours de gazole dans chaque zone de défense.",
+     [
+      "dgec-petrole"
+     ]
+    ],
+    [
+     "Pourquoi ne pas stocker davantage ?",
+     "Un stock immobilise de l'argent et des cuves, et c'est l'automobiliste qui le paie à la pompe. Le seuil a été pensé pour une crise de quelques mois, pas pour une rupture durable. C'est notre lecture : aucun texte officiel ne justifie le chiffre de 90.",
+     []
+    ]
+   ],
+   "conclusion": "Le pétrole est le seul produit pour lequel la loi impose déjà une tenue minimale. Le test des 100 jours étend cette logique aux autres produits vitaux."
+  }
+ },
+ "remedes": {
+  "stock": "Constituer un stock",
+  "usine": "Rebâtir une capacité de production",
+  "contrats": "Contrats et alliances d'approvisionnement",
+  "migration": "Basculer vers une solution européenne",
+  "proteger": "Protéger un atout"
+ },
+ "couts": {
+  "intro": "Se libérer a un prix. Ne rien faire aussi : les boucliers tarifaires de 2022 et 2023 ont coûté 20,4 milliards d'euros, et la France verse chaque année 54 milliards aux clouds et logiciels américains. Voici, produit par produit, ce que coûterait de tenir au moins 100 jours.",
+  "methode": [
+   [
+    "Un remède par produit.",
+    "Selon le cas, le remède est un stock, une usine, des contrats avec plusieurs pays, une bascule vers une solution européenne ou la protection d'un atout."
+   ],
+   [
+    "Un ordre de grandeur, pas un devis.",
+    "Chaque montant est une fourchette. Quand un projet comparable existe et que son coût est publié (une usine, un rachat, un fonds), nous partons de ce coût. Sinon, nous le disons : c'est notre estimation."
+   ],
+   [
+    "Deux natures de dépense.",
+    "L'investissement se paie une fois (une usine, un stock constitué). Le portage se paie chaque année (entreposer, renouveler, payer plus cher un fournisseur sûr)."
+   ],
+   [
+    "Ce qui est déjà engagé est compté à part.",
+    "Une usine déjà financée (Seqens, Caremag, Orano) n'est pas un coût nouveau : elle apparaît, mais n'entre pas dans le total à trouver."
+   ]
+  ],
+  "comparateurs": [
+   {
+    "lab": "Boucliers tarifaires gaz et électricité, 2022-2023",
+    "val": "20,4 Md€",
+    "refs": [
+     "p-cre-boucliers-2024"
+    ]
+   },
+   {
+    "lab": "Versés chaque année par la France aux clouds et logiciels américains",
+    "val": "54 Md€ par an",
+    "refs": [
+     "asteres-2025"
+    ]
+   },
+   {
+    "lab": "Stocks de munitions dans la loi de programmation militaire 2024-2030",
+    "val": "16 Md€",
+    "refs": [
+     "lcp-lpm-2023"
+    ]
+   },
+   {
+    "lab": "Aide publique à l'usine de puces de Crolles",
+    "val": "2,9 Md€",
+    "refs": [
+     "p-crolles-2023"
+    ]
+   },
+   {
+    "lab": "Fonds public pour les métaux critiques",
+    "val": "500 M€",
+    "refs": [
+     "gouv-fmc-2023"
+    ]
+   },
+   {
+    "lab": "Un milliard de masques chirurgicaux en stock, au prix de 2013",
+    "val": "≈ 32 M€",
+    "refs": [
+     "lcp-masques-2020"
+    ]
+   }
+  ]
  }
 }

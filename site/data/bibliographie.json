@@ -15,7 +15,7 @@
   "titre": "Global Critical Minerals Outlook 2026",
   "date": "2026-07-16",
   "url": "https://iea.org/news/supply-concentration-export-restrictions-and-declining-investment-put-critical-mineral-security-at-risk",
-  "apport": "Raffinage des terres rares : 85 % chez le premier fournisseur en 2025 (plus de 90 % en 2023). 6 500 Md$ de production hors de Chine exposés aux contrôles d'octobre 2025."
+  "apport": "La part du premier raffineur de terres rares est passée de plus de 90 % en 2023 à 85 % en 2025 ; 6 500 Md$ de production annuelle hors de Chine menacés si les contrôles d'octobre 2025 s'appliquaient pleinement."
  },
  {
   "id": "aie-pv-2022",
@@ -42,7 +42,7 @@
   "titre": "Rapport spécial 15/2023 : la politique industrielle de l'UE en matière de batteries",
   "date": "2023-06-19",
   "url": "https://www.eca.europa.eu/ECAPublications/SR-2023-15/SR-2023-15_FR.pdf",
-  "apport": "Chine : 76 % de la capacité mondiale de cellules, UE : 7 %. Dépendance aux importations : 99 % du graphite naturel, 81 % du cobalt et du lithium."
+  "apport": "La Chine détient 76 % de la capacité mondiale de production de cellules, l'UE 7 %. 68 % du cobalt brut importé par l'UE vient d'un seul pays."
  },
  {
   "id": "cce-puces-2025",
@@ -101,20 +101,11 @@
  {
   "id": "decret-2021-349",
   "type": "institution",
-  "auteur": "Gouvernement (Journal officiel)",
+  "auteur": "Gouvernement (Journal officiel), présenté par l'ANSM",
   "titre": "Décret n° 2021-349 du 30 mars 2021 relatif au stock de sécurité destiné au marché national",
   "date": "2021-03-30",
-  "url": "",
+  "url": "https://ansm.sante.fr/page/informations-relatives-au-decret-ndeg-2021-349-du-30-03-2021",
   "apport": "Stock de sécurité minimal de 2 mois pour les médicaments d'intérêt thérapeutique majeur, porté jusqu'à 4 mois en cas de ruptures répétées."
- },
- {
-  "id": "pwc-leem-2021",
-  "type": "expertise",
-  "auteur": "PwC pour le LEEM",
-  "titre": "Étude sur la localisation de la production des principes actifs",
-  "date": "2021",
-  "url": "",
-  "apport": "60 à 80 % des principes actifs pharmaceutiques produits en Chine et en Inde (chiffre repris par l'annexe KII du comité)."
  },
  {
   "id": "franceagrimer-2025",
@@ -183,10 +174,10 @@
   "id": "rte-2024",
   "type": "institution",
   "auteur": "RTE",
-  "titre": "Bilan électrique 2024 (et tendances 2025)",
+  "titre": "Bilan électrique 2024",
   "date": "2025-09",
   "url": "https://assets.rte-france.com/prod/public/2025-09/04092025-Bilan-electrique-2024-rapport-complet.pdf",
-  "apport": "Solde exportateur record de 89 TWh en 2024, puis 92 TWh en 2025 selon les tendances publiées en janvier 2026."
+  "apport": "« En 2024, la France a enregistré le solde exportateur net le plus élevé de son histoire. » Production nucléaire : 361,7 TWh."
  },
  {
   "id": "asteres-2025",
@@ -204,7 +195,7 @@
   "titre": "Rapport n° 2844 sur la protection de l'UE contre les lois extraterritoriales",
   "date": "2026-05-27",
   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2844.html",
-  "apport": "Au moins 9 entreprises françaises sanctionnées de plus de 100 M$ depuis 2010, près de 14 Md$ au total (plus de 20 Md$ en Europe, selon la DG Trésor) ; fournisseurs américains : plus de 70 % du cloud européen ; sanction du juge français Nicolas Guillou."
+  "apport": "Depuis 2010, au moins neuf entreprises françaises condamnées aux États-Unis à plus de 100 M$, pour près de 14 Md$ au total ; les hébergeurs américains contrôlent plus de 70 % du marché européen."
  },
  {
   "id": "gauvain-2019",
@@ -312,7 +303,7 @@
   "titre": "Steel Outlook 2025",
   "date": "2025-05",
   "url": "https://www.oecd.org/en/publications/oecd-steel-outlook-2025_28b61a5e-en/full-report/executive-summary_3618ca77.html",
-  "apport": "La surcapacité mondiale d'acier pourrait atteindre 721 Mt en 2027, tirée par la Chine."
+  "apport": "Les subventions chinoises à l'acier, rapportées au chiffre d'affaires, sont dix fois plus élevées que dans les pays de l'OCDE ; les extensions prévues risquent d'aggraver la surcapacité mondiale."
  },
  {
   "id": "clubjuristes-2025",
@@ -331,15 +322,6 @@
   "date": "2025-11-26",
   "url": "https://www.unav.edu/web/global-affairs/spain-rules-out-buying-f-35-what-are-the-alternatives",
   "apport": "Le 7 août 2025, l'Espagne renonce au F-35 et mise sur l'Eurofighter et le SCAF au nom de l'autonomie stratégique."
- },
- {
-  "id": "note-kii",
-  "type": "comite",
-  "auteur": "Comité RI",
-  "titre": "Annexe « Key Imperialism Indicators » et note « Quelle relation avec les impérialismes ? »",
-  "date": "2026",
-  "url": "",
-  "apport": "Grille des leviers par puissance ; chiffres repris dans les fiches quand aucune source primaire plus solide n'a été trouvée."
  },
  {
   "id": "p-mining-2026",
@@ -705,10 +687,10 @@
   "id": "ruffin-gc-2026",
   "type": "programme",
   "auteur": "François Ruffin, Le Grand Continent",
-  "titre": "Pour une déclaration d'indépendance : la doctrine Ruffin sur l'Europe",
+  "titre": "Pour une déclaration d'indépendance",
   "date": "2026-02-25",
   "url": "https://legrandcontinent.eu/fr/2026/02/25/pour-une-declaration-dindependance-la-doctrine-ruffin-sur-leurope/",
-  "apport": "« Hormis ces résidus, et quelques autres ailleurs en Europe, comme ASML, l'Union est une colonie numérique. » « Plutôt que de chercher à attirer les capitaux américains, nous devons nous en protéger. »"
+  "apport": "« La servitude européenne est en vérité volontaire. » « Il nous faut un plan des 100. » « Hormis ces résidus, et quelques autres ailleurs en Europe, comme ASML, l'Union est une colonie numérique. »"
  },
  {
   "id": "an-armees-2026",
@@ -831,10 +813,10 @@
   "id": "statcounter",
   "type": "donnees",
   "auteur": "StatCounter",
-  "titre": "Search engine market share, France",
-  "date": "2025",
-  "url": "https://gs.statcounter.com/search-engine-market-share/desktop/france",
-  "apport": "Part de marché des moteurs de recherche en France, mise à jour mensuelle."
+  "titre": "Search engine market share, France (toutes plateformes)",
+  "date": "2026-09",
+  "url": "https://gs.statcounter.com/search-engine-market-share/all/france",
+  "apport": "Septembre 2026 : Google 88,2 % des recherches en France, Bing 5,5 %."
  },
  {
   "id": "p-ue-chine-2026",
@@ -907,5 +889,725 @@
   "titre": "Galileo",
   "url": "https://www.euspa.europa.eu/eu-space-programme/galileo",
   "apport": "Galileo, système de positionnement civil européen, conçu pour garantir « l'indépendance et la souveraineté » de l'Europe dans ce domaine."
+ },
+ {
+  "id": "mofcom-ga-2023",
+  "type": "expertise",
+  "auteur": "Herbert Smith Freehills (cabinet d'avocats)",
+  "date": "2023-08",
+  "titre": "China releases latest export control measures on gallium and germanium",
+  "url": "https://www.hsfkramer.com/notes/sanctions/2023-08/china-releases-latest-export-control-measures-on-gallium-and-germanium",
+  "apport": "Annonce du ministère chinois du Commerce et des Douanes du 3 juillet 2023, en vigueur le 1er août : licence pour chaque exportation de gallium et de germanium, certificat d'utilisateur final, jusqu'à 60 jours ouvrés d'instruction."
+ },
+ {
+  "id": "p-ga-us-2024",
+  "type": "presse",
+  "auteur": "Free Malaysia Today (dépêche Reuters)",
+  "date": "2024-12-03",
+  "titre": "China bans exports of gallium, germanium, antimony to US",
+  "url": "https://www.freemalaysiatoday.com/category/business/2024/12/03/china-bans-exports-of-gallium-germanium-antimony-to-us",
+  "apport": "Interdiction immédiate d'exporter vers les États-Unis les biens à double usage liés au gallium, au germanium, à l'antimoine et aux matériaux superdurs ; examen renforcé pour le graphite. Riposte aux restrictions américaines sur les puces."
+ },
+ {
+  "id": "p-graphite-2023",
+  "type": "presse",
+  "auteur": "Mining Weekly (dépêche Reuters)",
+  "date": "2023-10-20",
+  "titre": "China, world's top graphite producer, to curb exports of key battery material",
+  "url": "https://www.miningweekly.com/article/china-worlds-top-graphite-producer-to-curb-exports-of-key-battery-material-2023-10-20",
+  "apport": "Licence d'exportation pour le graphite synthétique de haute pureté et le graphite naturel en paillettes à partir du 1er décembre 2023. La Chine fournit 67 % du graphite naturel mondial et raffine plus de 90 % du graphite pour anodes de batteries."
+ },
+ {
+  "id": "aie-sb-2024",
+  "type": "doctrine",
+  "auteur": "Ministère chinois du Commerce et Douanes (fiche de l'AIE)",
+  "date": "2024-08-15",
+  "titre": "Annonce n° 33 de 2024 : contrôles à l'exportation de l'antimoine",
+  "url": "https://www.iea.org/policies/26793-export-controls-on-antimony-and-other-items",
+  "apport": "Minerai, métal et composés d'antimoine, ainsi que les matériaux superdurs, soumis à licence à partir du 15 septembre 2024."
+ },
+ {
+  "id": "aie-w-2025",
+  "type": "doctrine",
+  "auteur": "Ministère chinois du Commerce et Douanes (fiche de l'AIE)",
+  "date": "2025-02-04",
+  "titre": "Décision n° 10 de 2025 : contrôles sur le tungstène, le tellure, le bismuth, le molybdène et l'indium",
+  "url": "https://www.iea.org/policies/26795-decision-to-implement-export-controls-on-tungsten-tellurium-bismuth-molybdenum-and-indium-related-items",
+  "apport": "Paratungstate d'ammonium, oxyde et carbure de tungstène, alliages tungstène-nickel-fer : exportation soumise à autorisation, au nom de la « sécurité nationale »."
+ },
+ {
+  "id": "aie-tr-avril-2025",
+  "type": "doctrine",
+  "auteur": "Ministère chinois du Commerce et Douanes (fiche de l'AIE)",
+  "date": "2025-04-04",
+  "titre": "Annonce n° 18 de 2025 : contrôles sur les terres rares moyennes et lourdes",
+  "url": "https://www.iea.org/policies/26796-export-controls-on-certain-medium-and-heavy-rare-earth-items",
+  "apport": "Samarium, gadolinium, terbium, dysprosium, lutécium, scandium et yttrium soumis à licence avec effet immédiat, ainsi que les aimants samarium-cobalt et néodyme-fer-bore contenant du terbium ou du dysprosium."
+ },
+ {
+  "id": "clepa-2025",
+  "type": "expertise",
+  "auteur": "CLEPA (association européenne des équipementiers automobiles)",
+  "date": "2025-06-04",
+  "titre": "Communiqué sur les restrictions chinoises à l'exportation de terres rares",
+  "url": "https://www.clepa.eu/wp-content/uploads/2025/06/Statement_export-restrictions-by-China-rare-earths_PR_June-2025-CLEPA.pdf",
+  "apport": "« Les restrictions chinoises arrêtent déjà la production chez les équipementiers européens » : plusieurs lignes et usines à l'arrêt, environ un quart des centaines de demandes de licence accordées depuis avril."
+ },
+ {
+  "id": "p-nexperia-chrono-2025",
+  "type": "presse",
+  "auteur": "Yahoo Finance (dépêche Reuters)",
+  "date": "2025-11-20",
+  "titre": "A timeline of the Sino-Dutch row over the control of chipmaker Nexperia",
+  "url": "https://finance.yahoo.com/news/timeline-sino-dutch-row-over-093000431.html",
+  "apport": "30 septembre 2025 : La Haye prend le contrôle de Nexperia ; 4 octobre : Pékin interdit l'export des composants de l'usine de Dongguan (environ 70 % de la production) ; 4 novembre : la Commission parle d'un « pire scénario » évité ; 11 novembre : premières livraisons sous exemption."
+ },
+ {
+  "id": "justiceinfo-2026",
+  "type": "presse",
+  "auteur": "JusticeInfo.net",
+  "date": "2026-03-19",
+  "titre": "How sanctions can weaponize US tech against the ICC",
+  "url": "https://www.justiceinfo.net/en/156691-how-sanctions-can-weaponize-us-tech-against-the-icc.html",
+  "apport": "Sanctions américaines contre le procureur de la CPI (décret du 6 février 2025) puis contre des juges ; messagerie Microsoft du procureur suspendue (Microsoft dément avoir coupé les services de la Cour) ; preuves sauvegardées par crainte d'une coupure ; bascule vers openDesk confirmée le 31 octobre 2025."
+ },
+ {
+  "id": "aie-petrole",
+  "type": "institution",
+  "auteur": "Agence internationale de l'énergie",
+  "date": "2026",
+  "titre": "Oil security and emergency response",
+  "url": "https://www.iea.org/about/oil-security-and-emergency-response",
+  "apport": "Créée en 1974 après le choc pétrolier, l'AIE impose à ses membres au moins 90 jours d'importations nettes en stock. Six actions collectives de déstockage : 1991, 2005, 2011, deux en 2022, et la plus importante le 11 mars 2026."
+ },
+ {
+  "id": "dgec-petrole",
+  "type": "institution",
+  "auteur": "Ministère de la Transition écologique",
+  "date": "2026",
+  "titre": "Sécurité d'approvisionnement en pétrole",
+  "url": "https://www.ecologie.gouv.fr/politiques-publiques/securite-dapprovisionnement-petrole",
+  "apport": "Chaque distributeur doit détenir 29,5 % des volumes mis à la consommation l'année précédente, en partie via le CPSSP et la SAGESS ; au moins 10 jours d'essence et 15 jours de gazole dans chaque zone de défense."
+ },
+ {
+  "id": "senat-qe-cohen-2020",
+  "type": "parlement",
+  "auteur": "Sénat, question écrite n° 18204 (Laurence Cohen)",
+  "date": "2020-10-15",
+  "titre": "Décret contre la pénurie de médicaments",
+  "url": "https://www.senat.fr/questions/base/2020/qSEQ201018204.html",
+  "apport": "Le projet de décret ramène à deux mois le stock des médicaments d'intérêt thérapeutique majeur, alors que la loi votée en 2019 visait jusqu'à quatre mois. La réponse du ministère (mai 2021) ne justifie pas ce choix."
+ },
+ {
+  "id": "publicsenat-stocks-2020",
+  "type": "presse",
+  "auteur": "Public Sénat",
+  "date": "2020-11-13",
+  "titre": "Pénurie de médicaments : le Sénat instaure une durée minimale de stockage de 4 mois",
+  "url": "https://www.publicsenat.fr/actualites/politique/penurie-de-medicaments-le-senat-instaure-une-duree-minimale-de-stockage-de-4",
+  "apport": "Amendement Jomier adopté contre l'avis du gouvernement. La ministre Brigitte Bourguignon justifie les deux mois du décret par l'exigence de la Commission européenne : ne pas pénaliser l'approvisionnement des autres États membres."
+ },
+ {
+  "id": "fas-2021",
+  "type": "expertise",
+  "auteur": "France Assos Santé",
+  "date": "2021-04-02",
+  "titre": "Une obligation de stock de médicaments d'une semaine à au moins deux mois : on est loin du compte !",
+  "url": "https://france-assos-sante.org/opinions/une-obligation-de-stock-de-medicaments-dune-semaine-a-au-moins-deux-mois-pour-les-industriels-dit-le-decret-on-est-loin-du-compte/",
+  "apport": "Une rupture de médicament d'intérêt thérapeutique majeur dure en moyenne 14 semaines (mission du Sénat, 2018) ; la Finlande impose jusqu'à dix mois de stock depuis 2018 ; seulement deux sanctions en 2020."
+ },
+ {
+  "id": "p-ansm-4mois-2022",
+  "type": "presse",
+  "auteur": "Médecin d'Occitanie (d'après APMnews)",
+  "date": "2022-03-09",
+  "titre": "Le stock minimal de sécurité porté à 4 mois pour plus de 400 médicaments",
+  "url": "https://www.medecin-occitanie.org/le-stock-minimal-de-securite-porte-a-4-mois-pour-plus-de-400-medicaments/",
+  "apport": "L'ANSM a porté à quatre mois le stock obligatoire de 422 médicaments en rupture répétée (décisions de novembre 2021 à février 2022), sur environ 6 000 médicaments d'intérêt thérapeutique majeur."
+ },
+ {
+  "id": "meti-2020",
+  "type": "institution",
+  "auteur": "Ministère japonais de l'Économie (METI)",
+  "date": "2020-07-31",
+  "titre": "Japan's new international resource strategy to secure rare metals",
+  "url": "https://www.enecho.meti.go.jp/en/category/special/article/detail_158.html",
+  "apport": "Depuis 1986, le Japon garde en réserve 60 jours de consommation de métaux rares (30 pour certains), objectif relevé en 2020 pour les métaux les plus exposés."
+ },
+ {
+  "id": "p-seqens-2025",
+  "type": "presse",
+  "auteur": "Lyon Capitale",
+  "date": "2025-11-20",
+  "titre": "Isère : le paracétamol sera bientôt de retour à Roussillon",
+  "url": "https://www.lyoncapitale.fr/?p=470262",
+  "apport": "Usine Seqens de 120 M€ (avec Sanofi-Opella, UPSA et France 2030) : 10 000 à 15 000 tonnes de paracétamol par an, près de la moitié des besoins européens ; premières boîtes visées en 2027."
+ },
+ {
+  "id": "fastmarkets-caremag-2025",
+  "type": "presse",
+  "auteur": "Fastmarkets",
+  "date": "2025-03",
+  "titre": "Caremag raises €216 million to build rare earths plant in France",
+  "url": "https://fastmarkets.com/insights/caremag-raises-216-million-to-build-rare-earths-plant-in-france",
+  "apport": "Usine de Lacq : 216 M€ dont environ 106 M€ publics et jusqu'à 110 M€ japonais (JOGMEC, Iwatani). 600 t par an d'oxydes de dysprosium et terbium, environ 15 % de la production mondiale ; mise en service visée fin 2026."
+ },
+ {
+  "id": "emili-cndp-2023",
+  "type": "donnees",
+  "auteur": "Imerys, dossier de saisine de la CNDP",
+  "date": "2023-10",
+  "titre": "Projet EMILI : synthèse du dossier",
+  "url": "https://www.debatpublic.fr/sites/default/files/2023-10/IMERYS-EMILI_Synth%C3%A8se-dossier-saisine.pdf",
+  "apport": "Environ 1,15 Md€ (pilotes et usines commerciales) pour 34 000 t d'hydroxyde de lithium par an, de quoi équiper 700 000 batteries de voiture."
+ },
+ {
+  "id": "wnn-orano-2023",
+  "type": "presse",
+  "auteur": "World Nuclear News",
+  "date": "2023-10-19",
+  "titre": "Orano to expand capacity of French enrichment plant",
+  "url": "https://world-nuclear-news.org/articles/orano-to-expand-capacity-of-french-enrichment-plan",
+  "apport": "Extension de Georges Besse II : 1,7 Md€ pour 2,5 millions d'UTS de plus (+30 %), production à partir de 2028, pour remplacer l'enrichissement russe."
+ },
+ {
+  "id": "gouv-fmc-2023",
+  "type": "institution",
+  "auteur": "Ministère de la Transition écologique",
+  "date": "2023-05-11",
+  "titre": "France 2030 : lancement d'un fonds d'investissement dédié aux minerais et métaux",
+  "url": "https://www.ecologie.gouv.fr/presse/france-2030-gouvernement-annonce-lancement-dun-fonds-dinvestissement-dedie-aux-minerais",
+  "apport": "500 M€ de l'État pour un fonds de 2 Md€ géré par InfraVia : prises de participation minoritaires dans l'extraction, le raffinage et le recyclage, contre des contrats d'approvisionnement."
+ },
+ {
+  "id": "p-verkor-2024",
+  "type": "presse",
+  "auteur": "L'Info durable (AFP)",
+  "date": "2024-05-24",
+  "titre": "Batteries électriques : Verkor boucle le financement de sa gigafactory de Dunkerque",
+  "url": "https://www.linfodurable.fr/batteries-electriques-verkor-boucle-le-financement-de-sa-gigafactory-de-dunkerque-45485",
+  "apport": "Plus de 3 Md€ au total pour la première gigafactory et le centre d'innovation ; capacité initiale de 16 GWh par an."
+ },
+ {
+  "id": "fn-2026",
+  "type": "presse",
+  "auteur": "FN Browning Group (communiqué)",
+  "date": "2026-08-05",
+  "titre": "Small-calibre ammunition: France rebuilds a sovereign supply chain with FN Browning Group",
+  "url": "https://fnherstal.com/en/news/small-calibre-ammunition-france-rebuilds-a-sovereign-supply-chain-with-fn-browning-group/",
+  "apport": "Contrat de 15 ans ; usine d'assemblage à Clérieux (Drôme) ; plusieurs dizaines de millions de cartouches de 5,56 et 7,62 mm par an ; la DGA finance les machines. Montant non publié."
+ },
+ {
+  "id": "dn-eurenco-2024",
+  "type": "presse",
+  "auteur": "Defense News",
+  "date": "2024-04-11",
+  "titre": "France to spend $540 million on artillery propellant production",
+  "url": "https://defensenews.com/global/europe/2024/04/11/france-to-spend-540-million-on-artillery-propellant-production",
+  "apport": "Eurenco investit 500 M€ à Bergerac pour refaire de la poudre, arrêtée en 2007 : 1 200 t par an, soit 500 000 charges modulaires. La production d'obus dépendait de la poudre suédoise."
+ },
+ {
+  "id": "p-carbon-2026",
+  "type": "presse",
+  "auteur": "L'Info durable (AFP)",
+  "date": "2026-05-19",
+  "titre": "Abandon d'un projet de giga-usine photovoltaïque à Fos-sur-Mer",
+  "url": "https://www.linfodurable.fr/abandon-dun-projet-de-giga-usine-photovoltaique-fos-sur-mer-56230",
+  "apport": "Carbon renonce à son usine de 1,5 Md€ (5 GW de panneaux par an) faute de « visibilité » sur un marché européen protégé."
+ },
+ {
+  "id": "lcp-lpm-2023",
+  "type": "presse",
+  "auteur": "LCP",
+  "date": "2023-06-05",
+  "titre": "Loi de programmation militaire 2024-2030 : les points clés du texte",
+  "url": "https://lcp.fr/actualites/loi-de-programmation-militaire-2024-2030-les-points-cles-du-texte-193256",
+  "apport": "413 Md€ sur 2024-2030, dont 16 Md€ pour les stocks de munitions, 5 Md€ pour les drones et robots, 5 Md€ pour la défense sol-air, 4 Md€ pour le cyber."
+ },
+ {
+  "id": "p-sandoz-2024",
+  "type": "presse",
+  "auteur": "American Pharmaceutical Review",
+  "date": "2024-03-21",
+  "titre": "Sandoz opens new antibiotic production facility in Austria",
+  "url": "https://www.americanpharmaceuticalreview.com/1315-News/612059-Sandoz-Opens-New-Antibiotic-Production-Facility-in-Austria/",
+  "apport": "200 M€ à Kundl (Autriche), dernière chaîne européenne intégrée de pénicilline : +20 % de capacité, 240 millions de boîtes par an."
+ },
+ {
+  "id": "p-novo-2023",
+  "type": "presse",
+  "auteur": "Le Quotidien du pharmacien",
+  "date": "2023-11-23",
+  "titre": "Novo Nordisk investit 2,1 milliards d'euros sur son site de Chartres",
+  "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/industrie/novo-nordisk-investit-21-milliards-deuros-sur-son-site-de-chartres",
+  "apport": "Investissement de 2,1 Md€ du groupe danois dans son usine de Chartres (traitements du diabète et de l'obésité)."
+ },
+ {
+  "id": "p-crolles-2023",
+  "type": "presse",
+  "auteur": "Siècle Digital",
+  "date": "2023-06-06",
+  "titre": "L'État accorde 2,9 milliards d'euros d'aides à l'usine de STMicroelectronics et GlobalFoundries",
+  "url": "https://siecledigital.fr/2023/06/06/letat-accorde-29-milliards-deuros-daides-a-lusine-de-stmicroelectronics-et-globalfoundries/",
+  "apport": "Usine de Crolles : 7,5 Md€ dont 2,9 Md€ d'aide publique (France 2030), 620 000 plaques de silicium par an visées en 2028."
+ },
+ {
+  "id": "p-cre-boucliers-2024",
+  "type": "presse",
+  "auteur": "L'Info durable (AFP, d'après la CRE)",
+  "date": "2024-07-24",
+  "titre": "Les boucliers gaz/électricité ont coûté 20,4 milliards d'euros en deux ans",
+  "url": "https://www.linfodurable.fr/les-boucliers-gazelectricite-ont-coute-204-milliards-deuros-en-deux-ans-gendarme-de-lenergie-46321",
+  "apport": "Coût net des boucliers tarifaires 2022-2023 : 20,4 Md€ (26,3 Md€ bruts, dont 21,5 Md€ pour l'électricité et 4,8 Md€ pour le gaz)."
+ },
+ {
+  "id": "lcp-masques-2020",
+  "type": "presse",
+  "auteur": "LCP (auditions de la commission d'enquête de l'Assemblée)",
+  "date": "2020-06-18",
+  "titre": "Pourquoi l'État n'a (presque) pas renouvelé ses stocks de masques pendant dix ans",
+  "url": "https://lcp.fr/actualites/pourquoi-l-etat-n-a-presque-pas-renouvele-ses-stocks-de-masques-pendant-dix-ans-27238",
+  "apport": "Un milliard de masques chirurgicaux en stock avant 2009, 102,5 millions conformes début 2020 ; une commande de 100 millions de masques coûtait environ 3,2 M€. Les FFP2 ont quitté le stock d'État après 2011."
+ },
+ {
+  "id": "p-asn-2024",
+  "type": "presse",
+  "auteur": "Solutions numériques",
+  "date": "2024-11-07",
+  "titre": "Alcatel Submarine Networks passe sous contrôle de l'État",
+  "url": "https://www.solutions-numeriques.com/alcatel-submarine-networks-passe-sous-controle-de-letat/",
+  "apport": "L'État rachète 80 % d'ASN à Nokia pour une valeur d'entreprise de 350 M€, au nom de la souveraineté numérique."
+ },
+ {
+  "id": "bei-ecotitanium-2017",
+  "type": "institution",
+  "auteur": "Banque européenne d'investissement",
+  "date": "2017-09-15",
+  "titre": "La BEI finance la première usine de titane aéronautique par recyclage en Europe",
+  "url": "https://www.eib.org/fr/press/all/2017-244-feis-la-bei-finance-la-premiere-usine-de-titane-aeronautique-par-recyclage-en-europe",
+  "apport": "EcoTitanium (Issoire) : 48 M€ d'investissement, dont 30 M€ prêtés par la BEI, pour plusieurs milliers de tonnes de lingots de titane recyclé par an."
+ },
+ {
+  "id": "p-metlen-2025",
+  "type": "presse",
+  "auteur": "Kitco (dépêche Reuters)",
+  "date": "2025-03-27",
+  "titre": "Greece's Metlen sees gallium production at 50t in 2028, enough to cover EU needs",
+  "url": "https://www.kitco.com/news/off-the-wire/2025-03-27/greeces-metlen-sees-gallium-production-50t-2028-enough-cover-eu-needs",
+  "apport": "300 M€ pour extraire 50 t de gallium par an à partir de 2028, de quoi couvrir la demande de l'UE."
+ },
+ {
+  "id": "localtis-anssi-2025",
+  "type": "presse",
+  "auteur": "Banque des Territoires (Localtis)",
+  "date": "2025-06-04",
+  "titre": "Devant les sénateurs, l'Anssi souligne le coût de la migration vers des solutions souveraines",
+  "url": "https://www.banquedesterritoires.fr/devant-les-senateurs-lanssi-souligne-le-cout-de-la-migration-vers-des-solutions-souveraines",
+  "apport": "Le directeur de l'ANSSI juge la migration des administrations faisable, mais coûteuse : « un à deux ans de travail ». L'écosystème européen est désormais « mature »."
+ },
+ {
+  "id": "p-tarbes-2025",
+  "type": "presse",
+  "auteur": "Médias24 (AFP)",
+  "date": "2025-03-17",
+  "titre": "Aux Forges de Tarbes, les commandes européennes dopent la fabrication d'obus",
+  "url": "https://medias24.com/agence-presse/aux-forges-de-tarbes-les-commandes-europeennes-dopent-la-fabrication-dobus/",
+  "apport": "Production de corps d'obus de 155 mm presque à l'arrêt en 2022, environ 60 000 en 2024, objectif de 15 000 par mois fin 2025. L'Europe produit près de 2 millions d'obus par an, contre 300 000 à 400 000 avant la guerre."
+ },
+ {
+  "id": "cnrs-tr-2025",
+  "type": "institution",
+  "auteur": "CNRS, expertise scientifique collective (P. Ricard, C. Levard, R. Garcier)",
+  "date": "2025-11",
+  "titre": "Vers une utilisation responsable des terres rares tout au long de leur cycle de vie (synthèse)",
+  "url": "https://www.cnrs.fr/sites/default/files/page/2026-02/Synthese_expertise_Terres_rares_nov2025.pdf",
+  "apport": "L'extraction mondiale est dominée par la Chine, et la plupart des terres rares extraites partent y être raffinées. La France n'a pas de gisement exploitable à court terme."
+ },
+ {
+  "id": "usgs-ga",
+  "type": "donnees",
+  "auteur": "USGS, Mineral Commodity Summaries 2026",
+  "date": "2026-02",
+  "titre": "Gallium",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf",
+  "apport": "La Chine assure 99 % de la production primaire mondiale de gallium. En novembre 2025, elle a levé pour un an son interdiction d'exporter vers les États-Unis."
+ },
+ {
+  "id": "usgs-ge",
+  "type": "donnees",
+  "auteur": "USGS, Mineral Commodity Summaries 2026",
+  "date": "2026-02",
+  "titre": "Germanium",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-germanium.pdf",
+  "apport": "La Chine reste le premier producteur et exportateur de germanium ; licences depuis août 2023, interdiction vers les États-Unis en décembre 2024."
+ },
+ {
+  "id": "usgs-sb",
+  "type": "donnees",
+  "auteur": "USGS, Mineral Commodity Summaries 2026",
+  "date": "2026-02",
+  "titre": "Antimony",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-antimony.pdf",
+  "apport": "Chine : 40 000 t sur 110 000 t extraites dans le monde en 2025. Le prix moyen de 2025 est plus de deux fois celui de 2024."
+ },
+ {
+  "id": "usgs-w",
+  "type": "donnees",
+  "auteur": "USGS, Mineral Commodity Summaries 2026",
+  "date": "2026-02",
+  "titre": "Tungsten",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tungsten.pdf",
+  "apport": "Chine : 67 000 t sur 85 000 t extraites en 2025. À Rotterdam, le concentré passe de 266 à 551 dollars l'unité en 2025."
+ },
+ {
+  "id": "usgs-ree",
+  "type": "donnees",
+  "auteur": "USGS, Mineral Commodity Summaries 2026",
+  "date": "2026-02",
+  "titre": "Rare earths",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf",
+  "apport": "Chine : 270 000 t sur 390 000 t extraites en 2025. Les contrôles d'octobre 2025 ont été suspendus pour un an en novembre."
+ },
+ {
+  "id": "usgs-gr",
+  "type": "donnees",
+  "auteur": "USGS, Mineral Commodity Summaries 2026",
+  "date": "2026-02",
+  "titre": "Graphite (natural)",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-graphite.pdf",
+  "apport": "En 2025, la Chine a produit environ 82 % du graphite naturel mondial."
+ },
+ {
+  "id": "usgs-mg",
+  "type": "donnees",
+  "auteur": "USGS, Mineral Commodity Summaries 2026",
+  "date": "2026-02",
+  "titre": "Magnesium metal",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-magnesium-metal.pdf",
+  "apport": "Fonderies de magnésium : Chine 950 000 t sur 1,1 million de tonnes dans le monde en 2025."
+ },
+ {
+  "id": "usgs-phos",
+  "type": "donnees",
+  "auteur": "USGS, Mineral Commodity Summaries 2026",
+  "date": "2026-02",
+  "titre": "Phosphate rock",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-phosphate.pdf",
+  "apport": "Réserves : Maroc 50 milliards de tonnes sur 73 milliards dans le monde."
+ },
+ {
+  "id": "usgs-potash",
+  "type": "donnees",
+  "auteur": "USGS, Mineral Commodity Summaries 2026",
+  "date": "2026-02",
+  "titre": "Potash",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-potash.pdf",
+  "apport": "Production 2025 (milliers de tonnes K2O) : Canada 15 000, Russie 10 000, Chine 6 300, Biélorussie 6 000, monde 49 000."
+ },
+ {
+  "id": "ansm-decret",
+  "type": "institution",
+  "auteur": "ANSM",
+  "date": "2021",
+  "titre": "Informations relatives au décret n° 2021-349 du 30 mars 2021",
+  "url": "https://ansm.sante.fr/page/informations-relatives-au-decret-ndeg-2021-349-du-30-03-2021",
+  "apport": "Les industriels doivent constituer un stock de sécurité pour tous les médicaments d'intérêt thérapeutique majeur ; entrée en vigueur le 1er septembre 2021."
+ },
+ {
+  "id": "rte-2025",
+  "type": "institution",
+  "auteur": "RTE",
+  "date": "2026-01-02",
+  "titre": "Bilan électrique 2025, premières tendances",
+  "url": "https://assets.rte-france.com/analyse-et-donnees/2026-01/2026-01-02-bilan-electrique-2025-premieres-tendances.pdf",
+  "apport": "Solde exportateur net de 92 TWh en 2025, le plus élevé de l'histoire, après 89 TWh en 2024."
+ },
+ {
+  "id": "aist-acier-2025",
+  "type": "presse",
+  "auteur": "AIST (Association for Iron & Steel Technology)",
+  "date": "2025-05",
+  "titre": "OECD: Excess Steel Capacity Could Reach 721 MMT by 2027",
+  "url": "https://www.aist.org/oecd-excess-steel-capacity-could-reach-721-mmt-by-2027",
+  "apport": "Reprise des projections de l'OCDE : la surcapacité mondiale d'acier pourrait dépasser 700 millions de tonnes en 2027."
+ },
+ {
+  "id": "greenpeace-u-2025",
+  "type": "ong",
+  "auteur": "Greenpeace France, d'après les données des douanes françaises",
+  "date": "2025-03-03",
+  "titre": "Actualisation des données uranium pour 2024",
+  "url": "https://cdn.greenpeace.fr/site/uploads/2025/10/Actualisation-Uranium-pour-2024.pdf",
+  "apport": "En 2024, la Russie a fourni 24,4 % de l'uranium enrichi importé par la France ; le Kazakhstan 30,3 % et l'Ouzbékistan 17,4 % de l'uranium naturel."
+ },
+ {
+  "id": "p-ure-russie-2025",
+  "type": "presse",
+  "auteur": "The Defense Post (dépêche AFP)",
+  "date": "2025-11-17",
+  "titre": "Greenpeace says French uranium being sent to Russia",
+  "url": "https://thedefensepost.com/2025/11/17/greenpeace-french-uranium-russia/amp/",
+  "apport": "Rosatom dispose, à Seversk en Sibérie, de la seule installation au monde capable de traiter l'uranium de retraitement ; contrat EDF-Tenex de 600 M€ signé en 2018."
+ },
+ {
+  "id": "asil-2021",
+  "type": "expertise",
+  "auteur": "American Society of International Law (I. A. Ibrahim)",
+  "date": "2021-06-01",
+  "titre": "Overview of Export Restrictions on COVID-19 Vaccines and their Components",
+  "url": "https://asil.org/node/20667",
+  "apport": "Les États-Unis ont restreint l'exportation de matières premières clés pour la fabrication des vaccins, au nom du Defense Production Act ; l'UE a soumis ses propres exportations à autorisation en janvier 2021."
+ },
+ {
+  "id": "p-airbus-ti-2022",
+  "type": "presse",
+  "auteur": "BNN Bloomberg",
+  "date": "2022-04-12",
+  "titre": "Airbus defends Russian titanium use, says sanctions won't work",
+  "url": "https://www.bnnbloomberg.ca/airbus-defends-russian-titanium-use-says-sanctions-won-t-work-1.1751215",
+  "apport": "La Russie fournit environ la moitié des besoins d'Airbus en titane, directement ou via ses fournisseurs."
+ },
+ {
+  "id": "aie-cobalt-2025",
+  "type": "institution",
+  "auteur": "Agence internationale de l'énergie (fiche de politique publique)",
+  "date": "2025-02-22",
+  "titre": "Temporary suspension of cobalt export from the Democratic Republic of Congo",
+  "url": "https://www.iea.org/policies/28969-temporary-suspension-of-cobalt-export-from-the-democratic-republic-of-congo",
+  "apport": "Décision de l'ARECOMS du 22 février 2025 ; suspension prolongée jusqu'au 15 octobre 2025, puis quotas d'exportation à partir du 16 octobre."
+ },
+ {
+  "id": "aie-nickel-2020",
+  "type": "institution",
+  "auteur": "Agence internationale de l'énergie (fiche de politique publique)",
+  "date": "2020",
+  "titre": "Prohibition of the export of nickel ore (Indonésie)",
+  "url": "https://www.iea.org/policies/16084",
+  "apport": "Toute exportation de minerai de nickel est interdite depuis janvier 2020, pour forcer la transformation sur place. L'UE a porté plainte devant l'OMC."
+ },
+ {
+  "id": "p-eagle-s-2025",
+  "type": "presse",
+  "auteur": "Baird Maritime",
+  "date": "2025-06-13",
+  "titre": "Finland concludes Baltic Sea cable damage probe, suspects tanker crew",
+  "url": "https://www.bairdmaritime.com/security/incidents/piracy/finland-concludes-baltic-sea-cable-damage-probe-suspects-tanker-crew",
+  "apport": "Le pétrolier Eagle S est soupçonné d'avoir rompu le câble électrique Estlink 2 et quatre câbles internet en décembre 2024 en raclant le fond avec son ancre."
+ },
+ {
+  "id": "lcp-pret-2023",
+  "type": "presse",
+  "auteur": "LCP",
+  "date": "2023-05-24",
+  "titre": "Prêt bancaire russe au RN : Marine Le Pen dément toute contrepartie",
+  "url": "https://lcp.fr/actualites/pret-bancaire-russe-au-rn-marine-le-pen-dement-toute-contrepartie-et-denonce-une",
+  "apport": "Prêt de 9,4 millions d'euros contracté en 2014 auprès d'une banque tchéco-russe, objet de questions de la commission d'enquête sur les ingérences étrangères."
+ },
+ {
+  "id": "f35-lockheed",
+  "type": "donnees",
+  "auteur": "Lockheed Martin",
+  "date": "2026",
+  "titre": "F-35 Global Enterprise",
+  "url": "https://www.f35.com/f35/global-enterprise.html",
+  "apport": "Le F-35 est « le choix de l'Amérique et de 19 nations alliées », dont treize européennes."
+ },
+ {
+  "id": "dassault-ra-2025",
+  "type": "donnees",
+  "auteur": "Dassault Aviation, rapport annuel 2025",
+  "date": "2026",
+  "titre": "Rafale : clients export",
+  "url": "https://dassault-aviation.publispeak.com/2025-annual-report/doc/article/19/",
+  "apport": "En Europe, trois clients : la Grèce (le premier), la Croatie (2021) et la Serbie (2024)."
+ },
+ {
+  "id": "dieselnet-mg-2021",
+  "type": "presse",
+  "auteur": "DieselNet (alerte de l'ACEA et des industriels européens)",
+  "date": "2021-10-22",
+  "titre": "European industry warns of magnesium shortage",
+  "url": "https://dieselnet.com/news/2021/10acea.php",
+  "apport": "« L'Europe devrait épuiser ses stocks de magnésium d'ici fin novembre » ; l'UE dépend de la Chine pour 95 % de son magnésium."
+ },
+ {
+  "id": "aie-reseaux-2025",
+  "type": "institution",
+  "auteur": "Agence internationale de l'énergie",
+  "date": "2025",
+  "titre": "Building the Future Transmission Grid",
+  "url": "https://www.iea.org/reports/building-the-future-transmission-grid/executive-summary",
+  "apport": "Il faut désormais jusqu'à quatre ans pour obtenir un gros transformateur ; les délais ont presque doublé depuis 2021."
+ },
+ {
+  "id": "p-pcb-2025",
+  "type": "presse",
+  "auteur": "Taiwan News",
+  "date": "2025-12-09",
+  "titre": "China remains world's dominant PCB maker",
+  "url": "https://www.taiwannews.com.tw/en/news/6261314",
+  "apport": "La Chine reste le premier fabricant mondial de circuits imprimés, avec 34,9 % de la production mondiale en 2024 ; Taïwan est deuxième."
+ },
+ {
+  "id": "p-mlcc-2025",
+  "type": "presse",
+  "auteur": "Passive Components Blog (EPCI)",
+  "date": "2025-06-16",
+  "titre": "China's MLCC makers reach 10% market share",
+  "url": "https://passive-components.eu/chinas-mlcc-makers-reach-10-market-share/",
+  "apport": "Murata (Japon) mène le marché des condensateurs céramiques avec plus de 40 %, Samsung Electro-Mechanics (Corée) 24 %, les fabricants chinois 10 %."
+ },
+ {
+  "id": "statcounter-os",
+  "type": "donnees",
+  "auteur": "StatCounter",
+  "date": "2026-09",
+  "titre": "Mobile operating system market share, France",
+  "url": "https://gs.statcounter.com/os-market-share/mobile/france",
+  "apport": "Septembre 2026 : Android 65,4 %, iOS 34,6 %."
+ },
+ {
+  "id": "statcounter-vendor",
+  "type": "donnees",
+  "auteur": "StatCounter",
+  "date": "2026-09",
+  "titre": "Mobile vendor market share, France",
+  "url": "https://gs.statcounter.com/vendor-market-share/mobile/france",
+  "apport": "Septembre 2026 : Samsung 34,7 %, Apple 34,6 %, Xiaomi 14,7 %."
+ },
+ {
+  "id": "esante-cyber-2024",
+  "type": "institution",
+  "auteur": "Agence du numérique en santé (CERT Santé)",
+  "date": "2025",
+  "titre": "Observatoire des incidents de sécurité des systèmes d'information, secteurs santé et médico-social, 2024",
+  "url": "https://esante.gouv.fr/sites/default/files/media/document/observatoire-incidents-cybersecurite-sante-2024.pdf",
+  "apport": "749 incidents déclarés en 2024 (581 en 2023), 40 attaques par rançongiciel ; 230 signalements d'établissements passés en mode dégradé."
+ },
+ {
+  "id": "p-pac-2023",
+  "type": "presse",
+  "auteur": "L'Info durable (AFP)",
+  "date": "2023-09-25",
+  "titre": "Climat/Industrie : le défi de bâtir une filière française des pompes à chaleur",
+  "url": "https://www.linfodurable.fr/climatindustrie-le-defi-de-batir-une-filiere-francaise-des-pompes-chaleur-41236",
+  "apport": "Aucun compresseur n'est fabriqué en France, ni même en Europe ; objectif présidentiel d'un million de pompes à chaleur produites en France par an d'ici 2027."
+ },
+ {
+  "id": "insee-ciment-2018",
+  "type": "institution",
+  "auteur": "Insee (Insee Focus n° 121)",
+  "date": "2018-07-25",
+  "titre": "La production de ciments en France : une industrie très concentrée",
+  "url": "https://www.insee.fr/fr/statistiques/3589283",
+  "apport": "Douze entreprises ; cinq réalisent 95 % de la production. Les importations viennent pour 65 % de quatre pays voisins."
+ },
+ {
+  "id": "vdw-mo-2020",
+  "type": "donnees",
+  "auteur": "VDW (fédération allemande de la machine-outil), pour le salon AMB",
+  "date": "2020",
+  "titre": "Le marché français de la machine-outil (chiffres)",
+  "url": "https://www.messe-stuttgart.de/amb/fileadmin/media/OnePager/Frankreich/amb-20-vdw-charts-france.pdf",
+  "apport": "Importations françaises de machines-outils : environ 1 Md€ par an ; principaux fournisseurs l'Allemagne (33 %), la Belgique, l'Italie, la Suisse et le Japon."
+ },
+ {
+  "id": "ntn-snr-2009",
+  "type": "donnees",
+  "auteur": "NTN-SNR, magazine du groupe",
+  "date": "2009-03",
+  "titre": "SNR Roulements, Annecy",
+  "url": "https://ntn-snr.com/sites/default/files/2017-07/omag2_fr.pdf",
+  "apport": "« 2007 enfin, NTN entre au capital de SNR » : le roulementier d'Annecy passe dans le giron du groupe japonais."
+ },
+ {
+  "id": "senat-qe-dumas-2024",
+  "type": "parlement",
+  "auteur": "Sénat, question écrite (Catherine Dumas) et réponse du ministère",
+  "date": "2024-10-03",
+  "titre": "Risques de pénuries de dispositifs médicaux",
+  "url": "https://www.senat.fr/questions/base/2024/qSEQ241000995.html",
+  "apport": "La sénatrice alerte sur « les tensions et les risques de pénuries des dispositifs médicaux en France et en Europe », dont les tests RT-PCR ; le ministère renvoie à une feuille de route contre les pénuries."
+ },
+ {
+  "id": "ign-cartes-2024",
+  "type": "institution",
+  "auteur": "IGN",
+  "date": "2024-05-15",
+  "titre": "Dossier de presse : l'application Cartes IGN",
+  "url": "https://www.ign.fr/files/default/2024-05/DP-APPLI-CARTES-IGN-MAI-2024.pdf",
+  "apport": "Une application publique et gratuite pour explorer le territoire « sans dépendre de représentations biaisées d'acteurs économiques comme les GAFAM »."
+ },
+ {
+  "id": "localtis-google-2018",
+  "type": "presse",
+  "auteur": "Banque des Territoires (Localtis)",
+  "date": "2018-11-28",
+  "titre": "Diminuer la dépendance à Google, un défi de longue haleine pour les collectivités",
+  "url": "https://www.banquedesterritoires.fr/diminuer-la-dependance-google-un-defi-de-longue-haleine-pour-les-collectivites",
+  "apport": "Après la hausse des tarifs de Google Maps, préfectures et services d'incendie basculent vers l'IGN ou OpenStreetMap ; la migration reste difficile."
+ },
+ {
+  "id": "3ds-chiffres",
+  "type": "donnees",
+  "auteur": "Dassault Systèmes",
+  "date": "2026",
+  "titre": "Chiffres clés et questions fréquentes",
+  "url": "https://www.3ds.com/fr/about/company/facts-and-faqs",
+  "apport": "Plus de 390 000 clients dans 155 pays ; 6,24 Md€ de chiffre d'affaires en 2025 ; CATIA, première marque du groupe."
+ },
+ {
+  "id": "cde-charbon-2025",
+  "type": "expertise",
+  "auteur": "Connaissance des Énergies",
+  "date": "2025-07-29",
+  "titre": "D'où vient le charbon importé en France ?",
+  "url": "https://www.connaissancedesenergies.org/questions-et-reponses-energies/dou-vient-le-charbon-importe-en-france",
+  "apport": "L'extraction de charbon s'est arrêtée en France en 2004. L'Australie et les États-Unis ont fourni la moitié des importations en 2023 ; la sidérurgie consomme 62 % du charbon."
+ },
+ {
+  "id": "ce-engrais-2025",
+  "type": "institution",
+  "auteur": "Commission européenne (Access2Markets)",
+  "date": "2025-07-23",
+  "titre": "L'UE augmente les droits de douane sur les importations russes et biélorusses de produits agricoles et d'engrais",
+  "url": "https://trade.ec.europa.eu/access-to-markets/fr/news/lue-augmente-les-droits-de-douane-sur-les-importations-russes-et-bielorusses-de-produits-agricoles",
+  "apport": "Droits applicables le 1er juillet 2025 : 6,5 % sur les engrais russes et biélorusses, plus un prélèvement qui monte progressivement jusqu'à 430 € la tonne en 2028."
+ },
+ {
+  "id": "cde-niger-2024",
+  "type": "presse",
+  "auteur": "Connaissance des Énergies (dépêche AFP)",
+  "date": "2024-06-21",
+  "titre": "Retrait d'un permis d'exploitation d'uranium au Niger : des conséquences limitées pour la filière nucléaire française",
+  "url": "https://www.connaissancedesenergies.org/afp/retrait-dun-permis-dexploitation-duranium-au-niger-des-consequences-limitees-pour-la-filiere-nucleaire-francaise-240621",
+  "apport": "Selon Orano, le stock d'uranium naturel correspond à deux ans de production d'électricité nucléaire. Le Niger a été le troisième fournisseur de la France (19 %) entre 2005 et 2020."
+ },
+ {
+  "id": "usgs-pgm",
+  "type": "donnees",
+  "auteur": "USGS, Mineral Commodity Summaries 2026",
+  "date": "2026-02",
+  "titre": "Platinum-group metals",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-platinum-group.pdf",
+  "apport": "Production 2025 (kg) : palladium, Russie 84 000 et Afrique du Sud 70 000 sur 190 000 ; platine, Afrique du Sud 120 000 et Russie 20 000 sur 170 000."
+ },
+ {
+  "id": "p-dram-2025",
+  "type": "presse",
+  "auteur": "Evertiq (d'après TrendForce)",
+  "date": "2025-11-26",
+  "titre": "Global DRAM revenue jumps 30.9% in 3Q25",
+  "url": "https://evertiq.com/design/2025-11-26-global-dram-revenue-jumps-309-in-3q25",
+  "apport": "Parts du marché mondial des mémoires DRAM au 3e trimestre 2025 : SK hynix 33,2 %, Samsung 32,6 %, Micron 25,7 %."
+ },
+ {
+  "id": "afnic-2025",
+  "type": "institution",
+  "auteur": "Afnic",
+  "date": "2026-03-17",
+  "titre": "Bilan 2025 du .fr",
+  "url": "https://www.afnic.fr/wp-media/uploads/2026/03/260317_CP_Afnic_Bilan2025FR.pdf",
+  "apport": "4 319 120 noms de domaine en .fr au 31 décembre 2025 ; l'Afnic est l'office d'enregistrement désigné par l'État pour le .fr."
  }
 ]

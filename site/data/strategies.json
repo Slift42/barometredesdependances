@@ -1,5 +1,5 @@
 {
- "intro": "Les leviers ne tombent pas du ciel. Chaque puissance a écrit sa stratégie : discours, lois, doctrines. Les lire permet de comprendre ce qui va arriver, et où se trouvent leurs propres points faibles.",
+ "intro": "Pékin, Moscou et Washington ne cachent pas leurs intentions. Elles sont écrites noir sur blanc, dans des discours, des lois, des stratégies officielles. Il suffit de les lire, et de les prendre au mot.",
  "puissances": [
   {
    "code": "CN",
@@ -28,7 +28,7 @@
      "titre": "Règlement sur la gestion des terres rares",
      "date": "2024-10-01",
      "citation": "« Les ressources en terres rares appartiennent à l'État. »",
-     "lecture": "Quotas, entreprises désignées, traçabilité de chaque lot : l'État chinois sait où va chaque gramme, et peut fermer le robinet à volonté.",
+     "lecture": "L'État chinois impose des quotas, désigne les entreprises autorisées et trace chaque lot. Il sait où va chaque gramme, et peut couper l'approvisionnement quand il le veut.",
      "refs": [
       "aie-tr-2024"
      ]

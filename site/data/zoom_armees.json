@@ -1,49 +1,73 @@
 {
- "titre": "Zoom sur nos armées",
- "intro": "La mission parlementaire d'avril 2026 a dressé la liste de ce qui manque à nos forces. Ce ne sont pas des produits qu'on achète au supermarché, mais ce sont des robinets.",
+ "titre": "Les dépendances de nos armées",
+ "intro": "En avril 2026, une mission de l'Assemblée nationale a dressé la liste de ce qui manque à nos forces. Pour chaque équipement, nous indiquons le pays fournisseur et le niveau de dépendance.",
  "refs": [
   "an-armees-2026"
  ],
  "items": [
   {
    "quoi": "Munitions de petit calibre",
-   "constat": "Dernier fabricant français fermé en 1999 ; cartouches de 5,56 mm achetées en grande partie à Israël.",
-   "lv": 5
-  },
-  {
-   "quoi": "Fusil d'assaut",
-   "constat": "L'usine du FAMAS a fermé en 2001 ; il est remplacé par le HK416 allemand.",
-   "lv": 4
+   "constat": "Le dernier fabricant français a fermé en 1999, et les cartouches de 5,56 mm sont achetées en grande partie à Israël.",
+   "lv": 5,
+   "pays": [
+    "IL"
+   ]
   },
   {
    "quoi": "Drone de moyenne altitude",
-   "constat": "Un seul modèle en service : le Reaper américain.",
-   "lv": 5
+   "constat": "Un seul modèle est en service : le Reaper américain.",
+   "lv": 5,
+   "pays": [
+    "US"
+   ]
   },
   {
    "quoi": "Catapultes du porte-avions",
-   "constat": "Américaines sur le Charles-de-Gaulle, et encore sur le futur porte-avions de 2038.",
-   "lv": 5
-  },
-  {
-   "quoi": "Satellites d'alerte et de renseignement",
-   "constat": "Dépendance partielle ou totale aux satellites américains ; OneWeb compte environ 650 satellites contre 10 000 pour Starlink.",
-   "lv": 4
+   "constat": "Les catapultes du Charles-de-Gaulle sont américaines, et celles du futur porte-avions de 2038 le seront aussi.",
+   "lv": 5,
+   "pays": [
+    "US"
+   ]
   },
   {
    "quoi": "Informatique du ministère",
-   "constat": "85 % des achats de matériel auprès de dix fournisseurs étrangers ; accord-cadre Microsoft depuis 2008.",
-   "lv": 5
+   "constat": "Dix fournisseurs étrangers assurent 85 % des achats de matériel, et un accord-cadre lie le ministère à Microsoft depuis 2008.",
+   "lv": 5,
+   "pays": [
+    "US"
+   ]
+  },
+  {
+   "quoi": "Fusil d'assaut",
+   "constat": "L'usine du FAMAS a fermé en 2001, et l'armée l'a remplacé par le HK416 allemand.",
+   "lv": 4,
+   "pays": [
+    "DE"
+   ]
+  },
+  {
+   "quoi": "Satellites d'alerte et de renseignement",
+   "constat": "Nos armées dépendent en partie ou en totalité de satellites américains. OneWeb compte environ 650 satellites, contre 10 000 pour Starlink.",
+   "lv": 4,
+   "pays": [
+    "US"
+   ]
   },
   {
    "quoi": "Lance-roquettes unitaires",
-   "constat": "Fin de vie en 2027, aucun successeur français ; un système indien est à l'étude.",
-   "lv": 4
+   "constat": "Les lance-roquettes, de conception américaine, arrivent en fin de vie en 2027 sans successeur français ; un système indien est à l'étude.",
+   "lv": 4,
+   "pays": [
+    "US"
+   ]
   },
   {
    "quoi": "Renseignement intérieur",
-   "constat": "Contrat de la DGSI avec l'américain Palantir.",
-   "lv": 4
+   "constat": "La DGSI travaille sous contrat avec l'américain Palantir.",
+   "lv": 4,
+   "pays": [
+    "US"
+   ]
   }
  ]
 }

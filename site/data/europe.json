@@ -5,7 +5,8 @@
   "texte": "La Commission européenne a passé au crible plus de 5 000 produits importés : 137 sont très dépendants dans les écosystèmes sensibles. Terres rares, magnésium et panneaux solaires reposent sur une production concentrée en Chine.",
   "refs": [
    "ce-dependances-2021"
-  ]
+  ],
+  "theme": "Matières et industrie"
  },
  {
   "chiffre": "10",
@@ -13,7 +14,8 @@
   "texte": "La Cour des comptes européenne constate une dépendance totale pour dix matières critiques et une transformation des terres rares réalisée à 100 % hors de l'UE. Les objectifs 2030 (10 % extraits, 40 % transformés, 25 % recyclés en Europe) ne seront pas atteints.",
   "refs": [
    "cce-crm-2026"
-  ]
+  ],
+  "theme": "Matières et industrie"
  },
  {
   "chiffre": "57 %",
@@ -23,7 +25,12 @@
    "ieefa-2026",
    "p-gaz-ue-2026",
    "gmf-2025"
-  ]
+  ],
+  "theme": "Énergie",
+  "jauge": {
+   "v": 57,
+   "lab": "part des États-Unis dans le GNL importé par l'UE en 2025"
+  }
  },
  {
   "chiffre": "264 Md€",
@@ -32,23 +39,36 @@
   "refs": [
    "asteres-2025",
    "draghi-2024"
-  ]
+  ],
+  "theme": "Numérique"
  },
  {
   "chiffre": "11,7 %",
   "titre": "de la production mondiale de puces en 2030",
-  "texte": "La Cour des comptes européenne prévoit 11,7 % de part mondiale en 2030, loin de l'objectif de 20 % du Chips Act. Les grands fondeurs mondiaux ont investi 405 Md€ en quatre ans.",
+  "texte": "La Cour des comptes européenne prévoit une part mondiale de 11,7 % en 2030, loin des 20 % promis. Pendant ce temps, les grands fondeurs mondiaux ont prévu 405 milliards d'euros d'investissements en trois ans.",
   "refs": [
    "cce-puces-2025"
-  ]
+  ],
+  "theme": "Numérique",
+  "jauge": {
+   "v": 11.7,
+   "lab": "part de l'UE dans la production mondiale de puces prévue en 2030 (objectif : 20 %)",
+   "cible": 20
+  }
  },
  {
   "chiffre": "76 %",
   "titre": "des cellules de batteries sont chinoises",
-  "texte": "La Chine détient 76 % de la capacité mondiale de cellules, l'UE 7 %. L'Europe importe 99 % de son graphite naturel.",
+  "texte": "La Chine détient 76 % de la capacité mondiale de production de cellules, l'Union 7 %. Et elle a produit 82 % du graphite naturel du monde en 2025, la matière de chaque anode.",
   "refs": [
-   "cce-batteries-2023"
-  ]
+   "cce-batteries-2023",
+   "usgs-gr"
+  ],
+  "theme": "Matières et industrie",
+  "jauge": {
+   "v": 76,
+   "lab": "part de la Chine dans la capacité mondiale de cellules de batteries"
+  }
  },
  {
   "chiffre": "78 %",
@@ -57,7 +77,12 @@
   "refs": [
    "iris-2023",
    "osw-2023"
-  ]
+  ],
+  "theme": "Défense",
+  "jauge": {
+   "v": 78,
+   "lab": "part des achats d'armement des États membres faits hors de l'UE depuis 2022"
+  }
  },
  {
   "chiffre": "38 %",
@@ -65,7 +90,12 @@
   "texte": "En 2023, Rosatom fournissait 38 % de l'enrichissement et 27 % de la conversion consommés dans l'UE. 19 réacteurs d'Europe centrale et orientale dépendent entièrement de son combustible.",
   "refs": [
    "bruegel-uranium-2025"
-  ]
+  ],
+  "theme": "Énergie",
+  "jauge": {
+   "v": 38,
+   "lab": "part de Rosatom dans l'enrichissement d'uranium consommé dans l'UE en 2023"
+  }
  },
  {
   "chiffre": "0",
@@ -73,6 +103,7 @@
   "texte": "L'UE s'est dotée en 2023 d'un instrument contre la coercition économique. Il n'a jamais été activé, ni contre la Chine ni contre les États-Unis. Le règlement de blocage de 1996 ne couvre toujours ni le Cloud Act ni les sanctions contre la CPI.",
   "refs": [
    "an-tache-2026"
-  ]
+  ],
+  "theme": "Droit et riposte"
  }
 ]

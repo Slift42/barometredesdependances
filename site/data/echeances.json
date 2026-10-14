@@ -2,45 +2,61 @@
  {
   "d": "2026-11-10",
   "titre": "Fin de la suspension des contrôles chinois sur les terres rares",
-  "detail": "Prolongation, rétablissement partiel ou total ?",
+  "detail": "Pékin peut prolonger la suspension, ou rétablir les contrôles en partie ou en totalité.",
   "refs": [
    "p-mining-2026",
    "p-ue-chine-2026"
+  ],
+  "pays": [
+   "CN"
   ]
  },
  {
   "d": "2027-01-15",
   "titre": "Rendez-vous commercial UE-Chine en visioconférence",
-  "detail": "Annoncé pour janvier 2027 ; date exacte non publiée.",
+  "detail": "La rencontre est annoncée pour janvier 2027, mais sa date exacte n'est pas publiée.",
   "refs": [
    "p-ue-chine-2026"
   ],
-  "approx": true
+  "approx": true,
+  "pays": [
+   "CN",
+   "EU"
+  ]
  },
  {
   "d": "2027-02-15",
   "titre": "Fin de la dérogation SecNumCloud pour les projets en cours",
-  "detail": "Dix-huit mois après l'arrêté du 12 août 2026 (calcul).",
+  "detail": "La dérogation prend fin dix-huit mois après l'arrêté du 12 août 2026 (notre calcul).",
   "refs": [
    "p-secnumcloud-2026"
+  ],
+  "pays": [
+   "US"
   ]
  },
  {
   "d": "2027-10-01",
   "titre": "Interdiction du GNL russe dans l'UE",
-  "detail": "Automne 2027 selon le règlement adopté en janvier 2026.",
+  "detail": "Le règlement adopté en janvier 2026 fixe l'interdiction à l'automne 2027.",
   "refs": [
    "p-gaz-ue-2026"
   ],
-  "approx": true
+  "approx": true,
+  "pays": [
+   "RU"
+  ]
  },
  {
   "d": "2029-01-01",
   "titre": "Première production française de cartouches depuis 1999",
-  "detail": "Usine FN Browning de Clérieux (Drôme).",
+  "detail": "L'usine FN Browning de Clérieux, dans la Drôme, doit produire les premières cartouches françaises depuis 1999.",
   "refs": [
    "p-fn-2026"
   ],
-  "approx": true
+  "approx": true,
+  "pays": [
+   "FR"
+  ]
  }
 ]
