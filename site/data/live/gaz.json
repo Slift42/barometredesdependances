@@ -1,10 +1,10 @@
 {
  "source": "GIE AGSI+",
  "pays": "FR",
- "jour_gazier": "2026-10-11",
- "stock_twh": 108.0,
- "remplissage_pct": 87.2,
+ "jour_gazier": "2026-10-12",
+ "stock_twh": 108.2,
+ "remplissage_pct": 87.3,
  "conso_moyenne_twh_j": 1.0,
- "collecte": "2026-10-13T07:38:54+00:00",
+ "collecte": "2026-10-14T07:50:21+00:00",
  "url": "https://agsi.gie.eu/"
 }

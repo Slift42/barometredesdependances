@@ -1,6 +1,30 @@
 {
- "maj": "2026-10-13T07:39+00:00",
+ "maj": "2026-10-14T07:50+00:00",
  "items": [
+  {
+   "id": "db307c822b78",
+   "d": "2026-10-13",
+   "titre": "L'IA, nouveau moteur du cloud souverain - 13/10 - BFM",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObmtXVUdDS3F4b1l6cU9hRVZFNEd6cEJzejJEa0hUQk9BMTRRd1pEM3ZSdFg2Smh1YWRYMkhESThZTjM5a0NvTVdJdnZFMDBzYUJ2Wk5IM0hpX0V5cWhzdzZRZ3NOam1WZXFtUW9ZNXNBaTFZSnRkTk90c2stTm9BY3Z2MXZPQVZ1czQyVEdVaV9kb1ZXRlV3QkVMSzhKU1dIVFhIZGYxd3RuYjI5VTM2Uy1meWRZR2xMd2pKS1BjQVBnZmdyd253T3pfMA?oc=5",
+   "source": "BFM",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "5b262aed456f",
+   "d": "2026-10-13",
+   "titre": "Les importations lettones d’engrais marocains reculent de 65,5 % sur huit mois - برلمان.كوم",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeW1Ha0dwVHZKQmUzYmFjZHhqeHBlUEl2dUJDWDBUUThNalpYWk5idW41ZTBCZjZxS1NtQmFUUnVPc0x2Vm5BM2NKdW5aT1hsX0ZmRjd6ajhVd1Zvd3o4LWs4S2ZjN3U4eXkzdVlZSExHc1BPUm5nMGZOVmszcUNPU0NQdFpTT1NLOWxmdUttV1N0T2pOVzI1ZURVbGoweE41dkE?oc=5",
+   "source": "برلمان.كوم",
+   "type": "presse",
+   "produits": [
+    "azote"
+   ],
+   "auto": true
+  },
   {
    "id": "e2e3275b7a75",
    "d": "2026-10-12",
@@ -15,11 +39,11 @@
    "auto": true
   },
   {
-   "id": "5d71ef378d79",
+   "id": "49199c51a6ee",
    "d": "2026-10-12",
-   "titre": "LightOn dévoile LightOn Suite, sa nouvelle plateforme pour construire des applications IA sur les données de l'entreprise, disponible dès aujourd'hui sur le cloud souverain de Scaleway - TradingView",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmbkJKWEMzWjloNXF0dk9BWk5hcjN4NjlwdGhhWEFBRDVTczFHS3BYeUxvMVdya0tnNlpVaUVTRHRaVHN1dmdYQlh3c0J5NHpNX253dVdxSTRzNV9WamZObW1B?oc=5",
-   "source": "TradingView",
+   "titre": "AWS Coupe son Cloud Souverain du Monde le 24/10 [2026] - shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9uQVRhaFgtekoyR21DVUZkbC1lUkthQUZMTFhMbUFPWUFkWnJPNm5aMGNpX0pFYjJyelRpOGtjcHZ3eW03RmtSWlZOWDE5N2JTTTJBN21iTE1hcHpkNmd0LWJyMUt5SVU0d2NMbmkzR2tQbzBn?oc=5",
+   "source": "shattered.io",
    "type": "presse",
    "produits": [
     "cloud"
@@ -27,11 +51,11 @@
    "auto": true
   },
   {
-   "id": "11b066285457",
+   "id": "5d71ef378d79",
    "d": "2026-10-12",
-   "titre": "AWS Coupe son Cloud Souverain : Test le 24/10 [2026] - shattered.io",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9uQVRhaFgtekoyR21DVUZkbC1lUkthQUZMTFhMbUFPWUFkWnJPNm5aMGNpX0pFYjJyelRpOGtjcHZ3eW03RmtSWlZOWDE5N2JTTTJBN21iTE1hcHpkNmd0LWJyMUt5SVU0d2NMbmkzR2tQbzBn?oc=5",
-   "source": "shattered.io",
+   "titre": "LightOn dévoile LightOn Suite, sa nouvelle plateforme pour construire des applications IA sur les données de l'entreprise, disponible dès aujourd'hui sur le cloud souverain de Scaleway - TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmbkJKWEMzWjloNXF0dk9BWk5hcjN4NjlwdGhhWEFBRDVTczFHS3BYeUxvMVdya0tnNlpVaUVTRHRaVHN1dmdYQlh3c0J5NHpNX253dVdxSTRzNV9WamZObW1B?oc=5",
+   "source": "TradingView",
    "type": "presse",
    "produits": [
     "cloud"
@@ -60,6 +84,18 @@
    "produits": [
     "tr-legeres",
     "tr-lourdes"
+   ],
+   "auto": true
+  },
+  {
+   "id": "14d14348ebe7",
+   "d": "2026-10-11",
+   "titre": "Où dorment vos e-mails ? Ce que le débat sur SecNumCloud dit du mail professionnel des entreprises - Le Quotidien de l'Entreprise",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeUlGRWtBbW45ZUI3SlVrTzBXM2tMUEtaUHBVOUU0dmVlOUlRLXdhdDdBXzJ1Q1hDNXFzbzNaX1QtbHFPNkoyQ2NNMUwwUlhDN2JSTlVrOGpRMFRiS2xKaWowQzk4eEhIYzRnb0x1SkVOOHltSjBrbVFRY2FsZllZQ05vM09PLWVKcGJGVGhVR2dlakZJVzVEd2RkV0p0X2JOMEVIdENScGJzaWp0ZmFUUmFoY2ZJckozbUhzR0dnRHFjR0t2bWE0VmZpMG90TnhTMjZwVGVDQXdGWE0?oc=5",
+   "source": "Le Quotidien de l'Entreprise",
+   "type": "presse",
+   "produits": [
+    "cloud"
    ],
    "auto": true
   },
@@ -235,18 +271,6 @@
    "auto": true
   },
   {
-   "id": "05186c53cc44",
-   "d": "2026-10-08",
-   "titre": "Assises de l’AUSIM 2026 : Orange Maroc annonce trois partenariats dans le Cloud souverain, les réseaux intelligents et l’IA - Le Matin.ma",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOekc2V1ZucDdzd3NJMzV5RzV3MWlWcWlhMW1vRFNQcmd6dnZlWTZFZ202RjAtREdjTnREQTFETXV0RDNJaHkyMERTQ1hpeEJxdHhUdWYzckJDX20yWERVbHpnWmJfelVPMVdEYnVpUEd2cV9QOFRMTUFPcThwV0hxNTUwVnhQTE5BMmZIQkJreUJWeTFvVmZuV0JBa2ZhQmU1SGhfNjVB0gGrAUFVX3lxTE1ZS1pWTGVIQ2RPa0JZN3dpdGl1eFdBVHRQd19BQTFfa3FUVzJXU0RzMmVqY0RPTEdJejRWVzFjSVExaHF1Y1ZVdnFmNDNzdzh3aVNTWXlRRUt5emhDUUFCM29UN1BMbWwweFZPYUctXzhfTThrSFJNWEE3Smxkc1JVSlM1VkluMWk5MUtZcnZGUW5Oc0U5VXdRdW5NM3Nkel9YcWdjZTlvN2Uxdw?oc=5",
-   "source": "Le Matin.ma",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
    "id": "2fbb2461227d",
    "d": "2026-10-07",
    "titre": "Orange muscle son offre SecNumCloud pour les applications critiques et l’intelligence artificielle - L'Usine Digitale",
@@ -284,6 +308,18 @@
    "auto": true
   },
   {
+   "id": "04098938927a",
+   "d": "2026-10-07",
+   "titre": "Morbihan : obtention de la qualification SecNumCloud par l’entreprise Ecritel - L'Usine Nouvelle",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUzZkTk82X2Z3VTNJQzFDMGVZb3BpVFUyS0V4QkVkMUtJQnJ1SlVONnpLU2ljRmU1ZFZrQTdpZW90M09yVDVsaXd1azd4WUZGQVJqQ3hLaW5LSlRHUmRYcnNHaU9FU1pnRUdJaE1fdll4dFN4LTYzb244cHRVX3JTcTV2OEgzaHQydi1TOUpJa2JoVjRiMnJQQkFFOHAyUHFtc0hza0pWbmhKT2gxTlBPYkl6QnNCTlFmZW9oR0gyeTJrMlZvV2szYVVJMVAwT19sYTFvY1JRX1R0ZGhiYUFpTHJNM3dsZlN1VXc?oc=5",
+   "source": "L'Usine Nouvelle",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
    "id": "9233c97d34ec",
    "d": "2026-10-07",
    "titre": "Cloud de confiance : Orange Business élargit son offre SecNumCloud pour les données critiques - Acteurs Publics",
@@ -296,11 +332,11 @@
    "auto": true
   },
   {
-   "id": "04098938927a",
+   "id": "68d66e34dd7a",
    "d": "2026-10-07",
-   "titre": "Morbihan : obtention de la qualification SecNumCloud par l’entreprise Ecritel - L'Usine Nouvelle",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUzZkTk82X2Z3VTNJQzFDMGVZb3BpVFUyS0V4QkVkMUtJQnJ1SlVONnpLU2ljRmU1ZFZrQTdpZW90M09yVDVsaXd1azd4WUZGQVJqQ3hLaW5LSlRHUmRYcnNHaU9FU1pnRUdJaE1fdll4dFN4LTYzb244cHRVX3JTcTV2OEgzaHQydi1TOUpJa2JoVjRiMnJQQkFFOHAyUHFtc0hza0pWbmhKT2gxTlBPYkl6QnNCTlFmZW9oR0gyeTJrMlZvV2szYVVJMVAwT19sYTFvY1JRX1R0ZGhiYUFpTHJNM3dsZlN1VXc?oc=5",
-   "source": "L'Usine Nouvelle",
+   "titre": "Orange Business obtient une deuxième qualification SecNumCloud pour Cloud Avenue - Idéal Investisseur",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdzRUMUhCQlZNaENlY285YngxQVVucm1zUHNDdS1OekhGbXZkaEt5S2FEYzBKbVdLSzJaMGQxZFBGd2dQSC10M3ZTZlNRNFEwb3hrTjRETENvUnpmNldjSVJmOUFDekh2SHAtRWhIcGV1Z1B3QTdjcU1DcmlYdVFTWUpyVTlKc2w1U0M0TTFEZ21pZlEtRjBPUUVqODBOVnRQVHBMdUhSQTQ4NEtOR3JkdkJocHVMTW9NZW81VktuUWZKdXFXejU3MnJuX2Voc0hn?oc=5",
+   "source": "Idéal Investisseur",
    "type": "presse",
    "produits": [
     "cloud"
@@ -320,47 +356,11 @@
    "auto": true
   },
   {
-   "id": "407c3facc18f",
-   "d": "2026-10-07",
-   "titre": "Orange Business obtient une deuxième qualification SecNumCloud pour Cloud Avenue - Ideal Investisseur",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdzRUMUhCQlZNaENlY285YngxQVVucm1zUHNDdS1OekhGbXZkaEt5S2FEYzBKbVdLSzJaMGQxZFBGd2dQSC10M3ZTZlNRNFEwb3hrTjRETENvUnpmNldjSVJmOUFDekh2SHAtRWhIcGV1Z1B3QTdjcU1DcmlYdVFTWUpyVTlKc2w1U0M0TTFEZ21pZlEtRjBPUUVqODBOVnRQVHBMdUhSQTQ4NEtOR3JkdkJocHVMTW9NZW81VktuUWZKdXFXejU3MnJuX2Voc0hn?oc=5",
-   "source": "Ideal Investisseur",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "ef948dc6fffa",
-   "d": "2026-10-07",
-   "titre": "« C’est le graal pour les fournisseurs de cloud » : Orange business obtient une nouvelle qualification SecNumCloud - La Tribune",
-   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPaXJLY0NWYmxBN3Zrajd1d2t3NlU4YWswRWVHMWFUdDZXcHp1R1dteURjMGM2WFczV0E2MW5MaGl6UHRqbjRkWldYYkFpU01YcjU0QnBvQzRpTG1YR05qdjdSMWhSWlI2S3QybThORWduRThXb19XNUJWQm1Tejl1ZHU1dldWU2xqQnFYZ05KcV81MjRieGNKcnRFM00zYkN4NkI5UWdObWFiNVBnQjlBWGpXSC1SSUhnT1lnTi1vY0p4ZkpNTkMxYUtlSnRuTkRaYVozZXV4cGdUbXRmbVM0NmZyX3VvTFk3VUM2d0NEVHotQUk?oc=5",
-   "source": "La Tribune",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
    "id": "18eaad80835e",
    "d": "2026-10-07",
    "titre": "Orange Business décroche une deuxième qualification SecNumCloud pour son cloud de confiance - Télé Satellite et Numérique",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSWFEX29PWTJrLV91ZUM3Qm5yWFlQeFU3WVpYMENpMkppbGV0emxEdVdtSi05SnFQc3BNQmRrelJWZUxoa0FLeGUyTGQ2NkVVV1ZEdTR5M0RYbTdmeEVQV3V2WHBJYnpVQW5kUi1UT1ZjdHFjQ29JTUF3UGI5aUF1NFdTZ1UycFZKMFdSUWJRMUp0My1NbENuc3FWSmU4cTRha2Y2S3NQUlJoTV9naHFSbXNGSmJBWjY4MlF5WlhvYmRHalRDQlE?oc=5",
    "source": "Télé Satellite et Numérique",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "d8a5b38bc6d9",
-   "d": "2026-10-05",
-   "titre": "AWS va couper son cloud souverain européen de son réseau mondial pour tester son autonomie - Solutions-Numeriques",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMmtyMzVjVHRyOGIwZUJzVnczaklnRTV2eG5kNE82TlhHWjh4ejI2WkFnZGxwMm5ybWxZZmpLTy00UmJEbTFOZ3hGTE91N19ZYy1ybzJKWHAzUG9sckxPcnYzQlgtanozQzMwdW1renVwUTBGNTA0UFBaQ2tEXzk2UWx5V3J2WVdoZlZWd2FKT0N4Z3hsWVlKVDJIYWVtSlBqVzBvNEVuVWl4amgxT2g0M1ROR0RCUHNWZG85TVB4NEdvbjBwZlM0?oc=5",
-   "source": "Solutions-Numeriques",
    "type": "presse",
    "produits": [
     "cloud"
@@ -407,49 +407,12 @@
   {
    "id": "90aeb91ae52f",
    "d": "2026-10-01",
-   "titre": "AWS va débrancher son cloud souverain européen : l’expérience amusante qui ne change rien… - IT for Business",
+   "titre": "AWS va débrancher son cloud souverain européen : l’expérience amusante qui ne change rien… - ITforBusiness.fr",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObUNtV3pIMks4M01jd1V5M0FmWl9WY2k0U0Q0R1RBRlZRRUE0M29rQmJmNjhwNDJtM0FVWFRGRC1BTUdnYnZVb3drdGdHVlo0T1AxSWg5eEZFeTVPdmMzQ0xid3NpUENXNVNDcFBQRlIydnZBckFRQ0tQeUxNRjhTQUdUZ3NUa3lvRnVycERlRjJtVkF6UTZ1Xw?oc=5",
-   "source": "IT for Business",
+   "source": "ITforBusiness.fr",
    "type": "presse",
    "produits": [
     "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "3fda9925da9d",
-   "d": "2026-09-29",
-   "titre": "La France poursuit son inlassable croisade du cloud souverain sous le regard circonspect du secteur - Contexte",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNOHBka0c4Mk51TVEwaGNvY0RyRkNlcUxKREtqQTMwbFFRSmJtdGdXcmtEa1hldGgtZW1VMUtmam1UeVNnTHpxRkxzWGZSamdNOWpsa2JRRlFjanRlVnEwWmdnX0JQRV81QTk4TGttbXdNRzAteF9Zcl9MV3NKTEZTa0oxUThjbld2TmdULXdEU1JWOERKTjlJMzRLNUV0bjEwVjJRc1JMWEk3dG14UHpGSHdneXB5Qm5VN2VIVVVxS1hNTHFGanlmN0JfR3pnQ2Q4QVhveHpWbmIyNDVqTnJ0VA?oc=5",
-   "source": "Contexte",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "20e9852cdde4",
-   "d": "2026-09-29",
-   "titre": "Cloud Temple complète sa qualification SecNumCloud avec le visa PAMS de l’Anssi - ChannelNews",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPb1NiY0R2dW5uS0t3XzB5b1N6d2I5V2F1dDEtZTNBcEdseFplR3MxSTF1cWtfc21paGhqUzBleDVOYjlwWnRDeGZpQUl4UVVlVGtQWkRtR2RBSDVBUnM4eWFtRm5YaEdpMEVxbXplTmYwcTBLcXRBWUtPN2t1MEV1eW5DQkwxUTVjMk1aTXprdkh3aHdhekxLNjVybzgyWlBGN05EeW9na0p5NHNHZTk2a0JR?oc=5",
-   "source": "ChannelNews",
-   "type": "presse",
-   "produits": [
-    "cloud",
-    "paiement"
-   ],
-   "auto": true
-  },
-  {
-   "id": "1a35a9e5357c",
-   "d": "2026-09-29",
-   "titre": "Ghana : l’industrie des engrais organiques se renforce avec de nouveaux projets - AGENCE ECOFIN",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbHdEaDFGSUExOUZpLXJieUtyN3h2UFpVM0NnWXI5SU5ZYTVqSzltR25iVFVKNzJ3eDFEbFZLeENGblpKSGtGSERWWmRPUTVWM2hLcU1idG5LZFR6aTEwSTVLQXZXY3FReFJhRXhuWXJ5WnBfZnBQa2RjcEJFS1NTWlVqZEtxZl9sOXBncjN0dkJNelhSbnY3NjFLdHQ0elNmZGVZZDRPNVFzbExRb1BPYUF6Nk9QV0o2R01qODhJN1dCVnhHV1pNUkl5RkxKZjA?oc=5",
-   "source": "AGENCE ECOFIN",
-   "type": "presse",
-   "produits": [
-    "azote"
    ],
    "auto": true
   }
