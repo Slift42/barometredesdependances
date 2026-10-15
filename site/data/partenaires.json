@@ -1,0 +1,3647 @@
+{
+ "maj": "2026-10-16",
+ "matieres": [
+  {
+   "id": "uranium",
+   "nom": "Uranium",
+   "unite": "t d'uranium",
+   "annees": [
+    2023,
+    2024
+   ],
+   "refs": [
+    "wna-mines-2026"
+   ],
+   "produits": [
+    "uranium-naturel",
+    "uranium-enrichi"
+   ],
+   "prod": {
+    "KZ": [
+     21109,
+     23270
+    ],
+    "CA": [
+     11001,
+     14309
+    ],
+    "NA": [
+     6986,
+     7333
+    ],
+    "AU": [
+     4693,
+     4598
+    ],
+    "UZ": [
+     4000,
+     4000
+    ],
+    "RU": [
+     2710,
+     2738
+    ],
+    "CN": [
+     1600,
+     1600
+    ],
+    "NE": [
+     1130,
+     962
+    ],
+    "IN": [
+     485,
+     500
+    ],
+    "ZA": [
+     200,
+     200
+    ],
+    "UA": [
+     340,
+     288
+    ],
+    "US": [
+     19,
+     260
+    ],
+    "ZZ": [
+     161,
+     155
+    ]
+   },
+   "monde": [
+    54433,
+    60213
+   ],
+   "res": {},
+   "res_note": "Le Livre rouge AIEA/AEN ne publie pas de tableau de réserves directement comparable à la production : nous donnons les ressources pays par pays dans les fiches des partenaires.",
+   "besoin": {
+    "v": 8000,
+    "unite": "t d'uranium par an",
+    "txt": "Le parc nucléaire français consomme environ 8 000 t d'uranium naturel par an, soit environ 13 % de la consommation mondiale.",
+    "refs": [
+     "mte-uranium"
+    ],
+    "court": "C'est ce que consomme chaque année le parc nucléaire français, environ 13 % de la consommation mondiale."
+   },
+   "controle": {
+    "titre": "Qui contrôle les mines",
+    "note": "Production 2024 par compagnie, toutes mines confondues.",
+    "refs": [
+     "wna-mines-2026"
+    ],
+    "lignes": [
+     [
+      "Kazatomprom",
+      "KZ",
+      12463
+     ],
+     [
+      "Cameco",
+      "CA",
+      10193
+     ],
+     [
+      "Orano",
+      "FR",
+      6815
+     ],
+     [
+      "Uranium One (filiale de Rosatom)",
+      "RU",
+      5829
+     ],
+     [
+      "CGN",
+      "CN",
+      5761
+     ],
+     [
+      "Navoi Mining",
+      "UZ",
+      4000
+     ],
+     [
+      "CNNC",
+      "CN",
+      3286
+     ],
+     [
+      "Rosatom",
+      "RU",
+      2738
+     ],
+     [
+      "BHP",
+      "AU",
+      2693
+     ],
+     [
+      "General Atomics / Quasar",
+      "US",
+      1808
+     ],
+     [
+      "Autres compagnies",
+      "ZZ",
+      4627
+     ]
+    ]
+   },
+   "notes": [
+    "La World Nuclear Association donne 4 000 t pour l'Ouzbékistan en 2024 dans son tableau mondial, mais 5 200 t dans sa fiche pays : l'estimation mondiale n'a pas encore été corrigée."
+   ],
+   "partenaires": [
+    {
+     "c": "KZ",
+     "role": "Le premier producteur du monde, mais pas un fournisseur libre",
+     "chiffres": [
+      [
+       "Production 2025",
+       "25 839 t"
+      ],
+      [
+       "Prévision 2026",
+       "27 500 à 29 000 t"
+      ],
+      [
+       "Ressources sûres à moins de 130 $/kgU",
+       "491 256 t"
+      ],
+      [
+       "Part revenant à Kazatomprom en 2025",
+       "13 519 t"
+      ]
+     ],
+     "txt": "Le Kazakhstan a extrait 25 839 t d'uranium en 2025, plus de trois fois ce que consomme la France. Ses ressources raisonnablement assurées à moins de 130 $ le kilo atteignent 491 256 t, soit environ 19 ans de production au rythme de 2025. Mais Kazatomprom ne garde qu'environ la moitié de la production : le reste revient à ses partenaires, parmi lesquels des groupes russes et chinois. Selon le Livre rouge, 83 % des ressources exploitables à moins de 130 $ sont déjà attribuées à des compagnies.",
+     "projets": [
+      {
+       "nom": "KATCO et South Tortkuduk (Orano 51 %)",
+       "txt": "KATCO a produit 3 714 t en 2025, ce qui en fait le premier producteur du pays. Le site de South Tortkuduk, 190 M$ d'investissement et 46 000 t de réserves, doit porter la production à 4 000 t par an en 2026. La part d'Orano couvre à elle seule près du quart des besoins français.",
+       "refs": [
+        "orano-katco-2025",
+        "wna-kz-2026"
+       ]
+      }
+     ],
+     "risque": "La principale route d'export passe par Saint-Pétersbourg ; la route transcaspienne, ouverte en 2018, évite la Russie. Depuis 2026, la taxe d'extraction grimpe jusqu'à 18 % au-delà de 4 000 t par an, et Kazatomprom a réduit sa production prévue d'environ 3 000 t pour soutenir les prix.",
+     "refs": [
+      "wnn-kap-2026",
+      "wnn-kap-2025",
+      "wna-kz-2026",
+      "orda-redbook-2025"
+     ]
+    },
+    {
+     "c": "UZ",
+     "role": "Un producteur en croissance, avec Orano sur place",
+     "chiffres": [
+      [
+       "Production 2025",
+       "7 000 t"
+      ],
+      [
+       "Objectif 2030",
+       "7 100 t"
+      ],
+      [
+       "Ressources sûres et présumées à moins de 130 $/kgU",
+       "91 519 t"
+      ],
+      [
+       "Réserves déclarées par Navoiyuran (JORC)",
+       "96 600 t"
+      ]
+     ],
+     "txt": "L'Ouzbékistan a produit 7 000 t d'uranium en 2025, près de 90 % des besoins annuels de la France. Le Livre rouge 2026 lui attribue 69 031 t de ressources raisonnablement assurées et 22 488 t de ressources présumées à moins de 130 $ le kilo, soit environ 13 ans de production au rythme actuel.",
+     "projets": [
+      {
+       "nom": "Nurlikum Mining (Orano 45 %, Navoiyuran 45 %, Itochu 10 %)",
+       "txt": "La coentreprise prépare l'exploitation du gisement de South Djengeldi, dont l'extraction devait commencer fin 2025.",
+       "refs": [
+        "wna-uz-2026",
+        "kunuz-nurlikum-2025"
+       ]
+      }
+     ],
+     "risque": "Les tonnages ouzbeks sont longtemps restés des estimations, et la Chine compte parmi les principaux acheteurs depuis 2014.",
+     "refs": [
+      "wna-uz-2026"
+     ]
+    },
+    {
+     "c": "MN",
+     "role": "Une manne à venir, développée par Orano",
+     "chiffres": [
+      [
+       "Ressources",
+       "près de 90 000 t"
+      ],
+      [
+       "Production visée",
+       "2 500 t par an"
+      ],
+      [
+       "Investissement",
+       "1,6 Md$ sur la durée de vie"
+      ],
+      [
+       "Durée d'exploitation",
+       "30 ans"
+      ]
+     ],
+     "txt": "La Mongolie n'extrait pas encore d'uranium à l'échelle industrielle. Le gisement de Zuuvch-Ovoo, avec celui de Dulaan Uul, compte près de 90 000 t de ressources. À 2 500 t par an, il couvrirait près d'un tiers des besoins français pendant trente ans.",
+     "projets": [
+      {
+       "nom": "Zuuvch-Ovoo (Badrakh Energy : Orano et MonAtom)",
+       "txt": "L'accord d'investissement a été signé le 17 janvier 2025. Il prévoit quatre ans de développement, 500 M$ d'investissement avant la mise en service, puis 1,6 Md$ sur toute la vie de la mine.",
+       "refs": [
+        "orano-mongolie-2025"
+       ]
+      }
+     ],
+     "risque": "Le pays est enclavé entre la Chine et la Russie : tout l'uranium devra transiter par l'un des deux.",
+     "refs": [
+      "orano-mongolie-2025"
+     ]
+    },
+    {
+     "c": "CA",
+     "role": "Le deuxième producteur, et un allié stable",
+     "chiffres": [
+      [
+       "Production 2024",
+       "14 309 t"
+      ],
+      [
+       "Cigar Lake (Cameco et Orano)",
+       "6 501 t en 2024"
+      ]
+     ],
+     "txt": "Le Canada a produit 14 309 t d'uranium en 2024, près de deux fois les besoins français. Ses mines de la Saskatchewan sont exploitées par Cameco, avec Orano à Cigar Lake.",
+     "projets": [],
+     "risque": "La production canadienne est concentrée sur deux sites : un incident à Cigar Lake ou à McArthur River pèse aussitôt sur le marché mondial.",
+     "refs": [
+      "wna-mines-2026",
+      "wnn-kap-2026"
+     ]
+    },
+    {
+     "c": "NA",
+     "role": "Un gros producteur, sous contrôle chinois",
+     "chiffres": [
+      [
+       "Production 2024",
+       "7 333 t"
+      ],
+      [
+       "Husab (CGN) et Rössing (CNNC)",
+       "6 642 t"
+      ]
+     ],
+     "txt": "La Namibie a produit 7 333 t d'uranium en 2024. Mais ses deux grandes mines, Husab et Rössing, appartiennent aux groupes publics chinois CGN et CNNC : elles ont fourni à elles seules environ 91 % de la production du pays.",
+     "projets": [],
+     "risque": "Acheter namibien, c'est en pratique acheter à des groupes chinois.",
+     "refs": [
+      "wna-mines-2026"
+     ],
+     "prudence": true
+    },
+    {
+     "c": "NE",
+     "role": "Un fournisseur historique perdu",
+     "chiffres": [
+      [
+       "Production 2015",
+       "4 116 t"
+      ],
+      [
+       "Production 2024",
+       "962 t"
+      ]
+     ],
+     "txt": "Le Niger produisait 4 116 t en 2015 et seulement 962 t en 2024, une chute de 77 %. La junte a nationalisé la mine Somaïr d'Orano en 2025.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "wna-mines-2026",
+      "p-niger-2025"
+     ],
+     "prudence": true
+    }
+   ],
+   "lecture": "",
+   "de": "de l'uranium"
+  },
+  {
+   "id": "terres-rares",
+   "nom": "Terres rares",
+   "unite": "t d'oxydes de terres rares",
+   "annees": [
+    2024,
+    2025
+   ],
+   "refs": [
+    "usgs-ree"
+   ],
+   "produits": [
+    "tr-lourdes",
+    "tr-legeres",
+    "aimants"
+   ],
+   "prod": {
+    "US": [
+     45500,
+     51000
+    ],
+    "AU": [
+     29000,
+     29000
+    ],
+    "BR": [
+     560,
+     2000
+    ],
+    "MM": [
+     27000,
+     22000
+    ],
+    "CN": [
+     270000,
+     270000
+    ],
+    "IN": [
+     2900,
+     2900
+    ],
+    "MG": [
+     1400,
+     2700
+    ],
+    "MY": [
+     140,
+     110
+    ],
+    "NG": [
+     1500,
+     1500
+    ],
+    "RU": [
+     2600,
+     2600
+    ],
+    "TH": [
+     2100,
+     4800
+    ],
+    "VN": [
+     300,
+     150
+    ],
+    "ZZ": [
+     1000,
+     550
+    ]
+   },
+   "monde": [
+    380000,
+    390000
+   ],
+   "res": {
+    "US": 1900000,
+    "AU": 6300000,
+    "BR": 21000000,
+    "CA": 830000,
+    "CN": 44000000,
+    "GL": 1500000,
+    "MY": 710000,
+    "RU": 3800000,
+    "ZA": 860000,
+    "TZ": 890000,
+    "VN": 3500000
+   },
+   "monde_res": 85000000,
+   "notes": [
+    "Le chiffre chinois est un quota officiel : il n'inclut pas la production non déclarée.",
+    "Les productions de la Birmanie, de Madagascar, de la Malaisie, de la Thaïlande et du Viêt Nam sont estimées à partir des importations chinoises : leur minerai part en Chine.",
+    "Les réserves australiennes conformes aux normes boursières (JORC) ne sont que de 3,3 Mt."
+   ],
+   "partenaires": [
+    {
+     "c": "BR",
+     "role": "Les deuxièmes réserves du monde, presque inexploitées",
+     "chiffres": [
+      [
+       "Réserves",
+       "21 Mt"
+      ],
+      [
+       "Production 2025",
+       "2 000 t"
+      ],
+      [
+       "Serra Verde, prévision 2026",
+       "6 500 t"
+      ]
+     ],
+     "txt": "Le Brésil détient 21 Mt de réserves, près d'un quart des réserves connues, mais n'a produit que 2 000 t en 2025, soit 0,5 % de la production mondiale. C'est le plus grand écart du tableau entre ce qu'un pays possède et ce qu'il extrait.",
+     "projets": [
+      {
+       "nom": "Serra Verde, mine de Pela Ema (Goiás)",
+       "txt": "La mine produit des terres rares légères et lourdes, dont le dysprosium et le terbium. Elle prévoit 6 500 t en 2026 et veut doubler sa capacité en quatre ans, grâce à un prêt américain de 565 M$. Ses contrats avec des clients chinois sont en renégociation.",
+       "refs": [
+        "serraverde-2026"
+       ]
+      }
+     ],
+     "risque": "Washington a pris une option sur une part du capital de Serra Verde, et la presse brésilienne rapporte en mai 2026 son rachat par l'américaine USA Rare Earth, contesté au sein de l'État fédéral. La loi brésilienne du 16 septembre 2026 crée un conseil national rattaché à la présidence pour les minerais critiques.",
+     "refs": [
+      "usgs-ree",
+      "serraverde-2026",
+      "band-pnmce-2026",
+      "camara-pnmce-2026"
+     ]
+    },
+    {
+     "c": "AU",
+     "role": "Le seul séparateur de terres rares lourdes hors de Chine",
+     "chiffres": [
+      [
+       "Production 2025",
+       "29 000 t"
+      ],
+      [
+       "Réserves",
+       "6,3 Mt (3,3 Mt aux normes JORC)"
+      ]
+     ],
+     "txt": "L'Australie a extrait 29 000 t en 2025, 7 % de la production mondiale. Son groupe Lynas a séparé en mai 2025, dans son usine de Malaisie, son premier oxyde de dysprosium : c'est aujourd'hui le seul producteur commercial de terres rares lourdes séparées hors de Chine.",
+     "projets": [],
+     "risque": "Lynas sert d'abord ses clients japonais et américains, qui l'ont financé.",
+     "refs": [
+      "usgs-ree",
+      "lynas-2025"
+     ]
+    },
+    {
+     "c": "NO",
+     "role": "Le plus grand gisement connu d'Europe",
+     "chiffres": [
+      [
+       "Ressource présumée",
+       "8,8 Mt d'oxydes"
+      ],
+      [
+       "Dont terres rares pour aimants",
+       "environ 1,5 Mt"
+      ]
+     ],
+     "txt": "Le complexe de Fen, au sud-est de la Norvège, contiendrait 8,8 Mt d'oxydes de terres rares, dont environ 1,5 Mt pour les aimants. C'est une ressource présumée, pas encore une réserve : aucune date de production n'est annoncée.",
+     "projets": [],
+     "risque": "Il faut souvent dix à quinze ans entre une découverte et une mine en Europe.",
+     "refs": [
+      "ren-fen-2024"
+     ]
+    },
+    {
+     "c": "SE",
+     "role": "Un sous-produit du fer de Kiruna",
+     "chiffres": [
+      [
+       "Ressource présumée à Per Geijer",
+       "environ 2,2 Mt d'oxydes"
+      ]
+     ],
+     "txt": "L'entreprise publique LKAB estime à environ 2,2 Mt les oxydes de terres rares contenus dans le gisement de fer et de phosphore de Per Geijer. La Commission en a fait un projet stratégique.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "lkab-2026"
+     ]
+    },
+    {
+     "c": "GL",
+     "role": "Un potentiel énorme, encore mal mesuré",
+     "chiffres": [
+      [
+       "Réserves (USGS)",
+       "1,5 Mt"
+      ],
+      [
+       "Tanbreez, estimation interne",
+       "28,2 Mt d'oxydes"
+      ]
+     ],
+     "txt": "Le Groenland compte 1,5 Mt de réserves selon l'USGS. Le projet Tanbreez revendique 28,2 Mt d'oxydes dans 4,7 Gt de roche, dont plus d'un quart de terres rares lourdes, mais ce chiffre interne n'est pas encore conforme aux normes.",
+     "projets": [],
+     "risque": "L'île est convoitée par Washington, et sa population reste attachée à des règles environnementales strictes.",
+     "refs": [
+      "usgs-ree",
+      "tanbreez-2024"
+     ]
+    },
+    {
+     "c": "VN",
+     "role": "Des réserves dormantes",
+     "chiffres": [
+      [
+       "Réserves",
+       "3,5 Mt"
+      ],
+      [
+       "Production 2025",
+       "150 t"
+      ]
+     ],
+     "txt": "Le Viêt Nam détient 3,5 Mt de réserves mais n'a produit que 150 t en 2025, une production estimée à partir de ses ventes à la Chine. En décembre 2025, le Parlement vietnamien a confirmé l'interdiction d'exporter le minerai de terres rares et lié leur transformation à une industrie nationale. Une agence publique avait ramené l'estimation des réserves de 22 Mt à 3,5 Mt, le chiffre que retient l'USGS.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-ree",
+      "kitco-vn-2025"
+     ]
+    },
+    {
+     "c": "FR",
+     "role": "Le chaînon français : séparer et recycler",
+     "chiffres": [
+      [
+       "Dysprosium et terbium visés",
+       "600 t d'oxydes par an"
+      ],
+      [
+       "Néodyme et praséodyme",
+       "800 t par an"
+      ]
+     ],
+     "txt": "La France n'a pas de mine, mais l'usine Caremag de Lacq doit traiter fin 2026 des concentrés miniers et des aimants usagés. Elle vise 600 t d'oxydes de dysprosium et de terbium par an, environ 15 % de l'offre mondiale de terres rares lourdes selon l'entreprise.",
+     "projets": [
+      {
+       "nom": "Caremag (Carester), Lacq",
+       "txt": "Les investisseurs japonais JOGMEC et Iwatani ont apporté 110 M€, l'État 106 M€.",
+       "refs": [
+        "caremag-2025"
+       ]
+      }
+     ],
+     "risque": "L'usine dépendra de concentrés importés : il lui faut des mines partenaires.",
+     "refs": [
+      "caremag-2025"
+     ]
+    }
+   ],
+   "lecture": "",
+   "de": "des terres rares"
+  },
+  {
+   "id": "lithium",
+   "nom": "Lithium",
+   "unite": "t de lithium contenu",
+   "annees": [
+    2024,
+    2025
+   ],
+   "refs": [
+    "usgs-li"
+   ],
+   "produits": [
+    "lithium",
+    "batteries"
+   ],
+   "prod": {
+    "AR": [
+     13800,
+     23000
+    ],
+    "AU": [
+     82700,
+     92000
+    ],
+    "BR": [
+     10200,
+     12000
+    ],
+    "CA": [
+     4820,
+     5600
+    ],
+    "CL": [
+     48900,
+     56000
+    ],
+    "CN": [
+     41400,
+     62000
+    ],
+    "ML": [
+     770,
+     9400
+    ],
+    "PT": [
+     380,
+     380
+    ],
+    "ZW": [
+     20000,
+     28000
+    ]
+   },
+   "monde": [
+    222000,
+    290000
+   ],
+   "res": {
+    "US": 4400000,
+    "AR": 4400000,
+    "AU": 8400000,
+    "BR": 540000,
+    "CA": 1600000,
+    "CL": 9200000,
+    "CN": 4600000,
+    "ML": 370000,
+    "PT": 60000,
+    "ZW": 500000,
+    "ZZ": 2400000
+   },
+   "monde_res": 37000000,
+   "notes": [
+    "Les États-Unis ne publient pas leur production : le total mondial l'exclut.",
+    "Ressources mesurées et indiquées, au-delà des réserves : Argentine 28 Mt, Bolivie 23 Mt, Allemagne 8,9 Mt, Tchéquie 1,3 Mt, Serbie 1,2 Mt, France 1 Mt."
+   ],
+   "partenaires": [
+    {
+     "c": "CL",
+     "role": "Le lithium le moins cher du monde, repris en main par l'État",
+     "chiffres": [
+      [
+       "Production 2025",
+       "56 000 t"
+      ],
+      [
+       "NovaAndino Litio en 2025",
+       "233 000 t d'équivalent carbonate"
+      ]
+     ],
+     "txt": "Le Chili a produit 56 000 t de lithium en 2025. La coentreprise NovaAndino Litio, contrôlée par l'entreprise publique Codelco et exploitée par SQM, en a produit 233 000 t d'équivalent carbonate, soit environ 43 800 t de lithium : près de huit tonnes chiliennes sur dix.",
+     "projets": [],
+     "risque": "Le gouvernement chilien gère désormais l'accès au salar d'Atacama jusqu'en 2060 : un accord se négocie d'État à État.",
+     "refs": [
+      "usgs-li",
+      "novandino-2026"
+     ]
+    },
+    {
+     "c": "AR",
+     "role": "Le producteur qui monte, convoité par l'Inde",
+     "chiffres": [
+      [
+       "Production 2025 (USGS)",
+       "23 000 t"
+      ],
+      [
+       "Prévision des industriels pour 2025",
+       "131 800 t d'équivalent carbonate"
+      ],
+      [
+       "Projets en production",
+       "6"
+      ]
+     ],
+     "txt": "L'Argentine a produit 23 000 t de lithium en 2025 selon l'USGS. La chambre argentine des entreprises minières prévoyait 131 800 t d'équivalent carbonate, soit environ 24 800 t de lithium : les deux chiffres concordent à 8 % près. L'Union européenne a signé un partenariat avec l'Argentine en juin 2023.",
+     "projets": [
+      {
+       "nom": "KABIL (Inde) à Catamarca",
+       "txt": "L'entreprise publique indienne KABIL explore 15 703 ha pour le lithium dans la province de Catamarca, en vertu d'un accord signé en janvier 2024 avec l'entreprise provinciale CAMYEN.",
+       "refs": [
+        "pib-ncmm-2025"
+       ]
+      }
+     ],
+     "risque": "L'Inde y cherche aussi des gisements, par son entreprise publique KABIL : la concurrence pour le lithium argentin est ouverte.",
+     "refs": [
+      "usgs-li",
+      "caem-li-2025",
+      "ec-diplo-2026"
+     ]
+    },
+    {
+     "c": "DE",
+     "role": "La plus grande ressource de l'Union",
+     "chiffres": [
+      [
+       "Ressources mesurées et indiquées",
+       "8,9 Mt"
+      ]
+     ],
+     "txt": "L'Allemagne détient 8,9 Mt de ressources mesurées et indiquées, surtout dans les saumures géothermales du fossé rhénan, de part et d'autre de la frontière alsacienne. Aucune production industrielle n'existe encore.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-li"
+     ]
+    },
+    {
+     "c": "FI",
+     "role": "La première mine européenne pour les batteries",
+     "chiffres": [
+      [
+       "Capacité de Keliber",
+       "environ 15 000 t d'hydroxyde par an"
+      ],
+      [
+       "Investissement",
+       "783 M€"
+      ]
+     ],
+     "txt": "En Finlande, Keliber a commencé fin février 2026 à extraire et raffiner du lithium à Kaustinen. À pleine capacité, ses 15 000 t d'hydroxyde de lithium représentent environ 2 500 t de lithium, moins de 1 % de la production mondiale de 2025.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "keliber-2026"
+     ]
+    },
+    {
+     "c": "ML",
+     "role": "Le nouveau venu africain",
+     "chiffres": [
+      [
+       "Production 2024",
+       "770 t"
+      ],
+      [
+       "Production 2025",
+       "9 400 t"
+      ]
+     ],
+     "txt": "Le Mali a multiplié sa production de lithium par douze en un an, grâce aux mines de Goulamina (Ganfeng, groupe chinois) et de Bougouni (Kodal). Son code minier de 2023 permet à l'État de détenir jusqu'à 35 % des projets.",
+     "projets": [],
+     "risque": "La plus grande mine est exploitée par un groupe chinois.",
+     "refs": [
+      "usgs-li",
+      "ecofin-ml-2025"
+     ],
+     "prudence": true
+    },
+    {
+     "c": "RS",
+     "role": "Un gisement stratégique, suspendu par la contestation",
+     "chiffres": [
+      [
+       "Capacité prévue à Jadar",
+       "58 000 t de carbonate par an"
+      ],
+      [
+       "Équivalent en lithium",
+       "environ 10 900 t"
+      ]
+     ],
+     "txt": "Le projet Jadar de Rio Tinto devait produire 58 000 t de carbonate de lithium par an, soit environ 10 900 t de lithium. La Commission l'a classé projet stratégique en juin 2025, mais Rio Tinto l'a mis en pause en novembre 2025, faute d'autorisations.",
+     "projets": [],
+     "risque": "Les habitants et les associations écologistes s'opposent au projet depuis 2021 ; des dizaines de milliers de personnes ont manifesté en 2024.",
+     "refs": [
+      "jadar-2025",
+      "ewb-jadar-2025"
+     ]
+    },
+    {
+     "c": "ZW",
+     "role": "Un fournisseur africain aux mains d'investisseurs chinois",
+     "chiffres": [
+      [
+       "Production 2025",
+       "28 000 t"
+      ]
+     ],
+     "txt": "Le Zimbabwe a produit 28 000 t de lithium en 2025, premier producteur d'Afrique. Ses principales mines appartiennent à des groupes chinois comme Sinomine et Huayou Cobalt. Il interdira l'export de concentrés à partir de janvier 2027 pour imposer le raffinage sur place.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-li",
+      "zim-li-2025"
+     ],
+     "prudence": true
+    },
+    {
+     "c": "FR",
+     "role": "Une ressource française",
+     "chiffres": [
+      [
+       "Ressources mesurées et indiquées",
+       "1 Mt"
+      ]
+     ],
+     "txt": "L'USGS attribue à la France 1 Mt de lithium en ressources mesurées et indiquées, autant que le Pérou ou la Russie. Le projet Émili d'Imerys, dans l'Allier, en est le principal.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-li"
+     ]
+    }
+   ],
+   "lecture": "",
+   "de": "du lithium"
+  },
+  {
+   "id": "cobalt",
+   "nom": "Cobalt",
+   "unite": "t de cobalt contenu",
+   "annees": [
+    2024,
+    2025
+   ],
+   "refs": [
+    "usgs-co"
+   ],
+   "produits": [
+    "cobalt",
+    "batteries"
+   ],
+   "prod": {
+    "US": [
+     200,
+     300
+    ],
+    "AU": [
+     4780,
+     3700
+    ],
+    "CA": [
+     3350,
+     3500
+    ],
+    "CN": [
+     2000,
+     2000
+    ],
+    "CD": [
+     226000,
+     230000
+    ],
+    "CU": [
+     3450,
+     2000
+    ],
+    "ID": [
+     35000,
+     44000
+    ],
+    "MG": [
+     3100,
+     3900
+    ],
+    "PG": [
+     2630,
+     2800
+    ],
+    "PH": [
+     3100,
+     3700
+    ],
+    "RU": [
+     8000,
+     7700
+    ],
+    "TR": [
+     2200,
+     1900
+    ],
+    "ZZ": [
+     7780,
+     9100
+    ]
+   },
+   "monde": [
+    302000,
+    310000
+   ],
+   "res": {
+    "US": 70000,
+    "AU": 1700000,
+    "CA": 220000,
+    "CN": 160000,
+    "CD": 6000000,
+    "CU": 500000,
+    "ID": 760000,
+    "MG": 100000,
+    "PG": 84000,
+    "PH": 260000,
+    "RU": 800000,
+    "TR": 91000,
+    "ZZ": 780000
+   },
+   "monde_res": 12000000,
+   "notes": [
+    "Les réserves australiennes conformes aux normes JORC ne sont que de 680 000 t.",
+    "Les nodules polymétalliques des fonds marins contiendraient environ 5 milliards de tonnes de cobalt."
+   ],
+   "partenaires": [
+    {
+     "c": "CD",
+     "role": "Le quasi-monopole minier, qui plafonne lui-même ses ventes",
+     "chiffres": [
+      [
+       "Production 2025",
+       "230 000 t"
+      ],
+      [
+       "Quota d'export 2026",
+       "96 600 t"
+      ]
+     ],
+     "txt": "La RD Congo a fourni environ 73 % du cobalt extrait en 2025. Après avoir suspendu ses exportations en février 2025, elle les a plafonnées à 96 600 t pour 2026, dont 9 600 t de quota stratégique : c'est à peine 42 % de sa production de 2025.",
+     "projets": [],
+     "risque": "Les quotas sont répartis selon les exportations passées, ce qui avantage les groupes déjà installés, souvent chinois. Les entreprises publiques congolaises EGC et STL bénéficient d'exceptions.",
+     "refs": [
+      "usgs-co",
+      "iea-arecoms-2025"
+     ]
+    },
+    {
+     "c": "AU",
+     "role": "Des réserves sous-exploitées",
+     "chiffres": [
+      [
+       "Réserves",
+       "1,7 Mt (680 000 t aux normes JORC)"
+      ],
+      [
+       "Production 2025",
+       "3 700 t"
+      ]
+     ],
+     "txt": "L'Australie détient 1,7 Mt de réserves, la deuxième du monde, mais n'a extrait que 3 700 t en 2025, à peine plus de 1 % de la production mondiale.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-co"
+     ]
+    },
+    {
+     "c": "ID",
+     "role": "Le deuxième producteur, porté par le nickel",
+     "chiffres": [
+      [
+       "Production 2025",
+       "44 000 t"
+      ]
+     ],
+     "txt": "L'Indonésie a fourni environ 14 % du cobalt mondial en 2025, comme sous-produit de son nickel latéritique.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-co"
+     ]
+    }
+   ],
+   "lecture": "",
+   "de": "du cobalt"
+  },
+  {
+   "id": "nickel",
+   "nom": "Nickel",
+   "unite": "t de nickel contenu",
+   "annees": [
+    2024,
+    2025
+   ],
+   "refs": [
+    "usgs-ni"
+   ],
+   "produits": [
+    "nickel",
+    "batteries"
+   ],
+   "prod": {
+    "US": [
+     7490,
+     10000
+    ],
+    "AU": [
+     98000,
+     45000
+    ],
+    "BR": [
+     67500,
+     70000
+    ],
+    "CA": [
+     125000,
+     140000
+    ],
+    "CN": [
+     115000,
+     120000
+    ],
+    "ID": [
+     2310000,
+     2600000
+    ],
+    "NC": [
+     116000,
+     140000
+    ],
+    "PH": [
+     354000,
+     270000
+    ],
+    "RU": [
+     205000,
+     200000
+    ],
+    "ZZ": [
+     308000,
+     290000
+    ]
+   },
+   "monde": [
+    3710000,
+    3900000
+   ],
+   "res": {
+    "US": 340000,
+    "AU": 25000000,
+    "BR": 16000000,
+    "CA": 2200000,
+    "CN": 4400000,
+    "ID": 62000000,
+    "NC": 7100000,
+    "PH": 4800000,
+    "RU": 8300000,
+    "ZZ": 9100000
+   },
+   "monde_res": 140000000,
+   "notes": [
+    "Les réserves australiennes conformes aux normes JORC ne sont que de 11 Mt.",
+    "La Nouvelle-Calédonie est une collectivité française : son nickel est le nôtre, mais il ne fait pas tourner d'usine de batteries en France."
+   ],
+   "partenaires": [
+    {
+     "c": "NC",
+     "role": "Notre nickel, une filière en crise",
+     "chiffres": [
+      [
+       "Production 2025",
+       "140 000 t"
+      ],
+      [
+       "Réserves",
+       "7,1 Mt"
+      ],
+      [
+       "SLN en 2025",
+       "36 000 t"
+      ]
+     ],
+     "txt": "La Nouvelle-Calédonie a extrait 140 000 t de nickel en 2025, 3,6 % de la production mondiale, et détient 7,1 Mt de réserves. Mais l'usine du Nord (KNS) a fermé en 2024, et la SLN tourne bien en dessous de sa capacité : 36 000 t produites en 2025 pour environ 60 000 t possibles.",
+     "projets": [
+      {
+       "nom": "Relance de la SLN",
+       "txt": "La SLN vise 40 000 t en 2026, la reprise de quatre sites miniers et un retour à la rentabilité vers 2029-2030, avec un prêt garanti de l'État de 240 M€.",
+       "refs": [
+        "lnc-sln-2026"
+       ]
+      }
+     ],
+     "risque": "Sept domaines miniers de la côte Est sont bloqués depuis mai 2024 par des conflits locaux.",
+     "refs": [
+      "usgs-ni",
+      "lnc-sln-2026"
+     ]
+    },
+    {
+     "c": "ID",
+     "role": "Les deux tiers du nickel mondial",
+     "chiffres": [
+      [
+       "Production 2025",
+       "2,6 Mt"
+      ],
+      [
+       "Réserves",
+       "62 Mt"
+      ],
+      [
+       "Quota de minerai 2026",
+       "260 à 270 Mt humides, contre 379 Mt en 2025"
+      ]
+     ],
+     "txt": "L'Indonésie a produit 2,6 Mt de nickel en 2025, les deux tiers du monde. Elle interdit depuis le 1er janvier 2020 l'export de minerai à moins de 1,7 % de nickel, pour forcer le raffinage sur place. En février 2026, elle a réduit de 29 à 31 % le quota de minerai autorisé, pour soutenir les prix.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-ni",
+      "nrf-id-2019",
+      "bmi-rkab-2026"
+     ]
+    },
+    {
+     "c": "CA",
+     "role": "Un allié qui accélère",
+     "chiffres": [
+      [
+       "Production 2025",
+       "140 000 t"
+      ]
+     ],
+     "txt": "Le Canada a produit 140 000 t en 2025, en hausse après l'agrandissement d'une mine.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-ni"
+     ]
+    },
+    {
+     "c": "BR",
+     "role": "Des réserves solides",
+     "chiffres": [
+      [
+       "Réserves",
+       "16 Mt"
+      ],
+      [
+       "Production 2025",
+       "70 000 t"
+      ]
+     ],
+     "txt": "Le Brésil détient 16 Mt de réserves, plus de 11 % du total mondial, pour moins de 2 % de la production.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-ni"
+     ]
+    }
+   ],
+   "lecture": "",
+   "de": "du nickel"
+  },
+  {
+   "id": "graphite",
+   "nom": "Graphite naturel",
+   "unite": "t",
+   "annees": [
+    2024,
+    2025
+   ],
+   "refs": [
+    "usgs-gr"
+   ],
+   "produits": [
+    "graphite",
+    "batteries"
+   ],
+   "prod": {
+    "AT": [
+     100,
+     200
+    ],
+    "BR": [
+     58000,
+     65000
+    ],
+    "CA": [
+     11700,
+     8000
+    ],
+    "CN": [
+     1270000,
+     1400000
+    ],
+    "DE": [
+     140,
+     140
+    ],
+    "IN": [
+     17600,
+     17000
+    ],
+    "KP": [
+     8100,
+     8000
+    ],
+    "KR": [
+     1000,
+     500
+    ],
+    "MG": [
+     85000,
+     80000
+    ],
+    "MX": [
+     706,
+     740
+    ],
+    "MZ": [
+     39000,
+     60000
+    ],
+    "NO": [
+     5340,
+     6600
+    ],
+    "RU": [
+     20000,
+     25000
+    ],
+    "LK": [
+     3000,
+     3200
+    ],
+    "TZ": [
+     27000,
+     75000
+    ],
+    "TR": [
+     2600,
+     2200
+    ],
+    "UA": [
+     900,
+     800
+    ],
+    "VN": [
+     500,
+     500
+    ]
+   },
+   "monde": [
+    1550000,
+    1800000
+   ],
+   "res": {
+    "BR": 74000000,
+    "CA": 5900000,
+    "CN": 100000000,
+    "IN": 8600000,
+    "KP": 2000000,
+    "KR": 1800000,
+    "MG": 27000000,
+    "MX": 3100000,
+    "MZ": 25000000,
+    "NO": 600000,
+    "RU": 14000000,
+    "LK": 1500000,
+    "TZ": 18000000,
+    "TR": 6900000,
+    "VN": 9700000
+   },
+   "monde_res": 310000000,
+   "notes": [
+    "Des groupes chinois développent ou étudient des usines de graphite sphérique en Finlande, en Suède, au Maroc, en Malaisie et à Oman."
+   ],
+   "partenaires": [
+    {
+     "c": "BR",
+     "role": "Les deuxièmes réserves du monde",
+     "chiffres": [
+      [
+       "Réserves",
+       "74 Mt"
+      ],
+      [
+       "Production 2025",
+       "65 000 t"
+      ]
+     ],
+     "txt": "Le Brésil détient 74 Mt de réserves, près d'un quart du total mondial, et deux mines y montent en puissance depuis 2024.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-gr"
+     ]
+    },
+    {
+     "c": "MZ",
+     "role": "La grande mine de Balama, relancée",
+     "chiffres": [
+      [
+       "Production 2025",
+       "60 000 t"
+      ],
+      [
+       "Réserves",
+       "25 Mt"
+      ]
+     ],
+     "txt": "Le Mozambique a produit 60 000 t en 2025. La mine de Balama, exploitée par un groupe australien, a redémarré en juin 2025 après une suspension.",
+     "projets": [],
+     "risque": "Un groupe chinois a ouvert une nouvelle mine dans la province de Niassa.",
+     "refs": [
+      "usgs-gr"
+     ]
+    },
+    {
+     "c": "TZ",
+     "role": "La production qui double",
+     "chiffres": [
+      [
+       "Production 2025",
+       "75 000 t"
+      ],
+      [
+       "Réserves",
+       "18 Mt"
+      ]
+     ],
+     "txt": "La Tanzanie a plus que doublé sa production en 2025, à 75 000 t, avec de nouvelles mines australiennes et chinoises.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-gr"
+     ]
+    },
+    {
+     "c": "MG",
+     "role": "Un fournisseur régulier",
+     "chiffres": [
+      [
+       "Production 2025",
+       "80 000 t"
+      ],
+      [
+       "Réserves",
+       "27 Mt"
+      ]
+     ],
+     "txt": "Madagascar a produit 80 000 t en 2025 et détient 27 Mt de réserves.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-gr"
+     ]
+    },
+    {
+     "c": "NO",
+     "role": "Le principal producteur européen",
+     "chiffres": [
+      [
+       "Production 2025",
+       "6 600 t"
+      ]
+     ],
+     "txt": "La Norvège a produit 6 600 t en 2025, de loin le premier producteur d'Europe, mais à peine 0,4 % de la production mondiale.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-gr"
+     ]
+    }
+   ],
+   "lecture": "",
+   "de": "du graphite naturel"
+  },
+  {
+   "id": "tungstene",
+   "nom": "Tungstène",
+   "unite": "t de tungstène contenu",
+   "annees": [
+    2024,
+    2025
+   ],
+   "refs": [
+    "usgs-w"
+   ],
+   "produits": [
+    "tungstene"
+   ],
+   "prod": {
+    "AU": [
+     920,
+     1000
+    ],
+    "AT": [
+     840,
+     840
+    ],
+    "BO": [
+     1700,
+     1700
+    ],
+    "CN": [
+     67000,
+     67000
+    ],
+    "KZ": [
+     0,
+     2400
+    ],
+    "KP": [
+     1900,
+     2000
+    ],
+    "PT": [
+     650,
+     700
+    ],
+    "RU": [
+     1500,
+     2000
+    ],
+    "RW": [
+     1300,
+     1300
+    ],
+    "ES": [
+     700,
+     800
+    ],
+    "VN": [
+     3400,
+     3000
+    ],
+    "ZZ": [
+     1700,
+     2400
+    ]
+   },
+   "monde": [
+    82000,
+    85000
+   ],
+   "res": {
+    "AU": 570000,
+    "AT": 10000,
+    "CN": 2500000,
+    "KP": 29000,
+    "PT": 3400,
+    "RU": 400000,
+    "ES": 66000,
+    "VN": 170000,
+    "ZZ": 950000
+   },
+   "monde_res": 4700000,
+   "notes": [
+    "Les réserves australiennes conformes aux normes JORC ne sont que de 220 000 t.",
+    "Une MTU (unité de tonne métrique) vaut 10 kg d'oxyde de tungstène, soit environ 7,9 kg de tungstène."
+   ],
+   "partenaires": [
+    {
+     "c": "KR",
+     "role": "La mine qui peut changer le marché hors de Chine",
+     "chiffres": [
+      [
+       "Phase II de Sangdong (2027)",
+       "jusqu'à 460 000 MTU par an"
+      ],
+      [
+       "Équivalent en tungstène",
+       "environ 3 650 t"
+      ]
+     ],
+     "txt": "En Corée du Sud, la mine de Sangdong extrait du minerai depuis décembre 2025. À la fin de sa deuxième phase, prévue en 2027, elle pourrait produire jusqu'à 460 000 MTU par an, soit environ 3 650 t de tungstène : 4 % de la production mondiale de 2025, et environ 20 % de la production hors de Chine.",
+     "projets": [],
+     "risque": "L'exploitant affirme pouvoir fournir au moins 40 % du tungstène hors de Chine ; nos calculs, sur les chiffres de l'USGS, donnent plutôt 20 %. Une partie des volumes est déjà promise à la défense américaine.",
+     "refs": [
+      "almonty-2026",
+      "usgs-w"
+     ]
+    },
+    {
+     "c": "PT",
+     "role": "La plus vieille mine en activité",
+     "chiffres": [
+      [
+       "Production 2025",
+       "700 t"
+      ],
+      [
+       "Objectif à Panasqueira",
+       "jusqu'à 124 000 MTU par an"
+      ]
+     ],
+     "txt": "Le Portugal a produit 700 t en 2025. La mine de Panasqueira, en activité continue depuis plus d'un siècle, vise jusqu'à 124 000 MTU par an après agrandissement, soit près de 1 000 t de tungstène.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-w",
+      "almonty-2026"
+     ]
+    },
+    {
+     "c": "ES",
+     "role": "Un producteur européen discret",
+     "chiffres": [
+      [
+       "Production 2025",
+       "800 t"
+      ],
+      [
+       "Réserves",
+       "66 000 t"
+      ]
+     ],
+     "txt": "L'Espagne a produit 800 t en 2025 et détient 66 000 t de réserves, les plus importantes de l'Union.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-w"
+     ]
+    },
+    {
+     "c": "KZ",
+     "role": "Le plus grand gisement non exploité du monde",
+     "chiffres": [
+      [
+       "Production 2025",
+       "2 400 t"
+      ],
+      [
+       "Ressources JORC à Katpar et Kairakty",
+       "1,4 Mt d'oxyde"
+      ],
+      [
+       "Production prévue",
+       "12 000 t par an"
+      ]
+     ],
+     "txt": "Le Kazakhstan a commencé à produire en 2025 : 2 400 t, depuis une mine contrôlée par un groupe chinois. Ses gisements de Severniy Katpar et d'Upper Kairakty contiennent 1,4 Mt d'oxyde de tungstène. La coentreprise américano-kazakhe qui les développe annonce 12 000 t par an, soit 11 à 14 % de la production mondiale selon l'unité retenue.",
+     "projets": [
+      {
+       "nom": "Cove Kaz Capital (70 %) et Tau-Ken Samruk (30 %)",
+       "txt": "Les accords définitifs ont été signés en février 2026. Toute la production sera commercialisée par le partenaire américain, en priorité vers les États-Unis.",
+       "refs": [
+        "covekaz-2026"
+       ]
+      }
+     ],
+     "risque": "Le Kazakhstan est déjà partagé entre Pékin et Washington : l'Europe n'y a pas encore pris position.",
+     "refs": [
+      "usgs-w",
+      "fastmarkets-w-2026",
+      "covekaz-2026"
+     ]
+    },
+    {
+     "c": "AT",
+     "role": "Une mine européenne en service",
+     "chiffres": [
+      [
+       "Production 2025",
+       "840 t"
+      ]
+     ],
+     "txt": "L'Autriche a produit 840 t en 2025, l'une des rares mines en activité dans l'Union.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-w"
+     ]
+    }
+   ],
+   "lecture": "",
+   "de": "du tungstène"
+  },
+  {
+   "id": "antimoine",
+   "nom": "Antimoine",
+   "unite": "t d'antimoine contenu",
+   "annees": [
+    2024,
+    2025
+   ],
+   "refs": [
+    "usgs-sb"
+   ],
+   "produits": [
+    "antimoine",
+    "obus-155",
+    "petit-calibre"
+   ],
+   "prod": {
+    "AU": [
+     1270,
+     1300
+    ],
+    "BO": [
+     5300,
+     5000
+    ],
+    "MM": [
+     4500,
+     4500
+    ],
+    "CN": [
+     40000,
+     40000
+    ],
+    "GT": [
+     50,
+     50
+    ],
+    "IR": [
+     90,
+     90
+    ],
+    "KZ": [
+     800,
+     800
+    ],
+    "KG": [
+     700,
+     700
+    ],
+    "LA": [
+     200,
+     200
+    ],
+    "MX": [
+     600,
+     600
+    ],
+    "PK": [
+     260,
+     260
+    ],
+    "RU": [
+     40000,
+     32000
+    ],
+    "TJ": [
+     22000,
+     22000
+    ],
+    "TR": [
+     3000,
+     3000
+    ],
+    "VN": [
+     220,
+     220
+    ]
+   },
+   "monde": [
+    119000,
+    110000
+   ],
+   "res": {},
+   "res_note": "Les réserves publiées pour l'antimoine contiennent des incertitudes de lecture dans la source : nous ne les reprenons pas.",
+   "notes": [
+    "La Russie est le deuxième producteur mondial : avec la Chine, elle a extrait près des deux tiers de l'antimoine en 2025."
+   ],
+   "partenaires": [
+    {
+     "c": "TJ",
+     "role": "Le troisième producteur, tourné vers la Chine",
+     "chiffres": [
+      [
+       "Production 2025",
+       "22 000 t"
+      ],
+      [
+       "Antimoine estimé à Konchoch",
+       "plus de 265 000 t"
+      ]
+     ],
+     "txt": "Le Tadjikistan a produit 22 000 t d'antimoine en 2025, environ 20 % du total mondial. En 2024, tout son minerai et tous ses concentrés sont partis en Chine. Une usine de 5 000 t d'antimoine métal par an est entrée en service en juillet 2026.",
+     "projets": [],
+     "risque": "TALCO Gold est détenu à 50 % par le chinois Tibet Huayu. La mine d'Anzob appartient en revanche à l'américain Comsup depuis 2006.",
+     "refs": [
+      "timesca-sb-2026",
+      "usgs-sb"
+     ],
+     "prudence": true
+    },
+    {
+     "c": "TR",
+     "role": "Un fournisseur proche",
+     "chiffres": [
+      [
+       "Production 2025",
+       "3 000 t"
+      ]
+     ],
+     "txt": "La Turquie a produit 3 000 t en 2025, le sixième producteur mondial.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-sb"
+     ]
+    },
+    {
+     "c": "BO",
+     "role": "Un producteur historique",
+     "chiffres": [
+      [
+       "Production 2025",
+       "5 000 t"
+      ]
+     ],
+     "txt": "La Bolivie a produit 5 000 t en 2025, le quatrième producteur mondial.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-sb"
+     ]
+    },
+    {
+     "c": "US",
+     "role": "La relance américaine",
+     "chiffres": [
+      [
+       "Aide fédérale à la mine de l'Idaho",
+       "80 M$"
+      ]
+     ],
+     "txt": "Une mine d'antimoine a été lancée dans l'Idaho en octobre 2025, avec 80 M$ du ministère américain de la Guerre, et une autre a démarré dans le Montana en novembre 2025.",
+     "projets": [],
+     "risque": "La production servira d'abord la défense américaine.",
+     "refs": [
+      "usgs-sb"
+     ]
+    }
+   ],
+   "lecture": "",
+   "de": "de l'antimoine"
+  },
+  {
+   "id": "gallium",
+   "nom": "Gallium",
+   "unite": "kg",
+   "annees": [
+    2024,
+    2025
+   ],
+   "refs": [
+    "usgs-ga"
+   ],
+   "produits": [
+    "gallium"
+   ],
+   "prod": {
+    "CN": [
+     839000,
+     900000
+    ],
+    "JP": [
+     3000,
+     3000
+    ],
+    "RU": [
+     6000,
+     6000
+    ]
+   },
+   "monde": [
+    848000,
+    900000
+   ],
+   "res": {},
+   "res_note": "Le gallium est un sous-produit de l'alumine : il n'a pas de réserves propres. La bauxite mondiale en contiendrait plus d'un million de tonnes.",
+   "notes": [
+    "L'Allemagne a cessé de produire en 2016, la Hongrie en 2015, le Kazakhstan en 2013 et l'Ukraine probablement en 2022 : leurs installations restent une capacité dormante."
+   ],
+   "partenaires": [
+    {
+     "c": "GR",
+     "role": "Le gallium européen à partir de 2028",
+     "chiffres": [
+      [
+       "Objectif",
+       "50 t par an à partir de 2028"
+      ],
+      [
+       "Investissement",
+       "300 M€"
+      ]
+     ],
+     "txt": "Le groupe grec Metlen a produit ses premiers kilos de gallium en janvier 2026 à partir de bauxite grecque. Il vise 50 t par an à partir de 2028, soit environ 6 % de la production mondiale de 2025, et affirme que cela couvrirait la demande de l'Union.",
+     "projets": [],
+     "risque": "La Commission en a fait un projet stratégique, mais la production reste à démontrer à grande échelle.",
+     "refs": [
+      "metlen-2025"
+     ]
+    },
+    {
+     "c": "JP",
+     "role": "Le seul autre producteur allié",
+     "chiffres": [
+      [
+       "Production 2025",
+       "3 t"
+      ]
+     ],
+     "txt": "Le Japon produit environ 3 t de gallium par an, à peine 0,3 % du total mondial.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-ga"
+     ]
+    }
+   ],
+   "lecture": "",
+   "de": "du gallium"
+  },
+  {
+   "id": "magnesium",
+   "nom": "Magnésium métal",
+   "unite": "milliers de t",
+   "annees": [
+    2024,
+    2025
+   ],
+   "refs": [
+    "usgs-mg"
+   ],
+   "produits": [
+    "magnesium"
+   ],
+   "prod": {
+    "BR": [
+     20,
+     20
+    ],
+    "CN": [
+     953,
+     950
+    ],
+    "IR": [
+     5,
+     5
+    ],
+    "IL": [
+     17,
+     20
+    ],
+    "KZ": [
+     15,
+     13
+    ],
+    "RU": [
+     59,
+     60
+    ],
+    "TR": [
+     15,
+     15
+    ]
+   },
+   "monde": [
+    1080,
+    1100
+   ],
+   "res": {},
+   "res_note": "L'USGS ne publie pas de réserves pour le magnésium métal : la matière première, l'eau de mer et la dolomie, est abondante. Ce qui manque, ce sont les usines.",
+   "notes": [
+    "L'Union européenne ne produit plus de magnésium primaire."
+   ],
+   "partenaires": [
+    {
+     "c": "IL",
+     "role": "Le magnésium de la mer Morte",
+     "chiffres": [
+      [
+       "Production 2025",
+       "20 000 t"
+      ]
+     ],
+     "txt": "Israël a produit environ 20 000 t de magnésium en 2025 à partir de la mer Morte.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-mg"
+     ]
+    },
+    {
+     "c": "BR",
+     "role": "Un producteur stable",
+     "chiffres": [
+      [
+       "Production 2025",
+       "20 000 t"
+      ]
+     ],
+     "txt": "Le Brésil a produit 20 000 t en 2025.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-mg"
+     ]
+    },
+    {
+     "c": "TR",
+     "role": "Un producteur proche",
+     "chiffres": [
+      [
+       "Production 2025",
+       "15 000 t"
+      ]
+     ],
+     "txt": "La Turquie a produit 15 000 t en 2025.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-mg"
+     ]
+    }
+   ],
+   "lecture": "",
+   "de": "du magnésium"
+  },
+  {
+   "id": "titane",
+   "nom": "Éponge de titane",
+   "unite": "t",
+   "annees": [
+    2024,
+    2025
+   ],
+   "refs": [
+    "usgs-ti"
+   ],
+   "produits": [
+    "titane",
+    "pieces-avions"
+   ],
+   "prod": {
+    "CN": [
+     256000,
+     260000
+    ],
+    "IN": [
+     300,
+     300
+    ],
+    "JP": [
+     57000,
+     53000
+    ],
+    "KZ": [
+     19000,
+     16000
+    ],
+    "RU": [
+     33000,
+     25000
+    ],
+    "SA": [
+     14000,
+     12000
+    ]
+   },
+   "monde": [
+    380000,
+    370000
+   ],
+   "res": {},
+   "res_note": "Les réserves portent sur les minerais (ilménite, rutile), abondants ; le goulet d'étranglement est la transformation en éponge.",
+   "notes": [
+    "En 2025, les États-Unis ont importé leur éponge du Japon (73 %), du Kazakhstan (13 %) et d'Arabie saoudite (13 %)."
+   ],
+   "partenaires": [
+    {
+     "c": "JP",
+     "role": "Le premier producteur hors de Chine",
+     "chiffres": [
+      [
+       "Production 2025",
+       "53 000 t"
+      ],
+      [
+       "Capacité",
+       "65 200 t"
+      ]
+     ],
+     "txt": "Le Japon a produit 53 000 t d'éponge de titane en 2025, 14 % du total mondial, avec une capacité de 65 200 t.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-ti"
+     ]
+    },
+    {
+     "c": "KZ",
+     "role": "Le fournisseur d'Airbus et de Safran",
+     "chiffres": [
+      [
+       "Production 2025",
+       "16 000 t"
+      ],
+      [
+       "Capacité",
+       "26 000 t"
+      ],
+      [
+       "Nouvelle usine prévue",
+       "+10 000 t"
+      ]
+     ],
+     "txt": "Le Kazakhstan a produit 16 000 t d'éponge de titane en 2025. Son usine d'Öskemen, UKTMP, compte parmi ses clients Airbus, Boeing, Safran et Rolls-Royce ; le gouvernement kazakh lui attribue environ 20 % du marché aéronautique mondial.",
+     "projets": [],
+     "risque": "Une nouvelle usine doit ajouter 10 000 t de capacité, mais sa date n'est pas fixée.",
+     "refs": [
+      "usgs-ti",
+      "uktmp-2026"
+     ]
+    },
+    {
+     "c": "SA",
+     "role": "Un nouveau venu",
+     "chiffres": [
+      [
+       "Production 2025",
+       "12 000 t"
+      ]
+     ],
+     "txt": "L'Arabie saoudite a produit 12 000 t en 2025, pour une capacité de 15 600 t.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-ti"
+     ]
+    }
+   ],
+   "lecture": "",
+   "de": "de l'éponge de titane",
+   "court": "Titane"
+  },
+  {
+   "id": "phosphates",
+   "nom": "Phosphates",
+   "unite": "milliers de t de roche",
+   "annees": [
+    2024,
+    2025
+   ],
+   "refs": [
+    "usgs-phos"
+   ],
+   "produits": [
+    "phosphates",
+    "ble",
+    "mais",
+    "sucre"
+   ],
+   "prod": {
+    "US": [
+     19400,
+     20000
+    ],
+    "DZ": [
+     2000,
+     2000
+    ],
+    "AU": [
+     2500,
+     2500
+    ],
+    "BR": [
+     5300,
+     5000
+    ],
+    "CN": [
+     105000,
+     110000
+    ],
+    "EG": [
+     5300,
+     5500
+    ],
+    "FI": [
+     974,
+     980
+    ],
+    "IN": [
+     1700,
+     1500
+    ],
+    "IL": [
+     2380,
+     2400
+    ],
+    "JO": [
+     11500,
+     12000
+    ],
+    "KZ": [
+     1700,
+     1900
+    ],
+    "MX": [
+     365,
+     450
+    ],
+    "MA": [
+     35300,
+     36000
+    ],
+    "PE": [
+     4800,
+     4800
+    ],
+    "RU": [
+     14400,
+     14000
+    ],
+    "SA": [
+     10000,
+     10000
+    ],
+    "SN": [
+     2800,
+     2800
+    ],
+    "ZA": [
+     2220,
+     2200
+    ],
+    "SY": [
+     800,
+     800
+    ],
+    "TG": [
+     1560,
+     1600
+    ],
+    "TN": [
+     3280,
+     3300
+    ],
+    "TR": [
+     1220,
+     1200
+    ],
+    "UZ": [
+     950,
+     950
+    ],
+    "VN": [
+     3000,
+     3000
+    ],
+    "ZZ": [
+     769,
+     770
+    ]
+   },
+   "monde": [
+    239000,
+    250000
+   ],
+   "res": {
+    "US": 1000000,
+    "DZ": 2200000,
+    "AU": 800000,
+    "BR": 1600000,
+    "CN": 3400000,
+    "EG": 2800000,
+    "FI": 1000000,
+    "IN": 31000,
+    "IL": 60000,
+    "JO": 820000,
+    "KZ": 260000,
+    "MX": 30000,
+    "MA": 50000000,
+    "PE": 210000,
+    "RU": 2400000,
+    "SA": 1000000,
+    "SN": 50000,
+    "ZA": 1500000,
+    "SY": 250000,
+    "TG": 30000,
+    "TN": 2500000,
+    "TR": 71000,
+    "UZ": 100000,
+    "VN": 30000,
+    "ZZ": 800000
+   },
+   "monde_res": 73000000,
+   "notes": [
+    "Le chiffre chinois ne couvre que les grandes mines.",
+    "Les réserves australiennes conformes aux normes JORC ne sont que de 120 Mt."
+   ],
+   "partenaires": [
+    {
+     "c": "MA",
+     "role": "Les deux tiers des réserves du monde",
+     "chiffres": [
+      [
+       "Production 2025",
+       "36 Mt"
+      ],
+      [
+       "Réserves",
+       "50 Gt"
+      ]
+     ],
+     "txt": "Le Maroc n'a extrait que 14 % des phosphates du monde en 2025, mais il détient 50 milliards de tonnes de réserves, plus des deux tiers du total connu. Au rythme actuel, cela représente plus de mille ans de production.",
+     "projets": [],
+     "risque": "Un tel poids fait du Maroc un partenaire incontournable, mais aussi un fournisseur en position de force.",
+     "refs": [
+      "usgs-phos"
+     ]
+    },
+    {
+     "c": "FI",
+     "role": "La seule mine de phosphate de l'Union",
+     "chiffres": [
+      [
+       "Production 2025",
+       "980 000 t"
+      ],
+      [
+       "Réserves",
+       "1 Gt"
+      ]
+     ],
+     "txt": "La Finlande a produit 980 000 t de roche phosphatée en 2025 et détient 1 milliard de tonnes de réserves.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-phos"
+     ]
+    },
+    {
+     "c": "NO",
+     "role": "Une ressource géante, encore à prouver",
+     "chiffres": [
+      [
+       "Ressource annoncée par Norge Mining",
+       "1,55 Gt"
+      ]
+     ],
+     "txt": "Le service géologique norvégien voit dans le complexe de Bjerkreim-Sokndal la ressource de phosphate la plus prometteuse du pays. L'entreprise Norge Mining y annonce 1,55 milliard de tonnes de ressources indiquées et présumées.",
+     "projets": [],
+     "risque": "Ce chiffre est celui de l'entreprise, pas une évaluation du service géologique.",
+     "refs": [
+      "ngu-phos"
+     ]
+    },
+    {
+     "c": "SE",
+     "role": "Du phosphore dans le fer de Laponie",
+     "chiffres": [],
+     "txt": "L'entreprise publique LKAB veut extraire l'apatite de ses mines de fer de Gällivare et de Kiruna. La Commission en a fait un projet stratégique. L'Europe importe aujourd'hui 90 % de son phosphore.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "lkab-2026"
+     ]
+    },
+    {
+     "c": "TN",
+     "role": "Un voisin méditerranéen",
+     "chiffres": [
+      [
+       "Production 2025",
+       "3,3 Mt"
+      ],
+      [
+       "Réserves",
+       "2,5 Gt"
+      ]
+     ],
+     "txt": "La Tunisie a produit 3,3 Mt en 2025 et détient 2,5 milliards de tonnes de réserves, les quatrièmes du monde.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-phos"
+     ]
+    },
+    {
+     "c": "SN",
+     "role": "Des projets après 2028",
+     "chiffres": [
+      [
+       "Production 2025",
+       "2,8 Mt"
+      ]
+     ],
+     "txt": "Le Sénégal a produit 2,8 Mt en 2025 ; de nouveaux projets miniers y sont prévus après 2028.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-phos"
+     ]
+    }
+   ],
+   "lecture": "",
+   "de": "des phosphates"
+  },
+  {
+   "id": "potasse",
+   "nom": "Potasse",
+   "unite": "milliers de t de K2O",
+   "annees": [
+    2024,
+    2025
+   ],
+   "refs": [
+    "usgs-potash"
+   ],
+   "produits": [
+    "potasse",
+    "ble",
+    "mais",
+    "sucre"
+   ],
+   "prod": {
+    "US": [
+     410,
+     500
+    ],
+    "BY": [
+     5000,
+     6000
+    ],
+    "BR": [
+     331,
+     300
+    ],
+    "CA": [
+     14400,
+     15000
+    ],
+    "CL": [
+     564,
+     600
+    ],
+    "CN": [
+     6300,
+     6300
+    ],
+    "DE": [
+     2500,
+     3000
+    ],
+    "IL": [
+     2260,
+     2000
+    ],
+    "JO": [
+     1730,
+     1800
+    ],
+    "LA": [
+     2400,
+     2400
+    ],
+    "RU": [
+     10000,
+     10000
+    ],
+    "ES": [
+     489,
+     450
+    ],
+    "ZZ": [
+     350,
+     350
+    ]
+   },
+   "monde": [
+    46700,
+    49000
+   ],
+   "res": {
+    "US": 220000,
+    "BY": 750000,
+    "BR": 2300,
+    "CA": 1100000,
+    "CL": 100000,
+    "CN": 200000,
+    "DE": 150000,
+    "LA": 1000000,
+    "RU": 2000000,
+    "ES": 100000,
+    "ZZ": 300000
+   },
+   "monde_res": 5900000,
+   "notes": [
+    "Israël et la Jordanie exploitent la mer Morte, qui contient près de 2 milliards de tonnes de chlorure de potassium : leurs réserves ne sont pas chiffrées."
+   ],
+   "partenaires": [
+    {
+     "c": "CA",
+     "role": "Le premier producteur, et un allié",
+     "chiffres": [
+      [
+       "Production 2025",
+       "15 Mt de K2O"
+      ],
+      [
+       "Réserves",
+       "1,1 Gt de K2O"
+      ]
+     ],
+     "txt": "Le Canada a produit 15 Mt de potasse en 2025, près d'un tiers du total mondial.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-potash"
+     ]
+    },
+    {
+     "c": "DE",
+     "role": "La potasse européenne",
+     "chiffres": [
+      [
+       "Production 2025",
+       "3 Mt de K2O"
+      ]
+     ],
+     "txt": "L'Allemagne a produit 3 Mt en 2025, 6 % du total mondial. C'est le premier producteur de l'Union.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-potash"
+     ]
+    },
+    {
+     "c": "ES",
+     "role": "Un appoint européen",
+     "chiffres": [
+      [
+       "Production 2025",
+       "450 000 t de K2O"
+      ]
+     ],
+     "txt": "L'Espagne a produit 450 000 t en 2025, et une nouvelle mine y est prévue après 2029.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-potash"
+     ]
+    },
+    {
+     "c": "JO",
+     "role": "La potasse de la mer Morte",
+     "chiffres": [
+      [
+       "Production 2025",
+       "1,8 Mt de K2O"
+      ]
+     ],
+     "txt": "La Jordanie a produit 1,8 Mt en 2025 à partir de la mer Morte.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-potash"
+     ]
+    }
+   ],
+   "lecture": "",
+   "de": "de la potasse"
+  },
+  {
+   "id": "platine",
+   "nom": "Platine",
+   "unite": "kg",
+   "annees": [
+    2024,
+    2025
+   ],
+   "refs": [
+    "usgs-pgm"
+   ],
+   "produits": [
+    "platinoides"
+   ],
+   "prod": {
+    "US": [
+     3010,
+     1800
+    ],
+    "CA": [
+     5700,
+     5000
+    ],
+    "RU": [
+     22000,
+     20000
+    ],
+    "ZA": [
+     126000,
+     120000
+    ],
+    "ZW": [
+     18400,
+     18000
+    ],
+    "ZZ": [
+     3860,
+     3900
+    ]
+   },
+   "monde": [
+    179000,
+    170000
+   ],
+   "res": {
+    "US": 590000,
+    "CA": 310000,
+    "RU": 11000000,
+    "ZA": 63000000,
+    "ZW": 1300000
+   },
+   "monde_res": 76000000,
+   "res_label": "Réserves de platinoïdes (tous métaux du groupe)",
+   "notes": [
+    "Les réserves portent sur l'ensemble des platinoïdes, pas sur le seul platine."
+   ],
+   "partenaires": [
+    {
+     "c": "ZA",
+     "role": "Le platine du monde",
+     "chiffres": [
+      [
+       "Production 2025",
+       "120 t"
+      ],
+      [
+       "Réserves de platinoïdes",
+       "63 000 t"
+      ]
+     ],
+     "txt": "L'Afrique du Sud a extrait environ 70 % du platine mondial en 2025 et détient plus de 80 % des réserves de platinoïdes. Sa production a reculé de 9 % en 2025, à cause du coût de l'extraction profonde et des coupures d'électricité.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-pgm"
+     ]
+    },
+    {
+     "c": "ZW",
+     "role": "Le deuxième producteur africain",
+     "chiffres": [
+      [
+       "Production 2025",
+       "18 t"
+      ]
+     ],
+     "txt": "Le Zimbabwe a extrait 18 t de platine en 2025, environ 11 % du total mondial.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-pgm"
+     ]
+    },
+    {
+     "c": "CA",
+     "role": "Un appoint allié",
+     "chiffres": [
+      [
+       "Production 2025",
+       "5 t"
+      ]
+     ],
+     "txt": "Le Canada a extrait 5 t de platine en 2025.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-pgm"
+     ]
+    }
+   ],
+   "lecture": "",
+   "de": "du platine"
+  },
+  {
+   "id": "palladium",
+   "nom": "Palladium",
+   "unite": "kg",
+   "annees": [
+    2024,
+    2025
+   ],
+   "refs": [
+    "usgs-pgm"
+   ],
+   "produits": [
+    "platinoides"
+   ],
+   "prod": {
+    "US": [
+     10200,
+     6200
+    ],
+    "CA": [
+     17000,
+     16000
+    ],
+    "RU": [
+     89000,
+     84000
+    ],
+    "ZA": [
+     82600,
+     70000
+    ],
+    "ZW": [
+     15200,
+     15000
+    ],
+    "ZZ": [
+     2870,
+     2900
+    ]
+   },
+   "monde": [
+    217000,
+    190000
+   ],
+   "res": {
+    "US": 590000,
+    "CA": 310000,
+    "RU": 11000000,
+    "ZA": 63000000,
+    "ZW": 1300000
+   },
+   "monde_res": 76000000,
+   "res_label": "Réserves de platinoïdes (tous métaux du groupe)",
+   "notes": [
+    "La Russie reste le premier producteur de palladium, devant l'Afrique du Sud."
+   ],
+   "partenaires": [
+    {
+     "c": "ZA",
+     "role": "L'alternative au palladium russe",
+     "chiffres": [
+      [
+       "Production 2025",
+       "70 t"
+      ]
+     ],
+     "txt": "L'Afrique du Sud a extrait 70 t de palladium en 2025, un peu plus d'un tiers du total mondial.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-pgm"
+     ]
+    },
+    {
+     "c": "CA",
+     "role": "Un allié producteur",
+     "chiffres": [
+      [
+       "Production 2025",
+       "16 t"
+      ]
+     ],
+     "txt": "Le Canada a extrait 16 t de palladium en 2025, 8 % du total mondial.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-pgm"
+     ]
+    }
+   ],
+   "lecture": "",
+   "de": "du palladium",
+   "hors_mannes": true
+  },
+  {
+   "id": "cuivre",
+   "nom": "Cuivre",
+   "unite": "milliers de t",
+   "annees": [
+    2024,
+    2025
+   ],
+   "refs": [
+    "usgs-cu"
+   ],
+   "produits": [
+    "cuivre"
+   ],
+   "prod": {
+    "US": [
+     1050,
+     1000
+    ],
+    "AU": [
+     765,
+     730
+    ],
+    "CA": [
+     515,
+     500
+    ],
+    "CL": [
+     5510,
+     5300
+    ],
+    "CN": [
+     1840,
+     1800
+    ],
+    "CD": [
+     2990,
+     3200
+    ],
+    "IN": [
+     27,
+     23
+    ],
+    "ID": [
+     1010,
+     710
+    ],
+    "KZ": [
+     724,
+     710
+    ],
+    "MX": [
+     717,
+     690
+    ],
+    "PE": [
+     2740,
+     2700
+    ],
+    "PL": [
+     400,
+     410
+    ],
+    "RU": [
+     1020,
+     1300
+    ],
+    "ZM": [
+     823,
+     940
+    ],
+    "ZZ": [
+     2850,
+     3000
+    ]
+   },
+   "monde": [
+    23000,
+    23000
+   ],
+   "res": {
+    "US": 47000,
+    "AU": 100000,
+    "CA": 7000,
+    "CL": 180000,
+    "CN": 41000,
+    "CD": 80000,
+    "IN": 2200,
+    "ID": 21000,
+    "KZ": 20000,
+    "MX": 53000,
+    "PE": 85000,
+    "PL": 33000,
+    "RU": 80000,
+    "ZM": 21000,
+    "ZZ": 210000
+   },
+   "monde_res": 980000,
+   "raffinage": {
+    "titre": "Qui raffine le cuivre",
+    "annee": 2025,
+    "lignes": {
+     "CN": 14000,
+     "CD": 2800,
+     "CL": 1700,
+     "JP": 1400,
+     "RU": 950,
+     "US": 850,
+     "DE": 610,
+     "KR": 610,
+     "IN": 620,
+     "PL": 560,
+     "KZ": 500,
+     "MX": 480,
+     "AU": 460,
+     "ID": 400,
+     "PE": 340,
+     "CA": 320,
+     "ZM": 270,
+     "ZZ": 2100
+    },
+    "monde": 29000
+   },
+   "notes": [
+    "La Chine n'extrait que 8 % du cuivre mondial, mais elle en raffine près de la moitié."
+   ],
+   "partenaires": [
+    {
+     "c": "CL",
+     "role": "Le premier producteur minier",
+     "chiffres": [
+      [
+       "Production 2025",
+       "5,3 Mt"
+      ],
+      [
+       "Réserves",
+       "180 Mt"
+      ]
+     ],
+     "txt": "Le Chili a extrait 5,3 Mt de cuivre en 2025, près d'un quart du total mondial, mais n'en raffine qu'un tiers sur place.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-cu"
+     ]
+    },
+    {
+     "c": "PE",
+     "role": "Le troisième producteur",
+     "chiffres": [
+      [
+       "Production 2025",
+       "2,7 Mt"
+      ],
+      [
+       "Réserves",
+       "85 Mt"
+      ]
+     ],
+     "txt": "Le Pérou a extrait 2,7 Mt en 2025, mais il n'en raffine qu'environ un huitième sur place.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-cu"
+     ]
+    },
+    {
+     "c": "PL",
+     "role": "Le cuivre de l'Union",
+     "chiffres": [
+      [
+       "Production 2025",
+       "410 000 t"
+      ],
+      [
+       "Raffinage 2025",
+       "560 000 t"
+      ]
+     ],
+     "txt": "La Pologne, premier producteur de l'Union, a extrait 410 000 t en 2025 et en a raffiné 560 000 t.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-cu"
+     ]
+    },
+    {
+     "c": "ZM",
+     "role": "La ceinture du cuivre africaine",
+     "chiffres": [
+      [
+       "Production 2025 (USGS)",
+       "940 000 t"
+      ],
+      [
+       "Production 2025 (gouvernement)",
+       "890 346 t"
+      ],
+      [
+       "Objectif 2031",
+       "3 Mt par an"
+      ]
+     ],
+     "txt": "La Zambie a extrait environ 900 000 t de cuivre en 2025 : 940 000 t selon l'USGS, 890 346 t selon son ministre des Mines. Le gouvernement vise 3 Mt par an en 2031, ce qui suppose une hausse de 22 % par an pendant six ans, contre 8 % en 2025.",
+     "projets": [],
+     "risque": "L'objectif dépend de l'électricité et des voies d'export ; le corridor de Lobito, financé par les États-Unis et l'Union européenne, doit relier la ceinture du cuivre à l'Atlantique.",
+     "refs": [
+      "usgs-cu",
+      "ecofin-zm-2026",
+      "pdu-zm-2026",
+      "mining-lobito-2024"
+     ]
+    }
+   ],
+   "lecture": "",
+   "de": "du cuivre"
+  },
+  {
+   "id": "manganese",
+   "nom": "Manganèse",
+   "unite": "milliers de t de manganèse contenu",
+   "annees": [
+    2024,
+    2025
+   ],
+   "refs": [
+    "usgs-mn"
+   ],
+   "produits": [
+    "acier",
+    "batteries"
+   ],
+   "prod": {
+    "AU": [
+     1600,
+     1600
+    ],
+    "BR": [
+     705,
+     800
+    ],
+    "CN": [
+     690,
+     700
+    ],
+    "CI": [
+     340,
+     350
+    ],
+    "GA": [
+     4640,
+     5000
+    ],
+    "GH": [
+     1280,
+     2000
+    ],
+    "IN": [
+     731,
+     790
+    ],
+    "ZA": [
+     7490,
+     7600
+    ],
+    "ZZ": [
+     1240,
+     1300
+    ]
+   },
+   "monde": [
+    18700,
+    20000
+   ],
+   "res": {
+    "AU": 580000,
+    "BR": 300000,
+    "CN": 260000,
+    "GA": 61000,
+    "GH": 13000,
+    "IN": 34000,
+    "ZA": 550000
+   },
+   "monde_res": 1800000,
+   "res_label": "Pour l'Australie, l'USGS retient 580 Mt de réserves ; celles qui respectent le code minier australien (JORC) sont plus faibles",
+   "notes": [
+    "On ne fabrique pas d'acier sans manganèse. Le recyclage propre au manganèse est négligeable, selon l'USGS.",
+    "Entre 2021 et 2024, les États-Unis ont importé leur minerai de manganèse du Gabon (64 %), d'Afrique du Sud (24 %) et du Mexique (12 %).",
+    "Au rythme de 2025, les réserves publiées pour le Gabon (61 Mt) représentent 12 ans de production, et celles du Ghana (13 Mt) six ans et demi. Celles de l'Afrique du Sud en représentent 72."
+   ],
+   "partenaires": [
+    {
+     "c": "GA",
+     "role": "Le deuxième producteur, qui veut transformer chez lui",
+     "chiffres": [
+      [
+       "Production 2025",
+       "5 000 kt"
+      ],
+      [
+       "Minerai brut interdit à l'export",
+       "à partir du 1er janvier 2029"
+      ],
+      [
+       "Engagement d'Eramet",
+       "jusqu'à 700 000 t de minerai transformées par an fin 2031"
+      ]
+     ],
+     "txt": "Le Gabon a fourni un quart du manganèse extrait en 2025. Son gouvernement a décidé le 30 mai 2025 d'interdire l'export de minerai brut à partir de 2029. Le groupe français Eramet, qui y exploite la mine de Moanda par sa filiale Comilog, a signé en juillet 2026 un protocole pour transformer davantage sur place.",
+     "projets": [
+      {
+       "nom": "Protocole Eramet–Gabon (20 juillet 2026)",
+       "txt": "Une usine d'oxyde de manganèse de 10 000 t par an près de Libreville (fin 2028), la relance du complexe métallurgique de Moanda (fin 2029) et une usine d'alliages de 265 000 t par an (2031). Ces projets restent soumis aux décisions finales d'investissement.",
+       "refs": [
+        "eramet-gabon-2026"
+       ]
+      }
+     ],
+     "risque": "Les réserves publiées par l'USGS ne représentent que 12 ans de production au rythme de 2025.",
+     "refs": [
+      "usgs-mn",
+      "gabonreview-mn-2025",
+      "eramet-gabon-2026"
+     ]
+    },
+    {
+     "c": "ZA",
+     "role": "Le premier producteur du monde",
+     "chiffres": [
+      [
+       "Production 2025",
+       "7 600 kt"
+      ],
+      [
+       "Réserves",
+       "550 Mt"
+      ]
+     ],
+     "txt": "L'Afrique du Sud a fourni 38 % du manganèse extrait en 2025. Sa stratégie nationale de mai 2025 classe le manganèse parmi les cinq minerais les plus critiques et veut en développer la transformation sur place. Elle a signé un partenariat sur les matières premières avec l'Union européenne en novembre 2025.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-mn",
+      "iea-za-2025",
+      "ec-diplo-2026"
+     ]
+    },
+    {
+     "c": "GH",
+     "role": "La production qui monte le plus vite",
+     "chiffres": [
+      [
+       "Production 2024",
+       "1 280 kt"
+      ],
+      [
+       "Production 2025",
+       "2 000 kt"
+      ]
+     ],
+     "txt": "Le Ghana a augmenté sa production de 56 % en un an et fournit désormais 10 % du manganèse mondial.",
+     "projets": [],
+     "risque": "Au rythme de 2025, ses réserves publiées ne dureraient que six ans et demi.",
+     "refs": [
+      "usgs-mn"
+     ]
+    },
+    {
+     "c": "AU",
+     "role": "Des réserves pour des siècles",
+     "chiffres": [
+      [
+       "Production 2025",
+       "1 600 kt"
+      ],
+      [
+       "Réserves (USGS)",
+       "580 Mt"
+      ]
+     ],
+     "txt": "L'Australie détient près d'un tiers des réserves mondiales de manganèse selon l'USGS, mais n'extrait que 8 % de la production.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-mn"
+     ]
+    },
+    {
+     "c": "BR",
+     "role": "Un second gisement de réserve",
+     "chiffres": [
+      [
+       "Production 2025",
+       "800 kt"
+      ],
+      [
+       "Réserves",
+       "300 Mt"
+      ]
+     ],
+     "txt": "Le Brésil détient 17 % des réserves mondiales et n'extrait que 4 % du manganèse : au rythme actuel, ses réserves dureraient 375 ans.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-mn"
+     ]
+    }
+   ],
+   "lecture": "",
+   "de": "du manganèse"
+  },
+  {
+   "id": "bauxite",
+   "nom": "Bauxite et alumine",
+   "unite": "milliers de t de bauxite",
+   "annees": [
+    2024,
+    2025
+   ],
+   "refs": [
+    "usgs-bx"
+   ],
+   "produits": [
+    "aluminium"
+   ],
+   "prod": {
+    "AU": [
+     100000,
+     97000
+    ],
+    "BR": [
+     33000,
+     33000
+    ],
+    "CN": [
+     80500,
+     87000
+    ],
+    "GR": [
+     970,
+     960
+    ],
+    "GN": [
+     142000,
+     150000
+    ],
+    "IN": [
+     25000,
+     25000
+    ],
+    "ID": [
+     9900,
+     10000
+    ],
+    "JM": [
+     5890,
+     6200
+    ],
+    "KZ": [
+     4780,
+     4800
+    ],
+    "RU": [
+     5470,
+     5700
+    ],
+    "SA": [
+     5500,
+     5700
+    ],
+    "TR": [
+     3660,
+     3800
+    ],
+    "VN": [
+     3710,
+     3800
+    ],
+    "ZZ": [
+     7780,
+     8000
+    ]
+   },
+   "monde": [
+    428000,
+    440000
+   ],
+   "res": {
+    "US": 20000,
+    "AU": 3700000,
+    "BR": 1700000,
+    "CN": 710000,
+    "GN": 7400000,
+    "IN": 650000,
+    "ID": 2900000,
+    "JM": 2000000,
+    "KZ": 160000,
+    "RU": 650000,
+    "SA": 180000,
+    "TR": 69000,
+    "VN": 3100000,
+    "ZZ": 5300000
+   },
+   "monde_res": 29000000,
+   "res_label": "Pour l'Australie, les réserves conformes au code minier australien (JORC) ne sont que de 1,7 Gt, contre 3,7 Gt retenues par l'USGS",
+   "raffinage": {
+    "titre": "Qui transforme la bauxite en alumine",
+    "annee": 2025,
+    "lignes": {
+     "CN": 93000,
+     "AU": 17000,
+     "BR": 11000,
+     "IN": 8200,
+     "RU": 2900,
+     "AE": 2300,
+     "SA": 1900,
+     "IE": 1700,
+     "JM": 1500,
+     "KZ": 1500,
+     "ID": 1500,
+     "VN": 1500,
+     "CA": 1500,
+     "GR": 850,
+     "ES": 810,
+     "US": 710,
+     "DE": 460,
+     "GN": 360,
+     "TR": 310,
+     "ZZ": 1300
+    },
+    "monde": 150000
+   },
+   "notes": [
+    "La Chine extrait 20 % de la bauxite mondiale, mais elle produit 62 % de l'alumine, l'étape qui précède l'aluminium.",
+    "La Guinée a extrait 34 % de la bauxite mondiale en 2025, mais n'a produit que 360 000 t d'alumine, soit 0,2 % du total.",
+    "Selon son ministère des Mines, la Guinée a exporté 182,8 Mt de bauxite en 2025, dont 74 % vers la Chine : c'est plus que les 150 Mt de production estimées par l'USGS. Nous gardons le chiffre de l'USGS pour comparer les pays entre eux, et nous signalons l'écart plus bas.",
+    "La production des États-Unis n'est pas publiée ; le total mondial l'exclut."
+   ],
+   "partenaires": [
+    {
+     "c": "GN",
+     "role": "Le premier producteur, qui exporte presque tout vers la Chine",
+     "chiffres": [
+      [
+       "Exportations 2025 (ministère)",
+       "182,8 Mt"
+      ],
+      [
+       "Part partie vers la Chine",
+       "74 %"
+      ],
+      [
+       "Réserves",
+       "7,4 Gt"
+      ]
+     ],
+     "txt": "La Guinée détient un quart des réserves mondiales de bauxite. Ses exportations ont augmenté de 25 % en 2025. En mars 2026, son ministre des Mines a annoncé une baisse des volumes exportés, sans quota chiffré, et demande aux compagnies des plans sur trois ans qui incluent ports, voies ferrées et raffineries d'alumine.",
+     "projets": [],
+     "risque": "La Chine a reçu près de 149 Mt de bauxite guinéenne en 2025 ; des compagnies chinoises, comme Chalco, figurent parmi les exploitants.",
+     "refs": [
+      "usgs-bx",
+      "reuters-gn-2026",
+      "allafrica-gn-2026"
+     ]
+    },
+    {
+     "c": "AU",
+     "role": "Le deuxième producteur, et un raffineur",
+     "chiffres": [
+      [
+       "Bauxite 2025",
+       "97 Mt"
+      ],
+      [
+       "Alumine 2025",
+       "17 Mt"
+      ]
+     ],
+     "txt": "L'Australie a extrait 22 % de la bauxite mondiale en 2025 et produit 11 % de l'alumine : c'est le premier raffineur hors de Chine.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-bx"
+     ]
+    },
+    {
+     "c": "BR",
+     "role": "Bauxite et alumine au même endroit",
+     "chiffres": [
+      [
+       "Bauxite 2025",
+       "33 Mt"
+      ],
+      [
+       "Alumine 2025",
+       "11 Mt"
+      ]
+     ],
+     "txt": "Le Brésil a extrait 7,5 % de la bauxite mondiale et produit 7 % de l'alumine en 2025.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-bx"
+     ]
+    },
+    {
+     "c": "VN",
+     "role": "Les réserves qui dorment",
+     "chiffres": [
+      [
+       "Réserves",
+       "3,1 Gt"
+      ],
+      [
+       "Bauxite 2025",
+       "3,8 Mt"
+      ]
+     ],
+     "txt": "Le Viêt Nam détient 11 % des réserves mondiales de bauxite, mais n'en extrait que 0,9 % : c'est le plus grand écart du tableau.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-bx"
+     ]
+    },
+    {
+     "c": "JM",
+     "role": "Un producteur ancien, avec des réserves",
+     "chiffres": [
+      [
+       "Réserves",
+       "2,0 Gt"
+      ],
+      [
+       "Bauxite 2025",
+       "6,2 Mt"
+      ],
+      [
+       "Alumine 2025",
+       "1,5 Mt"
+      ]
+     ],
+     "txt": "La Jamaïque détient 7 % des réserves mondiales et transforme une partie de sa bauxite en alumine.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-bx"
+     ]
+    },
+    {
+     "c": "GR",
+     "role": "La seule bauxite de l'Union européenne",
+     "chiffres": [
+      [
+       "Bauxite 2025",
+       "960 000 t"
+      ],
+      [
+       "Alumine 2025",
+       "850 000 t"
+      ]
+     ],
+     "txt": "La Grèce est le seul pays de l'Union qui extrait de la bauxite, et elle la transforme sur place en alumine.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-bx"
+     ]
+    }
+   ],
+   "lecture": "",
+   "de": "de la bauxite",
+   "court": "Bauxite"
+  },
+  {
+   "id": "niobium",
+   "nom": "Niobium",
+   "unite": "t de niobium contenu",
+   "annees": [
+    2024,
+    2025
+   ],
+   "refs": [
+    "usgs-nb"
+   ],
+   "produits": [
+    "acier",
+    "pieces-avions"
+   ],
+   "prod": {
+    "BR": [
+     104000,
+     104000
+    ],
+    "CA": [
+     6900,
+     6000
+    ],
+    "CN": [
+     44,
+     40
+    ],
+    "CD": [
+     930,
+     970
+    ],
+    "RU": [
+     300,
+     300
+    ],
+    "RW": [
+     210,
+     200
+    ],
+    "ZZ": [
+     160,
+     120
+    ]
+   },
+   "monde": [
+    112000,
+    112000
+   ],
+   "res": {
+    "US": 210000,
+    "BR": 14000000,
+    "CA": 640000,
+    "CN": 6500000,
+    "RU": 3000
+   },
+   "monde_res": 21000000,
+   "res_label": "L'USGS donne « plus de 21 Mt » pour le monde : nous retenons 21 Mt, ce qui surestime un peu les parts",
+   "notes": [
+    "Le niobium rend l'acier plus résistant et plus léger ; il entre aussi dans les superalliages des moteurs d'avion.",
+    "Le Brésil a exporté environ 92 000 t de ferroniobium en 2024. La Chine en a reçu 49 %, les Pays-Bas 17 %, Singapour 9 %, la Corée du Sud et les États-Unis 8 % chacun.",
+    "La Chine détient 31 % des réserves mondiales selon l'USGS, mais n'en extrait presque rien."
+   ],
+   "partenaires": [
+    {
+     "c": "BR",
+     "role": "Un quasi-monopole, qui n'est pas chinois",
+     "chiffres": [
+      [
+       "Production 2025",
+       "104 000 t"
+      ],
+      [
+       "Réserves",
+       "14 Mt"
+      ]
+     ],
+     "txt": "Le Brésil a fourni 93 % du niobium extrait en 2025. Sa loi du 16 septembre 2026 sur les minerais critiques réserve 5 milliards de reais à la transformation de ces minerais dans le pays.",
+     "projets": [],
+     "risque": "La Chine reçoit déjà près de la moitié du ferroniobium brésilien exporté.",
+     "refs": [
+      "usgs-nb",
+      "camara-pnmce-2026"
+     ]
+    },
+    {
+     "c": "CA",
+     "role": "La seule autre source importante",
+     "chiffres": [
+      [
+       "Production 2025",
+       "6 000 t"
+      ],
+      [
+       "Réserves",
+       "640 000 t"
+      ]
+     ],
+     "txt": "Le Canada a fourni 5 % du niobium mondial en 2025. Il a signé un partenariat stratégique sur les matières premières avec l'Union européenne en 2021.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-nb",
+      "ec-diplo-2026"
+     ]
+    }
+   ],
+   "lecture": "",
+   "de": "du niobium"
+  },
+  {
+   "id": "tantale",
+   "nom": "Tantale",
+   "unite": "t de tantale contenu",
+   "annees": [
+    2024,
+    2025
+   ],
+   "refs": [
+    "usgs-ta"
+   ],
+   "produits": [
+    "electronique-def",
+    "pieces-avions"
+   ],
+   "prod": {
+    "AU": [
+     52,
+     50
+    ],
+    "BO": [
+     2,
+     2
+    ],
+    "BR": [
+     210,
+     190
+    ],
+    "BI": [
+     2,
+     2
+    ],
+    "CN": [
+     76,
+     80
+    ],
+    "CD": [
+     1270,
+     1300
+    ],
+    "ET": [
+     40,
+     40
+    ],
+    "MZ": [
+     55,
+     1
+    ],
+    "NG": [
+     390,
+     390
+    ],
+    "RU": [
+     29,
+     30
+    ],
+    "RW": [
+     374,
+     400
+    ]
+   },
+   "monde": [
+    2500,
+    2500
+   ],
+   "res": {},
+   "res_note": "L'USGS ne publie des réserves que pour quatre pays (Chine 240 000 t, Australie 120 000 t, Brésil 40 000 t, Russie 150 t), sans total mondial ni chiffre pour l'Afrique : nous ne calculons donc pas d'écart.",
+   "notes": [
+    "Le tantale sert aux condensateurs des équipements électroniques militaires et aux superalliages des réacteurs.",
+    "La RD Congo et le Rwanda ont signé un accord de paix en juin 2025, sous médiation américaine. S'il tient, il doit stabiliser l'est du Congo et le commerce régional des minerais, dont le tantale, selon l'USGS.",
+    "La production de 2024 de la RD Congo a été fortement révisée d'après un rapport du gouvernement congolais."
+   ],
+   "partenaires": [
+    {
+     "c": "CD",
+     "role": "Plus de la moitié du tantale du monde",
+     "chiffres": [
+      [
+       "Production 2025",
+       "1 300 t"
+      ]
+     ],
+     "txt": "La RD Congo a fourni 52 % du tantale extrait en 2025. Elle a signé un partenariat sur les matières premières avec l'Union européenne en octobre 2023.",
+     "projets": [],
+     "risque": "La stabilité de l'est du pays, d'où vient ce minerai, dépend de l'accord de paix signé avec le Rwanda en juin 2025.",
+     "refs": [
+      "usgs-ta",
+      "ec-diplo-2026"
+     ]
+    },
+    {
+     "c": "RW",
+     "role": "Le deuxième producteur",
+     "chiffres": [
+      [
+       "Production 2025",
+       "400 t"
+      ]
+     ],
+     "txt": "Le Rwanda a fourni 16 % du tantale mondial en 2025. Il a signé un partenariat sur les matières premières avec l'Union européenne en février 2024.",
+     "projets": [],
+     "risque": "Ce partenariat est suspendu, selon l'institut allemand SWP.",
+     "refs": [
+      "usgs-ta",
+      "ec-diplo-2026",
+      "swp-afrique-2026"
+     ]
+    },
+    {
+     "c": "NG",
+     "role": "Un producteur qui exige la transformation sur place",
+     "chiffres": [
+      [
+       "Production 2025",
+       "390 t"
+      ]
+     ],
+     "txt": "Le Nigeria a fourni 16 % du tantale mondial en 2025. Son ministre des Mines n'accorde plus de permis sans projet d'usine de transformation dans le pays.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-ta",
+      "allafrica-ng-2025"
+     ]
+    },
+    {
+     "c": "AU",
+     "role": "Peu de production, des réserves importantes",
+     "chiffres": [
+      [
+       "Production 2025",
+       "50 t"
+      ],
+      [
+       "Réserves (USGS)",
+       "120 000 t"
+      ]
+     ],
+     "txt": "L'Australie n'a extrait que 50 t de tantale en 2025, mais l'USGS lui attribue 120 000 t de réserves.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-ta"
+     ]
+    },
+    {
+     "c": "BR",
+     "role": "Un producteur stable",
+     "chiffres": [
+      [
+       "Production 2025",
+       "190 t"
+      ],
+      [
+       "Réserves",
+       "40 000 t"
+      ]
+     ],
+     "txt": "Le Brésil a fourni 8 % du tantale mondial en 2025.",
+     "projets": [],
+     "risque": "",
+     "refs": [
+      "usgs-ta"
+     ]
+    }
+   ],
+   "lecture": "",
+   "de": "du tantale"
+  }
+ ]
+}

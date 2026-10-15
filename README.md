@@ -22,6 +22,8 @@ site/                      → racine publiée (GitHub Pages ou tout hébergeur 
   data/bibliographie.json  → toutes les sources citées (identifiants utilisés dans `refs`)
   data/kii.json, strategies.json, matrice.json → leviers, textes et six moyens de pression des puissances (fusionnés à l'écran sur une frise)
   data/europe.json         → chiffres européens (`theme`, `jauge` facultative en %)
+  data/partenaires.json    → « Partenaires de demain » : 20 matières, production et réserves par pays (USGS 2026, WNA), fiches partenaires, projets, risques
+  data/pays.json           → pays producteurs : continents (nomenclature ONU), décisions datées et classées (7 types, 4 états), partenariats UE, écarts entre sources
   data/allies.json         → choix d'achat des voisins (`acheteurs`, `fournisseurs`, `choix`, `part` en codes ISO)
   data/atouts.json, sources.json, propositions.json
   data/vigie.json          → ancien fil, remplacé par actus.json et echeances.json (plus utilisé)
@@ -73,10 +75,13 @@ Aperçu sans serveur : `python3 tools/build_artifact.py` puis ouvrir `dist/barom
 | `lev` | détail du levier (`qui`, `comment`, `quand`, `effet`, `refs`), obligatoire si `l` vaut 1 ou 2 |
 | `estim` | pour `k: est` : méthode (`m`, clé de `meta.methodes_estimation`), explication (`txt`), sources |
 | `seuil` | seuil légal de stock (clé de `meta.seuils`) ; sous 100 jours, la fiche affiche « Pourquoi seulement N jours ? » |
+| `intrants`, `amont` | produits importés dont dépend la production française (identifiants), et leur explication (`txt`, `refs`) |
+| `reloc`, `reloc_refs` | délai de relocalisation en jours et ses sources (facultatif) |
 | `cout` | chiffrage : liste de `{r: remède, lo, hi (M€), per: "u" une fois ou "an" par an, txt, refs, deja}` |
 
-Niveaux calculés automatiquement : Souverain (excédent) · Indépendant (> 365 j) · Résilient (91-365 j) · Dépendant (31-90 j) · Totalement dépendant (≤ 30 j).
-Avec `cov` : ≥ 100 % Souverain · 80-99 % Indépendant · 50-79 % Résilient · en dessous, on revient aux jours (ou Dépendant).
+Niveaux calculés automatiquement : Indépendant (> 365 j), Résilient (91-365 j), Dépendant (31-90 j), Totalement dépendant (≤ 30 j).
+Avec `cov` : 80 % et plus Indépendant, 50-79 % Résilient ; en dessous, on revient aux jours (ou Dépendant).
+Souverain : production excédentaire (`cov` ≥ 100 ou `d: "auto"`) sans intrant importé critique (`intrants` vide), ou tenue supérieure au délai de relocalisation documenté (`reloc`, `reloc_refs`). Un excédent qui dépend d'intrants importés reste Indépendant.
 Un levier déjà activé (`l: 2`) fait perdre un niveau.
 
 ## Drapeaux et carte
@@ -89,6 +94,14 @@ node tools/build_carte.js
 ```
 
 Les noms de pays en français (`al.pays`, `chaines.qui`) sont reconnus automatiquement ; les autres champs utilisent les codes ISO à deux lettres (`FR`, `CN`, `US`…), plus `EU` et `DIV` (fournisseurs diversifiés).
+
+## Partenaires de demain
+
+`site/data/partenaires.json` : une entrée par matière (`prod` = production par pays sur deux années, `monde`, `res`, `monde_res`, `besoin` facultatif, `partenaires` avec `role`, `chiffres`, `txt`, `projets`, `risque`, `refs`, et `prudence: true` pour un pays dont la production est contrôlée ou captée par une puissance ; `court` donne un nom bref pour le tableau croisé ; `raffinage` peut porter une étape de transformation, comme l'alumine).
+
+`site/data/pays.json` : `continents` (tout code pays utilisé doit y figurer, le vérificateur le contrôle), `types` (sept types de décision), `dossiers` (un par pays : `resume`, `mesures` datées avec `type`, `statut` parmi « en vigueur », « annoncée », « en suspens », « abandonnée », `txt`, `refs`, et `cit` facultative ; puis `calcul`, `verif`, `lecture`), `ue` (partenariats de l'Union : pays, date, état) et `ecarts` (deux chiffres sourcés, un verdict « accord », « ecart » ou « incomparable », une explication). Les textes officiels des pays producteurs prennent le type `etat` dans la bibliographie.
+Les parts, l'indice de concentration (Herfindahl-Hirschman), l'écart réserves-production, la durée des réserves et la couverture de nos besoins sont calculés par `app.js` : ne jamais les saisir à la main.
+`tools/verifier_donnees.py` refuse une matière dont la somme des pays s'écarte de plus de 3 % du total mondial publié.
 
 ## Ajouter une actu
 

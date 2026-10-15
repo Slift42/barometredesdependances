@@ -1,0 +1,819 @@
+{
+ "maj": "2026-10-16",
+ "continents": {
+  "Afrique": [
+   "AO",
+   "BF",
+   "BI",
+   "BW",
+   "CD",
+   "CG",
+   "CI",
+   "CM",
+   "DZ",
+   "EG",
+   "ER",
+   "ET",
+   "GA",
+   "GH",
+   "GN",
+   "GQ",
+   "KE",
+   "LR",
+   "LY",
+   "MA",
+   "MG",
+   "ML",
+   "MR",
+   "MW",
+   "MZ",
+   "NA",
+   "NE",
+   "NG",
+   "RW",
+   "SD",
+   "SL",
+   "SN",
+   "TG",
+   "TN",
+   "TZ",
+   "UG",
+   "ZA",
+   "ZM",
+   "ZW"
+  ],
+  "Amériques": [
+   "AR",
+   "BO",
+   "BR",
+   "CA",
+   "CL",
+   "CO",
+   "CU",
+   "DO",
+   "EC",
+   "GL",
+   "GT",
+   "GY",
+   "JM",
+   "MX",
+   "PE",
+   "SR",
+   "US",
+   "VE"
+  ],
+  "Asie": [
+   "AE",
+   "AF",
+   "BD",
+   "BH",
+   "CN",
+   "ID",
+   "IL",
+   "IN",
+   "IQ",
+   "IR",
+   "JO",
+   "JP",
+   "KG",
+   "KH",
+   "KP",
+   "KR",
+   "KW",
+   "KZ",
+   "LA",
+   "LK",
+   "MM",
+   "MN",
+   "MY",
+   "NP",
+   "OM",
+   "PH",
+   "PK",
+   "QA",
+   "SA",
+   "SY",
+   "TH",
+   "TJ",
+   "TR",
+   "TW",
+   "UZ",
+   "VN"
+  ],
+  "Europe": [
+   "AL",
+   "AT",
+   "BA",
+   "BE",
+   "BG",
+   "BY",
+   "CH",
+   "CY",
+   "CZ",
+   "DE",
+   "DK",
+   "EE",
+   "ES",
+   "FI",
+   "FR",
+   "GB",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "IT",
+   "LT",
+   "LU",
+   "LV",
+   "MD",
+   "ME",
+   "MK",
+   "MT",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "RO",
+   "RS",
+   "RU",
+   "SE",
+   "SI",
+   "SK",
+   "UA"
+  ],
+  "Océanie": [
+   "AU",
+   "FJ",
+   "NC",
+   "NZ",
+   "PG",
+   "SB"
+  ]
+ },
+ "types": {
+  "brut": "Interdit l'export de minerai brut",
+  "quota": "Plafonne ses exportations ou sa production",
+  "etat": "Renforce la part de l'État",
+  "transfo": "Exige des usines sur place",
+  "loi": "Adopte une stratégie ou une loi",
+  "infra": "Construit des voies d'export",
+  "accord": "Signe des contrats avec des industriels étrangers"
+ },
+ "dossiers": [
+  {
+   "c": "GA",
+   "resume": "Le Gabon a fourni un quart du manganèse extrait dans le monde en 2025. Il veut transformer ce minerai chez lui plutôt que de l'exporter brut.",
+   "mesures": [
+    {
+     "date": "2025-05-30",
+     "type": "brut",
+     "statut": "annoncée",
+     "txt": "Le Conseil des ministres du 30 mai 2025 a décidé d'interdire l'export de manganèse brut à partir du 1er janvier 2029, avec trois ans de transition, un fonds d'investissement public-privé et des incitations fiscales.",
+     "refs": [
+      "gabonreview-mn-2025"
+     ]
+    },
+    {
+     "date": "2025-11-23",
+     "type": "infra",
+     "statut": "en vigueur",
+     "txt": "Pendant la visite d'État d'Emmanuel Macron, du 23 au 25 novembre 2025, l'Agence française de développement a signé un protocole de financement pour moderniser le Transgabonais, la voie ferrée qui transporte le manganèse.",
+     "refs": [
+      "allafrica-macron-2025"
+     ]
+    },
+    {
+     "date": "2026-07-20",
+     "type": "transfo",
+     "statut": "annoncée",
+     "txt": "Eramet et l'État gabonais ont signé à Paris un protocole : le groupe français s'engage à transformer au Gabon jusqu'à 700 000 t de minerai par an d'ici fin 2031. Les usines prévues restent soumises aux décisions finales d'investissement.",
+     "refs": [
+      "eramet-gabon-2026"
+     ]
+    }
+   ],
+   "verif": "Plusieurs médias ont annoncé en 2025 un accord portant sur 2 millions de tonnes et 16 000 emplois. Le texte signé en juillet 2026 parle de 700 000 t de minerai par an et d'un fonds qui vise 3 000 emplois industriels. Nous retenons le texte signé.",
+   "lecture": "La France a ici un levier rare : un groupe français exploite la mine, et l'État gabonais demande des usines, pas seulement des acheteurs. Acheter des alliages de manganèse fabriqués au Gabon serait à la fois une sécurité pour nous et une réponse à sa demande."
+  },
+  {
+   "c": "GN",
+   "resume": "La Guinée détient un quart des réserves mondiales de bauxite, le minerai de l'aluminium, et en est le premier producteur.",
+   "mesures": [
+    {
+     "date": "2026-03-18",
+     "type": "quota",
+     "statut": "annoncée",
+     "txt": "Le ministre des Mines, Bouna Sylla, a annoncé une baisse des volumes exportés à partir d'avril 2026, sans quota chiffré ni interdiction totale. Les compagnies doivent présenter des plans de production sur trois ans, avec ports, voies ferrées et raffineries.",
+     "refs": [
+      "allafrica-gn-2026"
+     ]
+    }
+   ],
+   "calcul": "En 2025, la Guinée a exporté 182,8 Mt de bauxite, dont 74 % vers la Chine. Elle n'a produit que 360 000 t d'alumine : presque toute la valeur ajoutée part à l'étranger.",
+   "refs": [
+    "reuters-gn-2026",
+    "usgs-bx"
+   ]
+  },
+  {
+   "c": "ZA",
+   "resume": "L'Afrique du Sud est le premier producteur mondial de manganèse et de platine.",
+   "mesures": [
+    {
+     "date": "2025-05",
+     "type": "loi",
+     "statut": "en vigueur",
+     "txt": "Sa stratégie sur les minerais et métaux critiques, publiée en mai 2025, retient 21 minerais. Les plus critiques sont les platinoïdes, le manganèse, le minerai de fer, le charbon et le chrome. Elle veut remplacer l'export de matières brutes par la transformation et la fabrication sur place.",
+     "refs": [
+      "iea-za-2025"
+     ]
+    }
+   ]
+  },
+  {
+   "c": "NA",
+   "resume": "La Namibie est le troisième producteur d'uranium du monde ; ses deux grandes mines sont aux mains de groupes chinois.",
+   "mesures": [
+    {
+     "date": "2023-06-06",
+     "type": "brut",
+     "statut": "en vigueur",
+     "txt": "Le Conseil des ministres a interdit en juin 2023 l'export de minerai brut de lithium, de cobalt, de manganèse, de graphite et de terres rares. Le ministre des Mines peut autoriser de petites quantités.",
+     "refs": [
+      "brief-na-2023"
+     ]
+    }
+   ]
+  },
+  {
+   "c": "CD",
+   "resume": "La RD Congo a fourni 74 % du cobalt et 52 % du tantale extraits dans le monde en 2025.",
+   "mesures": [
+    {
+     "date": "2025-09-20",
+     "type": "quota",
+     "statut": "en vigueur",
+     "txt": "L'autorité de régulation des minerais stratégiques (ARECOMS) a remplacé l'embargo sur le cobalt par des quotas à partir du 16 octobre 2025 : 96 600 t pour 2026, dont 9 600 t de réserve stratégique, et autant pour 2027.",
+     "refs": [
+      "iea-arecoms-2025"
+     ]
+    }
+   ],
+   "calcul": "Si le quota est respecté, les exportations congolaises de 2026 seront inférieures de 58 % à la production de 2025 estimée par l'USGS (230 000 t). La différence, 133 400 t, représente 43 % de tout le cobalt extrait dans le monde en 2025.",
+   "refs": [
+    "usgs-co"
+   ]
+  },
+  {
+   "c": "ZM",
+   "resume": "La Zambie est le premier producteur de cuivre d'Afrique après la RD Congo.",
+   "mesures": [
+    {
+     "date": "2026-02-18",
+     "type": "loi",
+     "statut": "en vigueur",
+     "txt": "Le gouvernement vise 3 Mt de cuivre par an en 2031. Une loi de 2025 sur la géologie et les minerais crée une commission de régulation ; des règles de contenu local s'appliquent depuis le 1er janvier 2026 ; le levé géophysique aérien du pays doit être achevé mi-2026.",
+     "refs": [
+      "pdu-zm-2026"
+     ]
+    }
+   ],
+   "calcul": "Passer de 890 346 t en 2025 à 3 Mt en 2031 suppose une hausse de 22 % par an pendant six ans. La production a augmenté de 8 % en 2025.",
+   "refs": [
+    "ecofin-zm-2026"
+   ]
+  },
+  {
+   "c": "AO",
+   "resume": "L'Angola est le débouché atlantique des mines de cuivre et de cobalt de RD Congo et de Zambie.",
+   "mesures": [
+    {
+     "date": "2024-02-08",
+     "type": "infra",
+     "statut": "en vigueur",
+     "txt": "Le corridor de Lobito relie la ceinture du cuivre au port angolais par 1 700 km de voie ferrée, concédés pour 30 ans à un consortium mené par Trafigura, Mota-Engil et Vecturis. Les États-Unis ont engagé 250 M$ pour la partie angolaise ; près d'un milliard de dollars a été réuni, avec l'Union européenne et la Banque africaine de développement, pour 800 km de ligne nouvelle en Zambie.",
+     "refs": [
+      "mining-lobito-2024"
+     ]
+    }
+   ]
+  },
+  {
+   "c": "ZW",
+   "resume": "Le Zimbabwe est le premier producteur de lithium d'Afrique ; ses principales mines appartiennent à des groupes chinois.",
+   "mesures": [
+    {
+     "date": "2025-06-10",
+     "type": "brut",
+     "statut": "annoncée",
+     "txt": "Le ministre des Mines, Winston Chitando, a annoncé l'interdiction de toute exportation de concentré de lithium à partir de janvier 2027. Deux usines de sulfate de lithium sont en construction.",
+     "refs": [
+      "zim-li-2025",
+      "allafrica-zw-2025"
+     ]
+    }
+   ]
+  },
+  {
+   "c": "ML",
+   "resume": "Le Mali a multiplié sa production de lithium par douze en un an.",
+   "mesures": [
+    {
+     "date": "2025-09-19",
+     "type": "etat",
+     "statut": "en vigueur",
+     "txt": "Le code minier de 2023 porte la part possible de l'État de 20 à 35 % : 10 % gratuits et jusqu'à 25 % achetés. Des décrets de septembre 2025 l'appliquent aux mines de lithium de Goulamina (Ganfeng) et de Bougouni (Kodal).",
+     "refs": [
+      "ecofin-ml-2025"
+     ]
+    }
+   ]
+  },
+  {
+   "c": "GH",
+   "resume": "Le Ghana a augmenté sa production de manganèse de 56 % en un an et prépare sa première mine de lithium.",
+   "mesures": [
+    {
+     "date": "2023-10",
+     "type": "etat",
+     "statut": "en vigueur",
+     "txt": "Pour la mine de lithium d'Ewoyaa, l'État a fixé une redevance de 10 %, le double du taux habituel, et une participation publique de 19 % ; l'exploitant doit étudier une usine chimique dans le pays. Le Parlement a ratifié le bail en mars 2026.",
+     "cit": "We do not intend to export lithium in its raw state",
+     "refs": [
+      "mlnr-gh-2023",
+      "mt-ewoyaa-2026"
+     ]
+    }
+   ]
+  },
+  {
+   "c": "MW",
+   "resume": "Le Malawi veut tirer parti de son uranium, de ses terres rares et de son graphite.",
+   "mesures": [
+    {
+     "date": "2025-10",
+     "type": "brut",
+     "statut": "en vigueur",
+     "txt": "Le président Peter Mutharika a interdit par décret, en octobre 2025, l'export de tout minerai brut. Les produits transformés dans le pays restent exportables.",
+     "refs": [
+      "ecofin-mw-2025"
+     ]
+    }
+   ]
+  },
+  {
+   "c": "NG",
+   "resume": "Le Nigeria fournit 16 % du tantale mondial et développe le lithium.",
+   "mesures": [
+    {
+     "date": "2025-05",
+     "type": "transfo",
+     "statut": "en vigueur",
+     "txt": "Le ministre des Mines, Dele Alake, n'accorde plus de permis sans projet d'usine de transformation dans le pays. Deux usines de lithium, de 600 M$ et 200 M$, sont annoncées.",
+     "refs": [
+      "allafrica-ng-2025"
+     ]
+    }
+   ]
+  },
+  {
+   "c": "NE",
+   "resume": "Le Niger a longtemps fourni l'uranium des centrales françaises ; sa production s'est effondrée.",
+   "mesures": [
+    {
+     "date": "2025-06-19",
+     "type": "etat",
+     "statut": "en vigueur",
+     "txt": "Le gouvernement militaire a nationalisé en juin 2025 la Somaïr, la mine d'uranium exploitée par Orano, qui en détenait 63 %. Il affirme qu'Orano a pris 86,3 % de la production depuis 1971 ; Orano dénonce une spoliation et a engagé des procédures.",
+     "refs": [
+      "aj-niger-2025"
+     ]
+    }
+   ]
+  },
+  {
+   "c": "MA",
+   "resume": "Le Maroc détient plus des deux tiers des réserves mondiales de phosphate ; il extrait aussi du cobalt.",
+   "mesures": [
+    {
+     "date": "2022-06-01",
+     "type": "accord",
+     "statut": "en vigueur",
+     "txt": "Renault et le groupe marocain Managem ont signé un protocole pour 5 000 t de sulfate de cobalt par an pendant sept ans, à partir de 2025.",
+     "refs": [
+      "renault-managem-2022"
+     ]
+    }
+   ],
+   "calcul": "L'office public des phosphates, OCP, détient la moitié du chimiste belge Prayon, l'autre moitié appartenant à la Région wallonne. En 2024, OCP a exporté 96 % des engrais qu'il produit.",
+   "refs": [
+    "acjj-ocp-2026"
+   ]
+  },
+  {
+   "c": "BR",
+   "resume": "Le Brésil fournit 93 % du niobium mondial et possède les deuxièmes réserves de terres rares.",
+   "mesures": [
+    {
+     "date": "2026-09-16",
+     "type": "loi",
+     "statut": "en vigueur",
+     "txt": "La loi n° 15.506 du 16 septembre 2026 crée une politique nationale des minerais critiques et stratégiques : un conseil national rattaché à la présidence, un fonds de garantie doté de 2 milliards de reais par l'État, et 5 milliards de reais réservés à la transformation de ces minerais au Brésil.",
+     "refs": [
+      "camara-pnmce-2026"
+     ]
+    }
+   ]
+  },
+  {
+   "c": "CL",
+   "resume": "Le Chili a fourni 19 % du lithium mondial en 2025.",
+   "mesures": [
+    {
+     "date": "2023-04-20",
+     "type": "etat",
+     "statut": "en vigueur",
+     "txt": "La stratégie nationale du lithium, présentée par le président Gabriel Boric, confie à l'entreprise publique Codelco le contrôle du salar d'Atacama, prévoit une entreprise nationale du lithium et un réseau de salars protégés.",
+     "refs": [
+      "bl-litio-2023"
+     ]
+    }
+   ]
+  },
+  {
+   "c": "BO",
+   "resume": "La Bolivie cherche encore des partenaires pour exploiter son lithium à l'échelle industrielle.",
+   "mesures": [
+    {
+     "date": "2026-02-26",
+     "type": "etat",
+     "statut": "en suspens",
+     "txt": "Les deux contrats signés fin 2024 par l'entreprise publique YLB avec le chinois Hong Kong CBC et le russe Uranium One attendent l'approbation de l'Assemblée. Le gouvernement de Rodrigo Paz n'a signé aucun contrat d'industrialisation ; cinq autres conventions concernent notamment le français Eramet.",
+     "refs": [
+      "correo-ylb-2026"
+     ]
+    }
+   ]
+  },
+  {
+   "c": "MX",
+   "resume": "Le Mexique a réservé son lithium à l'État.",
+   "mesures": [
+    {
+     "date": "2022-04",
+     "type": "etat",
+     "statut": "en vigueur",
+     "txt": "La loi d'avril 2022 donne à l'État le monopole du lithium. Le gouvernement a annulé en 2023 les concessions du chinois Ganfeng à Sonora, qui a saisi l'arbitrage international en juin 2024.",
+     "refs": [
+      "mining-mx-2024"
+     ]
+    }
+   ]
+  },
+  {
+   "c": "AR",
+   "resume": "L'Argentine a fourni 8 % du lithium mondial en 2025, avec six projets en production.",
+   "mesures": [
+    {
+     "date": "2024-01-15",
+     "type": "accord",
+     "statut": "en vigueur",
+     "txt": "L'entreprise publique indienne KABIL explore 15 703 ha pour le lithium dans la province de Catamarca, en vertu d'un accord avec l'entreprise provinciale CAMYEN.",
+     "refs": [
+      "pib-ncmm-2025"
+     ]
+    }
+   ]
+  },
+  {
+   "c": "ID",
+   "resume": "L'Indonésie a fourni les deux tiers du nickel mondial en 2025.",
+   "mesures": [
+    {
+     "date": "2020-01-01",
+     "type": "brut",
+     "statut": "en vigueur",
+     "txt": "Le règlement ministériel n° 11/2019 interdit depuis le 1er janvier 2020 l'export de minerai de nickel à moins de 1,7 %, pour forcer sa transformation dans le pays.",
+     "refs": [
+      "nrf-id-2019"
+     ]
+    },
+    {
+     "date": "2026-02-12",
+     "type": "quota",
+     "statut": "en vigueur",
+     "txt": "Le ministère de l'Énergie et des Ressources minérales a fixé le quota de minerai de nickel pour 2026 entre 260 et 270 Mt humides, contre 379 Mt autorisées en 2025 : une baisse de 29 à 31 %, pour soutenir les prix.",
+     "refs": [
+      "bmi-rkab-2026"
+     ]
+    }
+   ]
+  },
+  {
+   "c": "PH",
+   "resume": "Les Philippines sont le premier exportateur de minerai de nickel depuis 2015.",
+   "mesures": [
+    {
+     "date": "2025-06",
+     "type": "brut",
+     "statut": "abandonnée",
+     "txt": "Le Sénat avait voté en février 2025 l'interdiction d'exporter le minerai de nickel brut d'ici 2030 ; la mesure a été retirée à la mi-juin 2025. Plus de 87 % du minerai philippin part en Chine.",
+     "refs": [
+      "ajot-ph-2025"
+     ]
+    }
+   ]
+  },
+  {
+   "c": "VN",
+   "resume": "Le Viêt Nam détient 11 % des réserves mondiales de bauxite et des terres rares.",
+   "mesures": [
+    {
+     "date": "2025-12-11",
+     "type": "brut",
+     "statut": "en vigueur",
+     "txt": "Le Parlement a confirmé en décembre 2025 l'interdiction d'exporter le minerai de terres rares et lié leur transformation poussée à une industrie nationale.",
+     "refs": [
+      "kitco-vn-2025"
+     ]
+    }
+   ]
+  },
+  {
+   "c": "IN",
+   "resume": "L'Inde n'est pas un grand fournisseur : c'est un acheteur qui cherche les mêmes gisements que nous.",
+   "mesures": [
+    {
+     "date": "2025-04-09",
+     "type": "loi",
+     "statut": "en vigueur",
+     "txt": "La mission nationale des minerais critiques vise d'ici 2030-2031 1 200 projets d'exploration, l'achat de 50 mines à l'étranger (26 par des entreprises publiques, 24 par des entreprises privées), 400 000 t recyclées et cinq stocks stratégiques.",
+     "refs": [
+      "pib-ncmm-2025"
+     ]
+    }
+   ]
+  },
+  {
+   "c": "KZ",
+   "resume": "Le Kazakhstan est le premier producteur d'uranium et cartographie tout son sous-sol.",
+   "mesures": [
+    {
+     "date": "2025-12-10",
+     "type": "loi",
+     "statut": "en vigueur",
+     "txt": "Le ministère de l'Industrie veut porter le sous-sol cartographié à 2,2 millions de km² en 2026. Les réserves nouvellement inscrites comprennent 11 Mt de manganèse et plus de 1,3 Mt de phosphorites.",
+     "refs": [
+      "timesca-kz-2025"
+     ]
+    }
+   ]
+  },
+  {
+   "c": "SA",
+   "resume": "L'Arabie saoudite investit massivement dans ses mines, du phosphate à l'or.",
+   "mesures": [
+    {
+     "date": "2026-01-15",
+     "type": "loi",
+     "statut": "en vigueur",
+     "txt": "Au Forum des minerais du futur, à Riyad en janvier 2026, elle a signé des protocoles avec le Canada, le Chili et le Brésil. L'entreprise publique Ma'aden annonce 110 milliards de dollars d'investissements d'ici 2040 et un triplement de ses capacités de phosphate.",
+     "refs": [
+      "enterprise-sa-2026"
+     ]
+    }
+   ]
+  }
+ ],
+ "ue": [
+  [
+   "CA",
+   "2021-06",
+   ""
+  ],
+  [
+   "UA",
+   "2021-07-13",
+   ""
+  ],
+  [
+   "KZ",
+   "2022-11-07",
+   ""
+  ],
+  [
+   "NA",
+   "2022-11-08",
+   ""
+  ],
+  [
+   "AR",
+   "2023-06-13",
+   ""
+  ],
+  [
+   "CL",
+   "2023-07-18",
+   ""
+  ],
+  [
+   "CD",
+   "2023-10-26",
+   ""
+  ],
+  [
+   "ZM",
+   "2023-10-26",
+   ""
+  ],
+  [
+   "GL",
+   "2023-11-30",
+   ""
+  ],
+  [
+   "RW",
+   "2024-02-19",
+   "suspendu"
+  ],
+  [
+   "NO",
+   "2024-03-21",
+   ""
+  ],
+  [
+   "UZ",
+   "2024-04-05",
+   ""
+  ],
+  [
+   "AU",
+   "2024-05-28",
+   ""
+  ],
+  [
+   "RS",
+   "2024-07-19",
+   ""
+  ],
+  [
+   "ZA",
+   "2025-11-20",
+   ""
+  ],
+  [
+   "US",
+   "2026-04-24",
+   ""
+  ]
+ ],
+ "ue_refs": [
+  "ec-diplo-2026",
+  "swp-afrique-2026"
+ ],
+ "afrique": {
+  "refs": [
+   "au-agms-2025",
+   "swp-afrique-2026"
+  ]
+ },
+ "ecarts": [
+  {
+   "c": "GN",
+   "mat": "bauxite",
+   "titre": "La bauxite guinéenne en 2025",
+   "a": [
+    "Exportations, selon le ministère guinéen des Mines",
+    "182,8 Mt",
+    "reuters-gn-2026"
+   ],
+   "b": [
+    "Production estimée par l'USGS",
+    "150 Mt",
+    "usgs-bx"
+   ],
+   "verdict": "ecart",
+   "txt": "Un pays ne peut pas exporter durablement plus qu'il n'extrait : l'estimation de l'USGS est sans doute trop basse. Avec le chiffre guinéen, la part de la Guinée dans la bauxite mondiale passerait de 34 % à environ 39 %."
+  },
+  {
+   "c": "ZM",
+   "mat": "cuivre",
+   "titre": "Le cuivre zambien en 2025",
+   "a": [
+    "Production, selon le ministre zambien des Mines",
+    "890 346 t",
+    "ecofin-zm-2026"
+   ],
+   "b": [
+    "Production estimée par l'USGS",
+    "940 000 t",
+    "usgs-cu"
+   ],
+   "verdict": "ecart",
+   "txt": "L'USGS donne un chiffre supérieur de 5,6 % au chiffre officiel. Nous gardons l'USGS pour comparer les pays entre eux, mais nous citons le chiffre zambien dans la fiche."
+  },
+  {
+   "c": "AR",
+   "mat": "lithium",
+   "titre": "Le lithium argentin en 2025",
+   "a": [
+    "Prévision des industriels argentins (CAEM)",
+    "131 800 t d'équivalent carbonate, soit environ 24 800 t de lithium",
+    "caem-li-2025"
+   ],
+   "b": [
+    "Production estimée par l'USGS",
+    "23 000 t de lithium",
+    "usgs-li"
+   ],
+   "verdict": "accord",
+   "txt": "Une tonne d'équivalent carbonate contient 188 kg de lithium. Converti, le chiffre argentin dépasse celui de l'USGS de 8 % : les deux sources concordent, la prévision ayant été faite en mai."
+  },
+  {
+   "c": "BR",
+   "mat": "terres-rares",
+   "titre": "Les réserves brésiliennes de terres rares",
+   "a": [
+    "Chiffre cité par la presse brésilienne lors du vote de la loi",
+    "21 Mt",
+    "band-pnmce-2026"
+   ],
+   "b": [
+    "Réserves selon l'USGS",
+    "21 Mt",
+    "usgs-ree"
+   ],
+   "verdict": "accord",
+   "txt": "Les deux sources donnent le même chiffre. Le Brésil n'a exploré qu'environ un quart de son territoire, selon la même source brésilienne."
+  },
+  {
+   "c": "VN",
+   "mat": "terres-rares",
+   "titre": "Les réserves vietnamiennes de terres rares",
+   "a": [
+    "Ancienne estimation officielle",
+    "22 Mt",
+    "kitco-vn-2025"
+   ],
+   "b": [
+    "Estimation révisée, reprise par l'USGS",
+    "3,5 Mt",
+    "usgs-ree"
+   ],
+   "verdict": "accord",
+   "txt": "Le Viêt Nam a divisé son estimation par six. Les sites qui citent encore 22 Mt sont dépassés."
+  },
+  {
+   "c": "KZ",
+   "mat": "terres-rares",
+   "titre": "Le gisement kazakh de Kuirektykol",
+   "a": [
+    "Annonce kazakhe (2025)",
+    "28,2 Mt",
+    "timesca-kzree-2025"
+   ],
+   "b": [
+    "Réserves du Kazakhstan selon l'USGS",
+    "non publiées",
+    "usgs-ree"
+   ],
+   "verdict": "incomparable",
+   "txt": "Le chiffre kazakh ne suit aucun code de déclaration international et ne dit pas s'il compte du minerai ou des oxydes. Nous ne l'ajoutons pas aux réserves mondiales."
+  },
+  {
+   "c": "GA",
+   "mat": "manganese",
+   "titre": "L'engagement d'Eramet au Gabon",
+   "a": [
+    "Annonces de presse (2025)",
+    "2 Mt transformées, 16 000 emplois",
+    "allafrica-macron-2025"
+   ],
+   "b": [
+    "Protocole signé le 20 juillet 2026",
+    "jusqu'à 700 000 t de minerai par an fin 2031",
+    "eramet-gabon-2026"
+   ],
+   "verdict": "ecart",
+   "txt": "Le chiffre de presse n'a jamais été confirmé par un texte signé. Nous retenons le protocole."
+  },
+  {
+   "c": "UZ",
+   "mat": "uranium",
+   "titre": "L'uranium ouzbek en 2024",
+   "a": [
+    "Tableau mondial de la World Nuclear Association",
+    "4 000 t",
+    "wna-mines-2026"
+   ],
+   "b": [
+    "Fiche pays de la même association",
+    "5 200 t",
+    "wna-uz-2026"
+   ],
+   "verdict": "ecart",
+   "txt": "La même source donne deux chiffres. Nous gardons le tableau mondial pour que les parts additionnent bien 100 %, et nous signalons l'écart."
+  }
+ ]
+}

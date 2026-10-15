@@ -1609,5 +1609,698 @@
   "titre": "Bilan 2025 du .fr",
   "url": "https://www.afnic.fr/wp-media/uploads/2026/03/260317_CP_Afnic_Bilan2025FR.pdf",
   "apport": "4 319 120 noms de domaine en .fr au 31 décembre 2025 ; l'Afnic est l'office d'enregistrement désigné par l'État pour le .fr."
+ },
+ {
+  "id": "usgs-li",
+  "type": "donnees",
+  "auteur": "USGS, Mineral Commodity Summaries 2026",
+  "date": "2026-02",
+  "titre": "Lithium",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-lithium.pdf",
+  "apport": "Production minière par pays en 2024 et 2025, réserves et ressources mesurées et indiquées, dont 1 Mt en France et 8,9 Mt en Allemagne."
+ },
+ {
+  "id": "usgs-co",
+  "type": "donnees",
+  "auteur": "USGS, Mineral Commodity Summaries 2026",
+  "date": "2026-02",
+  "titre": "Cobalt",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-cobalt.pdf",
+  "apport": "La RD Congo a fourni environ 73 % du cobalt extrait dans le monde en 2025, l'Indonésie 14 %. Quotas d'exportation congolais à partir d'octobre 2025."
+ },
+ {
+  "id": "usgs-ni",
+  "type": "donnees",
+  "auteur": "USGS, Mineral Commodity Summaries 2026",
+  "date": "2026-02",
+  "titre": "Nickel",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nickel.pdf",
+  "apport": "L'Indonésie a extrait 2,6 Mt de nickel sur 3,9 Mt en 2025 ; la Nouvelle-Calédonie 140 000 t, avec 7,1 Mt de réserves."
+ },
+ {
+  "id": "usgs-ti",
+  "type": "donnees",
+  "auteur": "USGS, Mineral Commodity Summaries 2026",
+  "date": "2026-02",
+  "titre": "Titanium and titanium dioxide",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-titanium.pdf",
+  "apport": "Production mondiale d'éponge de titane par pays : Chine 260 000 t, Japon 53 000 t, Russie 25 000 t, Kazakhstan 16 000 t, Arabie saoudite 12 000 t en 2025."
+ },
+ {
+  "id": "usgs-cu",
+  "type": "donnees",
+  "auteur": "USGS, Mineral Commodity Summaries 2026",
+  "date": "2026-02",
+  "titre": "Copper",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf",
+  "apport": "Production minière et production raffinée par pays : la Chine raffine 14 Mt de cuivre sur 29 Mt en 2025, alors qu'elle n'en extrait que 1,8 Mt."
+ },
+ {
+  "id": "wna-mines-2026",
+  "type": "donnees",
+  "auteur": "World Nuclear Association",
+  "date": "2026-10",
+  "titre": "World Uranium Mining Production",
+  "url": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production",
+  "apport": "Production d'uranium par pays de 2015 à 2024, principales mines et production par compagnie : Kazatomprom, Cameco, Orano, Uranium One (Rosatom), CGN, CNNC."
+ },
+ {
+  "id": "wna-kz-2026",
+  "type": "donnees",
+  "auteur": "World Nuclear Association",
+  "date": "2026-10",
+  "titre": "Uranium and Nuclear Power in Kazakhstan",
+  "url": "https://world-nuclear.org/information-library/country-profiles/countries-g-n/kazakhstan",
+  "apport": "Ressources raisonnablement assurées de 491 256 tU à moins de 130 $/kgU (Livre rouge 2026), production de 25 839 tU en 2025, part attribuable à Kazatomprom, KATCO, routes d'export et barème de la taxe d'extraction depuis 2026."
+ },
+ {
+  "id": "wna-uz-2026",
+  "type": "donnees",
+  "auteur": "World Nuclear Association",
+  "date": "2026-10",
+  "titre": "Uranium in Uzbekistan",
+  "url": "https://world-nuclear.org/information-library/country-profiles/countries-t-z/Uzbekistan",
+  "apport": "Production de 7 000 tU en 2025, ressources du Livre rouge 2026, réserves JORC de Navoiyuran (96 600 tU), coentreprise Nurlikum avec Orano."
+ },
+ {
+  "id": "wnn-kap-2026",
+  "type": "presse",
+  "auteur": "World Nuclear News",
+  "date": "2026-02-17",
+  "titre": "Cameco, Kazatomprom release 2025 production figures",
+  "url": "https://www.world-nuclear-news.org/articles/cameco-kazatomprom-release-2025-figures",
+  "apport": "Kazatomprom a produit 25 839 tU en 2025 (base 100 %) et prévoit 27 500 à 29 000 tU en 2026, sous réserve d'acide sulfurique."
+ },
+ {
+  "id": "wnn-kap-2025",
+  "type": "presse",
+  "auteur": "World Nuclear News",
+  "date": "2025-08-22",
+  "titre": "Kazatomprom to lower uranium production in 2026",
+  "url": "https://world-nuclear-news.org/articles/kazatomprom-to-lower-uranium-production-in-2026",
+  "apport": "Le niveau nominal 2026 passe de 32 777 à 29 697 tU, une baisse d'environ 3 000 tU décidée au vu de l'état du marché."
+ },
+ {
+  "id": "mte-uranium",
+  "type": "institution",
+  "auteur": "Ministère de la Transition écologique",
+  "date": "2025",
+  "titre": "Approvisionnement en uranium et cycle du combustible nucléaire",
+  "url": "https://www.ecologie.gouv.fr/politiques-publiques/approvisionnement-uranium-cycle-du-combustible-nucleaire",
+  "apport": "Le parc français consomme environ 8 000 tonnes d'uranium naturel par an, soit environ 13 % de la consommation mondiale."
+ },
+ {
+  "id": "orano-katco-2025",
+  "type": "expertise",
+  "auteur": "Orano",
+  "date": "2025-07-03",
+  "titre": "Kazakhstan : le site de South Tortkuduk de KATCO pleinement opérationnel",
+  "url": "https://www.orano.group/en/news/news-group/2025/july/kazakhstan-katco-s-south-tortkuduk-uranium-mining-site-is-now-fully-operational",
+  "apport": "190 M$ investis, 46 000 t de réserves, objectif de 4 000 t par an en 2026 pour KATCO."
+ },
+ {
+  "id": "orano-mongolie-2025",
+  "type": "expertise",
+  "auteur": "Orano",
+  "date": "2025-01-17",
+  "titre": "Orano signe un accord d'investissement avec le gouvernement mongol",
+  "url": "https://www.orano.group/en/news/news-group/2025/january/orano-signs-investment-agreement-with-mongolian-government-to-develop-world-class-uranium-deposit",
+  "apport": "Zuuvch-Ovoo : près de 90 000 t de ressources, environ 2 500 t par an, 500 M$ avant production et 1,6 Md$ sur la durée de vie, exploitation prévue sur 30 ans."
+ },
+ {
+  "id": "kunuz-nurlikum-2025",
+  "type": "presse",
+  "auteur": "Kun.uz (Tachkent)",
+  "date": "2025-06-19",
+  "titre": "Uzbek-French joint venture set to begin uranium mining by year-end",
+  "url": "https://kun.uz/en/news/2025/06/18/uzbek-french-joint-venture-set-to-begin-uranium-mining-by-year-end",
+  "apport": "Nurlikum Mining (Orano et Navoiyuran) se prépare à extraire l'uranium de South Djengeldi d'ici la fin de 2025."
+ },
+ {
+  "id": "orda-redbook-2025",
+  "type": "presse",
+  "auteur": "Orda.kz (Almaty)",
+  "date": "2025-04-09",
+  "titre": "How Long Will Kazakhstan's Uranium Reserves Last?",
+  "url": "https://en.orda.kz/how-long-will-kazakhstans-uranium-reserves-last-5888",
+  "apport": "Selon le Livre rouge, 83 % des ressources kazakhes à moins de 130 $/kgU sont déjà attribuées à des compagnies minières ; les réserves prouvées dureraient jusque vers 2040."
+ },
+ {
+  "id": "ren-fen-2024",
+  "type": "presse",
+  "auteur": "Mining.com",
+  "date": "2024-06-07",
+  "titre": "Rare Earths Norway says its REE discovery is Europe's largest",
+  "url": "https://www.mining.com/rare-earths-norway-says-its-ree-discovery-is-europes-largest/",
+  "apport": "Fen (Norvège) : ressource présumée de 559 Mt à 1,57 % d'oxydes, soit 8,8 Mt d'oxydes de terres rares, dont environ 1,5 Mt pour les aimants."
+ },
+ {
+  "id": "lkab-2026",
+  "type": "expertise",
+  "auteur": "LKAB (entreprise publique suédoise)",
+  "date": "2026",
+  "titre": "LKAB reports improved Mineral Resources",
+  "url": "https://lkab.com/en/press/lkab-reports-improved-mineral-resources/",
+  "apport": "Per Geijer (Kiruna) : environ 2,2 Mt d'oxydes de terres rares en ressource présumée à fin 2025 ; projet stratégique au titre du règlement européen sur les matières critiques."
+ },
+ {
+  "id": "serraverde-2026",
+  "type": "presse",
+  "auteur": "Mining Reporters",
+  "date": "2026-02-06",
+  "titre": "Serra Verde secures US$565m DFC loan",
+  "url": "https://www.miningreporters.com/noticia/news/2026/02/serra-verde-dfc-loan-565m-us-minority-stake-option-rare-earths-brazil",
+  "apport": "Pela Ema (Goiás) : 6 500 t d'oxydes de terres rares prévues en 2026, capacité à doubler en quatre ans, contrats chinois en renégociation."
+ },
+ {
+  "id": "lynas-2025",
+  "type": "presse",
+  "auteur": "Mining Weekly",
+  "date": "2025-05-16",
+  "titre": "Lynas begins first heavy rare earth output outside China",
+  "url": "https://www.miningweekly.com/article/lynas-begins-first-heavy-rare-earth-output-outside-china-2025-05-16",
+  "apport": "Premier oxyde de dysprosium séparé en Malaisie : Lynas se dit le seul producteur commercial de terres rares lourdes séparées hors de Chine."
+ },
+ {
+  "id": "tanbreez-2024",
+  "type": "presse",
+  "auteur": "Mining.com",
+  "date": "2024-06-10",
+  "titre": "Critical Metals to acquire controlling stake in Greenland rare earth project",
+  "url": "https://www.mining.com/critical-metals-to-acquire-controlling-stake-in-greenland-rare-earth-mine/",
+  "apport": "Tanbreez (Groenland) : estimation interne de 28,2 Mt d'oxydes dans 4,7 Gt de roche, dont plus de 27 % de terres rares lourdes, non encore conforme aux normes boursières."
+ },
+ {
+  "id": "caremag-2025",
+  "type": "presse",
+  "auteur": "Mining Technology",
+  "date": "2025-05-30",
+  "titre": "Caremag project puts Europe back in the REE game",
+  "url": "https://www.mining-technology.com/analysis/caremag-project-puts-europe-back-in-the-ree-game/",
+  "apport": "Lacq : 600 t par an d'oxydes de dysprosium et de terbium et 800 t de néodyme-praséodyme visées fin 2026 ; 110 M€ japonais (JOGMEC, Iwatani), 106 M€ de l'État."
+ },
+ {
+  "id": "almonty-2026",
+  "type": "expertise",
+  "auteur": "Almonty Industries",
+  "date": "2026-01-20",
+  "titre": "Almonty Shareholder Letter",
+  "url": "https://press.almonty.com/almonty-shareholder-letter/",
+  "apport": "Sangdong (Corée du Sud) : extraction active depuis décembre 2025, phase II en 2027 jusqu'à 460 000 MTU d'oxyde de tungstène par an ; Panasqueira (Portugal) jusqu'à 124 000 MTU."
+ },
+ {
+  "id": "covekaz-2026",
+  "type": "expertise",
+  "auteur": "Cove Kaz Capital Group et Tau-Ken Samruk (communiqué)",
+  "date": "2026-02-13",
+  "titre": "Definitive agreements to develop the world's largest known undeveloped tungsten resource",
+  "url": "https://www.businesswire.com/news/home/20260213536464/en/Cove-Kaz-Capital-Group-and-Tau-Ken-Samruk-Execute-Definitive-Agreements-to-Develop-the-Worlds-Largest-Known-Undeveloped-Tungsten-Resource",
+  "apport": "Severniy Katpar et Upper Kairakty : 1,4 Mt d'oxyde de tungstène en ressources JORC, 12 000 t par an prévues, production commercialisée en priorité vers les États-Unis."
+ },
+ {
+  "id": "fastmarkets-w-2026",
+  "type": "presse",
+  "auteur": "Fastmarkets",
+  "date": "2026-01-21",
+  "titre": "Central Asia's tungsten test",
+  "url": "https://www.fastmarkets.com/insights/central-asias-tungsten-kazakhstan-uzbekistan-us-china-critical-minerals/",
+  "apport": "La mine kazakhe de Bakuta appartient à Jiaxin, contrôlé par Jiangxi Copper ; projet K-Tungsten en Ouzbékistan, première production prévue en 2028."
+ },
+ {
+  "id": "timesca-sb-2026",
+  "type": "presse",
+  "auteur": "The Times of Central Asia",
+  "date": "2026-09-02",
+  "titre": "Tajikistan's antimony between the US and China",
+  "url": "https://timesca.com/tajikistan-antimony-us-china-processing/",
+  "apport": "Le Tadjikistan, troisième producteur mondial (22 000 t en 2025), a exporté tout son minerai et ses concentrés vers la Chine en 2024 ; TALCO Gold est détenu à 50 % par Tibet Huayu."
+ },
+ {
+  "id": "metlen-2025",
+  "type": "presse",
+  "auteur": "Kitco (dépêche Reuters)",
+  "date": "2025-03-27",
+  "titre": "Greece's Metlen sees gallium production at 50t in 2028",
+  "url": "https://www.kitco.com/news/off-the-wire/2025-03-27/greeces-metlen-sees-gallium-production-50t-2028-enough-cover-eu-needs",
+  "apport": "Metlen vise 50 t de gallium à partir de 2028 en Grèce, pour 300 M€, et affirme que cela couvrirait la demande de l'UE."
+ },
+ {
+  "id": "umicore-stl-2024",
+  "type": "expertise",
+  "auteur": "Umicore",
+  "date": "2024-10-15",
+  "titre": "First Made-in-DRC germanium concentrates due for export to Umicore",
+  "url": "https://www.umicore.com/en/media/newsroom/first-made-in-drc-germanium-concentrates-due-for-export-to-umicore-for-high-tech-applications/",
+  "apport": "STL (Gécamines) traite les résidus de Big Hill à Lubumbashi ; Umicore achète la production et la raffine en Belgique."
+ },
+ {
+  "id": "keliber-2026",
+  "type": "presse",
+  "auteur": "La Libre Belgique (dépêche AFP)",
+  "date": "2026-04-28",
+  "titre": "La première mine de lithium d'Europe destinée au marché des batteries entre en activité en Finlande",
+  "url": "https://www.lalibre.be/international/europe/2026/04/28/la-premiere-mine-de-lithium-deurope-destinee-au-marche-des-batteries-entre-en-activite-en-finlande-IJSS4CZM3RHLJICAS2JP4XF6YU/",
+  "apport": "Keliber (Kaustinen) : environ 15 000 t d'hydroxyde de lithium par an, 783 M€ investis, démarrage fin février 2026."
+ },
+ {
+  "id": "jadar-2025",
+  "type": "presse",
+  "auteur": "Electrive",
+  "date": "2025-11-17",
+  "titre": "Rio Tinto puts Jadar lithium project in Serbia on hold",
+  "url": "https://www.electrive.com/2025/11/17/rio-tinto-puts-jadar-lithium-project-in-serbia-on-hold/",
+  "apport": "Rio Tinto suspend Jadar faute d'avancée des autorisations ; le projet visait 58 000 t de carbonate de lithium par an et se heurte à une forte opposition locale."
+ },
+ {
+  "id": "ewb-jadar-2025",
+  "type": "presse",
+  "auteur": "European Western Balkans (Belgrade)",
+  "date": "2025-06-05",
+  "titre": "European Commission approves controversial Serbian lithium project as strategic for the EU",
+  "url": "https://europeanwesternbalkans.com/2025/06/05/european-commission-approves-controversial-serbian-lithium-project-as-strategic-for-the-eu/",
+  "apport": "La Commission a classé Jadar projet stratégique en juin 2025, malgré les manifestations de 2024 en Serbie."
+ },
+ {
+  "id": "novandino-2026",
+  "type": "presse",
+  "auteur": "Mining Reporters",
+  "date": "2026-02-23",
+  "titre": "SQM-Codelco NovaAndino lithium output 2025 beats forecast",
+  "url": "https://www.miningreporters.com/noticia/news/2026/02/sqm-codelco-novandino-lithium-output-2025-beats-forecast",
+  "apport": "NovaAndino Litio, sous contrôle de Codelco, a produit 233 000 t d'équivalent carbonate de lithium en 2025."
+ },
+ {
+  "id": "zim-li-2025",
+  "type": "presse",
+  "auteur": "Mining.com (dépêche Reuters)",
+  "date": "2025-06-10",
+  "titre": "Zimbabwe to ban export of lithium concentrates from 2027",
+  "url": "https://www.mining.com/web/zimbabwe-to-ban-export-of-lithium-concentrates-from-2027/",
+  "apport": "Le Zimbabwe interdira l'export des concentrés de lithium à partir de janvier 2027 ; les principales mines appartiennent à Sinomine et Huayou Cobalt."
+ },
+ {
+  "id": "iea-arecoms-2025",
+  "type": "institution",
+  "auteur": "Agence internationale de l'énergie (base des politiques)",
+  "date": "2025-09-20",
+  "titre": "DRC ARECOMS Decision No. 004/2025 – Cobalt Quota System",
+  "url": "https://www.iea.org/policies/29138-drc-arecoms-decision-no-0042025-cobalt-quota-system",
+  "apport": "La RD Congo limite ses exportations de cobalt à 96 600 t en 2026, dont 9 600 t de quota stratégique, réparties selon les exportations passées."
+ },
+ {
+  "id": "lnc-sln-2026",
+  "type": "presse",
+  "auteur": "Les Nouvelles Calédoniennes (Nouméa)",
+  "date": "2026-04-21",
+  "titre": "Nickel : la SLN vise un retour à la rentabilité d'ici 2029-2030",
+  "url": "https://www.lnc.nc/article/nickel-la-sln-vise-un-retour-a-la-rentabilite-d-ici-2029-2030",
+  "apport": "La SLN a produit 36 000 t de nickel en 2025 et en vise 40 000 en 2026, pour une capacité d'environ 60 000 t ; KNS a fermé en 2024 ; prêt garanti de l'État de 240 M€."
+ },
+ {
+  "id": "uktmp-2026",
+  "type": "presse",
+  "auteur": "The Astana Times",
+  "date": "2026-06-12",
+  "titre": "Kazakh Titanium Accounts for 20% of Global Aerospace Market, Officials Say",
+  "url": "https://astanatimes.com/2026/06/kazakh-titanium-accounts-for-20-of-global-aerospace-market-officials-say/",
+  "apport": "UKTMP a vendu environ 12 000 t de produits en titane en 2025 à Airbus, Boeing, Safran ou Rolls-Royce ; une nouvelle usine d'éponge doit ajouter 10 000 t de capacité."
+ },
+ {
+  "id": "ngu-phos",
+  "type": "institution",
+  "auteur": "NGU, service géologique de Norvège",
+  "date": "2023",
+  "titre": "Phosphate rock resources in Norway",
+  "url": "https://www.ngu.no/en/geological-resources/phosphate-rock-resources-norway",
+  "apport": "Le complexe de Bjerkreim-Sokndal est la ressource la plus prometteuse ; Norge Mining y annonce 1,55 Gt de ressources indiquées et présumées, chiffre de l'entreprise et non du service géologique."
+ },
+ {
+  "id": "doj-hhi-2024",
+  "type": "institution",
+  "auteur": "Département de la Justice des États-Unis",
+  "date": "2024-01-17",
+  "titre": "Herfindahl-Hirschman Index",
+  "url": "https://www.justice.gov/atr/herfindahl-hirschman-index",
+  "apport": "L'indice se calcule en additionnant le carré des parts de marché ; au-delà de 1 800 points, un marché est jugé très concentré, entre 1 000 et 1 800 modérément (lignes directrices de 2023)."
+ },
+ {
+  "id": "usgs-mn",
+  "type": "donnees",
+  "auteur": "USGS",
+  "date": "2026-02",
+  "titre": "Manganese",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-manganese.pdf",
+  "apport": "Production et réserves de manganèse par pays (2024-2025) ; origine des importations américaines : Gabon 64 %, Afrique du Sud 24 %, Mexique 12 %."
+ },
+ {
+  "id": "usgs-bx",
+  "type": "donnees",
+  "auteur": "USGS",
+  "date": "2026-02",
+  "titre": "Bauxite and alumina",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-bauxite-alumina.pdf",
+  "apport": "Production et réserves de bauxite, production d'alumine par pays (2024-2025) ; réserves australiennes conformes au code JORC : 1,7 Gt."
+ },
+ {
+  "id": "usgs-nb",
+  "type": "donnees",
+  "auteur": "USGS",
+  "date": "2026-02",
+  "titre": "Niobium",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-niobium.pdf",
+  "apport": "Production et réserves par pays ; destinations du ferroniobium brésilien : Chine 49 %, Pays-Bas 17 %."
+ },
+ {
+  "id": "usgs-ta",
+  "type": "donnees",
+  "auteur": "USGS",
+  "date": "2026-02",
+  "titre": "Tantalum",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tantalum.pdf",
+  "apport": "Production par pays (2024-2025) ; accord de paix RD Congo–Rwanda de juin 2025 ; révision des chiffres congolais d'après un rapport du gouvernement."
+ },
+ {
+  "id": "bmi-rkab-2026",
+  "type": "expertise",
+  "auteur": "Benchmark Mineral Intelligence",
+  "date": "2026-02-12",
+  "titre": "Indonesia announces significantly lower nickel RKAB quotas",
+  "url": "https://source.benchmarkminerals.com/article/indonesia-announces-significantly-lower-nickel-rkab-quotas",
+  "apport": "Quota de minerai de nickel 2026 : 260 à 270 Mt humides, contre 379 Mt en 2025, fixé par le ministère indonésien de l'Énergie et des Ressources minérales."
+ },
+ {
+  "id": "nrf-id-2019",
+  "type": "expertise",
+  "auteur": "Norton Rose Fulbright",
+  "date": "2019-10",
+  "titre": "Indonesia amends regulation on nickel export to boost production of value-added products",
+  "url": "https://nortonrosefulbright.com/en-sg/knowledge/publications/b571b094/indonesia-amends-regulation-on-nickel-export-to-boost-production-of-value-added-products",
+  "apport": "Règlement ministériel n° 11/2019 : export de minerai de nickel à moins de 1,7 % interdit à partir du 1er janvier 2020."
+ },
+ {
+  "id": "pib-ncmm-2025",
+  "type": "etat",
+  "auteur": "Gouvernement de l'Inde, Press Information Bureau",
+  "date": "2025-04-09",
+  "titre": "National Critical Mineral Mission",
+  "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/apr/doc202549537601.pdf",
+  "apport": "Objectifs 2024-2031 : 1 200 projets d'exploration, 50 mines à acquérir à l'étranger, 400 000 t recyclées ; KABIL explore 15 703 ha de lithium à Catamarca (Argentine)."
+ },
+ {
+  "id": "camara-pnmce-2026",
+  "type": "etat",
+  "auteur": "Câmara dos Deputados (Brésil)",
+  "date": "2026-09-16",
+  "titre": "Nova lei cria a Política Nacional de Minerais Críticos e Estratégicos",
+  "url": "https://www.camara.leg.br/noticias/1305164-nova-lei-cria-a-politica-nacional-de-minerais-criticos-e-estrategicos",
+  "apport": "Loi n° 15.506/2026 : conseil national rattaché à la présidence, fonds de garantie de 2 milliards de reais, 5 milliards pour la transformation au Brésil."
+ },
+ {
+  "id": "band-pnmce-2026",
+  "type": "presse",
+  "auteur": "Band",
+  "date": "2026-05-07",
+  "titre": "Câmara aprova projeto que cria Política Nacional de Minerais Críticos",
+  "url": "https://www.band.com.br/economia/noticias/camara-aprova-projeto-que-cria-politica-nacional-de-minerais-criticos-202605070958",
+  "apport": "Réserves brésiliennes de terres rares : 21 Mt ; Serra Verde, seule mine en activité, rachetée par USA Rare Earth, rachat critiqué au sein de l'État fédéral."
+ },
+ {
+  "id": "bl-litio-2023",
+  "type": "presse",
+  "auteur": "Bloomberg Línea",
+  "date": "2023-04-20",
+  "titre": "Chile presentó su estrategia nacional del litio",
+  "url": "https://www.bloomberglinea.com/latinoamerica/chile/chile-presento-su-estrategia-nacional-del-litio-que-pasara-con-los-salares/",
+  "apport": "Stratégie présentée par Gabriel Boric : contrôle public par Codelco au salar d'Atacama, entreprise nationale du lithium, réseau de salars protégés."
+ },
+ {
+  "id": "ecofin-zm-2026",
+  "type": "presse",
+  "auteur": "Agence Ecofin",
+  "date": "2026-01-28",
+  "titre": "Zambia's 2025 copper output rises 8%, misses 1 million tonne target",
+  "url": "https://www.ecofinagency.com/news-industry/2801-52339-zambias-2025-copper-output-rises-8-misses-1-million-tonne-target",
+  "apport": "Production zambienne de cuivre 2025 : 890 346 t (825 513 t en 2024), selon le ministre des Mines Paul Kabuswe."
+ },
+ {
+  "id": "pdu-zm-2026",
+  "type": "etat",
+  "auteur": "Presidential Delivery Unit (Zambie)",
+  "date": "2026-02-18",
+  "titre": "Zambia's Mining Sector Charts Its Course to 2031",
+  "url": "https://www.pdu.gov.zm/blog/zambias-mining-sector-charts-its-course-to-2031",
+  "apport": "Objectif de 3 Mt de cuivre par an en 2031 ; loi n° 2 de 2025 sur la géologie et les minerais ; contenu local obligatoire depuis le 1er janvier 2026."
+ },
+ {
+  "id": "ecofin-ml-2025",
+  "type": "presse",
+  "auteur": "Agence Ecofin",
+  "date": "2025-09-22",
+  "titre": "Mali applies new mining code to gold and lithium projects",
+  "url": "https://www.ecofinagency.com/news-industry/2209-48903-mali-applies-new-mining-code-to-gold-and-lithium-projects",
+  "apport": "Le code minier de 2023 porte la part possible de l'État de 20 à 35 % ; décrets du 19 septembre 2025 pour Goulamina et Bougouni."
+ },
+ {
+  "id": "swp-afrique-2026",
+  "type": "expertise",
+  "auteur": "SWP, institut allemand pour les affaires internationales (Meike Schulze)",
+  "date": "2026-02-09",
+  "titre": "Strategic Raw Material Cooperation between Africa and Europe",
+  "url": "https://www.swp-berlin.org/en/publication/strategic-raw-material-cooperation-between-africa-and-europe",
+  "apport": "Cinq des quinze partenariats européens sont africains (Rwanda suspendu) ; l'Union peine à transformer l'ambition en projets ; les contrats d'achat profitent surtout aux acheteurs chinois."
+ },
+ {
+  "id": "acjj-ocp-2026",
+  "type": "ong",
+  "auteur": "Xavier Dupret et Dominique Weerts (ACJJ)",
+  "date": "2026-04-20",
+  "titre": "L'industrie wallonne et le phosphate marocain",
+  "url": "https://www.acjj.be/wp-content/uploads/2026/04/260420PrayonOCP7.pdf",
+  "apport": "Prayon (Engis) détenue à 50 % par OCP et 50 % par la Région wallonne ; 96 % des engrais produits par OCP exportés en 2024 ; Bou Craa (Sahara occidental) environ 2 % de l'extraction."
+ },
+ {
+  "id": "correo-ylb-2026",
+  "type": "presse",
+  "auteur": "Correo del Sur",
+  "date": "2026-02-26",
+  "titre": "YLB reporta dos contratos y cinco convenios sobre el litio",
+  "url": "https://correodelsur.com/economia/20260226/ylb-reporta-dos-contratos-y-cinco-convenios-sobre-el-litio.html",
+  "apport": "Contrats de YLB avec Hong Kong CBC et Uranium One en attente devant l'Assemblée ; cinq conventions, dont Eramet ; aucun contrat signé sous le gouvernement Paz."
+ },
+ {
+  "id": "timesca-kz-2025",
+  "type": "presse",
+  "auteur": "The Times of Central Asia",
+  "date": "2025-12-10",
+  "titre": "Kazakhstan Deepens Its Critical Minerals Push",
+  "url": "https://timesca.com/kazakhstan-deepens-its-critical-minerals-push/",
+  "apport": "Chiffres du ministère kazakh de l'Industrie : 2,2 millions de km² cartographiés visés en 2026, nouvelles réserves de manganèse (11 Mt) et de phosphorites ; prévisions distinctes des réserves prouvées."
+ },
+ {
+  "id": "timesca-kzree-2025",
+  "type": "presse",
+  "auteur": "The Times of Central Asia",
+  "date": "2025-09-05",
+  "titre": "Kazakhstan's rare earth reserves surpass projections following new geological surveys",
+  "url": "https://timesca.com/kazakhstans-rare-earth-reserves-surpass-projections-following-new-geological-surveys/",
+  "apport": "Gisement de Kuirektykol (Karaganda) : 28,2 Mt annoncées, sans code de déclaration international ni distinction entre minerai et oxydes."
+ },
+ {
+  "id": "mining-lobito-2024",
+  "type": "presse",
+  "auteur": "Reuters, repris par Mining.com",
+  "date": "2024-02-08",
+  "titre": "US to commit more funds to African rail link for metal exports",
+  "url": "https://www.mining.com/web/us-to-commit-more-funds-to-african-rail-link-for-metal-exports/",
+  "apport": "Corridor de Lobito : 1 700 km de voie ferrée, concession de 30 ans (Trafigura, Mota-Engil, Vecturis), 250 M$ américains pour la phase angolaise, près d'1 Md$ pour 800 km en Zambie."
+ },
+ {
+  "id": "caem-li-2025",
+  "type": "presse",
+  "auteur": "Reuters, repris par Proactivo",
+  "date": "2025-05-07",
+  "titre": "Producción de litio en Argentina crecerá un 77 % a 131.800 toneladas",
+  "url": "https://proactivo.com.pe/produccion-de-litio-en-argentina-crecera-un-77-a-131800-toneladas/",
+  "apport": "Prévision de la chambre argentine des entreprises minières (CAEM) : 131 800 t d'équivalent carbonate en 2025, contre 74 600 t en 2024 ; six projets en production."
+ },
+ {
+  "id": "mlnr-gh-2023",
+  "type": "etat",
+  "auteur": "Ministère des Terres et des Ressources naturelles (Ghana)",
+  "date": "2023-10",
+  "titre": "Speaking notes, signing of the lithium lease",
+  "url": "https://mlnr.gov.gh/wp-content/uploads/2023/10/Speaking_Notes_Signing_of_Lithium_Lease.pdf",
+  "apport": "Ewoyaa : redevance de 10 %, participation publique de 19 %, étude d'usine chimique obligatoire ; « We do not intend to export lithium in its raw state »."
+ },
+ {
+  "id": "mt-ewoyaa-2026",
+  "type": "presse",
+  "auteur": "Mining Technology",
+  "date": "2026-03-23",
+  "titre": "Ghana parliament ratifies Ewoyaa mining lease",
+  "url": "https://www.mining-technology.com/news/ghana-parliament-ratifies-ewoyaa-mining-lease/",
+  "apport": "Premier bail de lithium ratifié au Ghana, en mars 2026."
+ },
+ {
+  "id": "allafrica-zw-2025",
+  "type": "presse",
+  "auteur": "AllAfrica",
+  "date": "2025-06-10",
+  "titre": "Zimbabwe: Govt to ban lithium concentrate exports by 2027",
+  "url": "https://allafrica.com/stories/202506110038.html",
+  "apport": "Annonce du ministre des Mines Winston Chitando ; usines de sulfate de lithium de Bikita Minerals et Prospect Lithium Zimbabwe."
+ },
+ {
+  "id": "ecofin-mw-2025",
+  "type": "presse",
+  "auteur": "Agence Ecofin",
+  "date": "2025-10-28",
+  "titre": "Malawi bans unprocessed mineral exports to force local value addition",
+  "url": "https://www.ecofinagency.com/news/2810-49885-malawi-bans-unprocessed-mineral-exports-to-force-local-value-addition",
+  "apport": "Décret du président Peter Mutharika : interdiction d'exporter tout minerai brut ; uranium, terres rares et graphite visés en priorité."
+ },
+ {
+  "id": "enterprise-sa-2026",
+  "type": "presse",
+  "auteur": "Enterprise AM",
+  "date": "2026-01-15",
+  "titre": "Future Minerals Forum 2026",
+  "url": "https://enterpriseam.com/ksa/2026/01/15/104125/",
+  "apport": "Protocoles saoudiens avec le Canada, le Chili et le Brésil ; plan de Ma'aden de 110 Md$ d'ici 2040, triplement des capacités de phosphate."
+ },
+ {
+  "id": "ajot-ph-2025",
+  "type": "presse",
+  "auteur": "American Journal of Transportation",
+  "date": "2025-07-07",
+  "titre": "Philippine nickel ore ban reversed: what are the impacts?",
+  "url": "https://www.ajot.com/news/philippine-nickel-ore-ban-reversed-what-are-the-impacts",
+  "apport": "Interdiction d'exporter le minerai de nickel votée par le Sénat le 3 février 2025, retirée à la mi-juin ; plus de 87 % du minerai philippin part en Chine."
+ },
+ {
+  "id": "renault-managem-2022",
+  "type": "expertise",
+  "auteur": "Renault Group",
+  "date": "2022-06-01",
+  "titre": "Renault Group and Managem Group sign an agreement for a sustainable supply of Moroccan cobalt",
+  "url": "https://media.renaultgroup.com/?p=106652",
+  "apport": "5 000 t de sulfate de cobalt marocain par an pendant sept ans, à partir de 2025."
+ },
+ {
+  "id": "gabonreview-mn-2025",
+  "type": "presse",
+  "auteur": "Gabonreview",
+  "date": "2025-06-01",
+  "titre": "2029 : le Gabon ferme la porte au manganèse brut et ouvre celle de l'industrie",
+  "url": "https://www.gabonreview.com/2029-le-gabon-ferme-la-porte-au-manganese-brut-et-ouvre-celle-de-lindustrie/",
+  "apport": "Conseil des ministres du 30 mai 2025 : export de manganèse brut interdit à partir du 1er janvier 2029, transition de trois ans, fonds public-privé."
+ },
+ {
+  "id": "eramet-gabon-2026",
+  "type": "expertise",
+  "auteur": "Eramet",
+  "date": "2026-07-20",
+  "titre": "Eramet et la République gabonaise signent un accord de transformation de la chaîne de valeur du manganèse au Gabon",
+  "url": "https://bourse.fortuneo.fr/actualites/eramet-et-la-republique-gabonaise-signent-un-accord-de-transformation-de-la-chaine-de-valeur-du-manganese-au-gabon-3334427",
+  "apport": "Protocole signé à Paris : transformer jusqu'à 700 kt de minerai par an au Gabon d'ici fin 2031 ; usine d'alliages de 265 kt par an envisagée pour 2031."
+ },
+ {
+  "id": "allafrica-macron-2025",
+  "type": "presse",
+  "auteur": "AllAfrica (Camer.be)",
+  "date": "2025-11-25",
+  "titre": "Gabon : visite d'État du président français, entre coopération et souveraineté",
+  "url": "https://fr.allafrica.com/stories/202511250147.html",
+  "apport": "Visite d'État du 23 au 25 novembre 2025 ; protocole de financement de l'AFD pour moderniser le Transgabonais."
+ },
+ {
+  "id": "brief-na-2023",
+  "type": "presse",
+  "auteur": "The Brief (Namibie)",
+  "date": "2023-06-09",
+  "titre": "Namibia bans export of unprocessed lithium and critical minerals",
+  "url": "https://thebrief.com.na/2023/06/namibia-bans-export-of-unprocessed-lithium-and-critical-minerals/",
+  "apport": "Décision du Conseil des ministres : export de minerai brut de lithium, cobalt, manganèse, graphite et terres rares interdit."
+ },
+ {
+  "id": "iea-za-2025",
+  "type": "institution",
+  "auteur": "Agence internationale de l'énergie (base des politiques)",
+  "date": "2025-05",
+  "titre": "Critical Minerals and Metals Strategy of South Africa",
+  "url": "https://www.iea.org/policies/29462",
+  "apport": "Stratégie sud-africaine de mai 2025 : 21 minerais critiques ; platinoïdes, manganèse, fer, charbon et chrome les plus critiques ; transformation sur place."
+ },
+ {
+  "id": "au-agms-2025",
+  "type": "etat",
+  "auteur": "Commission de l'Union africaine",
+  "date": "2025-03-18",
+  "titre": "Africa's Green Minerals Strategy (AGMS)",
+  "url": "https://au.int/en/documents/20250318/africas-green-minerals-strategy-agms",
+  "apport": "Stratégie continentale : transformer les minerais à la source, industrialiser à l'échelle régionale, sortir de l'export brut."
+ },
+ {
+  "id": "ec-diplo-2026",
+  "type": "institution",
+  "auteur": "Commission européenne",
+  "date": "2026",
+  "titre": "Raw materials diplomacy",
+  "url": "https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/raw-materials-diplomacy_en",
+  "apport": "Liste et dates des seize partenariats stratégiques de l'Union sur les matières premières, du Canada (2021) aux États-Unis (avril 2026)."
+ },
+ {
+  "id": "reuters-gn-2026",
+  "type": "presse",
+  "auteur": "Reuters, repris par Engineering News",
+  "date": "2026-01-26",
+  "titre": "Guinea's bauxite exports jump 25% to 183 million tons in 2025 on Chinese demand",
+  "url": "https://www.engineeringnews.co.za/article/guineas-bauxite-exports-jump-25-to-183-million-tons-in-2025-on-chinese-demand-2026-01-26",
+  "apport": "Données du ministère guinéen des Mines : 182,8 Mt exportées en 2025 ; 74 % vers la Chine selon les douanes chinoises."
+ },
+ {
+  "id": "allafrica-gn-2026",
+  "type": "presse",
+  "auteur": "AllAfrica",
+  "date": "2026-03-26",
+  "titre": "Guinée : de l'export brut à la maîtrise des prix",
+  "url": "https://fr.allafrica.com/stories/202603260650.html",
+  "apport": "Le ministre des Mines Bouna Sylla annonce une baisse des volumes exportés dès avril 2026, sans quota chiffré ; plans de production sur trois ans exigés."
+ },
+ {
+  "id": "aj-niger-2025",
+  "type": "presse",
+  "auteur": "Al Jazeera",
+  "date": "2025-06-20",
+  "titre": "Niger nationalises uranium mine as spat with French nuclear giant worsens",
+  "url": "https://www.aljazeera.com/amp/news/2025/6/20/niger-nationalises-uranium-mine-as-spat-with-french-nuclear-giant-worsens",
+  "apport": "Nationalisation de la Somaïr (Orano 63 %) ; le gouvernement nigérien affirme qu'Orano a pris 86,3 % de la production depuis 1971."
+ },
+ {
+  "id": "kitco-vn-2025",
+  "type": "presse",
+  "auteur": "Reuters, repris par Kitco",
+  "date": "2025-12-11",
+  "titre": "Vietnam curbs exports of refined rare earths, reaffirms ban on ore trade",
+  "url": "https://www.kitco.com/news/off-the-wire/2025-12-11/vietnam-curbs-exports-refined-rare-earths-reaffirms-ban-ore-trade",
+  "apport": "Loi sur les minerais révisée : export de minerai de terres rares interdit, transformation liée à une industrie nationale ; réserves ramenées de 22 à 3,5 Mt."
+ },
+ {
+  "id": "mining-mx-2024",
+  "type": "presse",
+  "auteur": "Reuters, repris par Mining.com",
+  "date": "2024-06-27",
+  "titre": "Mexico to seek deal over disputed mining concession with Ganfeng",
+  "url": "https://www.mining.com/mexico-to-seek-deal-over-disputed-mining-concession-with-ganfeng/",
+  "apport": "Loi d'avril 2022 réservant le lithium à l'État ; concessions de Ganfeng annulées en 2023 ; arbitrage au CIRDI en juin 2024."
+ },
+ {
+  "id": "allafrica-ng-2025",
+  "type": "presse",
+  "auteur": "AllAfrica",
+  "date": "2025-05-25",
+  "titre": "Nigeria: Tinubu's mining reforms attract $800m foreign investment, says Alake",
+  "url": "https://allafrica.com/stories/202505260068.html",
+  "apport": "Plus de permis sans usine de transformation locale ; deux usines de lithium (600 M$ et 200 M$)."
  }
 ]

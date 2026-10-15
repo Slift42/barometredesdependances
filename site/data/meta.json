@@ -1,6 +1,6 @@
 {
- "version": "0.8.0",
- "maj": "2026-10-14",
+ "version": "0.10.0",
+ "maj": "2026-10-16",
  "seuil_jours": 90,
  "familles": {
   "sante": "Santé",
@@ -15,11 +15,11 @@
  "niveaux": {
   "1": {
    "nom": "Souverain",
-   "desc": "production excédentaire (couverture d'au moins 100 %)"
+   "desc": "la France produit ce dont elle a besoin sans dépendre d'un autre pays, ou peut relocaliser la production avant l'épuisement de ses stocks"
   },
   "2": {
    "nom": "Indépendant",
-   "desc": "plus d'un an de tenue, ou 80 à 99 % des besoins couverts en France"
+   "desc": "plus d'un an de tenue, ou au moins 80 % des besoins couverts par une production qui dépend encore d'intrants importés"
   },
   "3": {
    "nom": "Résilient",
@@ -304,6 +304,28 @@
      "lcp-masques-2020"
     ]
    }
+  ]
+ },
+ "souverainete": {
+  "titre": "Ce que nous appelons souveraineté",
+  "def": "Être souverain, ce n'est pas produire plus que ce que l'on consomme. C'est pouvoir produire ce dont on a besoin sans dépendre d'un autre pays, ou pouvoir relocaliser cette production dans un délai plus court que nos stocks de réserve.",
+  "points": [
+   [
+    "Un excédent ne suffit pas.",
+    "La France produit presque deux fois le blé qu'elle consomme, mais elle importe les engrais qui le font pousser. Son blé est indépendant, il n'est pas souverain."
+   ],
+   [
+    "Nous regardons en amont.",
+    "Pour chaque produit excédentaire, nous listons les intrants critiques importés (engrais, aliments du bétail, combustible). S'il y en a, le produit plafonne au niveau Indépendant."
+   ],
+   [
+    "Le temps de relocaliser compte.",
+    "Un produit importé peut être souverain si nos stocks durent plus longtemps qu'il n'en faut pour relocaliser sa production. Aucun délai de relocalisation n'est encore assez documenté pour l'appliquer : c'est un chantier ouvert."
+   ],
+   [
+    "L'échelle européenne.",
+    "Pour les programmes européens où la France joue un rôle moteur, comme Ariane ou Galileo, nous comptons la production européenne comme la nôtre."
+   ]
   ]
  }
 }

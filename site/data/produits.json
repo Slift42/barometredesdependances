@@ -983,7 +983,22 @@
     "cit": "qui fournit désormais un jour sur sept les besoins en nutriments du secteur agricole français"
    }
   ],
-  "src_i": 0
+  "src_i": 0,
+  "intrants": [
+   "azote",
+   "phosphates",
+   "potasse",
+   "gazole"
+  ],
+  "amont": {
+   "txt": "La culture du blé dépend d'engrais en grande partie importés : la France achète à l'étranger tous ses phosphates, l'essentiel de sa potasse et une part importante de ses engrais azotés. Les tracteurs et les moissonneuses roulent au gazole, lui aussi importé.",
+   "refs": [
+    "unifa-2025",
+    "usgs-phos",
+    "usgs-potash",
+    "em-2026"
+   ]
+  }
  },
  {
   "id": "mais",
@@ -1038,7 +1053,22 @@
     "cit": "Taux d'auto-approvisionnement = Production / Consommation"
    }
   ],
-  "src_i": 0
+  "src_i": 0,
+  "intrants": [
+   "azote",
+   "phosphates",
+   "potasse",
+   "gazole"
+  ],
+  "amont": {
+   "txt": "Comme le blé, le maïs pousse grâce à des engrais en grande partie importés (azote, phosphates, potasse), et les machines agricoles roulent au gazole importé.",
+   "refs": [
+    "unifa-2025",
+    "usgs-phos",
+    "usgs-potash",
+    "em-2026"
+   ]
+  }
  },
  {
   "id": "sucre",
@@ -1088,7 +1118,20 @@
     "tab": true
    }
   ],
-  "src_i": 0
+  "src_i": 0,
+  "intrants": [
+   "azote",
+   "phosphates",
+   "potasse"
+  ],
+  "amont": {
+   "txt": "La betterave demande des engrais azotés, phosphatés et potassiques, que la France importe en grande partie.",
+   "refs": [
+    "unifa-2025",
+    "usgs-phos",
+    "usgs-potash"
+   ]
+  }
  },
  {
   "id": "lait",
@@ -1149,7 +1192,18 @@
     "cit": "de plus en plus déficitaire en matière grasse (MGS, crème)"
    }
   ],
-  "src_i": 0
+  "src_i": 0,
+  "intrants": [
+   "soja",
+   "azote"
+  ],
+  "amont": {
+   "txt": "Les vaches laitières mangent du tourteau de soja importé des Amériques, et les cultures fourragères demandent des engrais importés.",
+   "refs": [
+    "franceagrimer-2025",
+    "unifa-2025"
+   ]
+  }
  },
  {
   "id": "porc",
@@ -1205,7 +1259,18 @@
     "tab": true
    }
   ],
-  "src_i": 0
+  "src_i": 0,
+  "intrants": [
+   "soja",
+   "azote"
+  ],
+  "amont": {
+   "txt": "Les porcs sont nourris en partie au tourteau de soja importé, et les céréales de leur ration poussent avec des engrais importés.",
+   "refs": [
+    "franceagrimer-2025",
+    "unifa-2025"
+   ]
+  }
  },
  {
   "id": "volaille",
@@ -1753,7 +1818,18 @@
     "cit": "des potagères et florales (-15 %, 24 000 ha)"
    }
   ],
-  "src_i": 0
+  "src_i": 0,
+  "intrants": [
+   "azote",
+   "phosphates"
+  ],
+  "amont": {
+   "txt": "Les champs de multiplication des semences demandent, comme toute culture, des engrais en grande partie importés.",
+   "refs": [
+    "unifa-2025",
+    "usgs-phos"
+   ]
+  }
  },
  {
   "id": "petrole",
@@ -2328,7 +2404,19 @@
     "cit": "La production d'électricité nucléaire s'est établie en 2024 à 361,7 TWh"
    }
   ],
-  "src_i": 0
+  "src_i": 0,
+  "intrants": [
+   "uranium-naturel",
+   "uranium-enrichi"
+  ],
+  "amont": {
+   "txt": "Le parc nucléaire fonctionne avec de l'uranium entièrement importé, et une partie de l'uranium enrichi vient encore de Russie. Les stocks couvrent environ deux ans de fonctionnement.",
+   "refs": [
+    "cde-niger-2024",
+    "greenpeace-u-2025",
+    "p-niger-2025"
+   ]
+  }
  },
  {
   "id": "coke",
@@ -2761,7 +2849,7 @@
   ],
   "l": 1,
   "dep": "La France importe son cobalt.",
-  "conc": "68 % du cobalt brut importé par l'UE vient d'un seul pays, la RD Congo (Cour des comptes européenne, 2023). Le raffinage est surtout chinois.",
+  "conc": "68 % du cobalt brut importé par l'UE vient d'un seul pays, la RD Congo (Cour des comptes européenne, 2023). Le raffinage est surtout chinois. En 2025, la RD Congo a extrait 230 000 t sur 310 000, et elle limite ses exportations à 96 600 t en 2026 (USGS, ARECOMS).",
   "note": "Le cobalt entre dans les batteries et dans les alliages des moteurs d'avion. Le pays qui l'extrait a montré qu'il pouvait fermer le robinet pour faire monter les prix.",
   "src": "Notre estimation",
   "m": "partner",
@@ -2786,7 +2874,9 @@
   "pourquoi": "L'Union importe 68 % de son cobalt brut d'un seul pays, la République démocratique du Congo, et le raffinage est surtout chinois. Le 22 février 2025, Kinshasa a suspendu ses exportations, puis les a remplacées en octobre par des quotas. Mêmes utilisateurs, mêmes habitudes de stock que pour le lithium : 60 jours.",
   "refs": [
    "cce-batteries-2023",
-   "aie-cobalt-2025"
+   "aie-cobalt-2025",
+   "iea-arecoms-2025",
+   "usgs-co"
   ],
   "gens": "Extrait au Congo, raffiné en Chine, dans votre batterie.",
   "lev": {
@@ -3151,7 +3241,7 @@
   ],
   "l": 2,
   "dep": "La France importe son antimoine.",
-  "conc": "La Chine a extrait 40 000 tonnes sur 110 000 dans le monde en 2025 (USGS).",
+  "conc": "La Chine a extrait 40 000 tonnes sur 110 000 en 2025, et la Russie 32 000 : à elles deux, près des deux tiers de l'antimoine mondial (USGS). Le Tadjikistan, troisième producteur, a vendu tout son minerai à la Chine en 2024.",
   "note": "L'antimoine entre dans les amorces de munitions et les retardateurs de flamme. Pour fabriquer leurs propres cartouches, les armées européennes dépendent d'une licence de Pékin.",
   "src": "Notre estimation",
   "m": "lpi",
@@ -3168,7 +3258,8 @@
   ],
   "pourquoi": "La Chine a extrait 40 000 des 110 000 tonnes d'antimoine produites dans le monde en 2025 et contrôle ses exportations depuis le 15 septembre 2024. Le prix moyen de 2025 a plus que doublé par rapport à 2024. Les industriels achètent au fil de l'eau : nous retenons 60 jours, et le levier activé fait tomber la note au plus bas.",
   "refs": [
-   "usgs-sb"
+   "usgs-sb",
+   "timesca-sb-2026"
   ],
   "gens": "Pas d'antimoine, pas d'amorce : pas de munitions.",
   "lev": {
@@ -3295,7 +3386,7 @@
   ],
   "l": 1,
   "dep": "La France importe son titane.",
-  "conc": "VSMPO-Avisma (Russie) reste un acteur mondial majeur.",
+  "conc": "La Chine a produit 260 000 t d'éponge de titane sur 370 000 en 2025, et la Russie 25 000 t. Hors de ces deux pays, le Japon, le Kazakhstan et l'Arabie saoudite en ont produit 81 000 t (USGS).",
   "note": "À Issoire, dans le Puy-de-Dôme, EcoTitanium recycle depuis 2017 les chutes de titane aéronautique, pour 48 millions d'euros d'investissement. C'est la preuve qu'on peut faire, et la mesure de ce qui reste à faire.",
   "src": "Notre hypothèse",
   "m": "rever",
@@ -3319,7 +3410,8 @@
   "pourquoi": "En avril 2022, Airbus reconnaissait que la Russie fournissait « environ la moitié » de ses besoins en titane, directement ou par ses fournisseurs, et plaidait contre les sanctions. La reconversion vers le Japon et le Kazakhstan est en cours, et coûte cher. Les industriels ont constitué des stocks depuis : quatre mois, c'est notre hypothèse.",
   "refs": [
    "p-airbus-ti-2022",
-   "bei-ecotitanium-2017"
+   "bei-ecotitanium-2017",
+   "usgs-ti"
   ],
   "gens": "Un Airbus en contient des tonnes.",
   "lev": {
@@ -3382,7 +3474,7 @@
   ],
   "l": 1,
   "dep": "La France importe son magnésium.",
-  "conc": "La Chine fournit 97 % du magnésium importé par l'UE (Cour des comptes européenne).",
+  "conc": "La Chine fournit 97 % du magnésium importé par l'UE (Cour des comptes européenne). Elle a produit 950 000 t de magnésium primaire sur 1,1 Mt dans le monde en 2025, et l'Union n'en produit plus (USGS).",
   "note": "Le magnésium entre dans la plupart des alliages d'aluminium, donc dans les voitures, les avions et les canettes. Personne n'en parle, parce qu'il est dans tout.",
   "src": "Notre estimation (crise observée en 2021)",
   "m": "lpi",
@@ -3399,7 +3491,8 @@
   "pourquoi": "La Chine fournit 97 % du magnésium de l'Union. À l'automne 2021, une baisse de sa production a suffi : le 22 octobre, les constructeurs automobiles européens annonçaient que l'Europe épuiserait ses stocks « d'ici fin novembre ». Cinq à six semaines. Nous retenons 45 jours.",
   "refs": [
    "cce-crm-2026",
-   "dieselnet-mg-2021"
+   "dieselnet-mg-2021",
+   "usgs-mg"
   ],
   "gens": "Sans magnésium, on ne fabrique pas d'alliage d'aluminium pour les voitures et les canettes.",
   "lev": {

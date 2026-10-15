@@ -39,7 +39,8 @@
       <a href="#accueil" data-tab="accueil">Accueil</a>
       <a href="#test" data-tab="test">Les 100 produits</a>
       <a href="#secteurs" data-tab="detail">Analyse détaillée</a>
-      <a href="#carte" data-tab="puissances">Les puissances</a>
+      <a href="#carte" data-tab="puissances">Carte des dépendances</a>
+      <a href="#partenaires" data-tab="partenaires">Partenaires</a>
       <a href="#europe" data-tab="europe">Europe et alliés</a>
       <a href="#actus" data-tab="actus">Actualités</a>
       <a href="#propositions" data-tab="propositions">Propositions</a>
@@ -63,23 +64,22 @@
           <p class="verdict">Aujourd'hui, la France est <strong id="dialVal">…</strong>. <button class="info" type="button" data-info="cadran" aria-label="Comment lire le cadran">i</button></p>
           <p class="dial-note" id="dialNote">Chargement des données…</p>
         </div>
-        <div class="spread">
-          <h2 class="h3">Où en sont nos cent produits vitaux&nbsp;? <button class="info" type="button" data-info="niveaux" aria-label="Que veulent dire les niveaux ?">i</button></h2>
-          <p class="sub">Chaque case est un produit, rangé selon le nombre de jours que la France tiendrait sans importations.</p>
-          <div class="spread-grid" id="spreadGrid" role="img" aria-label="Répartition des cent produits par niveau"></div>
-          <ol class="spread-legend" id="spreadLegend"></ol>
-        </div>
+        <div class="kpis" id="kpis"></div>
       </div>
-      <div class="kpis" id="kpis"></div>
+      <div class="spread">
+        <h2 class="h3">Où en sont nos cent produits vitaux&nbsp;? <button class="info" type="button" data-info="niveaux" aria-label="Que veulent dire les niveaux ?">i</button></h2>
+        <p class="sub">Les produits sont rangés du plus dépendant au moins dépendant, selon le nombre de jours que la France tiendrait sans importations. Cliquez sur un produit pour ouvrir sa fiche.</p>
+        <div class="spectrum" id="spectrum"></div>
+      </div>
     </section>
 
     <section class="block" id="reussites" aria-labelledby="podTitle">
       <div class="sec-head">
         <h2 id="podTitle">Nos trois plus belles réussites <button class="info" type="button" data-info="podium" aria-label="Comment est fait ce classement ?">i</button></h2>
-        <p class="sub">Ce sont les trois produits pour lesquels la France produit le plus au-delà de ses propres besoins.</p>
+        <p class="sub">Ce sont nos trois plus gros excédents : la France produit bien plus qu'elle ne consomme, et exporte le reste.</p>
       </div>
       <div class="podium-wrap">
-        <div class="podium" id="podium"></div>
+        <div><div class="podium" id="podium"></div><p class="podium-note" id="podiumNote"></p></div>
         <div class="also" id="alsoGood"></div>
       </div>
     </section>
@@ -186,7 +186,7 @@
   </div>
 
   <!-- ===================== LES PUISSANCES ===================== -->
-  <div class="view" id="v-puissances" data-view="puissances" data-title="Les puissances" hidden>
+  <div class="view" id="v-puissances" data-view="puissances" data-title="Carte des dépendances" hidden>
     <div class="subnav" aria-label="Dans cette rubrique"><a href="#carte">La carte</a><a href="#puissances">Trois stratégies</a><a href="#comparaison">La comparaison</a></div>
     <section class="block" id="carte">
       <div class="sec-head">
@@ -197,6 +197,7 @@
         <div class="seg" role="group" aria-label="Ce que montre la carte">
           <button type="button" data-mode="dep" aria-pressed="true">Les pays qui nous fournissent</button>
           <button type="button" data-mode="al" aria-pressed="false">Les alliances possibles</button>
+          <button type="button" data-mode="min" aria-pressed="false">Les pays producteurs</button>
         </div>
         <div class="seg" role="group" aria-label="Cadrage">
           <button type="button" data-zoom="monde" aria-pressed="true">Monde</button>
@@ -223,6 +224,58 @@
       </div>
       <div class="bar-legend" id="heatLegend"></div>
       <div class="heat-scroll"><table class="heat" id="heat"></table></div>
+    </section>
+    <nav class="view-nav" aria-label="Rubrique suivante"></nav>
+  </div>
+
+  <!-- ===================== PARTENAIRES DE DEMAIN ===================== -->
+  <div class="view" id="v-partenaires" data-view="partenaires" data-title="Partenaires de demain" hidden>
+    <div class="subnav" aria-label="Dans cette rubrique"><a href="#partenaires">Matière par matière</a><a href="#croisement">Qui produit quoi</a><a href="#mannes">Les gisements de demain</a><a href="#afrique">L'Afrique</a><a href="#producteurs">Ce que décident les producteurs</a><a href="#ecarts">Quand les sources divergent</a></div>
+    <section class="block" id="partenaires">
+      <div class="sec-head">
+        <h2>Qui peut nous fournir demain&nbsp;? <button class="info" type="button" data-info="partenaires" aria-label="D'où viennent ces chiffres ?">i</button></h2>
+        <p class="sub">Pour vingt matières critiques, voici qui les extrait, qui en possède les réserves, et ce que chaque partenaire possible pourrait réellement nous apporter.</p>
+      </div>
+      <div class="mat-tabs" id="matTabs" role="group" aria-label="Choisir une matière"></div>
+      <div id="matBody"></div>
+    </section>
+    <section class="block" id="mannes">
+      <div class="sec-head">
+        <h2>Les gisements de demain <button class="info" type="button" data-info="mannes" aria-label="Comment repérons-nous ces gisements ?">i</button></h2>
+        <p class="sub">Ces pays possèdent une part des réserves mondiales bien plus grande que leur part de la production : ils ont de quoi devenir nos fournisseurs.</p>
+      </div>
+      <div class="panel" id="mannesChart"></div>
+    </section>
+    <section class="block" id="croisement">
+      <div class="sec-head">
+        <h2>Qui produit quoi, pays par pays <button class="info" type="button" data-info="croisement" aria-label="Comment lire ce tableau ?">i</button></h2>
+        <p class="sub">Chaque case donne la part d'un pays dans la production mondiale d'une matière. Plus la case est foncée, plus le pays pèse. Cliquez sur une case pour ouvrir la matière.</p>
+      </div>
+      <div class="chips" id="croiseCont" role="group" aria-label="Choisir un continent"></div>
+      <div class="cross-scroll" id="croise"></div>
+    </section>
+    <section class="block" id="afrique">
+      <div class="sec-head">
+        <h2>Ce que l'Afrique produit, et ce qu'elle exige désormais <button class="info" type="button" data-info="afrique" aria-label="Comment calculons-nous la part de l'Afrique ?">i</button></h2>
+        <p class="sub" id="afIntro"></p>
+      </div>
+      <div class="af-grid"><div class="panel" id="afChart"></div><div class="panel af-text" id="afText"></div></div>
+    </section>
+    <section class="block" id="producteurs">
+      <div class="sec-head">
+        <h2>Ce que décident les pays producteurs <button class="info" type="button" data-info="producteurs" aria-label="Comment classons-nous ces décisions ?">i</button></h2>
+        <p class="sub" id="prodIntro"></p>
+      </div>
+      <div class="prod-tools"><div class="chips" id="prodCont" role="group" aria-label="Choisir un continent"></div><div class="chips" id="prodType" role="group" aria-label="Choisir un type de décision"></div></div>
+      <div class="dossiers" id="dossiers"></div>
+      <div class="panel ue-panel" id="uePanel"></div>
+    </section>
+    <section class="block" id="ecarts">
+      <div class="sec-head">
+        <h2>Quand les sources ne disent pas la même chose <button class="info" type="button" data-info="ecarts" aria-label="Pourquoi comparer les sources ?">i</button></h2>
+        <p class="sub">Nous comparons les chiffres des gouvernements producteurs à ceux de l'institut géologique américain. Quand ils divergent, nous le disons, et nous expliquons lequel nous retenons.</p>
+      </div>
+      <div class="ecarts" id="ecartList"></div>
     </section>
     <nav class="view-nav" aria-label="Rubrique suivante"></nav>
   </div>
@@ -305,7 +358,14 @@
 
   <!-- ===================== MÉTHODE ===================== -->
   <div class="view" id="v-methode" data-view="methode" data-title="Méthode" hidden>
-    <div class="subnav" aria-label="Dans cette rubrique"><a href="#methode">La notation</a><a href="#estimations">Les estimations</a><a href="#donnees">Les données</a></div>
+    <div class="subnav" aria-label="Dans cette rubrique"><a href="#souverainete">La souveraineté</a><a href="#methode">La notation</a><a href="#estimations">Les estimations</a><a href="#evaluation">Les partenaires</a><a href="#solidite">La solidité des preuves</a><a href="#donnees">Les données</a></div>
+    <section class="block" id="souverainete">
+      <div class="sec-head">
+        <h2 id="souvTitle">Ce que nous appelons souveraineté</h2>
+        <p class="sub" id="souvDef"></p>
+      </div>
+      <div class="souv" id="souvPoints"></div>
+    </section>
     <section class="block" id="methode">
       <div class="sec-head">
         <h2>Comment nous notons chaque produit</h2>
@@ -325,7 +385,7 @@
         <div class="mcard">
           <h3>Cinq niveaux</h3>
           <div class="scale" id="scale"></div>
-          <p>Si le fournisseur s'est déjà servi de ce levier contre la France ou l'Europe, le produit perd un niveau.</p>
+          <p>Un produit excédentaire dont la production dépend d'intrants importés plafonne au niveau Indépendant. Si le fournisseur s'est déjà servi de ce levier contre la France ou l'Europe, le produit perd un niveau.</p>
         </div>
       </div>
     </section>
@@ -335,6 +395,20 @@
         <p class="sub" id="estIntro"></p>
       </div>
       <div class="est-grid" id="estGrid"></div>
+    </section>
+    <section class="block" id="evaluation">
+      <div class="sec-head">
+        <h2>Comment nous évaluons un partenaire</h2>
+        <p class="sub">Toutes les données de production et de réserves viennent de sources publiques, pays par pays. Nous en tirons dix calculs, refaits automatiquement à chaque mise à jour.</p>
+      </div>
+      <div class="method" id="evalCards"></div>
+    </section>
+    <section class="block" id="solidite">
+      <div class="sec-head">
+        <h2>La solidité de nos preuves</h2>
+        <p class="sub" id="solIntro"></p>
+      </div>
+      <div class="sol-grid"><div class="panel" id="solChart"></div><div class="panel" id="solList"></div></div>
     </section>
     <section class="block" id="donnees">
       <div class="sec-head">
@@ -352,7 +426,7 @@
     <section class="block first" id="sources">
       <div class="sec-head">
         <h2>Toutes nos sources</h2>
-        <p class="sub">Les rapports publics passent d'abord : Cour des comptes européenne, Sénat, Assemblée nationale, Agence internationale de l'énergie, CNRS, institut géologique américain. Viennent ensuite les chercheurs, puis les textes des puissances elles-mêmes. La presse ne sert qu'à dater ce qui est trop récent pour avoir été étudié.</p>
+        <p class="sub">Les rapports publics passent d'abord : Cour des comptes européenne, Sénat, Assemblée nationale, Agence internationale de l'énergie, CNRS, institut géologique américain. Viennent ensuite les textes officiels des pays producteurs, d'Afrique, d'Amérique latine et d'Asie, les chercheurs, puis les textes des puissances elles-mêmes. La presse ne sert qu'à dater ce qui est trop récent pour avoir été étudié.</p>
       </div>
       <div class="controls-row">
         <div class="chips" id="bibChips" role="group" aria-label="Filtrer les sources"></div>

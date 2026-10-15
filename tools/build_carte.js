@@ -15,7 +15,7 @@ const J = f => JSON.parse(fs.readFileSync(path.join(DATA, f + ".json"), "utf8"))
 
 // noms courts en français (ceux du site priment sur ceux de la norme)
 const META = J("meta");
-const NOMS = Object.assign({ KR: "Corée du Sud", KP: "Corée du Nord", CD: "RD Congo", CG: "Congo", US: "États-Unis", RU: "Russie", GB: "Royaume-Uni",
+const NOMS = Object.assign({ AE: "Émirats arabes unis", NG: "Nigeria", KR: "Corée du Sud", KP: "Corée du Nord", CD: "RD Congo", CG: "Congo", US: "États-Unis", RU: "Russie", GB: "Royaume-Uni",
   CZ: "Tchéquie", VN: "Viêt Nam", IR: "Iran", SY: "Syrie", TZ: "Tanzanie", BO: "Bolivie", VE: "Venezuela", MD: "Moldavie", LA: "Laos", TW: "Taïwan",
   CI: "Côte d'Ivoire", MK: "Macédoine du Nord", BA: "Bosnie-Herzégovine", NC: "Nouvelle-Calédonie" }, META.detenteurs);
 const nomFr = c => NOMS[c] || iso.getName(c, "fr", { select: "alias" }) || iso.getName(c, "fr") || c;
@@ -64,17 +64,31 @@ J("chaines").forEach(ch => ch.etapes.forEach(s => String(s.qui).split(/,| puis |
 (J("zoom_armees").items || []).forEach(x => (x.pays || []).forEach(c => besoin.add(c)));
 J("allies").forEach(a => [...(a.pays || []), ...(a.fournisseurs || [])].forEach(c => besoin.add(c)));
 (J("actus") || []).forEach(a => (a.pays || []).forEach(c => besoin.add(c)));
+const PA = fs.existsSync(path.join(DATA, "partenaires.json")) ? J("partenaires") : { matieres: [] };
+PA.matieres.forEach(m => {
+  [m.prod, m.res, (m.raffinage || {}).lignes].forEach(o => Object.keys(o || {}).forEach(c => besoin.add(c)));
+  (m.partenaires || []).forEach(x => besoin.add(x.c));
+  ((m.controle || {}).lignes || []).forEach(l => besoin.add(l[1]));
+});
+(J("echeances") || []).forEach(e => (e.pays || []).forEach(c => besoin.add(c)));
+if (fs.existsSync(path.join(DATA, "pays.json"))) { const PY = J("pays"); (PY.dossiers || []).forEach(d => besoin.add(d.c)); (PY.ue || []).forEach(u => besoin.add(u[0])); (PY.ecarts || []).forEach(e => besoin.add(e.c)); }
+besoin.delete("ZZ");
 besoin.delete("DIV"); besoin.delete("AFR");
 const FL = path.join(NM, "flag-icons", "flags", "4x3");
 // drapeaux trop lourds (armoiries détaillées) : version simplifiée, lisible à petite taille
 const bandes = (a, b, c) => `<path fill="${a}" d="M0 0h640v160H0z"/><path fill="${b}" d="M0 160h640v160H0z"/><path fill="${c}" d="M0 320h640v160H0z"/>`;
 let damier = ""; for (let i = 0; i < 5; i++) for (let j = 0; j < 5; j++) if ((i + j) % 2 === 0) damier += `<path fill="#f00" d="M${280 + j * 16} ${150 + i * 16}h16v16h-16z"/>`;
+const vbandes = (a, b, c) => `<path fill="${a}" d="M0 0h213v480H0z"/><path fill="${b}" d="M213 0h214v480H213z"/><path fill="${c}" d="M427 0h213v480H427z"/>`;
 const SIMPLES = {
   ES: `<path fill="#AA151B" d="M0 0h640v480H0z"/><path fill="#F1BF00" d="M0 120h640v240H0z"/>`,
   BO: bandes("#D52B1E", "#F9E300", "#007934"),
   RS: bandes("#C6363C", "#0C4076", "#fff"),
   HR: bandes("#f00", "#fff", "#171796") + `<path fill="#fff" stroke="#f00" stroke-width="4" d="M280 150h80v70q0 40-40 52-40-12-40-52z"/>` + damier,
-  EG: bandes("#CE1126", "#fff", "#000") + `<circle cx="320" cy="240" r="40" fill="#C09300"/>`
+  EG: bandes("#CE1126", "#fff", "#000") + `<circle cx="320" cy="240" r="40" fill="#C09300"/>`,
+  MX: vbandes("#006847", "#fff", "#CE1126") + `<circle cx="320" cy="240" r="44" fill="#8C5A2B"/>`,
+  GT: vbandes("#4997D0", "#fff", "#4997D0") + `<circle cx="320" cy="240" r="40" fill="none" stroke="#5C8A3B" stroke-width="10"/>`,
+  IR: bandes("#239F40", "#fff", "#DA0000") + `<circle cx="320" cy="240" r="34" fill="none" stroke="#DA0000" stroke-width="10"/>`,
+  LK: `<path fill="#FFBE29" d="M0 0h640v480H0z"/><path fill="#00534E" d="M30 30h80v420H30z"/><path fill="#EB7400" d="M110 30h80v420h-80z"/><path fill="#8D153A" d="M220 30h390v420H220z"/>`
 };
 let sprite = "", n = 0;
 [...besoin].sort().forEach(c => {

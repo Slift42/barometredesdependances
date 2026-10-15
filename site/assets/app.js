@@ -4,7 +4,7 @@
 (function () {
 "use strict";
 const INF = Infinity;
-const FILES = ["meta", "produits", "matrice", "atouts", "sources", "propositions", "bibliographie", "kii", "europe", "allies", "strategies", "chaines", "actus", "echeances", "zoom_armees", "carte"];
+const FILES = ["meta", "produits", "matrice", "atouts", "sources", "propositions", "bibliographie", "kii", "europe", "allies", "strategies", "chaines", "actus", "echeances", "zoom_armees", "carte", "partenaires", "pays"];
 const LIVE = ["gaz", "electricite", "actus_auto", "veille_etat", "sources_etat"];
 const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const $ = id => document.getElementById(id);
@@ -43,10 +43,10 @@ function toast(msg) {
 function init(D) {
   const META = D.meta, P = D.produits, LV = D.live || {}, CARTE = D.carte || { pays: [], ancres: {}, noms: {} };
   const LVL = n => META.niveaux[n].nom;
-  const LVS = { 5: "30 jours ou moins", 4: "de 31 à 90 jours", 3: "de 91 jours à un an, ou 50 à 79 % des besoins couverts", 2: "plus d'un an, ou 80 à 99 % des besoins couverts", 1: "la France produit plus qu'elle ne consomme" };
+  const LVS = { 5: "30 jours ou moins", 4: "de 31 à 90 jours", 3: "de 91 jours à un an, ou 50 à 79 % des besoins couverts", 2: "plus d'un an, ou au moins 80 % des besoins couverts avec des intrants importés", 1: "la France produit sans dépendre d'un autre pays" };
   const lvc = l => `var(--l${l})`;
   const BIB = {}; (D.bibliographie || []).forEach(b => { BIB[b.id] = b; });
-  const TYPES = { institution: "Institution", parlement: "Parlement", doctrine: "Leurs textes", expertise: "Expertise", programme: "Programme", donnees: "Données", ong: "ONG", presse: "Presse" };
+  const TYPES = { institution: "Institution", etat: "Pays producteurs", parlement: "Parlement", doctrine: "Leurs textes", expertise: "Expertise", programme: "Programme", donnees: "Données", ong: "ONG", presse: "Presse" };
 
   /* ---------- drapeaux et noms de pays ---------- */
   const FL = window.BD_FLAGS || { sprite: "", alias: {} };
@@ -113,10 +113,19 @@ function init(D) {
 
   /* ---------- niveaux ---------- */
   const byDays = d => d === INF ? 1 : d > 365 ? 2 : d > 90 ? 3 : d > 30 ? 4 : 5;
-  function baseLevel(p) {
+  function rawLevel(p) {
     if (p.cov !== undefined) return p.cov >= 100 ? 1 : p.cov >= 80 ? 2 : p.cov >= 50 ? 3 : (p.d !== undefined ? byDays(p.d) : 4);
     if (p.d === undefined) return 0;
     return byDays(p.d);
+  }
+  // souveraineté : produire sans dépendre d'autrui, ou pouvoir relocaliser avant l'épuisement des stocks
+  const surplus = p => (p.cov !== undefined && p.cov >= 100) || p.d === INF;
+  const hasInputs = p => !!(p.intrants && p.intrants.length);
+  function baseLevel(p) {
+    let b = rawLevel(p);
+    if (b === 1 && hasInputs(p)) b = 2;
+    if (b > 1 && p.reloc && p.d !== undefined && p.d !== INF && p.d >= p.reloc) b = 1;
+    return b;
   }
   function level(p) { let b = baseLevel(p); if (b && p.l === 2 && b > 1 && b < 5) b++; return b; }
   const rated = p => p.d !== undefined || p.cov !== undefined;
@@ -133,14 +142,17 @@ function init(D) {
     const a = p.k === "est" ? "≈ " : "";
     if (p.cov !== undefined) return `${a}${p.cov} %`;
     if (p.d === undefined) return "à instruire";
-    if (p.d === INF) return "Autonome";
+    if (p.d === INF) return "Excédent";
     return `${a}${p.d} j`;
   }
   function explain(p) {
     const base = baseLevel(p); if (!base) return "";
     let t;
-    if (p.cov !== undefined) t = `La France produit ${p.k === "est" ? "environ " : ""}${p.cov} % de ce qu'elle consomme. Le produit est donc classé <b>${LVL(base)}</b> (${esc(LVS[base])}).`;
-    else if (p.d === INF) t = `La production nationale ou européenne dépasse nos besoins. Le produit est donc classé <b>${LVL(1)}</b>.`;
+    const inNames = () => (p.intrants || []).map(id => byId[id] ? byId[id].n.toLowerCase() : id).join(", ");
+    if (surplus(p) && hasInputs(p)) t = `La France produit ${p.cov !== undefined ? (p.k === "est" ? "environ " : "") + p.cov + " % de ce qu'elle consomme" : "plus qu'elle ne consomme"}, mais cette production dépend d'intrants importés (${esc(inNames())}). Le produit est donc classé <b>${LVL(2)}</b>, et non souverain : être souverain, c'est pouvoir produire sans dépendre d'un autre pays.`;
+    else if (p.reloc && base === 1) t = `Nos stocks tiennent ${p.d} jours, plus longtemps que les ${p.reloc} jours qu'il faudrait pour relocaliser la production. Le produit est donc classé <b>${LVL(1)}</b>.`;
+    else if (p.cov !== undefined) t = `La France produit ${p.k === "est" ? "environ " : ""}${p.cov} % de ce qu'elle consomme. Le produit est donc classé <b>${LVL(base)}</b> (${esc(LVS[base])}).`;
+    else if (p.d === INF) t = `La production nationale ou européenne couvre nos besoins sans dépendre d'un autre pays. Le produit est donc classé <b>${LVL(1)}</b>.`;
     else t = `La France tiendrait ${p.k === "est" ? "environ " : ""}${p.d} jour${p.d > 1 ? "s" : ""}. Le produit est donc classé <b>${LVL(base)}</b> (${esc(LVS[base])}).`;
     if (p.l === 2 && base > 1 && base < 5) t += ` Comme le fournisseur s'est déjà servi de ce levier, le produit perd un niveau et passe à <b>${LVL(base + 1)}</b>.`;
     else if (p.l === 2) t += " Le fournisseur s'est déjà servi de ce levier.";
@@ -170,7 +182,18 @@ function init(D) {
   const FAM = META.familles;
   const famShare = {}; Object.keys(FAM).forEach(k => { const L = inst.filter(p => p.f === k); famShare[k] = L.length ? L.filter(p => p.lv >= 4).length / L.length : 0; });
   const FAM_ORDER = Object.keys(FAM).sort((a, b) => famShare[b] - famShare[a] || FAM[a].localeCompare(FAM[b], "fr"));
-  const levelSort = (a, b) => b.lv - a.lv || (+(b.l === 2) - +(a.l === 2)) || a.t - b.t || a.n.localeCompare(b.n, "fr");
+  // ordre de grandeur : d'abord le niveau, puis la tenue (du plus court au plus long)
+  const levelSort = (a, b) => b.lv - a.lv || a.t - b.t || (+(b.l === 2) - +(a.l === 2)) || a.n.localeCompare(b.n, "fr");
+  const magSort = (a, b) => a.t - b.t || b.lv - a.lv || (+(b.l === 2) - +(a.l === 2)) || a.n.localeCompare(b.n, "fr");
+  // nuance : dans un même niveau, plus le produit tient longtemps, plus sa couleur s'éclaircit
+  const BAND = { 5: [1, 30], 4: [31, 90], 3: [91, 365], 2: [366, 1095], 1: [1, 1] };
+  function shade(p) {
+    const [lo, hi] = BAND[p.lv] || [1, 1]; if (hi <= lo) return 0;
+    const k = (Math.log10(Math.max(p.t, 1)) - Math.log10(lo)) / (Math.log10(hi) - Math.log10(lo));
+    return Math.max(0, Math.min(1, k));
+  }
+  const pcol2 = (p, extra) => `color-mix(in oklab, var(--l${p.lv}) ${Math.round(100 - shade(p) * 22 - (extra || 0))}%, #fff)`;
+  const USES = {}; P.forEach(p => (p.intrants || []).forEach(id => { (USES[id] = USES[id] || []).push(p); }));
 
   /* ---------- comptes par pays fournisseur ---------- */
   const HOLD = {};
@@ -199,20 +222,27 @@ function init(D) {
   const nkEst = inst.filter(p => p.k === "est").length;
   const INFO = {
     cadran: ["Comment lire le cadran", `<p>Chaque produit reçoit une note de 1 (souverain) à 5 (totalement dépendant). L'aiguille indique la moyenne des ${inst.length} produits, et le mot affiché correspond au niveau le plus proche de cette moyenne.</p><p>L'aiguille bouge quand un stock, un fournisseur ou une règle d'exportation change.</p><p><a href="#methode">Voir la méthode complète</a></p>`],
-    niveaux: ["Les cinq niveaux", `<ul>${[5, 4, 3, 2, 1].map(l => `<li><b>${LVL(l)}</b> : ${esc(LVS[l])}.</li>`).join("")}</ul><p>Si le pays fournisseur s'est déjà servi de ce levier contre la France ou l'Europe, le produit perd un niveau.</p><p><a href="#methode">Voir la méthode complète</a></p>`],
-    podium: ["Comment est fait ce classement", `<p>Nous rangeons les produits selon leur taux de couverture, c'est-à-dire la production française divisée par la consommation française. Un taux de 193 % veut dire que la France produit presque deux fois ce qu'elle consomme, et exporte le reste.</p><p>Seuls les produits mesurés de cette façon peuvent entrer sur le podium. Les autres produits souverains, comme l'électricité ou le lancement spatial, sont cités à côté.</p><p>Source : FranceAgriMer, bilans d'approvisionnement.</p>`],
+    niveaux: ["Les cinq niveaux", `<ul>${[5, 4, 3, 2, 1].map(l => `<li><b>${LVL(l)}</b> : ${esc(LVS[l])}.</li>`).join("")}</ul><p>Être souverain, ce n'est pas produire plus que ce que l'on consomme : c'est produire sans dépendre d'un autre pays, ou pouvoir relocaliser avant l'épuisement des stocks.</p><p>Si le pays fournisseur s'est déjà servi de ce levier contre la France ou l'Europe, le produit perd un niveau.</p><p><a href="#souverainete">Ce que nous appelons souveraineté</a></p>`],
+    podium: ["Comment est fait ce classement", `<p>Nous rangeons les produits selon leur taux de couverture, c'est-à-dire la production française divisée par la consommation française. Un taux de 193 % veut dire que la France produit presque deux fois ce qu'elle consomme, et exporte le reste.</p><p>Un excédent n'est pas la souveraineté. Quand la production dépend d'intrants importés, comme les engrais pour le blé, le produit reste au niveau Indépendant.</p><p>Source : FranceAgriMer, bilans d'approvisionnement. <a href="#souverainete">Ce que nous appelons souveraineté</a></p>`],
     pays: ["Comment nous comptons", `<p>Pour chacun des cent produits, nous notons les pays qui fournissent l'essentiel de ce que la France achète, à l'origine ultime : un aimant acheté en Allemagne mais fabriqué avec des terres rares chinoises compte pour la Chine.</p><p>Un même produit peut compter pour plusieurs pays. L'Union européenne et les fournisseurs diversifiés ne sont pas comptés ici.</p>`],
     test: ["Comment nous calculons les jours de tenue", `<p>Nous additionnons les stocks publics, les stocks des entreprises et la production nationale mobilisable, puis nous divisons par la consommation vitale d'une journée.</p><p>Pour ce que la France produit en partie, nous mesurons plutôt la part des besoins couverte, en pourcentage.</p><p>Nous proposons un seuil de 90 jours : sous ce seuil, l'État devrait présenter un plan. ${nkEst} chiffres sur 100 sont des estimations, signalées par « ≈ ».</p><p><a href="#methode">Voir la méthode complète</a></p>`],
     secteurs: ["Comment lire ce graphique", `<p>Chaque barre représente tous les produits d'un secteur, découpés selon leur niveau. Les secteurs sont classés selon la part de produits dépendants ou totalement dépendants, c'est-à-dire qui tiennent moins de 90 jours.</p><p>Cliquez sur un secteur pour retrouver ses produits.</p>`],
     filieres: ["Comment lire une filière", `<p>Chaque rond est une étape de fabrication, de la mine au produit fini. Sa couleur indique notre niveau de dépendance pour cette étape, et le drapeau montre le pays qui la domine.</p><p>Les filières sont classées de la plus dépendante à la moins dépendante, selon la moyenne de leurs étapes.</p>`],
     armees: ["D'où viennent ces informations", `<p>La liste vient du rapport de la mission d'information de l'Assemblée nationale sur les dépendances de nos armées, publié en avril 2026. Le pays indiqué est celui du fournisseur principal aujourd'hui.</p><p>Le niveau est notre lecture de ce rapport : il n'existe pas de chiffre public de stock pour ces équipements. Cliquez sur une ligne pour lire le constat.</p>`],
-    carte: ["Comment lire la carte", `<p><b>Les pays qui nous fournissent</b> : plus un pays est foncé, plus il fournit de produits parmi nos cent. L'épaisseur du lien vers la France suit le même nombre. Les liens de la Chine, des États-Unis et de la Russie ont leur propre couleur.</p><p><b>Les alliances possibles</b> : plus un pays est foncé, plus il revient souvent dans nos propositions de partenariat.</p><p>La projection Equal Earth respecte la surface des pays. Certains petits pays n'apparaissent qu'au cadrage Europe.</p>`],
+    carte: ["Comment lire la carte", `<p><b>Les pays qui nous fournissent</b> : plus un pays est foncé, plus il fournit de produits parmi nos cent. L'épaisseur du lien vers la France suit le même nombre. Les liens de la Chine, des États-Unis et de la Russie ont leur propre couleur.</p><p><b>Les alliances possibles</b> : plus un pays est foncé, plus il revient souvent dans nos propositions de partenariat.</p><p><b>Les pays producteurs</b> : plus un pays est foncé, plus il fournit au moins 5 % de la production mondiale d'un grand nombre des matières que nous suivons. Cliquez sur un pays pour lire ce qu'il produit et ce que son gouvernement a décidé.</p><p>La projection Equal Earth respecte la surface des pays. Certains petits pays n'apparaissent qu'au cadrage Europe.</p>`],
     puissances: ["Assumé ou documenté", `<p>Un levier est « assumé » quand la puissance l'a annoncé elle-même : loi, décret, communiqué officiel ou doctrine publiée.</p><p>Il est « documenté » quand l'État français ou des chercheurs le lui attribuent, sans qu'elle le reconnaisse.</p><p>La frise place côte à côte ce que chaque puissance écrit et ce qu'elle fait.</p>`],
     moyens: ["Les six moyens de pression", `<p>Un pays peut peser sur un autre par ses matières premières, ses technologies, son droit, ses capitaux, ses récits ou ses relais politiques.</p><ul><li><b>${esc(D.matrice.statuts.act)}</b> : ce moyen a déjà servi contre la France ou l'Union.</li><li><b>${esc(D.matrice.statuts.str)}</b> : la prise existe, mais elle n'a pas encore été utilisée.</li><li><b>${esc(D.matrice.statuts.lat)}</b> : la France est peu exposée.</li></ul>`],
     europe: ["D'où viennent ces chiffres", `<p>Les chiffres viennent de la Commission européenne, de la Cour des comptes européenne, de l'Agence internationale de l'énergie et d'instituts de recherche indépendants. Chaque carte cite ses sources.</p><p>Les jauges montrent une part en pourcentage. Le trait pointillé marque l'objectif que l'Union s'était fixé, quand il existe.</p>`],
     allies: ["Comment lire ce tableau", `<p>À gauche, un achat qui renforce la dépendance : les drapeaux de gauche désignent les acheteurs, ceux de droite le fournisseur.</p><p>À droite, un pays européen qui a fait un autre choix dans le même domaine. Quand aucun contre-exemple n'existe, la case reste vide.</p>`],
     actus: ["Comment nous choisissons les actualités", `<p>Les actualités vérifiées ont été lues et sourcées par notre équipe. Les détections automatiques viennent d'un robot qui lit chaque matin des flux de presse et d'instituts : elles sont toujours marquées « à vérifier ».</p><p>Les drapeaux indiquent les pays fournisseurs des produits concernés.</p>`],
     propositions: ["Comment lire la feuille de route", `<p>Les deux mesures phares s'appliquent dès le début du mandat. Les mesures suivantes sont rangées selon le délai nécessaire pour les voter et les appliquer.</p><p>Les alliances se construisent pendant tout le mandat, produit par produit.</p>`],
+    hhi: ["L'indice de concentration", `<p>L'indice de Herfindahl-Hirschman additionne le carré de la part de chaque pays producteur, exprimée en pourcentage. Un seul pays qui fait tout donne 10 000 points ; dix pays à parts égales donnent 1 000 points.</p><p>Les autorités américaines de la concurrence jugent un marché très concentré au-delà de 1 800 points, et modérément concentré entre 1 000 et 1 800.</p><p>Nous le calculons sur les pays détaillés par la source ; les « autres pays » en sont exclus, ce qui le sous-estime légèrement.</p>`],
+    partenaires: ["Comment lire cette page", `<p>Pour chaque matière, nous reprenons la production et les réserves publiées pays par pays, surtout par l'institut géologique américain (USGS) et, pour l'uranium, par la World Nuclear Association et le Livre rouge de l'AIEA et de l'AEN.</p><p>Les chiffres de l'USGS paraissent en janvier ; ceux de la dernière année sont des estimations de l'institut, que nous confrontons aux chiffres des gouvernements producteurs dans la section « Quand les sources ne disent pas la même chose ».</p><p>Nous en tirons six calculs : la part de chaque pays, la part de la Chine et de la Russie, l'indice de concentration, l'écart entre réserves et production, la durée de vie des réserves et, quand le besoin français est publié, la couverture de nos besoins. Les fiches des partenaires ajoutent les projets miniers, sourcés un par un, et les risques.</p><p><a href="#evaluation">Voir la méthode</a></p>`],
+    croisement: ["Comment lire le tableau croisé", `<p>Chaque ligne est un pays, chaque colonne une matière. La case donne la part du pays dans la production mondiale, la dernière année publiée. Six teintes : moins de 1 %, de 1 à 5 %, de 5 à 15 %, de 15 à 30 %, de 30 à 50 %, plus de 50 %.</p><p>Nous gardons les pays qui fournissent au moins 3 % d'une des matières. Les pays sont rangés par continent, selon la nomenclature des Nations unies, puis par nombre de matières où ils pèsent au moins 5 %.</p><p>La Chine et la Russie sont signalées par un trait de couleur : elles ont déjà utilisé leurs matières premières comme moyen de pression.</p>`],
+    afrique: ["Comment nous calculons la part de l'Afrique", `<p>Nous additionnons les parts des pays africains détaillés par la source, la même année. Les « autres pays » que la source ne détaille pas ne sont rattachés à aucun continent : la part africaine est donc un minimum.</p><p>Le point indique la part de l'Afrique dans les réserves mondiales, quand la source les publie pays par pays.</p><p>Les décisions des gouvernements africains viennent de leurs textes officiels quand ils sont en ligne (Ghana, Zambie, Union africaine), sinon de la presse qui rapporte le conseil des ministres ou la déclaration du ministre.</p>`],
+    producteurs: ["Comment nous classons les décisions", `<p>Nous relevons les décisions des pays producteurs qui changent ce que nous pourrons leur acheter : interdire l'export de minerai brut, plafonner les ventes, prendre une part du capital, exiger des usines sur place, adopter une loi ou une stratégie, construire des voies d'export, signer des contrats avec des industriels étrangers.</p><p>Chaque décision porte une date et un état : en vigueur, annoncée (pour une date future), en suspens ou abandonnée.</p><p>Nous préférons le texte officiel du pays. Quand il n'est pas en ligne, nous citons la presse qui rapporte la décision, et nous le signalons dans la source.</p>`],
+    ecarts: ["Pourquoi comparer les sources", `<p>Pour comparer les pays entre eux, il faut une seule source par matière, dans la même unité : nous prenons l'institut géologique américain (USGS), qui publie chaque année les mêmes tableaux pour tous les pays. Ses chiffres de la dernière année sont des estimations, publiées en janvier.</p><p>Les gouvernements producteurs publient parfois d'autres chiffres. Nous les confrontons : quand l'écart dépasse quelques pour cent, nous le montrons et nous disons quel chiffre nous retenons, et pourquoi.</p>`],
+    mannes: ["Comment nous repérons les gisements de demain", `<p>Un pays qui possède une grande part des réserves mondiales mais n'en extrait qu'une petite part est un partenaire d'avenir : il a de quoi produire plus.</p><p>Nous calculons, pour chaque matière, la différence entre sa part des réserves et sa part de la production, en points. Nous gardons les écarts d'au moins 4 points, hors Chine et Russie.</p><p>Les réserves sont celles que publie l'USGS : elles suivent les normes de chaque pays, qui ne sont pas toutes équivalentes.</p>`],
     couts: ["Comment nous avons chiffré", ((META.couts || {}).methode || []).map(([t, x]) => `<p><b>${esc(t)}</b> ${esc(x)}</p>`).join("")]
   };
   const pop = $("pop"); let popBtn = null;
@@ -240,7 +270,7 @@ function init(D) {
   window.addEventListener("resize", closePop);
 
   /* ---------- onglets (le routeur est complété plus bas) ---------- */
-  const FIRST = { accueil: "accueil", test: "test", detail: "secteurs", puissances: "carte", europe: "europe", actus: "actus", propositions: "propositions", methode: "methode", sources: "sources" };
+  const FIRST = { accueil: "accueil", test: "test", detail: "secteurs", puissances: "carte", partenaires: "partenaires", europe: "europe", actus: "actus", propositions: "propositions", methode: "souverainete", sources: "sources" };
   const ALIAS = { detail: "secteurs", strategies: "puissances", leviers: "puissances", robinet: "comparaison", reussites: "reussites" };
   const router = { cur: null, first: v => FIRST[v] || v, go: () => {} };
 
@@ -282,10 +312,11 @@ function init(D) {
     $("dialNote").textContent = `La note moyenne de nos ${inst.length} produits vitaux est de ${num(avg.toFixed(1))} sur une échelle qui va de 1 (souverain) à 5 (totalement dépendant).`;
   })();
 
-  (function spread() {
-    const L = inst.slice().sort(levelSort);
-    $("spreadGrid").innerHTML = L.map(p => `<button type="button" data-open="${esc(p.id)}" style="background:${lvc(p.lv)}" title="${esc(p.n)} : ${esc(valTxt(p))}, ${esc(LVL(p.lv))}" aria-label="${esc(p.n)}"></button>`).join("");
-    $("spreadLegend").innerHTML = [5, 4, 3, 2, 1].map(l => { const n = inst.filter(p => p.lv === l).length; return `<li><i style="background:${lvc(l)}"></i><b>${n}</b><span>${n > 1 ? "produits sont" : "produit est"} <strong>${LVL(l).toLowerCase()}${n > 1 ? "s" : ""}</strong> <em>: ${esc(LVS[l])}</em></span></li>`; }).join("");
+  (function spectrum() {
+    $("spectrum").innerHTML = [5, 4, 3, 2, 1].map(l => {
+      const L = inst.filter(p => p.lv === l).sort(levelSort), n = L.length;
+      return `<div class="band" style="--c:${lvc(l)}"><div class="band-h"><b>${n}</b><span><strong>${n > 1 ? "produits" : "produit"} ${LVL(l).toLowerCase()}${n > 1 ? "s" : ""}</strong>${esc(LVS[l])}</span></div><div class="band-chips">${L.map(p => `<button type="button" class="pchip" data-open="${esc(p.id)}" style="background:${pcol2(p)};color:var(--on-l${l})" title="${esc(p.n)} : ${esc(valTxt(p))}">${p.l === 2 ? BOLT : ""}${esc(p.n)}<span>${esc(valTxt(p))}</span></button>`).join("")}</div></div>`;
+    }).join("");
   })();
 
   (function kpis() {
@@ -313,10 +344,15 @@ function init(D) {
     const order = [three[1], three[0], three[2]].filter(Boolean);
     $("podium").innerHTML = order.map(p => {
       const rk = three.indexOf(p) + 1, h = Math.round(70 + (p.cov - 100) / Math.max(1, max - 100) * 110 * (rk === 1 ? 1 : .85));
-      return `<button type="button" class="step s${rk}" data-open="${esc(p.id)}" aria-label="${rk}e place : ${esc(p.n)}, ${p.cov} % des besoins couverts"><span class="who">${flag("FR", "lg")}<b>${esc(p.n)}</b><span>${p.cov} %</span><small>de nos besoins couverts</small></span><span class="plinth" style="height:${h}px">${rk}</span></button>`;
+      return `<button type="button" class="step s${rk}" data-open="${esc(p.id)}" aria-label="${rk}e place : ${esc(p.n)}, ${p.cov} % des besoins couverts"><span class="who">${flag("FR", "lg")}<b>${esc(p.n)}</b><span style="color:${lvc(p.lv)}">${p.cov} %</span><small>de nos besoins couverts</small></span><span class="plinth" style="height:${h}px;background:${rk === 1 ? lvc(p.lv) : `color-mix(in oklab, ${lvc(p.lv)} 75%, var(--surface))`};color:var(--on-l${p.lv})">${rk}</span></button>`;
     }).join("") + `<span class="base"></span>`;
-    const rest = inst.filter(p => p.lv === 1 && !three.includes(p)).sort((a, b) => a.n.localeCompare(b.n, "fr"));
-    $("alsoGood").innerHTML = `<h3>La France est aussi souveraine pour</h3><p class="hint">Pour ces produits, la production française ou européenne dépasse nos besoins.</p><div class="chips">${rest.map(p => `<button type="button" class="tag" data-open="${esc(p.id)}"><i style="background:var(--l1)"></i>${esc(p.n)}</button>`).join("")}</div>`;
+    const dep3 = three.filter(hasInputs);
+    $("podiumNote").innerHTML = dep3.length ? `Attention : ${dep3.length === three.length ? "ces trois productions dépendent" : "certaines de ces productions dépendent"} d'engrais en grande partie importés. Elles sont <b>indépendantes</b>, mais pas souveraines.` : "";
+    const sov = inst.filter(p => p.lv === 1).sort((a, b) => a.n.localeCompare(b.n, "fr"));
+    const more = inst.filter(p => surplus(p) && p.lv !== 1 && !three.includes(p)).sort((a, b) => a.n.localeCompare(b.n, "fr"));
+    const tg = p => `<button type="button" class="tag" data-open="${esc(p.id)}"><i style="background:${lvc(p.lv)}"></i>${esc(p.n)}</button>`;
+    $("alsoGood").innerHTML = `<h3>Là où la France est vraiment souveraine</h3><p class="hint">Pour ces produits, la France, seule ou avec ses partenaires européens, produit ce dont elle a besoin sans dépendre d'un autre pays.</p><div class="chips">${sov.map(tg).join("")}</div>` +
+      (more.length ? `<h3 style="margin-top:18px">Elle produit aussi plus qu'elle ne consomme pour</h3><p class="hint">Mais ces productions dépendent encore d'intrants importés.</p><div class="chips">${more.map(tg).join("")}</div>` : "");
   })();
 
   (function homeHolders() {
@@ -337,8 +373,10 @@ function init(D) {
   const active = () => S.fams.size || S.lvls.size || S.pays || S.lev || S.pub || S.q;
   const mainHolder = p => { const f = foreign(p).filter(h => h !== "DIV"); return f[0] || (p.h || [])[0] || "DIV"; };
 
-  function sorted(L) {
+  function sorted(L, mag) {
     const A = L.slice();
+    if (mag && S.sort === "dep") return A.sort(magSort);
+    if (mag && S.sort === "res") return A.sort((a, b) => -magSort(a, b));
     if (S.sort === "res") return A.sort((a, b) => -levelSort(a, b));
     if (S.sort === "az") return A.sort((a, b) => a.n.localeCompare(b.n, "fr"));
     return A.sort(levelSort);
@@ -359,9 +397,9 @@ function init(D) {
   }
   function tile(p, k) {
     const a = p.k === "est" ? "≈ " : "";
-    const d = p.cov !== undefined ? `${a}${p.cov}<small>%</small>` : p.d === INF ? "Autonome" : `${a}${p.d}<small>j</small>`;
+    const d = p.cov !== undefined ? `${a}${p.cov}<small>%</small>` : p.d === INF ? "Excédent" : `${a}${p.d}<small>j</small>`;
     const lab = `${p.n} : ${valTxt(p)}, ${LVL(p.lv)}${p.l === 2 ? ", levier déjà activé" : ""}${p.k === "est" ? ", estimation" : ""}`;
-    return `<button type="button" class="tile lv${p.lv}${p.k === "est" ? " est" : ""}${S.q ? " hit" : ""}" style="--i:${k}" data-i="${p.i}" aria-label="${esc(lab)}"><span class="top">${tileFlags(p).map(c => flag(c)).join("")}${p.l === 2 ? BOLT : ""}</span><span class="nm">${esc(p.n)}</span><span class="dy">${d}</span></button>`;
+    return `<button type="button" class="tile lv${p.lv}${p.k === "est" ? " is-est" : ""}${S.q ? " hit" : ""}" style="--i:${k};background:${pcol2(p)}" data-i="${p.i}" aria-label="${esc(lab)}"><span class="top">${tileFlags(p).map(c => flag(c)).join("")}${p.l === 2 ? BOLT : ""}</span><span class="nm">${esc(p.n)}</span><span class="dy">${d}</span></button>`;
   }
   const groupHead = g => g.title ? `<div class="group-h" style="--gc:${g.color || "var(--ink)"}"><b>${g.flag ? flag(g.flag, "lg") : g.color && g.key[0] === "l" ? `<i class="sw" style="background:${g.color};width:16px;height:16px"></i>` : ""}${esc(g.title)}</b><span class="gn">${g.items.length} produit${g.items.length > 1 ? "s" : ""}</span>${g.desc ? `<span>${esc(g.desc)}</span>` : ""}</div>` : "";
   function renderWall() {
@@ -370,18 +408,18 @@ function init(D) {
     $("wall").innerHTML = L.length ? groups(L).map(g => `<div class="group">${groupHead(g)}<div class="wall">${g.items.map(p => tile(p, k++)).join("")}</div></div>`).join("")
       : `<p class="empty">Aucun produit ne correspond à ces filtres. <button type="button" class="reset" data-reset>Tout afficher</button></p>`;
   }
-  const LOGMAX = Math.log10(1000);
+  const LOGMAX = Math.log10(1095);
   const pos = d => d === INF ? 100 : Math.max(0, Math.min(100, Math.log10(Math.max(d, 1)) / LOGMAX * 100));
   const THR = pos(META.seuil_jours);
   function lrow(p, w, thr) {
-    return `<div class="frow" data-i="${p.i}" role="button" tabindex="0" aria-label="${esc(p.n)} : ${esc(valTxt(p))}"><span class="fname">${p.isLive ? '<span class="live-dot" title="Donnée en direct"></span>' : ""}${tileFlags(p).slice(0, 2).map(c => flag(c)).join("")}${esc(p.n)}${p.l === 2 ? BOLT : ""}</span><div class="track" style="--thr:${thr}%"><div class="lbar${p.k === "est" ? " est" : ""}" style="width:${w}%;background:${lvc(p.lv)};--bc:${lvc(p.lv)}"></div><span class="thr"></span></div><span class="fval">${esc(valTxt(p))}</span></div>`;
+    return `<div class="frow" data-i="${p.i}" role="button" tabindex="0" aria-label="${esc(p.n)} : ${esc(valTxt(p))}"><span class="fname">${p.isLive ? '<span class="live-dot" title="Donnée en direct"></span>' : ""}${tileFlags(p).slice(0, 2).map(c => flag(c)).join("")}${esc(p.n)}${p.l === 2 ? BOLT : ""}</span><div class="track" style="--thr:${thr}%"><div class="lbar" style="width:${w}%;background:${pcol2(p)}"></div><span class="thr"></span></div><span class="fval">${esc(valTxt(p))}</span></div>`;
   }
   function renderLine() {
-    const L = sorted(P.filter(visible));
+    const L = sorted(P.filter(visible), true);
     const days = L.filter(p => p.cov === undefined), cov = L.filter(p => p.cov !== undefined);
-    const ticks = [[1, "1 jour"], [7, "1 semaine", "mid"], [30, "1 mois"], [365, "1 an"], [1000, "1 000 jours et plus"]];
+    const ticks = [[1, "1 jour"], [7, "1 semaine", "mid"], [30, "1 mois"], [365, "1 an"], [1095, "3 ans et plus"]];
     let h = "";
-    if (days.length) h += `<div class="lrows"><div class="axis"><span class="cap">Produit et principaux fournisseurs</span><div class="ticks">${ticks.map(([d, l, c]) => `<span class="${c || ""}" style="left:${pos(d)}%;${d === 1 ? "transform:none" : d === 1000 ? "transform:translateX(-100%)" : ""}">${l}</span>`).join("")}<span class="thr-l" style="left:${THR}%">seuil proposé : ${META.seuil_jours} jours</span></div><span class="cap" style="text-align:right">Tenue</span></div>${days.map(p => lrow(p, p.d === 0 ? 0 : pos(p.d), THR)).join("")}</div>`;
+    if (days.length) h += `<div class="lrows"><div class="axis"><span class="cap">Produit et principaux fournisseurs</span><div class="ticks">${ticks.map(([d, l, c]) => `<span class="${c || ""}" style="left:${pos(d)}%;${d === 1 ? "transform:none" : d === 1095 ? "transform:translateX(-100%)" : ""}">${l}</span>`).join("")}<span class="thr-l" style="left:${THR}%">seuil proposé : ${META.seuil_jours} jours</span></div><span class="cap" style="text-align:right">Tenue</span></div>${days.map(p => lrow(p, p.d === 0 ? 0 : pos(p.d), THR)).join("")}</div>`;
     if (cov.length) h += `<p class="cov-h">Pour ces produits, nous mesurons la part des besoins couverte par la production française. Le trait pointillé marque 100 %.</p><div class="lrows">${cov.map(p => lrow(p, Math.min(100, p.cov / 2), 50)).join("")}</div>`;
     $("rows").innerHTML = h || `<p class="empty">Aucun produit ne correspond à ces filtres. <button type="button" class="reset" data-reset>Tout afficher</button></p>`;
   }
@@ -420,7 +458,7 @@ function init(D) {
   });
   const focusSearch = () => { router.go("test"); setTimeout(() => qEl.focus({ preventScroll: true }), REDUCED ? 0 : 480); };
   $("searchBtn").onclick = focusSearch;
-  $("keys").innerHTML = `<span>${BOLT}Le pays fournisseur s'est déjà servi de ce levier contre la France ou l'Europe.</span><span><span class="k">≈</span>Le chiffre est une estimation.</span><span>${flag("CN")}${flag("US")}Les drapeaux montrent les principaux pays fournisseurs.</span><span><span class="k">j</span>jours de tenue</span><span><span class="k">%</span>part des besoins couverte par la production française</span>`;
+  $("keys").innerHTML = `<span>${BOLT}Le pays fournisseur s'est déjà servi de ce levier contre la France ou l'Europe.</span><span><span class="k">≈</span>Le chiffre est une estimation (soulignée en pointillés).</span><span><i class="sw" style="background:linear-gradient(90deg,var(--l5),color-mix(in oklab,var(--l5) 78%,#fff))"></i>Plus la couleur est pâle, plus le produit tient longtemps dans son niveau.</span><span>${flag("CN")}${flag("US")}Les drapeaux montrent les principaux pays fournisseurs.</span><span><span class="k">j</span>jours de tenue</span><span><span class="k">%</span>part des besoins couverte par la production française</span>`;
   // ouvre la liste filtrée sur un secteur ou un pays (depuis l'accueil, l'analyse, la carte)
   function showFiltered(o) {
     resetFilters();
@@ -457,6 +495,20 @@ function init(D) {
     return `<div class="box lev${p.l}"><h4>${p.l === 2 ? BOLT : ""}Levier <span class="tagx ${p.l === 2 ? "red" : "amb"}">${esc(META.leviers[p.l])}</span></h4>
       <dl><dt>Par qui</dt><dd>${esc(X.qui || "Non documenté")}</dd><dt>Comment</dt><dd>${esc(X.comment || "Non documenté")}</dd>${X.quand && X.quand !== "—" ? `<dt>Quand</dt><dd>${esc(X.quand)}</dd>` : ""}<dt>${p.l === 2 ? "Effets" : "Le risque"}</dt><dd>${esc(X.effet || "Non documenté")}</dd></dl>${refList(X.refs)}</div>`;
   }
+  function amontBlock(p) {
+    if (!hasInputs(p)) return "";
+    const A0 = p.amont || {};
+    return `<div class="box amont"><h4>Pourquoi ce produit n'est pas souverain</h4>${A0.txt ? `<p>${esc(A0.txt)}</p>` : ""}<p>Sa production dépend de :</p>${tagList(p.intrants.map(id => byId[id]).filter(Boolean))}${refList(A0.refs)}</div>`;
+  }
+  function partBlock(p) {
+    const L = (D.partenaires || { matieres: [] }).matieres.filter(m => (m.produits || []).includes(p.id));
+    if (!L.length) return "";
+    return `<div class="box"><h4>Qui d'autre en produit</h4>${L.map(m => { const st = matStats(m), alt = st.rows.filter(r => !IMP.includes(r.c) && r.c !== "ZZ" && !st.risky.has(r.c)).slice(0, 3); return `<p><b>${esc(m.nom)}.</b> La Chine et la Russie en ont extrait ${pct(st.imp)} en ${m.annees[st.k]}. Les principaux autres producteurs sont ${alt.map(r => `${flag(r.c)} ${esc(nom(r.c))} (${pct(r.s)})`).join(", ")}. <a href="#partenaires" data-mat="${esc(m.id)}">Voir les partenaires possibles</a></p>`; }).join("")}</div>`;
+  }
+  function usesBlock(p) {
+    const U = USES[p.id]; if (!U || !U.length) return "";
+    return `<div class="box"><h4>Si ce produit manque</h4><p>Ces productions françaises en ont besoin et seraient touchées :</p>${tagList(U)}</div>`;
+  }
   const noteBlock = p => p.note ? `<div class="box"><h4>À savoir</h4><p>${esc(p.note)}</p></div>` : "";
   function figureSource(p) {
     if (p.k === "est" && p.estim) return `Il s'agit de notre estimation, selon la méthode « ${esc((MET[p.estim.m] || {}).nom || p.estim.m)} », détaillée plus bas.`;
@@ -486,10 +538,10 @@ function init(D) {
     const lvl = p.lv ? `<span class="lvpill" style="background:${lvc(p.lv)};color:var(--on-l${p.lv})">${p.l === 2 ? BOLT : ""}${LVL(p.lv)}</span>` : `<span class="badge">À instruire</span>`;
     let big;
     if (p.cov !== undefined) big = `<span class="d">${p.k === "est" ? "≈ " : ""}${p.cov} %</span><span class="u">de nos besoins sont couverts par la production française.</span>`;
-    else if (p.d === INF) big = `<span class="d">Autonome</span><span class="u">La France produit plus qu'elle ne consomme.</span>`;
+    else if (p.d === INF) big = `<span class="d">Excédent</span><span class="u">La France produit plus qu'elle ne consomme.</span>`;
     else big = `<span class="d">${p.k === "est" ? "≈ " : ""}${p.d}</span><span class="u">jour${p.d > 1 ? "s" : ""} de tenue si plus rien n'entrait.</span>`;
     const holders = (p.h || []).map(h => `<span>${flag(h)}${esc(nom(h))}</span>`).join("");
-    const body = `<div class="big">${big}</div><span class="badge">${p.isLive ? '<span class="live-dot"></span>' : ""}${esc(META.natures[p.k])}</span>
+    const body = `<div class="sh-big">${big}</div><span class="badge">${p.isLive ? '<span class="live-dot"></span>' : ""}${esc(META.natures[p.k])}</span> <a class="badge sol ${solLab(p.sol)}" href="#solidite" title="Comment est calculée cette note">Solidité de la preuve : ${num(p.sol)} sur 5, ${solLab(p.sol)}</a>
       ${p.gens ? `<div class="gens"><p>${esc(p.gens)}</p></div>` : ""}
       <dl class="facts">
         <div><dt>Principaux fournisseurs</dt><dd><span class="flags">${holders}</span></dd></div>
@@ -497,7 +549,7 @@ function init(D) {
         ${p.conc ? `<div><dt>Dans le monde</dt><dd>${esc(p.conc)}</dd></div>` : ""}
         <div><dt>Seuil légal de stock</dt><dd>${p.seuil && SEU[p.seuil] ? esc(SEU[p.seuil].court) : "Il n'y en a pas : personne n'est obligé d'en stocker."}</dd></div>
         <div><dt>D'où vient le chiffre</dt><dd>${figureSource(p)}</dd></div>
-      </dl>` + levBlock(p) + noteBlock(p) + seuilBlock(p) +
+      </dl>` + amontBlock(p) + usesBlock(p) + partBlock(p) + levBlock(p) + noteBlock(p) + seuilBlock(p) +
       `<div class="why"><h4>Pourquoi cette note</h4>${p.pourquoi ? `<p class="recit">${esc(p.pourquoi)}</p>` : ""}<p class="rule">${explain(p)}</p>${p.preuves && p.preuves.length ? `<h4 class="ph">Les preuves, à la source</h4>${proofs(p.preuves)}` : `<p class="rule">Nous n'avons pas encore de citation publiée pour ce produit : la fiche est à compléter.</p>`}</div>` + estBlock(p) + alliances(p) + coutBlock(p) +
       (META.mesures[p.m] ? `<div class="mesure"><b>Ce que nous proposons</b>${esc(META.mesures[p.m])}</div>` : "") + related(p);
     const L = order(), k = L.indexOf(p);
@@ -555,6 +607,7 @@ function init(D) {
   const rowsEl = $("rows");
   rowsEl.addEventListener("click", e => { const t = e.target.closest(".frow"); if (t) openSheet(+t.dataset.i); });
   rowsEl.addEventListener("keydown", e => { const t = e.target.closest(".frow"); if (t && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); openSheet(+t.dataset.i); } });
+  document.addEventListener("click", e => { const t = e.target.closest("a[data-mat]"); if (t && sheet.classList.contains("on")) closeSheet(true); });
   // tout élément portant data-open="identifiant" ouvre la fiche correspondante
   document.addEventListener("click", e => {
     const t = e.target.closest("[data-open]"); if (!t) return;
@@ -625,15 +678,17 @@ function init(D) {
     CARTE.pays.forEach(c => { paths[c.c] = el("path", { d: c.d, class: "land" + (c.c === "FR" ? " fr" : ""), "data-c": c.c }, gL); });
     const fr = A.FR;
     el("circle", { cx: fr[0], cy: fr[1], r: 4.5, class: "hub" }, gH);
-    const counts = () => MAP.mode === "dep" ? HOLD : ALLY;
+    const counts = () => MAP.mode === "dep" ? HOLD : MAP.mode === "al" ? ALLY : MINC;
+    const rankOf = () => MAP.mode === "dep" ? HOLD_RANK : MAP.mode === "al" ? ALLY_RANK : MIN_RANK;
+    const binMin = n => !n ? 0 : n === 1 ? 1 : n === 2 ? 2 : n <= 4 ? 3 : n <= 7 ? 4 : 5;
     const bin = n => !n ? 0 : n === 1 ? 1 : n <= 3 ? 2 : n <= 9 ? 3 : n <= 19 ? 4 : 5;
     const BINS = ["aucun", "1", "2 ou 3", "4 à 9", "10 à 19", "20 et plus"];
-    const fillOf = n => MAP.mode === "dep" ? `var(--m${bin(n)})` : (bin(n) ? `var(--a${bin(n)})` : "var(--m0)");
+    const fillOf = n => MAP.mode === "dep" ? `var(--m${bin(n)})` : MAP.mode === "min" ? `var(--m${binMin(n)})` : (bin(n) ? `var(--a${bin(n)})` : "var(--m0)");
     function paint() {
       const C = counts();
       Object.entries(paths).forEach(([c, p]) => { if (c === "FR") return; const n = (C[c] || []).length; p.style.fill = fillOf(n); p.classList.toggle("sel", c === MAP.sel); });
       gA.innerHTML = "";
-      const rank = MAP.mode === "dep" ? HOLD_RANK : ALLY_RANK;
+      const rank = MAP.mode === "min" ? [] : rankOf();
       rank.slice().reverse().forEach(([c, ps]) => {
         const a = A[c]; if (!a || c === "FR") return;
         const dx = fr[0] - a[0], dy = fr[1] - a[1], dist = Math.hypot(dx, dy); if (dist < 4) return;
@@ -644,8 +699,9 @@ function init(D) {
         const p = el("path", { d, class: "arc" + (MAP.mode === "al" ? " al" : ""), style: `stroke:${MAP.mode === "dep" ? pcol(c) : "var(--ally)"};stroke-width:${w}` }, gA);
         if (!REDUCED && MAP.mode === "dep") { const L = p.getTotalLength(); p.style.strokeDasharray = L; p.style.strokeDashoffset = L; p.getBoundingClientRect(); p.style.transition = "stroke-dashoffset 1s var(--ease)"; requestAnimationFrame(() => { p.style.strokeDashoffset = 0; }); }
       });
-      const ramp = (MAP.mode === "dep" ? [1, 2, 3, 4, 5].map(i => `var(--m${i})`) : [1, 2, 3, 4, 5].map(i => `var(--a${i})`)).map(c => `<i style="background:${c}"></i>`).join("");
-      $("mapLegend").innerHTML = MAP.mode === "dep"
+      const ramp = (MAP.mode !== "al" ? [1, 2, 3, 4, 5].map(i => `var(--m${i})`) : [1, 2, 3, 4, 5].map(i => `var(--a${i})`)).map(c => `<i style="background:${c}"></i>`).join("");
+      $("mapLegend").innerHTML = MAP.mode === "min" ? `<span>Nombre de matières dont le pays fournit au moins 5 % de la production mondiale : <span class="ramp">${ramp}</span> 1, 2, 3 ou 4, 5 à 7, 8 et plus</span><span><i class="sw" style="background:var(--navy)"></i>France</span>`
+        : MAP.mode === "dep"
         ? `<span>Nombre de nos produits fournis : <span class="ramp">${ramp}</span> de 1 à 20 et plus</span><span><i class="ln" style="border-color:var(--cn)"></i>Chine</span><span><i class="ln" style="border-color:var(--us)"></i>États-Unis</span><span><i class="ln" style="border-color:var(--ru)"></i>Russie</span><span><i class="ln" style="border-color:var(--other)"></i>Autres pays</span><span><i class="sw" style="background:var(--navy)"></i>France</span>`
         : `<span>Nombre de produits pour lesquels ce pays est un partenaire possible : <span class="ramp">${ramp}</span> de 1 à 20 et plus</span><span><i class="ln d" style="border-color:var(--ally)"></i>Alliance proposée</span><span><i class="sw" style="background:var(--navy)"></i>France</span>`;
       panel();
@@ -654,8 +710,8 @@ function init(D) {
     function panel() {
       const el2 = $("mapPanel"), c = MAP.sel;
       if (!c) {
-        const rank = (MAP.mode === "dep" ? HOLD_RANK : ALLY_RANK).slice(0, 14);
-        el2.innerHTML = `<h3>${MAP.mode === "dep" ? "Les pays qui nous fournissent le plus" : "Nos partenaires possibles les plus fréquents"}</h3><p class="hint">${MAP.mode === "dep" ? "Nombre de nos produits vitaux dont ce pays est un fournisseur principal." : "Nombre de produits pour lesquels nous proposons une alliance avec ce pays."}</p><ol class="rank">${rank.map(([k, ps], i) => `<li><button type="button" data-mc="${k}"><span>${i + 1}</span><span>${flag(k)} ${esc(nom(k))}</span><b>${ps.length}</b></button></li>`).join("")}</ol>`;
+        const rank = rankOf().slice(0, 14);
+        el2.innerHTML = `<h3>${MAP.mode === "dep" ? "Les pays qui nous fournissent le plus" : MAP.mode === "min" ? "Les grands pays producteurs" : "Nos partenaires possibles les plus fréquents"}</h3><p class="hint">${MAP.mode === "dep" ? "Nombre de nos produits vitaux dont ce pays est un fournisseur principal." : MAP.mode === "min" ? `Nombre de matières, parmi les ${MAT_ORDER.length} que nous suivons, dont ce pays fournit au moins 5 % de la production mondiale.` : "Nombre de produits pour lesquels nous proposons une alliance avec ce pays."}</p><ol class="rank">${rank.map(([k, ps], i) => `<li><button type="button" data-mc="${k}"><span>${i + 1}</span><span>${flag(k)} ${esc(nom(k))}</span><b>${ps.length}</b></button></li>`).join("")}</ol>`;
         return;
       }
       const h = HOLD[c] || [], a = ALLY[c] || [];
@@ -663,7 +719,12 @@ function init(D) {
       if (c === "FR") html += `<p>La France est au centre de la carte : tous les liens mènent à elle.</p>`;
       if (h.length) html += `<h4>Ce pays est un fournisseur principal pour ${h.length} de nos produits vitaux.</h4>${tagL(h)}`;
       if (a.length) html += `<h4>Nous proposons une alliance avec ce pays pour ${a.length} produit${a.length > 1 ? "s" : ""}.</h4>${tagL(a)}`;
-      if (!h.length && !a.length && c !== "FR") html += `<p class="hint">Ce pays n'apparaît pas encore dans le baromètre.</p>`;
+      const PB = (PROD_BY[c] || []).slice().sort((x, y) => y.s - x.s);
+      if (PB.length) html += `<h4>Ce que ce pays extrait, parmi les matières que nous suivons</h4><ul class="pb-list">${PB.map(x => `<li><a href="#partenaires" data-mat="${esc(x.m.id)}">${esc(x.m.nom)}</a> : ${pct(x.s)} de la production mondiale (${x.rank === 1 ? "1er" : x.rank + "e"} rang)</li>`).join("")}</ul>`;
+      const DO = DOSS[c];
+      if (!h.length && !a.length && c !== "FR" && !PB.length && !DO) html += `<p class="hint">Ce pays n'apparaît pas encore dans le baromètre.</p>`;
+      if (DO) html += `<h4>Ce que son gouvernement a décidé</h4>${mesuresHTML(DO, true)}<p><a href="#pays-${esc(c)}" data-goto-pays="${esc(c)}">Lire la fiche complète et ses sources</a></p>`;
+      if (UEP[c]) html += ueLine(c);
       if (POW[c]) html += `<p style="margin-top:14px"><a href="#puissances" data-pw="${c}">Lire la stratégie ${c === "US" ? "des États-Unis" : c === "CN" ? "de la Chine" : "de la Russie"}, ses textes et ses leviers</a></p>`;
       else if (h.length) html += `<p style="margin-top:14px"><button type="button" class="reset" data-holder="${c}">Voir ces produits dans la liste des 100</button></p>`;
       el2.innerHTML = html;
@@ -674,7 +735,7 @@ function init(D) {
     svg.addEventListener("mousemove", e => {
       const p = e.target.closest(".land"); if (!p) { tip.hidden = true; return; }
       const c = p.dataset.c, n = (counts()[c] || []).length, r = box.getBoundingClientRect();
-      tip.innerHTML = `<b>${esc(nom(c))}</b><br>${c === "FR" ? "La France" : MAP.mode === "dep" ? (n ? `Fournisseur principal pour ${n} de nos produits` : "Pas de produit fourni parmi nos cent") : (n ? `Partenaire possible pour ${n} produit${n > 1 ? "s" : ""}` : "Pas d'alliance proposée")}`;
+      tip.innerHTML = `<b>${esc(nom(c))}</b><br>${c === "FR" ? "La France" : MAP.mode === "min" ? (n ? `Au moins 5 % de la production mondiale pour ${n} matière${n > 1 ? "s" : ""}` : "Moins de 5 % pour chacune de nos matières") : MAP.mode === "dep" ? (n ? `Fournisseur principal pour ${n} de nos produits` : "Pas de produit fourni parmi nos cent") : (n ? `Partenaire possible pour ${n} produit${n > 1 ? "s" : ""}` : "Pas d'alliance proposée")}`;
       tip.hidden = false; tip.style.left = (e.clientX - r.left) + "px"; tip.style.top = (e.clientY - r.top) + "px";
     });
     svg.addEventListener("mouseleave", () => { tip.hidden = true; });
@@ -749,6 +810,222 @@ function init(D) {
     $("heat").innerHTML = `<thead><tr><th scope="col"><span class="sr">Moyen de pression</span></th>${mo.map(c => `<th scope="col" style="--c:${pcol(c)}"><span>${flag(c, "lg")}${esc(MX.puissances[c])}</span></th>`).join("")}</tr></thead><tbody>` +
       MX.vecteurs.map((v, i) => `<tr><th scope="row">${esc(v[0])}<small>${esc(v[1])}</small></th>${mo.map(c => { const [s, t] = MX.cases[c][i]; return `<td class="${s}"><b>${esc(MX.statuts[s])}</b>${esc(t)}</td>`; }).join("")}</tr>`).join("") + `</tbody>`;
   })();
+
+  /* ======================================================================
+     LES PARTENAIRES DE DEMAIN : production, réserves, concentration, projets
+     ====================================================================== */
+  const PA = D.partenaires || { matieres: [] };
+  const IMP = ["CN", "RU"]; // puissances qui ont déjà utilisé ce levier contre la France ou l'Europe
+  const fmtN = (v, d) => (v == null ? "n.d." : v.toLocaleString("fr-FR", { maximumFractionDigits: d == null ? 0 : d }));
+  const pct = (v, d) => num((v * 100).toFixed(d == null ? (v < 0.1 ? 1 : 0) : d)) + " %";
+  // indice de Herfindahl-Hirschman : somme des carrés des parts (en points de pourcentage)
+  const hhiOf = parts => Math.round(parts.reduce((s, x) => s + Math.pow(x * 100, 2), 0));
+  const hhiLabel = h => h > 1800 ? "très concentré" : h >= 1000 ? "modérément concentré" : "peu concentré";
+  function matStats(m) {
+    const k = m.annees.length - 1, W = m.monde[k];
+    const rows = Object.entries(m.prod).map(([c, v]) => ({ c, p: v[k], s: v[k] / W })).filter(r => r.p > 0).sort((a, b) => b.p - a.p);
+    const named = rows.filter(r => r.c !== "ZZ");
+    const partners = new Set((m.partenaires || []).filter(p => !p.prudence).map(p => p.c)), risky = new Set((m.partenaires || []).filter(p => p.prudence).map(p => p.c));
+    const share = f => rows.filter(f).reduce((s, r) => s + r.s, 0);
+    const R = m.res && Object.keys(m.res).length && m.monde_res ? m.monde_res : 0;
+    const gaps = R ? Object.entries(m.res).filter(([c]) => c !== "ZZ").map(([c, r]) => { const pv = (m.prod[c] || [0, 0])[k] || 0; return { c, rs: r / R, ps: pv / W, rp: pv ? r / pv : null }; }).sort((a, b) => (b.rs - b.ps) - (a.rs - a.ps)) : [];
+    return { k, W, rows, top: rows[0], hhi: hhiOf(named.map(r => r.s)), imp: share(r => IMP.includes(r.c)), cn: share(r => r.c === "CN"), top3: named.slice(0, 3).reduce((s, r) => s + r.s, 0), allies: share(r => partners.has(r.c)), gaps, partners, risky };
+  }
+  const blocOf = (c, partners, risky) => IMP.includes(c) ? (c === "CN" ? "var(--cn)" : "var(--ru)") : c === "US" ? "var(--us)" : risky && risky.has(c) ? "var(--l4)" : partners.has(c) ? "var(--ally)" : "var(--other)";
+  const MAT_ORDER = PA.matieres.map(m => ({ m, st: matStats(m) }));
+  let matSel = store.get("bd-mat"); if (!PA.matieres.some(m => m.id === matSel)) matSel = (PA.matieres[0] || {}).id;
+
+  function prodChart(m, st) {
+    const max = st.rows[0] ? st.rows[0].s : 1;
+    const top = st.rows.filter(r => r.c !== "ZZ").slice(0, 10), rest = st.rows.filter(r => !top.includes(r));
+    const restS = rest.reduce((s, r) => s + r.s, 0), restP = rest.reduce((s, r) => s + r.p, 0);
+    const line = (lab, s, p, col) => `<div class="pbar"><span class="lab">${lab}</span><span class="pb-w"><i style="width:${Math.max(.6, s / max * 100)}%;background:${col}"></i></span><span class="num"><b>${pct(s)}</b> ${fmtN(p)}</span></div>`;
+    return `<h3>Qui produit <small>en ${m.annees[st.k]}, en ${esc(m.unite)}</small></h3>` + top.map(r => line(`${flag(r.c)}${esc(nom(r.c))}`, r.s, r.p, blocOf(r.c, st.partners, st.risky))).join("") + (restS > 0 ? line("Autres pays", restS, restP, "var(--other)") : "");
+  }
+  function gapChart(m, st) {
+    if (!st.gaps.length) return `<h3>Production et réserves</h3><p class="hint">${esc(m.res_note || "Pas de réserves publiées pour cette matière.")}</p>`;
+    const G = st.gaps.slice().sort((x, y) => y.rs - x.rs).slice(0, 9).sort((x, y) => (y.rs - y.ps) - (x.rs - x.ps));
+    return `<h3>Ce qu'ils possèdent, et ce qu'ils extraient <small>part des réserves et de la production mondiales</small></h3>
+      <div class="gap-legend"><span><i class="dot p"></i>Part de la production</span><span><i class="dot r"></i>Part des réserves</span></div>` +
+      G.map(g => { const d = g.rs - g.ps, lo = Math.min(g.rs, g.ps) * 100, hi = Math.max(g.rs, g.ps) * 100; return `<div class="gbar${IMP.includes(g.c) ? " imp" : ""}"><span class="lab">${flag(g.c)}${esc(nom(g.c))}</span><span class="gb-w"><em style="left:${lo}%;width:${hi - lo}%;background:${d > 0 ? "var(--ally)" : "var(--l4)"}"></em><i class="dot p" style="left:${g.ps * 100}%"></i><i class="dot r" style="left:${g.rs * 100}%"></i></span><span class="num"><b>${d > 0 ? "+" : ""}${num((d * 100).toFixed(0))} pts</b>${g.rp && g.rp < 5000 ? `${fmtN(g.rp)} ans` : g.rp ? "plus de 5 000 ans" : "pas extrait"}</span></div>`; }).join("") +
+      `<p class="foot">Nous montrons les neuf pays qui détiennent le plus de réserves, classés selon l'écart entre leur part des réserves et leur part de la production, en points. Le second chiffre dit combien d'années dureraient leurs réserves au rythme actuel. ${m.res_label ? esc(m.res_label) + "." : ""}</p>`;
+  }
+  function ctrlChart(m) {
+    const C = m.controle; if (!C) return "";
+    const T = C.lignes.reduce((s, l) => s + l[2], 0), imp = C.lignes.filter(l => IMP.includes(l[1])).reduce((s, l) => s + l[2], 0);
+    return `<div class="panel"><h3>${esc(C.titre)} <small>${esc(C.note)}</small></h3><div class="stackbar">${C.lignes.map(l => `<i style="flex:${l[2]};background:${IMP.includes(l[1]) ? (l[1] === "CN" ? "var(--cn)" : "var(--ru)") : l[1] === "US" ? "var(--us)" : l[1] === "FR" ? "var(--navy)" : l[1] === "ZZ" ? "var(--other)" : "var(--ally)"}" title="${esc(l[0])} : ${fmtN(l[2])} t"></i>`).join("")}</div>
+      <ul class="ctrl-list">${C.lignes.map(l => `<li>${l[1] !== "ZZ" ? flag(l[1]) : ""}<span>${esc(l[0])}</span><b>${pct(l[2] / T)}</b></li>`).join("")}</ul>
+      <p class="hint" style="margin:10px 0 0">Les groupes chinois et russes contrôlent ${pct(imp / T)} de l'uranium extrait dans le monde, y compris hors de leurs frontières. ${refList(C.refs)}</p></div>`;
+  }
+  function raffChart(m) {
+    const R0 = m.raffinage; if (!R0) return "";
+    const L = Object.entries(R0.lignes).filter(([c]) => c !== "ZZ").sort((a, b) => b[1] - a[1]).slice(0, 8), max = L[0][1];
+    return `<div class="panel"><h3>${esc(R0.titre)} <small>en ${R0.annee}, en milliers de t</small></h3>${L.map(([c, v]) => `<div class="pbar"><span class="lab">${flag(c)}${esc(nom(c))}</span><span class="pb-w"><i style="width:${v / max * 100}%;background:${blocOf(c, new Set((m.partenaires || []).map(p => p.c)))}"></i></span><span class="num"><b>${pct(v / R0.monde)}</b> ${fmtN(v)}</span></div>`).join("")}</div>`;
+  }
+  function renderMat() {
+    const m = PA.matieres.find(x => x.id === matSel); if (!m) return;
+    const st = matStats(m);
+    $("matTabs").innerHTML = MAT_ORDER.map(({ m: x, st: s }) => `<button type="button" data-m="${esc(x.id)}" aria-pressed="${x.id === matSel}"><i style="background:${s.imp > .5 ? "var(--cn)" : s.imp > .25 ? "var(--l4)" : "var(--ally)"}"></i>${esc(x.nom)}</button>`).join("");
+    const top = st.top, B0 = m.besoin;
+    const verdict = `En ${m.annees[st.k]}, le premier producteur ${esc(m.de)}, ${flag(top.c)} ${esc(nom(top.c))}, en a fourni ${pct(top.s)}. Les trois premiers producteurs en ont fourni ${pct(st.top3)}.`;
+    const tiles = `<div class="mstats">
+      <div><b style="color:${st.imp > .5 ? "var(--cn)" : "inherit"}">${pct(st.imp)}</b>de la production vient de Chine ou de Russie, deux pays qui ont déjà utilisé ce levier.</div>
+      <div><b style="color:var(--ally)">${pct(st.allies)}</b>vient des pays que nous jugons fiables comme partenaires possibles.${st.risky.size ? ` Nous écartons ${[...st.risky].map(nom).join(" et ")}, dont la production est contrôlée ou captée par une puissance.` : ""}</div>
+      <div><b>${fmtN(st.hhi)}</b>points d'indice de concentration : le marché est ${hhiLabel(st.hhi)}. <button class="info" type="button" data-info="hhi" aria-label="Qu'est-ce que l'indice de concentration ?">i</button></div>
+      ${B0 ? `<div><b>${fmtN(B0.v)} t par an</b>${esc(B0.court)} ${refList(B0.refs)}</div>` : ""}
+    </div>`;
+    const cov = B0 ? `<p class="cov-note">Pour comparer, voici la production de chaque partenaire rapportée à nos besoins annuels : ${m.partenaires.filter(p => m.prod[p.c] && m.prod[p.c][st.k]).map(p => `${flag(p.c)} ${esc(nom(p.c))} ${num((m.prod[p.c][st.k] / B0.v).toFixed(1))} fois`).join(", ")}.</p>` : "";
+    const prods = (m.produits || []).map(id => byId[id]).filter(Boolean);
+    $("matBody").innerHTML = `<div class="mat swap">
+      <p class="mat-verdict">${verdict}</p>${tiles}${cov}
+      <div class="mat-grid"><div class="panel">${prodChart(m, st)}<div class="bar-legend" style="margin-top:12px"><span><i class="sw" style="background:var(--cn)"></i>Chine</span><span><i class="sw" style="background:var(--ru)"></i>Russie</span><span><i class="sw" style="background:var(--us)"></i>États-Unis</span><span><i class="sw" style="background:var(--ally)"></i>Partenaires possibles</span><span><i class="sw" style="background:var(--l4)"></i>Fournisseurs sous influence</span><span><i class="sw" style="background:var(--other)"></i>Autres</span></div><p class="foot">${refList(m.refs)}</p></div><div class="panel">${gapChart(m, st)}</div></div>
+      ${ctrlChart(m)}${raffChart(m)}
+      ${(m.notes || []).length ? `<ul class="mat-notes">${m.notes.map(n => `<li>${esc(n)}</li>`).join("")}</ul>` : ""}
+      <h3 class="pcards-h">Les partenaires possibles, un par un</h3>
+      <div class="pcards">${(m.partenaires || []).map(p => {
+        const v = m.prod[p.c] ? m.prod[p.c][st.k] : 0, r = m.res && m.res[p.c];
+        const comp = [v ? `${pct(v / st.W)} de la production mondiale` : "", r && m.monde_res ? `${pct(r / m.monde_res)} des réserves` : "", v && r ? `${fmtN(r / v)} ans de réserves au rythme actuel` : "", v && B0 ? `${num((v / B0.v).toFixed(1))} fois nos besoins annuels` : ""].filter(Boolean);
+        return `<article class="pcard${p.prudence ? " risky" : ""}" style="--c:${blocOf(p.c, st.partners, st.risky)}"><header>${flag(p.c, "lg")}<div><b>${esc(nom(p.c))}</b><span>${esc(p.role)}</span></div></header>
+          ${comp.length ? `<p class="calc">Notre calcul : ${comp.join(", ")}.</p>` : ""}
+          ${p.chiffres.length ? `<dl>${p.chiffres.map(([a, b]) => `<dt>${esc(a)}</dt><dd>${esc(b)}</dd>`).join("")}</dl>` : ""}
+          <p>${esc(p.txt)}</p>
+          ${p.projets.map(x => `<div class="proj"><b>${esc(x.nom)}</b><p>${esc(x.txt)}</p>${refList(x.refs)}</div>`).join("")}
+          ${p.risque ? `<p class="risk"><b>À surveiller.</b> ${esc(p.risque)}</p>` : ""}${refList(p.refs)}</article>`;
+      }).join("")}</div>
+      ${prods.length ? `<p class="mat-prods">Les produits du baromètre concernés : ${tagList(prods)}</p>` : ""}
+    </div>`;
+  }
+  if (PA.matieres.length) {
+    $("matTabs").addEventListener("click", e => { const b = e.target.closest("button[data-m]"); if (!b) return; matSel = b.dataset.m; store.set("bd-mat", matSel); renderMat(); });
+    document.addEventListener("click", e => { const a = e.target.closest("[data-mat]"); if (!a) return; matSel = a.dataset.mat; store.set("bd-mat", matSel); renderMat(); });
+    renderMat();
+    // les gisements de demain : écart entre part des réserves et part de la production, toutes matières confondues
+    (function mannes() {
+      const L = [];
+      MAT_ORDER.filter(({ m }) => !m.hors_mannes).forEach(({ m, st }) => st.gaps.forEach(g => { if (IMP.includes(g.c) || g.c === "US" && m.id === "lithium") return; const d = g.rs - g.ps; if (d >= .04) L.push({ m, g, d }); }));
+      L.sort((a, b) => b.d - a.d);
+      $("mannesChart").innerHTML = `<div class="gap-legend"><span><i class="dot p"></i>Part de la production mondiale</span><span><i class="dot r"></i>Part des réserves mondiales</span></div>` + L.slice(0, 14).map(({ m, g, d }) => `<button type="button" class="gbar big" data-mat="${esc(m.id)}"><span class="lab">${flag(g.c)}<span><b>${esc(nom(g.c))}</b><small>${esc(m.nom)}</small></span></span><span class="gb-w"><em style="left:${g.ps * 100}%;width:${d * 100}%;background:var(--ally)"></em><i class="dot p" style="left:${g.ps * 100}%"></i><i class="dot r" style="left:${g.rs * 100}%"></i></span><span class="num"><b>+${num((d * 100).toFixed(0))} pts</b>${pct(g.rs)} des réserves, ${pct(g.ps)} de la production</span></button>`).join("") +
+        `<p class="foot">Nous excluons la Chine et la Russie, ainsi que le lithium américain, dont la production n'est pas publiée. Cliquez sur une ligne pour ouvrir la matière.</p>`;
+      $("mannesChart").addEventListener("click", e => { const b = e.target.closest("[data-mat]"); if (!b) return; $("partenaires").scrollIntoView({ behavior: REDUCED ? "auto" : "smooth", block: "start" }); });
+    })();
+  }
+  // ce que produit chaque pays, pour la carte
+  const PROD_BY = {};
+  MAT_ORDER.forEach(({ m, st }) => st.rows.forEach((r, i) => { if (r.c === "ZZ") return; (PROD_BY[r.c] = PROD_BY[r.c] || []).push({ m, s: r.s, rank: i + 1 }); }));
+
+  /* ======================================================================
+     LES PAYS PRODUCTEURS : tableau croisé, Afrique, décisions, écarts entre sources
+     ====================================================================== */
+  const PY = D.pays || { continents: {}, types: {}, dossiers: [], ue: [], ecarts: [] };
+  const CONT = {}; Object.entries(PY.continents || {}).forEach(([k, L]) => L.forEach(c => { CONT[c] = k; }));
+  const DOSS = {}; (PY.dossiers || []).forEach(d => { DOSS[d.c] = d; });
+  const UEP = {}; (PY.ue || []).forEach(([c, d, s]) => { UEP[c] = { d, s }; });
+  const SHARE = {}; MAT_ORDER.forEach(({ m, st }) => st.rows.forEach(r => { if (r.c !== "ZZ") (SHARE[r.c] = SHARE[r.c] || {})[m.id] = r.s; }));
+  // pays qui fournissent au moins 5 % d'une matière : sert à la carte
+  const MINC = {}; Object.entries(SHARE).forEach(([c, o]) => { const L = MAT_ORDER.filter(({ m }) => (o[m.id] || 0) >= .05).map(({ m }) => ({ m, s: o[m.id] })); if (L.length) MINC[c] = L; });
+  const MIN_RANK = Object.entries(MINC).sort((a, b) => b[1].length - a[1].length || nom(a[0]).localeCompare(nom(b[0]), "fr"));
+  const short = m => m.court || m.nom;
+  const typeTag = t => `<span class="dtype t-${esc(t)}">${esc((PY.types || {})[t] || t)}</span>`;
+  const statTag = s => s && s !== "en vigueur" ? `<span class="dstat s-${esc(s.replace(/\s+/g, "-").normalize("NFD").replace(/[̀-ͯ]/g, ""))}">${esc(s)}</span>` : "";
+  const ueLine = c => UEP[c] ? `<p class="ue-line">${UEP[c].s === "suspendu" ? "Le partenariat avec l'Union européenne sur les matières premières, signé" : "Partenariat avec l'Union européenne sur les matières premières, signé"} ${UEP[c].d.length > 7 ? "le" : "en"} ${one(UEP[c].d)}${UEP[c].s === "suspendu" ? ", est suspendu." : "."}</p>` : "";
+  function mesuresHTML(d, compact) {
+    return `<ol class="mesures">${d.mesures.slice().sort((a, b) => b.date.localeCompare(a.date)).map(x => `<li><div class="mhead"><time>${esc(one(x.date))}</time>${typeTag(x.type)}${statTag(x.statut)}</div><p>${esc(x.txt)}</p>${x.cit && !compact ? `<blockquote class="mcit" lang="en">« ${esc(x.cit)} »</blockquote>` : ""}${compact ? "" : refList(x.refs)}</li>`).join("")}</ol>`;
+  }
+
+  /* ---------- le tableau croisé ---------- */
+  const cellCls = s => s >= .5 ? 6 : s >= .3 ? 5 : s >= .15 ? 4 : s >= .05 ? 3 : s >= .01 ? 2 : s > 0 ? 1 : 0;
+  let crossCont = "all";
+  function renderCross() {
+    if (!MAT_ORDER.length) return;
+    const rows = Object.entries(SHARE).filter(([, o]) => Math.max(...Object.values(o)) >= .03)
+      .map(([c, o]) => ({ c, o, n5: Object.values(o).filter(v => v >= .05).length, mx: Math.max(...Object.values(o)), k: CONT[c] || "Autres" }));
+    const order = Object.keys(PY.continents || {});
+    const counts = {}; rows.forEach(r => { counts[r.k] = (counts[r.k] || 0) + 1; });
+    $("croiseCont").innerHTML = [["all", "Tous les continents", rows.length], ...order.filter(k => counts[k]).map(k => [k, k, counts[k]])].map(([k, v, n]) => `<button type="button" class="chip" data-k="${esc(k)}" aria-pressed="${k === crossCont}">${esc(v)} <span class="c">${n}</span></button>`).join("");
+    const R = rows.filter(r => crossCont === "all" || r.k === crossCont).sort((a, b) => order.indexOf(a.k) - order.indexOf(b.k) || b.n5 - a.n5 || b.mx - a.mx);
+    const cols = MAT_ORDER.map(x => x.m);
+    let last = "";
+    const body = R.map(r => {
+      const grp = r.k !== last && crossCont === "all" ? `<tr class="grp"><th scope="rowgroup" colspan="${cols.length + 1}">${esc(r.k)}</th></tr>` : ""; last = r.k;
+      return grp + `<tr${IMP.includes(r.c) ? ` class="imp" style="--c:${r.c === "CN" ? "var(--cn)" : "var(--ru)"}"` : ""}><th scope="row">${flag(r.c)}<span>${esc(nom(r.c))}</span></th>${cols.map(m => { const s = r.o[m.id] || 0, k = cellCls(s); return `<td class="h${k}">${s ? `<button type="button" data-mat="${esc(m.id)}" title="${esc(nom(r.c))}, ${esc(m.nom)} : ${pct(s)} de la production mondiale en ${m.annees[m.annees.length - 1]}">${s >= .01 ? Math.round(s * 100) : "‹1"}</button>` : ""}</td>`; }).join("")}</tr>`;
+    }).join("");
+    $("croise").innerHTML = `<table class="cross"><caption class="sr">Part de chaque pays dans la production mondiale de chaque matière, en pourcentage</caption><thead><tr><th scope="col"><span class="sr">Pays</span></th>${cols.map(m => `<th scope="col"><span>${esc(short(m))}</span></th>`).join("")}</tr></thead><tbody>${body}</tbody></table>
+      <div class="cross-legend"><span>Part de la production mondiale :</span>${["moins de 1 %", "1 à 5 %", "5 à 15 %", "15 à 30 %", "30 à 50 %", "plus de 50 %"].map((t, i) => `<span><i class="h${i + 1}"></i>${t}</span>`).join("")}<span><i class="ln" style="border-color:var(--cn)"></i>Chine ou Russie</span></div>`;
+  }
+  if ($("croise")) {
+    renderCross();
+    $("croiseCont").addEventListener("click", e => { const b = e.target.closest("[data-k]"); if (!b) return; crossCont = b.dataset.k; renderCross(); });
+    $("croise").addEventListener("click", e => { if (e.target.closest("[data-mat]")) $("partenaires").scrollIntoView({ behavior: REDUCED ? "auto" : "smooth", block: "start" }); });
+  }
+
+  /* ---------- l'Afrique ---------- */
+  if ($("afChart") && MAT_ORDER.length) {
+    const isAf = c => CONT[c] === "Afrique";
+    const AF = MAT_ORDER.map(({ m, st }) => {
+      const p = st.rows.filter(r => isAf(r.c)).reduce((s, r) => s + r.s, 0);
+      const R = m.res && m.monde_res ? Object.entries(m.res).filter(([c]) => isAf(c)).reduce((s, [, v]) => s + v, 0) / m.monde_res : null;
+      const top = st.rows.filter(r => isAf(r.c))[0];
+      return { m, p, R: Object.keys(m.res || {}).length ? R : null, top, cn: st.cn };
+    }).sort((a, b) => b.p - a.p);
+    const half = AF.filter(x => x.p >= .5), quarter = AF.filter(x => x.p >= .25);
+    const lastY = Math.max(...MAT_ORDER.map(x => x.m.annees.slice(-1)[0])), older = MAT_ORDER.filter(x => x.m.annees.slice(-1)[0] < lastY).map(x => x.m.nom.toLowerCase());
+    $("afIntro").textContent = `En ${lastY}${older.length ? ` (${lastY - 1} pour ${older.join(" et ")})` : ""}, l'Afrique a fourni plus de la moitié de la production mondiale pour ${half.length} des ${AF.length} matières que nous suivons, et plus du quart pour ${quarter.length} d'entre elles. Ses gouvernements veulent désormais transformer ce minerai sur place.`;
+    $("afChart").innerHTML = `<h3>La part de l'Afrique, matière par matière <small>production de la dernière année publiée</small></h3><div class="gap-legend af-legend"><span><i class="sw" style="background:var(--ally)"></i>Part de la production mondiale</span><span><i class="dot r"></i>Part des réserves mondiales</span></div>` +
+      AF.filter(x => x.p > 0).map(x => `<button type="button" class="afrow" data-mat="${esc(x.m.id)}"><span class="lab"><b>${esc(short(x.m))}</b>${x.top ? `<small>${flag(x.top.c)} ${esc(nom(x.top.c))} ${pct(x.top.s)}</small>` : ""}</span><span class="pb-w">${x.p ? `<i style="width:${Math.max(.6, x.p * 100)}%;background:var(--ally)"></i>` : ""}${x.R ? `<i class="dot r" style="left:${x.R * 100}%"></i>` : ""}</span><span class="num"><b>${x.p ? pct(x.p) : "0 %"}</b>${x.R ? `${pct(x.R)} des réserves` : x.R === 0 ? "réserves africaines non publiées" : ""}</span></button>`).join("") +
+      `<p class="foot">${AF.filter(x => !x.p).length ? `Aucun pays africain n'est détaillé par la source pour ${AF.filter(x => !x.p).map(x => x.m.nom.toLowerCase()).join(", ")}. ` : ""}Les « autres pays » non détaillés par la source ne sont comptés dans aucun continent : la part africaine est un minimum. Cliquez sur une matière pour l'ouvrir. ${refList(["usgs-2026", "wna-mines-2026"])}</p>`;
+    $("afChart").addEventListener("click", e => { if (e.target.closest("[data-mat]")) $("partenaires").scrollIntoView({ behavior: REDUCED ? "auto" : "smooth", block: "start" }); });
+    const afD = (PY.dossiers || []).filter(d => isAf(d.c));
+    const exig = afD.filter(d => d.mesures.some(x => ["brut", "transfo", "etat", "quota"].includes(x.type)));
+    const ueAf = (PY.ue || []).filter(([c]) => isAf(c));
+    const gn = DOSS.GN, ne = DOSS.NE;
+    $("afText").innerHTML = `<h3>Ce que l'Afrique exige</h3><p>${exig.length} des ${afD.length} pays africains que nous suivons ont décidé, depuis 2020, d'interdire l'export de minerai brut, de plafonner leurs ventes, de prendre une part du capital ou d'exiger des usines sur place : ${exig.map(d => `${flag(d.c)} ${esc(nom(d.c))}`).join(", ")}.</p>
+      <p>L'Union africaine a fixé le cap en mars 2025, dans sa stratégie des minerais verts :</p><blockquote class="mcit"><span lang="en">« The AGMS recognizes that Africa must move beyond raw mineral exports and build strong, integrated value chains »</span><span class="tr">L'Afrique doit dépasser l'export de minerais bruts et bâtir des chaînes de valeur solides et intégrées.</span></blockquote>${refList(["au-agms-2025"])}
+      <h3>Ce que font la Chine et l'Europe</h3><p>La Chine est le premier acheteur : ${gn ? "74 % de la bauxite exportée par la Guinée en 2025 est partie vers la Chine. " : ""}Selon l'institut allemand SWP, les contrats d'achat de long terme profitent surtout aux acheteurs chinois.</p>
+      <p>L'Union européenne a signé ${ueAf.length} partenariats sur les matières premières en Afrique : ${ueAf.map(([c, d, s]) => `${flag(c)} ${esc(nom(c))} (${esc(year(d))}${s ? ", " + esc(s) : ""})`).join(", ")}. Le même institut juge qu'elle peine à les traduire en projets :</p><blockquote class="mcit"><span lang="en">« African partners expect cooperation on industrial projects and deeper integration into value chains »</span><span class="tr">Les partenaires africains attendent une coopération sur des projets industriels et une place plus grande dans les chaînes de valeur.</span></blockquote>${refList(["swp-afrique-2026", "reuters-gn-2026"])}
+      <h3>Ce que la France peut proposer</h3><p>Acheter des produits transformés en Afrique, comme des alliages de manganèse ou du sulfate de cobalt, plutôt que du minerai. Financer avec nos partenaires les usines et les voies ferrées, comme l'Agence française de développement le fait pour le Transgabonais. Partager la valeur dès le contrat.</p>${ne ? `<p>Le Niger montre ce que coûte un partenariat que le pays producteur juge déséquilibré : son gouvernement a nationalisé la Somaïr en 2025, en reprochant à Orano d'avoir pris 86,3 % de la production depuis 1971. ${refList(["aj-niger-2025"])}</p>` : ""}`;
+  }
+
+  /* ---------- ce que décident les pays producteurs ---------- */
+  if ($("dossiers") && (PY.dossiers || []).length) {
+    const DS = PY.dossiers, ALLM = DS.flatMap(d => d.mesures.map(x => ({ d, x })));
+    const brut = new Set(ALLM.filter(({ x }) => x.type === "brut" && x.statut !== "abandonnée").map(({ d }) => d.c));
+    $("prodIntro").textContent = `Nous avons relevé ${ALLM.length} décisions prises par ${DS.length} pays producteurs. ${brut.size} d'entre eux interdisent déjà, ou ont décidé d'interdire, l'export de minerai brut : ce que nous achèterons demain sera de plus en plus souvent transformé chez eux.`;
+    const PS = { cont: "all", type: "all" };
+    const order = Object.keys(PY.continents || {});
+    function renderDoss() {
+      const conts = order.filter(k => DS.some(d => CONT[d.c] === k));
+      $("prodCont").innerHTML = [["all", "Tous les continents"], ...conts.map(k => [k, k])].map(([k, v]) => `<button type="button" class="chip" data-k="${esc(k)}" aria-pressed="${k === PS.cont}">${esc(v)} <span class="c">${DS.filter(d => k === "all" || CONT[d.c] === k).length}</span></button>`).join("");
+      $("prodType").innerHTML = [["all", "Toutes les décisions"], ...Object.entries(PY.types || {})].map(([k, v]) => { const n = ALLM.filter(({ x }) => k === "all" || x.type === k).length; return n ? `<button type="button" class="chip" data-t="${esc(k)}" aria-pressed="${k === PS.type}">${k === "all" ? "" : `<i class="tdot t-${esc(k)}"></i>`}${esc(v)} <span class="c">${n}</span></button>` : ""; }).join("");
+      const L = DS.filter(d => (PS.cont === "all" || CONT[d.c] === PS.cont) && (PS.type === "all" || d.mesures.some(x => x.type === PS.type)))
+        .sort((a, b) => order.indexOf(CONT[a.c]) - order.indexOf(CONT[b.c]) || b.mesures.length - a.mesures.length);
+      $("dossiers").innerHTML = L.map(d => {
+        const PB = (PROD_BY[d.c] || []).filter(x => x.s >= .01).sort((a, b) => b.s - a.s);
+        const dd = PS.type === "all" ? d : Object.assign({}, d, { mesures: d.mesures.filter(x => x.type === PS.type) });
+        return `<article class="dossier" id="pays-${esc(d.c)}"><header>${flag(d.c, "lg")}<div><b>${esc(nom(d.c))}</b><span>${esc(CONT[d.c] || "")}</span></div></header><p class="dres">${esc(d.resume)}</p>
+          ${PB.length ? `<p class="dmat">${PB.map(x => `<a href="#partenaires" data-mat="${esc(x.m.id)}">${esc(short(x.m))} ${pct(x.s)}</a>`).join("")}</p>` : ""}
+          ${mesuresHTML(dd)}
+          ${d.calcul ? `<p class="calc"><b>Notre calcul.</b> ${esc(d.calcul)}</p>` : ""}${d.verif ? `<p class="verif"><b>Vérification.</b> ${esc(d.verif)}</p>` : ""}${d.lecture ? `<p class="lect"><b>Notre lecture.</b> ${esc(d.lecture)}</p>` : ""}${d.refs ? refList(d.refs) : ""}${ueLine(d.c)}</article>`;
+      }).join("") || `<p class="empty">Aucune décision de ce type pour ce continent.</p>`;
+    }
+    renderDoss();
+    $("prodCont").addEventListener("click", e => { const b = e.target.closest("[data-k]"); if (!b) return; PS.cont = b.dataset.k; renderDoss(); });
+    $("prodType").addEventListener("click", e => { const b = e.target.closest("[data-t]"); if (!b) return; PS.type = b.dataset.t; renderDoss(); });
+    // un lien vers une fiche pays : on lève les filtres pour que la fiche existe
+    document.addEventListener("click", e => { if (e.target.closest("[data-goto-pays]") && (PS.cont !== "all" || PS.type !== "all")) { PS.cont = PS.type = "all"; renderDoss(); } }, true);
+    const U = (PY.ue || []).slice().sort((a, b) => a[1].localeCompare(b[1]));
+    const byC = {}; U.forEach(([c]) => { const k = CONT[c] || "Autres"; byC[k] = (byC[k] || 0) + 1; });
+    $("uePanel").innerHTML = `<h3>Les partenariats de l'Union européenne sur les matières premières</h3><p class="hint">L'Union a signé ${U.length} partenariats depuis 2021 : ${Object.entries(byC).sort((a, b) => b[1] - a[1]).map(([k, n]) => `${n} ${k === "Europe" ? "en Europe" : k === "Afrique" ? "en Afrique" : k === "Asie" ? "en Asie" : k === "Océanie" ? "en Océanie" : "dans les " + k}`).join(", ")}. Aucun ne lie un pays d'Asie du Sud-Est, où se trouvent le nickel indonésien et la bauxite vietnamienne.</p><ol class="ue-tl">${U.map(([c, d, s]) => `<li${s ? ` class="off"` : ""}><time>${esc(one(d))}</time><span>${flag(c)} ${esc(nom(c))}${s ? ` <em>${esc(s)}</em>` : ""}</span></li>`).join("")}</ol>${refList(PY.ue_refs)}`;
+  }
+
+  /* ---------- quand les sources divergent ---------- */
+  if ($("ecartList") && (PY.ecarts || []).length) {
+    const V = { accord: ["Les sources concordent", "ok"], ecart: ["Les sources divergent", "ko"], incomparable: ["Chiffres non comparables", "na"] };
+    $("ecartList").innerHTML = PY.ecarts.map(e => {
+      const m = PA.matieres.find(x => x.id === e.mat), v = V[e.verdict] || V.ecart;
+      return `<article class="ecart"><header>${flag(e.c, "lg")}<div><b>${esc(e.titre)}</b>${m ? `<a href="#partenaires" data-mat="${esc(m.id)}">${esc(m.nom)}</a>` : ""}</div><span class="verdict ${v[1]}">${v[0]}</span></header>
+        <div class="two">${[e.a, e.b].map(([l, val, r]) => `<div><span class="lab">${esc(l)}</span><b>${esc(val)}</b>${refList([r])}</div>`).join("")}</div><p>${esc(e.txt)}</p></article>`;
+    }).join("");
+  }
 
   /* ======================================================================
      EUROPE ET ALLIÉS
@@ -855,6 +1132,13 @@ function init(D) {
   /* ======================================================================
      MÉTHODE ET SOURCES
      ====================================================================== */
+  if (META.souverainete) {
+    const SV = META.souverainete;
+    $("souvTitle").textContent = SV.titre; $("souvDef").textContent = SV.def;
+    const sov = inst.filter(p => p.lv === 1), cap = inst.filter(p => surplus(p) && hasInputs(p));
+    $("souvPoints").innerHTML = SV.points.map(([t, x]) => `<div><b>${esc(t)}</b>${esc(x)}</div>`).join("") +
+      `<div class="souv-sum"><b>Ce que ça donne aujourd'hui.</b>${sov.length} produit${sov.length > 1 ? "s sont souverains" : " est souverain"} : ${sov.map(p => `<button type="button" class="lnk" data-open="${esc(p.id)}">${esc(p.n)}</button>`).join(", ")}. ${cap.length} autres produits sont excédentaires mais dépendent d'intrants importés : ${cap.map(p => `<button type="button" class="lnk" data-open="${esc(p.id)}">${esc(p.n)}</button>`).join(", ")}.</div>`;
+  }
   $("scale").innerHTML = [5, 4, 3, 2, 1].map(l => `<div><span class="pill" style="background:${lvc(l)};color:var(--on-l${l})">${LVL(l)}</span><span>${esc(LVS[l].charAt(0).toUpperCase() + LVS[l].slice(1))}</span></div>`).join("");
   (function estimations() {
     const ORDER = ["crise", "filiere", "production", "numerique", "usage", "analogie", "defense", "hypothese"].filter(m => MET[m]);
@@ -878,6 +1162,40 @@ function init(D) {
     else cells.push(`<div class="hcell"><b>Liens de la bibliothèque</b>La bibliothèque compte <span class="na">${(D.bibliographie || []).length} sources</span>, contrôlées automatiquement chaque lundi.</div>`);
     $("health").innerHTML = cells.join("");
   })();
+  // la méthode des partenaires
+  $("evalCards").innerHTML = [
+    ["La part de chaque pays", "part = production du pays ÷ production mondiale", "La même année, dans la même unité. Les « autres pays » de la source sont regroupés."],
+    ["La part des puissances", "part = (production chinoise + production russe) ÷ production mondiale", "Nous retenons la Chine et la Russie, qui ont déjà utilisé leurs matières premières contre la France ou l'Europe."],
+    ["L'indice de concentration", "indice = somme des carrés des parts, en points", "Au-delà de 1 800 points, le marché est très concentré, selon les lignes directrices américaines de 2023."],
+    ["L'écart réserves-production", "écart = part des réserves − part de la production", "Un écart positif signale un pays qui a de quoi produire davantage : un gisement de demain."],
+    ["La durée des réserves", "durée = réserves ÷ production annuelle", "C'est un ordre de grandeur : les réserves évoluent avec les prix, les découvertes et les techniques."],
+    ["La couverture de nos besoins", "couverture = production du partenaire ÷ besoin annuel français", "Nous ne la calculons que lorsque le besoin français est publié, comme pour l'uranium."],
+    ["La part de l'Afrique", "part africaine = somme des parts des pays africains", "Les pays sont rattachés aux continents selon la nomenclature des Nations unies. Les « autres pays » non détaillés par la source ne comptent pour aucun continent : la part africaine est un minimum."],
+    ["Le tableau croisé", "case = part du pays dans la production mondiale", "Nous montrons les pays qui fournissent au moins 3 % d'une matière, en six teintes : moins de 1 %, 1 à 5 %, 5 à 15 %, 15 à 30 %, 30 à 50 %, plus de 50 %."],
+    ["Les décisions des producteurs", "une décision = un texte daté, classé dans un des sept types", "Interdiction du brut, quota, part de l'État, usines exigées, loi ou stratégie, voies d'export, contrats. Chaque décision a un état : en vigueur, annoncée, en suspens ou abandonnée."],
+    ["Les écarts entre sources", "écart = chiffre du pays ÷ chiffre de l'USGS − 1", "Nous gardons une seule source par matière pour comparer les pays ; quand le pays producteur publie un autre chiffre, nous montrons les deux et disons lequel nous retenons."]
+  ].map(([t, f, x]) => `<div class="mcard"><h3>${esc(t)}</h3><div class="formula">${esc(f)}</div><p>${esc(x)}</p></div>`).join("");
+  // solidité des preuves : nature du chiffre, nombre de preuves, qualité et fraîcheur des sources
+  const SOLW = { institution: 1, etat: 1, parlement: 1, donnees: 1, expertise: .75, ong: .75, programme: .5, doctrine: .5, presse: .25 };
+  function solidite(p) {
+    const pr = p.preuves || [];
+    let s = { src: 2, calc: 1.5, est: .5 }[p.k] || 0;
+    s += Math.min(3, pr.length) * .5;
+    s += Math.max(0, ...pr.map(x => SOLW[(BIB[x.ref] || {}).type] || 0));
+    const yrs = pr.map(x => +year((BIB[x.ref] || {}).date)).filter(Boolean);
+    if (yrs.length && Math.max(...yrs) >= 2025) s += .5;
+    return Math.round(s * 2) / 2;
+  }
+  P.forEach(p => { p.sol = solidite(p); });
+  const solLab = v => v >= 4 ? "solide" : v >= 2.5 ? "correcte" : "fragile";
+  (function sol() {
+    const bins = [0, .5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5].map(v => ({ v, n: P.filter(p => p.sol === v).length }));
+    const max = Math.max(...bins.map(b => b.n), 1), nS = P.filter(p => p.sol >= 4).length, nF = P.filter(p => p.sol < 2.5).length;
+    $("solIntro").textContent = `Chaque fiche reçoit une note de solidité sur 5. Elle tient compte de la nature du chiffre (publié, calculé ou estimé), du nombre de preuves citées, du type de la meilleure source et de sa date. Aujourd'hui, ${nS} fiches sont solides et ${nF} restent fragiles : ce sont elles que nous voulons consolider en premier.`;
+    $("solChart").innerHTML = `<h3>Les cent fiches, selon leur solidité</h3><div class="hist">${bins.map(b => `<div class="hcol"><span class="hn">${b.n || ""}</span><i style="height:${b.n / max * 100}%;background:${b.v >= 4 ? "var(--l1)" : b.v >= 2.5 ? "var(--l3)" : "var(--l4)"}"></i><span class="hl">${num(b.v)}</span></div>`).join("")}</div><p class="foot">Note = nature du chiffre (2 si publié, 1,5 si calculé, 0,5 si estimé) + 0,5 par preuve citée, jusqu'à 3 + 1 pour une source institutionnelle ou statistique (0,75 pour un institut de recherche, 0,25 pour la presse) + 0,5 si la source date de 2025 ou après.</p>`;
+    const F = P.slice().sort((a, b) => a.sol - b.sol || a.n.localeCompare(b.n, "fr")).slice(0, 12);
+    $("solList").innerHTML = `<h3>Les douze fiches à consolider en priorité</h3><ol class="sol-list">${F.map(p => `<li><button type="button" class="lnk" data-open="${esc(p.id)}">${esc(p.n)}</button><span>${num(p.sol)} sur 5</span></li>`).join("")}</ol>`;
+  })();
   $("pipe").innerHTML = `<thead><tr><th>Source</th><th>Ce que nous en tirons</th><th>Rythme</th><th>Automatisable</th></tr></thead><tbody>` +
     D.sources.map(r => `<tr><td><b>${esc(r[0])}</b></td><td>${esc(r[1])}</td><td>${esc(r[2])}</td><td>${esc(r[3])}</td></tr>`).join("") + `</tbody>`;
 
@@ -885,7 +1203,7 @@ function init(D) {
     let bt = "all", bq = "";
     const SE = LV.sources_etat || {};
     const counts = {}; D.bibliographie.forEach(b => { counts[b.type] = (counts[b.type] || 0) + 1; b.key = norm(`${b.auteur} ${b.titre} ${b.apport} ${b.date}`); });
-    const bo = ["institution", "parlement", "doctrine", "expertise", "donnees", "ong", "programme", "presse"].filter(t => counts[t]);
+    const bo = ["institution", "etat", "parlement", "doctrine", "expertise", "donnees", "ong", "programme", "presse"].filter(t => counts[t]);
     const cited = {};
     P.forEach(p => {
       const ids = new Set([...(p.preuves || []).map(x => x.ref), ...((p.lev || {}).refs || []), ...((p.estim || {}).refs || []), ...(p.cout || []).flatMap(c => c.refs || [])]);
@@ -910,7 +1228,8 @@ function init(D) {
     const C1 = [
       ["test", "Les 100 produits", "Combien de jours la France tiendrait sans importations, produit par produit.", `${under} produits tiennent moins de 90 jours.`],
       ["detail", "Analyse détaillée", "Les secteurs, les pays fournisseurs, sept filières et nos armées.", `${(D.chaines || []).length} filières examinées étape par étape.`],
-      ["puissances", "Les puissances", "La carte de nos dépendances, et les stratégies de Pékin, Washington et Moscou.", `${HOLD_RANK.length} pays fournisseurs sur la carte.`],
+      ["puissances", "Carte des dépendances", "La carte du monde de nos dépendances, et les stratégies de Pékin, Washington et Moscou.", `${HOLD_RANK.length} pays fournisseurs sur la carte.`],
+      ["partenaires", "Partenaires de demain", "Pour vingt matières critiques, qui produit, qui possède les réserves, et qui pourrait nous fournir.", `${(D.partenaires || { matieres: [] }).matieres.length} matières, chiffres à l'appui.`],
       ["europe", "Europe et alliés", "Ce que la dépendance coûte à l'Europe, et ce que choisissent nos voisins.", `${(D.allies || []).length} choix d'achat comparés.`],
       ["actus", "Actualités", "Ce qui a changé ces dernières semaines, et les prochaines échéances.", `${NEWS.length} actualités publiées.`],
       ["propositions", "Propositions", "Nos mesures dans l'ordre, et le coût de l'indépendance.", T ? `≈ ${money(T.u[0], T.u[1])} d'investissement.` : ""],
@@ -992,7 +1311,7 @@ function init(D) {
       const v = el ? el.closest(".view") : null;
       if (v) {
         show(v.dataset.view, h);
-        if (h.startsWith("ref-")) { el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash"); }
+        if (h.startsWith("ref-") || h.startsWith("pays-")) { el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash"); }
         return;
       }
       show(router.cur || "accueil");
@@ -1035,7 +1354,7 @@ function effects() {
   if (top) top.onclick = () => window.scrollTo({ top: 0, behavior: REDUCED ? "auto" : "smooth" });
   if (!("IntersectionObserver" in window) || REDUCED) return;
   const wall = $("wall");
-  const wo = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { wall.querySelectorAll(".wall").forEach(w => w.classList.add("pop")); wo.disconnect(); } }), { threshold: 0.05 });
+  const wo = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { wall.querySelectorAll(".wall").forEach(w => w.classList.add("anim")); wo.disconnect(); } }), { threshold: 0.05 });
   wo.observe(wall);
 }
 

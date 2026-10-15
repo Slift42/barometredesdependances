@@ -18,7 +18,7 @@ def lire(nom):
 
 meta, produits, biblio = lire("meta"), lire("produits"), lire("bibliographie")
 B = {b["id"]: b for b in biblio}
-TYPES = {"institution": "institution", "parlement": "parlement", "doctrine": "leurs textes", "expertise": "expertise",
+TYPES = {"institution": "institution", "etat": "pays producteurs", "parlement": "parlement", "doctrine": "leurs textes", "expertise": "expertise",
          "programme": "programme", "donnees": "données", "ong": "ONG", "presse": "presse"}
 
 
@@ -44,6 +44,10 @@ def niveau(p):
         b = by(p["d"])
     else:
         return 0
+    if b == 1 and p.get("intrants"):
+        b = 2  # excédentaire mais dépendant d'intrants importés : indépendant, pas souverain
+    if b > 1 and p.get("reloc") and isinstance(p.get("d"), (int, float)) and p["d"] >= p["reloc"]:
+        b = 1  # stocks plus longs que le délai de relocalisation
     if p.get("l") == 2 and 1 < b < 5:
         b += 1
     return b
@@ -54,7 +58,7 @@ def valeur(p):
     if "cov" in p:
         return f"{a}{p['cov']} % couverts"
     if p.get("d") == "auto":
-        return "Autonome"
+        return "Excédent"
     return f"{a}{p['d']} j" if "d" in p else "à instruire"
 
 
@@ -69,6 +73,9 @@ def main():
 
     # synthèse
     notes = [p for p in produits if niveau(p)]
+    sv = meta.get("souverainete")
+    if sv:
+        L += [f"## {sv['titre']}", "", sv["def"], ""] + [f"- **{t}** {x}" for t, x in sv["points"]] + [""]
     L += ["## Synthèse", ""]
     for n in (5, 4, 3, 2, 1):
         ps = [p["n"] for p in notes if niveau(p) == n]
@@ -122,6 +129,8 @@ def main():
         for p in [p for p in produits if p["f"] == f]:
             n = niveau(p)
             L += [f"**{p['n']}** — {valeur(p)}, {meta['niveaux'][str(n)]['nom'] if n else '—'}", "", p.get("pourquoi", ""), ""]
+            if p.get("amont"):
+                L += [f"Pourquoi pas souverain : {p['amont']['txt']} (intrants : {', '.join(p.get('intrants', []))}){refs(p['amont'].get('refs'))}", ""]
             for pr in p.get("preuves", []):
                 b = B.get(pr["ref"], {})
                 cit = pr["cit"] if pr.get("tab") else f"« {pr.get('fr') or pr['cit']} »"
@@ -158,7 +167,52 @@ def main():
             mt = f"{c['lo']}" if c["lo"] == c["hi"] else f"{c['lo']} à {c['hi']}"
             L.append(f"| {cellule(p['n'])} | {meta['remedes'].get(c['r'], c['r'])} | {mt} | {nat} | {cellule(c['txt'])} | {cellule(' ; '.join(ref(i) for i in c.get('refs', [])))} |")
 
-    L += ["", "## 12. Bibliographie", ""]
+    NOMS = lire("carte").get("noms", {}) if (DATA / "carte.json").exists() else {}
+    nomp = lambda c: "Autres pays" if c == "ZZ" else meta["detenteurs"].get(c) or NOMS.get(c, c)
+    PA = lire("partenaires") if (DATA / "partenaires.json").exists() else {"matieres": []}
+    L += ["", "## 12. Les partenaires de demain", "", "Production et réserves par pays (USGS 2026 ; World Nuclear Association pour l'uranium). Parts calculées sur l'année la plus récente.", ""]
+    for m in PA["matieres"]:
+        k = len(m["annees"]) - 1; w = m["monde"][k]
+        rows = sorted(((c, v[k]) for c, v in m["prod"].items() if v[k]), key=lambda x: -x[1])
+        hhi = round(sum((v / w * 100) ** 2 for c, v in rows if c != "ZZ"))
+        imp = sum(v for c, v in rows if c in ("CN", "RU")) / w
+        L += [f"### {m['nom']} ({m['annees'][k]}, {m['unite']})", "", f"Indice de concentration : {hhi} points. Chine et Russie : {imp:.0%} de la production.{refs(m['refs'])}", ""]
+        L += ["| Pays | Production | Part | Réserves |", "|---|---|---|---|"]
+        for c, v in rows:
+            r = (m.get("res") or {}).get(c)
+            L.append(f"| {nomp(c)} | {v:,} | {v / w:.1%} | {f'{r:,}' if r else ''} |".replace(",", " "))
+        L.append("")
+        for x in m["partenaires"]:
+            L += [f"- **{nomp(x['c'])}**{' (prudence)' if x.get('prudence') else ''} — {x['role']}. {x['txt']} {('À surveiller : ' + x['risque']) if x.get('risque') else ''}{refs(x.get('refs'))}"]
+            for pr in x.get("projets", []):
+                L.append(f"  - {pr['nom']} : {pr['txt']}{refs(pr.get('refs'))}")
+        L += [f"- Note : {n}" for n in m.get("notes", [])] + [""]
+
+    PY = lire("pays") if (DATA / "pays.json").exists() else {}
+    if PY:
+        cont = {c: k for k, v in PY["continents"].items() for c in v}
+        L += ["", "## 13. Les pays producteurs : décisions, partenariats, écarts entre sources", ""]
+        L += ["### Part de l'Afrique dans la production mondiale", "", "| Matière | Année | Part de l'Afrique | Premier producteur africain |", "|---|---|---|---|"]
+        for m in PA["matieres"]:
+            k = len(m["annees"]) - 1; w = m["monde"][k]
+            af = sorted(((c, v[k]) for c, v in m["prod"].items() if cont.get(c) == "Afrique" and v[k]), key=lambda x: -x[1])
+            L.append(f"| {m['nom']} | {m['annees'][k]} | {sum(v for _, v in af) / w:.0%} | {nomp(af[0][0]) + f' ({af[0][1] / w:.0%})' if af else '—'} |")
+        L += ["", "### Décisions des pays producteurs", ""]
+        for d in sorted(PY["dossiers"], key=lambda d: (list(PY["continents"]).index(cont.get(d["c"], "Europe")), nomp(d["c"]))):
+            L += [f"**{nomp(d['c'])}** ({cont.get(d['c'], '')}). {d['resume']}", ""]
+            for x in sorted(d["mesures"], key=lambda x: x["date"], reverse=True):
+                L.append(f"- {x['date']} — {PY['types'][x['type']]} ({x['statut']}). {x['txt']}{refs(x.get('refs'))}")
+            for lab, key in (("Notre calcul", "calcul"), ("Vérification", "verif"), ("Notre lecture", "lecture")):
+                if d.get(key): L.append(f"- {lab} : {d[key]}")
+            if d.get("refs"): L.append(f"- {refs(d['refs']).strip()}")
+            L.append("")
+        L += ["### Partenariats de l'Union européenne sur les matières premières", ""]
+        L += [f"- {nomp(c)} : {dt}{' (' + st + ')' if st else ''}" for c, dt, st in sorted(PY["ue"], key=lambda u: u[1])]
+        L += [f"{refs(PY.get('ue_refs')).strip()}", "", "### Écarts entre sources", "", "| Sujet | Source A | Source B | Verdict | Explication |", "|---|---|---|---|---|"]
+        V = {"accord": "concordent", "ecart": "divergent", "incomparable": "non comparables"}
+        for e in PY["ecarts"]:
+            L.append(f"| {e['titre']} | {e['a'][0]} : {e['a'][1]} ({ref(e['a'][2])}) | {e['b'][0]} : {e['b'][1]} ({ref(e['b'][2])}) | {V[e['verdict']]} | {e['txt']} |")
+    L += ["", "## 14. Bibliographie", ""]
     ordre = list(TYPES)
     for b in sorted(biblio, key=lambda b: (ordre.index(b["type"]) if b["type"] in ordre else 99, str(b["date"]))):
         t = f"[{b['titre']}]({b['url']})" if b.get("url") else b["titre"]

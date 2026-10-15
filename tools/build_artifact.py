@@ -12,7 +12,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
 FILES = ["meta", "produits", "matrice", "atouts", "sources", "propositions", "bibliographie", "kii", "europe", "allies", "strategies",
-         "chaines", "actus", "echeances", "zoom_armees", "carte"]
+         "chaines", "actus", "echeances", "zoom_armees", "carte", "partenaires", "pays"]
 LIVE = ["gaz", "electricite", "actus_auto", "veille_etat", "sources_etat"]
 
 
