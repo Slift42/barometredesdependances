@@ -1,12 +1,36 @@
 {
- "maj": "2026-10-14T07:50+00:00",
+ "maj": "2026-10-15T07:51+00:00",
  "items": [
   {
-   "id": "db307c822b78",
+   "id": "62d25e27337e",
+   "d": "2026-10-14",
+   "titre": "Au-delà du cloud souverain : la dépendance aux logiciels métiers - JDN",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaDdRMGlNYTh3VkpXUGlKdTNwcWhLREFJMzJ3MHhvYkMwSGROX2xKd1N4SmpURGZfcThpOE5VY3Z3dkJuWWtQMkoyOWV3ZTQyV1ZYRGxzQm1rMWVYWVlNSXpkMTR1ajh1TlRnLVhObjRtRFZzMWtQdnRNdE9nWldoRDFDcUpSUWlnRXJkX25QSVhjYzVvTUJ0YVRkcnFweWk0WkJqUWt6djYzWl9zVGh5WmpiaTRjSVpqUXZXYmN5WGIxZUla?oc=5",
+   "source": "JDN",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "d2f443da9f0b",
+   "d": "2026-10-14",
+   "titre": "Le Maroc intéressé? Les importations mondiales d’engrais azotés ont reculé de 2,8 % - هبة بريس",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4zREdERVd0bGxFOUZ0cnFmdTd3YmZ3S2FsS09uSGg1TDRERm9KSHdwLWgwM1R4N2dpZGViWWMzVjYtSVc4c05YbE11UTNjVm5zbkhN?oc=5",
+   "source": "هبة بريس",
+   "type": "presse",
+   "produits": [
+    "azote"
+   ],
+   "auto": true
+  },
+  {
+   "id": "a02b8dcd1240",
    "d": "2026-10-13",
-   "titre": "L'IA, nouveau moteur du cloud souverain - 13/10 - BFM",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObmtXVUdDS3F4b1l6cU9hRVZFNEd6cEJzejJEa0hUQk9BMTRRd1pEM3ZSdFg2Smh1YWRYMkhESThZTjM5a0NvTVdJdnZFMDBzYUJ2Wk5IM0hpX0V5cWhzdzZRZ3NOam1WZXFtUW9ZNXNBaTFZSnRkTk90c2stTm9BY3Z2MXZPQVZ1czQyVEdVaV9kb1ZXRlV3QkVMSzhKU1dIVFhIZGYxd3RuYjI5VTM2Uy1meWRZR2xMd2pKS1BjQVBnZmdyd253T3pfMA?oc=5",
-   "source": "BFM",
+   "titre": "L'IA, nouveau moteur du cloud souverain - 13/10 - Orange Actualités",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWXFnNnZUNDBTQ2R0aDRrNmpCS3NLSlpPeU1PcTlfbmF1NENkZTRZaElWSllVa1lmN0NFQ1QxZlZBUmxOcjB0aEpqTnJFNDFPXzYza0FuN3pZa1NZTlZueEw3elhtVGlmOWRyQ01MOEJEaU1PU2RtSVp1T0FlS3B2ODRtUzJQbURIdVlDX0dzMEpTeDVoeXRIVXU4dWszSlVOMFlHSFV3?oc=5",
+   "source": "Orange Actualités",
    "type": "presse",
    "produits": [
     "cloud"
@@ -149,11 +173,11 @@
    "auto": true
   },
   {
-   "id": "e3aaadbb5689",
+   "id": "c4b29eb442e3",
    "d": "2026-10-09",
-   "titre": "SecNumCloud : Bleu vise désormais une qualification pour la fin d’année - Next INpact",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZTFPaXdLd25EeUljWkc4ZlBnVTJ0dm4zRGpzRm0ySnVLY2F5OXdoUU0tZDE3bE5FaUlCRzhBRWNSRi1KNEhmSnJSZVdtQndTb0ZHdGk4aHpKTjV5N2xpYjNMbUMwYkhidU9zZFVBRTVJSDlac0JuaWdRT0VleGdwZElJbEZ5bmpLRUs5SnVZQjdrSmZ6SjBlbg?oc=5",
-   "source": "Next INpact",
+   "titre": "Nouvelle certification SecNumCloud pour Orange Business - incyber news",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR1NKRDhsamZqRE9ORTgyVzZSOGVJQnlyelkwOWU0Q1FiRlJGYUMzMS1yQXBXRG1UNzdSS3RuR2pZTHF4VjBtc0ZGbW5BYjRWREdtRVhvRWlIbGNVWjExYTdzaVcwYzhXUkU4RE9XZjNrYnFQTjFIck5QMGpvUTRjb0tvMlBMSXNQTEQwMA?oc=5",
+   "source": "incyber news",
    "type": "presse",
    "produits": [
     "cloud"
@@ -161,11 +185,11 @@
    "auto": true
   },
   {
-   "id": "c4b29eb442e3",
+   "id": "e3aaadbb5689",
    "d": "2026-10-09",
-   "titre": "Nouvelle certification SecNumCloud pour Orange Business - incyber news",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR1NKRDhsamZqRE9ORTgyVzZSOGVJQnlyelkwOWU0Q1FiRlJGYUMzMS1yQXBXRG1UNzdSS3RuR2pZTHF4VjBtc0ZGbW5BYjRWREdtRVhvRWlIbGNVWjExYTdzaVcwYzhXUkU4RE9XZjNrYnFQTjFIck5QMGpvUTRjb0tvMlBMSXNQTEQwMA?oc=5",
-   "source": "incyber news",
+   "titre": "SecNumCloud : Bleu vise désormais une qualification pour la fin d’année - Next INpact",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZTFPaXdLd25EeUljWkc4ZlBnVTJ0dm4zRGpzRm0ySnVLY2F5OXdoUU0tZDE3bE5FaUlCRzhBRWNSRi1KNEhmSnJSZVdtQndTb0ZHdGk4aHpKTjV5N2xpYjNMbUMwYkhidU9zZFVBRTVJSDlac0JuaWdRT0VleGdwZElJbEZ5bmpLRUs5SnVZQjdrSmZ6SjBlbg?oc=5",
+   "source": "Next INpact",
    "type": "presse",
    "produits": [
     "cloud"
@@ -271,6 +295,18 @@
    "auto": true
   },
   {
+   "id": "de74e45310ae",
+   "d": "2026-10-07",
+   "titre": "Nouvelle qualification SecNumCloud : Orange Business renforce sa gamme cloud de confiance pour les applications critiques et l'IA - Orange.com",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQndta3EtVUo2eGNJT0FlR1E5N253TkRscGprWW5ST3hCX3c1ekV5N1JMZFpYQWNocHpMcnAxQTY3ZzZmbXA2ZWt4aVVhUDZYcXN3bEo4NElYd2g3andBcXZobkdUYTI0amVQcXZJNlo2UzhmMDBmcUZDckVkaGVGSjFRQ3VrWHFXa25ZUVZGUmtTU19yYWRUcHNFOHBNd0FTazlyV0tKelVwY3lCeDQtOGpjNS1NZ0FHS2hsRTVXVmd0eVRwbWsteUpJckp2a0R5dVo4Qmw4MlZCTUE3bXF4Z2NoNlU?oc=5",
+   "source": "Orange.com",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
    "id": "2fbb2461227d",
    "d": "2026-10-07",
    "titre": "Orange muscle son offre SecNumCloud pour les applications critiques et l’intelligence artificielle - L'Usine Digitale",
@@ -280,18 +316,6 @@
    "produits": [
     "cloud",
     "ia"
-   ],
-   "auto": true
-  },
-  {
-   "id": "de74e45310ae",
-   "d": "2026-10-07",
-   "titre": "Nouvelle qualification SecNumCloud : Orange Business renforce sa gamme cloud de confiance pour les applications critiques et l'IA - Orange.com",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQndta3EtVUo2eGNJT0FlR1E5N253TkRscGprWW5ST3hCX3c1ekV5N1JMZFpYQWNocHpMcnAxQTY3ZzZmbXA2ZWt4aVVhUDZYcXN3bEo4NElYd2g3andBcXZobkdUYTI0amVQcXZJNlo2UzhmMDBmcUZDckVkaGVGSjFRQ3VrWHFXa25ZUVZGUmtTU19yYWRUcHNFOHBNd0FTazlyV0tKelVwY3lCeDQtOGpjNS1NZ0FHS2hsRTVXVmd0eVRwbWsteUpJckp2a0R5dVo4Qmw4MlZCTUE3bXF4Z2NoNlU?oc=5",
-   "source": "Orange.com",
-   "type": "presse",
-   "produits": [
-    "cloud"
    ],
    "auto": true
   },
@@ -308,11 +332,11 @@
    "auto": true
   },
   {
-   "id": "04098938927a",
+   "id": "9233c97d34ec",
    "d": "2026-10-07",
-   "titre": "Morbihan : obtention de la qualification SecNumCloud par l’entreprise Ecritel - L'Usine Nouvelle",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUzZkTk82X2Z3VTNJQzFDMGVZb3BpVFUyS0V4QkVkMUtJQnJ1SlVONnpLU2ljRmU1ZFZrQTdpZW90M09yVDVsaXd1azd4WUZGQVJqQ3hLaW5LSlRHUmRYcnNHaU9FU1pnRUdJaE1fdll4dFN4LTYzb244cHRVX3JTcTV2OEgzaHQydi1TOUpJa2JoVjRiMnJQQkFFOHAyUHFtc0hza0pWbmhKT2gxTlBPYkl6QnNCTlFmZW9oR0gyeTJrMlZvV2szYVVJMVAwT19sYTFvY1JRX1R0ZGhiYUFpTHJNM3dsZlN1VXc?oc=5",
-   "source": "L'Usine Nouvelle",
+   "titre": "Cloud de confiance : Orange Business élargit son offre SecNumCloud pour les données critiques - Acteurs Publics",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVnZlbkpVaEhpSUtnVkx1aWxXVWZyWXE5d0tQTXd0RlRLeERSVC1jYmJqbTVuYkRzSUdUc0VkdThtSnFZXzNGNDdxSWZ0a3kyRTQySEhNZ3U3aXJvdGlONjVIT29WeXB2cVVKb1hkNXJORXVJZlg1dTJkM2g3OTN2NDlxQ2YzMm93Q1ZaMFlPbU5BWjlQNFpCbDB4SzdEcDY4TnYxdzhWRzhZM2FrMUg1cHVoM2NrMkVmajFsdC14ZzE2ZW5vd1E?oc=5",
+   "source": "Acteurs Publics",
    "type": "presse",
    "produits": [
     "cloud"
@@ -320,11 +344,11 @@
    "auto": true
   },
   {
-   "id": "9233c97d34ec",
+   "id": "04098938927a",
    "d": "2026-10-07",
-   "titre": "Cloud de confiance : Orange Business élargit son offre SecNumCloud pour les données critiques - Acteurs Publics",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVnZlbkpVaEhpSUtnVkx1aWxXVWZyWXE5d0tQTXd0RlRLeERSVC1jYmJqbTVuYkRzSUdUc0VkdThtSnFZXzNGNDdxSWZ0a3kyRTQySEhNZ3U3aXJvdGlONjVIT29WeXB2cVVKb1hkNXJORXVJZlg1dTJkM2g3OTN2NDlxQ2YzMm93Q1ZaMFlPbU5BWjlQNFpCbDB4SzdEcDY4TnYxdzhWRzhZM2FrMUg1cHVoM2NrMkVmajFsdC14ZzE2ZW5vd1E?oc=5",
-   "source": "Acteurs Publics",
+   "titre": "Morbihan : obtention de la qualification SecNumCloud par l’entreprise Ecritel - L'Usine Nouvelle",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUzZkTk82X2Z3VTNJQzFDMGVZb3BpVFUyS0V4QkVkMUtJQnJ1SlVONnpLU2ljRmU1ZFZrQTdpZW90M09yVDVsaXd1azd4WUZGQVJqQ3hLaW5LSlRHUmRYcnNHaU9FU1pnRUdJaE1fdll4dFN4LTYzb244cHRVX3JTcTV2OEgzaHQydi1TOUpJa2JoVjRiMnJQQkFFOHAyUHFtc0hza0pWbmhKT2gxTlBPYkl6QnNCTlFmZW9oR0gyeTJrMlZvV2szYVVJMVAwT19sYTFvY1JRX1R0ZGhiYUFpTHJNM3dsZlN1VXc?oc=5",
+   "source": "L'Usine Nouvelle",
    "type": "presse",
    "produits": [
     "cloud"
@@ -349,6 +373,18 @@
    "titre": "Orange Business obtient une seconde qualification SecNumCloud et élargit sa gamme Cloud Avenue - ABC Bourse",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVlU0TU9ac0g5Y1d5bzV0Ulh5RWZFVlh2bWZmWk5lcnJpSVpGZGZCTWtIaWNVQXRLZHMtakg0OHN1b1hta1JHSWdlTHIyV3lIdmNRVHZlV0RIMzlvRk95VkFpNGJJRFZ3NWpJVDZacFpSUkRDUGJybnY4YjlNU3FwaWM5RzdrQkhMcTlDLUI0ajA1OEh0Sy1iWVVsTktXV1NDcWRvM0V3eTdyeHZld0t1SmNBVVFMR29GQTJKVmV3?oc=5",
    "source": "ABC Bourse",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "ef948dc6fffa",
+   "d": "2026-10-07",
+   "titre": "« C’est le graal pour les fournisseurs de cloud » : Orange business obtient une nouvelle qualification SecNumCloud - La Tribune",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPaXJLY0NWYmxBN3Zrajd1d2t3NlU4YWswRWVHMWFUdDZXcHp1R1dteURjMGM2WFczV0E2MW5MaGl6UHRqbjRkWldYYkFpU01YcjU0QnBvQzRpTG1YR05qdjdSMWhSWlI2S3QybThORWduRThXb19XNUJWQm1Tejl1ZHU1dldWU2xqQnFYZ05KcV81MjRieGNKcnRFM00zYkN4NkI5UWdObWFiNVBnQjlBWGpXSC1SSUhnT1lnTi1vY0p4ZkpNTkMxYUtlSnRuTkRaYVozZXV4cGdUbXRmbVM0NmZyX3VvTFk3VUM2d0NEVHotQUk?oc=5",
+   "source": "La Tribune",
    "type": "presse",
    "produits": [
     "cloud"
