@@ -4,79 +4,79 @@
   "erreurs": 0,
   "statut": "ok",
   "items": 100,
-  "derniere": "2026-10-15"
+  "derniere": "2026-10-16"
  },
  "gn-metaux": {
   "nom": "Google Actualités : métaux critiques",
   "erreurs": 0,
   "statut": "ok",
   "items": 52,
-  "derniere": "2026-10-15"
+  "derniere": "2026-10-16"
  },
  "gn-medicaments": {
   "nom": "Google Actualités : pénuries de médicaments",
   "erreurs": 0,
   "statut": "ok",
   "items": 100,
-  "derniere": "2026-10-15"
+  "derniere": "2026-10-16"
  },
  "gn-energie": {
   "nom": "Google Actualités : gaz, GNL, uranium",
   "erreurs": 0,
   "statut": "ok",
   "items": 49,
-  "derniere": "2026-10-15"
+  "derniere": "2026-10-16"
  },
  "gn-puces": {
   "nom": "Google Actualités : semi-conducteurs",
   "erreurs": 0,
   "statut": "ok",
   "items": 100,
-  "derniere": "2026-10-15"
+  "derniere": "2026-10-16"
  },
  "gn-numerique": {
   "nom": "Google Actualités : cloud et souveraineté numérique",
   "erreurs": 0,
   "statut": "ok",
   "items": 100,
-  "derniere": "2026-10-15"
+  "derniere": "2026-10-16"
  },
  "gn-commerce": {
   "nom": "Google Actualités : droits de douane UE",
   "erreurs": 0,
   "statut": "ok",
   "items": 100,
-  "derniere": "2026-10-15"
+  "derniere": "2026-10-16"
  },
  "gn-defense": {
   "nom": "Google Actualités : munitions et industrie de défense",
   "erreurs": 0,
   "statut": "ok",
-  "items": 68,
-  "derniere": "2026-10-15"
+  "items": 67,
+  "derniere": "2026-10-16"
  },
  "gn-agri": {
   "nom": "Google Actualités : engrais et souveraineté alimentaire",
   "erreurs": 0,
   "statut": "ok",
   "items": 100,
-  "derniere": "2026-10-15"
+  "derniere": "2026-10-16"
  },
  "iris": {
   "nom": "IRIS",
   "erreurs": 3,
-  "statut": "erreur : HTTP 403"
+  "statut": "en pause (3 échecs)"
  },
  "bruegel": {
   "nom": "Bruegel",
   "erreurs": 3,
-  "statut": "erreur : HTTP 403"
+  "statut": "en pause (3 échecs)"
  },
  "cert-fr": {
   "nom": "CERT-FR (menaces)",
   "erreurs": 0,
   "statut": "ok",
   "items": 40,
-  "derniere": "2026-10-15"
+  "derniere": "2026-10-16"
  }
 }

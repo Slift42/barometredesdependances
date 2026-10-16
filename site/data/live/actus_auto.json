@@ -1,12 +1,37 @@
 {
- "maj": "2026-10-15T07:51+00:00",
+ "maj": "2026-10-16T07:49+00:00",
  "items": [
+  {
+   "id": "2eb5b2d16728",
+   "d": "2026-10-16",
+   "titre": "La Chine s'est engagée à continuer de fournir des terres rares à l'UE malgré l'échéance de son accord commercial avec les États-Unis. - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSlFkSjMwVUwxX1VTTGdsWFlaQjBwMHpWSFd3RzNlUnVMMnZCcFZQUjRRVWF4M1BSRkJaeXA1NC1pNFZiZEd2QnFockpEUlFLRmtrS2lfOTRHaENZbmJ0OGg1clRGcXlhRnJvRm00dXFDdXgyN0NkRy1YYWhsQW9kblI1LWl1Y09zVG5EdGZqZm96UkVFMU9jZmpMdmJ6VGFOTWE2ckZtTUExMzAtckR5T3BJb29HVlQ4WWJKakE0TUZjc00?oc=5",
+   "source": "Vietnam.vn",
+   "type": "presse",
+   "produits": [
+    "tr-legeres",
+    "tr-lourdes"
+   ],
+   "auto": true
+  },
   {
    "id": "62d25e27337e",
    "d": "2026-10-14",
    "titre": "Au-delà du cloud souverain : la dépendance aux logiciels métiers - JDN",
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaDdRMGlNYTh3VkpXUGlKdTNwcWhLREFJMzJ3MHhvYkMwSGROX2xKd1N4SmpURGZfcThpOE5VY3Z3dkJuWWtQMkoyOWV3ZTQyV1ZYRGxzQm1rMWVYWVlNSXpkMTR1ajh1TlRnLVhObjRtRFZzMWtQdnRNdE9nWldoRDFDcUpSUWlnRXJkX25QSVhjYzVvTUJ0YVRkcnFweWk0WkJqUWt6djYzWl9zVGh5WmpiaTRjSVpqUXZXYmN5WGIxZUla?oc=5",
    "source": "JDN",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "e2a40f26a50a",
+   "d": "2026-10-14",
+   "titre": "MEEZA et Microsoft lancent un cloud souverain privé destiné aux entreprises au Qatar - Qatar news agency",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNkZTYzQwdVo1S21LdEs3YTZraDFDc0Q2blFxc0ZyRU0xQWh1N2JpOU1tUjJaNzkxZnhQeHN4a0hQbTEyNWw1Vms4NlZHUk4yTmQxd05QMDMwcHV2TERCdmlsWTRCWUh1eUJSX1FVWllNX1E1OHJsZncyaWtJXzN5QjEwTWNKMmRUMEl5YTk0MTdsd09fZEFfdE9zZVVCUGZSMVFOQ2l4RFNlcHIxTXVQWUstR043cHU3Z3lyWFdhYml0aldIMUxOM2tjTVE4RnVQ?oc=5",
+   "source": "Qatar news agency",
    "type": "presse",
    "produits": [
     "cloud"
@@ -34,18 +59,6 @@
    "type": "presse",
    "produits": [
     "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "5b262aed456f",
-   "d": "2026-10-13",
-   "titre": "Les importations lettones d’engrais marocains reculent de 65,5 % sur huit mois - برلمان.كوم",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeW1Ha0dwVHZKQmUzYmFjZHhqeHBlUEl2dUJDWDBUUThNalpYWk5idW41ZTBCZjZxS1NtQmFUUnVPc0x2Vm5BM2NKdW5aT1hsX0ZmRjd6ajhVd1Zvd3o4LWs4S2ZjN3U4eXkzdVlZSExHc1BPUm5nMGZOVmszcUNPU0NQdFpTT1NLOWxmdUttV1N0T2pOVzI1ZURVbGoweE41dkE?oc=5",
-   "source": "برلمان.كوم",
-   "type": "presse",
-   "produits": [
-    "azote"
    ],
    "auto": true
   },
@@ -161,11 +174,11 @@
    "auto": true
   },
   {
-   "id": "6b1bac96aa1a",
+   "id": "c4b29eb442e3",
    "d": "2026-10-09",
-   "titre": "G7, les taxis, choisit le cloud qualifié SecNumCloud de S3NS pour ses données de mobilité et ses usages d'IA - it social",
-   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNQ0QwUXdZdkk4OHIzM3JNOHlHNkVmZHR1Q3ROYU1WWWllTWViTzBESThXV28tZjBXVkRwOUVvLUNOM1lXdEtBLXY0M1NvbUNiZVJfYUF6OG9DNDJacVBtdUNrNTkzLXRISXp1LWcxVUNRWUdqRDEzc0x3UElHSGh2V1NBTlFNMlZSd0pLb0J0Tk1pUmhualZ1Tl9MZGNPazBBc2d4MWI5MmxqeWpBa1hRa201R19FZVdnMHd1blpMbjdUdUtTbEJacFlraUdsa0JaZEU0bnBrT290M251REIzUXFidnR4Mk1yclVKRHFhT1BPMEplXzhVX2JwRzA0eXlRTHZPa1p5VXZLYW1JTUw1WEFQbHp2RWVK?oc=5",
-   "source": "it social",
+   "titre": "Nouvelle certification SecNumCloud pour Orange Business - incyber news",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR1NKRDhsamZqRE9ORTgyVzZSOGVJQnlyelkwOWU0Q1FiRlJGYUMzMS1yQXBXRG1UNzdSS3RuR2pZTHF4VjBtc0ZGbW5BYjRWREdtRVhvRWlIbGNVWjExYTdzaVcwYzhXUkU4RE9XZjNrYnFQTjFIck5QMGpvUTRjb0tvMlBMSXNQTEQwMA?oc=5",
+   "source": "incyber news",
    "type": "presse",
    "produits": [
     "cloud"
@@ -173,11 +186,11 @@
    "auto": true
   },
   {
-   "id": "c4b29eb442e3",
+   "id": "6b1bac96aa1a",
    "d": "2026-10-09",
-   "titre": "Nouvelle certification SecNumCloud pour Orange Business - incyber news",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR1NKRDhsamZqRE9ORTgyVzZSOGVJQnlyelkwOWU0Q1FiRlJGYUMzMS1yQXBXRG1UNzdSS3RuR2pZTHF4VjBtc0ZGbW5BYjRWREdtRVhvRWlIbGNVWjExYTdzaVcwYzhXUkU4RE9XZjNrYnFQTjFIck5QMGpvUTRjb0tvMlBMSXNQTEQwMA?oc=5",
-   "source": "incyber news",
+   "titre": "G7, les taxis, choisit le cloud qualifié SecNumCloud de S3NS pour ses données de mobilité et ses usages d'IA - it social",
+   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNQ0QwUXdZdkk4OHIzM3JNOHlHNkVmZHR1Q3ROYU1WWWllTWViTzBESThXV28tZjBXVkRwOUVvLUNOM1lXdEtBLXY0M1NvbUNiZVJfYUF6OG9DNDJacVBtdUNrNTkzLXRISXp1LWcxVUNRWUdqRDEzc0x3UElHSGh2V1NBTlFNMlZSd0pLb0J0Tk1pUmhualZ1Tl9MZGNPazBBc2d4MWI5MmxqeWpBa1hRa201R19FZVdnMHd1blpMbjdUdUtTbEJacFlraUdsa0JaZEU0bnBrT290M251REIzUXFidnR4Mk1yclVKRHFhT1BPMEplXzhVX2JwRzA0eXlRTHZPa1p5VXZLYW1JTUw1WEFQbHp2RWVK?oc=5",
+   "source": "it social",
    "type": "presse",
    "produits": [
     "cloud"
@@ -404,6 +417,18 @@
    "auto": true
   },
   {
+   "id": "b9e21ffc2739",
+   "d": "2026-10-05",
+   "titre": "Orange Tunisie et Focus s’allient pour accélérer l’accès des entreprises au Cloud souverain en Tunisie - AGENCE ECOFIN",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQeUdUTnk0N2ZrNE10WkZpbVRYR2FKaHVYSmNrZ3Fac2QtQXVQOW9EOGF5bkFhN2Y4OF81Y0hOQkE4YUpXRGM2d3RJc0Y1QWtDR25Hb19XdE5xdkFReldVcnJtUXcta25HbkprYnRtaC1sMzU2S3JXM2ZfbkZPVjBRMGlyVnhJVVpGdW1CM242dUlkZ1hpWm9iYURRSllCalg2eXc5b3NLd0JUdks1dDE5MDhpLWVOZEdCM0hLbEdxSlIySHZNZTlTUVFNVW9qdXpvZEhTUzJTQUN0RVptcUxVbWZaUzhxRlVlWFlaOTNMcm9CNmNuUnd3?oc=5",
+   "source": "AGENCE ECOFIN",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
    "id": "099d16f152c4",
    "d": "2026-10-04",
    "titre": "L’absence de ventes du fabricant ASML en Europe, symbole du manque d’investissements dans les puces électroniques - Le Monde.fr",
@@ -412,43 +437,6 @@
    "type": "presse",
    "produits": [
     "puces-matures"
-   ],
-   "auto": true
-  },
-  {
-   "id": "6beb4ba41f9c",
-   "d": "2026-10-04",
-   "titre": "Dans l’État brésilien du Maranhão, les engrais représentent 97 % des achats effectués auprès du Maroc - برلمان.كوم",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObmlKWmM5bHZmeDBvc0tWMDlIZVpxT0Foc3ZhdFVySXlhNGswVVkzeEtaQVI1UWg1eUxMdmo5MS03aU1xTHpDRmplLWNIc241NE5XQjBwN3NVblBWcGtmVmMwN3B1Wll2MVdwcWZpbFA3WkZtQVFSazhqSXRDa0RLbDN0Y3E3d3ZUcGcxOC1OLWN3SkxUM3NQclZhNVR0RHdKWkNNWUJiaDQtMHp3SnVCd1dnTmZVN0c5RS10NWh0ZUM?oc=5",
-   "source": "برلمان.كوم",
-   "type": "presse",
-   "produits": [
-    "azote"
-   ],
-   "auto": true
-  },
-  {
-   "id": "1103bd861a25",
-   "d": "2026-10-01",
-   "titre": "Free Pro passe l’un des examens les plus exigeants du cloud français, et l’enjeu dépasse largement la cybersécurité - Freenews",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObDM5MDdWVnRKbGpEN3RCN2NEWFVYS0hpeEhOdEI0LThRR0VXZzhZTTNRYXFoeTJNcHFJUW83UGZITDFJZTY2Q3JNNGh2UHlVMWw2NEF6S3JTME1TNnVLSHlPWE5raHVKejJNZW01T0FvYjVGY1JXOWdHT1RlWlotSU44S1pQa3RN0gGOAUFVX3lxTFBmY3JWUGRPNUN2czBhc0U1NGViWlhMN3VodkVqcFdaVUpIUE0xbGFlNWJBS3R6NjJPcHNXRVNkUkE0dWxhZUo5SHJHY1ZLVS1xRlYzRWJWdTBwblgyY0VPd0luMGNLaUcxc0hXM0luRVBsb1kxeks1UmhnZmRKbEhUUzhnNE1sTm84V0Z4X2c?oc=5",
-   "source": "Freenews",
-   "type": "presse",
-   "produits": [
-    "cloud",
-    "cyber"
-   ],
-   "auto": true
-  },
-  {
-   "id": "90aeb91ae52f",
-   "d": "2026-10-01",
-   "titre": "AWS va débrancher son cloud souverain européen : l’expérience amusante qui ne change rien… - ITforBusiness.fr",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObUNtV3pIMks4M01jd1V5M0FmWl9WY2k0U0Q0R1RBRlZRRUE0M29rQmJmNjhwNDJtM0FVWFRGRC1BTUdnYnZVb3drdGdHVlo0T1AxSWg5eEZFeTVPdmMzQ0xid3NpUENXNVNDcFBQRlIydnZBckFRQ0tQeUxNRjhTQUdUZ3NUa3lvRnVycERlRjJtVkF6UTZ1Xw?oc=5",
-   "source": "ITforBusiness.fr",
-   "type": "presse",
-   "produits": [
-    "cloud"
    ],
    "auto": true
   }
