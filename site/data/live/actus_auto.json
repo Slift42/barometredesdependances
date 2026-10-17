@@ -1,6 +1,18 @@
 {
- "maj": "2026-10-16T07:49+00:00",
+ "maj": "2026-10-17T07:42+00:00",
  "items": [
+  {
+   "id": "dddbe0f2ba55",
+   "d": "2026-10-17",
+   "titre": "Les prix du lithium chutent de 14 % après l'accord UE-Chine sur les voitures hybrides - Actualités et statistiques - IndexBox",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSG9UcHJaRnZwMFE0eVlmMFByT29sdGpNS0pQeWJONGtmaHpWS1BKRGF3aW54XzQzRHdtMkZNUDA0alZocXk3ei1xdndmbzZENDgzTm5XbThxdlJSMm0xT1NESjZEZVduNnk0bk5vNFRWbXFsLUt0QnJua3kzRHB3UGtobDJkV2dxdXczT1VjTVE?oc=5",
+   "source": "IndexBox",
+   "type": "presse",
+   "produits": [
+    "lithium"
+   ],
+   "auto": true
+  },
   {
    "id": "2eb5b2d16728",
    "d": "2026-10-16",
@@ -11,6 +23,54 @@
    "produits": [
     "tr-legeres",
     "tr-lourdes"
+   ],
+   "auto": true
+  },
+  {
+   "id": "45b45137f50a",
+   "d": "2026-10-16",
+   "titre": "Cloud souverain : Stellarix et Sen Startup veulent donner aux jeunes entreprises sénégalaises les moyens de leurs ambitions - Xalima",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcWJTelExSHd6UTRCNUN6OFZQdXRQZWY2VGg0REFuZnZtOUQxZHA2QUpMb1JkaUpXVWFQNjVLc2RaZDlxRF94SkdrdUNnV19fQmNiUVlGZUZCY1ZvWGMzT3dLaXRpLWZIai1MQjQ2MGl5NWJETHMycFluMXlUTlNjVFItWmk2cmZ3SzV1djZrcnJkQ1JzUzMwWGQ0Rml5dHpnT1BHUjA0SzhtSjNmRGNKZVJ1cW5nMmNwaXVibERheGRJMExPZVo2U3pWZVE2bkk0cF9pcjNiVndTWm1Fck5ZdU1QMFloSDB1NFE?oc=5",
+   "source": "Xalima",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "98160033e5d3",
+   "d": "2026-10-16",
+   "titre": "Risque de hausse des prix alimentaires : El Niño, énergie et manque d’engrais pèsent sur les importations - https://renseignementeconomique.fr/",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPV2FsbExzV2ZWdDZwOEQ5b3BfV3NiMnEzWUxrbjdfc1dHS1RTVFJIZ0N0WnRUODJXQXlJUjBiZnZTbEg4Wkc4YzN3cmpCQW1EWXh2VFVvTmpVU1dWWHJuYnh3SlJlQktncllzVHNqdk03aGxpc3RCWVRTNmY1cjlpZVF6bkczeE5IbGtEcTFKOG55cWdkYkNUeVNuT1psYURQQ3lqc2xDcUdxYVlMZ0dWOVliRUlrdnNDYnRsS0I2MHZ1dnQzd2VOVnBtR1pBUHlpRWVR?oc=5",
+   "source": "https://renseignementeconomique.fr/",
+   "type": "presse",
+   "produits": [
+    "azote"
+   ],
+   "auto": true
+  },
+  {
+   "id": "5b499d3c88d1",
+   "d": "2026-10-15",
+   "titre": "Un cloud souverain pour la France : Snowflake et Bleu - Snowflake",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5lUGZWc3Z0eFhpRHI0ZjFpcThGUGJrWGFuX1ZYQmlKQlRaeGZEaFFtb295Zy1jT2dVR0ptZ2pIUVhsbHZPTHF0Z2ZZUXFfZWVwdlZoWmJwbUdYQV9lZW03ZUF4Mi1va0Y1VUwyTWVhYW1tUmk0MTMtS1NuUkI?oc=5",
+   "source": "Snowflake",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "49870f22a1f7",
+   "d": "2026-10-15",
+   "titre": "Cloud souverain : Stellarix et Sen Startup veulent faciliter l'accès des jeunes entreprises sénégalaises - Leral.net",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMXZ4U0ttTkdKTUxDZDNzX1UwMlQ3bG9QTnVDNFdVZDU3cEJiRUpvNjVpWk5yeXhPWDc1ZVNLWk9FcGY1TGhJWWxlSmU4bWFaNm1vRGVFRC1YVVUzY3YzdWdvUThtekZVVlZSdlVSLXpGaTd3cmhxdGNJU2VLd3ZJRkgyV2FneWhIaVlOWnZUd3hzak9ia0tBM21kaVYxSmF0NUNRbDVYdkVoOTZOQnFoRjNIWFc1THptV25HWmxkakw0WmNTdHo4bkhpemtpMjN4RWdF?oc=5",
+   "source": "Leral.net",
+   "type": "presse",
+   "produits": [
+    "cloud"
    ],
    "auto": true
   },
@@ -63,6 +123,18 @@
    "auto": true
   },
   {
+   "id": "5b262aed456f",
+   "d": "2026-10-13",
+   "titre": "Les importations lettones d’engrais marocains reculent de 65,5 % sur huit mois - برلمان.كوم",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeW1Ha0dwVHZKQmUzYmFjZHhqeHBlUEl2dUJDWDBUUThNalpYWk5idW41ZTBCZjZxS1NtQmFUUnVPc0x2Vm5BM2NKdW5aT1hsX0ZmRjd6ajhVd1Zvd3o4LWs4S2ZjN3U4eXkzdVlZSExHc1BPUm5nMGZOVmszcUNPU0NQdFpTT1NLOWxmdUttV1N0T2pOVzI1ZURVbGoweE41dkE?oc=5",
+   "source": "برلمان.كوم",
+   "type": "presse",
+   "produits": [
+    "azote"
+   ],
+   "auto": true
+  },
+  {
    "id": "e2e3275b7a75",
    "d": "2026-10-12",
    "titre": "Accord commercial UE-Chine : quotas d'exportation de voitures hybrides et assouplissement des licences sur les terres rares - Actualités et statistiques - IndexBox",
@@ -81,18 +153,6 @@
    "titre": "AWS Coupe son Cloud Souverain du Monde le 24/10 [2026] - shattered.io",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9uQVRhaFgtekoyR21DVUZkbC1lUkthQUZMTFhMbUFPWUFkWnJPNm5aMGNpX0pFYjJyelRpOGtjcHZ3eW03RmtSWlZOWDE5N2JTTTJBN21iTE1hcHpkNmd0LWJyMUt5SVU0d2NMbmkzR2tQbzBn?oc=5",
    "source": "shattered.io",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "5d71ef378d79",
-   "d": "2026-10-12",
-   "titre": "LightOn dévoile LightOn Suite, sa nouvelle plateforme pour construire des applications IA sur les données de l'entreprise, disponible dès aujourd'hui sur le cloud souverain de Scaleway - TradingView",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmbkJKWEMzWjloNXF0dk9BWk5hcjN4NjlwdGhhWEFBRDVTczFHS3BYeUxvMVdya0tnNlpVaUVTRHRaVHN1dmdYQlh3c0J5NHpNX253dVdxSTRzNV9WamZObW1B?oc=5",
-   "source": "TradingView",
    "type": "presse",
    "produits": [
     "cloud"
@@ -174,11 +234,11 @@
    "auto": true
   },
   {
-   "id": "c4b29eb442e3",
+   "id": "3fda9925da9d",
    "d": "2026-10-09",
-   "titre": "Nouvelle certification SecNumCloud pour Orange Business - incyber news",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR1NKRDhsamZqRE9ORTgyVzZSOGVJQnlyelkwOWU0Q1FiRlJGYUMzMS1yQXBXRG1UNzdSS3RuR2pZTHF4VjBtc0ZGbW5BYjRWREdtRVhvRWlIbGNVWjExYTdzaVcwYzhXUkU4RE9XZjNrYnFQTjFIck5QMGpvUTRjb0tvMlBMSXNQTEQwMA?oc=5",
-   "source": "incyber news",
+   "titre": "La France poursuit son inlassable croisade du cloud souverain sous le regard circonspect du secteur - Contexte",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNOHBka0c4Mk51TVEwaGNvY0RyRkNlcUxKREtqQTMwbFFRSmJtdGdXcmtEa1hldGgtZW1VMUtmam1UeVNnTHpxRkxzWGZSamdNOWpsa2JRRlFjanRlVnEwWmdnX0JQRV81QTk4TGttbXdNRzAteF9Zcl9MV3NKTEZTa0oxUThjbld2TmdULXdEU1JWOERKTjlJMzRLNUV0bjEwVjJRc1JMWEk3dG14UHpGSHdneXB5Qm5VN2VIVVVxS1hNTHFGanlmN0JfR3pnQ2Q4QVhveHpWbmIyNDVqTnJ0VA?oc=5",
+   "source": "Contexte",
    "type": "presse",
    "produits": [
     "cloud"
@@ -203,18 +263,6 @@
    "titre": "SecNumCloud : Bleu vise désormais une qualification pour la fin d’année - Next INpact",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZTFPaXdLd25EeUljWkc4ZlBnVTJ0dm4zRGpzRm0ySnVLY2F5OXdoUU0tZDE3bE5FaUlCRzhBRWNSRi1KNEhmSnJSZVdtQndTb0ZHdGk4aHpKTjV5N2xpYjNMbUMwYkhidU9zZFVBRTVJSDlac0JuaWdRT0VleGdwZElJbEZ5bmpLRUs5SnVZQjdrSmZ6SjBlbg?oc=5",
    "source": "Next INpact",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "e4b5cfbd7411",
-   "d": "2026-10-09",
-   "titre": "Orange Business obtient une nouvelle certification SecNumCloud - L'Informaticien",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSV9TWGJfVDBNdTNtVzJLbUJFWmozUXhRTklFcVJ6OXhudktaeFdiWHNKT1dxOGRaaEE4OWtmLU5rMHpJa1phdGN4NW1Oa1JpTDluTkRvNERPeUtsY2NaNjR0bTVOUTJ4VGYzVjBpaXhXTGlQT3JEZjhaVjBnUlBFVUxWZ0ZLQlUta1liX3Z4R0dub01HbXowVXQyMHVLRnpJSnhZbmZUYUFJa2Z0N1d5WnFUMnJscUNpcEtYazdvWEtUdTZhTXc?oc=5",
-   "source": "L'Informaticien",
    "type": "presse",
    "produits": [
     "cloud"
@@ -405,18 +453,6 @@
    "auto": true
   },
   {
-   "id": "18eaad80835e",
-   "d": "2026-10-07",
-   "titre": "Orange Business décroche une deuxième qualification SecNumCloud pour son cloud de confiance - Télé Satellite et Numérique",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSWFEX29PWTJrLV91ZUM3Qm5yWFlQeFU3WVpYMENpMkppbGV0emxEdVdtSi05SnFQc3BNQmRrelJWZUxoa0FLeGUyTGQ2NkVVV1ZEdTR5M0RYbTdmeEVQV3V2WHBJYnpVQW5kUi1UT1ZjdHFjQ29JTUF3UGI5aUF1NFdTZ1UycFZKMFdSUWJRMUp0My1NbENuc3FWSmU4cTRha2Y2S3NQUlJoTV9naHFSbXNGSmJBWjY4MlF5WlhvYmRHalRDQlE?oc=5",
-   "source": "Télé Satellite et Numérique",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
    "id": "b9e21ffc2739",
    "d": "2026-10-05",
    "titre": "Orange Tunisie et Focus s’allient pour accélérer l’accès des entreprises au Cloud souverain en Tunisie - AGENCE ECOFIN",
@@ -437,6 +473,18 @@
    "type": "presse",
    "produits": [
     "puces-matures"
+   ],
+   "auto": true
+  },
+  {
+   "id": "6beb4ba41f9c",
+   "d": "2026-10-04",
+   "titre": "Dans l’État brésilien du Maranhão, les engrais représentent 97 % des achats effectués auprès du Maroc - برلمان.كوم",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObmlKWmM5bHZmeDBvc0tWMDlIZVpxT0Foc3ZhdFVySXlhNGswVVkzeEtaQVI1UWg1eUxMdmo5MS03aU1xTHpDRmplLWNIc241NE5XQjBwN3NVblBWcGtmVmMwN3B1Wll2MVdwcWZpbFA3WkZtQVFSazhqSXRDa0RLbDN0Y3E3d3ZUcGcxOC1OLWN3SkxUM3NQclZhNVR0RHdKWkNNWUJiaDQtMHp3SnVCd1dnTmZVN0c5RS10NWh0ZUM?oc=5",
+   "source": "برلمان.كوم",
+   "type": "presse",
+   "produits": [
+    "azote"
    ],
    "auto": true
   }
