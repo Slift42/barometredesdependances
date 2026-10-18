@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-17T07:42+00:00",
+ "maj": "2026-10-18T07:42+00:00",
  "items": [
   {
    "id": "dddbe0f2ba55",
@@ -35,18 +35,6 @@
    "type": "presse",
    "produits": [
     "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "98160033e5d3",
-   "d": "2026-10-16",
-   "titre": "Risque de hausse des prix alimentaires : El Niño, énergie et manque d’engrais pèsent sur les importations - https://renseignementeconomique.fr/",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPV2FsbExzV2ZWdDZwOEQ5b3BfV3NiMnEzWUxrbjdfc1dHS1RTVFJIZ0N0WnRUODJXQXlJUjBiZnZTbEg4Wkc4YzN3cmpCQW1EWXh2VFVvTmpVU1dWWHJuYnh3SlJlQktncllzVHNqdk03aGxpc3RCWVRTNmY1cjlpZVF6bkczeE5IbGtEcTFKOG55cWdkYkNUeVNuT1psYURQQ3lqc2xDcUdxYVlMZ0dWOVliRUlrdnNDYnRsS0I2MHZ1dnQzd2VOVnBtR1pBUHlpRWVR?oc=5",
-   "source": "https://renseignementeconomique.fr/",
-   "type": "presse",
-   "produits": [
-    "azote"
    ],
    "auto": true
   },
@@ -111,11 +99,35 @@
    "auto": true
   },
   {
+   "id": "db307c822b78",
+   "d": "2026-10-13",
+   "titre": "L'IA, nouveau moteur du cloud souverain - 13/10 - BFM",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObmtXVUdDS3F4b1l6cU9hRVZFNEd6cEJzejJEa0hUQk9BMTRRd1pEM3ZSdFg2Smh1YWRYMkhESThZTjM5a0NvTVdJdnZFMDBzYUJ2Wk5IM0hpX0V5cWhzdzZRZ3NOam1WZXFtUW9ZNXNBaTFZSnRkTk90c2stTm9BY3Z2MXZPQVZ1czQyVEdVaV9kb1ZXRlV3QkVMSzhKU1dIVFhIZGYxd3RuYjI5VTM2Uy1meWRZR2xMd2pKS1BjQVBnZmdyd253T3pfMA?oc=5",
+   "source": "BFM",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
    "id": "a02b8dcd1240",
    "d": "2026-10-13",
    "titre": "L'IA, nouveau moteur du cloud souverain - 13/10 - Orange Actualités",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWXFnNnZUNDBTQ2R0aDRrNmpCS3NLSlpPeU1PcTlfbmF1NENkZTRZaElWSllVa1lmN0NFQ1QxZlZBUmxOcjB0aEpqTnJFNDFPXzYza0FuN3pZa1NZTlZueEw3elhtVGlmOWRyQ01MOEJEaU1PU2RtSVp1T0FlS3B2ODRtUzJQbURIdVlDX0dzMEpTeDVoeXRIVXU4dWszSlVOMFlHSFV3?oc=5",
    "source": "Orange Actualités",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "5d71ef378d79",
+   "d": "2026-10-13",
+   "titre": "LightOn dévoile LightOn Suite, sa nouvelle plateforme pour construire des applications IA sur les données de l'entreprise, disponible dès aujourd'hui sur le cloud souverain de Scaleway - TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmbkJKWEMzWjloNXF0dk9BWk5hcjN4NjlwdGhhWEFBRDVTczFHS3BYeUxvMVdya0tnNlpVaUVTRHRaVHN1dmdYQlh3c0J5NHpNX253dVdxSTRzNV9WamZObW1B?oc=5",
+   "source": "TradingView",
    "type": "presse",
    "produits": [
     "cloud"
@@ -381,11 +393,11 @@
    "auto": true
   },
   {
-   "id": "7d98370a022d",
+   "id": "9233c97d34ec",
    "d": "2026-10-07",
-   "titre": "Orange Business obtient une seconde qualification SecNumCloud pour Cloud Avenue - ChannelNews",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaVM0X0JuaWZ0VlpuWUFDWjFndnBWSV9XT3ZlbXh1eUtrb0ZFbXFTRVBCZFhVVVo2NldBRjVrMGowaDYyU2JuTGw2ZDE2ak15SGZQQVB3ZzF4Tl9fLWxiQXR5SFNmZGxVUDlRTlNyOWZjZmlPZHp4aldFblRHYVcyR2RIRVFYNE9KaDRiMTRTWU9McTI0UEVhQThseXBjY05HNUJ4V3Itc1NzdEZlWFY2b29Ldw?oc=5",
-   "source": "ChannelNews",
+   "titre": "Cloud de confiance : Orange Business élargit son offre SecNumCloud pour les données critiques - Acteurs Publics",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVnZlbkpVaEhpSUtnVkx1aWxXVWZyWXE5d0tQTXd0RlRLeERSVC1jYmJqbTVuYkRzSUdUc0VkdThtSnFZXzNGNDdxSWZ0a3kyRTQySEhNZ3U3aXJvdGlONjVIT29WeXB2cVVKb1hkNXJORXVJZlg1dTJkM2g3OTN2NDlxQ2YzMm93Q1ZaMFlPbU5BWjlQNFpCbDB4SzdEcDY4TnYxdzhWRzhZM2FrMUg1cHVoM2NrMkVmajFsdC14ZzE2ZW5vd1E?oc=5",
+   "source": "Acteurs Publics",
    "type": "presse",
    "produits": [
     "cloud"
@@ -393,11 +405,11 @@
    "auto": true
   },
   {
-   "id": "9233c97d34ec",
+   "id": "7d98370a022d",
    "d": "2026-10-07",
-   "titre": "Cloud de confiance : Orange Business élargit son offre SecNumCloud pour les données critiques - Acteurs Publics",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVnZlbkpVaEhpSUtnVkx1aWxXVWZyWXE5d0tQTXd0RlRLeERSVC1jYmJqbTVuYkRzSUdUc0VkdThtSnFZXzNGNDdxSWZ0a3kyRTQySEhNZ3U3aXJvdGlONjVIT29WeXB2cVVKb1hkNXJORXVJZlg1dTJkM2g3OTN2NDlxQ2YzMm93Q1ZaMFlPbU5BWjlQNFpCbDB4SzdEcDY4TnYxdzhWRzhZM2FrMUg1cHVoM2NrMkVmajFsdC14ZzE2ZW5vd1E?oc=5",
-   "source": "Acteurs Publics",
+   "titre": "Orange Business obtient une seconde qualification SecNumCloud pour Cloud Avenue - ChannelNews",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaVM0X0JuaWZ0VlpuWUFDWjFndnBWSV9XT3ZlbXh1eUtrb0ZFbXFTRVBCZFhVVVo2NldBRjVrMGowaDYyU2JuTGw2ZDE2ak15SGZQQVB3ZzF4Tl9fLWxiQXR5SFNmZGxVUDlRTlNyOWZjZmlPZHp4aldFblRHYVcyR2RIRVFYNE9KaDRiMTRTWU9McTI0UEVhQThseXBjY05HNUJ4V3Itc1NzdEZlWFY2b29Ldw?oc=5",
+   "source": "ChannelNews",
    "type": "presse",
    "produits": [
     "cloud"
@@ -446,6 +458,18 @@
    "titre": "« C’est le graal pour les fournisseurs de cloud » : Orange business obtient une nouvelle qualification SecNumCloud - La Tribune",
    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPaXJLY0NWYmxBN3Zrajd1d2t3NlU4YWswRWVHMWFUdDZXcHp1R1dteURjMGM2WFczV0E2MW5MaGl6UHRqbjRkWldYYkFpU01YcjU0QnBvQzRpTG1YR05qdjdSMWhSWlI2S3QybThORWduRThXb19XNUJWQm1Tejl1ZHU1dldWU2xqQnFYZ05KcV81MjRieGNKcnRFM00zYkN4NkI5UWdObWFiNVBnQjlBWGpXSC1SSUhnT1lnTi1vY0p4ZkpNTkMxYUtlSnRuTkRaYVozZXV4cGdUbXRmbVM0NmZyX3VvTFk3VUM2d0NEVHotQUk?oc=5",
    "source": "La Tribune",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "18eaad80835e",
+   "d": "2026-10-07",
+   "titre": "Orange Business décroche une deuxième qualification SecNumCloud pour son cloud de confiance - Télé Satellite et Numérique",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSWFEX29PWTJrLV91ZUM3Qm5yWFlQeFU3WVpYMENpMkppbGV0emxEdVdtSi05SnFQc3BNQmRrelJWZUxoa0FLeGUyTGQ2NkVVV1ZEdTR5M0RYbTdmeEVQV3V2WHBJYnpVQW5kUi1UT1ZjdHFjQ29JTUF3UGI5aUF1NFdTZ1UycFZKMFdSUWJRMUp0My1NbENuc3FWSmU4cTRha2Y2S3NQUlJoTV9naHFSbXNGSmJBWjY4MlF5WlhvYmRHalRDQlE?oc=5",
+   "source": "Télé Satellite et Numérique",
    "type": "presse",
    "produits": [
     "cloud"
