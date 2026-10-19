@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-19T06:07+00:00",
+ "maj": "2026-10-19T07:59+00:00",
  "items": [
   {
    "id": "1af02862b9ea",
@@ -172,19 +172,6 @@
    "auto": true
   },
   {
-   "id": "e2e3275b7a75",
-   "d": "2026-10-12",
-   "titre": "Accord commercial UE-Chine : quotas d'exportation de voitures hybrides et assouplissement des licences sur les terres rares - Actualités et statistiques - IndexBox",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSlVnMUdkVk5NZVRrRVA0TzgzWV9kLU9pZFBCUE4ydUYxblBfUHhyeV9XbmN3S2RHeXdiYUhfcy1ZNUVEV0p2dWlaVHBtdF8xNlkxbXVfY2tGb2t6MGNXVTR4bjloNkFKeHVsRmxHcFExVnhiVUpTN1U3M25QSkh4YXBoamFqdU4tZFhrZVJXRDBZazJUWWM0dktLOGpnNEx3RDRWYWc4U0NtWDdkMTA5VzhQcjRWbHktSllMR1RzX3locExscWc?oc=5",
-   "source": "IndexBox",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
-   ],
-   "auto": true
-  },
-  {
    "id": "49199c51a6ee",
    "d": "2026-10-12",
    "titre": "AWS Coupe son Cloud Souverain du Monde le 24/10 [2026] - shattered.io",
@@ -319,6 +306,18 @@
    "auto": true
   },
   {
+   "id": "e4b5cfbd7411",
+   "d": "2026-10-09",
+   "titre": "Orange Business obtient une nouvelle certification SecNumCloud - L'Informaticien",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSV9TWGJfVDBNdTNtVzJLbUJFWmozUXhRTklFcVJ6OXhudktaeFdiWHNKT1dxOGRaaEE4OWtmLU5rMHpJa1phdGN4NW1Oa1JpTDluTkRvNERPeUtsY2NaNjR0bTVOUTJ4VGYzVjBpaXhXTGlQT3JEZjhaVjBnUlBFVUxWZ0ZLQlUta1liX3Z4R0dub01HbXowVXQyMHVLRnpJSnhZbmZUYUFJa2Z0N1d5WnFUMnJscUNpcEtYazdvWEtUdTZhTXc?oc=5",
+   "source": "L'Informaticien",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
    "id": "0d42e8695fd5",
    "d": "2026-10-09",
    "titre": "Cloud souverain : partenariat Scaleway-Dataiku - incyber news",
@@ -381,11 +380,11 @@
    "auto": true
   },
   {
-   "id": "05c7adf15753",
+   "id": "74cac4030d5b",
    "d": "2026-10-08",
-   "titre": "G7 prépare des usages d’IA sur le cloud SecNumCloud de S3NS - Brief IA",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSHNoVWlEZTk2U2JXbVF3UUZhWjc0ZE5LT3JNdHVFRG4taGJrSDEtM0xrXzlyT21KOHNLRDZxWGVVLTNhODIyQ3ZrNk80NUtPZkhXZTJreXZwTlVJelZ2Q2FYRGhSTHQ3dWlEdWhrX1lBWFphRFpwZmhiUmdmREFQZVBRVFNHZmcyT2JucDl5RTFKY01Y?oc=5",
-   "source": "Brief IA",
+   "titre": "Orange Business (SecNumCloud) : une deuxième qualification ANSSI pour Cloud Avenue - Revue économique de France",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMFhyYzNHcmtCdzhDdUg0U3lRbUUxZjVaeXBLZ0NjX0REYzFqTmJaVmlmMDdZc1hnMjNraTYzbmtxWTdRdmpjc1NNX0RjSHc0RjhlbFhGb29aV1l4OWFfckIwT1QweWlBbW5VcDZrdUJDamJwUk9JbXJ0bGUzSVpSbmxjVnN0Sk9jYlV2RkJmSHNnX1NnLWl0X1FZUmp4ZXZP?oc=5",
+   "source": "Revue économique de France",
    "type": "presse",
    "produits": [
     "cloud"
@@ -393,11 +392,11 @@
    "auto": true
   },
   {
-   "id": "74cac4030d5b",
+   "id": "05c7adf15753",
    "d": "2026-10-08",
-   "titre": "Orange Business (SecNumCloud) : une deuxième qualification ANSSI pour Cloud Avenue - Revue économique de France",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMFhyYzNHcmtCdzhDdUg0U3lRbUUxZjVaeXBLZ0NjX0REYzFqTmJaVmlmMDdZc1hnMjNraTYzbmtxWTdRdmpjc1NNX0RjSHc0RjhlbFhGb29aV1l4OWFfckIwT1QweWlBbW5VcDZrdUJDamJwUk9JbXJ0bGUzSVpSbmxjVnN0Sk9jYlV2RkJmSHNnX1NnLWl0X1FZUmp4ZXZP?oc=5",
-   "source": "Revue économique de France",
+   "titre": "G7 prépare des usages d’IA sur le cloud SecNumCloud de S3NS - Brief IA",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSHNoVWlEZTk2U2JXbVF3UUZhWjc0ZE5LT3JNdHVFRG4taGJrSDEtM0xrXzlyT21KOHNLRDZxWGVVLTNhODIyQ3ZrNk80NUtPZkhXZTJreXZwTlVJelZ2Q2FYRGhSTHQ3dWlEdWhrX1lBWFphRFpwZmhiUmdmREFQZVBRVFNHZmcyT2JucDl5RTFKY01Y?oc=5",
+   "source": "Brief IA",
    "type": "presse",
    "produits": [
     "cloud"
