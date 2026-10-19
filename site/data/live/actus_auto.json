@@ -1,6 +1,43 @@
 {
- "maj": "2026-10-18T07:42+00:00",
+ "maj": "2026-10-19T06:07+00:00",
  "items": [
+  {
+   "id": "1af02862b9ea",
+   "d": "2026-10-18",
+   "titre": "La Chine rassure l’Europe, les exportations de terres rares sont garanties même si la trêve commerciale avec les États-Unis venait à prendre fin - Netpublic.fr",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPcjNmY1BDLWp5Wk1oa0w2QWRqWUlVWlpBaW9zOHpLZXFlaXpQWXU0UW9od1hCNEZXdTRmWjV1YWhYWXh6bVBISlE2TC1iSlZDcDd0ZVNqTnU5dlpoT2Q5SFA2SGMzVjQ4Wjhhdmxlc19ISlFEYjNJVFZBTDZpMHdMaWIyRWk0bHItdklkalVrNGF2US1WX29ISXBPVW13eDl1UWloM1RfTURLT09xQmZmSWtYQldfSEhrb2FrZkxmVmx0c0pWTWxRcTVydDYwcjI1YnMzUk5KUUtiYTllRDlRdzdVVjU1OVpQNnRVTWhCLXRLR1FpYXphUDNrZU5QalhEZWFJ?oc=5",
+   "source": "Netpublic.fr",
+   "type": "presse",
+   "produits": [
+    "tr-legeres",
+    "tr-lourdes"
+   ],
+   "auto": true
+  },
+  {
+   "id": "30ed7399fdf3",
+   "d": "2026-10-18",
+   "titre": "Ecritel et Hiléo lancent un cloud souverain « Data Act Ready » - Presse Agence",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0RsX3diOTZIaWFfd01WWFMyY19EOTJXNWhIYlVFc2ppVlFXYUhpVG1EcTNxRXZZRG5tNlh3TUxsU2N3OS14czh2VkpCb3Fib3BEZWpBaUJzQm9RQnN0Nk0zaFd2dm5HeFNialFSYlNMcFdkcER6LThVNm9KS0VMZ3VPeWZEMEVwLUVUUHhMVnlGeTVITm1fZ3FJbmNrQW53ZFRIWjdqRDQ3TFdVRUU3YWZDOGtla0I5UVE?oc=5",
+   "source": "Presse Agence",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "4c2c662fd90d",
+   "d": "2026-10-18",
+   "titre": "Chronique des matières premières - Comment Donald Trump a réussi à faire bondir les prix de l'acier aux États-Unis - RFI",
+   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOUG9RSFBucUpJeUd6MVo4Y3FzZlpGb0JnZmxrTXExSVVDWFp0b0NzZkdGelItUHRKc1l0aWh3TE1DR25XbHVqc2puNzJUbExaTnc2eVZTWWJNaDFVLWtTMjhOVzFhdEZid1VZdVV6TzJiWUJ1NWVSQ096TjVsdThaT2VRSks2RVR6VVc1ZHJDa1BmTzE2T3lHM1hkeTFvZG9YWXVVbXJObWJoR3QwUG1kb1FZd0h2Wk1ORWwyNU1aQTlYQUF5bG1XQng1TU1WRkloa1RCYVh5QnhiZnpfRjd6MXB5azhIMFFETTA2UXN4RDZibkFNSjc3SEQwZGlKZjY2eUtzLWo3RmE?oc=5",
+   "source": "RFI",
+   "type": "presse",
+   "produits": [
+    "acier"
+   ],
+   "auto": true
+  },
   {
    "id": "dddbe0f2ba55",
    "d": "2026-10-17",
@@ -123,18 +160,6 @@
    "auto": true
   },
   {
-   "id": "5d71ef378d79",
-   "d": "2026-10-13",
-   "titre": "LightOn dévoile LightOn Suite, sa nouvelle plateforme pour construire des applications IA sur les données de l'entreprise, disponible dès aujourd'hui sur le cloud souverain de Scaleway - TradingView",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmbkJKWEMzWjloNXF0dk9BWk5hcjN4NjlwdGhhWEFBRDVTczFHS3BYeUxvMVdya0tnNlpVaUVTRHRaVHN1dmdYQlh3c0J5NHpNX253dVdxSTRzNV9WamZObW1B?oc=5",
-   "source": "TradingView",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
    "id": "5b262aed456f",
    "d": "2026-10-13",
    "titre": "Les importations lettones d’engrais marocains reculent de 65,5 % sur huit mois - برلمان.كوم",
@@ -165,6 +190,18 @@
    "titre": "AWS Coupe son Cloud Souverain du Monde le 24/10 [2026] - shattered.io",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9uQVRhaFgtekoyR21DVUZkbC1lUkthQUZMTFhMbUFPWUFkWnJPNm5aMGNpX0pFYjJyelRpOGtjcHZ3eW03RmtSWlZOWDE5N2JTTTJBN21iTE1hcHpkNmd0LWJyMUt5SVU0d2NMbmkzR2tQbzBn?oc=5",
    "source": "shattered.io",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "5d71ef378d79",
+   "d": "2026-10-12",
+   "titre": "LightOn dévoile LightOn Suite, sa nouvelle plateforme pour construire des applications IA sur les données de l'entreprise, disponible dès aujourd'hui sur le cloud souverain de Scaleway - TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmbkJKWEMzWjloNXF0dk9BWk5hcjN4NjlwdGhhWEFBRDVTczFHS3BYeUxvMVdya0tnNlpVaUVTRHRaVHN1dmdYQlh3c0J5NHpNX253dVdxSTRzNV9WamZObW1B?oc=5",
+   "source": "TradingView",
    "type": "presse",
    "produits": [
     "cloud"
@@ -489,26 +526,14 @@
    "auto": true
   },
   {
-   "id": "099d16f152c4",
-   "d": "2026-10-04",
-   "titre": "L’absence de ventes du fabricant ASML en Europe, symbole du manque d’investissements dans les puces électroniques - Le Monde.fr",
-   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOdHk0RzlPcjZvOWtGX0h5ZFd0WW1WT1RpT29WZ3Z5Wm1xMzB0WTVESzUxZ09kR08xNWdzY2NHV3BLbXFnNFAxUmZvV1NEM3FnaktFaFg2Ql9WVTJlMDNOZEg4VFpmQngtU256b0V2RmdrdnV2SGV1SXRIajRxRXhZYlNjQmluQlFwaFRjdnE3ZkxrdXZsZkM3ZG93M2dqcXlaM0pfSExxSlRlQkZxNUtUV1hobm9BWS1idWdCLW9xOGI4N3R6WTBSVWh1MWg4Qmh5NzQ1em96RTRvUHBTR1NIbjZPc1dGNWMyd1U2WU81RW16WG5vb1hyMTRYM3FMYWE3MHp5THRLX1JzdzJMOXc?oc=5",
-   "source": "Le Monde.fr",
+   "id": "8aab83e9f33b",
+   "d": "2026-10-05",
+   "titre": "Tech Fest 2026 : cloud souverain et IA à l’épreuve du passage à l’échelle au Maroc - lnt.ma",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNElfWXJHVV94dzg5OGp2aG5DQk9yUXdCNlZYMjRDeVBrM0FscGpGOFZ3Vk0wODhtaG1Yb2xYc1FPcE1jT3BJaklaQjJYODl4cUZoU3FqUWp3QUFwS3d6R29oUUF1NHlMOXBlMTRUQmZwNlQ4dElxQVlsWVl6Zm9OUl96NWxUcmNXRHQ0X00zbFhsU0tYZkZfaGtR?oc=5",
+   "source": "lnt.ma",
    "type": "presse",
    "produits": [
-    "puces-matures"
-   ],
-   "auto": true
-  },
-  {
-   "id": "6beb4ba41f9c",
-   "d": "2026-10-04",
-   "titre": "Dans l’État brésilien du Maranhão, les engrais représentent 97 % des achats effectués auprès du Maroc - برلمان.كوم",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObmlKWmM5bHZmeDBvc0tWMDlIZVpxT0Foc3ZhdFVySXlhNGswVVkzeEtaQVI1UWg1eUxMdmo5MS03aU1xTHpDRmplLWNIc241NE5XQjBwN3NVblBWcGtmVmMwN3B1Wll2MVdwcWZpbFA3WkZtQVFSazhqSXRDa0RLbDN0Y3E3d3ZUcGcxOC1OLWN3SkxUM3NQclZhNVR0RHdKWkNNWUJiaDQtMHp3SnVCd1dnTmZVN0c5RS10NWh0ZUM?oc=5",
-   "source": "برلمان.كوم",
-   "type": "presse",
-   "produits": [
-    "azote"
+    "cloud"
    ],
    "auto": true
   }
