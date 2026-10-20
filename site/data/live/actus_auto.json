@@ -1,6 +1,30 @@
 {
- "maj": "2026-10-19T07:59+00:00",
+ "maj": "2026-10-20T07:51+00:00",
  "items": [
+  {
+   "id": "16cd0622052e",
+   "d": "2026-10-20",
+   "titre": "Souveraineté des engrais : énergie, matières premières et concurrence des importations - Agro Matin",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOVkhhLVNJSXpHRWx3WlUtOU1iMVZvY25WckFLR1VxdFJSa3lZY3BxSEFQajBrUXlLQjJXbEtsdDJfVU1DWVpUVjh1OG1Vd3c2dW5aYVpkeWxUQ2R1Z3pCVmVmYVYyUUR6b0c3bVNkcWdfWWl0emRCckpiNGp1TjZjNkEwWmMtZUxGTVVFZHBFSzd6ZU92dWdRV0RGT3JnMmIzOEYxTjN4RDJBT0c3SWZ5UGZRejF3NkpFTWtVSE9weUdSS3FwMXUxOGN5c3JnNG0zUDVPOTNjb0xnSVZYX3JMUmNzb2F1MU02VGpUV1F6NHdPRS1HX1E?oc=5",
+   "source": "Agro Matin",
+   "type": "presse",
+   "produits": [
+    "azote"
+   ],
+   "auto": true
+  },
+  {
+   "id": "3efdc9455ad1",
+   "d": "2026-10-19",
+   "titre": "G7 choisit le cloud SecNumCloud de S3NS - Le Monde Informatique",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPb1FQaW50Z3dxQUZ0NW84RUdPdkUtLWJNSDJYdG54SGQyWEcwUnlwYUlMMjV2Uzc5c194YVVjOEZrM195LXA3ZnFzTUF5N2tRVVFrN1dIeV9fU1VlTy0tU1R1QnQzel9kVGpBMVEyU0U2Y29memdiak4xM3Z4eHJMYUxHYVhvVEpkdW80ZWpxaTVVZUlXT3FTSHJMVU9wUzlBM0VMdNIBqAFBVV95cUxPbnh4ZU5WdFU3M3JHWGpWSWlaOU9EN2FmSHZub29ZWlBCTUxHeGEwUllRQjFxazd4NDNsY2Q1bGJVX3h5TExleWpOeTUzbGFZaGJWN2FsM21KN0d4bnFwc241bDhjQWhXeEstUDRXVlJoMVJzMURic0s2cVBuNFN0TEJRVUd6UDhZajFPYmo2bWlZc1Fzb3lHcU1fRTJ2RjhtVndrdHkyRlE?oc=5",
+   "source": "Le Monde Informatique",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
   {
    "id": "1af02862b9ea",
    "d": "2026-10-18",
@@ -64,35 +88,11 @@
    "auto": true
   },
   {
-   "id": "45b45137f50a",
-   "d": "2026-10-16",
-   "titre": "Cloud souverain : Stellarix et Sen Startup veulent donner aux jeunes entreprises sénégalaises les moyens de leurs ambitions - Xalima",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcWJTelExSHd6UTRCNUN6OFZQdXRQZWY2VGg0REFuZnZtOUQxZHA2QUpMb1JkaUpXVWFQNjVLc2RaZDlxRF94SkdrdUNnV19fQmNiUVlGZUZCY1ZvWGMzT3dLaXRpLWZIai1MQjQ2MGl5NWJETHMycFluMXlUTlNjVFItWmk2cmZ3SzV1djZrcnJkQ1JzUzMwWGQ0Rml5dHpnT1BHUjA0SzhtSjNmRGNKZVJ1cW5nMmNwaXVibERheGRJMExPZVo2U3pWZVE2bkk0cF9pcjNiVndTWm1Fck5ZdU1QMFloSDB1NFE?oc=5",
-   "source": "Xalima",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
    "id": "5b499d3c88d1",
    "d": "2026-10-15",
    "titre": "Un cloud souverain pour la France : Snowflake et Bleu - Snowflake",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5lUGZWc3Z0eFhpRHI0ZjFpcThGUGJrWGFuX1ZYQmlKQlRaeGZEaFFtb295Zy1jT2dVR0ptZ2pIUVhsbHZPTHF0Z2ZZUXFfZWVwdlZoWmJwbUdYQV9lZW03ZUF4Mi1va0Y1VUwyTWVhYW1tUmk0MTMtS1NuUkI?oc=5",
    "source": "Snowflake",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "49870f22a1f7",
-   "d": "2026-10-15",
-   "titre": "Cloud souverain : Stellarix et Sen Startup veulent faciliter l'accès des jeunes entreprises sénégalaises - Leral.net",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMXZ4U0ttTkdKTUxDZDNzX1UwMlQ3bG9QTnVDNFdVZDU3cEJiRUpvNjVpWk5yeXhPWDc1ZVNLWk9FcGY1TGhJWWxlSmU4bWFaNm1vRGVFRC1YVVUzY3YzdWdvUThtekZVVlZSdlVSLXpGaTd3cmhxdGNJU2VLd3ZJRkgyV2FneWhIaVlOWnZUd3hzak9ia0tBM21kaVYxSmF0NUNRbDVYdkVoOTZOQnFoRjNIWFc1THptV25HWmxkakw0WmNTdHo4bkhpemtpMjN4RWdF?oc=5",
-   "source": "Leral.net",
    "type": "presse",
    "produits": [
     "cloud"
@@ -112,18 +112,6 @@
    "auto": true
   },
   {
-   "id": "e2a40f26a50a",
-   "d": "2026-10-14",
-   "titre": "MEEZA et Microsoft lancent un cloud souverain privé destiné aux entreprises au Qatar - Qatar news agency",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNkZTYzQwdVo1S21LdEs3YTZraDFDc0Q2blFxc0ZyRU0xQWh1N2JpOU1tUjJaNzkxZnhQeHN4a0hQbTEyNWw1Vms4NlZHUk4yTmQxd05QMDMwcHV2TERCdmlsWTRCWUh1eUJSX1FVWllNX1E1OHJsZncyaWtJXzN5QjEwTWNKMmRUMEl5YTk0MTdsd09fZEFfdE9zZVVCUGZSMVFOQ2l4RFNlcHIxTXVQWUstR043cHU3Z3lyWFdhYml0aldIMUxOM2tjTVE4RnVQ?oc=5",
-   "source": "Qatar news agency",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
    "id": "d2f443da9f0b",
    "d": "2026-10-14",
    "titre": "Le Maroc intéressé? Les importations mondiales d’engrais azotés ont reculé de 2,8 % - هبة بريس",
@@ -132,18 +120,6 @@
    "type": "presse",
    "produits": [
     "azote"
-   ],
-   "auto": true
-  },
-  {
-   "id": "db307c822b78",
-   "d": "2026-10-13",
-   "titre": "L'IA, nouveau moteur du cloud souverain - 13/10 - BFM",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObmtXVUdDS3F4b1l6cU9hRVZFNEd6cEJzejJEa0hUQk9BMTRRd1pEM3ZSdFg2Smh1YWRYMkhESThZTjM5a0NvTVdJdnZFMDBzYUJ2Wk5IM0hpX0V5cWhzdzZRZ3NOam1WZXFtUW9ZNXNBaTFZSnRkTk90c2stTm9BY3Z2MXZPQVZ1czQyVEdVaV9kb1ZXRlV3QkVMSzhKU1dIVFhIZGYxd3RuYjI5VTM2Uy1meWRZR2xMd2pKS1BjQVBnZmdyd253T3pfMA?oc=5",
-   "source": "BFM",
-   "type": "presse",
-   "produits": [
-    "cloud"
    ],
    "auto": true
   },
@@ -233,36 +209,11 @@
    "auto": true
   },
   {
-   "id": "eb8e210ca1d3",
-   "d": "2026-10-10",
-   "titre": "La Chine et l'UE signent une trêve commerciale sur les voitures hybrides et les terres rares - Génération NT",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcFBzZmFkbklTaFI1cGEwUzJDNGRZeWJKU3ZRSnFsbmhTT2pDbkY1UkN4VUFsUi1kMGxibWw2czE2c0dEbF9iX19ObjBFX3dsNHdIY0dibWVJckNTWHkzRWxLWlc4ZUxPSVhMRjNGSE84OU44SWJFY0pzVHMwQ0s0WElLWlp0UDRPVEJ1Q04yRmlGcEx3d3NFMkxqQ0ExQdIBowFBVV95cUxPY21tbHh6RF9yZnhiYVlfQXFReWpJNldGTG9yX0FjZmgxMVkySTRldEF0dEY4RmhwYnlwVFJLbndLcUpyT1dhMVo4QWZaVWVEVXI2QzdZdGxfMXo0TkQ0YlEzS2dFOF9QZHpLM0VsMVRXNm9zMm93aEgtd0xTMTl1WWhXQ2NTTHlDem41OGdzTkZURVJkUTFrNS12blJXRmdWYU5j?oc=5",
-   "source": "Génération NT",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
-   ],
-   "auto": true
-  },
-  {
    "id": "341d7b381859",
    "d": "2026-10-10",
    "titre": "Orange Business obtient un second SecNumCloud pour l’IA critique - quasa.io",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFhORjhDZEpUdTZJYUNfTnN0azQtazJWQnFvZnBpUllDbW9jaEtLZGx2NWxvSFkyNWhUcjJfdm1qNEYzaE1rcEZUNGtvSGFuSGRPX2JtS3d2cjRUUFp5QV9VU2FLYW9yVVJnLUZuck5uR0t3NDZMWlo2R19paXhkTnJhdGZuLWVLT3p6VWNtYzRuT2I1aGQ5OGM2SDEyblB6M0E?oc=5",
    "source": "quasa.io",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "22a0b5da323b",
-   "d": "2026-10-09",
-   "titre": "Orange muscle son offre SecNumCloud - Le Monde Informatique",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWmtOMWtlazJXc0c3cXlRV25EM0Fkemc5aVdNb2padTRIVXRlS2VvbGdSZGFXZFVZbXZwWkNZVW9kbWpLTkZiZlRaODFyVm01cThHOUtaUkd6LWxtZkxUd1BoN1hKOXVkY19Ob0x0SWJ0cUJzdlBsRzg0YnVVMGZIeU9GeldiaHF0NmkyR2lmeTFCMEc2bG1xa0hMMk51bmfSAaMBQVVfeXFMUGxkMmVaaFZzQzhJLUFvWVpYaWdFVzgxa3NfMWpxSDRnN0dvNFVPN0xzaEZXQmw5UU1jbTZYUDM4WXJjVGI4N0FpNlUyRmJfb3YwVUlqVXROMkQxNFFpamxtT254S3FITi1YZ2JELWlEUHpRZHNEOFVwOTFwdGRUdzFfb3lhOVk4T1FUcTF2UzJ0TEJGV0h2cHIyNjJNYXFsWFpzcw?oc=5",
-   "source": "Le Monde Informatique",
    "type": "presse",
    "produits": [
     "cloud"
@@ -330,11 +281,11 @@
    "auto": true
   },
   {
-   "id": "7e0644dce0f2",
+   "id": "22a0b5da323b",
    "d": "2026-10-09",
-   "titre": "SecNumCloud : Bleu vise désormais une qualification pour la fin d’année - lefilia.fr",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORUJtMFZfcXB4WFpYX0h4aXBJaXppSS1KME5zX0xFVVFNMUVBT1RoOE4zdVdpa0NEcGZ0dWNlTXNZTnpYZk01M3N5NWIzY0JiY3g2QXVNbkZtOGlpeEozYlpEM3VQSzk5YmdnV3N4WEl5RGZKRGRKTU9OYXAtb3EzcTRmckY4LVc5R1FQcWwwQUgtcFlLeGxKbE1qRVFUb2ctSnpwU2NtNGgwbWt6?oc=5",
-   "source": "lefilia.fr",
+   "titre": "Orange muscle son offre SecNumCloud - Le Monde Informatique",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWmtOMWtlazJXc0c3cXlRV25EM0Fkemc5aVdNb2padTRIVXRlS2VvbGdSZGFXZFVZbXZwWkNZVW9kbWpLTkZiZlRaODFyVm01cThHOUtaUkd6LWxtZkxUd1BoN1hKOXVkY19Ob0x0SWJ0cUJzdlBsRzg0YnVVMGZIeU9GeldiaHF0NmkyR2lmeTFCMEc2bG1xa0hMMk51bmfSAaMBQVVfeXFMUGxkMmVaaFZzQzhJLUFvWVpYaWdFVzgxa3NfMWpxSDRnN0dvNFVPN0xzaEZXQmw5UU1jbTZYUDM4WXJjVGI4N0FpNlUyRmJfb3YwVUlqVXROMkQxNFFpamxtT254S3FITi1YZ2JELWlEUHpRZHNEOFVwOTFwdGRUdzFfb3lhOVk4T1FUcTF2UzJ0TEJGV0h2cHIyNjJNYXFsWFpzcw?oc=5",
+   "source": "Le Monde Informatique",
    "type": "presse",
    "produits": [
     "cloud"
@@ -342,11 +293,11 @@
    "auto": true
   },
   {
-   "id": "c8d7be8063b3",
+   "id": "7e0644dce0f2",
    "d": "2026-10-09",
-   "titre": "[Publireportage] Connectivité, IA et cloud souverain : Orange Maroc renforce son offre B2B - L'Economiste",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQT09rbld4VjVzbUpBN1k1Q0Nyc3U3Yk9WSzRkQTdJa2RrT3FPeUhlZW01R0JtUnNic24tS0VOb0hKWTdqa3BvUmRSOTRsRzdtN2hLVEU1QjMwUmY5VjdfNGZPRHR3bThwQU9BdnJvbElHaWhrX1NaUTNPVzgwS2JQcE90ZGdoRTZMcnZOdi1VTm82ZlQwVzRGcmg0dy1URHFCWFF1QVRta0h0TTN4dW4xQ3ZXQi12dTRUUF9vbQ?oc=5",
-   "source": "L'Economiste",
+   "titre": "SecNumCloud : Bleu vise désormais une qualification pour la fin d’année - lefilia.fr",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORUJtMFZfcXB4WFpYX0h4aXBJaXppSS1KME5zX0xFVVFNMUVBT1RoOE4zdVdpa0NEcGZ0dWNlTXNZTnpYZk01M3N5NWIzY0JiY3g2QXVNbkZtOGlpeEozYlpEM3VQSzk5YmdnV3N4WEl5RGZKRGRKTU9OYXAtb3EzcTRmckY4LVc5R1FQcWwwQUgtcFlLeGxKbE1qRVFUb2ctSnpwU2NtNGgwbWt6?oc=5",
+   "source": "lefilia.fr",
    "type": "presse",
    "produits": [
     "cloud"
@@ -380,6 +331,19 @@
    "auto": true
   },
   {
+   "id": "f5ad3a2e11d0",
+   "d": "2026-10-09",
+   "titre": "UE-Chine : à Pékin, une entente sur les hybrides et les terres rares - Le nouvel Économiste",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYnZsZ3hQTGM1OEt5SE9OWmJpZzlHZUJINGRpZk8xY20zWkozT0ZaTjBvamIxY3M2M1BIdl9oak43dWxZTVJ4cS1EYXBldUNXNUQyOHR1cjVodVc3YmYyWjNqZFpkVzktck1tQV9CSXdRakVHWG9RMmsyREZUWjk1amw3VHFHdDNUQ1pTUnBJenR2OUY4ODBndnhHOFJ0amNJeGVPb0E0enlnZ0NlWmtwd2lqcC1IbEZ2akVROEg1cTAxcVh4Z2d0aw?oc=5",
+   "source": "Le nouvel Économiste",
+   "type": "presse",
+   "produits": [
+    "tr-legeres",
+    "tr-lourdes"
+   ],
+   "auto": true
+  },
+  {
    "id": "74cac4030d5b",
    "d": "2026-10-08",
    "titre": "Orange Business (SecNumCloud) : une deuxième qualification ANSSI pour Cloud Avenue - Revue économique de France",
@@ -397,18 +361,6 @@
    "titre": "G7 prépare des usages d’IA sur le cloud SecNumCloud de S3NS - Brief IA",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSHNoVWlEZTk2U2JXbVF3UUZhWjc0ZE5LT3JNdHVFRG4taGJrSDEtM0xrXzlyT21KOHNLRDZxWGVVLTNhODIyQ3ZrNk80NUtPZkhXZTJreXZwTlVJelZ2Q2FYRGhSTHQ3dWlEdWhrX1lBWFphRFpwZmhiUmdmREFQZVBRVFNHZmcyT2JucDl5RTFKY01Y?oc=5",
    "source": "Brief IA",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "de74e45310ae",
-   "d": "2026-10-07",
-   "titre": "Nouvelle qualification SecNumCloud : Orange Business renforce sa gamme cloud de confiance pour les applications critiques et l'IA - Orange.com",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQndta3EtVUo2eGNJT0FlR1E5N253TkRscGprWW5ST3hCX3c1ekV5N1JMZFpYQWNocHpMcnAxQTY3ZzZmbXA2ZWt4aVVhUDZYcXN3bEo4NElYd2g3andBcXZobkdUYTI0amVQcXZJNlo2UzhmMDBmcUZDckVkaGVGSjFRQ3VrWHFXa25ZUVZGUmtTU19yYWRUcHNFOHBNd0FTazlyV0tKelVwY3lCeDQtOGpjNS1NZ0FHS2hsRTVXVmd0eVRwbWsteUpJckp2a0R5dVo4Qmw4MlZCTUE3bXF4Z2NoNlU?oc=5",
-   "source": "Orange.com",
    "type": "presse",
    "produits": [
     "cloud"
@@ -501,35 +453,23 @@
    "auto": true
   },
   {
+   "id": "a79377f5730c",
+   "d": "2026-10-07",
+   "titre": "Cloud souverain : DEEP accélère pour les entreprises face à l'IA - Presse Agence",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeExwakFxM1NMd0NfVjlkUUdYckpoTFUxdGpVWmlpVFFzVEl5NTkzZ1dRWThTYlhTcGtuUUJsUHItLVo4T2VnQk1qeW4xX3JKRnRTOWV1VzZCd01KU29MM3RjbHNMYVJmbEp6dVBESnd6amNRaS1scVhBeWxJc2V5bE1wamR5ZFZicjhWUXJ5RjRwQlB6MXZURDJJeC1KeVRKLTFxeW12WjU5Q0d3THlHenhOZE5pUDg?oc=5",
+   "source": "Presse Agence",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
    "id": "18eaad80835e",
    "d": "2026-10-07",
    "titre": "Orange Business décroche une deuxième qualification SecNumCloud pour son cloud de confiance - Télé Satellite et Numérique",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSWFEX29PWTJrLV91ZUM3Qm5yWFlQeFU3WVpYMENpMkppbGV0emxEdVdtSi05SnFQc3BNQmRrelJWZUxoa0FLeGUyTGQ2NkVVV1ZEdTR5M0RYbTdmeEVQV3V2WHBJYnpVQW5kUi1UT1ZjdHFjQ29JTUF3UGI5aUF1NFdTZ1UycFZKMFdSUWJRMUp0My1NbENuc3FWSmU4cTRha2Y2S3NQUlJoTV9naHFSbXNGSmJBWjY4MlF5WlhvYmRHalRDQlE?oc=5",
    "source": "Télé Satellite et Numérique",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "b9e21ffc2739",
-   "d": "2026-10-05",
-   "titre": "Orange Tunisie et Focus s’allient pour accélérer l’accès des entreprises au Cloud souverain en Tunisie - AGENCE ECOFIN",
-   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQeUdUTnk0N2ZrNE10WkZpbVRYR2FKaHVYSmNrZ3Fac2QtQXVQOW9EOGF5bkFhN2Y4OF81Y0hOQkE4YUpXRGM2d3RJc0Y1QWtDR25Hb19XdE5xdkFReldVcnJtUXcta25HbkprYnRtaC1sMzU2S3JXM2ZfbkZPVjBRMGlyVnhJVVpGdW1CM242dUlkZ1hpWm9iYURRSllCalg2eXc5b3NLd0JUdks1dDE5MDhpLWVOZEdCM0hLbEdxSlIySHZNZTlTUVFNVW9qdXpvZEhTUzJTQUN0RVptcUxVbWZaUzhxRlVlWFlaOTNMcm9CNmNuUnd3?oc=5",
-   "source": "AGENCE ECOFIN",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "8aab83e9f33b",
-   "d": "2026-10-05",
-   "titre": "Tech Fest 2026 : cloud souverain et IA à l’épreuve du passage à l’échelle au Maroc - lnt.ma",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNElfWXJHVV94dzg5OGp2aG5DQk9yUXdCNlZYMjRDeVBrM0FscGpGOFZ3Vk0wODhtaG1Yb2xYc1FPcE1jT3BJaklaQjJYODl4cUZoU3FqUWp3QUFwS3d6R29oUUF1NHlMOXBlMTRUQmZwNlQ4dElxQVlsWVl6Zm9OUl96NWxUcmNXRHQ0X00zbFhsU0tYZkZfaGtR?oc=5",
-   "source": "lnt.ma",
    "type": "presse",
    "produits": [
     "cloud"
