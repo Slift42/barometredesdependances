@@ -1,6 +1,54 @@
 {
- "maj": "2026-10-20T07:51+00:00",
+ "maj": "2026-10-21T07:54+00:00",
  "items": [
+  {
+   "id": "73a67800f863",
+   "d": "2026-10-21",
+   "titre": "Cloud souverain : un surcoût pénalisant pour l’économie européenne ? Vraiment ? - IT for Business",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaERLbmJaX0NOQUJ0NTl5dVVrWHZmQVpwSkNXTWI2bElRUmg5a3VNZEFFN2NWMVUzNVFqamtCQUYzVVdkLUlneFl2NkNCNjUxb0NmX2lqQU5UbHJ2REZKUW9ESUwzbURjT2VTamdtWExtZVhlakFTVnNfZFVuYWM4SVIxMkttUFZ0OUZMLUZSd05rcy1RZElCV1F1T29YSGJ1UUc3eTUwNFBLOThF?oc=5",
+   "source": "IT for Business",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "5a09f20ee453",
+   "d": "2026-10-20",
+   "titre": "Le cloud souverain de Microsoft peut-il vraiment échapper au droit américain ? - lebigdata.fr",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmWTFSNFA1Z1VPMC1iNk5uLWZFdDY2WlJhLU1XVDhPcDFpaWdVUEZSMjV1aFU4TjFVRk5xcWxUNFdkYnVlb2xIQm1Bb1NQU1JrNXBfTVJENTlza2tmSnVTUW5FX2p5dUJwU1JOOFZLZ2ZDYWN6Sy1F?oc=5",
+   "source": "lebigdata.fr",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "30ed7399fdf3",
+   "d": "2026-10-20",
+   "titre": "Ecritel et Hiléo lancent un cloud souverain « Data Act Ready » - Presse Agence",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0RsX3diOTZIaWFfd01WWFMyY19EOTJXNWhIYlVFc2ppVlFXYUhpVG1EcTNxRXZZRG5tNlh3TUxsU2N3OS14czh2VkpCb3Fib3BEZWpBaUJzQm9RQnN0Nk0zaFd2dm5HeFNialFSYlNMcFdkcER6LThVNm9KS0VMZ3VPeWZEMEVwLUVUUHhMVnlGeTVITm1fZ3FJbmNrQW53ZFRIWjdqRDQ3TFdVRUU3YWZDOGtla0I5UVE?oc=5",
+   "source": "Presse Agence",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "4d523e89376f",
+   "d": "2026-10-20",
+   "titre": "Microsoft étend son Cloud Souverain avec des clés sur matériel propre - ITdaily.",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSkJ1aGJ2aEZ0R2M1eWtmdnlmQXV2a2hYcnVBYnBQci1zQzhhR3RpVkNkQXZuUEJhSnI0LWIxeFBxdk1DNFZwM0FIcVgyR1RaR2FXMUhvRDUtV0dpMExUTjctNzgwV2hsSUZneGtpWTJFdXpJQ1JROUFXMVJ0UEsyWE9uRGhaY1FUdjUtc2NxbDlDWk5mQ2hIVWxn?oc=5",
+   "source": "ITdaily.",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
   {
    "id": "16cd0622052e",
    "d": "2026-10-20",
@@ -35,18 +83,6 @@
    "produits": [
     "tr-legeres",
     "tr-lourdes"
-   ],
-   "auto": true
-  },
-  {
-   "id": "30ed7399fdf3",
-   "d": "2026-10-18",
-   "titre": "Ecritel et Hiléo lancent un cloud souverain « Data Act Ready » - Presse Agence",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0RsX3diOTZIaWFfd01WWFMyY19EOTJXNWhIYlVFc2ppVlFXYUhpVG1EcTNxRXZZRG5tNlh3TUxsU2N3OS14czh2VkpCb3Fib3BEZWpBaUJzQm9RQnN0Nk0zaFd2dm5HeFNialFSYlNMcFdkcER6LThVNm9KS0VMZ3VPeWZEMEVwLUVUUHhMVnlGeTVITm1fZ3FJbmNrQW53ZFRIWjdqRDQ3TFdVRUU3YWZDOGtla0I5UVE?oc=5",
-   "source": "Presse Agence",
-   "type": "presse",
-   "produits": [
-    "cloud"
    ],
    "auto": true
   },
@@ -184,19 +220,6 @@
    "auto": true
   },
   {
-   "id": "14b18e4bd79e",
-   "d": "2026-10-11",
-   "titre": "Pourquoi la Chine et l’Europe négocient sur les voitures hybrides et les terres rares - Clubic",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTXAwSHFfbUFGYUdTeFZhZTlfSjBrR2thcVRBLXpudTM0TVc1TEg1Z2NsaWljZFNRV0FpOXdFVDZrZWtPaHZJcDRjRVl4NXdsclItRXJBdkwzZjJnZ0R1VGlLdFNQXzVSUi0wUzZVRU9XTkYwZkxxbF8yYTFYckxqMGdHMk9OOE1pSUM1WFJXeGdGd2lOa0RPUkw4RHE4Znd2QndIMWp5dktSVGRXaEtmYS1vckdRb3RndnNYZkJSSWZ5UF80ZGZtdkhR?oc=5",
-   "source": "Clubic",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
-   ],
-   "auto": true
-  },
-  {
    "id": "14d14348ebe7",
    "d": "2026-10-11",
    "titre": "Où dorment vos e-mails ? Ce que le débat sur SecNumCloud dit du mail professionnel des entreprises - Le Quotidien de l'Entreprise",
@@ -269,11 +292,11 @@
    "auto": true
   },
   {
-   "id": "0d42e8695fd5",
+   "id": "22a0b5da323b",
    "d": "2026-10-09",
-   "titre": "Cloud souverain : partenariat Scaleway-Dataiku - incyber news",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1WU0lMLXJkcXRyYU5MOXhOT081cThfSnl1NWFoUVFOSGN4WDBKTlFQOExQLWZrS3ZkZE1GS3FvOXktcGU0Z1kteVFHVm0tZURCQXFiSkVuLW5vWG9xV2VKWmJfeE1uN1pwano2c2txUFUxdmxqTk5KVTFydXdZQQ?oc=5",
-   "source": "incyber news",
+   "titre": "Orange muscle son offre SecNumCloud - Le Monde Informatique",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWmtOMWtlazJXc0c3cXlRV25EM0Fkemc5aVdNb2padTRIVXRlS2VvbGdSZGFXZFVZbXZwWkNZVW9kbWpLTkZiZlRaODFyVm01cThHOUtaUkd6LWxtZkxUd1BoN1hKOXVkY19Ob0x0SWJ0cUJzdlBsRzg0YnVVMGZIeU9GeldiaHF0NmkyR2lmeTFCMEc2bG1xa0hMMk51bmfSAaMBQVVfeXFMUGxkMmVaaFZzQzhJLUFvWVpYaWdFVzgxa3NfMWpxSDRnN0dvNFVPN0xzaEZXQmw5UU1jbTZYUDM4WXJjVGI4N0FpNlUyRmJfb3YwVUlqVXROMkQxNFFpamxtT254S3FITi1YZ2JELWlEUHpRZHNEOFVwOTFwdGRUdzFfb3lhOVk4T1FUcTF2UzJ0TEJGV0h2cHIyNjJNYXFsWFpzcw?oc=5",
+   "source": "Le Monde Informatique",
    "type": "presse",
    "produits": [
     "cloud"
@@ -281,11 +304,11 @@
    "auto": true
   },
   {
-   "id": "22a0b5da323b",
+   "id": "0d42e8695fd5",
    "d": "2026-10-09",
-   "titre": "Orange muscle son offre SecNumCloud - Le Monde Informatique",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWmtOMWtlazJXc0c3cXlRV25EM0Fkemc5aVdNb2padTRIVXRlS2VvbGdSZGFXZFVZbXZwWkNZVW9kbWpLTkZiZlRaODFyVm01cThHOUtaUkd6LWxtZkxUd1BoN1hKOXVkY19Ob0x0SWJ0cUJzdlBsRzg0YnVVMGZIeU9GeldiaHF0NmkyR2lmeTFCMEc2bG1xa0hMMk51bmfSAaMBQVVfeXFMUGxkMmVaaFZzQzhJLUFvWVpYaWdFVzgxa3NfMWpxSDRnN0dvNFVPN0xzaEZXQmw5UU1jbTZYUDM4WXJjVGI4N0FpNlUyRmJfb3YwVUlqVXROMkQxNFFpamxtT254S3FITi1YZ2JELWlEUHpRZHNEOFVwOTFwdGRUdzFfb3lhOVk4T1FUcTF2UzJ0TEJGV0h2cHIyNjJNYXFsWFpzcw?oc=5",
-   "source": "Le Monde Informatique",
+   "titre": "Cloud souverain : partenariat Scaleway-Dataiku - incyber news",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1WU0lMLXJkcXRyYU5MOXhOT081cThfSnl1NWFoUVFOSGN4WDBKTlFQOExQLWZrS3ZkZE1GS3FvOXktcGU0Z1kteVFHVm0tZURCQXFiSkVuLW5vWG9xV2VKWmJfeE1uN1pwano2c2txUFUxdmxqTk5KVTFydXdZQQ?oc=5",
+   "source": "incyber news",
    "type": "presse",
    "produits": [
     "cloud"
@@ -331,36 +354,11 @@
    "auto": true
   },
   {
-   "id": "f5ad3a2e11d0",
-   "d": "2026-10-09",
-   "titre": "UE-Chine : à Pékin, une entente sur les hybrides et les terres rares - Le nouvel Économiste",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYnZsZ3hQTGM1OEt5SE9OWmJpZzlHZUJINGRpZk8xY20zWkozT0ZaTjBvamIxY3M2M1BIdl9oak43dWxZTVJ4cS1EYXBldUNXNUQyOHR1cjVodVc3YmYyWjNqZFpkVzktck1tQV9CSXdRakVHWG9RMmsyREZUWjk1amw3VHFHdDNUQ1pTUnBJenR2OUY4ODBndnhHOFJ0amNJeGVPb0E0enlnZ0NlWmtwd2lqcC1IbEZ2akVROEg1cTAxcVh4Z2d0aw?oc=5",
-   "source": "Le nouvel Économiste",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
-   ],
-   "auto": true
-  },
-  {
    "id": "74cac4030d5b",
    "d": "2026-10-08",
    "titre": "Orange Business (SecNumCloud) : une deuxième qualification ANSSI pour Cloud Avenue - Revue économique de France",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMFhyYzNHcmtCdzhDdUg0U3lRbUUxZjVaeXBLZ0NjX0REYzFqTmJaVmlmMDdZc1hnMjNraTYzbmtxWTdRdmpjc1NNX0RjSHc0RjhlbFhGb29aV1l4OWFfckIwT1QweWlBbW5VcDZrdUJDamJwUk9JbXJ0bGUzSVpSbmxjVnN0Sk9jYlV2RkJmSHNnX1NnLWl0X1FZUmp4ZXZP?oc=5",
    "source": "Revue économique de France",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "05c7adf15753",
-   "d": "2026-10-08",
-   "titre": "G7 prépare des usages d’IA sur le cloud SecNumCloud de S3NS - Brief IA",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSHNoVWlEZTk2U2JXbVF3UUZhWjc0ZE5LT3JNdHVFRG4taGJrSDEtM0xrXzlyT21KOHNLRDZxWGVVLTNhODIyQ3ZrNk80NUtPZkhXZTJreXZwTlVJelZ2Q2FYRGhSTHQ3dWlEdWhrX1lBWFphRFpwZmhiUmdmREFQZVBRVFNHZmcyT2JucDl5RTFKY01Y?oc=5",
-   "source": "Brief IA",
    "type": "presse",
    "produits": [
     "cloud"
@@ -417,11 +415,11 @@
    "auto": true
   },
   {
-   "id": "68d66e34dd7a",
+   "id": "93ee19da93f0",
    "d": "2026-10-07",
-   "titre": "Orange Business obtient une deuxième qualification SecNumCloud pour Cloud Avenue - Idéal Investisseur",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdzRUMUhCQlZNaENlY285YngxQVVucm1zUHNDdS1OekhGbXZkaEt5S2FEYzBKbVdLSzJaMGQxZFBGd2dQSC10M3ZTZlNRNFEwb3hrTjRETENvUnpmNldjSVJmOUFDekh2SHAtRWhIcGV1Z1B3QTdjcU1DcmlYdVFTWUpyVTlKc2w1U0M0TTFEZ21pZlEtRjBPUUVqODBOVnRQVHBMdUhSQTQ4NEtOR3JkdkJocHVMTW9NZW81VktuUWZKdXFXejU3MnJuX2Voc0hn?oc=5",
-   "source": "Idéal Investisseur",
+   "titre": "Orange Business obtient une seconde qualification SecNumCloud et élargit sa gamme Cloud Avenue - ABC Bourse",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVlU0TU9ac0g5Y1d5bzV0Ulh5RWZFVlh2bWZmWk5lcnJpSVpGZGZCTWtIaWNVQXRLZHMtakg0OHN1b1hta1JHSWdlTHIyV3lIdmNRVHZlV0RIMzlvRk95VkFpNGJJRFZ3NWpJVDZacFpSUkRDUGJybnY4YjlNU3FwaWM5RzdrQkhMcTlDLUI0ajA1OEh0Sy1iWVVsTktXV1NDcWRvM0V3eTdyeHZld0t1SmNBVVFMR29GQTJKVmV3?oc=5",
+   "source": "ABC Bourse",
    "type": "presse",
    "produits": [
     "cloud"
@@ -429,11 +427,11 @@
    "auto": true
   },
   {
-   "id": "93ee19da93f0",
+   "id": "407c3facc18f",
    "d": "2026-10-07",
-   "titre": "Orange Business obtient une seconde qualification SecNumCloud et élargit sa gamme Cloud Avenue - ABC Bourse",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVlU0TU9ac0g5Y1d5bzV0Ulh5RWZFVlh2bWZmWk5lcnJpSVpGZGZCTWtIaWNVQXRLZHMtakg0OHN1b1hta1JHSWdlTHIyV3lIdmNRVHZlV0RIMzlvRk95VkFpNGJJRFZ3NWpJVDZacFpSUkRDUGJybnY4YjlNU3FwaWM5RzdrQkhMcTlDLUI0ajA1OEh0Sy1iWVVsTktXV1NDcWRvM0V3eTdyeHZld0t1SmNBVVFMR29GQTJKVmV3?oc=5",
-   "source": "ABC Bourse",
+   "titre": "Orange Business obtient une deuxième qualification SecNumCloud pour Cloud Avenue - Ideal Investisseur",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdzRUMUhCQlZNaENlY285YngxQVVucm1zUHNDdS1OekhGbXZkaEt5S2FEYzBKbVdLSzJaMGQxZFBGd2dQSC10M3ZTZlNRNFEwb3hrTjRETENvUnpmNldjSVJmOUFDekh2SHAtRWhIcGV1Z1B3QTdjcU1DcmlYdVFTWUpyVTlKc2w1U0M0TTFEZ21pZlEtRjBPUUVqODBOVnRQVHBMdUhSQTQ4NEtOR3JkdkJocHVMTW9NZW81VktuUWZKdXFXejU3MnJuX2Voc0hn?oc=5",
+   "source": "Ideal Investisseur",
    "type": "presse",
    "produits": [
     "cloud"
