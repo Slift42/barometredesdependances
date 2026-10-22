@@ -1,6 +1,44 @@
 {
- "maj": "2026-10-21T07:54+00:00",
+ "maj": "2026-10-22T07:55+00:00",
  "items": [
+  {
+   "id": "a4d00d823255",
+   "d": "2026-10-22",
+   "titre": "Que se passerait-il pour les États-Unis si la Chine cessait d'exporter des terres rares ? - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcjd4VUNBcTluTnJQMGZySWh5QXJKVnZyTHdVZkpZa3FXaHdlVVZXNzFnNHQ5ZVhLa1M3aExFaHdtLWJ6dF9QaDRUUHl3QzUxaWlFYVFURkNYNUV6SUl6eFRzODdLSU9EX1ltWS1ycWhrVlNrYXRjUDBFdjFVYUVKSDV3UWc?oc=5",
+   "source": "Vietnam.vn",
+   "type": "presse",
+   "produits": [
+    "tr-legeres",
+    "tr-lourdes"
+   ],
+   "auto": true
+  },
+  {
+   "id": "feca045ec616",
+   "d": "2026-10-21",
+   "titre": "La Chine limite ses exportations de métaux des terres rares vers le Japon par crainte d'une expansion militaire - Business AM",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeGVJWlZDRGxFaURJajhfVDB0dkVBWjdPbG5na3RiaHRpQzB1cVZILXF3S3ZHUHVzZEZlQmlxZUprM1NMT1NtTnJab0RjbVdNMXRCZ19tMDBpOF9DR2Z1OXhZeUZjdE9yelNBX1g0OGZsV1lyc1JBamtSRk8zU1pxU3djb0xBUUlNSEIxMlUxRV9FOHY0alEzbnVqR0dWcF9nazZwc1ZGM0FvUDI0bUVpYkgwOTBmZEJrc1A2VkpGX3NGSm5OVXRxQXVBdm5HM1FrTVE?oc=5",
+   "source": "Business AM",
+   "type": "presse",
+   "produits": [
+    "tr-legeres",
+    "tr-lourdes"
+   ],
+   "auto": true
+  },
+  {
+   "id": "921c100d01d4",
+   "d": "2026-10-21",
+   "titre": "Un cloud sans Internet peut-il faire tourner l’IA ? Clarence Cloud explore la piste - Clubic",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb040R2VVbmxQTTZhbHRJN1BBYzZPN0pFQ2hhNDRnMVdZU0RxSFltdVlzV3MzZEU1b2k5R0JaTnB0NXVTRjlaXzFjX18yN28xeHFNNjd6cEhLWmFyb1FVVFN2TmswdjVZTlZ2RjEyeVFqZmpVMGtJcVhYcTk4a1ZxU1c1NEtWbklscFdNYS1YVTE0NG5mVEcwdkdTbTkwWTZEZUtWSENQVWZpb3FnZTloY04wcXVWcXNEYkRUdi1B?oc=5",
+   "source": "Clubic",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
   {
    "id": "73a67800f863",
    "d": "2026-10-21",
@@ -14,11 +52,35 @@
    "auto": true
   },
   {
+   "id": "56ae3d6e90a9",
+   "d": "2026-10-21",
+   "titre": "Engrais : TMG et l’indonésien Turrima envisagent une usine de 8,8 milliards de FCFA au Cameroun - Investir au Cameroun",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPR192QXEwTHQ2ZkI4MnVPMDg3NjNZemlwcmthVlk4RVNwOGpUckx1cDFFRDRLVzJkYjZrTG5QSGdwRkxUTlBkUWltT3pwT0ZRbzUzZFpaQnludWhtODNmQUVjYlp6QTFVblhKbmNGMWh3S3h1Uk02bnU0cTZHdVFGTXJsS2tJcjRQYmh3S0pZVENZWUNXZU1ybm96b2xmdjJVY3RfbURXd0p2NFVIVE1QX1p3cTlLMlRmOVZkeDhWOWZlRjY2ZTQxeXRDUkxrSUE0VkgzWk9FcGRVcFRmY1g1Z0lnOGt1QQ?oc=5",
+   "source": "Investir au Cameroun",
+   "type": "presse",
+   "produits": [
+    "azote"
+   ],
+   "auto": true
+  },
+  {
    "id": "5a09f20ee453",
    "d": "2026-10-20",
    "titre": "Le cloud souverain de Microsoft peut-il vraiment échapper au droit américain ? - lebigdata.fr",
    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmWTFSNFA1Z1VPMC1iNk5uLWZFdDY2WlJhLU1XVDhPcDFpaWdVUEZSMjV1aFU4TjFVRk5xcWxUNFdkYnVlb2xIQm1Bb1NQU1JrNXBfTVJENTlza2tmSnVTUW5FX2p5dUJwU1JOOFZLZ2ZDYWN6Sy1F?oc=5",
    "source": "lebigdata.fr",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "4d523e89376f",
+   "d": "2026-10-20",
+   "titre": "Microsoft étend son Cloud Souverain avec des clés sur matériel propre - ITdaily.",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSkJ1aGJ2aEZ0R2M1eWtmdnlmQXV2a2hYcnVBYnBQci1zQzhhR3RpVkNkQXZuUEJhSnI0LWIxeFBxdk1DNFZwM0FIcVgyR1RaR2FXMUhvRDUtV0dpMExUTjctNzgwV2hsSUZneGtpWTJFdXpJQ1JROUFXMVJ0UEsyWE9uRGhaY1FUdjUtc2NxbDlDWk5mQ2hIVWxn?oc=5",
+   "source": "ITdaily.",
    "type": "presse",
    "produits": [
     "cloud"
@@ -38,11 +100,11 @@
    "auto": true
   },
   {
-   "id": "4d523e89376f",
+   "id": "7c12c47fcfda",
    "d": "2026-10-20",
-   "titre": "Microsoft étend son Cloud Souverain avec des clés sur matériel propre - ITdaily.",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSkJ1aGJ2aEZ0R2M1eWtmdnlmQXV2a2hYcnVBYnBQci1zQzhhR3RpVkNkQXZuUEJhSnI0LWIxeFBxdk1DNFZwM0FIcVgyR1RaR2FXMUhvRDUtV0dpMExUTjctNzgwV2hsSUZneGtpWTJFdXpJQ1JROUFXMVJ0UEsyWE9uRGhaY1FUdjUtc2NxbDlDWk5mQ2hIVWxn?oc=5",
-   "source": "ITdaily.",
+   "titre": "Cloud souverain Microsoft : l’IA locale sur Azure Local - NeoTeo",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOa0lFb2JtLVRONmhYSFNZcERYRmhqYzNtWG5xSU9OOHREZzA3bXhCMHprUUF3cWpKME5LcWxESHVHRW13NUstVEp1NlF0dmRvN3ZCekVpUFRqYnVsYVJVcEduUUM5ZDA4aDZJTFN4WTRNelppRXJsN2xSUy1CUFdPem1US0tTbWp2dkNR?oc=5",
+   "source": "NeoTeo",
    "type": "presse",
    "produits": [
     "cloud"
@@ -359,115 +421,6 @@
    "titre": "Orange Business (SecNumCloud) : une deuxième qualification ANSSI pour Cloud Avenue - Revue économique de France",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMFhyYzNHcmtCdzhDdUg0U3lRbUUxZjVaeXBLZ0NjX0REYzFqTmJaVmlmMDdZc1hnMjNraTYzbmtxWTdRdmpjc1NNX0RjSHc0RjhlbFhGb29aV1l4OWFfckIwT1QweWlBbW5VcDZrdUJDamJwUk9JbXJ0bGUzSVpSbmxjVnN0Sk9jYlV2RkJmSHNnX1NnLWl0X1FZUmp4ZXZP?oc=5",
    "source": "Revue économique de France",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "2fbb2461227d",
-   "d": "2026-10-07",
-   "titre": "Orange muscle son offre SecNumCloud pour les applications critiques et l’intelligence artificielle - L'Usine Digitale",
-   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPMEZ5U0J1YnE4cjdGdkpkeTVBZW0xMWZTd21jbWlyNjhBVXlyT1Jlai1tOTc2bFAzWklyejBfc3BTMnJRZU9JS1ZhbFEyWXRHUndxTE5pRVE3OWdJZ2dHMHVZTGJTSGlMMFJuU1BHdnhIYXFJZm0tbmpCMENyUnlkT3g4X2hULTBITkhlMmFsMVo3TEt2d2RvblZtSnJiX3Z2Y1R1cFFYQ3VIMXVrNk9wUTUxWU9zWl95TVJQME9na19JZlZYSng3U0ppaWJHeHVyd19FQXNldzJRWTB5LWswMVFrcmt5TTRRNGxRY210ckdOZDhMNE9uTWpIbkhITGhvYTVmbkFwLXliUQ?oc=5",
-   "source": "L'Usine Digitale",
-   "type": "presse",
-   "produits": [
-    "cloud",
-    "ia"
-   ],
-   "auto": true
-  },
-  {
-   "id": "9233c97d34ec",
-   "d": "2026-10-07",
-   "titre": "Cloud de confiance : Orange Business élargit son offre SecNumCloud pour les données critiques - Acteurs Publics",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVnZlbkpVaEhpSUtnVkx1aWxXVWZyWXE5d0tQTXd0RlRLeERSVC1jYmJqbTVuYkRzSUdUc0VkdThtSnFZXzNGNDdxSWZ0a3kyRTQySEhNZ3U3aXJvdGlONjVIT29WeXB2cVVKb1hkNXJORXVJZlg1dTJkM2g3OTN2NDlxQ2YzMm93Q1ZaMFlPbU5BWjlQNFpCbDB4SzdEcDY4TnYxdzhWRzhZM2FrMUg1cHVoM2NrMkVmajFsdC14ZzE2ZW5vd1E?oc=5",
-   "source": "Acteurs Publics",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "7d98370a022d",
-   "d": "2026-10-07",
-   "titre": "Orange Business obtient une seconde qualification SecNumCloud pour Cloud Avenue - ChannelNews",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaVM0X0JuaWZ0VlpuWUFDWjFndnBWSV9XT3ZlbXh1eUtrb0ZFbXFTRVBCZFhVVVo2NldBRjVrMGowaDYyU2JuTGw2ZDE2ak15SGZQQVB3ZzF4Tl9fLWxiQXR5SFNmZGxVUDlRTlNyOWZjZmlPZHp4aldFblRHYVcyR2RIRVFYNE9KaDRiMTRTWU9McTI0UEVhQThseXBjY05HNUJ4V3Itc1NzdEZlWFY2b29Ldw?oc=5",
-   "source": "ChannelNews",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "04098938927a",
-   "d": "2026-10-07",
-   "titre": "Morbihan : obtention de la qualification SecNumCloud par l’entreprise Ecritel - L'Usine Nouvelle",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUzZkTk82X2Z3VTNJQzFDMGVZb3BpVFUyS0V4QkVkMUtJQnJ1SlVONnpLU2ljRmU1ZFZrQTdpZW90M09yVDVsaXd1azd4WUZGQVJqQ3hLaW5LSlRHUmRYcnNHaU9FU1pnRUdJaE1fdll4dFN4LTYzb244cHRVX3JTcTV2OEgzaHQydi1TOUpJa2JoVjRiMnJQQkFFOHAyUHFtc0hza0pWbmhKT2gxTlBPYkl6QnNCTlFmZW9oR0gyeTJrMlZvV2szYVVJMVAwT19sYTFvY1JRX1R0ZGhiYUFpTHJNM3dsZlN1VXc?oc=5",
-   "source": "L'Usine Nouvelle",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "93ee19da93f0",
-   "d": "2026-10-07",
-   "titre": "Orange Business obtient une seconde qualification SecNumCloud et élargit sa gamme Cloud Avenue - ABC Bourse",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVlU0TU9ac0g5Y1d5bzV0Ulh5RWZFVlh2bWZmWk5lcnJpSVpGZGZCTWtIaWNVQXRLZHMtakg0OHN1b1hta1JHSWdlTHIyV3lIdmNRVHZlV0RIMzlvRk95VkFpNGJJRFZ3NWpJVDZacFpSUkRDUGJybnY4YjlNU3FwaWM5RzdrQkhMcTlDLUI0ajA1OEh0Sy1iWVVsTktXV1NDcWRvM0V3eTdyeHZld0t1SmNBVVFMR29GQTJKVmV3?oc=5",
-   "source": "ABC Bourse",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "407c3facc18f",
-   "d": "2026-10-07",
-   "titre": "Orange Business obtient une deuxième qualification SecNumCloud pour Cloud Avenue - Ideal Investisseur",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdzRUMUhCQlZNaENlY285YngxQVVucm1zUHNDdS1OekhGbXZkaEt5S2FEYzBKbVdLSzJaMGQxZFBGd2dQSC10M3ZTZlNRNFEwb3hrTjRETENvUnpmNldjSVJmOUFDekh2SHAtRWhIcGV1Z1B3QTdjcU1DcmlYdVFTWUpyVTlKc2w1U0M0TTFEZ21pZlEtRjBPUUVqODBOVnRQVHBMdUhSQTQ4NEtOR3JkdkJocHVMTW9NZW81VktuUWZKdXFXejU3MnJuX2Voc0hn?oc=5",
-   "source": "Ideal Investisseur",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "ef948dc6fffa",
-   "d": "2026-10-07",
-   "titre": "« C’est le graal pour les fournisseurs de cloud » : Orange business obtient une nouvelle qualification SecNumCloud - La Tribune",
-   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPaXJLY0NWYmxBN3Zrajd1d2t3NlU4YWswRWVHMWFUdDZXcHp1R1dteURjMGM2WFczV0E2MW5MaGl6UHRqbjRkWldYYkFpU01YcjU0QnBvQzRpTG1YR05qdjdSMWhSWlI2S3QybThORWduRThXb19XNUJWQm1Tejl1ZHU1dldWU2xqQnFYZ05KcV81MjRieGNKcnRFM00zYkN4NkI5UWdObWFiNVBnQjlBWGpXSC1SSUhnT1lnTi1vY0p4ZkpNTkMxYUtlSnRuTkRaYVozZXV4cGdUbXRmbVM0NmZyX3VvTFk3VUM2d0NEVHotQUk?oc=5",
-   "source": "La Tribune",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "a79377f5730c",
-   "d": "2026-10-07",
-   "titre": "Cloud souverain : DEEP accélère pour les entreprises face à l'IA - Presse Agence",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeExwakFxM1NMd0NfVjlkUUdYckpoTFUxdGpVWmlpVFFzVEl5NTkzZ1dRWThTYlhTcGtuUUJsUHItLVo4T2VnQk1qeW4xX3JKRnRTOWV1VzZCd01KU29MM3RjbHNMYVJmbEp6dVBESnd6amNRaS1scVhBeWxJc2V5bE1wamR5ZFZicjhWUXJ5RjRwQlB6MXZURDJJeC1KeVRKLTFxeW12WjU5Q0d3THlHenhOZE5pUDg?oc=5",
-   "source": "Presse Agence",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "18eaad80835e",
-   "d": "2026-10-07",
-   "titre": "Orange Business décroche une deuxième qualification SecNumCloud pour son cloud de confiance - Télé Satellite et Numérique",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSWFEX29PWTJrLV91ZUM3Qm5yWFlQeFU3WVpYMENpMkppbGV0emxEdVdtSi05SnFQc3BNQmRrelJWZUxoa0FLeGUyTGQ2NkVVV1ZEdTR5M0RYbTdmeEVQV3V2WHBJYnpVQW5kUi1UT1ZjdHFjQ29JTUF3UGI5aUF1NFdTZ1UycFZKMFdSUWJRMUp0My1NbENuc3FWSmU4cTRha2Y2S3NQUlJoTV9naHFSbXNGSmJBWjY4MlF5WlhvYmRHalRDQlE?oc=5",
-   "source": "Télé Satellite et Numérique",
    "type": "presse",
    "produits": [
     "cloud"
