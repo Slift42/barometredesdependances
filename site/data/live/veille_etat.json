@@ -4,63 +4,63 @@
   "erreurs": 0,
   "statut": "ok",
   "items": 100,
-  "derniere": "2026-10-23"
+  "derniere": "2026-10-24"
  },
  "gn-metaux": {
   "nom": "Google Actualités : métaux critiques",
   "erreurs": 0,
   "statut": "ok",
-  "items": 53,
-  "derniere": "2026-10-23"
+  "items": 54,
+  "derniere": "2026-10-24"
  },
  "gn-medicaments": {
   "nom": "Google Actualités : pénuries de médicaments",
   "erreurs": 0,
   "statut": "ok",
-  "items": 100,
-  "derniere": "2026-10-23"
+  "items": 25,
+  "derniere": "2026-10-24"
  },
  "gn-energie": {
   "nom": "Google Actualités : gaz, GNL, uranium",
   "erreurs": 0,
   "statut": "ok",
   "items": 47,
-  "derniere": "2026-10-23"
+  "derniere": "2026-10-24"
  },
  "gn-puces": {
   "nom": "Google Actualités : semi-conducteurs",
   "erreurs": 0,
   "statut": "ok",
-  "items": 95,
-  "derniere": "2026-10-23"
+  "items": 98,
+  "derniere": "2026-10-24"
  },
  "gn-numerique": {
   "nom": "Google Actualités : cloud et souveraineté numérique",
   "erreurs": 0,
   "statut": "ok",
-  "items": 57,
-  "derniere": "2026-10-23"
+  "items": 100,
+  "derniere": "2026-10-24"
  },
  "gn-commerce": {
   "nom": "Google Actualités : droits de douane UE",
   "erreurs": 0,
   "statut": "ok",
   "items": 100,
-  "derniere": "2026-10-23"
+  "derniere": "2026-10-24"
  },
  "gn-defense": {
   "nom": "Google Actualités : munitions et industrie de défense",
   "erreurs": 0,
   "statut": "ok",
-  "items": 61,
-  "derniere": "2026-10-23"
+  "items": 60,
+  "derniere": "2026-10-24"
  },
  "gn-agri": {
   "nom": "Google Actualités : engrais et souveraineté alimentaire",
   "erreurs": 0,
   "statut": "ok",
   "items": 100,
-  "derniere": "2026-10-23"
+  "derniere": "2026-10-24"
  },
  "iris": {
   "nom": "IRIS",
@@ -77,6 +77,6 @@
   "erreurs": 0,
   "statut": "ok",
   "items": 40,
-  "derniere": "2026-10-23"
+  "derniere": "2026-10-24"
  }
 }

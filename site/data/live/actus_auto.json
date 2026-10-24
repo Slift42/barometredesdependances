@@ -1,6 +1,54 @@
 {
- "maj": "2026-10-23T07:53+00:00",
+ "maj": "2026-10-24T07:45+00:00",
  "items": [
+  {
+   "id": "15132bbf2c2a",
+   "d": "2026-10-23",
+   "titre": "Le ministère néerlandais de la Défense opte pour le cloud souverain de SAP afin de protéger ses processus numériques - Business AM",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVjBlSng1anY1VHZ6VWxZTkgweDZHNjgwZ2dTZjVGX09HbkhGazEzS3YxRTRGcWRMS3lnUEg3V1phN3JXRUZBS3VuRVFHSkhrNnVidDZrSmZMdmhhU0YzX19NOUhHMm9KSU56ckZRS0FBNjNOVTk5WUFMRWpIMkhPLU1OdmVmdlBhX1ZsbG1ib3JFQldFc0lCY0VUcnZsT2w0NFdrNFoyM29mQ0R1RzM0cFN1RDdrX1EtdWk5M1IzRGF3M2tSZWhZdlNEa01oZEE5anc3c0xwT2lsZw?oc=5",
+   "source": "Business AM",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "9db3db04bda8",
+   "d": "2026-10-23",
+   "titre": "La Défense néerlandaise choisit SAP pour un environnement cloud souverain - ITdaily.",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM3U2b3JrUkR6b2FDa2dXSjZnUUx1endGUUJ3TGQteTZRNkRNUDJmOWdfNnQ5allXRUt4eU5DWnRRUk90bHJRZXpZbDNQQmdmT0dhdTR3MDd2SGI4T2tybEh0WkN0ZF91YllhLW5ubHFqd2Y2d2ZoSG5qMjRHUWhfV0hBRC1mUQ?oc=5",
+   "source": "ITdaily.",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "073430c6217d",
+   "d": "2026-10-23",
+   "titre": "Telefónica et Indra négocient une alliance pour impulser le cloud souverain en Europe - Demócrata",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS0R4dFpxR2YweXFHOW5VbnlqU0ZRZnFJakJoeFBraWtwRTIwNk9hRlIyemNtUUNxSTBmTGFPeU5Dckc2cFlhcVRRejgxSXk2dFozRVpaMnpsOXVGNm5Sb0tlTTZyS09rNjZxWTZDOHNDdjVSZm84a3VyZzAtRlo0SHZra212Wkk2UXh1SnAyanBjYk91YzZkaDhyUVQ0N0FkXy1heHEwUDVJTHA3ZGlIOHdkcEpwTlZGR2d4WjFuZkPSAcYBQVVfeXFMTkJ0NmV6RjczdTZMUV8yTDFfMEo3U2hFQTNpZWNiY3JfVFktR1c3eXhTUXNlUzNQakZUeFljVUlMc08yNXF2UXc1dEJFWWN4eVNjNjVaeFFsSEdmblNJcDZ6YkVhejYyektkQ2ktamFaZWs4bDJWaUtqNUlqOTloWUEzSUstLXUxNmVHY2dlQlNUNzBpVzYtLVlPeWRuaGdKbVpHc05GR0hXY0tvNzNFOHN2QktEaDFyLUc2RXZhZ0hZa2VCOUt3?oc=5",
+   "source": "Demócrata",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "54a8fa26308e",
+   "d": "2026-10-23",
+   "titre": "Burundi : la PARCEM accuse le pouvoir de verrouiller l’importation des engrais au profit d’une poignée de privilégiés - SOS Médias Burundi",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNThCZEJrQW93di0yQTVZZE5TdG5zV0JfOHhibklNVkJWOFlxZ202azMzRXlPOHFsc1V1cE93XzFTbTViTDgxVGRZRXRRek1DblpILW5YMUhPbFVlUk5GbUhYSldVSWNlbTlFWDZHVTZfTENWNlo3UDBLSVN1cjBPQjA5OFRvSDhkVVhubW0xWGdUZzNqS1h0cUdLNmhIQ1ZaMnI3QXRNN2RMX0tORGRzOFBra3Z2Y0l0ZHR6OXpQSEJtbTNEX1djZVFyRTQ2NnZtTUtJZDJ4VjNCOEYwbFphNjJkVWZueHpGV1RGLVE1NA?oc=5",
+   "source": "SOS Médias Burundi",
+   "type": "presse",
+   "produits": [
+    "azote"
+   ],
+   "auto": true
+  },
   {
    "id": "a4d00d823255",
    "d": "2026-10-22",
@@ -11,6 +59,30 @@
    "produits": [
     "tr-legeres",
     "tr-lourdes"
+   ],
+   "auto": true
+  },
+  {
+   "id": "6a6ddf3d6269",
+   "d": "2026-10-22",
+   "titre": "L’Amérique du Nord, marché de l’antimoine à la croissance la plus rapide : échéance des exportations chinoises, risques d’approvisionnement et perspectives 2034 - Actualités et statistiques - IndexBox",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNV3IyeE92OHJ5Vmt5VzhhdVpFRnFPaEVJd2ppcjQ5enRiSTIxR25LcmhGbkhEZFJCM2E3M2RsQ3R6OTh0QnBtemhYZklybWJFUTQyX2xOelhfSW9YakdvRWJRRFdGVmtudUNSeVFCSWVTeEZqOFlVeEc5Uk1WY2ZtVUs4X0ZqbUdybElqdEUwdEtISnJaYUU4OEZhN1AzVVEyTHh6ZlNVREY5ZXMtQUtPX2ZIeVpXLVBma2NzVg?oc=5",
+   "source": "IndexBox",
+   "type": "presse",
+   "produits": [
+    "antimoine"
+   ],
+   "auto": true
+  },
+  {
+   "id": "e0664b664db6",
+   "d": "2026-10-22",
+   "titre": "Azure renforce son cloud souverain avec un audit chiffré et le calcul confidentiel pour l'IA - Foro3D",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbnNfSVV6cXVXOGUwVFlsY0YyeUlFOTk4UjN2LUdmSzlUMElid1Jka0FoUFFvVjRnN1dCeFFESTBUV1FBVTVnUWlQVXZqWXhBa2ozNVRDcDlwOE5ZVkowZkJ6aW9xN09HUkUxSFRnSk0wb1Q3TkdiZ0x2T2E0ZE9QUEIwMGhLcHRCMFRpOHp0OU1WMmRnOHFIVm1PdkxWYzhIb3RhVDJMVFVTdXdsYmtN?oc=5",
+   "source": "Foro3D",
+   "type": "presse",
+   "produits": [
+    "cloud"
    ],
    "auto": true
   },
@@ -76,11 +148,35 @@
    "auto": true
   },
   {
+   "id": "30ed7399fdf3",
+   "d": "2026-10-20",
+   "titre": "Ecritel et Hiléo lancent un cloud souverain « Data Act Ready » - Presse Agence",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0RsX3diOTZIaWFfd01WWFMyY19EOTJXNWhIYlVFc2ppVlFXYUhpVG1EcTNxRXZZRG5tNlh3TUxsU2N3OS14czh2VkpCb3Fib3BEZWpBaUJzQm9RQnN0Nk0zaFd2dm5HeFNialFSYlNMcFdkcER6LThVNm9KS0VMZ3VPeWZEMEVwLUVUUHhMVnlGeTVITm1fZ3FJbmNrQW53ZFRIWjdqRDQ3TFdVRUU3YWZDOGtla0I5UVE?oc=5",
+   "source": "Presse Agence",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
    "id": "4d523e89376f",
    "d": "2026-10-20",
    "titre": "Microsoft étend son Cloud Souverain avec des clés sur matériel propre - ITdaily.",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSkJ1aGJ2aEZ0R2M1eWtmdnlmQXV2a2hYcnVBYnBQci1zQzhhR3RpVkNkQXZuUEJhSnI0LWIxeFBxdk1DNFZwM0FIcVgyR1RaR2FXMUhvRDUtV0dpMExUTjctNzgwV2hsSUZneGtpWTJFdXpJQ1JROUFXMVJ0UEsyWE9uRGhaY1FUdjUtc2NxbDlDWk5mQ2hIVWxn?oc=5",
    "source": "ITdaily.",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "7c12c47fcfda",
+   "d": "2026-10-20",
+   "titre": "Cloud souverain Microsoft : l’IA locale sur Azure Local - NeoTeo",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOa0lFb2JtLVRONmhYSFNZcERYRmhqYzNtWG5xSU9OOHREZzA3bXhCMHprUUF3cWpKME5LcWxESHVHRW13NUstVEp1NlF0dmRvN3ZCekVpUFRqYnVsYVJVcEduUUM5ZDA4aDZJTFN4WTRNelppRXJsN2xSUy1CUFdPem1US0tTbWp2dkNR?oc=5",
+   "source": "NeoTeo",
    "type": "presse",
    "produits": [
     "cloud"
@@ -96,6 +192,18 @@
    "type": "presse",
    "produits": [
     "azote"
+   ],
+   "auto": true
+  },
+  {
+   "id": "3efdc9455ad1",
+   "d": "2026-10-19",
+   "titre": "G7 choisit le cloud SecNumCloud de S3NS - Le Monde Informatique",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPb1FQaW50Z3dxQUZ0NW84RUdPdkUtLWJNSDJYdG54SGQyWEcwUnlwYUlMMjV2Uzc5c194YVVjOEZrM195LXA3ZnFzTUF5N2tRVVFrN1dIeV9fU1VlTy0tU1R1QnQzel9kVGpBMVEyU0U2Y29memdiak4xM3Z4eHJMYUxHYVhvVEpkdW80ZWpxaTVVZUlXT3FTSHJMVU9wUzlBM0VMdNIBqAFBVV95cUxPbnh4ZU5WdFU3M3JHWGpWSWlaOU9EN2FmSHZub29ZWlBCTUxHeGEwUllRQjFxazd4NDNsY2Q1bGJVX3h5TExleWpOeTUzbGFZaGJWN2FsM21KN0d4bnFwc241bDhjQWhXeEstUDRXVlJoMVJzMURic0s2cVBuNFN0TEJRVUd6UDhZajFPYmo2bWlZc1Fzb3lHcU1fRTJ2RjhtVndrdHkyRlE?oc=5",
+   "source": "Le Monde Informatique",
+   "type": "presse",
+   "produits": [
+    "cloud"
    ],
    "auto": true
   },
@@ -138,11 +246,23 @@
    "auto": true
   },
   {
-   "id": "e2a40f26a50a",
+   "id": "5b499d3c88d1",
+   "d": "2026-10-15",
+   "titre": "Un cloud souverain pour la France : Snowflake et Bleu - Snowflake",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5lUGZWc3Z0eFhpRHI0ZjFpcThGUGJrWGFuX1ZYQmlKQlRaeGZEaFFtb295Zy1jT2dVR0ptZ2pIUVhsbHZPTHF0Z2ZZUXFfZWVwdlZoWmJwbUdYQV9lZW03ZUF4Mi1va0Y1VUwyTWVhYW1tUmk0MTMtS1NuUkI?oc=5",
+   "source": "Snowflake",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "62d25e27337e",
    "d": "2026-10-14",
-   "titre": "MEEZA et Microsoft lancent un cloud souverain privé destiné aux entreprises au Qatar - Qatar news agency",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNkZTYzQwdVo1S21LdEs3YTZraDFDc0Q2blFxc0ZyRU0xQWh1N2JpOU1tUjJaNzkxZnhQeHN4a0hQbTEyNWw1Vms4NlZHUk4yTmQxd05QMDMwcHV2TERCdmlsWTRCWUh1eUJSX1FVWllNX1E1OHJsZncyaWtJXzN5QjEwTWNKMmRUMEl5YTk0MTdsd09fZEFfdE9zZVVCUGZSMVFOQ2l4RFNlcHIxTXVQWUstR043cHU3Z3lyWFdhYml0aldIMUxOM2tjTVE4RnVQ?oc=5",
-   "source": "Qatar news agency",
+   "titre": "Au-delà du cloud souverain : la dépendance aux logiciels métiers - JDN",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaDdRMGlNYTh3VkpXUGlKdTNwcWhLREFJMzJ3MHhvYkMwSGROX2xKd1N4SmpURGZfcThpOE5VY3Z3dkJuWWtQMkoyOWV3ZTQyV1ZYRGxzQm1rMWVYWVlNSXpkMTR1ajh1TlRnLVhObjRtRFZzMWtQdnRNdE9nWldoRDFDcUpSUWlnRXJkX25QSVhjYzVvTUJ0YVRkcnFweWk0WkJqUWt6djYzWl9zVGh5WmpiaTRjSVpqUXZXYmN5WGIxZUla?oc=5",
+   "source": "JDN",
    "type": "presse",
    "produits": [
     "cloud"
@@ -158,6 +278,18 @@
    "type": "presse",
    "produits": [
     "azote"
+   ],
+   "auto": true
+  },
+  {
+   "id": "a02b8dcd1240",
+   "d": "2026-10-13",
+   "titre": "L'IA, nouveau moteur du cloud souverain - 13/10 - Orange Actualités",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWXFnNnZUNDBTQ2R0aDRrNmpCS3NLSlpPeU1PcTlfbmF1NENkZTRZaElWSllVa1lmN0NFQ1QxZlZBUmxOcjB0aEpqTnJFNDFPXzYza0FuN3pZa1NZTlZueEw3elhtVGlmOWRyQ01MOEJEaU1PU2RtSVp1T0FlS3B2ODRtUzJQbURIdVlDX0dzMEpTeDVoeXRIVXU4dWszSlVOMFlHSFV3?oc=5",
+   "source": "Orange Actualités",
+   "type": "presse",
+   "produits": [
+    "cloud"
    ],
    "auto": true
   },
@@ -187,6 +319,30 @@
    "auto": true
   },
   {
+   "id": "49199c51a6ee",
+   "d": "2026-10-12",
+   "titre": "AWS Coupe son Cloud Souverain du Monde le 24/10 [2026] - shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9uQVRhaFgtekoyR21DVUZkbC1lUkthQUZMTFhMbUFPWUFkWnJPNm5aMGNpX0pFYjJyelRpOGtjcHZ3eW03RmtSWlZOWDE5N2JTTTJBN21iTE1hcHpkNmd0LWJyMUt5SVU0d2NMbmkzR2tQbzBn?oc=5",
+   "source": "shattered.io",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "5d71ef378d79",
+   "d": "2026-10-12",
+   "titre": "LightOn dévoile LightOn Suite, sa nouvelle plateforme pour construire des applications IA sur les données de l'entreprise, disponible dès aujourd'hui sur le cloud souverain de Scaleway - TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmbkJKWEMzWjloNXF0dk9BWk5hcjN4NjlwdGhhWEFBRDVTczFHS3BYeUxvMVdya0tnNlpVaUVTRHRaVHN1dmdYQlh3c0J5NHpNX253dVdxSTRzNV9WamZObW1B?oc=5",
+   "source": "TradingView",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
    "id": "14b18e4bd79e",
    "d": "2026-10-11",
    "titre": "Pourquoi la Chine et l’Europe négocient sur les voitures hybrides et les terres rares - Clubic",
@@ -196,6 +352,18 @@
    "produits": [
     "tr-legeres",
     "tr-lourdes"
+   ],
+   "auto": true
+  },
+  {
+   "id": "14d14348ebe7",
+   "d": "2026-10-11",
+   "titre": "Où dorment vos e-mails ? Ce que le débat sur SecNumCloud dit du mail professionnel des entreprises - Le Quotidien de l'Entreprise",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeUlGRWtBbW45ZUI3SlVrTzBXM2tMUEtaUHBVOUU0dmVlOUlRLXdhdDdBXzJ1Q1hDNXFzbzNaX1QtbHFPNkoyQ2NNMUwwUlhDN2JSTlVrOGpRMFRiS2xKaWowQzk4eEhIYzRnb0x1SkVOOHltSjBrbVFRY2FsZllZQ05vM09PLWVKcGJGVGhVR2dlakZJVzVEd2RkV0p0X2JOMEVIdENScGJzaWp0ZmFUUmFoY2ZJckozbUhzR0dnRHFjR0t2bWE0VmZpMG90TnhTMjZwVGVDQXdGWE0?oc=5",
+   "source": "Le Quotidien de l'Entreprise",
+   "type": "presse",
+   "produits": [
+    "cloud"
    ],
    "auto": true
   },
@@ -213,28 +381,14 @@
    "auto": true
   },
   {
-   "id": "8a5f772aa4d5",
-   "d": "2026-10-09",
-   "titre": "Véhicules hybrides, terres rares, droits de douane : la Chine et l’UE esquissent un compromis commercial - Libération",
-   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNSmVBcW85a2lZQWFTMERNZmR0RWtvSWxDdmZ1SWFKSjdFSFMwYlRnbk5rcHZldW04UzVDdzZ6el9KaWFPaUtTZ3o2NjRtV0gwbUR4RGxOM1FWdUp5YWp6V0ZjOGJ4Uko1R3RLWUhtNWlNQzA2MU0zOS12Qk9naElWZlVvN185VEFOVmtPNWxSTnk3UE9NUlVWaGxRSEZjdTdvYTFNM2hmVVFjMWVkM0hLQko2U2EtcXBrbEI4bnhLdDRDa3NySHA5WE5XaXNRY2d4a1psMEd3dU5FcEhmODdzSG5lRkJxek9NSjZSYmhoRDh0LU8ycVZtQk9oYjY1dnJlczhoUndmU3oxOW5haHZiRg?oc=5",
-   "source": "Libération",
+   "id": "341d7b381859",
+   "d": "2026-10-10",
+   "titre": "Orange Business obtient un second SecNumCloud pour l’IA critique - quasa.io",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFhORjhDZEpUdTZJYUNfTnN0azQtazJWQnFvZnBpUllDbW9jaEtLZGx2NWxvSFkyNWhUcjJfdm1qNEYzaE1rcEZUNGtvSGFuSGRPX2JtS3d2cjRUUFp5QV9VU2FLYW9yVVJnLUZuck5uR0t3NDZMWlo2R19paXhkTnJhdGZuLWVLT3p6VWNtYzRuT2I1aGQ5OGM2SDEyblB6M0E?oc=5",
+   "source": "quasa.io",
    "type": "presse",
    "produits": [
-    "tr-legeres",
-    "tr-lourdes"
-   ],
-   "auto": true
-  },
-  {
-   "id": "516415859fa9",
-   "d": "2026-10-09",
-   "titre": "Terres rares, droits de douane, véhicules hybrides... : l'UE et la Chine posent les bases d'une désescalade commerciale - La Libre.be",
-   "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPQXlDeEJRbUJHdlBBWVJTbmRKeEZ6NkJLb0RfZHQySnZET2N6S1NlSjQ5aEVBbkZfNndvVVNzaHBrVUxGZXlPNHVJcV9UWW13RkpYbS1aMFZKVnE2YmVSaFZNa2FDTkViaWxYbnNsMW5NbHFLc2pHV0lsOXJobGVLSzNYU21odGNianB6UWpzaXBOUEQxbVJHQ09MalRMd1FuU1ktSzdsOVJZcENHejQtRlRIR1pSVFlKcTllVHFLMjk4aVpwdXZCcG9ScmVvZjBDU1R5RjJkWjZzMGtBRGtDbFFqY2FWWUppek5KSjdUb3ZQc0xjaDhXSWh6M1Y3c2tTLWNCMTB3TkU2LXZTZ2JjNW1UMUxqWTJpMWc?oc=5",
-   "source": "La Libre.be",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
+    "cloud"
    ],
    "auto": true
   }
