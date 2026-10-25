@@ -1,18 +1,6 @@
 {
- "maj": "2026-10-24T07:45+00:00",
+ "maj": "2026-10-25T07:46+00:00",
  "items": [
-  {
-   "id": "15132bbf2c2a",
-   "d": "2026-10-23",
-   "titre": "Le ministère néerlandais de la Défense opte pour le cloud souverain de SAP afin de protéger ses processus numériques - Business AM",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVjBlSng1anY1VHZ6VWxZTkgweDZHNjgwZ2dTZjVGX09HbkhGazEzS3YxRTRGcWRMS3lnUEg3V1phN3JXRUZBS3VuRVFHSkhrNnVidDZrSmZMdmhhU0YzX19NOUhHMm9KSU56ckZRS0FBNjNOVTk5WUFMRWpIMkhPLU1OdmVmdlBhX1ZsbG1ib3JFQldFc0lCY0VUcnZsT2w0NFdrNFoyM29mQ0R1RzM0cFN1RDdrX1EtdWk5M1IzRGF3M2tSZWhZdlNEa01oZEE5anc3c0xwT2lsZw?oc=5",
-   "source": "Business AM",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
   {
    "id": "9db3db04bda8",
    "d": "2026-10-23",
@@ -26,11 +14,11 @@
    "auto": true
   },
   {
-   "id": "073430c6217d",
+   "id": "15132bbf2c2a",
    "d": "2026-10-23",
-   "titre": "Telefónica et Indra négocient une alliance pour impulser le cloud souverain en Europe - Demócrata",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS0R4dFpxR2YweXFHOW5VbnlqU0ZRZnFJakJoeFBraWtwRTIwNk9hRlIyemNtUUNxSTBmTGFPeU5Dckc2cFlhcVRRejgxSXk2dFozRVpaMnpsOXVGNm5Sb0tlTTZyS09rNjZxWTZDOHNDdjVSZm84a3VyZzAtRlo0SHZra212Wkk2UXh1SnAyanBjYk91YzZkaDhyUVQ0N0FkXy1heHEwUDVJTHA3ZGlIOHdkcEpwTlZGR2d4WjFuZkPSAcYBQVVfeXFMTkJ0NmV6RjczdTZMUV8yTDFfMEo3U2hFQTNpZWNiY3JfVFktR1c3eXhTUXNlUzNQakZUeFljVUlMc08yNXF2UXc1dEJFWWN4eVNjNjVaeFFsSEdmblNJcDZ6YkVhejYyektkQ2ktamFaZWs4bDJWaUtqNUlqOTloWUEzSUstLXUxNmVHY2dlQlNUNzBpVzYtLVlPeWRuaGdKbVpHc05GR0hXY0tvNzNFOHN2QktEaDFyLUc2RXZhZ0hZa2VCOUt3?oc=5",
-   "source": "Demócrata",
+   "titre": "Le ministère néerlandais de la Défense opte pour le cloud souverain de SAP afin de protéger ses processus numériques - Business AM",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVjBlSng1anY1VHZ6VWxZTkgweDZHNjgwZ2dTZjVGX09HbkhGazEzS3YxRTRGcWRMS3lnUEg3V1phN3JXRUZBS3VuRVFHSkhrNnVidDZrSmZMdmhhU0YzX19NOUhHMm9KSU56ckZRS0FBNjNOVTk5WUFMRWpIMkhPLU1OdmVmdlBhX1ZsbG1ib3JFQldFc0lCY0VUcnZsT2w0NFdrNFoyM29mQ0R1RzM0cFN1RDdrX1EtdWk5M1IzRGF3M2tSZWhZdlNEa01oZEE5anc3c0xwT2lsZw?oc=5",
+   "source": "Business AM",
    "type": "presse",
    "produits": [
     "cloud"
@@ -100,11 +88,11 @@
    "auto": true
   },
   {
-   "id": "73a67800f863",
+   "id": "c93032881947",
    "d": "2026-10-21",
-   "titre": "Cloud souverain : un surcoût pénalisant pour l’économie européenne ? Vraiment ? - IT for Business",
+   "titre": "Cloud souverain : un surcoût pénalisant pour l’économie européenne ? Vraiment ? - ITforBusiness.fr",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaERLbmJaX0NOQUJ0NTl5dVVrWHZmQVpwSkNXTWI2bElRUmg5a3VNZEFFN2NWMVUzNVFqamtCQUYzVVdkLUlneFl2NkNCNjUxb0NmX2lqQU5UbHJ2REZKUW9ESUwzbURjT2VTamdtWExtZVhlakFTVnNfZFVuYWM4SVIxMkttUFZ0OUZMLUZSd05rcy1RZElCV1F1T29YSGJ1UUc3eTUwNFBLOThF?oc=5",
-   "source": "IT for Business",
+   "source": "ITforBusiness.fr",
    "type": "presse",
    "produits": [
     "cloud"
@@ -148,11 +136,11 @@
    "auto": true
   },
   {
-   "id": "30ed7399fdf3",
+   "id": "4d523e89376f",
    "d": "2026-10-20",
-   "titre": "Ecritel et Hiléo lancent un cloud souverain « Data Act Ready » - Presse Agence",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0RsX3diOTZIaWFfd01WWFMyY19EOTJXNWhIYlVFc2ppVlFXYUhpVG1EcTNxRXZZRG5tNlh3TUxsU2N3OS14czh2VkpCb3Fib3BEZWpBaUJzQm9RQnN0Nk0zaFd2dm5HeFNialFSYlNMcFdkcER6LThVNm9KS0VMZ3VPeWZEMEVwLUVUUHhMVnlGeTVITm1fZ3FJbmNrQW53ZFRIWjdqRDQ3TFdVRUU3YWZDOGtla0I5UVE?oc=5",
-   "source": "Presse Agence",
+   "titre": "Microsoft étend son Cloud Souverain avec des clés sur matériel propre - ITdaily.",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSkJ1aGJ2aEZ0R2M1eWtmdnlmQXV2a2hYcnVBYnBQci1zQzhhR3RpVkNkQXZuUEJhSnI0LWIxeFBxdk1DNFZwM0FIcVgyR1RaR2FXMUhvRDUtV0dpMExUTjctNzgwV2hsSUZneGtpWTJFdXpJQ1JROUFXMVJ0UEsyWE9uRGhaY1FUdjUtc2NxbDlDWk5mQ2hIVWxn?oc=5",
+   "source": "ITdaily.",
    "type": "presse",
    "produits": [
     "cloud"
@@ -160,11 +148,11 @@
    "auto": true
   },
   {
-   "id": "4d523e89376f",
+   "id": "30ed7399fdf3",
    "d": "2026-10-20",
-   "titre": "Microsoft étend son Cloud Souverain avec des clés sur matériel propre - ITdaily.",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSkJ1aGJ2aEZ0R2M1eWtmdnlmQXV2a2hYcnVBYnBQci1zQzhhR3RpVkNkQXZuUEJhSnI0LWIxeFBxdk1DNFZwM0FIcVgyR1RaR2FXMUhvRDUtV0dpMExUTjctNzgwV2hsSUZneGtpWTJFdXpJQ1JROUFXMVJ0UEsyWE9uRGhaY1FUdjUtc2NxbDlDWk5mQ2hIVWxn?oc=5",
-   "source": "ITdaily.",
+   "titre": "Ecritel et Hiléo lancent un cloud souverain « Data Act Ready » - Presse Agence",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0RsX3diOTZIaWFfd01WWFMyY19EOTJXNWhIYlVFc2ppVlFXYUhpVG1EcTNxRXZZRG5tNlh3TUxsU2N3OS14czh2VkpCb3Fib3BEZWpBaUJzQm9RQnN0Nk0zaFd2dm5HeFNialFSYlNMcFdkcER6LThVNm9KS0VMZ3VPeWZEMEVwLUVUUHhMVnlGeTVITm1fZ3FJbmNrQW53ZFRIWjdqRDQ3TFdVRUU3YWZDOGtla0I5UVE?oc=5",
+   "source": "Presse Agence",
    "type": "presse",
    "produits": [
     "cloud"
@@ -282,11 +270,11 @@
    "auto": true
   },
   {
-   "id": "a02b8dcd1240",
+   "id": "db307c822b78",
    "d": "2026-10-13",
-   "titre": "L'IA, nouveau moteur du cloud souverain - 13/10 - Orange Actualités",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWXFnNnZUNDBTQ2R0aDRrNmpCS3NLSlpPeU1PcTlfbmF1NENkZTRZaElWSllVa1lmN0NFQ1QxZlZBUmxOcjB0aEpqTnJFNDFPXzYza0FuN3pZa1NZTlZueEw3elhtVGlmOWRyQ01MOEJEaU1PU2RtSVp1T0FlS3B2ODRtUzJQbURIdVlDX0dzMEpTeDVoeXRIVXU4dWszSlVOMFlHSFV3?oc=5",
-   "source": "Orange Actualités",
+   "titre": "L'IA, nouveau moteur du cloud souverain - 13/10 - BFM",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObmtXVUdDS3F4b1l6cU9hRVZFNEd6cEJzejJEa0hUQk9BMTRRd1pEM3ZSdFg2Smh1YWRYMkhESThZTjM5a0NvTVdJdnZFMDBzYUJ2Wk5IM0hpX0V5cWhzdzZRZ3NOam1WZXFtUW9ZNXNBaTFZSnRkTk90c2stTm9BY3Z2MXZPQVZ1czQyVEdVaV9kb1ZXRlV3QkVMSzhKU1dIVFhIZGYxd3RuYjI5VTM2Uy1meWRZR2xMd2pKS1BjQVBnZmdyd253T3pfMA?oc=5",
+   "source": "BFM",
    "type": "presse",
    "produits": [
     "cloud"
@@ -361,31 +349,6 @@
    "titre": "Où dorment vos e-mails ? Ce que le débat sur SecNumCloud dit du mail professionnel des entreprises - Le Quotidien de l'Entreprise",
    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeUlGRWtBbW45ZUI3SlVrTzBXM2tMUEtaUHBVOUU0dmVlOUlRLXdhdDdBXzJ1Q1hDNXFzbzNaX1QtbHFPNkoyQ2NNMUwwUlhDN2JSTlVrOGpRMFRiS2xKaWowQzk4eEhIYzRnb0x1SkVOOHltSjBrbVFRY2FsZllZQ05vM09PLWVKcGJGVGhVR2dlakZJVzVEd2RkV0p0X2JOMEVIdENScGJzaWp0ZmFUUmFoY2ZJckozbUhzR0dnRHFjR0t2bWE0VmZpMG90TnhTMjZwVGVDQXdGWE0?oc=5",
    "source": "Le Quotidien de l'Entreprise",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "eb8e210ca1d3",
-   "d": "2026-10-10",
-   "titre": "La Chine et l'UE signent une trêve commerciale sur les voitures hybrides et les terres rares - Génération NT",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcFBzZmFkbklTaFI1cGEwUzJDNGRZeWJKU3ZRSnFsbmhTT2pDbkY1UkN4VUFsUi1kMGxibWw2czE2c0dEbF9iX19ObjBFX3dsNHdIY0dibWVJckNTWHkzRWxLWlc4ZUxPSVhMRjNGSE84OU44SWJFY0pzVHMwQ0s0WElLWlp0UDRPVEJ1Q04yRmlGcEx3d3NFMkxqQ0ExQdIBowFBVV95cUxPY21tbHh6RF9yZnhiYVlfQXFReWpJNldGTG9yX0FjZmgxMVkySTRldEF0dEY4RmhwYnlwVFJLbndLcUpyT1dhMVo4QWZaVWVEVXI2QzdZdGxfMXo0TkQ0YlEzS2dFOF9QZHpLM0VsMVRXNm9zMm93aEgtd0xTMTl1WWhXQ2NTTHlDem41OGdzTkZURVJkUTFrNS12blJXRmdWYU5j?oc=5",
-   "source": "Génération NT",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
-   ],
-   "auto": true
-  },
-  {
-   "id": "341d7b381859",
-   "d": "2026-10-10",
-   "titre": "Orange Business obtient un second SecNumCloud pour l’IA critique - quasa.io",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFhORjhDZEpUdTZJYUNfTnN0azQtazJWQnFvZnBpUllDbW9jaEtLZGx2NWxvSFkyNWhUcjJfdm1qNEYzaE1rcEZUNGtvSGFuSGRPX2JtS3d2cjRUUFp5QV9VU2FLYW9yVVJnLUZuck5uR0t3NDZMWlo2R19paXhkTnJhdGZuLWVLT3p6VWNtYzRuT2I1aGQ5OGM2SDEyblB6M0E?oc=5",
-   "source": "quasa.io",
    "type": "presse",
    "produits": [
     "cloud"
