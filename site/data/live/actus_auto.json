@@ -1,6 +1,32 @@
 {
- "maj": "2026-10-26T06:10+00:00",
+ "maj": "2026-10-26T08:01+00:00",
  "items": [
+  {
+   "id": "0fcb04fd264e",
+   "d": "2026-10-26",
+   "titre": "Test du cloud souverain AWS : exercice rapporté - NeoTeo",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQekJWbEVISXlqcFBTQV9iVU5tZjlJQW81UDFoeUkyaDFycExHUG1sVl9OeXNEekxtRVlHSDYyTVpqMDVyNjczaDY0eHJWMlRHdFFqV2g0N29vTkZEWXBrSXFjLUJ2dGhydWhUS2NOSjQ2bjgtMExxYUhfM0dqU0p6RThrQ2EyUm5MQzF1Zm91bTdCbGc?oc=5",
+   "source": "NeoTeo",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "96fc4991e131",
+   "d": "2026-10-23",
+   "titre": "La Chine restreint les exportations de terres rares, TSMC cherche des alternatives - IDNFinancials",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQU0V5RTBicXVoRDY5ZjZhMVEzNmo0WTlDS0ZCdmJSY1VmNlYzYkN0dVBwa3FSTzhUaXJWeFpxV1ZtZXJrb2FrN0k3RmxZQW1QUlZ2b1R4WG14SVZha2N1bFRqb3B5SF9tU3JYNFl3LXB4QmZSWkN4QVc3Ylg1aS11VkIzdW5YM2xPWm1zdzBybm5FODY1VFloMTRWRE1Qa1BWS3dHNTRWblZfbXZVNFJLMkpNd2U4cWMwaFg0dmpGdldid3c?oc=5",
+   "source": "IDNFinancials",
+   "type": "presse",
+   "produits": [
+    "puces-avancees",
+    "tr-legeres",
+    "tr-lourdes"
+   ],
+   "auto": true
+  },
   {
    "id": "9db3db04bda8",
    "d": "2026-10-23",
@@ -26,18 +52,6 @@
    "auto": true
   },
   {
-   "id": "073430c6217d",
-   "d": "2026-10-23",
-   "titre": "Telefónica et Indra négocient une alliance pour impulser le cloud souverain en Europe - Demócrata",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS0R4dFpxR2YweXFHOW5VbnlqU0ZRZnFJakJoeFBraWtwRTIwNk9hRlIyemNtUUNxSTBmTGFPeU5Dckc2cFlhcVRRejgxSXk2dFozRVpaMnpsOXVGNm5Sb0tlTTZyS09rNjZxWTZDOHNDdjVSZm84a3VyZzAtRlo0SHZra212Wkk2UXh1SnAyanBjYk91YzZkaDhyUVQ0N0FkXy1heHEwUDVJTHA3ZGlIOHdkcEpwTlZGR2d4WjFuZkPSAcYBQVVfeXFMTkJ0NmV6RjczdTZMUV8yTDFfMEo3U2hFQTNpZWNiY3JfVFktR1c3eXhTUXNlUzNQakZUeFljVUlMc08yNXF2UXc1dEJFWWN4eVNjNjVaeFFsSEdmblNJcDZ6YkVhejYyektkQ2ktamFaZWs4bDJWaUtqNUlqOTloWUEzSUstLXUxNmVHY2dlQlNUNzBpVzYtLVlPeWRuaGdKbVpHc05GR0hXY0tvNzNFOHN2QktEaDFyLUc2RXZhZ0hZa2VCOUt3?oc=5",
-   "source": "Demócrata",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
    "id": "54a8fa26308e",
    "d": "2026-10-23",
    "titre": "Burundi : la PARCEM accuse le pouvoir de verrouiller l’importation des engrais au profit d’une poignée de privilégiés - SOS Médias Burundi",
@@ -46,6 +60,19 @@
    "type": "presse",
    "produits": [
     "azote"
+   ],
+   "auto": true
+  },
+  {
+   "id": "a4d00d823255",
+   "d": "2026-10-22",
+   "titre": "Que se passerait-il pour les États-Unis si la Chine cessait d'exporter des terres rares ? - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcjd4VUNBcTluTnJQMGZySWh5QXJKVnZyTHdVZkpZa3FXaHdlVVZXNzFnNHQ5ZVhLa1M3aExFaHdtLWJ6dF9QaDRUUHl3QzUxaWlFYVFURkNYNUV6SUl6eFRzODdLSU9EX1ltWS1ycWhrVlNrYXRjUDBFdjFVYUVKSDV3UWc?oc=5",
+   "source": "Vietnam.vn",
+   "type": "presse",
+   "produits": [
+    "tr-legeres",
+    "tr-lourdes"
    ],
    "auto": true
   },
@@ -70,6 +97,19 @@
    "type": "presse",
    "produits": [
     "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "feca045ec616",
+   "d": "2026-10-21",
+   "titre": "La Chine limite ses exportations de métaux des terres rares vers le Japon par crainte d'une expansion militaire - Business AM",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeGVJWlZDRGxFaURJajhfVDB0dkVBWjdPbG5na3RiaHRpQzB1cVZILXF3S3ZHUHVzZEZlQmlxZUprM1NMT1NtTnJab0RjbVdNMXRCZ19tMDBpOF9DR2Z1OXhZeUZjdE9yelNBX1g0OGZsV1lyc1JBamtSRk8zU1pxU3djb0xBUUlNSEIxMlUxRV9FOHY0alEzbnVqR0dWcF9nazZwc1ZGM0FvUDI0bUVpYkgwOTBmZEJrc1A2VkpGX3NGSm5OVXRxQXVBdm5HM1FrTVE?oc=5",
+   "source": "Business AM",
+   "type": "presse",
+   "produits": [
+    "tr-legeres",
+    "tr-lourdes"
    ],
    "auto": true
   },
@@ -146,18 +186,6 @@
    "auto": true
   },
   {
-   "id": "7c12c47fcfda",
-   "d": "2026-10-20",
-   "titre": "Cloud souverain Microsoft : l’IA locale sur Azure Local - NeoTeo",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOa0lFb2JtLVRONmhYSFNZcERYRmhqYzNtWG5xSU9OOHREZzA3bXhCMHprUUF3cWpKME5LcWxESHVHRW13NUstVEp1NlF0dmRvN3ZCekVpUFRqYnVsYVJVcEduUUM5ZDA4aDZJTFN4WTRNelppRXJsN2xSUy1CUFdPem1US0tTbWp2dkNR?oc=5",
-   "source": "NeoTeo",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
    "id": "16cd0622052e",
    "d": "2026-10-20",
    "titre": "Souveraineté des engrais : énergie, matières premières et concurrence des importations - Agro Matin",
@@ -178,6 +206,19 @@
    "type": "presse",
    "produits": [
     "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "1af02862b9ea",
+   "d": "2026-10-18",
+   "titre": "La Chine rassure l’Europe, les exportations de terres rares sont garanties même si la trêve commerciale avec les États-Unis venait à prendre fin - Netpublic.fr",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPcjNmY1BDLWp5Wk1oa0w2QWRqWUlVWlpBaW9zOHpLZXFlaXpQWXU0UW9od1hCNEZXdTRmWjV1YWhYWXh6bVBISlE2TC1iSlZDcDd0ZVNqTnU5dlpoT2Q5SFA2SGMzVjQ4Wjhhdmxlc19ISlFEYjNJVFZBTDZpMHdMaWIyRWk0bHItdklkalVrNGF2US1WX29ISXBPVW13eDl1UWloM1RfTURLT09xQmZmSWtYQldfSEhrb2FrZkxmVmx0c0pWTWxRcTVydDYwcjI1YnMzUk5KUUtiYTllRDlRdzdVVjU1OVpQNnRVTWhCLXRLR1FpYXphUDNrZU5QalhEZWFJ?oc=5",
+   "source": "Netpublic.fr",
+   "type": "presse",
+   "produits": [
+    "tr-legeres",
+    "tr-lourdes"
    ],
    "auto": true
   },
@@ -254,35 +295,24 @@
    "auto": true
   },
   {
+   "id": "e2e3275b7a75",
+   "d": "2026-10-12",
+   "titre": "Accord commercial UE-Chine : quotas d'exportation de voitures hybrides et assouplissement des licences sur les terres rares - Actualités et statistiques - IndexBox",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSlVnMUdkVk5NZVRrRVA0TzgzWV9kLU9pZFBCUE4ydUYxblBfUHhyeV9XbmN3S2RHeXdiYUhfcy1ZNUVEV0p2dWlaVHBtdF8xNlkxbXVfY2tGb2t6MGNXVTR4bjloNkFKeHVsRmxHcFExVnhiVUpTN1U3M25QSkh4YXBoamFqdU4tZFhrZVJXRDBZazJUWWM0dktLOGpnNEx3RDRWYWc4U0NtWDdkMTA5VzhQcjRWbHktSllMR1RzX3locExscWc?oc=5",
+   "source": "IndexBox",
+   "type": "presse",
+   "produits": [
+    "tr-legeres",
+    "tr-lourdes"
+   ],
+   "auto": true
+  },
+  {
    "id": "49199c51a6ee",
    "d": "2026-10-12",
    "titre": "AWS Coupe son Cloud Souverain du Monde le 24/10 [2026] - shattered.io",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9uQVRhaFgtekoyR21DVUZkbC1lUkthQUZMTFhMbUFPWUFkWnJPNm5aMGNpX0pFYjJyelRpOGtjcHZ3eW03RmtSWlZOWDE5N2JTTTJBN21iTE1hcHpkNmd0LWJyMUt5SVU0d2NMbmkzR2tQbzBn?oc=5",
    "source": "shattered.io",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "5d71ef378d79",
-   "d": "2026-10-12",
-   "titre": "LightOn dévoile LightOn Suite, sa nouvelle plateforme pour construire des applications IA sur les données de l'entreprise, disponible dès aujourd'hui sur le cloud souverain de Scaleway - TradingView",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmbkJKWEMzWjloNXF0dk9BWk5hcjN4NjlwdGhhWEFBRDVTczFHS3BYeUxvMVdya0tnNlpVaUVTRHRaVHN1dmdYQlh3c0J5NHpNX253dVdxSTRzNV9WamZObW1B?oc=5",
-   "source": "TradingView",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "de7c095a3e20",
-   "d": "2026-10-12",
-   "titre": "Cloud souverain : comment La Suite numérique fait plier la dépendance logicielle - GoodTechInfo",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMkxDWkM3d0E2OW9KZzNkYzl1aHd0cnJVd3A3ZllQS1hQdXItczhscjNWZGhzemtZV1pFcko5bGN1OGw3bGpLX3pvaXBRMjB1aUZmQUZyeElQVU1ueXgtbHhhNmVGdmJPazBoUlFCWmIyazVWNW9VS0pUbFgzX204VUt5WQ?oc=5",
-   "source": "GoodTechInfo",
    "type": "presse",
    "produits": [
     "cloud"
