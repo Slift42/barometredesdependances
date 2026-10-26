@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-25T07:46+00:00",
+ "maj": "2026-10-26T06:10+00:00",
  "items": [
   {
    "id": "9db3db04bda8",
@@ -26,6 +26,18 @@
    "auto": true
   },
   {
+   "id": "073430c6217d",
+   "d": "2026-10-23",
+   "titre": "Telefónica et Indra négocient une alliance pour impulser le cloud souverain en Europe - Demócrata",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS0R4dFpxR2YweXFHOW5VbnlqU0ZRZnFJakJoeFBraWtwRTIwNk9hRlIyemNtUUNxSTBmTGFPeU5Dckc2cFlhcVRRejgxSXk2dFozRVpaMnpsOXVGNm5Sb0tlTTZyS09rNjZxWTZDOHNDdjVSZm84a3VyZzAtRlo0SHZra212Wkk2UXh1SnAyanBjYk91YzZkaDhyUVQ0N0FkXy1heHEwUDVJTHA3ZGlIOHdkcEpwTlZGR2d4WjFuZkPSAcYBQVVfeXFMTkJ0NmV6RjczdTZMUV8yTDFfMEo3U2hFQTNpZWNiY3JfVFktR1c3eXhTUXNlUzNQakZUeFljVUlMc08yNXF2UXc1dEJFWWN4eVNjNjVaeFFsSEdmblNJcDZ6YkVhejYyektkQ2ktamFaZWs4bDJWaUtqNUlqOTloWUEzSUstLXUxNmVHY2dlQlNUNzBpVzYtLVlPeWRuaGdKbVpHc05GR0hXY0tvNzNFOHN2QktEaDFyLUc2RXZhZ0hZa2VCOUt3?oc=5",
+   "source": "Demócrata",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
    "id": "54a8fa26308e",
    "d": "2026-10-23",
    "titre": "Burundi : la PARCEM accuse le pouvoir de verrouiller l’importation des engrais au profit d’une poignée de privilégiés - SOS Médias Burundi",
@@ -34,19 +46,6 @@
    "type": "presse",
    "produits": [
     "azote"
-   ],
-   "auto": true
-  },
-  {
-   "id": "a4d00d823255",
-   "d": "2026-10-22",
-   "titre": "Que se passerait-il pour les États-Unis si la Chine cessait d'exporter des terres rares ? - Vietnam.vn",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcjd4VUNBcTluTnJQMGZySWh5QXJKVnZyTHdVZkpZa3FXaHdlVVZXNzFnNHQ5ZVhLa1M3aExFaHdtLWJ6dF9QaDRUUHl3QzUxaWlFYVFURkNYNUV6SUl6eFRzODdLSU9EX1ltWS1ycWhrVlNrYXRjUDBFdjFVYUVKSDV3UWc?oc=5",
-   "source": "Vietnam.vn",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
    ],
    "auto": true
   },
@@ -71,19 +70,6 @@
    "type": "presse",
    "produits": [
     "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "feca045ec616",
-   "d": "2026-10-21",
-   "titre": "La Chine limite ses exportations de métaux des terres rares vers le Japon par crainte d'une expansion militaire - Business AM",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeGVJWlZDRGxFaURJajhfVDB0dkVBWjdPbG5na3RiaHRpQzB1cVZILXF3S3ZHUHVzZEZlQmlxZUprM1NMT1NtTnJab0RjbVdNMXRCZ19tMDBpOF9DR2Z1OXhZeUZjdE9yelNBX1g0OGZsV1lyc1JBamtSRk8zU1pxU3djb0xBUUlNSEIxMlUxRV9FOHY0alEzbnVqR0dWcF9nazZwc1ZGM0FvUDI0bUVpYkgwOTBmZEJrc1A2VkpGX3NGSm5OVXRxQXVBdm5HM1FrTVE?oc=5",
-   "source": "Business AM",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
    ],
    "auto": true
   },
@@ -196,19 +182,6 @@
    "auto": true
   },
   {
-   "id": "1af02862b9ea",
-   "d": "2026-10-18",
-   "titre": "La Chine rassure l’Europe, les exportations de terres rares sont garanties même si la trêve commerciale avec les États-Unis venait à prendre fin - Netpublic.fr",
-   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPcjNmY1BDLWp5Wk1oa0w2QWRqWUlVWlpBaW9zOHpLZXFlaXpQWXU0UW9od1hCNEZXdTRmWjV1YWhYWXh6bVBISlE2TC1iSlZDcDd0ZVNqTnU5dlpoT2Q5SFA2SGMzVjQ4Wjhhdmxlc19ISlFEYjNJVFZBTDZpMHdMaWIyRWk0bHItdklkalVrNGF2US1WX29ISXBPVW13eDl1UWloM1RfTURLT09xQmZmSWtYQldfSEhrb2FrZkxmVmx0c0pWTWxRcTVydDYwcjI1YnMzUk5KUUtiYTllRDlRdzdVVjU1OVpQNnRVTWhCLXRLR1FpYXphUDNrZU5QalhEZWFJ?oc=5",
-   "source": "Netpublic.fr",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
-   ],
-   "auto": true
-  },
-  {
    "id": "4c2c662fd90d",
    "d": "2026-10-18",
    "titre": "Chronique des matières premières - Comment Donald Trump a réussi à faire bondir les prix de l'acier aux États-Unis - RFI",
@@ -217,19 +190,6 @@
    "type": "presse",
    "produits": [
     "acier"
-   ],
-   "auto": true
-  },
-  {
-   "id": "2eb5b2d16728",
-   "d": "2026-10-16",
-   "titre": "La Chine s'est engagée à continuer de fournir des terres rares à l'UE malgré l'échéance de son accord commercial avec les États-Unis. - Vietnam.vn",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSlFkSjMwVUwxX1VTTGdsWFlaQjBwMHpWSFd3RzNlUnVMMnZCcFZQUjRRVWF4M1BSRkJaeXA1NC1pNFZiZEd2QnFockpEUlFLRmtrS2lfOTRHaENZbmJ0OGg1clRGcXlhRnJvRm00dXFDdXgyN0NkRy1YYWhsQW9kblI1LWl1Y09zVG5EdGZqZm96UkVFMU9jZmpMdmJ6VGFOTWE2ckZtTUExMzAtckR5T3BJb29HVlQ4WWJKakE0TUZjc00?oc=5",
-   "source": "Vietnam.vn",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
    ],
    "auto": true
   },
@@ -294,19 +254,6 @@
    "auto": true
   },
   {
-   "id": "e2e3275b7a75",
-   "d": "2026-10-12",
-   "titre": "Accord commercial UE-Chine : quotas d'exportation de voitures hybrides et assouplissement des licences sur les terres rares - Actualités et statistiques - IndexBox",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSlVnMUdkVk5NZVRrRVA0TzgzWV9kLU9pZFBCUE4ydUYxblBfUHhyeV9XbmN3S2RHeXdiYUhfcy1ZNUVEV0p2dWlaVHBtdF8xNlkxbXVfY2tGb2t6MGNXVTR4bjloNkFKeHVsRmxHcFExVnhiVUpTN1U3M25QSkh4YXBoamFqdU4tZFhrZVJXRDBZazJUWWM0dktLOGpnNEx3RDRWYWc4U0NtWDdkMTA5VzhQcjRWbHktSllMR1RzX3locExscWc?oc=5",
-   "source": "IndexBox",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
-   ],
-   "auto": true
-  },
-  {
    "id": "49199c51a6ee",
    "d": "2026-10-12",
    "titre": "AWS Coupe son Cloud Souverain du Monde le 24/10 [2026] - shattered.io",
@@ -331,24 +278,11 @@
    "auto": true
   },
   {
-   "id": "14b18e4bd79e",
-   "d": "2026-10-11",
-   "titre": "Pourquoi la Chine et l’Europe négocient sur les voitures hybrides et les terres rares - Clubic",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTXAwSHFfbUFGYUdTeFZhZTlfSjBrR2thcVRBLXpudTM0TVc1TEg1Z2NsaWljZFNRV0FpOXdFVDZrZWtPaHZJcDRjRVl4NXdsclItRXJBdkwzZjJnZ0R1VGlLdFNQXzVSUi0wUzZVRU9XTkYwZkxxbF8yYTFYckxqMGdHMk9OOE1pSUM1WFJXeGdGd2lOa0RPUkw4RHE4Znd2QndIMWp5dktSVGRXaEtmYS1vckdRb3RndnNYZkJSSWZ5UF80ZGZtdkhR?oc=5",
-   "source": "Clubic",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
-   ],
-   "auto": true
-  },
-  {
-   "id": "14d14348ebe7",
-   "d": "2026-10-11",
-   "titre": "Où dorment vos e-mails ? Ce que le débat sur SecNumCloud dit du mail professionnel des entreprises - Le Quotidien de l'Entreprise",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeUlGRWtBbW45ZUI3SlVrTzBXM2tMUEtaUHBVOUU0dmVlOUlRLXdhdDdBXzJ1Q1hDNXFzbzNaX1QtbHFPNkoyQ2NNMUwwUlhDN2JSTlVrOGpRMFRiS2xKaWowQzk4eEhIYzRnb0x1SkVOOHltSjBrbVFRY2FsZllZQ05vM09PLWVKcGJGVGhVR2dlakZJVzVEd2RkV0p0X2JOMEVIdENScGJzaWp0ZmFUUmFoY2ZJckozbUhzR0dnRHFjR0t2bWE0VmZpMG90TnhTMjZwVGVDQXdGWE0?oc=5",
-   "source": "Le Quotidien de l'Entreprise",
+   "id": "de7c095a3e20",
+   "d": "2026-10-12",
+   "titre": "Cloud souverain : comment La Suite numérique fait plier la dépendance logicielle - GoodTechInfo",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMkxDWkM3d0E2OW9KZzNkYzl1aHd0cnJVd3A3ZllQS1hQdXItczhscjNWZGhzemtZV1pFcko5bGN1OGw3bGpLX3pvaXBRMjB1aUZmQUZyeElQVU1ueXgtbHhhNmVGdmJPazBoUlFCWmIyazVWNW9VS0pUbFgzX204VUt5WQ?oc=5",
+   "source": "GoodTechInfo",
    "type": "presse",
    "produits": [
     "cloud"
