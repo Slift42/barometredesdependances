@@ -1,12 +1,36 @@
 {
- "maj": "2026-10-27T07:56+00:00",
+ "maj": "2026-10-28T08:09+00:00",
  "items": [
+  {
+   "id": "5478fecb6390",
+   "d": "2026-10-27",
+   "titre": "Ecritel lance son offre de cloud souverain - Les Echos",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOU42bWpkcEFEQ3VHdjB4d0ZSd3lOQmFjbF9weENCTERRZVNjWnBnZEJ1cnQ1UUpYOGdCb3lEVnFveWJMekViMFAzMHQ2bTFnRWg5eGRKYzk4d3ZSX05LUFBXcGJUUGRka25MUm5KcmxXUGw4eTI2aUZ4WVRaMGEtdEVUdEFqOXNsNk94X0w5aXpTTmRfWjNRZFRZWQ?oc=5",
+   "source": "Les Echos",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
   {
    "id": "c3fb719890d8",
    "d": "2026-10-27",
    "titre": "Chorus : l’AIFE va étudier une migration vers un cloud SecNumCloud - ITforBusiness.fr",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOUlqcmdQdUlRNm9pWVphQXVGZHN3bUlWb2swSjk2VXJ3Yk1hTEdDN3VLZ3kxaXkwbElmSG81Z1VCUHdWWm5TQXVzRzMzOFkzNHEtZEdpX2VKSTM5VzA5TjNGU1piM01senotWndzVUdlT21VTkU5Uk5fS0JtVGJmcA?oc=5",
    "source": "ITforBusiness.fr",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "5113e2e8c7c9",
+   "d": "2026-10-27",
+   "titre": "Nutanix amène sa plateforme vers le cloud souverain d’AWS - ITdaily.",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91TTFMTDY3SHlqSzJ1OWhSQ2FDdklkTkpkRjluZGRXZFRaa29valgzR0t5eWdBTDJ1UXBJa1p0X1UzbTlqZW4xSnpkTWdmUzVPVlo3enhJTEJfcVFVY292YzZOQ2dKbmZDTzZBRVdzSG13VlUwV3c?oc=5",
+   "source": "ITdaily.",
    "type": "presse",
    "produits": [
     "cloud"
@@ -39,11 +63,11 @@
    "auto": true
   },
   {
-   "id": "073430c6217d",
+   "id": "9db3db04bda8",
    "d": "2026-10-23",
-   "titre": "Telefónica et Indra négocient une alliance pour impulser le cloud souverain en Europe - Demócrata",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS0R4dFpxR2YweXFHOW5VbnlqU0ZRZnFJakJoeFBraWtwRTIwNk9hRlIyemNtUUNxSTBmTGFPeU5Dckc2cFlhcVRRejgxSXk2dFozRVpaMnpsOXVGNm5Sb0tlTTZyS09rNjZxWTZDOHNDdjVSZm84a3VyZzAtRlo0SHZra212Wkk2UXh1SnAyanBjYk91YzZkaDhyUVQ0N0FkXy1heHEwUDVJTHA3ZGlIOHdkcEpwTlZGR2d4WjFuZkPSAcYBQVVfeXFMTkJ0NmV6RjczdTZMUV8yTDFfMEo3U2hFQTNpZWNiY3JfVFktR1c3eXhTUXNlUzNQakZUeFljVUlMc08yNXF2UXc1dEJFWWN4eVNjNjVaeFFsSEdmblNJcDZ6YkVhejYyektkQ2ktamFaZWs4bDJWaUtqNUlqOTloWUEzSUstLXUxNmVHY2dlQlNUNzBpVzYtLVlPeWRuaGdKbVpHc05GR0hXY0tvNzNFOHN2QktEaDFyLUc2RXZhZ0hZa2VCOUt3?oc=5",
-   "source": "Demócrata",
+   "titre": "La Défense néerlandaise choisit SAP pour un environnement cloud souverain - ITdaily.",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM3U2b3JrUkR6b2FDa2dXSjZnUUx1endGUUJ3TGQteTZRNkRNUDJmOWdfNnQ5allXRUt4eU5DWnRRUk90bHJRZXpZbDNQQmdmT0dhdTR3MDd2SGI4T2tybEh0WkN0ZF91YllhLW5ubHFqd2Y2d2ZoSG5qMjRHUWhfV0hBRC1mUQ?oc=5",
+   "source": "ITdaily.",
    "type": "presse",
    "produits": [
     "cloud"
@@ -88,6 +112,42 @@
    "auto": true
   },
   {
+   "id": "e0664b664db6",
+   "d": "2026-10-22",
+   "titre": "Azure renforce son cloud souverain avec un audit chiffré et le calcul confidentiel pour l'IA - Foro3D",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbnNfSVV6cXVXOGUwVFlsY0YyeUlFOTk4UjN2LUdmSzlUMElid1Jka0FoUFFvVjRnN1dCeFFESTBUV1FBVTVnUWlQVXZqWXhBa2ozNVRDcDlwOE5ZVkowZkJ6aW9xN09HUkUxSFRnSk0wb1Q3TkdiZ0x2T2E0ZE9QUEIwMGhLcHRCMFRpOHp0OU1WMmRnOHFIVm1PdkxWYzhIb3RhVDJMVFVTdXdsYmtN?oc=5",
+   "source": "Foro3D",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "c93032881947",
+   "d": "2026-10-21",
+   "titre": "Cloud souverain : un surcoût pénalisant pour l’économie européenne ? Vraiment ? - ITforBusiness.fr",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaERLbmJaX0NOQUJ0NTl5dVVrWHZmQVpwSkNXTWI2bElRUmg5a3VNZEFFN2NWMVUzNVFqamtCQUYzVVdkLUlneFl2NkNCNjUxb0NmX2lqQU5UbHJ2REZKUW9ESUwzbURjT2VTamdtWExtZVhlakFTVnNfZFVuYWM4SVIxMkttUFZ0OUZMLUZSd05rcy1RZElCV1F1T29YSGJ1UUc3eTUwNFBLOThF?oc=5",
+   "source": "ITforBusiness.fr",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "921c100d01d4",
+   "d": "2026-10-21",
+   "titre": "Un cloud sans Internet peut-il faire tourner l’IA ? Clarence Cloud explore la piste - Clubic",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb040R2VVbmxQTTZhbHRJN1BBYzZPN0pFQ2hhNDRnMVdZU0RxSFltdVlzV3MzZEU1b2k5R0JaTnB0NXVTRjlaXzFjX18yN28xeHFNNjd6cEhLWmFyb1FVVFN2TmswdjVZTlZ2RjEyeVFqZmpVMGtJcVhYcTk4a1ZxU1c1NEtWbklscFdNYS1YVTE0NG5mVEcwdkdTbTkwWTZEZUtWSENQVWZpb3FnZTloY04wcXVWcXNEYkRUdi1B?oc=5",
+   "source": "Clubic",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
    "id": "56ae3d6e90a9",
    "d": "2026-10-21",
    "titre": "Engrais : TMG et l’indonésien Turrima envisagent une usine de 8,8 milliards de FCFA au Cameroun - Investir au Cameroun",
@@ -96,6 +156,42 @@
    "type": "presse",
    "produits": [
     "azote"
+   ],
+   "auto": true
+  },
+  {
+   "id": "5a09f20ee453",
+   "d": "2026-10-20",
+   "titre": "Le cloud souverain de Microsoft peut-il vraiment échapper au droit américain ? - lebigdata.fr",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmWTFSNFA1Z1VPMC1iNk5uLWZFdDY2WlJhLU1XVDhPcDFpaWdVUEZSMjV1aFU4TjFVRk5xcWxUNFdkYnVlb2xIQm1Bb1NQU1JrNXBfTVJENTlza2tmSnVTUW5FX2p5dUJwU1JOOFZLZ2ZDYWN6Sy1F?oc=5",
+   "source": "lebigdata.fr",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "4d523e89376f",
+   "d": "2026-10-20",
+   "titre": "Microsoft étend son Cloud Souverain avec des clés sur matériel propre - ITdaily.",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSkJ1aGJ2aEZ0R2M1eWtmdnlmQXV2a2hYcnVBYnBQci1zQzhhR3RpVkNkQXZuUEJhSnI0LWIxeFBxdk1DNFZwM0FIcVgyR1RaR2FXMUhvRDUtV0dpMExUTjctNzgwV2hsSUZneGtpWTJFdXpJQ1JROUFXMVJ0UEsyWE9uRGhaY1FUdjUtc2NxbDlDWk5mQ2hIVWxn?oc=5",
+   "source": "ITdaily.",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "30ed7399fdf3",
+   "d": "2026-10-20",
+   "titre": "Ecritel et Hiléo lancent un cloud souverain « Data Act Ready » - Presse Agence",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0RsX3diOTZIaWFfd01WWFMyY19EOTJXNWhIYlVFc2ppVlFXYUhpVG1EcTNxRXZZRG5tNlh3TUxsU2N3OS14czh2VkpCb3Fib3BEZWpBaUJzQm9RQnN0Nk0zaFd2dm5HeFNialFSYlNMcFdkcER6LThVNm9KS0VMZ3VPeWZEMEVwLUVUUHhMVnlGeTVITm1fZ3FJbmNrQW53ZFRIWjdqRDQ3TFdVRUU3YWZDOGtla0I5UVE?oc=5",
+   "source": "Presse Agence",
+   "type": "presse",
+   "produits": [
+    "cloud"
    ],
    "auto": true
   },
@@ -112,26 +208,50 @@
    "auto": true
   },
   {
-   "id": "d2f443da9f0b",
-   "d": "2026-10-14",
-   "titre": "Le Maroc intéressé? Les importations mondiales d’engrais azotés ont reculé de 2,8 % - هبة بريس",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4zREdERVd0bGxFOUZ0cnFmdTd3YmZ3S2FsS09uSGg1TDRERm9KSHdwLWgwM1R4N2dpZGViWWMzVjYtSVc4c05YbE11UTNjVm5zbkhN?oc=5",
-   "source": "هبة بريس",
+   "id": "3efdc9455ad1",
+   "d": "2026-10-19",
+   "titre": "G7 choisit le cloud SecNumCloud de S3NS - Le Monde Informatique",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPb1FQaW50Z3dxQUZ0NW84RUdPdkUtLWJNSDJYdG54SGQyWEcwUnlwYUlMMjV2Uzc5c194YVVjOEZrM195LXA3ZnFzTUF5N2tRVVFrN1dIeV9fU1VlTy0tU1R1QnQzel9kVGpBMVEyU0U2Y29memdiak4xM3Z4eHJMYUxHYVhvVEpkdW80ZWpxaTVVZUlXT3FTSHJMVU9wUzlBM0VMdNIBqAFBVV95cUxPbnh4ZU5WdFU3M3JHWGpWSWlaOU9EN2FmSHZub29ZWlBCTUxHeGEwUllRQjFxazd4NDNsY2Q1bGJVX3h5TExleWpOeTUzbGFZaGJWN2FsM21KN0d4bnFwc241bDhjQWhXeEstUDRXVlJoMVJzMURic0s2cVBuNFN0TEJRVUd6UDhZajFPYmo2bWlZc1Fzb3lHcU1fRTJ2RjhtVndrdHkyRlE?oc=5",
+   "source": "Le Monde Informatique",
    "type": "presse",
    "produits": [
-    "azote"
+    "cloud"
    ],
    "auto": true
   },
   {
-   "id": "5b262aed456f",
-   "d": "2026-10-13",
-   "titre": "Les importations lettones d’engrais marocains reculent de 65,5 % sur huit mois - برلمان.كوم",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeW1Ha0dwVHZKQmUzYmFjZHhqeHBlUEl2dUJDWDBUUThNalpYWk5idW41ZTBCZjZxS1NtQmFUUnVPc0x2Vm5BM2NKdW5aT1hsX0ZmRjd6ajhVd1Zvd3o4LWs4S2ZjN3U4eXkzdVlZSExHc1BPUm5nMGZOVmszcUNPU0NQdFpTT1NLOWxmdUttV1N0T2pOVzI1ZURVbGoweE41dkE?oc=5",
-   "source": "برلمان.كوم",
+   "id": "23fcc1cdd431",
+   "d": "2026-10-17",
+   "titre": "Cloud Souverain UE : le CADA Vise 72% de Parts AWS-Azure-GCP [2026] - shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV0JrWmVzMkhlanJwa0RoNTNpUXpwN1lHQmdzX21RUWQ0TDZFV1JXaUNYNHpMZXJKSzFXaDl0UURaemEzYldWcjRlWnNWOG5vVmpqNVR1QVZCR1pjelJwY3p4eXFGeHhUcUw0cHVfNzVRc05kc0habExIS29WVjZHZ1pOQQ?oc=5",
+   "source": "shattered.io",
    "type": "presse",
    "produits": [
-    "azote"
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "5b499d3c88d1",
+   "d": "2026-10-15",
+   "titre": "Un cloud souverain pour la France : Snowflake et Bleu - Snowflake",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5lUGZWc3Z0eFhpRHI0ZjFpcThGUGJrWGFuX1ZYQmlKQlRaeGZEaFFtb295Zy1jT2dVR0ptZ2pIUVhsbHZPTHF0Z2ZZUXFfZWVwdlZoWmJwbUdYQV9lZW03ZUF4Mi1va0Y1VUwyTWVhYW1tUmk0MTMtS1NuUkI?oc=5",
+   "source": "Snowflake",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "62d25e27337e",
+   "d": "2026-10-14",
+   "titre": "Au-delà du cloud souverain : la dépendance aux logiciels métiers - JDN",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaDdRMGlNYTh3VkpXUGlKdTNwcWhLREFJMzJ3MHhvYkMwSGROX2xKd1N4SmpURGZfcThpOE5VY3Z3dkJuWWtQMkoyOWV3ZTQyV1ZYRGxzQm1rMWVYWVlNSXpkMTR1ajh1TlRnLVhObjRtRFZzMWtQdnRNdE9nWldoRDFDcUpSUWlnRXJkX25QSVhjYzVvTUJ0YVRkcnFweWk0WkJqUWt6djYzWl9zVGh5WmpiaTRjSVpqUXZXYmN5WGIxZUla?oc=5",
+   "source": "JDN",
+   "type": "presse",
+   "produits": [
+    "cloud"
    ],
    "auto": true
   }
