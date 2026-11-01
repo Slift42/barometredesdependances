@@ -1,6 +1,18 @@
 {
- "maj": "2026-10-31T13:40+00:00",
+ "maj": "2026-11-01T14:17+00:00",
  "items": [
+  {
+   "id": "2fc2bda611d6",
+   "d": "2026-10-31",
+   "titre": "Engrais : dépendant à 80 % des importations, ce pays d’Asie se tourne vers l’Algérie - Algerie360",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1KYXRjd2h1bEd4WUJ5MWExWWNBeVJvNXhLeFJMQU5qZGJsbmhBOE5ZQVUxb2dBU3BvQUF0NHAtMHI5MlAyMWFLYzJVTVhWcFZiS2xxakdlTFZwbXlWS1RHQ2E2TUlhQzc3M3k5VWtZRUo3RGwxdkE?oc=5",
+   "source": "Algerie360",
+   "type": "presse",
+   "produits": [
+    "azote"
+   ],
+   "auto": true
+  },
   {
    "id": "8e2baa5285c6",
    "d": "2026-10-30",
@@ -10,18 +22,6 @@
    "type": "presse",
    "produits": [
     "puces-matures"
-   ],
-   "auto": true
-  },
-  {
-   "id": "ce7f9fe42843",
-   "d": "2026-10-30",
-   "titre": "SecNumCloud, HDS, ISO 27001, SOC 2 : 4 Labels [2026] - tech-insider.org",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoRENMbE5BLXJEOXcxdm8wWG5zMGJXZ2lLMkN4VmxYNjlNYXc0OE9fWjN0LW5la01tcFUzdFFMNlpaWF81NnFQOEVOcEVxbUxJdFNVdmtJcXVkVExkR1pTVWMxSDZHV2tRTTBEa0lna0JyYTVMZS03N3dnVHRQalE?oc=5",
-   "source": "tech-insider.org",
-   "type": "presse",
-   "produits": [
-    "cloud"
    ],
    "auto": true
   },
@@ -50,26 +50,14 @@
    "auto": true
   },
   {
-   "id": "5647c1e7bcaf",
+   "id": "ce7f9fe42843",
    "d": "2026-10-30",
-   "titre": "Les importations européennes d’engrais marocains chutent à 655 000 tonnes de janvier à août - برلمان.كوم",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZ2dnUWQ3WGJvWk5JdWJYSjV0QUJnam1QcUZwSzh4d09GUE15SjF4LUlQcm81eFluTVIyUF9GR0ZqVzBzQ3FsZ2FtaE1HazBvOGJqbTdneVMxZ1RnQnQyamh2Q2ZpS2Mwd2l2aUN3R3lQZUFBajhjY2luOE1DS20yNWdJZHYzNU1rQ1ZGa3VfeE1OVnh6UDJoRWZiVFhVdWpzNmlPNS16dUNtVzhMT0VEZFZCX0lXS1k?oc=5",
-   "source": "برلمان.كوم",
+   "titre": "SecNumCloud, HDS, ISO 27001, SOC 2 : 4 Labels [2026] - tech-insider.org",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoRENMbE5BLXJEOXcxdm8wWG5zMGJXZ2lLMkN4VmxYNjlNYXc0OE9fWjN0LW5la01tcFUzdFFMNlpaWF81NnFQOEVOcEVxbUxJdFNVdmtJcXVkVExkR1pTVWMxSDZHV2tRTTBEa0lna0JyYTVMZS03N3dnVHRQalE?oc=5",
+   "source": "tech-insider.org",
    "type": "presse",
    "produits": [
-    "azote"
-   ],
-   "auto": true
-  },
-  {
-   "id": "bd2aa3b63b0a",
-   "d": "2026-10-30",
-   "titre": "Engrais : l'espagnol Técnicas Reunidas se positionne sur de grands projets industriels - AGENCE ECOFIN",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMmtkV1Y1SHNFMEctejR5S2YyYTVGUllzejFlMV9MdlZQMUNzTzRDYUtEMXdQMlhxeG9uRUNKcXE0RVZFc2U2a1NoU1pIVkpZY2xCNFNCVzdwX09nUE1hRDQtZTBtV3gtYUJvVUlUYjlJbGtqdWhnUmZwbG9ib2I3b0p0QlhZWEFuRkVROV9mVkdKQ0V2dFhsWUw1dkNVc0ZyRk82czFkbWFKZWVMdkVWWW1VbzdSWHBzU3JtSDVXUkxvVHN4YXBxS1QzcThsMlpE?oc=5",
-   "source": "AGENCE ECOFIN",
-   "type": "presse",
-   "produits": [
-    "azote"
+    "cloud"
    ],
    "auto": true
   },
@@ -194,18 +182,6 @@
    "auto": true
   },
   {
-   "id": "0fcb04fd264e",
-   "d": "2026-10-26",
-   "titre": "Test du cloud souverain AWS : exercice rapporté - NeoTeo",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQekJWbEVISXlqcFBTQV9iVU5tZjlJQW81UDFoeUkyaDFycExHUG1sVl9OeXNEekxtRVlHSDYyTVpqMDVyNjczaDY0eHJWMlRHdFFqV2g0N29vTkZEWXBrSXFjLUJ2dGhydWhUS2NOSjQ2bjgtMExxYUhfM0dqU0p6RThrQ2EyUm5MQzF1Zm91bTdCbGc?oc=5",
-   "source": "NeoTeo",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
    "id": "9db3db04bda8",
    "d": "2026-10-23",
    "titre": "La Défense néerlandaise choisit SAP pour un environnement cloud souverain - ITdaily.",
@@ -295,30 +271,6 @@
    "titre": "G7 choisit le cloud SecNumCloud de S3NS - Le Monde Informatique",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPb1FQaW50Z3dxQUZ0NW84RUdPdkUtLWJNSDJYdG54SGQyWEcwUnlwYUlMMjV2Uzc5c194YVVjOEZrM195LXA3ZnFzTUF5N2tRVVFrN1dIeV9fU1VlTy0tU1R1QnQzel9kVGpBMVEyU0U2Y29memdiak4xM3Z4eHJMYUxHYVhvVEpkdW80ZWpxaTVVZUlXT3FTSHJMVU9wUzlBM0VMdNIBqAFBVV95cUxPbnh4ZU5WdFU3M3JHWGpWSWlaOU9EN2FmSHZub29ZWlBCTUxHeGEwUllRQjFxazd4NDNsY2Q1bGJVX3h5TExleWpOeTUzbGFZaGJWN2FsM21KN0d4bnFwc241bDhjQWhXeEstUDRXVlJoMVJzMURic0s2cVBuNFN0TEJRVUd6UDhZajFPYmo2bWlZc1Fzb3lHcU1fRTJ2RjhtVndrdHkyRlE?oc=5",
    "source": "Le Monde Informatique",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "23fcc1cdd431",
-   "d": "2026-10-17",
-   "titre": "Cloud Souverain UE : le CADA Vise 72% de Parts AWS-Azure-GCP [2026] - shattered.io",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV0JrWmVzMkhlanJwa0RoNTNpUXpwN1lHQmdzX21RUWQ0TDZFV1JXaUNYNHpMZXJKSzFXaDl0UURaemEzYldWcjRlWnNWOG5vVmpqNVR1QVZCR1pjelJwY3p4eXFGeHhUcUw0cHVfNzVRc05kc0habExIS29WVjZHZ1pOQQ?oc=5",
-   "source": "shattered.io",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "76aa7875272e",
-   "d": "2026-10-17",
-   "titre": "AWS Ouvre un Cloud Souverain en UE : 7,8 Md€ [2026] - shattered.io",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1waDJOZVh3a3dGMFp3RXZMOXpkRV85ay1ITVVIZDZyLUp6TzN3NzJnYmN5Z1hxVHJhTTVHeVVCb25kWnl2NnhrZHI5VENLUHlyUkRUaWxRSHRuRHE5OEM3Q3VBckdEaUlGcU5uMVF3SHFSYXBwb1cwRnIyZw?oc=5",
-   "source": "shattered.io",
    "type": "presse",
    "produits": [
     "cloud"
