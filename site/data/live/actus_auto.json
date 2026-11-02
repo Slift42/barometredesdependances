@@ -1,18 +1,6 @@
 {
- "maj": "2026-11-01T14:17+00:00",
+ "maj": "2026-11-02T06:34+00:00",
  "items": [
-  {
-   "id": "2fc2bda611d6",
-   "d": "2026-10-31",
-   "titre": "Engrais : dépendant à 80 % des importations, ce pays d’Asie se tourne vers l’Algérie - Algerie360",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1KYXRjd2h1bEd4WUJ5MWExWWNBeVJvNXhLeFJMQU5qZGJsbmhBOE5ZQVUxb2dBU3BvQUF0NHAtMHI5MlAyMWFLYzJVTVhWcFZiS2xxakdlTFZwbXlWS1RHQ2E2TUlhQzc3M3k5VWtZRUo3RGwxdkE?oc=5",
-   "source": "Algerie360",
-   "type": "presse",
-   "produits": [
-    "azote"
-   ],
-   "auto": true
-  },
   {
    "id": "8e2baa5285c6",
    "d": "2026-10-30",
@@ -22,18 +10,6 @@
    "type": "presse",
    "produits": [
     "puces-matures"
-   ],
-   "auto": true
-  },
-  {
-   "id": "f561e5ec6b3f",
-   "d": "2026-10-30",
-   "titre": "La Fréjusienne Hiléo intègre le groupe Ecritel et lance un cloud souverain sans engagement pour les PME - Nice-Matin",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUXp1anIyOXlmYWw3dmVraEcwYTVMZTUyQlFiWGllSzJoN21zM2pSQTZ6U3N5VjZCNjFvZ3ZrSnFheFF2dVpYejJqVXROWlZHUHJWMzVYMDhWc2FLZUlpNWZxYkRNQXI5bzktQ05jR0tQeGxOMzk0ZGZSMk1JX1JNRjFueFA2UlBHOXN1UFJOVzBPWjVMRGFWZTdTRFI1Z1hMQTctcVFseUZ1dXdtS1JZak5GVklwZEZCN2tPZHhUb3BDZ0VxNmR2SkR5TEJQWlVNLVdaT29KSzFVUHJZZmRwQg?oc=5",
-   "source": "Nice-Matin",
-   "type": "presse",
-   "produits": [
-    "cloud"
    ],
    "auto": true
   },
@@ -50,6 +26,18 @@
    "auto": true
   },
   {
+   "id": "f561e5ec6b3f",
+   "d": "2026-10-30",
+   "titre": "La Fréjusienne Hiléo intègre le groupe Ecritel et lance un cloud souverain sans engagement pour les PME - Nice-Matin",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUXp1anIyOXlmYWw3dmVraEcwYTVMZTUyQlFiWGllSzJoN21zM2pSQTZ6U3N5VjZCNjFvZ3ZrSnFheFF2dVpYejJqVXROWlZHUHJWMzVYMDhWc2FLZUlpNWZxYkRNQXI5bzktQ05jR0tQeGxOMzk0ZGZSMk1JX1JNRjFueFA2UlBHOXN1UFJOVzBPWjVMRGFWZTdTRFI1Z1hMQTctcVFseUZ1dXdtS1JZak5GVklwZEZCN2tPZHhUb3BDZ0VxNmR2SkR5TEJQWlVNLVdaT29KSzFVUHJZZmRwQg?oc=5",
+   "source": "Nice-Matin",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
    "id": "ce7f9fe42843",
    "d": "2026-10-30",
    "titre": "SecNumCloud, HDS, ISO 27001, SOC 2 : 4 Labels [2026] - tech-insider.org",
@@ -58,6 +46,18 @@
    "type": "presse",
    "produits": [
     "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "5647c1e7bcaf",
+   "d": "2026-10-30",
+   "titre": "Les importations européennes d’engrais marocains chutent à 655 000 tonnes de janvier à août - برلمان.كوم",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZ2dnUWQ3WGJvWk5JdWJYSjV0QUJnam1QcUZwSzh4d09GUE15SjF4LUlQcm81eFluTVIyUF9GR0ZqVzBzQ3FsZ2FtaE1HazBvOGJqbTdneVMxZ1RnQnQyamh2Q2ZpS2Mwd2l2aUN3R3lQZUFBajhjY2luOE1DS20yNWdJZHYzNU1rQ1ZGa3VfeE1OVnh6UDJoRWZiVFhVdWpzNmlPNS16dUNtVzhMT0VEZFZCX0lXS1k?oc=5",
+   "source": "برلمان.كوم",
+   "type": "presse",
+   "produits": [
+    "azote"
    ],
    "auto": true
   },
@@ -182,6 +182,19 @@
    "auto": true
   },
   {
+   "id": "aa9499b7087b",
+   "d": "2026-10-26",
+   "titre": "Togo : l’UEMOA mise sur la transformation du phosphate local pour réduire les importations d’engrais - Togo First",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOaFVRY0I1LTQ0UjV4OHpUMXhKVDllTFIybjZBSU1JQTYyM3g1X1R4OE9YQ2Fsb3NCOHlJQ1ZFS3FIWFo5S1VLMlJyYzJ5ZzlSUXRCQ3hBMG9kXzVDbzF2eUItR0Z6bU1tR3V5RFVDb3dGNlVfbmZlVEx5TWJ6RlNHRm1FLTBqQnNYSDNXSVZKYkJpTk9ZenIxT3YyZ2R0dmxJRW5qUmpGb1RlZFhUS0t5Wmd3YWtYbnRZZFhtSGdYUkd2eFpfMy1xMXV3V3Q1Rm9xRnhJT2ZHUm5tc3c?oc=5",
+   "source": "Togo First",
+   "type": "presse",
+   "produits": [
+    "azote",
+    "phosphates"
+   ],
+   "auto": true
+  },
+  {
    "id": "9db3db04bda8",
    "d": "2026-10-23",
    "titre": "La Défense néerlandaise choisit SAP pour un environnement cloud souverain - ITdaily.",
@@ -206,6 +219,31 @@
    "auto": true
   },
   {
+   "id": "91fbabe8baf4",
+   "d": "2026-10-23",
+   "titre": "Armes, drones, munitions : pourquoi l'Europe veut acheter davantage européen - Touteleurope.eu",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcjJRMjF6UEZ3U2RSaURTVHpFSkQxYXhEUC1rN21CSlgwOEhTLWZqWmItVUVrVTk2MDVObmxEcGVBQXBOblR3SzhlUlVFVFBjeXhGc1JRRGlhMlVoT1RmN1I5RmxueDFqd0xCWUNGLV9zWDBsWDJfV2o4OWdpV2RWZDFiZVBqbmlpdUVrX2hQZlhIa2IzdHdFeEc5NmF3SlNUN1U5S3BsZk1xZmdUOVFGNHFOTG1ScUctdGdvTQ?oc=5",
+   "source": "Touteleurope.eu",
+   "type": "presse",
+   "produits": [
+    "drones",
+    "petit-calibre"
+   ],
+   "auto": true
+  },
+  {
+   "id": "54a8fa26308e",
+   "d": "2026-10-23",
+   "titre": "Burundi : la PARCEM accuse le pouvoir de verrouiller l’importation des engrais au profit d’une poignée de privilégiés - SOS Médias Burundi",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNThCZEJrQW93di0yQTVZZE5TdG5zV0JfOHhibklNVkJWOFlxZ202azMzRXlPOHFsc1V1cE93XzFTbTViTDgxVGRZRXRRek1DblpILW5YMUhPbFVlUk5GbUhYSldVSWNlbTlFWDZHVTZfTENWNlo3UDBLSVN1cjBPQjA5OFRvSDhkVVhubW0xWGdUZzNqS1h0cUdLNmhIQ1ZaMnI3QXRNN2RMX0tORGRzOFBra3Z2Y0l0ZHR6OXpQSEJtbTNEX1djZVFyRTQ2NnZtTUtJZDJ4VjNCOEYwbFphNjJkVWZueHpGV1RGLVE1NA?oc=5",
+   "source": "SOS Médias Burundi",
+   "type": "presse",
+   "produits": [
+    "azote"
+   ],
+   "auto": true
+  },
+  {
    "id": "6a6ddf3d6269",
    "d": "2026-10-22",
    "titre": "L’Amérique du Nord, marché de l’antimoine à la croissance la plus rapide : échéance des exportations chinoises, risques d’approvisionnement et perspectives 2034 - Actualités et statistiques - IndexBox",
@@ -226,6 +264,18 @@
    "type": "presse",
    "produits": [
     "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "56ae3d6e90a9",
+   "d": "2026-10-21",
+   "titre": "Engrais : TMG et l’indonésien Turrima envisagent une usine de 8,8 milliards de FCFA au Cameroun - Investir au Cameroun",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPR192QXEwTHQ2ZkI4MnVPMDg3NjNZemlwcmthVlk4RVNwOGpUckx1cDFFRDRLVzJkYjZrTG5QSGdwRkxUTlBkUWltT3pwT0ZRbzUzZFpaQnludWhtODNmQUVjYlp6QTFVblhKbmNGMWh3S3h1Uk02bnU0cTZHdVFGTXJsS2tJcjRQYmh3S0pZVENZWUNXZU1ybm96b2xmdjJVY3RfbURXd0p2NFVIVE1QX1p3cTlLMlRmOVZkeDhWOWZlRjY2ZTQxeXRDUkxrSUE0VkgzWk9FcGRVcFRmY1g1Z0lnOGt1QQ?oc=5",
+   "source": "Investir au Cameroun",
+   "type": "presse",
+   "produits": [
+    "azote"
    ],
    "auto": true
   },
@@ -262,6 +312,18 @@
    "type": "presse",
    "produits": [
     "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "16cd0622052e",
+   "d": "2026-10-20",
+   "titre": "Souveraineté des engrais : énergie, matières premières et concurrence des importations - Agro Matin",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOVkhhLVNJSXpHRWx3WlUtOU1iMVZvY25WckFLR1VxdFJSa3lZY3BxSEFQajBrUXlLQjJXbEtsdDJfVU1DWVpUVjh1OG1Vd3c2dW5aYVpkeWxUQ2R1Z3pCVmVmYVYyUUR6b0c3bVNkcWdfWWl0emRCckpiNGp1TjZjNkEwWmMtZUxGTVVFZHBFSzd6ZU92dWdRV0RGT3JnMmIzOEYxTjN4RDJBT0c3SWZ5UGZRejF3NkpFTWtVSE9weUdSS3FwMXUxOGN5c3JnNG0zUDVPOTNjb0xnSVZYX3JMUmNzb2F1MU02VGpUV1F6NHdPRS1HX1E?oc=5",
+   "source": "Agro Matin",
+   "type": "presse",
+   "produits": [
+    "azote"
    ],
    "auto": true
   },
