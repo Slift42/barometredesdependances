@@ -1,12 +1,12 @@
 {
- "maj": "2026-11-03T15:10+00:00",
+ "maj": "2026-11-04T15:27+00:00",
  "items": [
   {
-   "id": "11fa5fd96fa9",
-   "d": "2026-11-03",
-   "titre": "Bull et Schwarz Digits, une alliance franco-allemande pour un cloud souverain - it social",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOVm5fME1MS2czS0xKTkwySTRnblh3a0FGcExRZHhZOTBLTE9qR0lkTWp4SENSeDhVN3d5TnpkUnhRSXNfWHBMTEc3dEZjaTNPVjRScUQ1MkZrQ09Md21MX1JMWmVIUy1Vem82RHBfNXdTYkdqOTk1dmJCT1lsRUJjTmRNSjkydE5FNTJvOWpid2ZOZzlwZnBDTUprZVhUcU5uQngyclNJOTdNaXQ0MTh2cUVQc2VNUEZYWlhZazI0YVBGYzI1eE1mSEEzdHE3QzM4aFRmaHJuOW1CdXVuZzFPaTBSV3lveVFURFE?oc=5",
-   "source": "it social",
+   "id": "3ec0a9eb02d3",
+   "d": "2026-11-04",
+   "titre": "Bull et STACKIT : cloud souverain, Azure +48 % [2026] - shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQY1JVOGlxT3NRaVNybnlsT2ZOZzR0VFlzQmw1aC1zdFE1NnZKNVo2bUFlNm9MeVF1VW1DajlTS1ZUNFVwbVVxVFpHWFpxaVE1U2tCOUZ4d29aeTZfM213VkhIcjZkUGI5NEhPV2liWXAwUTFnZWtEUS1rTF9qdWpPSXdiQQ?oc=5",
+   "source": "shattered.io",
    "type": "presse",
    "produits": [
     "cloud"
@@ -26,95 +26,11 @@
    "auto": true
   },
   {
-   "id": "956048167172",
-   "d": "2026-10-30",
-   "titre": "Seychelles : un cloud souverain et deux datacenters pour soutenir la transformation numérique - We are Tech",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOSFIzc0UzTzB5dEVWRTVBV2llT3VscWJRbC1HZ0g1OHl5QnZBeS1xN0xjMDQ5UEdxUDRfbUhYaUxhc3ZWLWMwN2tvcDgzZ19rU2dMQ0tXX0JyUURuV2JaQUNyMHRwTnNvekN5Q1U0ZDVmVHpwWm8td1ZmVVpRdDJJT1ZRNmpHVzRBRjZrM2o3UWRrNzloRVRXZjNBV1pKT3lLMllUMXkzdEFic2FZQzVJa3RwUV9RX3BQd3VVSm1qNVk5MWFTMlE3VGluSWFmQmVLZTdoQXVId2tUQXpmMWNRd3B0V29KdlB1bVBjVQ?oc=5",
-   "source": "We are Tech",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "f561e5ec6b3f",
-   "d": "2026-10-30",
-   "titre": "La Fréjusienne Hiléo intègre le groupe Ecritel et lance un cloud souverain sans engagement pour les PME - Nice-Matin",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUXp1anIyOXlmYWw3dmVraEcwYTVMZTUyQlFiWGllSzJoN21zM2pSQTZ6U3N5VjZCNjFvZ3ZrSnFheFF2dVpYejJqVXROWlZHUHJWMzVYMDhWc2FLZUlpNWZxYkRNQXI5bzktQ05jR0tQeGxOMzk0ZGZSMk1JX1JNRjFueFA2UlBHOXN1UFJOVzBPWjVMRGFWZTdTRFI1Z1hMQTctcVFseUZ1dXdtS1JZak5GVklwZEZCN2tPZHhUb3BDZ0VxNmR2SkR5TEJQWlVNLVdaT29KSzFVUHJZZmRwQg?oc=5",
-   "source": "Nice-Matin",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "ce7f9fe42843",
-   "d": "2026-10-30",
-   "titre": "SecNumCloud, HDS, ISO 27001, SOC 2 : 4 Labels [2026] - tech-insider.org",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoRENMbE5BLXJEOXcxdm8wWG5zMGJXZ2lLMkN4VmxYNjlNYXc0OE9fWjN0LW5la01tcFUzdFFMNlpaWF81NnFQOEVOcEVxbUxJdFNVdmtJcXVkVExkR1pTVWMxSDZHV2tRTTBEa0lna0JyYTVMZS03N3dnVHRQalE?oc=5",
-   "source": "tech-insider.org",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "bd2aa3b63b0a",
-   "d": "2026-10-30",
-   "titre": "Engrais : l'espagnol Técnicas Reunidas se positionne sur de grands projets industriels - AGENCE ECOFIN",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMmtkV1Y1SHNFMEctejR5S2YyYTVGUllzejFlMV9MdlZQMUNzTzRDYUtEMXdQMlhxeG9uRUNKcXE0RVZFc2U2a1NoU1pIVkpZY2xCNFNCVzdwX09nUE1hRDQtZTBtV3gtYUJvVUlUYjlJbGtqdWhnUmZwbG9ib2I3b0p0QlhZWEFuRkVROV9mVkdKQ0V2dFhsWUw1dkNVc0ZyRk82czFkbWFKZWVMdkVWWW1VbzdSWHBzU3JtSDVXUkxvVHN4YXBxS1QzcThsMlpE?oc=5",
-   "source": "AGENCE ECOFIN",
-   "type": "presse",
-   "produits": [
-    "azote"
-   ],
-   "auto": true
-  },
-  {
-   "id": "5647c1e7bcaf",
-   "d": "2026-10-30",
-   "titre": "Les importations européennes d’engrais marocains chutent à 655 000 tonnes de janvier à août - برلمان.كوم",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZ2dnUWQ3WGJvWk5JdWJYSjV0QUJnam1QcUZwSzh4d09GUE15SjF4LUlQcm81eFluTVIyUF9GR0ZqVzBzQ3FsZ2FtaE1HazBvOGJqbTdneVMxZ1RnQnQyamh2Q2ZpS2Mwd2l2aUN3R3lQZUFBajhjY2luOE1DS20yNWdJZHYzNU1rQ1ZGa3VfeE1OVnh6UDJoRWZiVFhVdWpzNmlPNS16dUNtVzhMT0VEZFZCX0lXS1k?oc=5",
-   "source": "برلمان.كوم",
-   "type": "presse",
-   "produits": [
-    "azote"
-   ],
-   "auto": true
-  },
-  {
-   "id": "5bd7d48719b2",
-   "d": "2026-10-29",
-   "titre": "« Comme un vol de fusée qui se passe bien » : AWS nous livre le bilan du test de déconnexion de son cloud souverain européen - L'Usine Digitale",
-   "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPXzVJWmxTYU9xdDYxb1dITUxDb0hMVWo0d3I4b1lmMEdpcEhYZ2xmREpyQTdZV25maHJmSkRtakFzSE5xSml5NUY3RExzbmtBSGpFbzVyWmFING1LZTFFWkdXSlpkVThpNFdrcXY3enF4MTA0aWZUUW1iREt2ZmkwYk93VlczVGtQUXhpbkNzeW5xejNxb3czWHlOeVRqZXJOd2dTTWJRR1BNXzFQWGpxM01lRWgzTjQtRDk3bzloMXB5U1ZFSmcwN3pVVVFteU5MeGZLRTF2NEtzcEpUaWRHeDlQcjRKaGMtZmtDNHpDSno0ZkVsVngybUpBX3VxcG1Pa1VzQ1hJcldPeThVQks5MnJoZ015SS1SSWVLRnUtUlN4UnNtWVE?oc=5",
-   "source": "L'Usine Digitale",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "d562ec7da56e",
-   "d": "2026-10-29",
-   "titre": "BlackLine s’associe avec S3NS pour offrir du cloud souverain aux directions financières - L'Agefi",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbHA1QTBfc0h3YXlLMVZ3SG9Sc2Y0MXc3TDhteUFUa2h5a3d4NDRSNGkzaFZVVEZBaXNYVV9fdmloRzJ2dlBGUk5yWHFqbXlBTTJuWVRIZkRhUkJWZUxZUDhSZ1dsWE0yMDZPOTBIZGpGNDk1WTBFaTBSbERCM3dGU1ctTHFiT2Fpa1BsdGNBZHpHNWJnczZxZEVyWlBKVVdhdU02UGdFZVFWSFFoaXJWdmFiWG9UdmZQREZ2UXgwVQ?oc=5",
-   "source": "L'Agefi",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "34d36385b354",
-   "d": "2026-10-29",
-   "titre": "Cloud Temple et Everience s’associent sur le cloud souverain en Italie - ChannelBiz |",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaVpyUjVYVGxqc1VQQU5mbXJRVHlOVVBqQVpVaDcwZmg3OXZ3d19IdEpIZWhxYkxuMzRydWNpMkRCend1c0F5ZVdPT0VZNnFKQU5nRlpLUFJkNGRKTHNtNlVIdmxDVTg1bk9QZTVJMVR2ckh3bjgzZUlYWDc3azhIZGEyWEhrMlZ0eHEyNk1KSDJScGFZaFV2dng4aGtRMmdydjVhaEJRamN4c1HSAbABQVVfeXFMT0N2LXBlc3dFQ1lKaGpNMTRzTlVNNzdmcHhRV3VSZ0IzQUpIcFN6eS1zSGN5STdyRXh3QkpYM0RuZWJwM1pzblF6UXJpdDJUU2d5bXpuXzQ1M3MxakJUbGNib2FoSzlkTVJoMXJUczQ2cHVpYjVrLXZZSVdPZVVaTTFFT2RrcHNwRXJ5YWRaREZ3U3dzbDdWZlkwaFVoUi1VMzhzNkFCSjFDdDJnaTZHTl8?oc=5",
-   "source": "ChannelBiz |",
+   "id": "623651207c86",
+   "d": "2026-11-03",
+   "titre": "Alibaba fait de Dakar 2026 un laboratoire du cloud souverain - Sport Stratégies",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNE5IR3huaE1YZkktdE1CcmFIQnJSaW9GelFCdjh2Ymlidm5DUWJuVnFHNEFCckZvdC1BdVY2eFE3VWhNOFVScWJicnpHYnQyT09iMlZNci16RFNQWlJUc09EcTR4WkFDUmtNbUl0ai1rNjhoOHk4MUdNUXM2dDVWa3IyRDhCbl9mQU1vMVlNMlZhbkZ6Wl9UQQ?oc=5",
+   "source": "Sport Stratégies",
    "type": "presse",
    "produits": [
     "cloud"
@@ -134,166 +50,6 @@
    "auto": true
   },
   {
-   "id": "4223ad534da9",
-   "d": "2026-10-28",
-   "titre": "Government Cloud Clusters de Nutanix : Quelle nouveauté pour le cloud souverain européen d'AWS - e-works.fr",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmxzY01VeDRBampsRGVxMXlMT0FQZlkxQVc2cWFNbVFiZ1ZNeWNtMlFQYVA5ZmsyWkwxYUtHalVhbWdfeERtOTlhRW9OdDBScS01UnJfdnRrdV9RUHdxZG4zck43eHBnRV9nNk1DWHhkZDNVX0pQdmhOQXJ5UkdTbEdLakd3bzlUV1BTdmp1OGFpUE85ZFhsRFVBaEZjN2E4NnhuM0FBdTdTbmdXb3VuTVdIQ0pGR09IdFBGMA?oc=5",
-   "source": "e-works.fr",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "c3fb719890d8",
-   "d": "2026-10-27",
-   "titre": "Chorus : l’AIFE va étudier une migration vers un cloud SecNumCloud - ITforBusiness.fr",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOUlqcmdQdUlRNm9pWVphQXVGZHN3bUlWb2swSjk2VXJ3Yk1hTEdDN3VLZ3kxaXkwbElmSG81Z1VCUHdWWm5TQXVzRzMzOFkzNHEtZEdpX2VKSTM5VzA5TjNGU1piM01senotWndzVUdlT21VTkU5Uk5fS0JtVGJmcA?oc=5",
-   "source": "ITforBusiness.fr",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "5478fecb6390",
-   "d": "2026-10-27",
-   "titre": "Ecritel lance son offre de cloud souverain - Les Echos",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOU42bWpkcEFEQ3VHdjB4d0ZSd3lOQmFjbF9weENCTERRZVNjWnBnZEJ1cnQ1UUpYOGdCb3lEVnFveWJMekViMFAzMHQ2bTFnRWg5eGRKYzk4d3ZSX05LUFBXcGJUUGRka25MUm5KcmxXUGw4eTI2aUZ4WVRaMGEtdEVUdEFqOXNsNk94X0w5aXpTTmRfWjNRZFRZWQ?oc=5",
-   "source": "Les Echos",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "5113e2e8c7c9",
-   "d": "2026-10-27",
-   "titre": "Nutanix amène sa plateforme vers le cloud souverain d’AWS - ITdaily.",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91TTFMTDY3SHlqSzJ1OWhSQ2FDdklkTkpkRjluZGRXZFRaa29valgzR0t5eWdBTDJ1UXBJa1p0X1UzbTlqZW4xSnpkTWdmUzVPVlo3enhJTEJfcVFVY292YzZOQ2dKbmZDTzZBRVdzSG13VlUwV3c?oc=5",
-   "source": "ITdaily.",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "921c100d01d4",
-   "d": "2026-10-26",
-   "titre": "Un cloud sans Internet peut-il faire tourner l’IA ? Clarence Cloud explore la piste - Clubic",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb040R2VVbmxQTTZhbHRJN1BBYzZPN0pFQ2hhNDRnMVdZU0RxSFltdVlzV3MzZEU1b2k5R0JaTnB0NXVTRjlaXzFjX18yN28xeHFNNjd6cEhLWmFyb1FVVFN2TmswdjVZTlZ2RjEyeVFqZmpVMGtJcVhYcTk4a1ZxU1c1NEtWbklscFdNYS1YVTE0NG5mVEcwdkdTbTkwWTZEZUtWSENQVWZpb3FnZTloY04wcXVWcXNEYkRUdi1B?oc=5",
-   "source": "Clubic",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "dbe03435fb59",
-   "d": "2026-10-26",
-   "titre": "AWS Déconnecte son Cloud Souverain : Test le 24/10 [2026] - shattered.io",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9uQVRhaFgtekoyR21DVUZkbC1lUkthQUZMTFhMbUFPWUFkWnJPNm5aMGNpX0pFYjJyelRpOGtjcHZ3eW03RmtSWlZOWDE5N2JTTTJBN21iTE1hcHpkNmd0LWJyMUt5SVU0d2NMbmkzR2tQbzBn?oc=5",
-   "source": "shattered.io",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "aa9499b7087b",
-   "d": "2026-10-26",
-   "titre": "Togo : l’UEMOA mise sur la transformation du phosphate local pour réduire les importations d’engrais - Togo First",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOaFVRY0I1LTQ0UjV4OHpUMXhKVDllTFIybjZBSU1JQTYyM3g1X1R4OE9YQ2Fsb3NCOHlJQ1ZFS3FIWFo5S1VLMlJyYzJ5ZzlSUXRCQ3hBMG9kXzVDbzF2eUItR0Z6bU1tR3V5RFVDb3dGNlVfbmZlVEx5TWJ6RlNHRm1FLTBqQnNYSDNXSVZKYkJpTk9ZenIxT3YyZ2R0dmxJRW5qUmpGb1RlZFhUS0t5Wmd3YWtYbnRZZFhtSGdYUkd2eFpfMy1xMXV3V3Q1Rm9xRnhJT2ZHUm5tc3c?oc=5",
-   "source": "Togo First",
-   "type": "presse",
-   "produits": [
-    "azote",
-    "phosphates"
-   ],
-   "auto": true
-  },
-  {
-   "id": "85fc71aeeef7",
-   "d": "2026-10-25",
-   "titre": "La Chine réduit l'approvisionnement en terres rares, le Japon s'associe aux États-Unis - IDNFinancials",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNGZkbXlfUUc4c2EzYmw0TG9rb2FHYnZqbk83RnVDVXJrQUJVUGJieU9KeVZ5QTRBekJsOWlJVXRTSm1iMElBUnhlMGtGeXp5aEQ2WkRzNGJMQUh1TW43dEFfWEMyd3B6OHNwMUp5cF9KSnVPUkpCUHFVYXFoT1kyLTZhUmVSTVVmWVU5ZllGOVRsbExwT1NxYmxHZnNYSnVGTDJMTG9qN2Q0ZkZrakZuSTF0OU1JRktmc2hYcC1CTm9Ea3l5NHYyRjlUNElmNnVQMUJR?oc=5",
-   "source": "IDNFinancials",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
-   ],
-   "auto": true
-  },
-  {
-   "id": "9db3db04bda8",
-   "d": "2026-10-23",
-   "titre": "La Défense néerlandaise choisit SAP pour un environnement cloud souverain - ITdaily.",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM3U2b3JrUkR6b2FDa2dXSjZnUUx1endGUUJ3TGQteTZRNkRNUDJmOWdfNnQ5allXRUt4eU5DWnRRUk90bHJRZXpZbDNQQmdmT0dhdTR3MDd2SGI4T2tybEh0WkN0ZF91YllhLW5ubHFqd2Y2d2ZoSG5qMjRHUWhfV0hBRC1mUQ?oc=5",
-   "source": "ITdaily.",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "15132bbf2c2a",
-   "d": "2026-10-23",
-   "titre": "Le ministère néerlandais de la Défense opte pour le cloud souverain de SAP afin de protéger ses processus numériques - Business AM",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVjBlSng1anY1VHZ6VWxZTkgweDZHNjgwZ2dTZjVGX09HbkhGazEzS3YxRTRGcWRMS3lnUEg3V1phN3JXRUZBS3VuRVFHSkhrNnVidDZrSmZMdmhhU0YzX19NOUhHMm9KSU56ckZRS0FBNjNOVTk5WUFMRWpIMkhPLU1OdmVmdlBhX1ZsbG1ib3JFQldFc0lCY0VUcnZsT2w0NFdrNFoyM29mQ0R1RzM0cFN1RDdrX1EtdWk5M1IzRGF3M2tSZWhZdlNEa01oZEE5anc3c0xwT2lsZw?oc=5",
-   "source": "Business AM",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "91fbabe8baf4",
-   "d": "2026-10-23",
-   "titre": "Armes, drones, munitions : pourquoi l'Europe veut acheter davantage européen - Touteleurope.eu",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcjJRMjF6UEZ3U2RSaURTVHpFSkQxYXhEUC1rN21CSlgwOEhTLWZqWmItVUVrVTk2MDVObmxEcGVBQXBOblR3SzhlUlVFVFBjeXhGc1JRRGlhMlVoT1RmN1I5RmxueDFqd0xCWUNGLV9zWDBsWDJfV2o4OWdpV2RWZDFiZVBqbmlpdUVrX2hQZlhIa2IzdHdFeEc5NmF3SlNUN1U5S3BsZk1xZmdUOVFGNHFOTG1ScUctdGdvTQ?oc=5",
-   "source": "Touteleurope.eu",
-   "type": "presse",
-   "produits": [
-    "drones",
-    "petit-calibre"
-   ],
-   "auto": true
-  },
-  {
-   "id": "54a8fa26308e",
-   "d": "2026-10-23",
-   "titre": "Burundi : la PARCEM accuse le pouvoir de verrouiller l’importation des engrais au profit d’une poignée de privilégiés - SOS Médias Burundi",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNThCZEJrQW93di0yQTVZZE5TdG5zV0JfOHhibklNVkJWOFlxZ202azMzRXlPOHFsc1V1cE93XzFTbTViTDgxVGRZRXRRek1DblpILW5YMUhPbFVlUk5GbUhYSldVSWNlbTlFWDZHVTZfTENWNlo3UDBLSVN1cjBPQjA5OFRvSDhkVVhubW0xWGdUZzNqS1h0cUdLNmhIQ1ZaMnI3QXRNN2RMX0tORGRzOFBra3Z2Y0l0ZHR6OXpQSEJtbTNEX1djZVFyRTQ2NnZtTUtJZDJ4VjNCOEYwbFphNjJkVWZueHpGV1RGLVE1NA?oc=5",
-   "source": "SOS Médias Burundi",
-   "type": "presse",
-   "produits": [
-    "azote"
-   ],
-   "auto": true
-  },
-  {
-   "id": "a4d00d823255",
-   "d": "2026-10-22",
-   "titre": "Que se passerait-il pour les États-Unis si la Chine cessait d'exporter des terres rares ? - Vietnam.vn",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcjd4VUNBcTluTnJQMGZySWh5QXJKVnZyTHdVZkpZa3FXaHdlVVZXNzFnNHQ5ZVhLa1M3aExFaHdtLWJ6dF9QaDRUUHl3QzUxaWlFYVFURkNYNUV6SUl6eFRzODdLSU9EX1ltWS1ycWhrVlNrYXRjUDBFdjFVYUVKSDV3UWc?oc=5",
-   "source": "Vietnam.vn",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
-   ],
-   "auto": true
-  },
-  {
    "id": "6a6ddf3d6269",
    "d": "2026-10-22",
    "titre": "L’Amérique du Nord, marché de l’antimoine à la croissance la plus rapide : échéance des exportations chinoises, risques d’approvisionnement et perspectives 2034 - Actualités et statistiques - IndexBox",
@@ -302,91 +58,6 @@
    "type": "presse",
    "produits": [
     "antimoine"
-   ],
-   "auto": true
-  },
-  {
-   "id": "feca045ec616",
-   "d": "2026-10-21",
-   "titre": "La Chine limite ses exportations de métaux des terres rares vers le Japon par crainte d'une expansion militaire - Business AM",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeGVJWlZDRGxFaURJajhfVDB0dkVBWjdPbG5na3RiaHRpQzB1cVZILXF3S3ZHUHVzZEZlQmlxZUprM1NMT1NtTnJab0RjbVdNMXRCZ19tMDBpOF9DR2Z1OXhZeUZjdE9yelNBX1g0OGZsV1lyc1JBamtSRk8zU1pxU3djb0xBUUlNSEIxMlUxRV9FOHY0alEzbnVqR0dWcF9nazZwc1ZGM0FvUDI0bUVpYkgwOTBmZEJrc1A2VkpGX3NGSm5OVXRxQXVBdm5HM1FrTVE?oc=5",
-   "source": "Business AM",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
-   ],
-   "auto": true
-  },
-  {
-   "id": "c93032881947",
-   "d": "2026-10-21",
-   "titre": "Cloud souverain : un surcoût pénalisant pour l’économie européenne ? Vraiment ? - ITforBusiness.fr",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaERLbmJaX0NOQUJ0NTl5dVVrWHZmQVpwSkNXTWI2bElRUmg5a3VNZEFFN2NWMVUzNVFqamtCQUYzVVdkLUlneFl2NkNCNjUxb0NmX2lqQU5UbHJ2REZKUW9ESUwzbURjT2VTamdtWExtZVhlakFTVnNfZFVuYWM4SVIxMkttUFZ0OUZMLUZSd05rcy1RZElCV1F1T29YSGJ1UUc3eTUwNFBLOThF?oc=5",
-   "source": "ITforBusiness.fr",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "56ae3d6e90a9",
-   "d": "2026-10-21",
-   "titre": "Engrais : TMG et l’indonésien Turrima envisagent une usine de 8,8 milliards de FCFA au Cameroun - Investir au Cameroun",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPR192QXEwTHQ2ZkI4MnVPMDg3NjNZemlwcmthVlk4RVNwOGpUckx1cDFFRDRLVzJkYjZrTG5QSGdwRkxUTlBkUWltT3pwT0ZRbzUzZFpaQnludWhtODNmQUVjYlp6QTFVblhKbmNGMWh3S3h1Uk02bnU0cTZHdVFGTXJsS2tJcjRQYmh3S0pZVENZWUNXZU1ybm96b2xmdjJVY3RfbURXd0p2NFVIVE1QX1p3cTlLMlRmOVZkeDhWOWZlRjY2ZTQxeXRDUkxrSUE0VkgzWk9FcGRVcFRmY1g1Z0lnOGt1QQ?oc=5",
-   "source": "Investir au Cameroun",
-   "type": "presse",
-   "produits": [
-    "azote"
-   ],
-   "auto": true
-  },
-  {
-   "id": "5a09f20ee453",
-   "d": "2026-10-20",
-   "titre": "Le cloud souverain de Microsoft peut-il vraiment échapper au droit américain ? - lebigdata.fr",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmWTFSNFA1Z1VPMC1iNk5uLWZFdDY2WlJhLU1XVDhPcDFpaWdVUEZSMjV1aFU4TjFVRk5xcWxUNFdkYnVlb2xIQm1Bb1NQU1JrNXBfTVJENTlza2tmSnVTUW5FX2p5dUJwU1JOOFZLZ2ZDYWN6Sy1F?oc=5",
-   "source": "lebigdata.fr",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "4d523e89376f",
-   "d": "2026-10-20",
-   "titre": "Microsoft étend son Cloud Souverain avec des clés sur matériel propre - ITdaily.",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSkJ1aGJ2aEZ0R2M1eWtmdnlmQXV2a2hYcnVBYnBQci1zQzhhR3RpVkNkQXZuUEJhSnI0LWIxeFBxdk1DNFZwM0FIcVgyR1RaR2FXMUhvRDUtV0dpMExUTjctNzgwV2hsSUZneGtpWTJFdXpJQ1JROUFXMVJ0UEsyWE9uRGhaY1FUdjUtc2NxbDlDWk5mQ2hIVWxn?oc=5",
-   "source": "ITdaily.",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "30ed7399fdf3",
-   "d": "2026-10-20",
-   "titre": "Ecritel et Hiléo lancent un cloud souverain « Data Act Ready » - Presse Agence",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0RsX3diOTZIaWFfd01WWFMyY19EOTJXNWhIYlVFc2ppVlFXYUhpVG1EcTNxRXZZRG5tNlh3TUxsU2N3OS14czh2VkpCb3Fib3BEZWpBaUJzQm9RQnN0Nk0zaFd2dm5HeFNialFSYlNMcFdkcER6LThVNm9KS0VMZ3VPeWZEMEVwLUVUUHhMVnlGeTVITm1fZ3FJbmNrQW53ZFRIWjdqRDQ3TFdVRUU3YWZDOGtla0I5UVE?oc=5",
-   "source": "Presse Agence",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "16cd0622052e",
-   "d": "2026-10-20",
-   "titre": "Souveraineté des engrais : énergie, matières premières et concurrence des importations - Agro Matin",
-   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOVkhhLVNJSXpHRWx3WlUtOU1iMVZvY25WckFLR1VxdFJSa3lZY3BxSEFQajBrUXlLQjJXbEtsdDJfVU1DWVpUVjh1OG1Vd3c2dW5aYVpkeWxUQ2R1Z3pCVmVmYVYyUUR6b0c3bVNkcWdfWWl0emRCckpiNGp1TjZjNkEwWmMtZUxGTVVFZHBFSzd6ZU92dWdRV0RGT3JnMmIzOEYxTjN4RDJBT0c3SWZ5UGZRejF3NkpFTWtVSE9weUdSS3FwMXUxOGN5c3JnNG0zUDVPOTNjb0xnSVZYX3JMUmNzb2F1MU02VGpUV1F6NHdPRS1HX1E?oc=5",
-   "source": "Agro Matin",
-   "type": "presse",
-   "produits": [
-    "azote"
    ],
    "auto": true
   }
