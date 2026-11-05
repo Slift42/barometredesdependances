@@ -1,6 +1,43 @@
 {
- "maj": "2026-11-04T15:27+00:00",
+ "maj": "2026-11-05T15:29+00:00",
  "items": [
+  {
+   "id": "6280fb352335",
+   "d": "2026-11-05",
+   "titre": "Les exportations chinoises de terres rares vers le Japon ont chuté de 98 %. - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWk9tTktScTM1NF9zMmJSMGFkVjZpMXBFTUg2X05Bbm40WnJkOHNXU05IWGNUUkd5Vm5FNkNhOTdod0l1dEd5a0QwQkF5cWRKcGJqNzBTNnRaM2RNQ0FieXJnM09kSmp6VS1OTW1UY29MZFVIckhVSVdtRnlZZW5aVnhldDBLQTVK?oc=5",
+   "source": "Vietnam.vn",
+   "type": "presse",
+   "produits": [
+    "tr-legeres",
+    "tr-lourdes"
+   ],
+   "auto": true
+  },
+  {
+   "id": "1c4a2171ac16",
+   "d": "2026-11-05",
+   "titre": "La Commission européenne mise 525 M€ sur une plateforme pour start-up de conception de puces - Yahoo Actualités",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObHl2UWEyTkVxSG5mWExLQ1lHd1JoWUtFU2lNTUs4Zl9GY1hDb1ZRU2JLN1RnMmdTbzNzQ0Q2T2RiUVR4dzFIT1R6NzBlQkFhMzhXVkJHZzBReUt6WGlnUXV3RUROd01EVVFQcC1PVWVBMk4xelVEYjlEUnRaWmszTXlqazU?oc=5",
+   "source": "Yahoo Actualités",
+   "type": "presse",
+   "produits": [
+    "puces-matures"
+   ],
+   "auto": true
+  },
+  {
+   "id": "26c17e13da95",
+   "d": "2026-11-05",
+   "titre": "Les engrais entraînent la baisse de 22,8 % des importations australiennes depuis le Maroc - برلمان.كوم",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZWlCTENlLUFRYmtrcTlQcjNySko4eWR4MHItd1BMLVRySWJFT1FmYkFlVVpiLXh0VTVzazVMU0JKc3owNjRjbmJiNjUycUtoTHJXcnFjUG9WLTJhcElZVTU5NTZ3ZG5JUlcyNkhOS3dVUW1mbFlRWUNybDZCVzZwbGViZWtQb0dlazcxSHNoNFE2bGIzQkc3Y0Foa2hqVVhmODJuRmtxQkt0cy1aTU9PaFFR?oc=5",
+   "source": "برلمان.كوم",
+   "type": "presse",
+   "produits": [
+    "azote"
+   ],
+   "auto": true
+  },
   {
    "id": "3ec0a9eb02d3",
    "d": "2026-11-04",
@@ -34,18 +71,6 @@
    "type": "presse",
    "produits": [
     "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "08d591e71754",
-   "d": "2026-10-29",
-   "titre": "Pour réduire leur dépendance aux États-Unis : L’UE et le Canada visent un partenariat approfondi dans les domaines de l’intelligence artificielle (IA), du climat, de l’énergie et de la sécurité - L'Indépendant",
-   "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQQ2xwZG5TSGlIdjNvV3l0OVVtWHFnQ0Q3T2NVWlNENWw2bUFFNlB0X2RnMHNIbG1lZmliVTN3Q25qWXg1YkRfWDFFb2piT3QxV3VRMW5fNnNnX1N3TDZSaE04ZXlRNEEzSzRrX1VpQ1NqaXJYdk1vb0FlMXRMc0xSQnhLVlJmNUQxdFZYamZUc3JUTGtjSlJCSTRYLVZFUXdOeVhyUzFhdzR0RWdQVTVGQXZSczNpU1BVOThucVlQQmhLM050dkNBbkdtbEdjTzZoWlc1MEZuOENrWFQ4RFJOT3Z4OVNYUE5fRU5penV0bHFHRG1WYTIxazRpN09lVDRzQlJVVk4xa1RWZEVHbDJVcm0xck1ad0x4Rl9UbzhSdVl4S0ZWYmc?oc=5",
-   "source": "L'Indépendant",
-   "type": "presse",
-   "produits": [
-    "ia"
    ],
    "auto": true
   },
