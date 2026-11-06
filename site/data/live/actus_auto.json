@@ -1,6 +1,18 @@
 {
- "maj": "2026-11-05T15:29+00:00",
+ "maj": "2026-11-06T15:04+00:00",
  "items": [
+  {
+   "id": "45054374581c",
+   "d": "2026-11-06",
+   "titre": "SecNumCloud : le label sécurise le contenant, pas le contenu - Presse Agence",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPanJ5NlkwMkM0OTNUMXNWZjFrQ0l1RVNPNDZpNTBoSFhYajI3YlA3UW44VllybVBEaUJLOFJyeE9XeFZDMGR1czV3V09aek1fQ3Q1RkpRNGlqVnN1ejdtaTRCUTRKYnluTkRWS1ZwbmoyVmVNeDhKYnFkMXZKODRzeE92UGJ5ZlVZMUpSNkdNUHR2YXZrVXl2OFJoeVhfVngxTEs2Xw?oc=5",
+   "source": "Presse Agence",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
   {
    "id": "6280fb352335",
    "d": "2026-11-05",
@@ -27,6 +39,18 @@
    "auto": true
   },
   {
+   "id": "3a1a44cd3465",
+   "d": "2026-11-05",
+   "titre": "Top 10 des meilleures solutions de centre de contact en cloud souverain en 2026 - La Revue Tech",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPem1yeEdHenN5OEJrNTNlZXVnR1ZORURCTmNoX0t0bnVCQlBpSnhDSGZQSTBhWmtFaWlwQXFYX0s2dGFhR2RuWVR1WjlWVlBQYUgxYVZZMk1FcW16YWNXOV9TeGQ3RjVxN3gxLUphWEotNGREYWZtN20tYjYyeHNHd1JkTXdqM2tGUlBkaEpralBrS3luSGpvQ1RXUWpRVGhtWWZQdHBn?oc=5",
+   "source": "La Revue Tech",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
    "id": "26c17e13da95",
    "d": "2026-11-05",
    "titre": "Les engrais entraînent la baisse de 22,8 % des importations australiennes depuis le Maroc - برلمان.كوم",
@@ -39,11 +63,11 @@
    "auto": true
   },
   {
-   "id": "3ec0a9eb02d3",
+   "id": "2ea25d16b70a",
    "d": "2026-11-04",
-   "titre": "Bull et STACKIT : cloud souverain, Azure +48 % [2026] - shattered.io",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQY1JVOGlxT3NRaVNybnlsT2ZOZzR0VFlzQmw1aC1zdFE1NnZKNVo2bUFlNm9MeVF1VW1DajlTS1ZUNFVwbVVxVFpHWFpxaVE1U2tCOUZ4d29aeTZfM213VkhIcjZkUGI5NEhPV2liWXAwUTFnZWtEUS1rTF9qdWpPSXdiQQ?oc=5",
-   "source": "shattered.io",
+   "titre": "Cloud & AI Infrastructure Paris : FinOps, cloud souverain et infrastructures IA au cœur du salon des 18 et 19 novembre - it social",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNckZjSmExdl9HZG1XTGNVUF9mTHZKTU9sblROb2w1cVQ1LWh3UHlYQUdYSlZjbTI0LXRCLXN5U1ppbU1JR0V0RW1Pc094YXprd2lGLS1kWW91OGZQdG9qVXlMd3ZGRHl1b0EwLTg3UXBMVy0xLVUxRGZ6ZS1Jc0hSWjlUOGJUU2hUUlc5NUNmSFlPWXdYMHlpRWg4ZGpJSktwS081bThyUVQ5eHN3QzdQbHFzb0d1VGc5MnhjTHNHN0lMWTJDMlNHN2RNNFBMVUZVLXdocFo2UGRDcWJEZTRrU0RQTVJRQUczeDY4?oc=5",
+   "source": "it social",
    "type": "presse",
    "produits": [
     "cloud"
@@ -71,18 +95,6 @@
    "type": "presse",
    "produits": [
     "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "6a6ddf3d6269",
-   "d": "2026-10-22",
-   "titre": "L’Amérique du Nord, marché de l’antimoine à la croissance la plus rapide : échéance des exportations chinoises, risques d’approvisionnement et perspectives 2034 - Actualités et statistiques - IndexBox",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNV3IyeE92OHJ5Vmt5VzhhdVpFRnFPaEVJd2ppcjQ5enRiSTIxR25LcmhGbkhEZFJCM2E3M2RsQ3R6OTh0QnBtemhYZklybWJFUTQyX2xOelhfSW9YakdvRWJRRFdGVmtudUNSeVFCSWVTeEZqOFlVeEc5Uk1WY2ZtVUs4X0ZqbUdybElqdEUwdEtISnJaYUU4OEZhN1AzVVEyTHh6ZlNVREY5ZXMtQUtPX2ZIeVpXLVBma2NzVg?oc=5",
-   "source": "IndexBox",
-   "type": "presse",
-   "produits": [
-    "antimoine"
    ],
    "auto": true
   }
