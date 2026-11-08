@@ -1,6 +1,18 @@
 {
- "maj": "2026-11-07T14:04+00:00",
+ "maj": "2026-11-08T14:18+00:00",
  "items": [
+  {
+   "id": "45054374581c",
+   "d": "2026-11-06",
+   "titre": "SecNumCloud : le label sécurise le contenant, pas le contenu - Presse Agence",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPanJ5NlkwMkM0OTNUMXNWZjFrQ0l1RVNPNDZpNTBoSFhYajI3YlA3UW44VllybVBEaUJLOFJyeE9XeFZDMGR1czV3V09aek1fQ3Q1RkpRNGlqVnN1ejdtaTRCUTRKYnluTkRWS1ZwbmoyVmVNeDhKYnFkMXZKODRzeE92UGJ5ZlVZMUpSNkdNUHR2YXZrVXl2OFJoeVhfVngxTEs2Xw?oc=5",
+   "source": "Presse Agence",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
   {
    "id": "2ea25d16b70a",
    "d": "2026-11-04",
@@ -14,11 +26,11 @@
    "auto": true
   },
   {
-   "id": "e06f7018b76e",
-   "d": "2026-11-03",
-   "titre": "Stanislas de Rémur mène la bataille du cloud souverain - Les Echos",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV3BJQ3M5Rk1HZDAwclAxWWdldmF3QzgwZVNwaDF0Zjhod3ZRbFFoZW5TcjhyelpsN00yWkluelhjaDg1M1BoU09jZ0VMQmFVNEFkZ3VTMTE0NDY4eHlTODE3a2pRQl9MS05xanY1dWdIYktmX202Q3dnRkg5X09IUWx3UGZLd01RSzllTmtacHpURGkzOWtPZGtFdUZlSDlhZkgtZHR4TE0xckU?oc=5",
-   "source": "Les Echos",
+   "id": "318c91c1ab4a",
+   "d": "2026-11-04",
+   "titre": "Bull et Schwarz Digits s'allient pour développer un cloud souverain européen dédié à l'IA - Le Monde Informatique",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWGpqWWxXRm1jSnZBWFhfWFNwekRlSFFzYWl6M0VpdHQ1NWV5QWVCU3V0ZWhaVEZHaU5HeFpFYllqdUJNaS1yQkpGS3ViVVFCUVpUdjRQbGlCcGN0Sm0tMVFvengzMDlQaWR1MU51dE1ud1gzdURjV3ducWNaMS1HTW9NaGFGVDRMSnlHUFhlWWJ2a0xSbC12VWF4WWJ6LUxBVG9YNWlidDdmSEdCZXVQZWZ1WUpLVENnUzdtaWVVck55M3VuZkpXamhkd3c2SEFQWDVuQTk1ZzUzVnhMdHdVVm9R?oc=5",
+   "source": "Le Monde Informatique",
    "type": "presse",
    "produits": [
     "cloud"
@@ -31,6 +43,18 @@
    "titre": "Alibaba fait de Dakar 2026 un laboratoire du cloud souverain - Sport Stratégies",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNE5IR3huaE1YZkktdE1CcmFIQnJSaW9GelFCdjh2Ymlidm5DUWJuVnFHNEFCckZvdC1BdVY2eFE3VWhNOFVScWJicnpHYnQyT09iMlZNci16RFNQWlJUc09EcTR4WkFDUmtNbUl0ai1rNjhoOHk4MUdNUXM2dDVWa3IyRDhCbl9mQU1vMVlNMlZhbkZ6Wl9UQQ?oc=5",
    "source": "Sport Stratégies",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "ce7f9fe42843",
+   "d": "2026-10-30",
+   "titre": "SecNumCloud, HDS, ISO 27001, SOC 2 : 4 Labels [2026] - tech-insider.org",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoRENMbE5BLXJEOXcxdm8wWG5zMGJXZ2lLMkN4VmxYNjlNYXc0OE9fWjN0LW5la01tcFUzdFFMNlpaWF81NnFQOEVOcEVxbUxJdFNVdmtJcXVkVExkR1pTVWMxSDZHV2tRTTBEa0lna0JyYTVMZS03N3dnVHRQalE?oc=5",
+   "source": "tech-insider.org",
    "type": "presse",
    "produits": [
     "cloud"
