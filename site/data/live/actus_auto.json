@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-09T14:17+00:00",
+ "maj": "2026-11-09T17:31+00:00",
  "items": [
   {
    "id": "57e250af0953",
@@ -11,6 +11,18 @@
    "produits": [
     "tr-legeres",
     "tr-lourdes"
+   ],
+   "auto": true
+  },
+  {
+   "id": "25bb6a0c0eae",
+   "d": "2026-11-09",
+   "titre": "Puces IA : l’EFSA se crée pour que le Chips Act de l’UE fonctionne enfin - Le Mag IT",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORVd3SUpiUjFITEdjc1lkS201SjhuOUlYWVVBY2RCRHVhX0MxWm9abFNvemRDYU5rZ1hqQU5TSDhOU0JNNkVuUlRVYU9LZUZTd1B2a0pBRXhnVzZOam5OLUc2SFR0VzJfN1ppVEhMSEpFLUg1WDYtc3E1emM0el9TUzJTR1h3ZUV5QTRqaGpDMnhzbThQY21Mb3BkTkdsYzVObTEzUnAwUk1vRlB4R3lxTS1R?oc=5",
+   "source": "Le Mag IT",
+   "type": "presse",
+   "produits": [
+    "puces-matures"
    ],
    "auto": true
   },
@@ -56,18 +68,6 @@
    "titre": "Bull et Schwarz Digits s'allient pour développer un cloud souverain européen dédié à l'IA - Le Monde Informatique",
    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWGpqWWxXRm1jSnZBWFhfWFNwekRlSFFzYWl6M0VpdHQ1NWV5QWVCU3V0ZWhaVEZHaU5HeFpFYllqdUJNaS1yQkpGS3ViVVFCUVpUdjRQbGlCcGN0Sm0tMVFvengzMDlQaWR1MU51dE1ud1gzdURjV3ducWNaMS1HTW9NaGFGVDRMSnlHUFhlWWJ2a0xSbC12VWF4WWJ6LUxBVG9YNWlidDdmSEdCZXVQZWZ1WUpLVENnUzdtaWVVck55M3VuZkpXamhkd3c2SEFQWDVuQTk1ZzUzVnhMdHdVVm9R?oc=5",
    "source": "Le Monde Informatique",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "ce7f9fe42843",
-   "d": "2026-10-30",
-   "titre": "SecNumCloud, HDS, ISO 27001, SOC 2 : 4 Labels [2026] - tech-insider.org",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoRENMbE5BLXJEOXcxdm8wWG5zMGJXZ2lLMkN4VmxYNjlNYXc0OE9fWjN0LW5la01tcFUzdFFMNlpaWF81NnFQOEVOcEVxbUxJdFNVdmtJcXVkVExkR1pTVWMxSDZHV2tRTTBEa0lna0JyYTVMZS03N3dnVHRQalE?oc=5",
-   "source": "tech-insider.org",
    "type": "presse",
    "produits": [
     "cloud"
