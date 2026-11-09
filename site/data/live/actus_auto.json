@@ -1,15 +1,40 @@
 {
- "maj": "2026-11-08T14:18+00:00",
+ "maj": "2026-11-09T14:17+00:00",
  "items": [
   {
-   "id": "45054374581c",
-   "d": "2026-11-06",
-   "titre": "SecNumCloud : le label sécurise le contenant, pas le contenu - Presse Agence",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPanJ5NlkwMkM0OTNUMXNWZjFrQ0l1RVNPNDZpNTBoSFhYajI3YlA3UW44VllybVBEaUJLOFJyeE9XeFZDMGR1czV3V09aek1fQ3Q1RkpRNGlqVnN1ejdtaTRCUTRKYnluTkRWS1ZwbmoyVmVNeDhKYnFkMXZKODRzeE92UGJ5ZlVZMUpSNkdNUHR2YXZrVXl2OFJoeVhfVngxTEs2Xw?oc=5",
-   "source": "Presse Agence",
+   "id": "57e250af0953",
+   "d": "2026-11-09",
+   "titre": "La Chine continue d'assouplir les contrôles sur les exportations de terres rares. - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ1JUSDltVWR0bW1XSW9ETFNMcUhsYllZNjFDVFFjSEF6dXdRYnBNRTBUN183dlVZZFktZk43SlJoSGNZWW1Qc01VR05sRkxBSWM2WHdiVlVoWlZvTVZaamxBUnZDX1M1ZmlBX2l4aTJKdjRuVGtLVUdpbXVCWk9rTHdHampmcWYzZVAw?oc=5",
+   "source": "Vietnam.vn",
    "type": "presse",
    "produits": [
-    "cloud"
+    "tr-legeres",
+    "tr-lourdes"
+   ],
+   "auto": true
+  },
+  {
+   "id": "fe47547848e9",
+   "d": "2026-11-08",
+   "titre": "Les importations américaines d’engrais marocains bondissent de 41 % de janvier à septembre - برلمان.كوم",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZTREcENZSzZIVFpvYjZFajJFRUl4Qm5qYjk0VEJod0R1VmJaTVEzVjlzSC1oNlJVTF93Y3dWZEtZSVRtd0VUV0pYMmhZYngtdW82NTNfRUhUaFRvTG1VRlVSMHdXQm1qbEdIN1g5VGtXRzBpVGNMVkd4SnRqTHpYWjRwN3dYam83QnhwUEkzVDdQdnd2SEhqUWdVSU9jbUd4c25SeUN0Qk9Fc29pczVYMmJBdw?oc=5",
+   "source": "برلمان.كوم",
+   "type": "presse",
+   "produits": [
+    "azote"
+   ],
+   "auto": true
+  },
+  {
+   "id": "83a1394200b3",
+   "d": "2026-11-04",
+   "titre": "Les prix du tungstène occidental atteignent 3,74 fois les niveaux chinois, les restrictions à l'exportation divisant le marché - Actualités et statistiques - IndexBox",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOWQ2bEVITEVBZkM2aEVJSURYSXNJbDhVN2NIdDRiaVRIRFFua0tMb1o2OU9tcUF2dldnNUZGQkFwTVJKeUh4c2xiUDJObmJOeU5XSENfTWI4dFllN055SXc2aVo2UmhmVjdTQXpMOGtUZ3BVZWI1MWQxM1ZEU3ZlV3RTSzhTYU9Yb3E4Z1RuNlRqalZjaTA4TlVaNkI4YTV1YVoxck5OLUJNLVBFOVE0djVkZ21xSDF5bHc5dkN0ZjQ?oc=5",
+   "source": "IndexBox",
+   "type": "presse",
+   "produits": [
+    "tungstene"
    ],
    "auto": true
   },
@@ -31,18 +56,6 @@
    "titre": "Bull et Schwarz Digits s'allient pour développer un cloud souverain européen dédié à l'IA - Le Monde Informatique",
    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWGpqWWxXRm1jSnZBWFhfWFNwekRlSFFzYWl6M0VpdHQ1NWV5QWVCU3V0ZWhaVEZHaU5HeFpFYllqdUJNaS1yQkpGS3ViVVFCUVpUdjRQbGlCcGN0Sm0tMVFvengzMDlQaWR1MU51dE1ud1gzdURjV3ducWNaMS1HTW9NaGFGVDRMSnlHUFhlWWJ2a0xSbC12VWF4WWJ6LUxBVG9YNWlidDdmSEdCZXVQZWZ1WUpLVENnUzdtaWVVck55M3VuZkpXamhkd3c2SEFQWDVuQTk1ZzUzVnhMdHdVVm9R?oc=5",
    "source": "Le Monde Informatique",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "623651207c86",
-   "d": "2026-11-03",
-   "titre": "Alibaba fait de Dakar 2026 un laboratoire du cloud souverain - Sport Stratégies",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNE5IR3huaE1YZkktdE1CcmFIQnJSaW9GelFCdjh2Ymlidm5DUWJuVnFHNEFCckZvdC1BdVY2eFE3VWhNOFVScWJicnpHYnQyT09iMlZNci16RFNQWlJUc09EcTR4WkFDUmtNbUl0ai1rNjhoOHk4MUdNUXM2dDVWa3IyRDhCbl9mQU1vMVlNMlZhbkZ6Wl9UQQ?oc=5",
-   "source": "Sport Stratégies",
    "type": "presse",
    "produits": [
     "cloud"
