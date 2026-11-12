@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-11T15:15+00:00",
+ "maj": "2026-11-12T15:59+00:00",
  "items": [
   {
    "id": "95e6189b1a40",
@@ -65,35 +65,11 @@
    "auto": true
   },
   {
-   "id": "83a1394200b3",
-   "d": "2026-11-04",
-   "titre": "Les prix du tungstène occidental atteignent 3,74 fois les niveaux chinois, les restrictions à l'exportation divisant le marché - Actualités et statistiques - IndexBox",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOWQ2bEVITEVBZkM2aEVJSURYSXNJbDhVN2NIdDRiaVRIRFFua0tMb1o2OU9tcUF2dldnNUZGQkFwTVJKeUh4c2xiUDJObmJOeU5XSENfTWI4dFllN055SXc2aVo2UmhmVjdTQXpMOGtUZ3BVZWI1MWQxM1ZEU3ZlV3RTSzhTYU9Yb3E4Z1RuNlRqalZjaTA4TlVaNkI4YTV1YVoxck5OLUJNLVBFOVE0djVkZ21xSDF5bHc5dkN0ZjQ?oc=5",
-   "source": "IndexBox",
-   "type": "presse",
-   "produits": [
-    "tungstene"
-   ],
-   "auto": true
-  },
-  {
-   "id": "2ea25d16b70a",
-   "d": "2026-11-04",
-   "titre": "Cloud & AI Infrastructure Paris : FinOps, cloud souverain et infrastructures IA au cœur du salon des 18 et 19 novembre - IT Social",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNckZjSmExdl9HZG1XTGNVUF9mTHZKTU9sblROb2w1cVQ1LWh3UHlYQUdYSlZjbTI0LXRCLXN5U1ppbU1JR0V0RW1Pc094YXprd2lGLS1kWW91OGZQdG9qVXlMd3ZGRHl1b0EwLTg3UXBMVy0xLVUxRGZ6ZS1Jc0hSWjlUOGJUU2hUUlc5NUNmSFlPWXdYMHlpRWg4ZGpJSktwS081bThyUVQ5eHN3QzdQbHFzb0d1VGc5MnhjTHNHN0lMWTJDMlNHN2RNNFBMVUZVLXdocFo2UGRDcWJEZTRrU0RQTVJRQUczeDY4?oc=5",
-   "source": "IT Social",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "318c91c1ab4a",
-   "d": "2026-11-04",
-   "titre": "Bull et Schwarz Digits s'allient pour développer un cloud souverain européen dédié à l'IA - Le Monde Informatique",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWGpqWWxXRm1jSnZBWFhfWFNwekRlSFFzYWl6M0VpdHQ1NWV5QWVCU3V0ZWhaVEZHaU5HeFpFYllqdUJNaS1yQkpGS3ViVVFCUVpUdjRQbGlCcGN0Sm0tMVFvengzMDlQaWR1MU51dE1ud1gzdURjV3ducWNaMS1HTW9NaGFGVDRMSnlHUFhlWWJ2a0xSbC12VWF4WWJ6LUxBVG9YNWlidDdmSEdCZXVQZWZ1WUpLVENnUzdtaWVVck55M3VuZkpXamhkd3c2SEFQWDVuQTk1ZzUzVnhMdHdVVm9R?oc=5",
-   "source": "Le Monde Informatique",
+   "id": "1510a2b3a7cb",
+   "d": "2026-11-05",
+   "titre": "Infomaniak lance un nouveau stockage cloud souverain en Suisse avec 10 To de trafic gratuit - JVMag",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSFp5M0FyTHpHM2dpSDVsY0VYeXFVR2xGc2FCdWJJa0FzUlpXNU9fYjZwT240ZXpVOW1ReW0zYnpTQ3pqTXNkdG9LTFE3WEFzQTB2U1BtYWxjcVA2OThFNnJpSVRyNVZvLWxTbS01bk1NaU9KYlc4SmtVUWhBY1p1SEc3eWdXLTY0MzlaYmZ5WDAySDYzY0pleW9XdjhhbzJ0SXFEZUtSTnFwS2pnS3BTNEdyR2dQck5hZmdhaQ?oc=5",
+   "source": "JVMag",
    "type": "presse",
    "produits": [
     "cloud"
