@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T15:59+00:00",
+ "maj": "2026-11-13T15:24+00:00",
  "items": [
   {
    "id": "95e6189b1a40",
@@ -61,18 +61,6 @@
    "type": "presse",
    "produits": [
     "azote"
-   ],
-   "auto": true
-  },
-  {
-   "id": "1510a2b3a7cb",
-   "d": "2026-11-05",
-   "titre": "Infomaniak lance un nouveau stockage cloud souverain en Suisse avec 10 To de trafic gratuit - JVMag",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSFp5M0FyTHpHM2dpSDVsY0VYeXFVR2xGc2FCdWJJa0FzUlpXNU9fYjZwT240ZXpVOW1ReW0zYnpTQ3pqTXNkdG9LTFE3WEFzQTB2U1BtYWxjcVA2OThFNnJpSVRyNVZvLWxTbS01bk1NaU9KYlc4SmtVUWhBY1p1SEc3eWdXLTY0MzlaYmZ5WDAySDYzY0pleW9XdjhhbzJ0SXFEZUtSTnFwS2pnS3BTNEdyR2dQck5hZmdhaQ?oc=5",
-   "source": "JVMag",
-   "type": "presse",
-   "produits": [
-    "cloud"
    ],
    "auto": true
   }
