@@ -1,6 +1,18 @@
 {
- "maj": "2026-11-13T15:24+00:00",
+ "maj": "2026-11-14T14:10+00:00",
  "items": [
+  {
+   "id": "3f29e9ec9bb3",
+   "d": "2026-11-14",
+   "titre": "OPINION. « Pour un label de cloud souverain lisible par tous » - La Tribune",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOS3ZZZV9LVExtaGVQRTdOemxuM00zbXFnbURzdklRQThlOXNHWHJWcXFtQmE0MVdXOEVzdlhGRG5oVG9GRlRUTjMxXzhvejF4RnRFNmZRbHgydFZtM194bTlOUnROeEItbnR5V3Q5XzVKeEJXR05JTVpnRlRveHhSa2N6ZDdJNkF0Z3l2RThQT2NiNHQyTFBscGFKOTNXU2tQQ3IwOGlfLVMzeWJISmFGaGF6UQ?oc=5",
+   "source": "La Tribune",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
   {
    "id": "95e6189b1a40",
    "d": "2026-11-10",
