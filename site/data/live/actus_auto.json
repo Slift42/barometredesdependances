@@ -1,6 +1,18 @@
 {
- "maj": "2026-11-14T14:10+00:00",
+ "maj": "2026-11-15T14:46+00:00",
  "items": [
+  {
+   "id": "d22c158ed7a4",
+   "d": "2026-11-15",
+   "titre": "Infomaniak lance un stockage objet S3 dans son cloud souverain - Enerzine",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMi1LY0VhMWtQVjg2c3NKaHNxQlFqNVZTUEo0THBTa1J6bTZGLWpLZVRnMTlhd3J5ZlNMaS12V09vZmR0Wm5BLWhsdlgxUUw4MTdGZ09SMm5SQWdTNE9HZld4b2VpYTdqYXZhMS1lblBJWkVCQjlqemZmZWEyNjhMRE9QLUJpVDFrWjBoc2JGS3M0bWp2ME53Y0d4WHJUU2FLRHpmMg?oc=5",
+   "source": "Enerzine",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
   {
    "id": "3f29e9ec9bb3",
    "d": "2026-11-14",
