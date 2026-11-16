@@ -1,64 +1,64 @@
 {
  "gn-terres-rares": {
   "nom": "Google Actualités : terres rares",
-  "erreurs": 0,
-  "statut": "ok",
+  "erreurs": 1,
+  "statut": "erreur : HTTP 503",
   "items": 53,
   "derniere": "2026-11-16"
  },
  "gn-metaux": {
   "nom": "Google Actualités : métaux critiques",
-  "erreurs": 0,
-  "statut": "ok",
+  "erreurs": 1,
+  "statut": "erreur : HTTP 503",
   "items": 34,
   "derniere": "2026-11-16"
  },
  "gn-medicaments": {
   "nom": "Google Actualités : pénuries de médicaments",
-  "erreurs": 0,
-  "statut": "ok",
+  "erreurs": 1,
+  "statut": "erreur : HTTP 503",
   "items": 22,
   "derniere": "2026-11-16"
  },
  "gn-energie": {
   "nom": "Google Actualités : gaz, GNL, uranium",
-  "erreurs": 0,
-  "statut": "ok",
+  "erreurs": 1,
+  "statut": "erreur : HTTP 503",
   "items": 23,
   "derniere": "2026-11-16"
  },
  "gn-puces": {
   "nom": "Google Actualités : semi-conducteurs",
-  "erreurs": 0,
-  "statut": "ok",
+  "erreurs": 1,
+  "statut": "erreur : HTTP 503",
   "items": 47,
   "derniere": "2026-11-16"
  },
  "gn-numerique": {
   "nom": "Google Actualités : cloud et souveraineté numérique",
-  "erreurs": 0,
-  "statut": "ok",
+  "erreurs": 1,
+  "statut": "erreur : HTTP 503",
   "items": 51,
   "derniere": "2026-11-16"
  },
  "gn-commerce": {
   "nom": "Google Actualités : droits de douane UE",
-  "erreurs": 0,
-  "statut": "ok",
+  "erreurs": 1,
+  "statut": "erreur : HTTP 503",
   "items": 64,
   "derniere": "2026-11-16"
  },
  "gn-defense": {
   "nom": "Google Actualités : munitions et industrie de défense",
-  "erreurs": 0,
-  "statut": "ok",
+  "erreurs": 1,
+  "statut": "erreur : HTTP 503",
   "items": 15,
   "derniere": "2026-11-16"
  },
  "gn-agri": {
   "nom": "Google Actualités : engrais et souveraineté alimentaire",
-  "erreurs": 0,
-  "statut": "ok",
+  "erreurs": 1,
+  "statut": "erreur : HTTP 503",
   "items": 36,
   "derniere": "2026-11-16"
  },
