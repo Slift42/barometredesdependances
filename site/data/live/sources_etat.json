@@ -2,1276 +2,1276 @@
  "usgs-2026": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "aie-gcmo-2026": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "aie-pv-2022": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "cce-crm-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "cce-batteries-2023": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "cce-puces-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ce-dependances-2021": {
-  "code": 200,
-  "statut": "ok",
-  "verifie": "2026-11-09"
- },
- "draghi-2024": {
   "code": 429,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
+ },
+ "draghi-2024": {
+  "code": 200,
+  "statut": "ok",
+  "verifie": "2026-11-16"
  },
  "tresor-2020": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "senat-penuries-2023": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ansm-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "decret-2021-349": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "franceagrimer-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "unifa-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "directive-2009-119": {
   "code": 202,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "agsi": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ieefa-2026": {
   "code": 400,
   "statut": "à vérifier",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "gmf-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "bruegel-uranium-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "rte-2024": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "asteres-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "an-tache-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "gauvain-2019": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "an-chatelain-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "iris-2023": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "osw-2023": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "gao-2024": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "viginum-storm-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "anssi-apt28-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "rns-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ifri-rns-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "jonesday-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ocde-export-2026": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ocde-acier-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "clubjuristes-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "unav-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-mining-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-nexperia-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-cognac-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-gazprom-2022": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-niger-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-itar-2018": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-dst-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-breton-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-nss-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-suisse-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-danemark-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-dukovany-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-voitures-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-hdh-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-fn-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-munitions-2022": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-gaz-ue-2026": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-cpi-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "xi-2020": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "soas-2023": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "aie-tr-2024": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "policycn-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "merics-series-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "merics-rearm-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "merics-levier-2026": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "chinaobs-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ifri-seaman-2024": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "carnegie-trenin-2021": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "montaigne-duclos-2021": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "fpc-2023": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "energie-ru-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "timbuktu-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "boell-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "nss-us-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ifri-nardon-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "wh-dst-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "iris-thibout-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "wh-ia-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "wh-energie-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ruffin-gc-2026": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "an-armees-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "em-2026": {
   "code": 0,
   "statut": "à vérifier",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "gouv-medicaments-2023": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ema-perfusion-2025": {
   "code": 429,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "bce-cartes-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "nokia-asn-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "5g-ue-2023": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "cefic-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ifri-alu-2024": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "semae-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "carbonbrief-2026": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-mcphy-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "senat-commerce-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "statcounter": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-ue-chine-2026": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ce-projets-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-consultation-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-ansm-sept-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-secnumcloud-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-acier-numerique-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "cnes-ariane6-2024": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "euspa-galileo": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "mofcom-ga-2023": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-ga-us-2024": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-graphite-2023": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "aie-sb-2024": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "aie-w-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "aie-tr-avril-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "clepa-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-nexperia-chrono-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "justiceinfo-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "aie-petrole": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "dgec-petrole": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "senat-qe-cohen-2020": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "publicsenat-stocks-2020": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "fas-2021": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-ansm-4mois-2022": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "meti-2020": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-seqens-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "fastmarkets-caremag-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "emili-cndp-2023": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "wnn-orano-2023": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "gouv-fmc-2023": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-verkor-2024": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "fn-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "dn-eurenco-2024": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-carbon-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "lcp-lpm-2023": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-sandoz-2024": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-novo-2023": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-crolles-2023": {
-  "code": 403,
-  "statut": "protégé",
-  "verifie": "2026-11-09"
+  "code": 200,
+  "statut": "ok",
+  "verifie": "2026-11-16"
  },
  "p-cre-boucliers-2024": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "lcp-masques-2020": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-asn-2024": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "bei-ecotitanium-2017": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-metlen-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "localtis-anssi-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-tarbes-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "cnrs-tr-2025": {
   "code": 0,
   "statut": "à vérifier",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "usgs-ga": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "usgs-ge": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "usgs-sb": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "usgs-w": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "usgs-ree": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "usgs-gr": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "usgs-mg": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "usgs-phos": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "usgs-potash": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ansm-decret": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "rte-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "aist-acier-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "greenpeace-u-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-ure-russie-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "asil-2021": {
   "code": 404,
   "statut": "à vérifier",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-airbus-ti-2022": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "aie-cobalt-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "aie-nickel-2020": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-eagle-s-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "lcp-pret-2023": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "f35-lockheed": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "dassault-ra-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "dieselnet-mg-2021": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "aie-reseaux-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-pcb-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-mlcc-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "statcounter-os": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "statcounter-vendor": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "esante-cyber-2024": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-pac-2023": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "insee-ciment-2018": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "vdw-mo-2020": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ntn-snr-2009": {
   "code": 0,
   "statut": "à vérifier",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "senat-qe-dumas-2024": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ign-cartes-2024": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "localtis-google-2018": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "3ds-chiffres": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "cde-charbon-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ce-engrais-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "cde-niger-2024": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "usgs-pgm": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "p-dram-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "afnic-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "usgs-li": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "usgs-co": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "usgs-ni": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "usgs-ti": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "usgs-cu": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "wna-mines-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "wna-kz-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "wna-uz-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "wnn-kap-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "wnn-kap-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "mte-uranium": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "orano-katco-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "orano-mongolie-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "kunuz-nurlikum-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "orda-redbook-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ren-fen-2024": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "lkab-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "serraverde-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "lynas-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "tanbreez-2024": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "caremag-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "almonty-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "covekaz-2026": {
   "code": 0,
   "statut": "à vérifier",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "fastmarkets-w-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "timesca-sb-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "metlen-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "umicore-stl-2024": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "keliber-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "jadar-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ewb-jadar-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "novandino-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "zim-li-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "iea-arecoms-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "lnc-sln-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "uktmp-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ngu-phos": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "doj-hhi-2024": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "usgs-mn": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "usgs-bx": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "usgs-nb": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "usgs-ta": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "bmi-rkab-2026": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "nrf-id-2019": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "pib-ncmm-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "camara-pnmce-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "band-pnmce-2026": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "bl-litio-2023": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ecofin-zm-2026": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "pdu-zm-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ecofin-ml-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "swp-afrique-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "acjj-ocp-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "correo-ylb-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "timesca-kz-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "timesca-kzree-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "mining-lobito-2024": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "caem-li-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "mlnr-gh-2023": {
   "code": 404,
   "statut": "à vérifier",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "mt-ewoyaa-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "allafrica-zw-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ecofin-mw-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "enterprise-sa-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ajot-ph-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "renault-managem-2022": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "gabonreview-mn-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "eramet-gabon-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "allafrica-macron-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "brief-na-2023": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "iea-za-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "au-agms-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "ec-diplo-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "reuters-gn-2026": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "allafrica-gn-2026": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "aj-niger-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "kitco-vn-2025": {
   "code": 200,
   "statut": "ok",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "mining-mx-2024": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  },
  "allafrica-ng-2025": {
   "code": 403,
   "statut": "protégé",
-  "verifie": "2026-11-09"
+  "verifie": "2026-11-16"
  }
 }
