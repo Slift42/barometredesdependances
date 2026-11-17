@@ -1,66 +1,66 @@
 {
  "gn-terres-rares": {
   "nom": "Google Actualités : terres rares",
-  "erreurs": 1,
-  "statut": "erreur : HTTP 503",
-  "items": 53,
-  "derniere": "2026-11-16"
+  "erreurs": 0,
+  "statut": "ok",
+  "items": 52,
+  "derniere": "2026-11-17"
  },
  "gn-metaux": {
   "nom": "Google Actualités : métaux critiques",
-  "erreurs": 1,
-  "statut": "erreur : HTTP 503",
-  "items": 34,
-  "derniere": "2026-11-16"
+  "erreurs": 0,
+  "statut": "ok",
+  "items": 37,
+  "derniere": "2026-11-17"
  },
  "gn-medicaments": {
   "nom": "Google Actualités : pénuries de médicaments",
-  "erreurs": 1,
-  "statut": "erreur : HTTP 503",
-  "items": 22,
-  "derniere": "2026-11-16"
+  "erreurs": 0,
+  "statut": "ok",
+  "items": 23,
+  "derniere": "2026-11-17"
  },
  "gn-energie": {
   "nom": "Google Actualités : gaz, GNL, uranium",
-  "erreurs": 1,
-  "statut": "erreur : HTTP 503",
+  "erreurs": 0,
+  "statut": "ok",
   "items": 23,
-  "derniere": "2026-11-16"
+  "derniere": "2026-11-17"
  },
  "gn-puces": {
   "nom": "Google Actualités : semi-conducteurs",
-  "erreurs": 1,
-  "statut": "erreur : HTTP 503",
-  "items": 47,
-  "derniere": "2026-11-16"
+  "erreurs": 0,
+  "statut": "ok",
+  "items": 48,
+  "derniere": "2026-11-17"
  },
  "gn-numerique": {
   "nom": "Google Actualités : cloud et souveraineté numérique",
-  "erreurs": 1,
-  "statut": "erreur : HTTP 503",
-  "items": 51,
-  "derniere": "2026-11-16"
+  "erreurs": 0,
+  "statut": "ok",
+  "items": 49,
+  "derniere": "2026-11-17"
  },
  "gn-commerce": {
   "nom": "Google Actualités : droits de douane UE",
-  "erreurs": 1,
-  "statut": "erreur : HTTP 503",
-  "items": 64,
-  "derniere": "2026-11-16"
+  "erreurs": 0,
+  "statut": "ok",
+  "items": 69,
+  "derniere": "2026-11-17"
  },
  "gn-defense": {
   "nom": "Google Actualités : munitions et industrie de défense",
-  "erreurs": 1,
-  "statut": "erreur : HTTP 503",
-  "items": 15,
-  "derniere": "2026-11-16"
+  "erreurs": 0,
+  "statut": "ok",
+  "items": 18,
+  "derniere": "2026-11-17"
  },
  "gn-agri": {
   "nom": "Google Actualités : engrais et souveraineté alimentaire",
-  "erreurs": 1,
-  "statut": "erreur : HTTP 503",
+  "erreurs": 0,
+  "statut": "ok",
   "items": 36,
-  "derniere": "2026-11-16"
+  "derniere": "2026-11-17"
  },
  "iris": {
   "nom": "IRIS",
@@ -77,6 +77,6 @@
   "erreurs": 0,
   "statut": "ok",
   "items": 40,
-  "derniere": "2026-11-16"
+  "derniere": "2026-11-17"
  }
 }
