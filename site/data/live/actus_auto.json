@@ -1,6 +1,66 @@
 {
- "maj": "2026-11-17T16:53+00:00",
+ "maj": "2026-11-18T16:28+00:00",
  "items": [
+  {
+   "id": "1362f6a2b1a8",
+   "d": "2026-11-18",
+   "titre": "H Company rend ses agents d'IA disponibles sur le cloud souverain européen d'AWS - ActuIA",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNkRiQ0p2aUhUWFVPQ3dFd0Y5QXF5Q1VweFlUZDRyMG5NZmp4c0hZcEFSM3IxMjQteWpZTDlmcUFJTW52TzlzWWFzZlJGd2JWbkpoYmk1VENlUl9zekp6ZnJZdWhReTFsMkF0dmVPcDkycDdUc1FJSjRRREtHSTRkcGg3ZThDYTJXNzBhX1pRaDVEQnJBbGxQVlc5MWlYbjl1cHNMWGs2aUxXdmJkNmNWcFp3?oc=5",
+   "source": "ActuIA",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "776f0e62abbe",
+   "d": "2026-11-18",
+   "titre": "Workday ancre son cloud souverain en Irlande - L'Informaticien",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRnpyQXVhVW9SaEtpTWJvX3A2R0VTdUFfYUEzdW9DYjVzS2doSnRXUTZvVnlFRTltdzBGLXZCTDlWOUtKYWtrQWJKU2g5R05TdzNhUXN5ZDNzNUFBS3A5bnEzY1Y0MFhWMkJOQkxFOFNGZGJaVmlVblRuS2JRZXR4UVktSUlXRjRYc3FWZmlSekdpeFFSeHVGeVd3R1ZFZ0dWNVZn?oc=5",
+   "source": "L'Informaticien",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "710d84fc5475",
+   "d": "2026-11-18",
+   "titre": "Workday établit en Irlande une société européenne pour son cloud souverain - ITdaily.",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE10RDVHNi00dU5Oc3NqWk90RjVNRl9rVDVaUEZ4bHF3eEJMeGNUTUoxRmRSbHdKbGoxZ1JUajlRODJHOFkwb3JtNm1WRGFucFh5ZjA2clNpTlF3aTEwa2xBWXQydE1Bb0hrX3pUb2hQbno3RGxRdVE?oc=5",
+   "source": "ITdaily.",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "779d04a4b319",
+   "d": "2026-11-18",
+   "titre": "Workday renforce les garanties de gouvernance européenne de son service de cloud souverain de l’Union européenne - Zonebourse Suisse",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOV21HTFRjblgzdmpYQWJGQnpjUEpOQlZCQUNFMHlrV0NYNmh5OG1GSFVUQzBOQm1fbDQtVEQ1SHd5ZEJrWnF4OUE5QUc4anU5eFNRV2w3bzJBcWt2NVYtRXlaQldkTzh2MU9jemhfSHQyTTVzV09obUpPeVJVamU0ekt1TDlNRnUxdEpCUHRaR05NblFTTlZXNEZ0VjFkS3lEa3J3X3VOZUVVOE5QalZMbXlHTnJ4MU5qSHVTSERsWTlyWFJrSzBLUVBMNXBsYXA0dmFRMktaZDUzRHRGM3AxM1QwNGo0T2pJamhNZGtYdGM?oc=5",
+   "source": "Zonebourse Suisse",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "6e8de617ee98",
+   "d": "2026-11-18",
+   "titre": "Cloud souverain européen, OVHcloud face à Infomaniak et Scaleway - Linformatique.org",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSnFOQkZPYUF4QnRGS3BldHlBd1RCWGg4VExSSkFyQ2FXOXlMalVuN1R6TXRTSzRfa2VkbllpQS1SQkNPZUtaUEpscE5zTUN1UUJySkVTUGgtQXpaTTNMUnh1ZlBjUWNCRWhUT0laQzZJS2FZb0Q4bnVEMUdwRWtRWXBSZE5FWU84U0h3bw?oc=5",
+   "source": "Linformatique.org",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
   {
    "id": "599dee2578cb",
    "d": "2026-11-17",
