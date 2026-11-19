@@ -1,12 +1,12 @@
 {
- "maj": "2026-11-18T16:28+00:00",
+ "maj": "2026-11-19T16:35+00:00",
  "items": [
   {
-   "id": "1362f6a2b1a8",
-   "d": "2026-11-18",
-   "titre": "H Company rend ses agents d'IA disponibles sur le cloud souverain européen d'AWS - ActuIA",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNkRiQ0p2aUhUWFVPQ3dFd0Y5QXF5Q1VweFlUZDRyMG5NZmp4c0hZcEFSM3IxMjQteWpZTDlmcUFJTW52TzlzWWFzZlJGd2JWbkpoYmk1VENlUl9zekp6ZnJZdWhReTFsMkF0dmVPcDkycDdUc1FJSjRRREtHSTRkcGg3ZThDYTJXNzBhX1pRaDVEQnJBbGxQVlc5MWlYbjl1cHNMWGs2aUxXdmJkNmNWcFp3?oc=5",
-   "source": "ActuIA",
+   "id": "5d0ece2b419f",
+   "d": "2026-11-19",
+   "titre": "Cloud souverain : une clause contractuelle suffit-elle à garantir la continuité des services ? - Solutions-Numeriques",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOV1N2LU04dm1hQ2U5d0xIdUJmUzBKSWJ4M0dtandLcTVlYldfdUVLOGtzNWlkbFhHRFc0TEt5cG9JbUhzV3l6YXpLZXVJTk9hWDBSTTF2ZmUxbklKcFVPaG5Gd2VoTHhzTS1yTDFMa1ZGd0Y2RzA4LTNsdWJMYzVnZUViOXpCWkJsTFF3c0FIWTNNZDNFV21Bd0hhaVF5VW5aQUgyOU50YjdDNEU5end0dUFMaHJ3a0ZpNDRObEswT05uM1FvNDNB?oc=5",
+   "source": "Solutions-Numeriques",
    "type": "presse",
    "produits": [
     "cloud"
@@ -14,11 +14,96 @@
    "auto": true
   },
   {
-   "id": "776f0e62abbe",
+   "id": "06f0fa4c1b2c",
+   "d": "2026-11-19",
+   "titre": "Sopra Steria s'allie à Scaleway pour migrer les données sensibles vers un cloud souverain - Idéal Investisseur",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeXlZMGE0Vl95NUNBMjdmekhFeThoWTJBeXFVUVhKZkdfcGFJMGd1RnJ1a0pEXzZWWjBFOHdHYnJuQ3VtXy1xR3dxT2wyREtkd3k1NHAweTRlWjdvNTNOYTFLb1poTWdZZFN0clpQcWhjalM5TEs2LUIyUVpNNTRMelRlX1BvQUhlVzlUdHhPTkZFSXFRaENTaXp1NUZXXzMtSVZwazdYT29VMjJTZWFqRXFaWVJfRkhqaVB2aVhMU2ctdDZtbzNBanYwRFlNODlnRGRZNkgzbl9IVXc?oc=5",
+   "source": "Idéal Investisseur",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "b4b080f11e24",
+   "d": "2026-11-19",
+   "titre": "Sopra Steria s'associe à Scaleway pour le cloud souverain en Europe - Zonebourse",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTlNQYmdIazNFNnRFN2drUlFwQWNBb2Y1REtNdVhDUWpGTDI4eUhoOHlEc0h6Uy1QX2VFdnZvbzUyYnJlbk8zLS15cXVEWnA0c3VYdzBad1ZxaG5BWjVLRVROU185Y3FEemt2YXRaRmJuMklkVmpIMWxwSWd2d1cyRndZeGVSV043QlQxNWVjQTVqZGowUkpHWUQ4cXgzR1pnQXdKMEZ5NmQtTVpWaU1zamQwWm9VMmRvY0YwcVhEdzZMVGNRd1VN?oc=5",
+   "source": "Zonebourse",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "8fe09a8025f5",
+   "d": "2026-11-19",
+   "titre": "Cloudera : Marenza Altieri-Douglas nommée VP Cloud Souverain - Presse Agence",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbk5ucXR1VDFwQTcxRkN4YmVXRTYzdWFJWWRkb2drR18zQ1M0Q1RVSkVzdENiRXkyWFZTdkVjOS1CaF9xVl9KZTlUVXN6RWt2WFo5T1FlX09RYW5OcDAxLVQyZWZVNHBRTTZJVFhjYk5JeGNnUGxrNFl5cHdPT19fbXd2WHhVdldFZjhrM3hkeGlZOXp5NFktVnRuR25FX2FzNDczdEdmZjZSM2c3bnRJ?oc=5",
+   "source": "Presse Agence",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "245edf35526a",
+   "d": "2026-11-19",
+   "titre": "L’éditeur de logiciels RH Workday veut renforcer la sécurité de son cloud souverain - Trends-Tendances",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYTRVX1JJNmVZU2oxbm4yVzBHTHhtZXczb0lnLURVUDZUdkRuOUI2SnRLNWdNOTBGaWpWMGZSZkRCOFh3YjRVNml5bUxDcGpXS0dfV21UbUJ3SFg0a3ctZmZjUzAzQXNmejl6MjB2clk5OV9YWFY3OTlJWEYza3RrZ3F1RGF3clg2Z0JVWXcybmU0SERUNWx5TzRBS0Z1UWpFUGlJcjZwQVN4OGR4OHQ5cnBCWmd2X2MwOFplY1dZUDZtUQ?oc=5",
+   "source": "Trends-Tendances",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "1711678c5b0c",
+   "d": "2026-11-19",
+   "titre": "Sopra Steria et Scaleway s'allient pour accompagner la migration des applications critiques vers le cloud souverain - PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQeW1raDNkQlRENGVHZVl1dFdzSWJ1T1VNUFF5a09SODN2NnBNOUVKUDM1VXJjSXhWTDJSbmVpbnQ5OVpsNE9QWnpibzVyV3l4X2FKUW9rX25aem5HN3pBWFBqWmJPeWtmMjVrMkZkMEFvTnBYb1dWZTR2YTI0QXNUVmo2bi1mT1JhX1FaQXhqOG1INzBkMmdsVk1mcldKU3JpVmFFVFR6TVpobWhyNDJwa3h2S2JZWlhHSkV2RUtwXzF5b1F4RzJrN0xwM2dTcmVRNjNkaWdjMmg0NVlNQ3p4blotLS1OV0dJWXNKd1lVZ003T01NbDBwLW92Yi1NUkE?oc=5",
+   "source": "PR Newswire",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "c2614c00e24e",
+   "d": "2026-11-19",
+   "titre": "L'acier vietnamien est confronté à des mesures protectionnistes de plus en plus strictes de la part de l'UE. - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYUdHQzczUkpWS3hEYmluWTF4MG9wWmtaQ2RILVpiSTEtczR4YXZtSmRrQ2k4b0hrRWEzaHVvbk9RRnZiQTVvRDBzV1Brc2wxVUZVTUxLRU44RzNMZ3dxQUNmUzI5a2dKckFhb29lWm9uRGFxMUFqdW5WcS11cXFtVzAxME9LZ3J0OG00eU9raw?oc=5",
+   "source": "Vietnam.vn",
+   "type": "presse",
+   "produits": [
+    "acier"
+   ],
+   "auto": true
+  },
+  {
+   "id": "1f63a3160210",
+   "d": "2026-11-19",
+   "titre": "La Chine détient l’Europe pour les métaux des terres rares : ce qui menace une nouvelle guerre commerciale - Афинские Новости",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbG1GUGVJWG5QWFNFVmgzOW5BcVE5TE1rd29GUlNsSmx2bGtKYVFOdzZGalk5WEtVM3Z0UEpjTWhrd3d3WTJpZjR4cWk3SzlFb0d0cHE0N1V1SUtFUDFhbFFVNHBoQ19XX2ZCcEdJX2xOdE5zTXhaYlJ1Q2l6QXloYnZMMXA0M3J4MHk2RTJyRE8yWFdBdEZpRkszQTNRcWJJWmJRakMzZFdibEFISjhQamNLdGFhMUFjQzdjb0ZuSEx0ZW03Smo0NU9KODFrQQ?oc=5",
+   "source": "Афинские Новости",
+   "type": "presse",
+   "produits": [
+    "tr-legeres",
+    "tr-lourdes"
+   ],
+   "auto": true
+  },
+  {
+   "id": "1362f6a2b1a8",
    "d": "2026-11-18",
-   "titre": "Workday ancre son cloud souverain en Irlande - L'Informaticien",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRnpyQXVhVW9SaEtpTWJvX3A2R0VTdUFfYUEzdW9DYjVzS2doSnRXUTZvVnlFRTltdzBGLXZCTDlWOUtKYWtrQWJKU2g5R05TdzNhUXN5ZDNzNUFBS3A5bnEzY1Y0MFhWMkJOQkxFOFNGZGJaVmlVblRuS2JRZXR4UVktSUlXRjRYc3FWZmlSekdpeFFSeHVGeVd3R1ZFZ0dWNVZn?oc=5",
-   "source": "L'Informaticien",
+   "titre": "H Company rend ses agents d'IA disponibles sur le cloud souverain européen d'AWS - ActuIA",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNkRiQ0p2aUhUWFVPQ3dFd0Y5QXF5Q1VweFlUZDRyMG5NZmp4c0hZcEFSM3IxMjQteWpZTDlmcUFJTW52TzlzWWFzZlJGd2JWbkpoYmk1VENlUl9zekp6ZnJZdWhReTFsMkF0dmVPcDkycDdUc1FJSjRRREtHSTRkcGg3ZThDYTJXNzBhX1pRaDVEQnJBbGxQVlc5MWlYbjl1cHNMWGs2aUxXdmJkNmNWcFp3?oc=5",
+   "source": "ActuIA",
    "type": "presse",
    "produits": [
     "cloud"
@@ -38,11 +123,11 @@
    "auto": true
   },
   {
-   "id": "779d04a4b319",
+   "id": "776f0e62abbe",
    "d": "2026-11-18",
-   "titre": "Workday renforce les garanties de gouvernance européenne de son service de cloud souverain de l’Union européenne - Zonebourse Suisse",
-   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOV21HTFRjblgzdmpYQWJGQnpjUEpOQlZCQUNFMHlrV0NYNmh5OG1GSFVUQzBOQm1fbDQtVEQ1SHd5ZEJrWnF4OUE5QUc4anU5eFNRV2w3bzJBcWt2NVYtRXlaQldkTzh2MU9jemhfSHQyTTVzV09obUpPeVJVamU0ekt1TDlNRnUxdEpCUHRaR05NblFTTlZXNEZ0VjFkS3lEa3J3X3VOZUVVOE5QalZMbXlHTnJ4MU5qSHVTSERsWTlyWFJrSzBLUVBMNXBsYXA0dmFRMktaZDUzRHRGM3AxM1QwNGo0T2pJamhNZGtYdGM?oc=5",
-   "source": "Zonebourse Suisse",
+   "titre": "Workday ancre son cloud souverain en Irlande - L'Informaticien",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRnpyQXVhVW9SaEtpTWJvX3A2R0VTdUFfYUEzdW9DYjVzS2doSnRXUTZvVnlFRTltdzBGLXZCTDlWOUtKYWtrQWJKU2g5R05TdzNhUXN5ZDNzNUFBS3A5bnEzY1Y0MFhWMkJOQkxFOFNGZGJaVmlVblRuS2JRZXR4UVktSUlXRjRYc3FWZmlSekdpeFFSeHVGeVd3R1ZFZ0dWNVZn?oc=5",
+   "source": "L'Informaticien",
    "type": "presse",
    "produits": [
     "cloud"
@@ -50,11 +135,11 @@
    "auto": true
   },
   {
-   "id": "6e8de617ee98",
+   "id": "779d04a4b319",
    "d": "2026-11-18",
-   "titre": "Cloud souverain européen, OVHcloud face à Infomaniak et Scaleway - Linformatique.org",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSnFOQkZPYUF4QnRGS3BldHlBd1RCWGg4VExSSkFyQ2FXOXlMalVuN1R6TXRTSzRfa2VkbllpQS1SQkNPZUtaUEpscE5zTUN1UUJySkVTUGgtQXpaTTNMUnh1ZlBjUWNCRWhUT0laQzZJS2FZb0Q4bnVEMUdwRWtRWXBSZE5FWU84U0h3bw?oc=5",
-   "source": "Linformatique.org",
+   "titre": "Workday renforce les garanties de gouvernance européenne de son service de cloud souverain de l’Union européenne - Zonebourse Suisse",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOV21HTFRjblgzdmpYQWJGQnpjUEpOQlZCQUNFMHlrV0NYNmh5OG1GSFVUQzBOQm1fbDQtVEQ1SHd5ZEJrWnF4OUE5QUc4anU5eFNRV2w3bzJBcWt2NVYtRXlaQldkTzh2MU9jemhfSHQyTTVzV09obUpPeVJVamU0ekt1TDlNRnUxdEpCUHRaR05NblFTTlZXNEZ0VjFkS3lEa3J3X3VOZUVVOE5QalZMbXlHTnJ4MU5qSHVTSERsWTlyWFJrSzBLUVBMNXBsYXA0dmFRMktaZDUzRHRGM3AxM1QwNGo0T2pJamhNZGtYdGM?oc=5",
+   "source": "Zonebourse Suisse",
    "type": "presse",
    "produits": [
     "cloud"
@@ -106,19 +191,6 @@
    "type": "presse",
    "produits": [
     "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "95e6189b1a40",
-   "d": "2026-11-10",
-   "titre": "La Chine reporte de nouveau les contrôles à l'exportation des terres rares jusqu'au 10 janvier 2027 - IDNFinancials",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPV0J1b3Z3VVhFem1yVW82ek8xZ25kcktuWFFzSlRSb2lBS2JQeEY2OGVmclM0M3d5X3doT1FTU08zNmZCTEZGQXo1aUVpdnlUMmNJWnBfcHBCV3ctUmpwNnpSWS1xTE9lbm83WjZuSUhqMVgwSzlRdFF3Y2pIbkM3M094Z3FRRW50REstRDU3b3JCNmw5Vmt2V0VsMkVGX3JFX05TSjJ1dkc2cUVuS0VNNlltYVV4dF9PNFpNQ3k2Y1p4M1VscTZ3bW1WRkpYaFQzaVNVSzlpMjNsN3BaT0VxVVp6YWNTUQ?oc=5",
-   "source": "IDNFinancials",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
    ],
    "auto": true
   },
