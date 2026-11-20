@@ -1,12 +1,12 @@
 {
- "maj": "2026-11-19T16:35+00:00",
+ "maj": "2026-11-20T16:10+00:00",
  "items": [
   {
-   "id": "5d0ece2b419f",
-   "d": "2026-11-19",
-   "titre": "Cloud souverain : une clause contractuelle suffit-elle à garantir la continuité des services ? - Solutions-Numeriques",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOV1N2LU04dm1hQ2U5d0xIdUJmUzBKSWJ4M0dtandLcTVlYldfdUVLOGtzNWlkbFhHRFc0TEt5cG9JbUhzV3l6YXpLZXVJTk9hWDBSTTF2ZmUxbklKcFVPaG5Gd2VoTHhzTS1yTDFMa1ZGd0Y2RzA4LTNsdWJMYzVnZUViOXpCWkJsTFF3c0FIWTNNZDNFV21Bd0hhaVF5VW5aQUgyOU50YjdDNEU5end0dUFMaHJ3a0ZpNDRObEswT05uM1FvNDNB?oc=5",
-   "source": "Solutions-Numeriques",
+   "id": "5dc387182147",
+   "d": "2026-11-20",
+   "titre": "Cloud souverain : DEEP et OVHcloud renforcent leur partenariat - Presse Agence",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOEw0MHk2T3VSdmVJV2dvOVJrdkJvTFdaWUlTa3Vkdnl2SDZ6X29Za0ZMbDRoZGxDWjk4WjktemNlXzJ2Sk5HZWg0OEV5TzZYeUJwNHNrbHRBOWZIWVRFZlNCejdrbXMzWHdUbEdER1lZNFVjekdmbVV0V2pJXzY1VjdiSGVpLW1hb1pTdkRhLUZhcEdCRVVYVDRiZjkzVmJDeTdxaDFR?oc=5",
+   "source": "Presse Agence",
    "type": "presse",
    "produits": [
     "cloud"
@@ -14,11 +14,23 @@
    "auto": true
   },
   {
-   "id": "06f0fa4c1b2c",
+   "id": "ea355fc020a9",
+   "d": "2026-11-20",
+   "titre": "CityCloud : un cloud souverain pour protéger les collectivités - Presse Agence",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTWRFUmd6ZlNDaFJWdmhSZHdsVExOaTkyUnFVLVh2SGo1S3QwaFBhWVA5d2hMSzhvMjJFZG1vekZmU0owUVlUS1c5aFFadHhpcHU3UWRjNDNGNmJBUUVsS2RNRjZ1SjN6eEc0bWxNYk5adlZkWEsyMWtBMVpDRlY1ZkhneDlXQldmVkVSV21DUDZpTUFyb0RabW5oTzZKRk9tYjNMdWFwVzMzdUw5cmE4alp5ZV9Rdld6RzBra3FZYw?oc=5",
+   "source": "Presse Agence",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "5d0ece2b419f",
    "d": "2026-11-19",
-   "titre": "Sopra Steria s'allie à Scaleway pour migrer les données sensibles vers un cloud souverain - Idéal Investisseur",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeXlZMGE0Vl95NUNBMjdmekhFeThoWTJBeXFVUVhKZkdfcGFJMGd1RnJ1a0pEXzZWWjBFOHdHYnJuQ3VtXy1xR3dxT2wyREtkd3k1NHAweTRlWjdvNTNOYTFLb1poTWdZZFN0clpQcWhjalM5TEs2LUIyUVpNNTRMelRlX1BvQUhlVzlUdHhPTkZFSXFRaENTaXp1NUZXXzMtSVZwazdYT29VMjJTZWFqRXFaWVJfRkhqaVB2aVhMU2ctdDZtbzNBanYwRFlNODlnRGRZNkgzbl9IVXc?oc=5",
-   "source": "Idéal Investisseur",
+   "titre": "Cloud souverain : une clause contractuelle suffit-elle à garantir la continuité des services ? - Solutions-Numeriques",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOV1N2LU04dm1hQ2U5d0xIdUJmUzBKSWJ4M0dtandLcTVlYldfdUVLOGtzNWlkbFhHRFc0TEt5cG9JbUhzV3l6YXpLZXVJTk9hWDBSTTF2ZmUxbklKcFVPaG5Gd2VoTHhzTS1yTDFMa1ZGd0Y2RzA4LTNsdWJMYzVnZUViOXpCWkJsTFF3c0FIWTNNZDNFV21Bd0hhaVF5VW5aQUgyOU50YjdDNEU5end0dUFMaHJ3a0ZpNDRObEswT05uM1FvNDNB?oc=5",
+   "source": "Solutions-Numeriques",
    "type": "presse",
    "produits": [
     "cloud"
@@ -38,11 +50,11 @@
    "auto": true
   },
   {
-   "id": "8fe09a8025f5",
+   "id": "06f0fa4c1b2c",
    "d": "2026-11-19",
-   "titre": "Cloudera : Marenza Altieri-Douglas nommée VP Cloud Souverain - Presse Agence",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbk5ucXR1VDFwQTcxRkN4YmVXRTYzdWFJWWRkb2drR18zQ1M0Q1RVSkVzdENiRXkyWFZTdkVjOS1CaF9xVl9KZTlUVXN6RWt2WFo5T1FlX09RYW5OcDAxLVQyZWZVNHBRTTZJVFhjYk5JeGNnUGxrNFl5cHdPT19fbXd2WHhVdldFZjhrM3hkeGlZOXp5NFktVnRuR25FX2FzNDczdEdmZjZSM2c3bnRJ?oc=5",
-   "source": "Presse Agence",
+   "titre": "Sopra Steria s'allie à Scaleway pour migrer les données sensibles vers un cloud souverain - Idéal Investisseur",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeXlZMGE0Vl95NUNBMjdmekhFeThoWTJBeXFVUVhKZkdfcGFJMGd1RnJ1a0pEXzZWWjBFOHdHYnJuQ3VtXy1xR3dxT2wyREtkd3k1NHAweTRlWjdvNTNOYTFLb1poTWdZZFN0clpQcWhjalM5TEs2LUIyUVpNNTRMelRlX1BvQUhlVzlUdHhPTkZFSXFRaENTaXp1NUZXXzMtSVZwazdYT29VMjJTZWFqRXFaWVJfRkhqaVB2aVhMU2ctdDZtbzNBanYwRFlNODlnRGRZNkgzbl9IVXc?oc=5",
+   "source": "Idéal Investisseur",
    "type": "presse",
    "produits": [
     "cloud"
@@ -135,6 +147,18 @@
    "auto": true
   },
   {
+   "id": "6e8de617ee98",
+   "d": "2026-11-18",
+   "titre": "Cloud souverain européen, OVHcloud face à Infomaniak et Scaleway - Linformatique.org",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSnFOQkZPYUF4QnRGS3BldHlBd1RCWGg4VExSSkFyQ2FXOXlMalVuN1R6TXRTSzRfa2VkbllpQS1SQkNPZUtaUEpscE5zTUN1UUJySkVTUGgtQXpaTTNMUnh1ZlBjUWNCRWhUT0laQzZJS2FZb0Q4bnVEMUdwRWtRWXBSZE5FWU84U0h3bw?oc=5",
+   "source": "Linformatique.org",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
    "id": "779d04a4b319",
    "d": "2026-11-18",
    "titre": "Workday renforce les garanties de gouvernance européenne de son service de cloud souverain de l’Union européenne - Zonebourse Suisse",
@@ -203,6 +227,18 @@
    "type": "presse",
    "produits": [
     "puces-matures"
+   ],
+   "auto": true
+  },
+  {
+   "id": "fe47547848e9",
+   "d": "2026-11-08",
+   "titre": "Les importations américaines d’engrais marocains bondissent de 41 % de janvier à septembre - برلمان.كوم",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZTREcENZSzZIVFpvYjZFajJFRUl4Qm5qYjk0VEJod0R1VmJaTVEzVjlzSC1oNlJVTF93Y3dWZEtZSVRtd0VUV0pYMmhZYngtdW82NTNfRUhUaFRvTG1VRlVSMHdXQm1qbEdIN1g5VGtXRzBpVGNMVkd4SnRqTHpYWjRwN3dYam83QnhwUEkzVDdQdnd2SEhqUWdVSU9jbUd4c25SeUN0Qk9Fc29pczVYMmJBdw?oc=5",
+   "source": "برلمان.كوم",
+   "type": "presse",
+   "produits": [
+    "azote"
    ],
    "auto": true
   }
