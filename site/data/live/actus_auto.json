@@ -1,12 +1,24 @@
 {
- "maj": "2026-11-21T15:23+00:00",
+ "maj": "2026-11-22T15:20+00:00",
  "items": [
   {
-   "id": "ea355fc020a9",
-   "d": "2026-11-20",
-   "titre": "CityCloud : un cloud souverain pour protéger les collectivités - Presse Agence",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTWRFUmd6ZlNDaFJWdmhSZHdsVExOaTkyUnFVLVh2SGo1S3QwaFBhWVA5d2hMSzhvMjJFZG1vekZmU0owUVlUS1c5aFFadHhpcHU3UWRjNDNGNmJBUUVsS2RNRjZ1SjN6eEc0bWxNYk5adlZkWEsyMWtBMVpDRlY1ZkhneDlXQldmVkVSV21DUDZpTUFyb0RabW5oTzZKRk9tYjNMdWFwVzMzdUw5cmE4alp5ZV9Rdld6RzBra3FZYw?oc=5",
-   "source": "Presse Agence",
+   "id": "3a7a15e32e04",
+   "d": "2026-11-22",
+   "titre": "Cloud souverain : Sopra Steria s’allie à Scaleway pour migrer les applications critiques - Revue économique de France",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOT2wyR1pjVG9VSmJMZG5LZkJId3FGWWgxQkgyLWtaSWZkXzlIMFA3MEZ6eE9hbkhXdjBnUk1tSHYtelNQQml3c3lzVVg0RV82cFl4TmFBZWJoMVlWM1pIWjltQm5OY211TFdUWExVLWZsdTFNN0xRcjMzdHRmRXFaWXNDRW56aVg2RGFuelV3NDNvOER4ZWE0RHIxQ3J3aFY2N285QXI0MXVYUQ?oc=5",
+   "source": "Revue économique de France",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "c8262203edfa",
+   "d": "2026-11-22",
+   "titre": "« Nous devons respecter les lois américaines » : Google confie son cloud « souverain » à Thales - 01net.com",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRXdTUmNBaWl3akNmSlVUYVJkNk5wUGlnR1JFdUk2RExFLVlUWVlfdVRudmoweW5aSi1aZF9yLUNWVzgxZkJ2b0VHMDFfRTlKOHdqNUdvM2k2MFExNXNkbHNwVjNsS1ZaMmFtQU1SX3h2YS1BOGF0QUdIbTBBZUo0dFRBdEplMVpRbVRDZUtyRC0zM19wUmRTcy1SdDdweTJSaVdzcGtucGdTT0RMMWk1YWpNdFR0MTJCQi0zcjBZTTE?oc=5",
+   "source": "01net.com",
    "type": "presse",
    "produits": [
     "cloud"
@@ -26,11 +38,11 @@
    "auto": true
   },
   {
-   "id": "f31ad86d8242",
+   "id": "b4b080f11e24",
    "d": "2026-11-19",
-   "titre": "Sopra Steria s'associe à Scaleway pour le cloud souverain en Europe - Boursorama",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOYmRjV1RfdHhnV0VQaWdOTmF0RVFqbjlTYkstdC1mMUFITmkxZTQtQVQ0N3RfWHY2Qno4S0IxX1NvcHpOSkNhXzgxWmlzVFFIQlVtU2txbDBHc2dMQ25VMG9DTW51aUozblNYN3dzenFDczlyRzRFR0psVlN6SVFPNFk3ZzEyOXBkYjN2Sy1lQ013ZVFyZnlmV1k4MVNNdTM5M3M2aDlBVk5PSTJqNUJTVEQzUjlCSExocjFPcFd1ZE4yVkVkbWNXZGNINTVfN2tlRkNmN1Q2ckFydUlTcXfSAeMBQVVfeXFMTl9TTDZDNXJiekp3STJseGtQT29GQ3dqeU83U2ZFRmEtSDFudzRnTmpPejZ2TUs1dmFvNWlvbjBXODR5blJKWkp6cllNSDlpY2NXZ3dDTTlKVEtHdjBVN3VQLVFCank4ZHdUdG5kTnRhenlyNU5uT3I2Z0J2OVI4VEx0cGswbldRVkNhcnlsNUgwWjhzRWswbUZWT3RqVlA0YlpJSngwdGtvOVFaS1BXbGp4RFFuRHlWUVZFaDRYNXpGSnl6M2Zjc0lmeE1OZ0dRNUE3Yjc1Y1NfTnJadnVZNXdvX1E?oc=5",
-   "source": "Boursorama",
+   "titre": "Sopra Steria s'associe à Scaleway pour le cloud souverain en Europe - Zonebourse",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTlNQYmdIazNFNnRFN2drUlFwQWNBb2Y1REtNdVhDUWpGTDI4eUhoOHlEc0h6Uy1QX2VFdnZvbzUyYnJlbk8zLS15cXVEWnA0c3VYdzBad1ZxaG5BWjVLRVROU185Y3FEemt2YXRaRmJuMklkVmpIMWxwSWd2d1cyRndZeGVSV043QlQxNWVjQTVqZGowUkpHWUQ4cXgzR1pnQXdKMEZ5NmQtTVpWaU1zamQwWm9VMmRvY0YwcVhEdzZMVGNRd1VN?oc=5",
+   "source": "Zonebourse",
    "type": "presse",
    "produits": [
     "cloud"
@@ -50,23 +62,24 @@
    "auto": true
   },
   {
-   "id": "8fe09a8025f5",
+   "id": "1f63a3160210",
    "d": "2026-11-19",
-   "titre": "Cloudera : Marenza Altieri-Douglas nommée VP Cloud Souverain - Presse Agence",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbk5ucXR1VDFwQTcxRkN4YmVXRTYzdWFJWWRkb2drR18zQ1M0Q1RVSkVzdENiRXkyWFZTdkVjOS1CaF9xVl9KZTlUVXN6RWt2WFo5T1FlX09RYW5OcDAxLVQyZWZVNHBRTTZJVFhjYk5JeGNnUGxrNFl5cHdPT19fbXd2WHhVdldFZjhrM3hkeGlZOXp5NFktVnRuR25FX2FzNDczdEdmZjZSM2c3bnRJ?oc=5",
-   "source": "Presse Agence",
+   "titre": "La Chine détient l’Europe pour les métaux des terres rares : ce qui menace une nouvelle guerre commerciale - Афинские Новости",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbG1GUGVJWG5QWFNFVmgzOW5BcVE5TE1rd29GUlNsSmx2bGtKYVFOdzZGalk5WEtVM3Z0UEpjTWhrd3d3WTJpZjR4cWk3SzlFb0d0cHE0N1V1SUtFUDFhbFFVNHBoQ19XX2ZCcEdJX2xOdE5zTXhaYlJ1Q2l6QXloYnZMMXA0M3J4MHk2RTJyRE8yWFdBdEZpRkszQTNRcWJJWmJRakMzZFdibEFISjhQamNLdGFhMUFjQzdjb0ZuSEx0ZW03Smo0NU9KODFrQQ?oc=5",
+   "source": "Афинские Новости",
    "type": "presse",
    "produits": [
-    "cloud"
+    "tr-legeres",
+    "tr-lourdes"
    ],
    "auto": true
   },
   {
-   "id": "1362f6a2b1a8",
+   "id": "5bf5f024d606",
    "d": "2026-11-18",
-   "titre": "H Company rend ses agents d'IA disponibles sur le cloud souverain européen d'AWS - ActuIA",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNkRiQ0p2aUhUWFVPQ3dFd0Y5QXF5Q1VweFlUZDRyMG5NZmp4c0hZcEFSM3IxMjQteWpZTDlmcUFJTW52TzlzWWFzZlJGd2JWbkpoYmk1VENlUl9zekp6ZnJZdWhReTFsMkF0dmVPcDkycDdUc1FJSjRRREtHSTRkcGg3ZThDYTJXNzBhX1pRaDVEQnJBbGxQVlc5MWlYbjl1cHNMWGs2aUxXdmJkNmNWcFp3?oc=5",
-   "source": "ActuIA",
+   "titre": "Cloud « souverain » : en Europe, Google s’en remet à Thales, S3NS et ses partenaires - Le Mag IT",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPM2RkcHIza2RkbHFFNUNETFdtOUhxaUpLYmZSX1p4ZEU1MmhqRUkzUXpGMGkyYUxRT1M2OG1OdVdEN093bGswXzhoTk1lbzJsZnRfajVNdUJ5dUZLSEREdVBObHVwSjNGRWlMSFExdDNNeWFaUEZ5eHpQejVuTElsS0ZzRjZqUlVfclRQSW9yTGpEbGVfX2VvelNiNkpSN3RwM09uTTBQYUNGNXlIQzFvSG04bzNOT1dFVHdR?oc=5",
+   "source": "Le Mag IT",
    "type": "presse",
    "produits": [
     "cloud"
