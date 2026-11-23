@@ -2,8 +2,8 @@
  "source": "RTE éCO2mix (ODRÉ)",
  "debut": "2026-11-16",
  "fin": "2026-11-23",
- "solde_exportateur_gwh": 2226.0,
- "consommation_gwh": 9441.9,
- "collecte": "2026-11-23T16:25+00:00",
+ "solde_exportateur_gwh": 2210.5,
+ "consommation_gwh": 9456.6,
+ "collecte": "2026-11-23T19:15+00:00",
  "url": "https://www.rte-france.com/eco2mix"
 }

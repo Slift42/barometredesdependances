@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-23T16:25+00:00",
+ "maj": "2026-11-23T19:15+00:00",
  "items": [
   {
    "id": "52d397e47b14",
@@ -95,19 +95,6 @@
    "type": "presse",
    "produits": [
     "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "1f63a3160210",
-   "d": "2026-11-19",
-   "titre": "La Chine détient l’Europe pour les métaux des terres rares : ce qui menace une nouvelle guerre commerciale - Афинские Новости",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbG1GUGVJWG5QWFNFVmgzOW5BcVE5TE1rd29GUlNsSmx2bGtKYVFOdzZGalk5WEtVM3Z0UEpjTWhrd3d3WTJpZjR4cWk3SzlFb0d0cHE0N1V1SUtFUDFhbFFVNHBoQ19XX2ZCcEdJX2xOdE5zTXhaYlJ1Q2l6QXloYnZMMXA0M3J4MHk2RTJyRE8yWFdBdEZpRkszQTNRcWJJWmJRakMzZFdibEFISjhQamNLdGFhMUFjQzdjb0ZuSEx0ZW03Smo0NU9KODFrQQ?oc=5",
-   "source": "Афинские Новости",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
    ],
    "auto": true
   },
