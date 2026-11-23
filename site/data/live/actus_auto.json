@@ -1,15 +1,64 @@
 {
- "maj": "2026-11-22T15:20+00:00",
+ "maj": "2026-11-23T16:25+00:00",
  "items": [
   {
-   "id": "3a7a15e32e04",
-   "d": "2026-11-22",
-   "titre": "Cloud souverain : Sopra Steria s’allie à Scaleway pour migrer les applications critiques - Revue économique de France",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOT2wyR1pjVG9VSmJMZG5LZkJId3FGWWgxQkgyLWtaSWZkXzlIMFA3MEZ6eE9hbkhXdjBnUk1tSHYtelNQQml3c3lzVVg0RV82cFl4TmFBZWJoMVlWM1pIWjltQm5OY211TFdUWExVLWZsdTFNN0xRcjMzdHRmRXFaWXNDRW56aVg2RGFuelV3NDNvOER4ZWE0RHIxQ3J3aFY2N285QXI0MXVYUQ?oc=5",
-   "source": "Revue économique de France",
+   "id": "52d397e47b14",
+   "d": "2026-11-23",
+   "titre": "Cloud souverain : l’Europe cherche à réduire sa dépendance aux géants américains - Le Monde Informatique",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeFJyOVlJQ2QwbzZxZ2JIdnBfeEVKcGpXdjhGVjdGcV9ncXpydU92dFhTaFM4RWhBUkQ0M2JLQndkaFhkV3RLRlNIenUyeWJ3UDNtZmdvRF9KOTZNOWxDMWlJQVB5d2RzWXJUajFndU1QSlZzcXRRSXBUTThfeTZ2X2R5YjJWRWNHV2I0bEttaGJPVGNENGVTbGhFRGFHZkxibUg0elY2Nm5kOVAtUjhfcmtrSEpNQXFETFNJWkFYei1lQ2NmVjhBajhDMlkzb1E?oc=5",
+   "source": "Le Monde Informatique",
    "type": "presse",
    "produits": [
     "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "17278a283309",
+   "d": "2026-11-23",
+   "titre": "Cloud souverain UE : 180 M€ contre 82 % de parts US - shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLVJQUF94Z2N3YkNyM3FXYkFXZFJDNnFmazdaUE5POW15a0hOQzBIRFVnM2czOE10b293UElIVDlzWVdST0Q3ZVF2TmNLS3htc3hIdnFFVC10V1k5U0tWVGFXeEkwZEdzT3VZaTZZVV9xT2RSZjQ2SmhTTjZfMXpYSkRsY3kzQlowNXdtRWJzcGFBRlBOaGNFQw?oc=5",
+   "source": "shattered.io",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "9fab18191d79",
+   "d": "2026-11-23",
+   "titre": "Cloud souverain : Bruxelles commence à choisir ses fournisseurs autrement - Politique Matin",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUHpFRHEwUHFrNUVBX3FFdDB1bkNEWDJkRG9KRjBTTGRMdy1MTzNIY0toMG1yMnRRbVgwWDFuVnBIX2h6dHYyMDduM08wc2phd29pbXRZVUNGclJUOFFPSktNbFFUODJUaGxfSlJXLW4wSThJOHhFZGNzVXBtUzZKbnFEV2VaQVJjU3c?oc=5",
+   "source": "Politique Matin",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "6f6eaa08ec5d",
+   "d": "2026-11-23",
+   "titre": "Cloud souverain : Amazon prévoit 7,8 milliards d’euros en Allemagne, les Européens tentent de suivre - Economie Matin",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdUNBQVVaT2hUd2YyYUNfbmNrcnFidHVlWG1Ic0hXSWlCaWZZY212Yk1wWW9RR3pfejB3NXp0VEN2ZTNDdUJaOXVlcDNVUFdaU0duRDI0cjIyVmR5dFd2cUZKZ01EYnlRakNVR0ZHNk04ZEdHMVUtOEctSTFwUDhOWWs4Uk5ldw?oc=5",
+   "source": "Economie Matin",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "7b3c42009499",
+   "d": "2026-11-22",
+   "titre": "La Chine reporte à 2027 les restrictions sur les exportations de terres rares - Business AM",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZWNWUXV3NmJ4WFNzNThJRUlGZklINDlmQzRxR2ZXWjJHM1FOVmxQaGUxYkk2TkN0aU80bGVjOGZkTm50LWhBNzN5UHRUb0pxY3VpWlFYNE1lbWJlb0h2Vm0tcnJpNWVOT2ptNEhGZ0xqWEFmMXJsWTE0WWt5NGUteFd5NnFFTEdNVXJUMjBQeUhWSFhhNTFjV0RrVmt3RkxiSXM2VUZn?oc=5",
+   "source": "Business AM",
+   "type": "presse",
+   "produits": [
+    "tr-legeres",
+    "tr-lourdes"
    ],
    "auto": true
   },
@@ -26,35 +75,23 @@
    "auto": true
   },
   {
+   "id": "ea355fc020a9",
+   "d": "2026-11-20",
+   "titre": "CityCloud : un cloud souverain pour protéger les collectivités - Presse Agence",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTWRFUmd6ZlNDaFJWdmhSZHdsVExOaTkyUnFVLVh2SGo1S3QwaFBhWVA5d2hMSzhvMjJFZG1vekZmU0owUVlUS1c5aFFadHhpcHU3UWRjNDNGNmJBUUVsS2RNRjZ1SjN6eEc0bWxNYk5adlZkWEsyMWtBMVpDRlY1ZkhneDlXQldmVkVSV21DUDZpTUFyb0RabW5oTzZKRk9tYjNMdWFwVzMzdUw5cmE4alp5ZV9Rdld6RzBra3FZYw?oc=5",
+   "source": "Presse Agence",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
    "id": "5d0ece2b419f",
    "d": "2026-11-19",
    "titre": "Cloud souverain : une clause contractuelle suffit-elle à garantir la continuité des services ? - Solutions-Numeriques",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOV1N2LU04dm1hQ2U5d0xIdUJmUzBKSWJ4M0dtandLcTVlYldfdUVLOGtzNWlkbFhHRFc0TEt5cG9JbUhzV3l6YXpLZXVJTk9hWDBSTTF2ZmUxbklKcFVPaG5Gd2VoTHhzTS1yTDFMa1ZGd0Y2RzA4LTNsdWJMYzVnZUViOXpCWkJsTFF3c0FIWTNNZDNFV21Bd0hhaVF5VW5aQUgyOU50YjdDNEU5end0dUFMaHJ3a0ZpNDRObEswT05uM1FvNDNB?oc=5",
    "source": "Solutions-Numeriques",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "b4b080f11e24",
-   "d": "2026-11-19",
-   "titre": "Sopra Steria s'associe à Scaleway pour le cloud souverain en Europe - Zonebourse",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTlNQYmdIazNFNnRFN2drUlFwQWNBb2Y1REtNdVhDUWpGTDI4eUhoOHlEc0h6Uy1QX2VFdnZvbzUyYnJlbk8zLS15cXVEWnA0c3VYdzBad1ZxaG5BWjVLRVROU185Y3FEemt2YXRaRmJuMklkVmpIMWxwSWd2d1cyRndZeGVSV043QlQxNWVjQTVqZGowUkpHWUQ4cXgzR1pnQXdKMEZ5NmQtTVpWaU1zamQwWm9VMmRvY0YwcVhEdzZMVGNRd1VN?oc=5",
-   "source": "Zonebourse",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "06f0fa4c1b2c",
-   "d": "2026-11-19",
-   "titre": "Sopra Steria s'allie à Scaleway pour migrer les données sensibles vers un cloud souverain - Idéal Investisseur",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeXlZMGE0Vl95NUNBMjdmekhFeThoWTJBeXFVUVhKZkdfcGFJMGd1RnJ1a0pEXzZWWjBFOHdHYnJuQ3VtXy1xR3dxT2wyREtkd3k1NHAweTRlWjdvNTNOYTFLb1poTWdZZFN0clpQcWhjalM5TEs2LUIyUVpNNTRMelRlX1BvQUhlVzlUdHhPTkZFSXFRaENTaXp1NUZXXzMtSVZwazdYT29VMjJTZWFqRXFaWVJfRkhqaVB2aVhMU2ctdDZtbzNBanYwRFlNODlnRGRZNkgzbl9IVXc?oc=5",
-   "source": "Idéal Investisseur",
    "type": "presse",
    "produits": [
     "cloud"
@@ -83,18 +120,6 @@
    "type": "presse",
    "produits": [
     "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "599dee2578cb",
-   "d": "2026-11-17",
-   "titre": "Antimoine tchadien : Douala au cœur d’un commerce sous influence militaire (Rapport) - Investir au Cameroun",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUVhieExPejBmLThkY1Z6TUZ6MGE0SVhzYlJ1WklQMDRwXzFYc3VrTTZ0emhyV0RRbTFfVlpLWDdfVmx5eFlwbmpQRENIb2F3MWxUblNzU2U0VTJRdXI1UHV5RUxWbXIyNnRIRmFrRGhQSzR5eEo2Y00waFZ6T0NDaFB1OV9wam1fS0gyXzYtcXJaTFpHNzMwMWIwM1h4ckl3Ym1CSEhFd3k2YnY0V25DbVNVMXhXSVpzdTNJbFViUkJzNGF6T1FES2REWEo?oc=5",
-   "source": "Investir au Cameroun",
-   "type": "presse",
-   "produits": [
-    "antimoine"
    ],
    "auto": true
   },
