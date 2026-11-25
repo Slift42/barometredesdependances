@@ -1,6 +1,67 @@
 {
- "maj": "2026-11-24T18:54+00:00",
+ "maj": "2026-11-25T17:58+00:00",
  "items": [
+  {
+   "id": "dae75e507847",
+   "d": "2026-11-25",
+   "titre": "Black Friday : ce stockage cloud souverain est disponible avec - 90 % de réduction - Clubic.com",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPT1haZkk4Wk5heXF5SnhqNk5CVGVtWFd2OVVTS1Rka2ZKOWZoMGN2RWg1VlNnN1FBVzVxLWxnUFNFTE03ZHg5VDBDcHIxTnNuNUtnT3RrV3hzeEI4RHZ5eDlNOXRmQnJXaHJUYXA4Q0otUDFhUFhWRHAzMEVtZnBpYzdNbVZKX1FZU1pZX1kxaWZMNzlxRnY0emE3UXllaDVqUnd0RjNSVXp2NjNJQVZNQmU0S3FyUGNCY1ViU2VPdjMtZw?oc=5",
+   "source": "Clubic.com",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "ceb5e661f387",
+   "d": "2026-11-25",
+   "titre": "Cloud souverain, la clause finale de Clever Cloud à l’épreuve - Linformatique.org",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBjVFpWVGlUUUc4NGdWb2VGUGpmdm8tZDV1Nzk1a3M5aXgyYUM1YkpTY1RMRDFKOFJVcVA2cVc0VDA1R2l2amgzd29kVFBXZ1laaC1abks4aTN4aUYza0R4bDk1M1Atbm1wcXB2TjVBX3pzeTZGQnZpWHdn?oc=5",
+   "source": "Linformatique.org",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "22ca67880587",
+   "d": "2026-11-25",
+   "titre": "Phosphate : les trois objectifs du mégaprojet algérien à 5,3 milliards de dollars - TSA - Tout Sur l'Algérie",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVnFXazRxX2lOT1NwN3ZXbEFBYmhsbk93enBSRkZZR2p3RGJJTmJnTDdpelMwS3VxM2FaU3pBSVdfUFlxY2x6NjhYVUtVdHJLTUZwcGJEUThLazlNV21QZWdtZmZKUmVzOVY1cEdlSGxBWWhuQ3lqc2VxWkVmR05yODZUMzJQcXN4YWZpQmo4dHNGX3dQWTlTR1N5TGhOQ1RZTDVFRjBqOHN3Nms?oc=5",
+   "source": "TSA - Tout Sur l'Algérie",
+   "type": "presse",
+   "produits": [
+    "phosphates"
+   ],
+   "auto": true
+  },
+  {
+   "id": "7e6ff4234cb2",
+   "d": "2026-11-25",
+   "titre": "Engrais : 2 ans pour stopper les importations - L'Algérie Aujourd'hui",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QbG1YMnpUcW5XZnVCOXFPU1d0bFI1VXZaRGlSNlZCNFhxRVFROEROYzJuaER2dkh2UE5MblIzQUdJLWFRaE5uOXVCNlR4bXZmY09rTDNsckpibkVJTmswT1I1a1NZUlYyZENsN3FOUlF2RXk5Ykc5NHRUaE9GUkk?oc=5",
+   "source": "L'Algérie Aujourd'hui",
+   "type": "presse",
+   "produits": [
+    "azote"
+   ],
+   "auto": true
+  },
+  {
+   "id": "be317e700a93",
+   "d": "2026-11-24",
+   "titre": "Terres rares : La Chine gère son monopole comme un actif CL2 - Portail de l'IE",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbUh5SFlmZ09RaGtiTkpZSURJM2U4c2FLelpDVWFiNWNlU2txMXVlVEhqSEdQYWJwb3ZSejZaaDVXZFNZQ09WVE15cE5LWXlnZ3c1OEJGcU82SXQ0b1ZsRE9yMDc3QnJQVWZySnVXQTZNa3BQWU1TWUMzeHlHak8zZTdBOWFBQ2xFdGRmQTZvUTAxLWtHS2dtYVJPWXduYkxDeGtQMExySVEtSjJPeGUtMGRSV0Eyc25ZSW8tWnJMSVlla3ZnbGo1aUtB?oc=5",
+   "source": "Portail de l'IE",
+   "type": "presse",
+   "produits": [
+    "tr-legeres",
+    "tr-lourdes"
+   ],
+   "auto": true
+  },
   {
    "id": "6984c76dc1fd",
    "d": "2026-11-24",
@@ -40,11 +101,11 @@
    "auto": true
   },
   {
-   "id": "133413d109e4",
+   "id": "c993042be37d",
    "d": "2026-11-24",
-   "titre": "Atos s'appuie sur Microsoft pour une offre de cloud souverain destinée au secteur public - Idéal Investisseur",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSFRkaEM2Um9qNU43cEwydGNHUUNMcUFEdUVYNVNwblhDWVRPbTZWaDZRNThYM2tmeXA4MDVha0pZMGRWVFRSbC1CME1YV0VhVlR6clJDaDJtd0R6djl3LXF0YWhfZmdid1M3WDhlay1FZUxkWU80YzFPYTN1SWNJUEhHbktxZXphdTRWQks3REFjeUpkNDBKNV9tS2xfbzl5SHFuOVNQWFFoeWNkMnQwUzh2STY4VDk1X2tfMXRfVmZYT2NtVHpBWmRfN255RVVrQ1lsQXpxSm5zUQ?oc=5",
-   "source": "Idéal Investisseur",
+   "titre": "Outsystems se dote d’un cloud souverain - L'Informaticien",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT21XN0ZxUVhycjBYcDktVVVwZzRkU0RtUE1DOVlfcS1kRWFrTlNuQkhzU0U4V1JsT29RcVc4ek9yU0p2ek9pVURzUjNrWnBkT00wSVlzRmtDdjJLNXVFdTFDRkxzT1hfa2p4MmxqTmIySjhpNXRESFAtSTVHY1VncUt2R1I5cDM0OC1aX2EzWVg4ZS1mdF9PU3lkSkY?oc=5",
+   "source": "L'Informaticien",
    "type": "presse",
    "produits": [
     "cloud"
@@ -52,11 +113,11 @@
    "auto": true
   },
   {
-   "id": "c993042be37d",
+   "id": "133413d109e4",
    "d": "2026-11-24",
-   "titre": "Outsystems se dote d’un cloud souverain - L'Informaticien",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT21XN0ZxUVhycjBYcDktVVVwZzRkU0RtUE1DOVlfcS1kRWFrTlNuQkhzU0U4V1JsT29RcVc4ek9yU0p2ek9pVURzUjNrWnBkT00wSVlzRmtDdjJLNXVFdTFDRkxzT1hfa2p4MmxqTmIySjhpNXRESFAtSTVHY1VncUt2R1I5cDM0OC1aX2EzWVg4ZS1mdF9PU3lkSkY?oc=5",
-   "source": "L'Informaticien",
+   "titre": "Atos s'appuie sur Microsoft pour une offre de cloud souverain destinée au secteur public - Idéal Investisseur",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSFRkaEM2Um9qNU43cEwydGNHUUNMcUFEdUVYNVNwblhDWVRPbTZWaDZRNThYM2tmeXA4MDVha0pZMGRWVFRSbC1CME1YV0VhVlR6clJDaDJtd0R6djl3LXF0YWhfZmdid1M3WDhlay1FZUxkWU80YzFPYTN1SWNJUEhHbktxZXphdTRWQks3REFjeUpkNDBKNV9tS2xfbzl5SHFuOVNQWFFoeWNkMnQwUzh2STY4VDk1X2tfMXRfVmZYT2NtVHpBWmRfN255RVVrQ1lsQXpxSm5zUQ?oc=5",
+   "source": "Idéal Investisseur",
    "type": "presse",
    "produits": [
     "cloud"
@@ -79,8 +140,33 @@
    "id": "b988729e811e",
    "d": "2026-11-24",
    "titre": "Le Président Tebboune préside une réunion sur la production des engrais : fin des importations en 2028 - El Moudjahid",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNzlYeElNRnB1WXNpeGZvOWNGZEEySHdSbXR4RnpFZU5PZVlIdnNiV1JKTFBkZkZUTkxjeWs1V1JnRzlkUlE0OUJOVlA4VVpGRHhtX2pwWFpfd3JkOVB1blZWdjVMc1E1R19nb0NTc2NzZTRxUGI1d1VjOXJURkR6UVE4X0YweXRhZDE2cVp6RWIwOVZJRVVGaDdxU3dqOUpQLXNLUnpmV0M5eHNhQ2x5aVE3QUo5Nmk1WlFXUkxoM082aUtla0VYMEM0OUQxRndYdzlydDJMNWhWellsVFotcg?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbXhYOWdkSGJrR05SZjZoLUNDc1dRRFhCQ25lZjNLazZPREpsNjZyaXdXSjRJRjVaX0EwRXN1TURVbk5DSUUwWWFnT2hJSFFiR3RMTEJZamM2UXhiYmZHZmlVeU5kakZUWTRncFY3UWIxTmdlbnFMWkJjZ0c3RjQ1RkhzeWQyTFdBNmJrdTZVU2x0Ti0wWFVGQ2pzX2NCUURZLWhfaTltckhtcXF4NDJCU1VSMThpaU9iZ0h0SW51TWZWX29oc05PdE5LcWM4b3ExUXZiNmx1OEVmbXo4MEhUWTV3?oc=5",
    "source": "El Moudjahid",
+   "type": "presse",
+   "produits": [
+    "azote"
+   ],
+   "auto": true
+  },
+  {
+   "id": "79138fa64076",
+   "d": "2026-11-24",
+   "titre": "Engrais, phosphates et hélium : l’Algérie accélère sa marche vers la souveraineté industrielle et la fin des importations - دزاير تيوب",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPd1ZMQmZDY1p2aUl5LVpaMXRFUlJfTUhidGtxU2t2NmlCVFFoeENRS0lxTEptNmtaUXFHM1FEZHhudjI4QVVyVHdPSXYtZjhKTlhmMUR6Q3VHYzhxZUNhczgyMTdmdFRJRGVMT3N0UDBNdml0WXFHdHZLbXRoRHd5X2NRT0g2VHZCQk5ma2F5Vko1cWltMnljdmF6c0J0VXQ5dEdicUF4X1NodExwMU9nVERYUWFmZURpcFo3YlpIT0g5T2hxTWRqS3J5TTN1ZllKMGdIb3lQSkxCMFR5TnBQcw?oc=5",
+   "source": "دزاير تيوب",
+   "type": "presse",
+   "produits": [
+    "azote",
+    "phosphates"
+   ],
+   "auto": true
+  },
+  {
+   "id": "5b11bacfca79",
+   "d": "2026-11-24",
+   "titre": "L’Algérie se passera, en 2028, des importations d’engrais et d’engrais composés - www.horizons.dz",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcm5mLVpVZzBmTjZzYXpLMEk3UWZOWVdjc01DUC12U1hxbFR4ZnNfTWlVZ0h3WENZdGpfR0kyRjdackY1M09mZ25OYnZZYlNFVEVRWFllRDViYnV4bmlQZTY1V2dRMDNQa2pRcUJPbDdUUWNtTXljWUJXV3RVV0FWNFRSSkpGNlZpQU5GNm82TUpvYmtYOTgzRkFscU5nVFdQOU4xeWI3UlVlc1E?oc=5",
+   "source": "www.horizons.dz",
    "type": "presse",
    "produits": [
     "azote"
@@ -120,18 +206,6 @@
    "type": "presse",
    "produits": [
     "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "ab9a1cdb47e6",
-   "d": "2026-11-23",
-   "titre": "Les Européens ont passé 10 ans à négocier un accord de libre-échange avec l'Indonésie, pendant ce temps la Chine s'est installée sur place et contrôle désormais 75% de la production de nickel - BFM",
-   "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPWmZaOVRsR2dSVVp1UmZfdmhZQm42Y3MwbFQ1cFJQc2V4QlBJTVF6VXNZSWVJdU1JMWRzR3ptM29PcTgyaElMeFQyd29SMENVMWtaeS1VUlpIQlBaaU0tVXRrRWZBMVRmQkc1WkhRTVZSeVMyWmpqa0M0cW9Ua1hWdTVhT0JwaGhhRHEtOUJRV3lYbWlUYkotdU5idFpZQU1OUFZNNmpUMnZiUmJiamwtTUlhMTF2Mk9ZNHF2T0Z0MkZDdzg3Ri16bURZRHl5blFTVWhaV3Z0UzlzcnNBOWsyWll3c0dadGZwMzhGa1B4eFB5WDYxZ0NTVDNXU1ZVTGYyNlMtaHI1dEtmQnBadEFWTGpxR2I5dWY3aG9tb0R2X0x0UFR0dEVJcGpIYi1aT3ZqOThOZldzWjBYLTgwdVFzdkFXLXEyTGZvaUFYd0M2azNWcXhCbHJyMzR4MFFJRDRUbW9VZGd0aFozQThRLTk4dA?oc=5",
-   "source": "BFM",
-   "type": "presse",
-   "produits": [
-    "nickel"
    ],
    "auto": true
   },
@@ -185,19 +259,6 @@
    "auto": true
   },
   {
-   "id": "8696c65d7b86",
-   "d": "2026-11-20",
-   "titre": "Chine : Les exportations d’aimants en terres rares vers les États-Unis et l’UE diminuent en octobre, le Japon fait exception à la règle - Agenzia Nova",
-   "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQY1ZHUDNGOFFBUjl2aU1MM3kydVgxcWJhZ1dhN0FXeTdQWHlGOG5Jd05wZ0cwcDNmeUQ3ODVFcXl0aVBGZU5QVW5Ld0g4em1LM0w4eFZVeDZGX3llQ1d0NWFaWmNobXJIQk5iUTRtZXJaNEhubTlURHJpbV9hTzZCOFRrUXJjNnZxUkYxa2w5YXBTeWZnckZRQjdQZGlfc2NxeEEyekJfUk80WVNsTXF1b3pNaS1Vd01pdUlMVUl2RTUtLUE5Y2M2NEtieUxDbUZ1cG5XRWpNQUJRT2xBd1MwVzQ5NWo3R2U5dnVCdjhrUlp4Wmd2UlFNUVkxb0NvTG5qRFIwT1prT1MwakdqVW5KTnZWQURyYUlmTG9HY3l3OTJjQVFGWThWZTlnbFBTd1VXdDFYdjJybEdnUQ?oc=5",
-   "source": "Agenzia Nova",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
-   ],
-   "auto": true
-  },
-  {
    "id": "6799132b57b1",
    "d": "2026-11-20",
    "titre": "Workday renforce les garanties de son cloud souverain européen - ChannelBiz |",
@@ -246,11 +307,11 @@
    "auto": true
   },
   {
-   "id": "abe3a5b277e0",
+   "id": "b4b080f11e24",
    "d": "2026-11-19",
-   "titre": "Sopra Steria s'associe à Scaleway pour le cloud souverain en Europe... - Fortuneo",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQ3BwSlNQbnBIa0xjV2F3dkFRWk1kSXBRMVhwTmpKdGpYT2NsTjhFTk1OZERqWHhqem9vU2VCdmdPV0JWTjZNcUlkUGdsNmNfTUJlbnJCNnZNT2kwdkFMYXg2X01ZLVlNa1ctQlJhU1Utdjh2TzFZajZscE91cFJTNGdOTkJYUGRvRU9LVk9BV08tVW9MMTczQ25ob3dubEV2NVJBLWZfclN5bGEtUXBQZ0ppVHU0WU9W0gG4AUFVX3lxTFBDcHBKU1BucEhrTGNXYXd2QVFaTWRJcFExWHBOakp0alhPY2xOOEVOTU5kRGpYeGp6b29TZUJ2Z09XQlZONk1xSWRQZ2w2Y19NQmVuckI2dk1PaTB2QUxheDZfTVktWU1rVy1CUmFTVS12OHZPMVlqNmxwT3VwUlM0Z05OQlhQZG9FT0tWT0FXTy1Vb0wxNzNDbmhvd25sRXY1UkEtZl9yU3lsYS1RcFBnSmlUdTRZT1Y?oc=5",
-   "source": "Fortuneo",
+   "titre": "Sopra Steria s'associe à Scaleway pour le cloud souverain en Europe - Zonebourse",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTlNQYmdIazNFNnRFN2drUlFwQWNBb2Y1REtNdVhDUWpGTDI4eUhoOHlEc0h6Uy1QX2VFdnZvbzUyYnJlbk8zLS15cXVEWnA0c3VYdzBad1ZxaG5BWjVLRVROU185Y3FEemt2YXRaRmJuMklkVmpIMWxwSWd2d1cyRndZeGVSV043QlQxNWVjQTVqZGowUkpHWUQ4cXgzR1pnQXdKMEZ5NmQtTVpWaU1zamQwWm9VMmRvY0YwcVhEdzZMVGNRd1VN?oc=5",
+   "source": "Zonebourse",
    "type": "presse",
    "produits": [
     "cloud"
@@ -263,6 +324,18 @@
    "titre": "Sopra Steria s'allie à Scaleway pour migrer les données sensibles vers un cloud souverain - Idéal Investisseur",
    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeXlZMGE0Vl95NUNBMjdmekhFeThoWTJBeXFVUVhKZkdfcGFJMGd1RnJ1a0pEXzZWWjBFOHdHYnJuQ3VtXy1xR3dxT2wyREtkd3k1NHAweTRlWjdvNTNOYTFLb1poTWdZZFN0clpQcWhjalM5TEs2LUIyUVpNNTRMelRlX1BvQUhlVzlUdHhPTkZFSXFRaENTaXp1NUZXXzMtSVZwazdYT29VMjJTZWFqRXFaWVJfRkhqaVB2aVhMU2ctdDZtbzNBanYwRFlNODlnRGRZNkgzbl9IVXc?oc=5",
    "source": "Idéal Investisseur",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "1711678c5b0c",
+   "d": "2026-11-19",
+   "titre": "Sopra Steria et Scaleway s'allient pour accompagner la migration des applications critiques vers le cloud souverain - Yahoo Finance France",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNN0FlWFlxelR1MVBJZHJYQW5acmpWQjVEaWh2UUd0WDhoUXl1TlMyQ0ZMS1RUNUpWbm5td1hVVURnUWNGQ0drNW5ZQXhmU090R1lBRG9ZVWxCcHFkbWtmWjk2cFhUMEdiYXFwTjgxS09aZWFYbUhNUF9CUThFLWJNeWVGdFYzNEdlM0pReWFrbTVqMDBJazI4VFVSdVVkUQ?oc=5",
+   "source": "Yahoo Finance France",
    "type": "presse",
    "produits": [
     "cloud"
@@ -306,6 +379,18 @@
    "auto": true
   },
   {
+   "id": "5bf5f024d606",
+   "d": "2026-11-18",
+   "titre": "Cloud « souverain » : en Europe, Google s’en remet à Thales, S3NS et ses partenaires - Le Mag IT",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPM2RkcHIza2RkbHFFNUNETFdtOUhxaUpLYmZSX1p4ZEU1MmhqRUkzUXpGMGkyYUxRT1M2OG1OdVdEN093bGswXzhoTk1lbzJsZnRfajVNdUJ5dUZLSEREdVBObHVwSjNGRWlMSFExdDNNeWFaUEZ5eHpQejVuTElsS0ZzRjZqUlVfclRQSW9yTGpEbGVfX2VvelNiNkpSN3RwM09uTTBQYUNGNXlIQzFvSG04bzNOT1dFVHdR?oc=5",
+   "source": "Le Mag IT",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
    "id": "776f0e62abbe",
    "d": "2026-11-18",
    "titre": "Workday ancre son cloud souverain en Irlande - L'Informaticien",
@@ -330,14 +415,14 @@
    "auto": true
   },
   {
-   "id": "6e8de617ee98",
-   "d": "2026-11-18",
-   "titre": "Cloud souverain européen, OVHcloud face à Infomaniak et Scaleway - Linformatique.org",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSnFOQkZPYUF4QnRGS3BldHlBd1RCWGg4VExSSkFyQ2FXOXlMalVuN1R6TXRTSzRfa2VkbllpQS1SQkNPZUtaUEpscE5zTUN1UUJySkVTUGgtQXpaTTNMUnh1ZlBjUWNCRWhUT0laQzZJS2FZb0Q4bnVEMUdwRWtRWXBSZE5FWU84U0h3bw?oc=5",
-   "source": "Linformatique.org",
+   "id": "599dee2578cb",
+   "d": "2026-11-17",
+   "titre": "Antimoine tchadien : Douala au cœur d’un commerce sous influence militaire (Rapport) - Investir au Cameroun",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUVhieExPejBmLThkY1Z6TUZ6MGE0SVhzYlJ1WklQMDRwXzFYc3VrTTZ0emhyV0RRbTFfVlpLWDdfVmx5eFlwbmpQRENIb2F3MWxUblNzU2U0VTJRdXI1UHV5RUxWbXIyNnRIRmFrRGhQSzR5eEo2Y00waFZ6T0NDaFB1OV9wam1fS0gyXzYtcXJaTFpHNzMwMWIwM1h4ckl3Ym1CSEhFd3k2YnY0V25DbVNVMXhXSVpzdTNJbFViUkJzNGF6T1FES2REWEo?oc=5",
+   "source": "Investir au Cameroun",
    "type": "presse",
    "produits": [
-    "cloud"
+    "antimoine"
    ],
    "auto": true
   },
@@ -398,32 +483,6 @@
    "type": "presse",
    "produits": [
     "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "95e6189b1a40",
-   "d": "2026-11-10",
-   "titre": "La Chine reporte de nouveau les contrôles à l'exportation des terres rares jusqu'au 10 janvier 2027 - IDNFinancials",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPV0J1b3Z3VVhFem1yVW82ek8xZ25kcktuWFFzSlRSb2lBS2JQeEY2OGVmclM0M3d5X3doT1FTU08zNmZCTEZGQXo1aUVpdnlUMmNJWnBfcHBCV3ctUmpwNnpSWS1xTE9lbm83WjZuSUhqMVgwSzlRdFF3Y2pIbkM3M094Z3FRRW50REstRDU3b3JCNmw5Vmt2V0VsMkVGX3JFX05TSjJ1dkc2cUVuS0VNNlltYVV4dF9PNFpNQ3k2Y1p4M1VscTZ3bW1WRkpYaFQzaVNVSzlpMjNsN3BaT0VxVVp6YWNTUQ?oc=5",
-   "source": "IDNFinancials",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
-   ],
-   "auto": true
-  },
-  {
-   "id": "f60abfc5ceaa",
-   "d": "2026-11-10",
-   "titre": "La Chine prolonge la suspension des contrôles à l'exportation de certains éléments de terres rares. - Vietnam.vn",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT1ZDNnpkS2RTa1FjLWxHeUlLVUFLQWh4Z3NQU1g1WVE1dmlYVVdhMGRNRzBDcGZhQ2k4eEpMSFdPTS1JUDRaSGhXM1NWS1ZCMGxFN3ktOVFYb2FFaEhEblNlNnRpcVlOSWIzakFlUWNOWkt5Qm5jNVJQSUtkZ1V3MWpQS0J1cE9tRFk5a1BFR2prS1VWOVVsYWRjMExHOVl3?oc=5",
-   "source": "Vietnam.vn",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
    ],
    "auto": true
   }
