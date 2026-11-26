@@ -1,6 +1,56 @@
 {
- "maj": "2026-11-25T17:58+00:00",
+ "maj": "2026-11-26T17:44+00:00",
  "items": [
+  {
+   "id": "efcc4d3cf455",
+   "d": "2026-11-26",
+   "titre": "L'action Atos Group reprend 3 % après son offre de cloud souverain avec Microsoft - Idéal Investisseur",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRVFpSWxWMU5PM25EQTBxai0yMXdabVFwMTd6RkpmTDRXeGVjOE9WZkZZT0ZjNHdiQ29JY0ZhaTg2UDI4WmVYOGU2cW1rUFNRcEpTWERua3g0c0lJYnlkelB4YU8yazZPcFZpa1lVMWlmYjVYQ2RTZGtPN29YWC1SUHo4WjV6WTdxdjIwbjRfZ2lrdTdPVDRVM25aM0pIZVJLbWlJWDY0X2JYRmU4LWktbUZFWHVzeVBaM0xUWERleWVfZFF1aG82VVBHUUlWZw?oc=5",
+   "source": "Idéal Investisseur",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "a3b07fc94b46",
+   "d": "2026-11-26",
+   "titre": "Atos mise sur le Français Scaleway pour faire migrer les données sensibles vers le cloud souverain - Clubic.com",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSEdaUnFrUnFiTXJXRjdfd3B4QXRBVk1ZUEtyOVNWUTlseTlsdFY5NE5sVEdzNXBNTkpIbTdzYmU4VDNaV3FMc3dOTk5JaXdqNkpESUJtVjNRUDN3YmFmakx3b2JGdjM5YmJGeGczNFA4bHFYYm02Um9PVm05bnN4cm1YdlhnY3ZYT2FKQVFITWt6M0xZaXNnekJjdWx1ajNyM0MxUHFXbDdjNXprME5RcFNsUFhaVmlMam82Q0gwbzljdU1XVjlUZ0o5dFMxWGt4UTktRENrX3F2YjQ?oc=5",
+   "source": "Clubic.com",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "b8990f9d5d59",
+   "d": "2026-11-26",
+   "titre": "Déployer Mistral Le Chat Pro et API UE face au Cloud Act - Linformatique.org",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DSlVmS0QwS2VZUFBoaFk2c3ZKSDlXMUwwYzllYU4zeTV3R205VkFxWi1TMWt4Z0VfTERBRFhNTmdxYW9rTm1NckU5dmw1TlYxVjJNSlpQeVNGQmlrQkExQzJjU0dpenl3QzhlVkhTWlNMemdOaXc?oc=5",
+   "source": "Linformatique.org",
+   "type": "presse",
+   "produits": [
+    "cloud",
+    "ia"
+   ],
+   "auto": true
+  },
+  {
+   "id": "69cfca01c863",
+   "d": "2026-11-26",
+   "titre": "Fin des importations d’engrais en 2028 : Le pari gagnant du phosphate algérien - Actualités - Le soir d'Algérie",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYXIxMDBwbjRZc0lpNzg1U0d6ZlB1RUwta05HdDZUVXN4WnhleHZRb2VhaGt2NExYYnRrLXJQTnRTR3p2dU8tQkczRmtOSzZjLTl5T0tGamxBNGQ1akpCRkJGNUtobm5Ca1V1em5VblhuYkFpWE1IU1hMMkVQSXFxY0trMnZ6endxZXJlVlBTSQ?oc=5",
+   "source": "Le soir d'Algérie",
+   "type": "presse",
+   "produits": [
+    "azote",
+    "phosphates"
+   ],
+   "auto": true
+  },
   {
    "id": "dae75e507847",
    "d": "2026-11-25",
@@ -34,6 +84,18 @@
    "type": "presse",
    "produits": [
     "phosphates"
+   ],
+   "auto": true
+  },
+  {
+   "id": "7d6e692b60d7",
+   "d": "2026-11-25",
+   "titre": "Engrais : Produire local pour mieux récolter - Le Jeune Indépendant",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUUpzNkFVYXVRTW9kU09SNkpHbzhncE5yWnJfSU5ZQmRRNmJSQlVqaG84VlJjd1o0RkRnUEZsMFB2NXg2Q2Q2cS1IcUlYc19KVmtBMnFtbXV3THpMTDE4LUpISC1QRWJKNnJwN28tR0NPWjJXTkhySXF1cHoyaU1WOUY2cw?oc=5",
+   "source": "Le Jeune Indépendant",
+   "type": "presse",
+   "produits": [
+    "azote"
    ],
    "auto": true
   },
@@ -259,6 +321,19 @@
    "auto": true
   },
   {
+   "id": "8696c65d7b86",
+   "d": "2026-11-20",
+   "titre": "Chine : Les exportations d’aimants en terres rares vers les États-Unis et l’UE diminuent en octobre, le Japon fait exception à la règle - Agenzia Nova",
+   "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQY1ZHUDNGOFFBUjl2aU1MM3kydVgxcWJhZ1dhN0FXeTdQWHlGOG5Jd05wZ0cwcDNmeUQ3ODVFcXl0aVBGZU5QVW5Ld0g4em1LM0w4eFZVeDZGX3llQ1d0NWFaWmNobXJIQk5iUTRtZXJaNEhubTlURHJpbV9hTzZCOFRrUXJjNnZxUkYxa2w5YXBTeWZnckZRQjdQZGlfc2NxeEEyekJfUk80WVNsTXF1b3pNaS1Vd01pdUlMVUl2RTUtLUE5Y2M2NEtieUxDbUZ1cG5XRWpNQUJRT2xBd1MwVzQ5NWo3R2U5dnVCdjhrUlp4Wmd2UlFNUVkxb0NvTG5qRFIwT1prT1MwakdqVW5KTnZWQURyYUlmTG9HY3l3OTJjQVFGWThWZTlnbFBTd1VXdDFYdjJybEdnUQ?oc=5",
+   "source": "Agenzia Nova",
+   "type": "presse",
+   "produits": [
+    "tr-legeres",
+    "tr-lourdes"
+   ],
+   "auto": true
+  },
+  {
    "id": "6799132b57b1",
    "d": "2026-11-20",
    "titre": "Workday renforce les garanties de son cloud souverain européen - ChannelBiz |",
@@ -307,11 +382,11 @@
    "auto": true
   },
   {
-   "id": "b4b080f11e24",
+   "id": "06f0fa4c1b2c",
    "d": "2026-11-19",
-   "titre": "Sopra Steria s'associe à Scaleway pour le cloud souverain en Europe - Zonebourse",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTlNQYmdIazNFNnRFN2drUlFwQWNBb2Y1REtNdVhDUWpGTDI4eUhoOHlEc0h6Uy1QX2VFdnZvbzUyYnJlbk8zLS15cXVEWnA0c3VYdzBad1ZxaG5BWjVLRVROU185Y3FEemt2YXRaRmJuMklkVmpIMWxwSWd2d1cyRndZeGVSV043QlQxNWVjQTVqZGowUkpHWUQ4cXgzR1pnQXdKMEZ5NmQtTVpWaU1zamQwWm9VMmRvY0YwcVhEdzZMVGNRd1VN?oc=5",
-   "source": "Zonebourse",
+   "titre": "Sopra Steria s'allie à Scaleway pour migrer les données sensibles vers un cloud souverain - Idéal Investisseur",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeXlZMGE0Vl95NUNBMjdmekhFeThoWTJBeXFVUVhKZkdfcGFJMGd1RnJ1a0pEXzZWWjBFOHdHYnJuQ3VtXy1xR3dxT2wyREtkd3k1NHAweTRlWjdvNTNOYTFLb1poTWdZZFN0clpQcWhjalM5TEs2LUIyUVpNNTRMelRlX1BvQUhlVzlUdHhPTkZFSXFRaENTaXp1NUZXXzMtSVZwazdYT29VMjJTZWFqRXFaWVJfRkhqaVB2aVhMU2ctdDZtbzNBanYwRFlNODlnRGRZNkgzbl9IVXc?oc=5",
+   "source": "Idéal Investisseur",
    "type": "presse",
    "produits": [
     "cloud"
@@ -319,11 +394,11 @@
    "auto": true
   },
   {
-   "id": "06f0fa4c1b2c",
+   "id": "abe3a5b277e0",
    "d": "2026-11-19",
-   "titre": "Sopra Steria s'allie à Scaleway pour migrer les données sensibles vers un cloud souverain - Idéal Investisseur",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeXlZMGE0Vl95NUNBMjdmekhFeThoWTJBeXFVUVhKZkdfcGFJMGd1RnJ1a0pEXzZWWjBFOHdHYnJuQ3VtXy1xR3dxT2wyREtkd3k1NHAweTRlWjdvNTNOYTFLb1poTWdZZFN0clpQcWhjalM5TEs2LUIyUVpNNTRMelRlX1BvQUhlVzlUdHhPTkZFSXFRaENTaXp1NUZXXzMtSVZwazdYT29VMjJTZWFqRXFaWVJfRkhqaVB2aVhMU2ctdDZtbzNBanYwRFlNODlnRGRZNkgzbl9IVXc?oc=5",
-   "source": "Idéal Investisseur",
+   "titre": "Sopra Steria s'associe à Scaleway pour le cloud souverain en Europe... - Fortuneo",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSDdXNFlGZC1NbDBTQVJtdEhZMmpuQmlOZ2d5WjA4Q1ljWlJkb1ExTUtqMVhady1mLUIxNjVGS2UyR01YbGtyX0Y2T2tLMXljRlNNTW10MlZudW1UemxBNlNjNFdBWkl6UFdEaUs5MU91MWZpU3JUZHNrdGJDSno5bVFPVThiM195OXNFYUh4R2VnYU95bVBxanphdGR4dW55UEMtaW5teEdwdEM1cUlCNmJtMNIBuAFBVV95cUxQQ3BwSlNQbnBIa0xjV2F3dkFRWk1kSXBRMVhwTmpKdGpYT2NsTjhFTk1OZERqWHhqem9vU2VCdmdPV0JWTjZNcUlkUGdsNmNfTUJlbnJCNnZNT2kwdkFMYXg2X01ZLVlNa1ctQlJhU1Utdjh2TzFZajZscE91cFJTNGdOTkJYUGRvRU9LVk9BV08tVW9MMTczQ25ob3dubEV2NVJBLWZfclN5bGEtUXBQZ0ppVHU0WU9W?oc=5",
+   "source": "Fortuneo",
    "type": "presse",
    "produits": [
     "cloud"
@@ -348,18 +423,6 @@
    "titre": "Cloudera : Marenza Altieri-Douglas nommée VP Cloud Souverain - Presse Agence",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbk5ucXR1VDFwQTcxRkN4YmVXRTYzdWFJWWRkb2drR18zQ1M0Q1RVSkVzdENiRXkyWFZTdkVjOS1CaF9xVl9KZTlUVXN6RWt2WFo5T1FlX09RYW5OcDAxLVQyZWZVNHBRTTZJVFhjYk5JeGNnUGxrNFl5cHdPT19fbXd2WHhVdldFZjhrM3hkeGlZOXp5NFktVnRuR25FX2FzNDczdEdmZjZSM2c3bnRJ?oc=5",
    "source": "Presse Agence",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "245edf35526a",
-   "d": "2026-11-19",
-   "titre": "L’éditeur de logiciels RH Workday veut renforcer la sécurité de son cloud souverain - Trends-Tendances",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYTRVX1JJNmVZU2oxbm4yVzBHTHhtZXczb0lnLURVUDZUdkRuOUI2SnRLNWdNOTBGaWpWMGZSZkRCOFh3YjRVNml5bUxDcGpXS0dfV21UbUJ3SFg0a3ctZmZjUzAzQXNmejl6MjB2clk5OV9YWFY3OTlJWEYza3RrZ3F1RGF3clg2Z0JVWXcybmU0SERUNWx5TzRBS0Z1UWpFUGlJcjZwQVN4OGR4OHQ5cnBCWmd2X2MwOFplY1dZUDZtUQ?oc=5",
-   "source": "Trends-Tendances",
    "type": "presse",
    "produits": [
     "cloud"
@@ -411,18 +474,6 @@
    "type": "presse",
    "produits": [
     "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "599dee2578cb",
-   "d": "2026-11-17",
-   "titre": "Antimoine tchadien : Douala au cœur d’un commerce sous influence militaire (Rapport) - Investir au Cameroun",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUVhieExPejBmLThkY1Z6TUZ6MGE0SVhzYlJ1WklQMDRwXzFYc3VrTTZ0emhyV0RRbTFfVlpLWDdfVmx5eFlwbmpQRENIb2F3MWxUblNzU2U0VTJRdXI1UHV5RUxWbXIyNnRIRmFrRGhQSzR5eEo2Y00waFZ6T0NDaFB1OV9wam1fS0gyXzYtcXJaTFpHNzMwMWIwM1h4ckl3Ym1CSEhFd3k2YnY0V25DbVNVMXhXSVpzdTNJbFViUkJzNGF6T1FES2REWEo?oc=5",
-   "source": "Investir au Cameroun",
-   "type": "presse",
-   "produits": [
-    "antimoine"
    ],
    "auto": true
   },
