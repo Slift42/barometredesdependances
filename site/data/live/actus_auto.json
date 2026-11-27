@@ -1,6 +1,127 @@
 {
- "maj": "2026-11-26T17:44+00:00",
+ "maj": "2026-11-27T17:28+00:00",
  "items": [
+  {
+   "id": "7b8c9cd2e8a2",
+   "d": "2026-11-27",
+   "titre": "L’hébergeur Ecritel obtient la qualification SecNumCloud de l’ANSSI - Le Journal des Entreprises",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeWdNNTFRRzEzelVlQ1lna2dnT2RoSkpKTTFtcGZkMF9iaWtPbDNkS2RtOEh6bFZuT0NOMVR6OG00bFZPQ0JBSFJVd2JHRVhiT2NWcUl6S3F1MXhXMFJOLTZ6Q1hIU0lVOUs5T2RCMEF4UXJSdWRtbzdVMFhVOG45Y2VYTVotV25TMFNQM1dneS15NnZmYXlRZHlYU05tRE11NzRZNEZlLXNxSzg0dDBjTEpKS0s3V0FxX0JZZDVR?oc=5",
+   "source": "Le Journal des Entreprises",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "d69a3b54a304",
+   "d": "2026-11-27",
+   "titre": "Atos et Scaleway s’allient pour industrialiser le cloud souverain par l’IA - ZDNET",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSGlJdVJ5ZHpGTE40VG1ncDJ6QzQ1MUs0OGNRZHZKMFRDOGpfWEJZSFpJVGRvNnpZendhRkVqRFk1b09keWwwYS04ak1zbFlSZTlaVC1keXZ0VVdhVE1iMW5WRmRwdktrOXc0MTk0OGd4ZW5TUUUxcjVfRGplNnkxVjRaWkhPNW12TUprekJiemNwX2ZFTW5MeV9zWlF5c2pOU3BpSnVqcUM3VWxrZjlSNUp5bG5pQQ?oc=5",
+   "source": "ZDNET",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "95b7a98c3736",
+   "d": "2026-11-27",
+   "titre": "Entrepôts de données de santé hospitaliers : la Cour des comptes réclame un cap, et pose la question de SecNumCloud - Solutions-Numeriques",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMHVpdnphc3hxUjMyVFNpWTRWdTkyaUowOERvQWxhTUFTN0c5R2tTelZPNWpZNEx4aHZma1BjaV93eEhVNlNwS21YYlR4UGdnTU9lRXJNNm10YkJ1RGJXalc5N0pzZEhRNlFiNGs5d294OWtuZXdQRHZQU1BiMEh2QXYxSGd2aDVGVlhmVFlrY25Db3J4TFIzODFwdHBheEJyMWpXbmZ0LTlzcGo0ZW5uS0E0d1dQc3FEZEV2NW5LNzM2MTFTbzZvNGxoVFgwQlRoQ19JbGpjZy1ibW9HVVljZzg3cWw?oc=5",
+   "source": "Solutions-Numeriques",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "c89a03d28140",
+   "d": "2026-11-27",
+   "titre": "Sécurité sociale : le Cloud Act, Elon Musk et le FBI au coeur des plaidoiries contre l’attribution du marché de la couverture santé des agents à l’assureur Alan - L'Argus de l'assurance",
+   "url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxQQjNDMlZyU0d5SnpXQ09tTnNudkNIUkJ6dHhYZEJkQTh0VHVLa1dCYmdWRGVtYi1TZkw5WEJpZGdieUtySlNwdk1tUW1MX0NMUkxBeWZMa184U0xNaURZbFhVSGdCYTJYRGJHWU9JYWtyY2VRVXFkRDdReEVhRk9PSEZNSTB3STRkc3JIT3l1UVdjaVE3N2lwUVVlUS1maVE0dnU0NzJJMHBsa3I3WFJWbjFQZWtEWVM1OEpNM1oxRW9oZzJuV2p5WF9wODdlTjNKNFREMHhQbUtUMkl4TVNXbEUyNEZFR1p5QjRSbjBCdmRZSUZUUXdMTHN5MHFMTDk1YndsQklQaS02QXZxZEVkYjdFVGRYSl9GWDdneDI4RGJVTm5ZbFRrQktOaVVJOFBiWlkwMkVCQ2VzVXJwWUN6V1JIWVhMeWQ4T0JmbnNaamM4TkhXYUpWQlRyYnBQelplcFE?oc=5",
+   "source": "L'Argus de l'assurance",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "f5666059c92e",
+   "d": "2026-11-27",
+   "titre": "Cloud souverain : Atos retient Scaleway pour déployer sa suite d’IA Genesis Intelligence - Revue économique de France",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX3FLWGtob1lEak9qUmRINUtseDJqbjRYS3I1STR4LXRwQkhwUzk4aXJMd3FOeThSZXd6RlZCb2oxLWN2VVBZcWpMTzgycFJNcDRzUXRBSFZ2WDdVNHNlYmI3YTVZc2xEWnpmam5HMEdBOC0yb3pSQTc3Skp1cE1nY0pybkcwMndTN2FBdlJrR3RfZEo5RXFOYWxfUFFBWlpSSXBIOWN2MkRKZw?oc=5",
+   "source": "Revue économique de France",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "562fb261a5b8",
+   "d": "2026-11-27",
+   "titre": "Inwi renforce son positionnement dans le cloud souverain et la cybersécurité - LeSiteinfo.com",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbGM1ZF9YbXdlc2RSeDVzSnZZNFdKMUpCZkZKQ2lsdGxiVmU3R3RXU0NmWHN1VXBEcVoxaVZTTEpzeW1IYlpZX01TZmlxWlBsU0d0QWlpMXItYml3bXZYWEFPXzRTS1F3R0hra2RQeGZqWmk2dDVYUE9idmlwOW9mWnRqZUIySEtXeldXOGlYR2pFSmVvYk5jdUNqQnphOWNNYWpncUx4YldoZGJiSFpvZlBXWWtQb2hhZGRhczFlZ0xfUdIBxwFBVV95cUxOV0thSW1sVFJDN21nYUtvMVE4bHdTMEtGSTRHSFIzbUtqLW5RcDRKSVNuQTdwS1o1YnBNb2lRNWo0QjBxSVY2N2hwTmJnR2lWNHRUNE5QZzctblBHSUxwTDVwb293VHd2UXdHLVZmZFBidDdCY3ZURlo5bW0xZ2s2S2t4SFZxc3E0YXZuNFhvMm1KUWpTN0xjRnlySVQwMUxpenNBdjlwOWFDOFJxbGZ3WDYyQ1pEWU9JODk5bzFmTlprSFcyTTRR?oc=5",
+   "source": "LeSiteinfo.com",
+   "type": "presse",
+   "produits": [
+    "cloud",
+    "cyber"
+   ],
+   "auto": true
+  },
+  {
+   "id": "e240ff2f051b",
+   "d": "2026-11-27",
+   "titre": "Sénégal – Émirats : l’État signe avec Presight un protocole d’accord sur l’IA, les données et le cloud souverain - Social Net Link",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYVlFX3ZEZjFYXzBOU0thN0xOWjRkNGJhZXY4UWFyX2tpVUlPQjhSY2N2dF85MGMzdlpFUE4xUTFycDJ4VVNxdnJ0V2pNYndhdnY3cXhSa1RRMVlFS2tQNW9MZTlsUEppOFdrVlZUakI5S2JRS3dZd0ZjdDloSjRHMGZWcmJ0ZHR5ZHZjNVJmTW5teTRsSnM2eEFvYlBfZnkwV0tjTA?oc=5",
+   "source": "Social Net Link",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "b988729e811e",
+   "d": "2026-11-27",
+   "titre": "Le Président Tebboune préside une réunion sur la production des engrais : fin des importations en 2028 - El Moudjahid",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNzlYeElNRnB1WXNpeGZvOWNGZEEySHdSbXR4RnpFZU5PZVlIdnNiV1JKTFBkZkZUTkxjeWs1V1JnRzlkUlE0OUJOVlA4VVpGRHhtX2pwWFpfd3JkOVB1blZWdjVMc1E1R19nb0NTc2NzZTRxUGI1d1VjOXJURkR6UVE4X0YweXRhZDE2cVp6RWIwOVZJRVVGaDdxU3dqOUpQLXNLUnpmV0M5eHNhQ2x5aVE3QUo5Nmk1WlFXUkxoM082aUtla0VYMEM0OUQxRndYdzlydDJMNWhWellsVFotcg?oc=5",
+   "source": "El Moudjahid",
+   "type": "presse",
+   "produits": [
+    "azote"
+   ],
+   "auto": true
+  },
+  {
+   "id": "d46e31af6402",
+   "d": "2026-11-27",
+   "titre": "Gabon : Poulet local, fin des importations annoncée au 1er janvier 2027, le pari de la souveraineté alimentaire entre dans sa phase décisive - Infos Gabon",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOTFdQbTY2OV9hcHhWNVFiN3FjZXRpQXdqX0xZQUtXWHQtdFl4UXFoVzlKWDd4eHJ0dml5OUdWbUxGMGpTZkJ3OXo4MEZCN1E5TllaYjI1TEc1dk9NbXNyRGJOOHprT2NXSGdDWW9LU0JiUkU3NXpnaUNrXzhMRkVwRmVxS0pOeWtHMi1mQXlQdTE2VThvZC1CbHVMZEx4OF9ueTE1RnZZZmpzdGJYT3BxWmVGTlFsZlp1UElnZWZ4UzJkWTRpQ2RDYko1aVRPczlMZ21jUHlwUk51LVJkd1pRb0YwTEtzYkVLMWF3Rl94Y1BFUnJmTUE?oc=5",
+   "source": "Infos Gabon",
+   "type": "presse",
+   "produits": [
+    "volaille"
+   ],
+   "auto": true
+  },
+  {
+   "id": "1045d23dc5b5",
+   "d": "2026-11-26",
+   "titre": "Atos retient Scaleway pour son cloud souverain Genesis - lebigdata.fr",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1JRTRGdFlvaWpKZjc0bWRpSEhTVVZVUGlpZlVmZTA1Nm44NWlnTkhrT3JmQURKeVNqclRqNHF5XzhzQU1Vc0dMTXFIcUNHUW9XSm5RWUlIb3ZpWUZwQjQ3SlRwQU04REJUeGx4QTN6QQ?oc=5",
+   "source": "lebigdata.fr",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
   {
    "id": "efcc4d3cf455",
    "d": "2026-11-26",
@@ -22,6 +143,19 @@
    "type": "presse",
    "produits": [
     "cloud"
+   ],
+   "auto": true
+  },
+  {
+   "id": "332d6367b1fb",
+   "d": "2026-11-26",
+   "titre": "Cloud souverain, cybersécurité… comment inwi héberge et protège les données dans ses data centers au Maroc - Le360",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNajZvVDN6M0ZMLXdPOWRsQXd3VTZ5SHZrMXM3dnU3LUxvanM1MlNLbTRTeGhMZmkzemVUYno3V2hjVnMxSllCTkQydV9YbHdkVXNPTW5KODJYb2NnbHl5YllLeTRkenZ4ZG4tUmVEVzlvUVV5RUJKY2JOS0tZOVFtajA4NVpuWGh3cVB6cEx1Y19BZXZQOFotdmh5OXF3X2JNQTJybXFPQjNOVldGeDZwcEVIV2dnM3E2amVIektyZHozbmF4RlJsbWdxemN6bXgzQkotSjMzLUg0X21EczhGdnhBYVhrREtDcVhJ?oc=5",
+   "source": "Le360",
+   "type": "presse",
+   "produits": [
+    "cloud",
+    "cyber"
    ],
    "auto": true
   },
@@ -88,18 +222,6 @@
    "auto": true
   },
   {
-   "id": "7d6e692b60d7",
-   "d": "2026-11-25",
-   "titre": "Engrais : Produire local pour mieux récolter - Le Jeune Indépendant",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUUpzNkFVYXVRTW9kU09SNkpHbzhncE5yWnJfSU5ZQmRRNmJSQlVqaG84VlJjd1o0RkRnUEZsMFB2NXg2Q2Q2cS1IcUlYc19KVmtBMnFtbXV3THpMTDE4LUpISC1QRWJKNnJwN28tR0NPWjJXTkhySXF1cHoyaU1WOUY2cw?oc=5",
-   "source": "Le Jeune Indépendant",
-   "type": "presse",
-   "produits": [
-    "azote"
-   ],
-   "auto": true
-  },
-  {
    "id": "7e6ff4234cb2",
    "d": "2026-11-25",
    "titre": "Engrais : 2 ans pour stopper les importations - L'Algérie Aujourd'hui",
@@ -112,15 +234,14 @@
    "auto": true
   },
   {
-   "id": "be317e700a93",
-   "d": "2026-11-24",
-   "titre": "Terres rares : La Chine gère son monopole comme un actif CL2 - Portail de l'IE",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbUh5SFlmZ09RaGtiTkpZSURJM2U4c2FLelpDVWFiNWNlU2txMXVlVEhqSEdQYWJwb3ZSejZaaDVXZFNZQ09WVE15cE5LWXlnZ3c1OEJGcU82SXQ0b1ZsRE9yMDc3QnJQVWZySnVXQTZNa3BQWU1TWUMzeHlHak8zZTdBOWFBQ2xFdGRmQTZvUTAxLWtHS2dtYVJPWXduYkxDeGtQMExySVEtSjJPeGUtMGRSV0Eyc25ZSW8tWnJMSVlla3ZnbGo1aUtB?oc=5",
-   "source": "Portail de l'IE",
+   "id": "7d6e692b60d7",
+   "d": "2026-11-25",
+   "titre": "Engrais : Produire local pour mieux récolter - Le Jeune Indépendant",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUUpzNkFVYXVRTW9kU09SNkpHbzhncE5yWnJfSU5ZQmRRNmJSQlVqaG84VlJjd1o0RkRnUEZsMFB2NXg2Q2Q2cS1IcUlYc19KVmtBMnFtbXV3THpMTDE4LUpISC1QRWJKNnJwN28tR0NPWjJXTkhySXF1cHoyaU1WOUY2cw?oc=5",
+   "source": "Le Jeune Indépendant",
    "type": "presse",
    "produits": [
-    "tr-legeres",
-    "tr-lourdes"
+    "azote"
    ],
    "auto": true
   },
@@ -139,14 +260,26 @@
   {
    "id": "4bdfec85edc8",
    "d": "2026-11-24",
-   "titre": "La Chine prolonge la suspension de l’interdiction des exportations de gallium, de germanium et d’antimoine vers les États-Unis - Zonebourse Suisse",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNLWp5MzJ6RUhyb2ppNE5UbXVoV1d4MG9Mc0tVb2FyTjZUWmI2OW1MY0s3aGszTVF0aHFhYVFxWmgwVndRU0JBVzR3QlkxREtRTkswbjRsSVFKRVZia2JKQkFPM0VOclNJQkozblo1Q0RwRDRwcEc0RnF1SUhUdkdUZFc2T3dHWXFqRGFEYThpblRKM1IwWWJISDhYM1dmTzE3WUgwdmljQmJEWUtiMHl4RU45TUEyYTM5eFZLWVRxX0NGOXQxb25KNXlENEt0bUs4bkVjdU55M0dLcVpybm1ZdEFjc0RtY2E5UU5FZVJB?oc=5",
-   "source": "Zonebourse Suisse",
+   "titre": "La Chine prolonge la suspension de l’interdiction des exportations de gallium, de germanium et d’antimoine vers les États-Unis - Zonebourse",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNcjJlbU5KbTNwak9zcTl5LWVNY05LM0xIaGJZS2VCS3NFNnBCOHdUM3lTeV9KM0pCMU9MYzY2TGFqX2J3b2dhbTBEUFBwM1BNRjBTcE9kQUt5STVvYjNFQWdWd1RYVmVadzl0bzVfRE5uLVdBUmU1TWgyTE8zd3N5ck1LaERUVEJEMEpGb3NMXzU0SGx4UjBiWmNRNzRVUGtSbk1TN0N5ekJ4R3FPYlJmQlBEc3lNNnhWQ3NGMkJDdl9iem5lUmxrZEg1Sy1sdHd4SFMtU19mVzY5ZTJycXEydF9TTGFsRlhPemJyQ3U5WQ?oc=5",
+   "source": "Zonebourse",
    "type": "presse",
    "produits": [
     "antimoine",
     "gallium",
     "germanium"
+   ],
+   "auto": true
+  },
+  {
+   "id": "133413d109e4",
+   "d": "2026-11-24",
+   "titre": "Atos s'appuie sur Microsoft pour une offre de cloud souverain destinée au secteur public - Idéal Investisseur",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSFRkaEM2Um9qNU43cEwydGNHUUNMcUFEdUVYNVNwblhDWVRPbTZWaDZRNThYM2tmeXA4MDVha0pZMGRWVFRSbC1CME1YV0VhVlR6clJDaDJtd0R6djl3LXF0YWhfZmdid1M3WDhlay1FZUxkWU80YzFPYTN1SWNJUEhHbktxZXphdTRWQks3REFjeUpkNDBKNV9tS2xfbzl5SHFuOVNQWFFoeWNkMnQwUzh2STY4VDk1X2tfMXRfVmZYT2NtVHpBWmRfN255RVVrQ1lsQXpxSm5zUQ?oc=5",
+   "source": "Idéal Investisseur",
+   "type": "presse",
+   "produits": [
+    "cloud"
    ],
    "auto": true
   },
@@ -175,18 +308,6 @@
    "auto": true
   },
   {
-   "id": "133413d109e4",
-   "d": "2026-11-24",
-   "titre": "Atos s'appuie sur Microsoft pour une offre de cloud souverain destinée au secteur public - Idéal Investisseur",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSFRkaEM2Um9qNU43cEwydGNHUUNMcUFEdUVYNVNwblhDWVRPbTZWaDZRNThYM2tmeXA4MDVha0pZMGRWVFRSbC1CME1YV0VhVlR6clJDaDJtd0R6djl3LXF0YWhfZmdid1M3WDhlay1FZUxkWU80YzFPYTN1SWNJUEhHbktxZXphdTRWQks3REFjeUpkNDBKNV9tS2xfbzl5SHFuOVNQWFFoeWNkMnQwUzh2STY4VDk1X2tfMXRfVmZYT2NtVHpBWmRfN255RVVrQ1lsQXpxSm5zUQ?oc=5",
-   "source": "Idéal Investisseur",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
    "id": "c2343609d8f1",
    "d": "2026-11-24",
    "titre": "Thales : sa filiale S3NS étend son partenariat avec Red Hat dans le cloud souverain - Idéal Investisseur",
@@ -195,18 +316,6 @@
    "type": "presse",
    "produits": [
     "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "b988729e811e",
-   "d": "2026-11-24",
-   "titre": "Le Président Tebboune préside une réunion sur la production des engrais : fin des importations en 2028 - El Moudjahid",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbXhYOWdkSGJrR05SZjZoLUNDc1dRRFhCQ25lZjNLazZPREpsNjZyaXdXSjRJRjVaX0EwRXN1TURVbk5DSUUwWWFnT2hJSFFiR3RMTEJZamM2UXhiYmZHZmlVeU5kakZUWTRncFY3UWIxTmdlbnFMWkJjZ0c3RjQ1RkhzeWQyTFdBNmJrdTZVU2x0Ti0wWFVGQ2pzX2NCUURZLWhfaTltckhtcXF4NDJCU1VSMThpaU9iZ0h0SW51TWZWX29oc05PdE5LcWM4b3ExUXZiNmx1OEVmbXo4MEhUWTV3?oc=5",
-   "source": "El Moudjahid",
-   "type": "presse",
-   "produits": [
-    "azote"
    ],
    "auto": true
   },
@@ -229,6 +338,18 @@
    "titre": "L’Algérie se passera, en 2028, des importations d’engrais et d’engrais composés - www.horizons.dz",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcm5mLVpVZzBmTjZzYXpLMEk3UWZOWVdjc01DUC12U1hxbFR4ZnNfTWlVZ0h3WENZdGpfR0kyRjdackY1M09mZ25OYnZZYlNFVEVRWFllRDViYnV4bmlQZTY1V2dRMDNQa2pRcUJPbDdUUWNtTXljWUJXV3RVV0FWNFRSSkpGNlZpQU5GNm82TUpvYmtYOTgzRkFscU5nVFdQOU4xeWI3UlVlc1E?oc=5",
    "source": "www.horizons.dz",
+   "type": "presse",
+   "produits": [
+    "azote"
+   ],
+   "auto": true
+  },
+  {
+   "id": "b965519f2a85",
+   "d": "2026-11-24",
+   "titre": "L’Algérie s’apprête à se passer de l’importation d’engrais - El Khabar",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLVpKSXZSd2N1S1BteGVOOTdWdXJGSV9uT3pYOUdkZXFaZFBjOGF3Z25HZGdUTFRkTjh6V1ZNMlVTZmNlRlNWOTJIRElmWTN6X0IwTTlLZklZTUpQakY4ZVdvN3dMdXFEQVlCXzJZRF8zOUVGeFEzSml6R3BPU1JjOU1MRXQ3Vm5PMmF5UElWbFJoZm9DenhxaDg0Vng2MHlYWmc?oc=5",
+   "source": "El Khabar",
    "type": "presse",
    "produits": [
     "azote"
@@ -272,15 +393,14 @@
    "auto": true
   },
   {
-   "id": "7b3c42009499",
-   "d": "2026-11-22",
-   "titre": "La Chine reporte à 2027 les restrictions sur les exportations de terres rares - Business AM",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZWNWUXV3NmJ4WFNzNThJRUlGZklINDlmQzRxR2ZXWjJHM1FOVmxQaGUxYkk2TkN0aU80bGVjOGZkTm50LWhBNzN5UHRUb0pxY3VpWlFYNE1lbWJlb0h2Vm0tcnJpNWVOT2ptNEhGZ0xqWEFmMXJsWTE0WWt5NGUteFd5NnFFTEdNVXJUMjBQeUhWSFhhNTFjV0RrVmt3RkxiSXM2VUZn?oc=5",
-   "source": "Business AM",
+   "id": "ea355fc020a9",
+   "d": "2026-11-23",
+   "titre": "CityCloud : un cloud souverain pour protéger les collectivités - Presse Agence",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTWRFUmd6ZlNDaFJWdmhSZHdsVExOaTkyUnFVLVh2SGo1S3QwaFBhWVA5d2hMSzhvMjJFZG1vekZmU0owUVlUS1c5aFFadHhpcHU3UWRjNDNGNmJBUUVsS2RNRjZ1SjN6eEc0bWxNYk5adlZkWEsyMWtBMVpDRlY1ZkhneDlXQldmVkVSV21DUDZpTUFyb0RabW5oTzZKRk9tYjNMdWFwVzMzdUw5cmE4alp5ZV9Rdld6RzBra3FZYw?oc=5",
+   "source": "Presse Agence",
    "type": "presse",
    "produits": [
-    "tr-legeres",
-    "tr-lourdes"
+    "cloud"
    ],
    "auto": true
   },
@@ -321,48 +441,11 @@
    "auto": true
   },
   {
-   "id": "8696c65d7b86",
-   "d": "2026-11-20",
-   "titre": "Chine : Les exportations d’aimants en terres rares vers les États-Unis et l’UE diminuent en octobre, le Japon fait exception à la règle - Agenzia Nova",
-   "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQY1ZHUDNGOFFBUjl2aU1MM3kydVgxcWJhZ1dhN0FXeTdQWHlGOG5Jd05wZ0cwcDNmeUQ3ODVFcXl0aVBGZU5QVW5Ld0g4em1LM0w4eFZVeDZGX3llQ1d0NWFaWmNobXJIQk5iUTRtZXJaNEhubTlURHJpbV9hTzZCOFRrUXJjNnZxUkYxa2w5YXBTeWZnckZRQjdQZGlfc2NxeEEyekJfUk80WVNsTXF1b3pNaS1Vd01pdUlMVUl2RTUtLUE5Y2M2NEtieUxDbUZ1cG5XRWpNQUJRT2xBd1MwVzQ5NWo3R2U5dnVCdjhrUlp4Wmd2UlFNUVkxb0NvTG5qRFIwT1prT1MwakdqVW5KTnZWQURyYUlmTG9HY3l3OTJjQVFGWThWZTlnbFBTd1VXdDFYdjJybEdnUQ?oc=5",
-   "source": "Agenzia Nova",
-   "type": "presse",
-   "produits": [
-    "tr-legeres",
-    "tr-lourdes"
-   ],
-   "auto": true
-  },
-  {
    "id": "6799132b57b1",
    "d": "2026-11-20",
    "titre": "Workday renforce les garanties de son cloud souverain européen - ChannelBiz |",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZEllb3dsN2JsMGtxNVpBUmRfamRvLXNYVFdZRnhKNXBYXzZRaHhWc00xT1AxVGM1bUdnUXRrZUVEWGV3U3JLa1BlZE9MZG0xRzliSzNMRzVCbjAxMUxTN3p3MG0zSTdiM2lCR1F6QVpUNHhhaVIyNk9LWTFLbUZUUThWRFo5dzJxanNtVU13U3FqOEhoMjcxYzdkeEQwTjBQNmfSAacBQVVfeXFMT2liSkRfZjctN0NuQ2pTWmhwUDFyWnpkV2FXVk1zUFNjSGVkbmk4dEEyUElPelZJVmVGdE1uTFI2TGxTOGVPWVRURzVZX3cwaUs4dWZmSDQzSmNhUnJ3dE5NU19BTHU4NENwb3g5M21hRUZIRUMtYUcxd2x4MU9kUGhYa0VtSTlzQm15VlVTYl9kQ0xRTzBJLTlWcFpqOUlIV05nSG45Q28?oc=5",
    "source": "ChannelBiz |",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "ea355fc020a9",
-   "d": "2026-11-20",
-   "titre": "CityCloud : un cloud souverain pour protéger les collectivités - Presse Agence",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTWRFUmd6ZlNDaFJWdmhSZHdsVExOaTkyUnFVLVh2SGo1S3QwaFBhWVA5d2hMSzhvMjJFZG1vekZmU0owUVlUS1c5aFFadHhpcHU3UWRjNDNGNmJBUUVsS2RNRjZ1SjN6eEc0bWxNYk5adlZkWEsyMWtBMVpDRlY1ZkhneDlXQldmVkVSV21DUDZpTUFyb0RabW5oTzZKRk9tYjNMdWFwVzMzdUw5cmE4alp5ZV9Rdld6RzBra3FZYw?oc=5",
-   "source": "Presse Agence",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "167fe710999c",
-   "d": "2026-11-20",
-   "titre": "LaSuite déploie Fichiers sur le cloud souverain d'OUTSCALE - Presse Agence",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYVN3WXpHdXJrMTZlb3Ntd2trb0FGN3NRWXNwQTBWdFN2OGs3d2FKbFBlTzAzTlpjQTNmLWdINFpEc3h1TFJFRUVHMGJqOWhiM3BwWEVENkdzLVhXdEkzeVdzY0hwVjBoZzNUTnV0SjROTHR2LWZodm9MWnNnNTFlX1V2YlRzaW5WN0lONXVwOG1kaUlvekhka2dvVGxWNk1LbXE0bnlOLTBLaWhPbGRvaEdFczRrSFg2ekZNOUFvYVN6dFJCNkpQTTRFV2g?oc=5",
-   "source": "Presse Agence",
    "type": "presse",
    "produits": [
     "cloud"
@@ -454,6 +537,18 @@
    "auto": true
   },
   {
+   "id": "710d84fc5475",
+   "d": "2026-11-18",
+   "titre": "Workday établit en Irlande une société européenne pour son cloud souverain - ITdaily.",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE10RDVHNi00dU5Oc3NqWk90RjVNRl9rVDVaUEZ4bHF3eEJMeGNUTUoxRmRSbHdKbGoxZ1JUajlRODJHOFkwb3JtNm1WRGFucFh5ZjA2clNpTlF3aTEwa2xBWXQydE1Bb0hrX3pUb2hQbno3RGxRdVE?oc=5",
+   "source": "ITdaily.",
+   "type": "presse",
+   "produits": [
+    "cloud"
+   ],
+   "auto": true
+  },
+  {
    "id": "776f0e62abbe",
    "d": "2026-11-18",
    "titre": "Workday ancre son cloud souverain en Irlande - L'Informaticien",
@@ -466,14 +561,14 @@
    "auto": true
   },
   {
-   "id": "710d84fc5475",
-   "d": "2026-11-18",
-   "titre": "Workday établit en Irlande une société européenne pour son cloud souverain - ITdaily.",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE10RDVHNi00dU5Oc3NqWk90RjVNRl9rVDVaUEZ4bHF3eEJMeGNUTUoxRmRSbHdKbGoxZ1JUajlRODJHOFkwb3JtNm1WRGFucFh5ZjA2clNpTlF3aTEwa2xBWXQydE1Bb0hrX3pUb2hQbno3RGxRdVE?oc=5",
-   "source": "ITdaily.",
+   "id": "599dee2578cb",
+   "d": "2026-11-17",
+   "titre": "Antimoine tchadien : Douala au cœur d’un commerce sous influence militaire (Rapport) - Investir au Cameroun",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUVhieExPejBmLThkY1Z6TUZ6MGE0SVhzYlJ1WklQMDRwXzFYc3VrTTZ0emhyV0RRbTFfVlpLWDdfVmx5eFlwbmpQRENIb2F3MWxUblNzU2U0VTJRdXI1UHV5RUxWbXIyNnRIRmFrRGhQSzR5eEo2Y00waFZ6T0NDaFB1OV9wam1fS0gyXzYtcXJaTFpHNzMwMWIwM1h4ckl3Ym1CSEhFd3k2YnY0V25DbVNVMXhXSVpzdTNJbFViUkJzNGF6T1FES2REWEo?oc=5",
+   "source": "Investir au Cameroun",
    "type": "presse",
    "produits": [
-    "cloud"
+    "antimoine"
    ],
    "auto": true
   },
@@ -507,18 +602,6 @@
    "titre": "Bleu rassure : le cloud souverain qui utilise des logiciels Microsoft n’a pas été impacté par la panne - AlloForfait",
    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPem8yWDd2alUwT3pxbEhPOVhudXJLQUpkZVdBZHdIcXJScDdhckQ0WVlIRzAtMzZ4dkRBODZ5dVYyTWRBWWh5SFlkUWx1VmtTaDZVSWtUR2JpTXZVQmtPblBlOHhGTTNSWlk1Q1I3YkFkR2xHTGhBQ3RxblpjZjI1dDNjV1l2S3hMZ1NDZmJVR0QzZ0VoY09tcXhaNkUyNjhuNEhiMDAtNUZ2UXFvQ1haV1p1RnBYbEFSVzlrRVhtOGxYMW1tM3NHZl9MMm01cVl1T2FKdC1obFJFMVJnbXc?oc=5",
    "source": "AlloForfait",
-   "type": "presse",
-   "produits": [
-    "cloud"
-   ],
-   "auto": true
-  },
-  {
-   "id": "d22c158ed7a4",
-   "d": "2026-11-15",
-   "titre": "Infomaniak lance un stockage objet S3 dans son cloud souverain - Enerzine",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMi1LY0VhMWtQVjg2c3NKaHNxQlFqNVZTUEo0THBTa1J6bTZGLWpLZVRnMTlhd3J5ZlNMaS12V09vZmR0Wm5BLWhsdlgxUUw4MTdGZ09SMm5SQWdTNE9HZld4b2VpYTdqYXZhMS1lblBJWkVCQjlqemZmZWEyNjhMRE9QLUJpVDFrWjBoc2JGS3M0bWp2ME53Y0d4WHJUU2FLRHpmMg?oc=5",
-   "source": "Enerzine",
    "type": "presse",
    "produits": [
     "cloud"
